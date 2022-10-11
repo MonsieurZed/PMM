@@ -1,0 +1,360 @@
+[2022-10-10 19:08:38,950] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-10 19:08:38,950] [builder.py:197]            [INFO]     |                                  HULU Collection in Z. 1 - Films                                   |
+[2022-10-10 19:08:38,950] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-10 19:08:38,951] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-10 19:08:38,951] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-10 19:08:38,951] [builder.py:219]            [INFO]     |==================================== Validating HULU Attributes ====================================|
+[2022-10-10 19:08:38,951] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-10 19:08:38,951] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-10 19:08:38,952] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-10 19:08:38,952] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-10 19:08:38,952] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-10 19:08:38,952] [builder.py:544]            [DEBUG]    | Value: originally_available.desc                                                                   |
+[2022-10-10 19:08:38,969] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-10 19:08:38,969] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-10 19:08:38,969] [builder.py:632]            [DEBUG]    | Value: +11_HULU                                                                                    |
+[2022-10-10 19:08:38,969] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-10 19:08:38,969] [builder.py:631]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-10-10 19:08:38,970] [builder.py:632]            [DEBUG]    | Value: ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2000-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=1000&companies=co0218858')]) |
+[2022-10-10 19:08:39,979] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-10 19:08:39,980] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-10-10 19:08:39,980] [builder.py:632]            [DEBUG]    | Value: All HULU Originals                                                                          |
+[2022-10-10 19:08:39,980] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-10 19:08:39,980] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-10 19:08:39,980] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/NETWORK_HULU.png              |
+[2022-10-10 19:08:40,141] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-10 19:08:40,142] [builder.py:631]            [DEBUG]    | Validating Method: url_background                                                                  |
+[2022-10-10 19:08:40,142] [builder.py:632]            [DEBUG]    | Value: https://cdn.vox-cdn.com/thumbor/oR4hqrmTxbX_O4gdJ6np8h-PxFk=/0x439:750x861/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/56311701/Image_uploaded_from_iOS__8_.1503433270.jpg |
+[2022-10-10 19:08:40,385] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-10 19:08:40,386] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-10 19:08:40,386] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-10 19:08:40,386] [plex_meta_manager.py:563]  [INFO]     |===================================== Running HULU Collection ======================================|
+[2022-10-10 19:08:40,386] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-10-10 19:08:40,386] [plex_meta_manager.py:570]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: originally_available.desc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is HULU
+[2022-10-10 19:08:40,387] [plex_meta_manager.py:575]  [INFO]     | 
+[2022-10-10 19:08:40,387] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync
+[2022-10-10 19:08:40,387] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-10 19:08:40,387] [plex_meta_manager.py:580]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2000-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=1000&companies=co0218858', 'limit': 0}
+[2022-10-10 19:08:40,387] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-10 19:08:40,387] [imdb.py:184]               [INFO]     | Processing IMDb List: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2000-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=1000&companies=co0218858
+[2022-10-10 19:08:53,255] [imdb.py:135]               [DEBUG]    | 439 IMDb IDs Found: ['tt3427252', 'tt2788316', 'tt2560078', 'tt21365986', 'tt20228406', 'tt13405810', 'tt21284020', 'tt19355248', 'tt14376190', 'tt16532314', 'tt15745226', 'tt14675860', 'tt13027412', 'tt11527058', 'tt14921616', 'tt1777606', 'tt17202326', 'tt17196124', 'tt22095866', 'tt0887261', 'tt11231226', 'tt21029536', 'tt21383712', 'tt15180134', 'tt16294842', 'tt22050660', 'tt22050574', 'tt21435568', 'tt19401964', 'tt13018148', 'tt21870608', 'tt21870758', 'tt21867768', 'tt10341196', 'tt15574312', 'tt14181914', 'tt14674086', 'tt21327312', 'tt6484074', 'tt14903834', 'tt14440068', 'tt14330236', 'tt0326635', 'tt14814040', 'tt11866324', 'tt19784922', 'tt13944138', 'tt21064272', 'tt21158428', 'tt11242162', 'tt14452776', 'tt5645432', 'tt22033242', 'tt19800112', 'tt15218000', 'tt13406136', 'tt13823494', 'tt20640046', 'tt20454248', 'tt20412612', 'tt4081630', 'tt11997646', 'tt13729648', 'tt15096128', 'tt1998372', 'tt15185666', 'tt15791630', 'tt10471904', 'tt18269838', 'tt12156974', 'tt10731032', 'tt2180339', 'tt10723416', 'tt12851512', 'tt14456526', 'tt10166622', 'tt7550014', 'tt13659418', 'tt14590210', 'tt16376478', 'tt13352968', 'tt7461272', 'tt13403046', 'tt14500082', 'tt11203022', 'tt16303820', 'tt14589194', 'tt13029044', 'tt15185642', 'tt14218830', 'tt8718158', 'tt7740496', 'tt16287328', 'tt16152600', 'tt16113748', 'tt16303726', 'tt11877948', 'tt14489404', 'tt15191350', 'tt14040910', 'tt21385140', 'tt9174558', 'tt14778806', 'tt13391444', 'tt15489004', 'tt11640018', 'tt6550808', 'tt15395880', 'tt14706578', 'tt10788750', 'tt9288826', 'tt11815758', 'tt15443710', 'tt10731840', 'tt8042500', 'tt4244994', 'tt13890060', 'tt12851524', 'tt3626476', 'tt14538850', 'tt8760932', 'tt13623580', 'tt14604564', 'tt13679628', 'tt12306692', 'tt10096842', 'tt8783130', 'tt14807808', 'tt9896876', 'tt14734548', 'tt14252496', 'tt13172796', 'tt14596774', 'tt14443820', 'tt14780952', 'tt20223556', 'tt11188154', 'tt14035948', 'tt11083696', 'tt10810850', 'tt14253174', 'tt14035292', 'tt14406168', 'tt8521718', 'tt13622168', 'tt11160650', 'tt11422728', 'tt11268742', 'tt13235374', 'tt9222438', 'tt13327258', 'tt8522006', 'tt8001136', 'tt9765226', 'tt13473640', 'tt10680614', 'tt10642480', 'tt11916302', 'tt13235410', 'tt10266874', 'tt4881578', 'tt11242218', 'tt10404698', 'tt11514252', 'tt4504936', 'tt9770150', 'tt13065116', 'tt9223870', 'tt10394738', 'tt10994688', 'tt12987716', 'tt12670014', 'tt12244950', 'tt10166602', 'tt12344464', 'tt12706440', 'tt2235759', 'tt9059760', 'tt9244556', 'tt8633478', 'tt8089592', 'tt9900092', 'tt9779516', 'tt12076274', 'tt8134186', 'tt8531222', 'tt9179096', 'tt8577458', 'tt7638348', 'tt11426644', 'tt9484998', 'tt3794354', 'tt11558924', 'tt8102806', 'tt10821190', 'tt8363888', 'tt7890546', 'tt10250460', 'tt8594028', 'tt7661046', 'tt3829868', 'tt14116782', 'tt9113406', 'tt7587362', 'tt8629150', 'tt10578490', 'tt5056196', 'tt2066051', 'tt9099136', 'tt10203376', 'tt10011320', 'tt7649694', 'tt5662158', 'tt8682948', 'tt8962130', 'tt10164704', 'tt14040850', 'tt10056648', 'tt8499102', 'tt3824648', 'tt7390588', 'tt5913798', 'tt9358084', 'tt9353586', 'tt7843600', 'tt8324422', 'tt8560874', 'tt5657764', 'tt8236398', 'tt8619822', 'tt8050586', 'tt8427140', 'tt7412482', 'tt2402114', 'tt8226078', 'tt6548228', 'tt7082442', 'tt8218940', 'tt7562112', 'tt7292950', 'tt5547910', 'tt8036174', 'tt7259104', 'tt6521610', 'tt7242816', 'tt6859352', 'tt8327962', 'tt6474236', 'tt5292624', 'tt7476236', 'tt9303006', 'tt7689908', 'tt5648202', 'tt5615840', 'tt11577050', 'tt7746300', 'tt4975856', 'tt7179102', 'tt8612936', 'tt7664398', 'tt4652650', 'tt7544820', 'tt7488548', 'tt12081728', 'tt1236246', 'tt12091656', 'tt6543358', 'tt13199208', 'tt7162324', 'tt5691552', 'tt8037560', 'tt7252092', 'tt5731444', 'tt5390504', 'tt4893178', 'tt2658538', 'tt5706420', 'tt6794450', 'tt5834204', 'tt5673782', 'tt6495526', 'tt4578474', 'tt5798078', 'tt5028598', 'tt5761478', 'tt6110504', 'tt6963350', 'tt4762758', 'tt6354054', 'tt6133292', 'tt5438328', 'tt5520392', 'tt4943236', 'tt5620076', 'tt5875646', 'tt6319758', 'tt2531318', 'tt4288182', 'tt6007376', 'tt3520216', 'tt5599984', 'tt4789576', 'tt15397312', 'tt2879552', 'tt5361394', 'tt2788432', 'tt4661798', 'tt5122514', 'tt4188950', 'tt4577466', 'tt4188766', 'tt5572438', 'tt4633166', 'tt4249302', 'tt4676574', 'tt4577444', 'tt3417854', 'tt3314218', 'tt4257996', 'tt1861445', 'tt4550440', 'tt4537062', 'tt5158256', 'tt4400518', 'tt2890996', 'tt3526078', 'tt4536122', 'tt4694072', 'tt9798366', 'tt4206066', 'tt3759108', 'tt3514886', 'tt4247684', 'tt3978892', 'tt4313524', 'tt3957254', 'tt3453512', 'tt1810710', 'tt4622130', 'tt3216846', 'tt3439236', 'tt2802850', 'tt3147316', 'tt3622768', 'tt3297554', 'tt3181412', 'tt3549584', 'tt3450018', 'tt3204140', 'tt4703334', 'tt1951176', 'tt2328727', 'tt3378478', 'tt2884130', 'tt3906582', 'tt3538742', 'tt2709648', 'tt2883562', 'tt2312036', 'tt2942326', 'tt2400441', 'tt2298224', 'tt2279241', 'tt4194012', 'tt3198900', 'tt2668074', 'tt2059193', 'tt1877894', 'tt2458386', 'tt2211129', 'tt2363438', 'tt2188577', 'tt2448530', 'tt1934458', 'tt2149360', 'tt2404125', 'tt2187319', 'tt3945880', 'tt5793852', 'tt2120894', 'tt2093677', 'tt1796607', 'tt1728973', 'tt1844624', 'tt2057511', 'tt1864380', 'tt1288367', 'tt1762358', 'tt1312222', 'tt1196170', 'tt1868526', 'tt1809362', 'tt1837019', 'tt1837858', 'tt1854794', 'tt8613970', 'tt1826909', 'tt1252507', 'tt0815101', 'tt1542344', 'tt1554369', 'tt1739281', 'tt1743034', 'tt1740006', 'tt1714801', 'tt1669956', 'tt1583739', 'tt1616774', 'tt1580427', 'tt1645830', 'tt1273678', 'tt1534082', 'tt1085382', 'tt1562268', 'tt1442437', 'tt1439629', 'tt1415256', 'tt1189346', 'tt1401882', 'tt1492042', 'tt5423608', 'tt1169133', 'tt1754073', 'tt0443701', 'tt1227926', 'tt1270340', 'tt1190719', 'tt1185418', 'tt0861772', 'tt6659152', 'tt0348333', 'tt0472023', 'tt0120667', 'tt0463398', 'tt0412253', 'tt0181852', 'tt0287717', 'tt0281322', 'tt0313038']
+[2022-10-10 19:08:53,256] [builder.py:1540]           [DEBUG]    | 
+[2022-10-10 19:08:53,256] [builder.py:1541]           [DEBUG]    | 439 IDs Found: [('tt3427252', 'imdb'), ('tt2788316', 'imdb'), ('tt2560078', 'imdb'), ('tt21365986', 'imdb'), ('tt20228406', 'imdb'), ('tt13405810', 'imdb'), ('tt21284020', 'imdb'), ('tt19355248', 'imdb'), ('tt14376190', 'imdb'), ('tt16532314', 'imdb'), ('tt15745226', 'imdb'), ('tt14675860', 'imdb'), ('tt13027412', 'imdb'), ('tt11527058', 'imdb'), ('tt14921616', 'imdb'), ('tt1777606', 'imdb'), ('tt17202326', 'imdb'), ('tt17196124', 'imdb'), ('tt22095866', 'imdb'), ('tt0887261', 'imdb'), ('tt11231226', 'imdb'), ('tt21029536', 'imdb'), ('tt21383712', 'imdb'), ('tt15180134', 'imdb'), ('tt16294842', 'imdb'), ('tt22050660', 'imdb'), ('tt22050574', 'imdb'), ('tt21435568', 'imdb'), ('tt19401964', 'imdb'), ('tt13018148', 'imdb'), ('tt21870608', 'imdb'), ('tt21870758', 'imdb'), ('tt21867768', 'imdb'), ('tt10341196', 'imdb'), ('tt15574312', 'imdb'), ('tt14181914', 'imdb'), ('tt14674086', 'imdb'), ('tt21327312', 'imdb'), ('tt6484074', 'imdb'), ('tt14903834', 'imdb'), ('tt14440068', 'imdb'), ('tt14330236', 'imdb'), ('tt0326635', 'imdb'), ('tt14814040', 'imdb'), ('tt11866324', 'imdb'), ('tt19784922', 'imdb'), ('tt13944138', 'imdb'), ('tt21064272', 'imdb'), ('tt21158428', 'imdb'), ('tt11242162', 'imdb'), ('tt14452776', 'imdb'), ('tt5645432', 'imdb'), ('tt22033242', 'imdb'), ('tt19800112', 'imdb'), ('tt15218000', 'imdb'), ('tt13406136', 'imdb'), ('tt13823494', 'imdb'), ('tt20640046', 'imdb'), ('tt20454248', 'imdb'), ('tt20412612', 'imdb'), ('tt4081630', 'imdb'), ('tt11997646', 'imdb'), ('tt13729648', 'imdb'), ('tt15096128', 'imdb'), ('tt1998372', 'imdb'), ('tt15185666', 'imdb'), ('tt15791630', 'imdb'), ('tt10471904', 'imdb'), ('tt18269838', 'imdb'), ('tt12156974', 'imdb'), ('tt10731032', 'imdb'), ('tt2180339', 'imdb'), ('tt10723416', 'imdb'), ('tt12851512', 'imdb'), ('tt14456526', 'imdb'), ('tt10166622', 'imdb'), ('tt7550014', 'imdb'), ('tt13659418', 'imdb'), ('tt14590210', 'imdb'), ('tt16376478', 'imdb'), ('tt13352968', 'imdb'), ('tt7461272', 'imdb'), ('tt13403046', 'imdb'), ('tt14500082', 'imdb'), ('tt11203022', 'imdb'), ('tt16303820', 'imdb'), ('tt14589194', 'imdb'), ('tt13029044', 'imdb'), ('tt15185642', 'imdb'), ('tt14218830', 'imdb'), ('tt8718158', 'imdb'), ('tt7740496', 'imdb'), ('tt16287328', 'imdb'), ('tt16152600', 'imdb'), ('tt16113748', 'imdb'), ('tt16303726', 'imdb'), ('tt11877948', 'imdb'), ('tt14489404', 'imdb'), ('tt15191350', 'imdb'), ('tt14040910', 'imdb'), ('tt21385140', 'imdb'), ('tt9174558', 'imdb'), ('tt14778806', 'imdb'), ('tt13391444', 'imdb'), ('tt15489004', 'imdb'), ('tt11640018', 'imdb'), ('tt6550808', 'imdb'), ('tt15395880', 'imdb'), ('tt14706578', 'imdb'), ('tt10788750', 'imdb'), ('tt9288826', 'imdb'), ('tt11815758', 'imdb'), ('tt15443710', 'imdb'), ('tt10731840', 'imdb'), ('tt8042500', 'imdb'), ('tt4244994', 'imdb'), ('tt13890060', 'imdb'), ('tt12851524', 'imdb'), ('tt3626476', 'imdb'), ('tt14538850', 'imdb'), ('tt8760932', 'imdb'), ('tt13623580', 'imdb'), ('tt14604564', 'imdb'), ('tt13679628', 'imdb'), ('tt12306692', 'imdb'), ('tt10096842', 'imdb'), ('tt8783130', 'imdb'), ('tt14807808', 'imdb'), ('tt9896876', 'imdb'), ('tt14734548', 'imdb'), ('tt14252496', 'imdb'), ('tt13172796', 'imdb'), ('tt14596774', 'imdb'), ('tt14443820', 'imdb'), ('tt14780952', 'imdb'), ('tt20223556', 'imdb'), ('tt11188154', 'imdb'), ('tt14035948', 'imdb'), ('tt11083696', 'imdb'), ('tt10810850', 'imdb'), ('tt14253174', 'imdb'), ('tt14035292', 'imdb'), ('tt14406168', 'imdb'), ('tt8521718', 'imdb'), ('tt13622168', 'imdb'), ('tt11160650', 'imdb'), ('tt11422728', 'imdb'), ('tt11268742', 'imdb'), ('tt13235374', 'imdb'), ('tt9222438', 'imdb'), ('tt13327258', 'imdb'), ('tt8522006', 'imdb'), ('tt8001136', 'imdb'), ('tt9765226', 'imdb'), ('tt13473640', 'imdb'), ('tt10680614', 'imdb'), ('tt10642480', 'imdb'), ('tt11916302', 'imdb'), ('tt13235410', 'imdb'), ('tt10266874', 'imdb'), ('tt4881578', 'imdb'), ('tt11242218', 'imdb'), ('tt10404698', 'imdb'), ('tt11514252', 'imdb'), ('tt4504936', 'imdb'), ('tt9770150', 'imdb'), ('tt13065116', 'imdb'), ('tt9223870', 'imdb'), ('tt10394738', 'imdb'), ('tt10994688', 'imdb'), ('tt12987716', 'imdb'), ('tt12670014', 'imdb'), ('tt12244950', 'imdb'), ('tt10166602', 'imdb'), ('tt12344464', 'imdb'), ('tt12706440', 'imdb'), ('tt2235759', 'imdb'), ('tt9059760', 'imdb'), ('tt9244556', 'imdb'), ('tt8633478', 'imdb'), ('tt8089592', 'imdb'), ('tt9900092', 'imdb'), ('tt9779516', 'imdb'), ('tt12076274', 'imdb'), ('tt8134186', 'imdb'), ('tt8531222', 'imdb'), ('tt9179096', 'imdb'), ('tt8577458', 'imdb'), ('tt7638348', 'imdb'), ('tt11426644', 'imdb'), ('tt9484998', 'imdb'), ('tt3794354', 'imdb'), ('tt11558924', 'imdb'), ('tt8102806', 'imdb'), ('tt10821190', 'imdb'), ('tt8363888', 'imdb'), ('tt7890546', 'imdb'), ('tt10250460', 'imdb'), ('tt8594028', 'imdb'), ('tt7661046', 'imdb'), ('tt3829868', 'imdb'), ('tt14116782', 'imdb'), ('tt9113406', 'imdb'), ('tt7587362', 'imdb'), ('tt8629150', 'imdb'), ('tt10578490', 'imdb'), ('tt5056196', 'imdb'), ('tt2066051', 'imdb'), ('tt9099136', 'imdb'), ('tt10203376', 'imdb'), ('tt10011320', 'imdb'), ('tt7649694', 'imdb'), ('tt5662158', 'imdb'), ('tt8682948', 'imdb'), ('tt8962130', 'imdb'), ('tt10164704', 'imdb'), ('tt14040850', 'imdb'), ('tt10056648', 'imdb'), ('tt8499102', 'imdb'), ('tt3824648', 'imdb'), ('tt7390588', 'imdb'), ('tt5913798', 'imdb'), ('tt9358084', 'imdb'), ('tt9353586', 'imdb'), ('tt7843600', 'imdb'), ('tt8324422', 'imdb'), ('tt8560874', 'imdb'), ('tt5657764', 'imdb'), ('tt8236398', 'imdb'), ('tt8619822', 'imdb'), ('tt8050586', 'imdb'), ('tt8427140', 'imdb'), ('tt7412482', 'imdb'), ('tt2402114', 'imdb'), ('tt8226078', 'imdb'), ('tt6548228', 'imdb'), ('tt7082442', 'imdb'), ('tt8218940', 'imdb'), ('tt7562112', 'imdb'), ('tt7292950', 'imdb'), ('tt5547910', 'imdb'), ('tt8036174', 'imdb'), ('tt7259104', 'imdb'), ('tt6521610', 'imdb'), ('tt7242816', 'imdb'), ('tt6859352', 'imdb'), ('tt8327962', 'imdb'), ('tt6474236', 'imdb'), ('tt5292624', 'imdb'), ('tt7476236', 'imdb'), ('tt9303006', 'imdb'), ('tt7689908', 'imdb'), ('tt5648202', 'imdb'), ('tt5615840', 'imdb'), ('tt11577050', 'imdb'), ('tt7746300', 'imdb'), ('tt4975856', 'imdb'), ('tt7179102', 'imdb'), ('tt8612936', 'imdb'), ('tt7664398', 'imdb'), ('tt4652650', 'imdb'), ('tt7544820', 'imdb'), ('tt7488548', 'imdb'), ('tt12081728', 'imdb'), ('tt1236246', 'imdb'), ('tt12091656', 'imdb'), ('tt6543358', 'imdb'), ('tt13199208', 'imdb'), ('tt7162324', 'imdb'), ('tt5691552', 'imdb'), ('tt8037560', 'imdb'), ('tt7252092', 'imdb'), ('tt5731444', 'imdb'), ('tt5390504', 'imdb'), ('tt4893178', 'imdb'), ('tt2658538', 'imdb'), ('tt5706420', 'imdb'), ('tt6794450', 'imdb'), ('tt5834204', 'imdb'), ('tt5673782', 'imdb'), ('tt6495526', 'imdb'), ('tt4578474', 'imdb'), ('tt5798078', 'imdb'), ('tt5028598', 'imdb'), ('tt5761478', 'imdb'), ('tt6110504', 'imdb'), ('tt6963350', 'imdb'), ('tt4762758', 'imdb'), ('tt6354054', 'imdb'), ('tt6133292', 'imdb'), ('tt5438328', 'imdb'), ('tt5520392', 'imdb'), ('tt4943236', 'imdb'), ('tt5620076', 'imdb'), ('tt5875646', 'imdb'), ('tt6319758', 'imdb'), ('tt2531318', 'imdb'), ('tt4288182', 'imdb'), ('tt6007376', 'imdb'), ('tt3520216', 'imdb'), ('tt5599984', 'imdb'), ('tt4789576', 'imdb'), ('tt15397312', 'imdb'), ('tt2879552', 'imdb'), ('tt5361394', 'imdb'), ('tt2788432', 'imdb'), ('tt4661798', 'imdb'), ('tt5122514', 'imdb'), ('tt4188950', 'imdb'), ('tt4577466', 'imdb'), ('tt4188766', 'imdb'), ('tt5572438', 'imdb'), ('tt4633166', 'imdb'), ('tt4249302', 'imdb'), ('tt4676574', 'imdb'), ('tt4577444', 'imdb'), ('tt3417854', 'imdb'), ('tt3314218', 'imdb'), ('tt4257996', 'imdb'), ('tt1861445', 'imdb'), ('tt4550440', 'imdb'), ('tt4537062', 'imdb'), ('tt5158256', 'imdb'), ('tt4400518', 'imdb'), ('tt2890996', 'imdb'), ('tt3526078', 'imdb'), ('tt4536122', 'imdb'), ('tt4694072', 'imdb'), ('tt9798366', 'imdb'), ('tt4206066', 'imdb'), ('tt3759108', 'imdb'), ('tt3514886', 'imdb'), ('tt4247684', 'imdb'), ('tt3978892', 'imdb'), ('tt4313524', 'imdb'), ('tt3957254', 'imdb'), ('tt3453512', 'imdb'), ('tt1810710', 'imdb'), ('tt4622130', 'imdb'), ('tt3216846', 'imdb'), ('tt3439236', 'imdb'), ('tt2802850', 'imdb'), ('tt3147316', 'imdb'), ('tt3622768', 'imdb'), ('tt3297554', 'imdb'), ('tt3181412', 'imdb'), ('tt3549584', 'imdb'), ('tt3450018', 'imdb'), ('tt3204140', 'imdb'), ('tt4703334', 'imdb'), ('tt1951176', 'imdb'), ('tt2328727', 'imdb'), ('tt3378478', 'imdb'), ('tt2884130', 'imdb'), ('tt3906582', 'imdb'), ('tt3538742', 'imdb'), ('tt2709648', 'imdb'), ('tt2883562', 'imdb'), ('tt2312036', 'imdb'), ('tt2942326', 'imdb'), ('tt2400441', 'imdb'), ('tt2298224', 'imdb'), ('tt2279241', 'imdb'), ('tt4194012', 'imdb'), ('tt3198900', 'imdb'), ('tt2668074', 'imdb'), ('tt2059193', 'imdb'), ('tt1877894', 'imdb'), ('tt2458386', 'imdb'), ('tt2211129', 'imdb'), ('tt2363438', 'imdb'), ('tt2188577', 'imdb'), ('tt2448530', 'imdb'), ('tt1934458', 'imdb'), ('tt2149360', 'imdb'), ('tt2404125', 'imdb'), ('tt2187319', 'imdb'), ('tt3945880', 'imdb'), ('tt5793852', 'imdb'), ('tt2120894', 'imdb'), ('tt2093677', 'imdb'), ('tt1796607', 'imdb'), ('tt1728973', 'imdb'), ('tt1844624', 'imdb'), ('tt2057511', 'imdb'), ('tt1864380', 'imdb'), ('tt1288367', 'imdb'), ('tt1762358', 'imdb'), ('tt1312222', 'imdb'), ('tt1196170', 'imdb'), ('tt1868526', 'imdb'), ('tt1809362', 'imdb'), ('tt1837019', 'imdb'), ('tt1837858', 'imdb'), ('tt1854794', 'imdb'), ('tt8613970', 'imdb'), ('tt1826909', 'imdb'), ('tt1252507', 'imdb'), ('tt0815101', 'imdb'), ('tt1542344', 'imdb'), ('tt1554369', 'imdb'), ('tt1739281', 'imdb'), ('tt1743034', 'imdb'), ('tt1740006', 'imdb'), ('tt1714801', 'imdb'), ('tt1669956', 'imdb'), ('tt1583739', 'imdb'), ('tt1616774', 'imdb'), ('tt1580427', 'imdb'), ('tt1645830', 'imdb'), ('tt1273678', 'imdb'), ('tt1534082', 'imdb'), ('tt1085382', 'imdb'), ('tt1562268', 'imdb'), ('tt1442437', 'imdb'), ('tt1439629', 'imdb'), ('tt1415256', 'imdb'), ('tt1189346', 'imdb'), ('tt1401882', 'imdb'), ('tt1492042', 'imdb'), ('tt5423608', 'imdb'), ('tt1169133', 'imdb'), ('tt1754073', 'imdb'), ('tt0443701', 'imdb'), ('tt1227926', 'imdb'), ('tt1270340', 'imdb'), ('tt1190719', 'imdb'), ('tt1185418', 'imdb'), ('tt0861772', 'imdb'), ('tt6659152', 'imdb'), ('tt0348333', 'imdb'), ('tt0472023', 'imdb'), ('tt0120667', 'imdb'), ('tt0463398', 'imdb'), ('tt0412253', 'imdb'), ('tt0181852', 'imdb'), ('tt0287717', 'imdb'), ('tt0281322', 'imdb'), ('tt0313038', 'imdb')]
+[2022-10-10 19:08:53,256] [builder.py:1542]           [DEBUG]    | 
+[2022-10-10 19:08:53,266] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt2560078
+[2022-10-10 19:08:53,276] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt20228406
+[2022-10-10 19:08:53,308] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 206022
+[2022-10-10 19:08:53,318] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt19355248
+[2022-10-10 19:08:53,332] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt15745226
+[2022-10-10 19:08:53,375] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 208550
+[2022-10-10 19:08:53,393] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 204572
+[2022-10-10 19:08:53,405] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt19401964
+[2022-10-10 19:08:53,416] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21870608
+[2022-10-10 19:08:53,431] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21867768
+[2022-10-10 19:08:53,483] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 206300
+[2022-10-10 19:08:53,507] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt22033242
+[2022-10-10 19:08:53,517] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt20640046
+[2022-10-10 19:08:53,538] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 207067
+[2022-10-10 19:08:53,551] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt10471904
+[2022-10-10 19:08:53,570] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt14589194
+[2022-10-10 19:08:53,580] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt16287328
+[2022-10-10 19:08:53,588] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt16303726
+[2022-10-10 19:08:53,597] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21385140
+[2022-10-10 19:08:53,614] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt15395880
+[2022-10-10 19:08:53,641] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt14596774
+[2022-10-10 19:08:53,654] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt14443820
+[2022-10-10 19:08:53,662] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt14780952
+[2022-10-10 19:08:53,673] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt20223556
+[2022-10-10 19:08:53,686] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt14406168
+[2022-10-10 19:08:53,695] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt13235374
+[2022-10-10 19:08:53,749] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt13235410
+[2022-10-10 19:08:53,762] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt13065116
+[2022-10-10 19:08:53,773] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt12670014
+[2022-10-10 19:08:53,797] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt12706440
+[2022-10-10 19:08:53,806] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 105224
+[2022-10-10 19:08:53,817] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt10821190
+[2022-10-10 19:08:53,828] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt7890546
+[2022-10-10 19:08:53,835] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt10250460
+[2022-10-10 19:08:53,850] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt14116782
+[2022-10-10 19:08:53,867] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt10164704
+[2022-10-10 19:08:53,873] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt14040850
+[2022-10-10 19:08:53,897] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 98402
+[2022-10-10 19:08:53,918] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt8560874
+[2022-10-10 19:08:53,942] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt9303006
+[2022-10-10 19:08:53,954] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt11577050
+[2022-10-10 19:08:53,962] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt7746300
+[2022-10-10 19:08:53,971] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt8612936
+[2022-10-10 19:08:53,981] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt7664398
+[2022-10-10 19:08:54,004] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 134315
+[2022-10-10 19:08:54,011] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt12081728
+[2022-10-10 19:08:54,018] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt12091656
+[2022-10-10 19:08:54,034] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt13199208
+[2022-10-10 19:08:54,043] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt7162324
+[2022-10-10 19:08:54,053] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt8037560
+[2022-10-10 19:08:54,070] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt6963350
+[2022-10-10 19:08:54,085] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt6354054
+[2022-10-10 19:08:54,092] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt6133292
+[2022-10-10 19:08:54,098] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt5438328
+[2022-10-10 19:08:54,109] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt6319758
+[2022-10-10 19:08:54,117] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt5599984
+[2022-10-10 19:08:54,125] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt15397312
+[2022-10-10 19:08:54,146] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 120820
+[2022-10-10 19:08:54,154] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt4249302
+[2022-10-10 19:08:54,164] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt4257996
+[2022-10-10 19:08:54,174] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt4537062
+[2022-10-10 19:08:54,192] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt5158256
+[2022-10-10 19:08:54,203] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt4400518
+[2022-10-10 19:08:54,213] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt4536122
+[2022-10-10 19:08:54,237] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt9798366
+[2022-10-10 19:08:54,277] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt3759108
+[2022-10-10 19:08:54,305] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt4247684
+[2022-10-10 19:08:54,342] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt3978892
+[2022-10-10 19:08:54,380] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt4313524
+[2022-10-10 19:08:54,406] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt3957254
+[2022-10-10 19:08:54,417] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt4622130
+[2022-10-10 19:08:54,478] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 61645
+[2022-10-10 19:08:54,493] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt3622768
+[2022-10-10 19:08:54,506] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt3549584
+[2022-10-10 19:08:54,517] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt3450018
+[2022-10-10 19:08:54,525] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt4703334
+[2022-10-10 19:08:54,534] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt3378478
+[2022-10-10 19:08:54,544] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt3906582
+[2022-10-10 19:08:54,558] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt3538742
+[2022-10-10 19:08:54,603] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt2942326
+[2022-10-10 19:08:54,611] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt4194012
+[2022-10-10 19:08:54,649] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt3198900
+[2022-10-10 19:08:54,671] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 126204
+[2022-10-10 19:08:54,688] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt2458386
+[2022-10-10 19:08:54,695] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt2363438
+[2022-10-10 19:08:54,704] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt2448530
+[2022-10-10 19:08:54,717] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt3945880
+[2022-10-10 19:08:54,725] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt5793852
+[2022-10-10 19:08:54,734] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt2120894
+[2022-10-10 19:08:54,748] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt2093677
+[2022-10-10 19:08:54,776] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 45324
+[2022-10-10 19:08:54,799] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt1837019
+[2022-10-10 19:08:54,814] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt1837858
+[2022-10-10 19:08:54,821] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt1854794
+[2022-10-10 19:08:54,828] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt8613970
+[2022-10-10 19:08:54,838] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt1826909
+[2022-10-10 19:08:54,849] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt1739281
+[2022-10-10 19:08:54,877] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt1740006
+[2022-10-10 19:08:54,893] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt1714801
+[2022-10-10 19:08:54,908] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 39665
+[2022-10-10 19:08:54,925] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt1616774
+[2022-10-10 19:08:54,933] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt1534082
+[2022-10-10 19:08:54,941] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt1562268
+[2022-10-10 19:08:54,988] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 16281
+[2022-10-10 19:08:55,022] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt1492042
+[2022-10-10 19:08:55,060] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt5423608
+[2022-10-10 19:08:55,074] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt1754073
+[2022-10-10 19:08:55,082] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt1270340
+[2022-10-10 19:08:55,099] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt6659152
+[2022-10-10 19:08:55,107] [builder.py:2064]           [INFO]     | 
+[2022-10-10 19:08:55,107] [builder.py:2065]           [INFO]     |==================================== Adding to HULU Collection =====================================|
+[2022-10-10 19:08:55,107] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-10 19:08:55,260] [builder.py:2080]           [INFO]     |  1/20 | HULU Collection | = | Hellraiser (2022)                                                    |
+[2022-10-10 19:08:55,260] [builder.py:2080]           [INFO]     |  2/20 | HULU Collection | = | Not Okay (2022)                                                      |
+[2022-10-10 19:08:55,260] [builder.py:2080]           [INFO]     |  3/20 | HULU Collection | = | Prey (2022)                                                          |
+[2022-10-10 19:08:55,261] [builder.py:2080]           [INFO]     |  4/20 | HULU Collection | = | Rise : La Véritable Histoire des Antetokounmpo (2022)                |
+[2022-10-10 19:08:55,261] [builder.py:2080]           [INFO]     |  5/20 | HULU Collection | = | Fire Island (2022)                                                   |
+[2022-10-10 19:08:55,261] [builder.py:2080]           [INFO]     |  6/20 | HULU Collection | = | Sans Issue (2022)                                                    |
+[2022-10-10 19:08:55,261] [builder.py:2080]           [INFO]     |  7/20 | HULU Collection | = | Mother/Android (2021)                                                |
+[2022-10-10 19:08:55,262] [builder.py:2080]           [INFO]     |  8/20 | HULU Collection | = | Meilleurs ennemis (2021)                                             |
+[2022-10-10 19:08:55,262] [builder.py:2080]           [INFO]     |  9/20 | HULU Collection | = | Nightmare Alley (2021)                                               |
+[2022-10-10 19:08:55,262] [builder.py:2080]           [INFO]     | 10/20 | HULU Collection | = | Le Dernier Duel (2021)                                               |
+[2022-10-10 19:08:55,262] [builder.py:2080]           [INFO]     | 11/20 | HULU Collection | = | Nos pires amis (2021)                                                |
+[2022-10-10 19:08:55,262] [builder.py:2080]           [INFO]     | 12/20 | HULU Collection | = | Ma belle-famille, Noël, et moi (2020)                                |
+[2022-10-10 19:08:55,263] [builder.py:2080]           [INFO]     | 13/20 | HULU Collection | = | Nomadland (2020)                                                     |
+[2022-10-10 19:08:55,263] [builder.py:2080]           [INFO]     | 14/20 | HULU Collection | = | Run (2020)                                                           |
+[2022-10-10 19:08:55,263] [builder.py:2080]           [INFO]     | 15/20 | HULU Collection | = | Boss Level (2021)                                                    |
+[2022-10-10 19:08:55,263] [builder.py:2080]           [INFO]     | 16/20 | HULU Collection | = | Palm Springs (2020)                                                  |
+[2022-10-10 19:08:55,263] [builder.py:2080]           [INFO]     | 17/20 | HULU Collection | = | Sonic, le film (2020)                                                |
+[2022-10-10 19:08:55,264] [builder.py:2080]           [INFO]     | 18/20 | HULU Collection | = | Rocketman (2019)                                                     |
+[2022-10-10 19:08:55,264] [builder.py:2080]           [INFO]     | 19/20 | HULU Collection | = | Les 4 Fantastiques (2005)                                            |
+[2022-10-10 19:08:55,264] [builder.py:2080]           [INFO]     | 20/20 | HULU Collection | = | Terminator 3 : Le Soulèvement des machines (2003)                    |
+[2022-10-10 19:08:55,265] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-10 19:08:55,265] [builder.py:2102]           [INFO]     | 20 Movies Processed 0 Movies Added                                                                 |
+[2022-10-10 19:08:55,265] [builder.py:2228]           [INFO]     |                                                                                                    |
+[2022-10-10 19:08:55,265] [builder.py:2229]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-10-10 19:08:55,265] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-10-10 19:08:55,305] [builder.py:2243]           [INFO]     | HULU Collection | ? | The Boogeyman (TMDb: 532408)                                                 |
+[2022-10-10 19:08:55,355] [builder.py:2243]           [INFO]     | HULU Collection | ? | Untitled Sister Comedy Project (TMDb: 787781)                                |
+[2022-10-10 19:08:55,422] [builder.py:2243]           [INFO]     | HULU Collection | ? | It’s A Wonderful Binge (2022) (TMDb: 1026624)                                |
+[2022-10-10 19:08:55,472] [builder.py:2243]           [INFO]     | HULU Collection | ? | Rosaline (2022) (TMDb: 826769)                                               |
+[2022-10-10 19:08:55,530] [builder.py:2243]           [INFO]     | HULU Collection | ? | Matriarch (2022) (TMDb: 1024535)                                             |
+[2022-10-10 19:08:55,606] [builder.py:2243]           [INFO]     | HULU Collection | ? | Grimcutty (2022) (TMDb: 1024530)                                             |
+[2022-10-10 19:08:55,622] [builder.py:2243]           [INFO]     | HULU Collection | ? | Huluween Dragstravaganza (2022) (TMDb: 1029465)                              |
+[2022-10-10 19:08:55,680] [builder.py:2243]           [INFO]     | HULU Collection | ? | Norman Lear: 100 Years of Music and Laughter (2022) (TMDb: 1016902)          |
+[2022-10-10 19:08:55,737] [builder.py:2243]           [INFO]     | HULU Collection | ? | Kate Berlant: Cinnamon in the Wind (2022) (TMDb: 1024961)                    |
+[2022-10-10 19:08:55,763] [builder.py:2243]           [INFO]     | HULU Collection | ? | Byron Bowers: Spiritual N**ga (2022) (TMDb: 1025336)                         |
+[2022-10-10 19:08:55,797] [builder.py:2243]           [INFO]     | HULU Collection | ? | Gigi & Nate (2022) (TMDb: 829503)                                            |
+[2022-10-10 19:08:55,871] [builder.py:2243]           [INFO]     | HULU Collection | ? | Mack & Rita (2022) (TMDb: 808087)                                            |
+[2022-10-10 19:08:55,923] [builder.py:2243]           [INFO]     | HULU Collection | ? | Sleepless Nights (2002) (TMDb: 294753)                                       |
+[2022-10-10 19:08:55,972] [builder.py:2243]           [INFO]     | HULU Collection | ? | Machine Gun Kelly's Life In Pink (2022) (TMDb: 988460)                       |
+[2022-10-10 19:08:56,001] [builder.py:2243]           [INFO]     | HULU Collection | ? | Leave No Trace (2022) (TMDb: 965398)                                         |
+[2022-10-10 19:08:56,096] [builder.py:2243]           [INFO]     | HULU Collection | ? | The Princess (2022) (TMDb: 759175)                                           |
+[2022-10-10 19:08:56,116] [builder.py:2243]           [INFO]     | HULU Collection | ? | The Valet (2022) (TMDb: 810171)                                              |
+[2022-10-10 19:08:56,180] [builder.py:2243]           [INFO]     | HULU Collection | ? | Crush (2022) (TMDb: 860159)                                                  |
+[2022-10-10 19:08:56,222] [builder.py:2243]           [INFO]     | HULU Collection | ? | OLIVIA RODRIGO: driving home 2 u (a SOUR film) (2022) (TMDb: 939790)         |
+[2022-10-10 19:08:56,264] [builder.py:2243]           [INFO]     | HULU Collection | ? | We Feed People (2022) (TMDb: 934660)                                         |
+[2022-10-10 19:08:56,325] [builder.py:2243]           [INFO]     | HULU Collection | ? | Deep Water (2022) (TMDb: 619979)                                             |
+[2022-10-10 19:08:56,340] [builder.py:2243]           [INFO]     | HULU Collection | ? | Look At Me: XXXTENTACION (2022) (TMDb: 934042)                               |
+[2022-10-10 19:08:56,382] [builder.py:2243]           [INFO]     | HULU Collection | ? | Aftershock (2022) (TMDb: 913821)                                             |
+[2022-10-10 19:08:56,414] [builder.py:2243]           [INFO]     | HULU Collection | ? | Good Luck to You, Leo Grande (2022) (TMDb: 758330)                           |
+[2022-10-10 19:08:56,447] [builder.py:2243]           [INFO]     | HULU Collection | ? | Call Jane (2022) (TMDb: 579496)                                              |
+[2022-10-10 19:08:56,489] [builder.py:2243]           [INFO]     | HULU Collection | ? | Fresh (2022) (TMDb: 787752)                                                  |
+[2022-10-10 19:08:56,539] [builder.py:2243]           [INFO]     | HULU Collection | ? | Sex Appeal (2022) (TMDb: 803104)                                             |
+[2022-10-10 19:08:56,557] [builder.py:2243]           [INFO]     | HULU Collection | ? | Dead Asleep (2021) (TMDb: 899997)                                            |
+[2022-10-10 19:08:56,589] [builder.py:2243]           [INFO]     | HULU Collection | ? | The Housewife & the Shah Shocker (2021) (TMDb: 908284)                       |
+[2022-10-10 19:08:56,607] [builder.py:2243]           [INFO]     | HULU Collection | ? | Cupid for Christmas (2021) (TMDb: 900784)                                    |
+[2022-10-10 19:08:56,657] [builder.py:2243]           [INFO]     | HULU Collection | ? | The First Wave (2021) (TMDb: 811769)                                         |
+[2022-10-10 19:08:56,688] [builder.py:2243]           [INFO]     | HULU Collection | ? | The Cleaner (2021) (TMDb: 876024)                                            |
+[2022-10-10 19:08:56,722] [builder.py:2243]           [INFO]     | HULU Collection | ? | Killer High: The Silent Crisis (2021) (TMDb: 897853)                         |
+[2022-10-10 19:08:56,756] [builder.py:2243]           [INFO]     | HULU Collection | ? | Ted Bundy: American Boogeyman (2021) (TMDb: 835112)                          |
+[2022-10-10 19:08:56,824] [builder.py:2243]           [INFO]     | HULU Collection | ? | Robot Apocalypse (2021) (TMDb: 854648)                                       |
+[2022-10-10 19:08:56,882] [builder.py:2243]           [INFO]     | HULU Collection | ? | False Positive (2021) (TMDb: 591634)                                         |
+[2022-10-10 19:08:56,934] [builder.py:2243]           [INFO]     | HULU Collection | ? | Venus as a Boy (2021) (TMDb: 825810)                                         |
+[2022-10-10 19:08:56,966] [builder.py:2243]           [INFO]     | HULU Collection | ? | The Housewife and the Hustler (2021) (TMDb: 836764)                          |
+[2022-10-10 19:08:57,007] [builder.py:2243]           [INFO]     | HULU Collection | ? | India Sweets and Spices (2021) (TMDb: 821493)                                |
+[2022-10-10 19:08:57,049] [builder.py:2243]           [INFO]     | HULU Collection | ? | Tulsa Burning: The 1921 Race Massacre (2021) (TMDb: 834962)                  |
+[2022-10-10 19:08:57,064] [builder.py:2243]           [INFO]     | HULU Collection | ? | Plan B (2021) (TMDb: 743599)                                                 |
+[2022-10-10 19:08:57,096] [builder.py:2243]           [INFO]     | HULU Collection | ? | WeWork: or The Making and Breaking of a $47 Billion Unicorn (2021) (TMDb: 795622) |
+[2022-10-10 19:08:57,146] [builder.py:2243]           [INFO]     | HULU Collection | ? | The Fabulous Filipino Brothers (2021) (TMDb: 644102)                         |
+[2022-10-10 19:08:57,174] [builder.py:2243]           [INFO]     | HULU Collection | ? | GameStopped (2021) (TMDb: 806720)                                            |
+[2022-10-10 19:08:57,228] [builder.py:2243]           [INFO]     | HULU Collection | ? | kid 90 (2021) (TMDb: 795859)                                                 |
+[2022-10-10 19:08:57,243] [builder.py:2243]           [INFO]     | HULU Collection | ? | The United States vs. Billie Holiday (2021) (TMDb: 566076)                   |
+[2022-10-10 19:08:57,296] [builder.py:2243]           [INFO]     | HULU Collection | ? | Homeroom (2021) (TMDb: 776523)                                               |
+[2022-10-10 19:08:57,346] [builder.py:2243]           [INFO]     | HULU Collection | ? | On The Count Of Three (2022) (TMDb: 776512)                                  |
+[2022-10-10 19:08:57,364] [builder.py:2243]           [INFO]     | HULU Collection | ? | Summer of Soul (...Or, When the Revolution Could Not Be Televised) (2021) (TMDb: 776527) |
+[2022-10-10 19:08:57,413] [builder.py:2243]           [INFO]     | HULU Collection | ? | The Ultimate Playlist of Noise (2021) (TMDb: 776884)                         |
+[2022-10-10 19:08:57,438] [builder.py:2243]           [INFO]     | HULU Collection | ? | Sister of the Groom (2020) (TMDb: 738642)                                    |
+[2022-10-10 19:08:57,504] [builder.py:2243]           [INFO]     | HULU Collection | ? | The Jinkx & DeLa Holiday Special (2020) (TMDb: 767066)                       |
+[2022-10-10 19:08:57,518] [builder.py:2243]           [INFO]     | HULU Collection | ? | 1 Night In San Diego (2020) (TMDb: 664051)                                   |
+[2022-10-10 19:08:57,546] [builder.py:2243]           [INFO]     | HULU Collection | ? | 69: The Saga of Danny Hernandez (2021) (TMDb: 765057)                        |
+[2022-10-10 19:08:57,571] [builder.py:2243]           [INFO]     | HULU Collection | ? | Derek DelGaudio's In & of Itself (2020) (TMDb: 681459)                       |
+[2022-10-10 19:08:57,596] [builder.py:2243]           [INFO]     | HULU Collection | ? | Zappa (2020) (TMDb: 353047)                                                  |
+[2022-10-10 19:08:57,621] [builder.py:2243]           [INFO]     | HULU Collection | ? | Books of Blood (2020) (TMDb: 715123)                                         |
+[2022-10-10 19:08:57,646] [builder.py:2243]           [INFO]     | HULU Collection | ? | Jacinta (2021) (TMDb: 696901)                                                |
+[2022-10-10 19:08:57,671] [builder.py:2243]           [INFO]     | HULU Collection | ? | I Am Greta (2020) (TMDb: 728123)                                             |
+[2022-10-10 19:08:57,696] [builder.py:2243]           [INFO]     | HULU Collection | ? | The Binge (2020) (TMDb: 647265)                                              |
+[2022-10-10 19:08:57,727] [builder.py:2243]           [INFO]     | HULU Collection | ? | A Woman's Place (2020) (TMDb: 737165)                                        |
+[2022-10-10 19:08:57,750] [builder.py:2243]           [INFO]     | HULU Collection | ? | Taylor Swift City of Lover Concert (2020) (TMDb: 701684)                     |
+[2022-10-10 19:08:57,761] [builder.py:2243]           [INFO]     | HULU Collection | ? | I Still Believe (2020) (TMDb: 585244)                                        |
+[2022-10-10 19:08:57,792] [builder.py:2243]           [INFO]     | HULU Collection | ? | Minamata (2020) (TMDb: 560008)                                               |
+[2022-10-10 19:08:57,855] [builder.py:2243]           [INFO]     | HULU Collection | ? | We Are Freestyle Love Supreme (2020) (TMDb: 654999)                          |
+[2022-10-10 19:08:57,901] [builder.py:2243]           [INFO]     | HULU Collection | ? | The Night (2021) (TMDb: 746781)                                              |
+[2022-10-10 19:08:57,946] [builder.py:2243]           [INFO]     | HULU Collection | ? | Less Than Zero (TMDb: 628045)                                                |
+[2022-10-10 19:08:57,975] [builder.py:2243]           [INFO]     | HULU Collection | ? | And We Go Green (2019) (TMDb: 621751)                                        |
+[2022-10-10 19:08:57,994] [builder.py:2243]           [INFO]     | HULU Collection | ? | After Parkland (2019) (TMDb: 591103)                                         |
+[2022-10-10 19:08:58,021] [builder.py:2243]           [INFO]     | HULU Collection | ? | Ballet After Dark (2021) (TMDb: 692938)                                      |
+[2022-10-10 19:08:58,046] [builder.py:2243]           [INFO]     | HULU Collection | ? | Changing the Game (2019) (TMDb: 597593)                                      |
+[2022-10-10 19:08:58,071] [builder.py:2243]           [INFO]     | HULU Collection | ? | Fly Like a Girl (2020) (TMDb: 750058)                                        |
+[2022-10-10 19:08:58,096] [builder.py:2243]           [INFO]     | HULU Collection | ? | Jawline (2019) (TMDb: 565537)                                                |
+[2022-10-10 19:08:58,121] [builder.py:2243]           [INFO]     | HULU Collection | ? | Big Time Adolescence (2020) (TMDb: 539617)                                   |
+[2022-10-10 19:08:58,146] [builder.py:2243]           [INFO]     | HULU Collection | ? | Little Monsters (2019) (TMDb: 503125)                                        |
+[2022-10-10 19:08:58,171] [builder.py:2243]           [INFO]     | HULU Collection | ? | Wounds (2019) (TMDb: 505423)                                                 |
+[2022-10-10 19:08:58,205] [builder.py:2243]           [INFO]     | HULU Collection | ? | The Amazing Johnathan Documentary (2019) (TMDb: 568693)                      |
+[2022-10-10 19:08:58,245] [builder.py:2243]           [INFO]     | HULU Collection | ? | Ask Dr. Ruth (2019) (TMDb: 566063)                                           |
+[2022-10-10 19:08:58,261] [builder.py:2243]           [INFO]     | HULU Collection | ? | Fyre Fraud (2019) (TMDb: 575190)                                             |
+[2022-10-10 19:08:58,313] [builder.py:2243]           [INFO]     | HULU Collection | ? | A Cam Life (2018) (TMDb: 591027)                                             |
+[2022-10-10 19:08:58,363] [builder.py:2243]           [INFO]     | HULU Collection | ? | In Search of Greatness (2018) (TMDb: 546565)                                 |
+[2022-10-10 19:08:58,388] [builder.py:2243]           [INFO]     | HULU Collection | ? | Forgive - Don't Forget (2018) (TMDb: 542896)                                 |
+[2022-10-10 19:08:58,438] [builder.py:2243]           [INFO]     | HULU Collection | ? | Ballet Now (2018) (TMDb: 528393)                                             |
+[2022-10-10 19:08:58,459] [builder.py:2243]           [INFO]     | HULU Collection | ? | Hillbilly (2018) (TMDb: 525232)                                              |
+[2022-10-10 19:08:58,496] [builder.py:2243]           [INFO]     | HULU Collection | ? | Fishbowl California (2018) (TMDb: 513568)                                    |
+[2022-10-10 19:08:58,534] [builder.py:2243]           [INFO]     | HULU Collection | ? | Unbanned: The Legend of AJ1 (2018) (TMDb: 520440)                            |
+[2022-10-10 19:08:58,552] [builder.py:2243]           [INFO]     | HULU Collection | ? | Tiny Shoulders: Rethinking Barbie (2018) (TMDb: 520454)                      |
+[2022-10-10 19:08:58,613] [builder.py:2243]           [INFO]     | HULU Collection | ? | We Are Columbine (2019) (TMDb: 516964)                                       |
+[2022-10-10 19:08:58,689] [builder.py:2243]           [INFO]     | HULU Collection | ? | Support the Girls (2018) (TMDb: 456086)                                      |
+[2022-10-10 19:08:58,723] [builder.py:2243]           [INFO]     | HULU Collection | ? | Alien Psychosis (2018) (TMDb: 527014)                                        |
+[2022-10-10 19:08:58,769] [builder.py:2243]           [INFO]     | HULU Collection | ? | Little Bitches (2018) (TMDb: 387773)                                         |
+[2022-10-10 19:08:58,852] [builder.py:2243]           [INFO]     | HULU Collection | ? | Minding the Gap (2018) (TMDb: 489985)                                        |
+[2022-10-10 19:08:58,902] [builder.py:2243]           [INFO]     | HULU Collection | ? | Crime + Punishment (2018) (TMDb: 489983)                                     |
+[2022-10-10 19:08:58,968] [builder.py:2243]           [INFO]     | HULU Collection | ? | Obey Giant (2017) (TMDb: 486482)                                             |
+[2022-10-10 19:08:58,994] [builder.py:2243]           [INFO]     | HULU Collection | ? | Please Stand By (2018) (TMDb: 338768)                                        |
+[2022-10-10 19:08:59,052] [builder.py:2243]           [INFO]     | HULU Collection | ? | Too Funny to Fail: The Life & Death of The Dana Carvey Show (2017) (TMDb: 482004) |
+[2022-10-10 19:08:59,069] [builder.py:2243]           [INFO]     | HULU Collection | ? | Anjelah Johnson: Mahalo & Goodnight (2017) (TMDb: 478313)                    |
+[2022-10-10 19:08:59,110] [builder.py:2243]           [INFO]     | HULU Collection | ? | This Is Meg (2017) (TMDb: 578131)                                            |
+[2022-10-10 19:08:59,136] [builder.py:2243]           [INFO]     | HULU Collection | ? | Detroit (2017) (TMDb: 407448)                                                |
+[2022-10-10 19:08:59,169] [builder.py:2243]           [INFO]     | HULU Collection | ? | Returning Citizens (2017) (TMDb: 474323)                                     |
+[2022-10-10 19:08:59,185] [builder.py:2243]           [INFO]     | HULU Collection | ? | Austin Found (2017) (TMDb: 291188)                                           |
+[2022-10-10 19:08:59,202] [builder.py:2243]           [INFO]     | HULU Collection | ? | Art of the Game: Ukiyo-e Heroes (2017) (TMDb: 452935)                        |
+[2022-10-10 19:08:59,220] [builder.py:2243]           [INFO]     | HULU Collection | ? | Dumb: The Story of Big Brother Magazine (2017) (TMDb: 453053)                |
+[2022-10-10 19:08:59,261] [builder.py:2243]           [INFO]     | HULU Collection | ? | Gilbert (2017) (TMDb: 448446)                                                |
+[2022-10-10 19:08:59,294] [builder.py:2243]           [INFO]     | HULU Collection | ? | The 60 Yard Line (2017) (TMDb: 449751)                                       |
+[2022-10-10 19:08:59,334] [builder.py:2243]           [INFO]     | HULU Collection | ? | Becoming Bond (2017) (TMDb: 438493)                                          |
+[2022-10-10 19:08:59,346] [builder.py:2243]           [INFO]     | HULU Collection | ? | The Summoning (2017) (TMDb: 434758)                                          |
+[2022-10-10 19:08:59,361] [builder.py:2243]           [INFO]     | HULU Collection | ? | Girlfriends of Christmas Past (2016) (TMDb: 420967)                          |
+[2022-10-10 19:08:59,389] [builder.py:2243]           [INFO]     | HULU Collection | ? | The Beatles: Eight Days a Week - The Touring Years (2016) (TMDb: 391698)     |
+[2022-10-10 19:08:59,444] [builder.py:2243]           [INFO]     | HULU Collection | ? | Josh Blue: Delete (2016) (TMDb: 422551)                                      |
+[2022-10-10 19:08:59,481] [builder.py:2243]           [INFO]     | HULU Collection | ? | Fair Haven (2017) (TMDb: 397992)                                             |
+[2022-10-10 19:08:59,500] [builder.py:2243]           [INFO]     | HULU Collection | ? | Triumph’s Election Special 2016 (2016) (TMDb: 382474)                        |
+[2022-10-10 19:08:59,511] [builder.py:2243]           [INFO]     | HULU Collection | ? | Joshy (2016) (TMDb: 352695)                                                  |
+[2022-10-10 19:08:59,538] [builder.py:2243]           [INFO]     | HULU Collection | ? | Sarah Colonna: I Can't Feel My Legs (2015) (TMDb: 422550)                    |
+[2022-10-10 19:08:59,553] [builder.py:2243]           [INFO]     | HULU Collection | ? | Jimmy Dore: Sentenced To Live (2015) (TMDb: 422548)                          |
+[2022-10-10 19:08:59,588] [builder.py:2243]           [INFO]     | HULU Collection | ? | Pocket Listing (2016) (TMDb: 346558)                                         |
+[2022-10-10 19:08:59,621] [builder.py:2243]           [INFO]     | HULU Collection | ? | An Act of War (2015) (TMDb: 289723)                                          |
+[2022-10-10 19:08:59,661] [builder.py:2243]           [INFO]     | HULU Collection | ? | Exile by Choice (2015) (TMDb: 790549)                                        |
+[2022-10-10 19:08:59,678] [builder.py:2243]           [INFO]     | HULU Collection | ? | Ancient Aliens and the New World Order (TMDb: 929070)                        |
+[2022-10-10 19:08:59,704] [builder.py:2243]           [INFO]     | HULU Collection | ? | Crossfire: The Plot that Killed Kennedy (2014) (TMDb: 306327)                |
+[2022-10-10 19:08:59,747] [builder.py:2243]           [INFO]     | HULU Collection | ? | My Trip Back to the Dark Side (2014) (TMDb: 339709)                          |
+[2022-10-10 19:08:59,779] [builder.py:2243]           [INFO]     | HULU Collection | ? | 666: Devilish Charm (2014) (TMDb: 270802)                                    |
+[2022-10-10 19:08:59,828] [builder.py:2243]           [INFO]     | HULU Collection | ? | Animals (2014) (TMDb: 253253)                                                |
+[2022-10-10 19:08:59,876] [builder.py:2243]           [INFO]     | HULU Collection | ? | Kaz: Pushing the Virtual Divide (2014) (TMDb: 251957)                        |
+[2022-10-10 19:08:59,929] [builder.py:2243]           [INFO]     | HULU Collection | ? | Live at the Foxes Den (2013) (TMDb: 240737)                                  |
+[2022-10-10 19:09:00,012] [builder.py:2243]           [INFO]     | HULU Collection | ? | A Christmas Tree Miracle (2013) (TMDb: 233481)                               |
+[2022-10-10 19:09:00,077] [builder.py:2243]           [INFO]     | HULU Collection | ? | Susie's Hope (2013) (TMDb: 276550)                                           |
+[2022-10-10 19:09:00,110] [builder.py:2243]           [INFO]     | HULU Collection | ? | Holy Ghost People (2013) (TMDb: 172792)                                      |
+[2022-10-10 19:09:00,142] [builder.py:2243]           [INFO]     | HULU Collection | ? | Rockabilly Zombie Weekend (2013) (TMDb: 309193)                              |
+[2022-10-10 19:09:00,146] [builder.py:2243]           [INFO]     | HULU Collection | ? | Fatal Call (2012) (TMDb: 202537)                                             |
+[2022-10-10 19:09:00,197] [builder.py:2243]           [INFO]     | HULU Collection | ? | 2nd Serve (2012) (TMDb: 256995)                                              |
+[2022-10-10 19:09:00,230] [builder.py:2243]           [INFO]     | HULU Collection | ? | Under the Bed (2012) (TMDb: 128311)                                          |
+[2022-10-10 19:09:00,255] [builder.py:2243]           [INFO]     | HULU Collection | ? | Found (2012) (TMDb: 138941)                                                  |
+[2022-10-10 19:09:00,308] [builder.py:2243]           [INFO]     | HULU Collection | ? | Seance (2012) (TMDb: 101962)                                                 |
+[2022-10-10 19:09:00,330] [builder.py:2243]           [INFO]     | HULU Collection | ? | The Family (2011) (TMDb: 231384)                                             |
+[2022-10-10 19:09:00,331] [builder.py:2243]           [INFO]     | HULU Collection | ? | Jessie's Dad (2011) (TMDb: 274558)                                           |
+[2022-10-10 19:09:00,380] [builder.py:2243]           [INFO]     | HULU Collection | ? | We Will Rock You (2011) (TMDb: 198279)                                       |
+[2022-10-10 19:09:00,422] [builder.py:2243]           [INFO]     | HULU Collection | ? | The Millennium Bug (2011) (TMDb: 89405)                                      |
+[2022-10-10 19:09:00,457] [builder.py:2243]           [INFO]     | HULU Collection | ? | Last Will (2011) (TMDb: 146315)                                              |
+[2022-10-10 19:09:00,480] [builder.py:2243]           [INFO]     | HULU Collection | ? | Hollywood & Wine (2011) (TMDb: 59099)                                        |
+[2022-10-10 19:09:00,496] [builder.py:2243]           [INFO]     | HULU Collection | ? | The Confession (2011) (TMDb: 97481)                                          |
+[2022-10-10 19:09:00,530] [builder.py:2243]           [INFO]     | HULU Collection | ? | The Way Home (2010) (TMDb: 52499)                                            |
+[2022-10-10 19:09:00,571] [builder.py:2243]           [INFO]     | HULU Collection | ? | Ashes (2011) (TMDb: 257014)                                                  |
+[2022-10-10 19:09:00,605] [builder.py:2243]           [INFO]     | HULU Collection | ? | 127 Hours (2010) (TMDb: 44115)                                               |
+[2022-10-10 19:09:00,638] [builder.py:2243]           [INFO]     | HULU Collection | ? | In the Darkness (2010) (TMDb: 445749)                                        |
+[2022-10-10 19:09:00,655] [builder.py:2243]           [INFO]     | HULU Collection | ? | Saturday Night (2010) (TMDb: 295069)                                         |
+[2022-10-10 19:09:00,679] [builder.py:2243]           [INFO]     | HULU Collection | ? | Paranormal Calamity (2010) (TMDb: 139694)                                    |
+[2022-10-10 19:09:00,689] [builder.py:2243]           [INFO]     | HULU Collection | ? | The Spy Next Door (2010) (TMDb: 23172)                                       |
+[2022-10-10 19:09:00,706] [builder.py:2243]           [INFO]     | HULU Collection | ? | Chicago Overcoat (2009) (TMDb: 43213)                                        |
+[2022-10-10 19:09:00,739] [builder.py:2243]           [INFO]     | HULU Collection | ? | Citizen Jane (2009) (TMDb: 69371)                                            |
+[2022-10-10 19:09:00,758] [builder.py:2243]           [INFO]     | HULU Collection | ? | American Bully (2009) (TMDb: 133836)                                         |
+[2022-10-10 19:09:00,772] [builder.py:2243]           [INFO]     | HULU Collection | ? | The X Files: I Want to Believe (2008) (TMDb: 8836)                           |
+[2022-10-10 19:09:00,806] [builder.py:2243]           [INFO]     | HULU Collection | ? | Johnny Appleweed (2008) (TMDb: 39831)                                        |
+[2022-10-10 19:09:00,847] [builder.py:2243]           [INFO]     | HULU Collection | ? | The Wrecking Crew (2008) (TMDb: 70027)                                       |
+[2022-10-10 19:09:00,940] [builder.py:2243]           [INFO]     | HULU Collection | ? | Ghost Image (2007) (TMDb: 41555)                                             |
+[2022-10-10 19:09:00,978] [builder.py:2243]           [INFO]     | HULU Collection | ? | Waiting... (2005) (TMDb: 7553)                                               |
+[2022-10-10 19:09:01,006] [builder.py:2243]           [INFO]     | HULU Collection | ? | Spy Kids 2: The Island of Lost Dreams (2002) (TMDb: 9488)                    |
+[2022-10-10 19:09:01,048] [builder.py:2243]           [INFO]     | HULU Collection | ? | Undisputed (2002) (TMDb: 15070)                                              |
+[2022-10-10 19:09:01,048] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-10-10 19:09:01,048] [builder.py:2249]           [INFO]     | 158 Movies Missing                                                                                 |
+[2022-10-10 19:09:04,349] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-10 19:09:04,349] [builder.py:2442]           [INFO]     |=============================== Updating Details of HULU Collection ================================|
+[2022-10-10 19:09:04,349] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-10 19:09:04,359] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-10-10 19:09:04,359] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'HULU'                                                 |
+[2022-10-10 19:09:04,360] [util.py:150]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-10-10 19:09:04,360] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/NETWORK_HULU.png |
+[2022-10-10 19:09:04,360] [util.py:150]               [DEBUG]    | 1 background found:                                                                                |
+[2022-10-10 19:09:04,360] [util.py:152]               [DEBUG]    | Method: url_background Background: https://cdn.vox-cdn.com/thumbor/oR4hqrmTxbX_O4gdJ6np8h-PxFk=/0x439:750x861/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/56311701/Image_uploaded_from_iOS__8_.1503433270.jpg |
+[2022-10-10 19:09:04,361] [library.py:172]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-10-10 19:09:04,361] [library.py:188]            [INFO]     | Detail: background update not needed                                                               |
+[2022-10-10 19:09:04,444] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-10 19:09:04,445] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-10 19:09:04,445] [plex_meta_manager.py:709]  [INFO]     |                                      Finished HULU Collection                                      |
+[2022-10-10 19:09:04,445] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:25                                    |
+[2022-10-10 19:09:04,445] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

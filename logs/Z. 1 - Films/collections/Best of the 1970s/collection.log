@@ -1,0 +1,184 @@
+[2022-09-29 16:31:37,615] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-09-29 16:31:37,615] [builder.py:197]            [INFO]     |                            Best of the 1970s Collection in Z. 1 - Films                            |
+[2022-09-29 16:31:37,615] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-09-29 16:31:37,615] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-09-29 16:31:37,616] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-09-29 16:31:37,616] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-09-29 16:31:37,616] [meta.py:128]               [DEBUG]    | Template Chart                                                                                     |
+[2022-09-29 16:31:37,616] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Chart'), ('num', 1)])                                                 |
+[2022-09-29 16:31:37,616] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-09-29 16:31:37,616] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Chart'), ('num', 1), ('collection_name', 'Best of the 1970s'), ('mapping_name', 'Best of the 1970s'), ('library_type', 'movie'), ('library_name', 'Z. 1 - Films'), ('name_encoded', 'Chart'), ('num_encoded', '1'), ('collection_name_encoded', 'Best%20of%20the%201970s'), ('mapping_name_encoded', 'Best%20of%20the%201970s'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%201%20-%20Films'), ('collection_sort', 'Best of the 1970s')]) |
+[2022-09-29 16:31:37,617] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-09-29 16:31:37,617] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-09-29 16:31:37,617] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-09-29 16:31:37,617] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-09-29 16:31:37,617] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-09-29 16:31:37,618] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+1_1Best of the 1970s', 'sync_mode': 'sync', 'smart_label': 'random'} |
+[2022-09-29 16:31:37,618] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-09-29 16:31:37,618] [builder.py:219]            [INFO]     |============================= Validating Best of the 1970s Attributes ==============================|
+[2022-09-29 16:31:37,618] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-09-29 16:31:37,618] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-09-29 16:31:37,618] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-09-29 16:31:37,618] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-09-29 16:31:37,618] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-09-29 16:31:37,619] [builder.py:544]            [DEBUG]    | Value: random                                                                                      |
+[2022-09-29 16:31:37,628] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 16:31:37,628] [builder.py:631]            [DEBUG]    | Validating Method: tmdb_discover                                                                   |
+[2022-09-29 16:31:37,628] [builder.py:632]            [DEBUG]    | Value: ordereddict([('primary_release_date.gte', '01/01/1970'), ('primary_release_date.lte', '12/31/1979'), ('with_original_language', 'fr'), ('sort_by', 'popularity.desc'), ('limit', 100)]) |
+[2022-09-29 16:31:37,629] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 16:31:37,629] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-09-29 16:31:37,629] [builder.py:632]            [DEBUG]    | Value: Le meilleurs des années 1970                                                                |
+[2022-09-29 16:31:37,629] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 16:31:37,629] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-09-29 16:31:37,630] [builder.py:632]            [DEBUG]    | Value: +1_1Best of the 1970s                                                                       |
+[2022-09-29 16:31:37,635] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-09-29 16:31:37,636] [plex.py:793]               [DEBUG]    | Looking for: Best of the 1970s                                                                     |
+[2022-09-29 16:31:37,636] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-09-29 16:31:37,636] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-09-29 16:31:37,636] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-09-29 16:31:37,636] [plex_meta_manager.py:563]  [INFO]     |=============================== Running Best of the 1970s Collection ===============================|
+[2022-09-29 16:31:37,636] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-09-29 16:31:37,637] [plex_meta_manager.py:570]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: random
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Best of the 1970s
+[2022-09-29 16:31:37,637] [plex_meta_manager.py:575]  [INFO]     | 
+[2022-09-29 16:31:37,637] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync
+[2022-09-29 16:31:37,638] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-09-29 16:31:37,638] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_discover: {'limit': 100, 'primary_release_date.gte': '01/01/1970', 'primary_release_date.lte': '12/31/1979', 'with_original_language': 'fr', 'sort_by': 'popularity.desc'}
+[2022-09-29 16:31:37,638] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-09-29 16:31:38,450] [tmdb.py:339]               [INFO]     | Processing TMDb Discover: 100 Movies
+[2022-09-29 16:31:38,450] [tmdb.py:341]               [INFO]     |            primary_release_date.gte: 1970-01-01
+[2022-09-29 16:31:38,450] [tmdb.py:341]               [INFO]     |            primary_release_date.lte: 1979-12-31
+[2022-09-29 16:31:38,450] [tmdb.py:341]               [INFO]     |            with_original_language: fr
+[2022-09-29 16:31:38,451] [tmdb.py:341]               [INFO]     |            sort_by: popularity.desc
+[2022-09-29 16:31:38,451] [builder.py:1540]           [DEBUG]    | 
+[2022-09-29 16:31:38,452] [builder.py:1541]           [DEBUG]    | 100 IDs Found: [(1631, 'tmdb'), (203474, 'tmdb'), (24402, 'tmdb'), (16306, 'tmdb'), (46581, 'tmdb'), (4561, 'tmdb'), (44132, 'tmdb'), (42501, 'tmdb'), (4031, 'tmdb'), (5590, 'tmdb'), (5781, 'tmdb'), (5558, 'tmdb'), (9385, 'tmdb'), (28209, 'tmdb'), (760, 'tmdb'), (761, 'tmdb'), (241004, 'tmdb'), (10516, 'tmdb'), (4593, 'tmdb'), (219814, 'tmdb'), (35549, 'tmdb'), (50435, 'tmdb'), (11482, 'tmdb'), (4680, 'tmdb'), (63481, 'tmdb'), (11842, 'tmdb'), (28691, 'tmdb'), (14257, 'tmdb'), (2860, 'tmdb'), (4484, 'tmdb'), (36179, 'tmdb'), (39412, 'tmdb'), (52761, 'tmdb'), (43003, 'tmdb'), (11657, 'tmdb'), (10102, 'tmdb'), (3480, 'tmdb'), (11913, 'tmdb'), (258, 'tmdb'), (37455, 'tmdb'), (366227, 'tmdb'), (56659, 'tmdb'), (55368, 'tmdb'), (48693, 'tmdb'), (25251, 'tmdb'), (3427, 'tmdb'), (53566, 'tmdb'), (25264, 'tmdb'), (58925, 'tmdb'), (60859, 'tmdb'), (12089, 'tmdb'), (12116, 'tmdb'), (1829, 'tmdb'), (32653, 'tmdb'), (79391, 'tmdb'), (33701, 'tmdb'), (1675, 'tmdb'), (2459, 'tmdb'), (8767, 'tmdb'), (10939, 'tmdb'), (29130, 'tmdb'), (2912, 'tmdb'), (44012, 'tmdb'), (11914, 'tmdb'), (27889, 'tmdb'), (259, 'tmdb'), (77570, 'tmdb'), (4683, 'tmdb'), (401306, 'tmdb'), (12598, 'tmdb'), (61683, 'tmdb'), (56648, 'tmdb'), (107767, 'tmdb'), (11530, 'tmdb'), (3426, 'tmdb'), (107397, 'tmdb'), (59959, 'tmdb'), (93289, 'tmdb'), (40180, 'tmdb'), (58694, 'tmdb'), (34280, 'tmdb'), (62363, 'tmdb'), (1660, 'tmdb'), (62662, 'tmdb'), (42741, 'tmdb'), (2813, 'tmdb'), (42463, 'tmdb'), (351156, 'tmdb'), (11378, 'tmdb'), (82969, 'tmdb'), (11183, 'tmdb'), (50166, 'tmdb'), (42454, 'tmdb'), (60181, 'tmdb'), (3423, 'tmdb'), (80220, 'tmdb'), (1421, 'tmdb'), (38438, 'tmdb'), (104086, 'tmdb'), (40585, 'tmdb')]
+[2022-09-29 16:31:38,452] [builder.py:1542]           [DEBUG]    | 
+[2022-09-29 16:31:38,454] [builder.py:2064]           [INFO]     | 
+[2022-09-29 16:31:38,455] [builder.py:2065]           [INFO]     |============================== Adding to Best of the 1970s Collection ==============================|
+[2022-09-29 16:31:38,455] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-09-29 16:31:38,519] [builder.py:2080]           [INFO]     |  1/12 | Best of the 1970s Collection | = | Les aventures de Rabbi Jacob (1973)                     |
+[2022-09-29 16:31:38,520] [builder.py:2080]           [INFO]     |  2/12 | Best of the 1970s Collection | = | L'aile ou la cuisse (1976)                              |
+[2022-09-29 16:31:38,520] [builder.py:2080]           [INFO]     |  3/12 | Best of the 1970s Collection | = | Le Gendarme et les Extra-terrestres (1979)              |
+[2022-09-29 16:31:38,520] [builder.py:2080]           [INFO]     |  4/12 | Best of the 1970s Collection | = | Les galettes de Pont-Aven (1975)                        |
+[2022-09-29 16:31:38,520] [builder.py:2080]           [INFO]     |  5/12 | Best of the 1970s Collection | = | La cage aux folles (1978)                               |
+[2022-09-29 16:31:38,520] [builder.py:2080]           [INFO]     |  6/12 | Best of the 1970s Collection | = | Le gendarme en balade (1970)                            |
+[2022-09-29 16:31:38,520] [builder.py:2080]           [INFO]     |  7/12 | Best of the 1970s Collection | = | Les bronzés font du ski (1979)                          |
+[2022-09-29 16:31:38,521] [builder.py:2080]           [INFO]     |  8/12 | Best of the 1970s Collection | = | Un éléphant ça trompe énormément (1976)                 |
+[2022-09-29 16:31:38,521] [builder.py:2080]           [INFO]     |  9/12 | Best of the 1970s Collection | = | L'aventure, c'est l'aventure (1972)                     |
+[2022-09-29 16:31:38,521] [builder.py:2080]           [INFO]     | 10/12 | Best of the 1970s Collection | + | Les bronzés (1978)                                      |
+[2022-09-29 16:31:39,610] [builder.py:2080]           [INFO]     | 11/12 | Best of the 1970s Collection | + | Buffet froid (1979)                                     |
+[2022-09-29 16:31:40,366] [builder.py:2080]           [INFO]     | 12/12 | Best of the 1970s Collection | = | Nous irons tous au paradis (1977)                       |
+[2022-09-29 16:31:40,589] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-09-29 16:31:40,589] [builder.py:2102]           [INFO]     | 12 Movies Processed 2 Movies Added                                                                 |
+[2022-09-29 16:31:40,589] [builder.py:2228]           [INFO]     |                                                                                                    |
+[2022-09-29 16:31:40,590] [builder.py:2229]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-09-29 16:31:40,590] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-09-29 16:31:40,627] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | A Real Young Girl (1976) (TMDb: 1631)                           |
+[2022-09-29 16:31:40,654] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Sinner: The Secret Diary of a Nymphomaniac (1973) (TMDb: 203474) |
+[2022-09-29 16:31:40,665] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Emmanuelle (1974) (TMDb: 24402)                                 |
+[2022-09-29 16:31:40,696] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Fantastic Planet (1973) (TMDb: 16306)                           |
+[2022-09-29 16:31:40,744] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Immoral Tales (1973) (TMDb: 46581)                              |
+[2022-09-29 16:31:40,771] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | The Story of O (1975) (TMDb: 4561)                              |
+[2022-09-29 16:31:40,781] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | The Beast (1975) (TMDb: 44132)                                  |
+[2022-09-29 16:31:40,813] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Murmur of the Heart (1971) (TMDb: 42501)                        |
+[2022-09-29 16:31:40,823] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Going Places (1974) (TMDb: 4031)                                |
+[2022-09-29 16:31:40,854] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Donkey Skin (1970) (TMDb: 5590)                                 |
+[2022-09-29 16:31:40,865] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | That Obscure Object of Desire (1977) (TMDb: 5781)               |
+[2022-09-29 16:31:40,888] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | The Phantom of Liberty (1974) (TMDb: 5558)                      |
+[2022-09-29 16:31:40,896] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | The Twelve Tasks of Asterix (1976) (TMDb: 9385)                 |
+[2022-09-29 16:31:40,913] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Emmanuelle: The Joys of a Woman (1975) (TMDb: 28209)            |
+[2022-09-29 16:31:40,942] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Tintin and the Lake of Sharks (1972) (TMDb: 241004)             |
+[2022-09-29 16:31:40,977] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | The Discreet Charm of the Bourgeoisie (1972) (TMDb: 4593)       |
+[2022-09-29 16:31:41,021] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | The Hot Nights of Linda (1975) (TMDb: 219814)                   |
+[2022-09-29 16:31:41,039] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Bilitis (1977) (TMDb: 50435)                                    |
+[2022-09-29 16:31:41,079] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | The Tenant (1976) (TMDb: 11482)                                 |
+[2022-09-29 16:31:41,105] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Two Men in Town (1973) (TMDb: 4680)                             |
+[2022-09-29 16:31:41,134] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Femmes Fatales (1976) (TMDb: 63481)                             |
+[2022-09-29 16:31:41,146] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Red Sun (1971) (TMDb: 11842)                                    |
+[2022-09-29 16:31:41,155] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Barbed Wire Dolls (1976) (TMDb: 28691)                          |
+[2022-09-29 16:31:41,171] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Delusions of Grandeur (1971) (TMDb: 14257)                      |
+[2022-09-29 16:31:41,185] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Claire's Knee (1970) (TMDb: 2860)                               |
+[2022-09-29 16:31:41,196] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | The One Man Band (1970) (TMDb: 36179)                           |
+[2022-09-29 16:31:41,213] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Emmanuelle 3 (1977) (TMDb: 39412)                               |
+[2022-09-29 16:31:41,230] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Daisy Town (1971) (TMDb: 52761)                                 |
+[2022-09-29 16:31:41,262] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | F for Fake (1973) (TMDb: 43003)                                 |
+[2022-09-29 16:31:41,272] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Le Cercle Rouge (1970) (TMDb: 11657)                            |
+[2022-09-29 16:31:41,288] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | La Grande Bouffe (1973) (TMDb: 10102)                           |
+[2022-09-29 16:31:41,304] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | The Old Gun (1975) (TMDb: 3480)                                 |
+[2022-09-29 16:31:41,321] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Bed and Board (1970) (TMDb: 258)                                |
+[2022-09-29 16:31:41,355] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Police Python 357 (1976) (TMDb: 37455)                          |
+[2022-09-29 16:31:41,372] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | House of 1000 Pleasures (1974) (TMDb: 366227)                   |
+[2022-09-29 16:31:41,414] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Midnight Party (1976) (TMDb: 56659)                             |
+[2022-09-29 16:31:41,431] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Lacombe, Lucien (1974) (TMDb: 55368)                            |
+[2022-09-29 16:31:41,472] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | The Mother and the Whore (1973) (TMDb: 48693)                   |
+[2022-09-29 16:31:41,490] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Borsalino (1970) (TMDb: 25251)                                  |
+[2022-09-29 16:31:41,531] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Max and the Junkmen (1971) (TMDb: 3427)                         |
+[2022-09-29 16:31:41,548] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | The Smurfs and the Magic Flute (1976) (TMDb: 53566)             |
+[2022-09-29 16:31:41,589] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | I... For Icarus (1979) (TMDb: 25264)                            |
+[2022-09-29 16:31:41,613] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Mr. Klein (1976) (TMDb: 58925)                                  |
+[2022-09-29 16:31:41,671] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | The Confession (1970) (TMDb: 60859)                             |
+[2022-09-29 16:31:41,688] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | The Tall Blond Man with One Black Shoe (1972) (TMDb: 12089)     |
+[2022-09-29 16:31:41,738] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Love in the Afternoon (1972) (TMDb: 12116)                      |
+[2022-09-29 16:31:41,755] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | The Story of Adele H. (1975) (TMDb: 1829)                       |
+[2022-09-29 16:31:41,813] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Flic Story (1975) (TMDb: 32653)                                 |
+[2022-09-29 16:31:41,984] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Charlots Go to Spain (1972) (TMDb: 79391)                       |
+[2022-09-29 16:31:42,021] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Day for Night (1973) (TMDb: 1675)                               |
+[2022-09-29 16:31:42,047] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Stuntwoman (1977) (TMDb: 8767)                                  |
+[2022-09-29 16:31:42,072] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | The Return of the Tall Blond Man with One Black Shoe (1974) (TMDb: 10939) |
+[2022-09-29 16:31:42,436] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | The Demoniacs (1974) (TMDb: 29130)                              |
+[2022-09-29 16:31:42,464] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | The Butcher (1970) (TMDb: 2912)                                 |
+[2022-09-29 16:31:42,489] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Jeanne Dielman, 23, quai du Commerce, 1080 Bruxelles (1976) (TMDb: 44012) |
+[2022-09-29 16:31:42,514] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Perched on a Tree (1971) (TMDb: 11914)                          |
+[2022-09-29 16:31:42,957] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Rider on the Rain (1970) (TMDb: 27889)                          |
+[2022-09-29 16:31:43,002] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Love on the Run (1979) (TMDb: 259)                              |
+[2022-09-29 16:31:43,411] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | The Gypsy (1975) (TMDb: 77570)                                  |
+[2022-09-29 16:31:43,414] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | A Gorgeous Girl Like Me (1972) (TMDb: 4683)                     |
+[2022-09-29 16:31:43,427] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | The Seventh Company Has Been Found (1975) (TMDb: 401306)        |
+[2022-09-29 16:31:43,461] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Jo (1971) (TMDb: 12598)                                         |
+[2022-09-29 16:31:43,477] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Don't Deliver Us from Evil (1971) (TMDb: 61683)                 |
+[2022-09-29 16:31:43,489] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | The Toy (1976) (TMDb: 56648)                                    |
+[2022-09-29 16:31:44,078] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | I Am a Nymphomaniac (1971) (TMDb: 107767)                       |
+[2022-09-29 16:31:44,089] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | The Discord (1978) (TMDb: 11530)                                |
+[2022-09-29 16:31:44,114] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Cesar and Rosalie (1972) (TMDb: 3426)                           |
+[2022-09-29 16:31:44,138] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Nathalie: Escape from Hell (1978) (TMDb: 107397)                |
+[2022-09-29 16:31:44,164] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | You Won't Have Alsace-Lorraine (1977) (TMDb: 59959)             |
+[2022-09-29 16:31:44,356] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Now Where Did the Seventh Company Get to? (1973) (TMDb: 93289)  |
+[2022-09-29 16:31:44,381] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Fear Over the City (1975) (TMDb: 40180)                         |
+[2022-09-29 16:31:44,828] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | The French Detective (1975) (TMDb: 58694)                       |
+[2022-09-29 16:31:45,262] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Le Viager (1972) (TMDb: 62363)                                  |
+[2022-09-29 16:31:45,278] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Small Change (1976) (TMDb: 1660)                                |
+[2022-09-29 16:31:45,290] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Rookies Go to War (1974) (TMDb: 62662)                          |
+[2022-09-29 16:31:45,315] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Un flic (1972) (TMDb: 42741)                                    |
+[2022-09-29 16:31:45,374] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Violette Nozière (1978) (TMDb: 2813)                            |
+[2022-09-29 16:31:45,794] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Wedding in Blood (1973) (TMDb: 42463)                           |
+[2022-09-29 16:31:45,841] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Erotic Diary (1974) (TMDb: 351156)                              |
+[2022-09-29 16:31:45,891] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Trafic (1971) (TMDb: 11378)                                     |
+[2022-09-29 16:31:45,922] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Don Juan or If Don Juan Were a Woman (1973) (TMDb: 82969)       |
+[2022-09-29 16:31:45,939] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Lucky Luke: The Ballad of the Daltons (1978) (TMDb: 50166)      |
+[2022-09-29 16:31:45,982] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Vincent, Francois, Paul and the Others (1974) (TMDb: 42454)     |
+[2022-09-29 16:31:46,008] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Borsalino and Co. (1974) (TMDb: 60181)                          |
+[2022-09-29 16:31:46,058] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | The Things of Life (1970) (TMDb: 3423)                          |
+[2022-09-29 16:31:46,060] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | Peppermint Soda (1977) (TMDb: 80220)                            |
+[2022-09-29 16:31:46,082] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | The Man Who Loved Women (1977) (TMDb: 1421)                     |
+[2022-09-29 16:31:46,503] [builder.py:2243]           [INFO]     | Best of the 1970s Collection | ? | The Man Who Sleeps (1974) (TMDb: 104086)                        |
+[2022-09-29 16:31:46,504] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-09-29 16:31:46,504] [builder.py:2249]           [INFO]     | 88 Movies Missing                                                                                  |
+[2022-09-29 16:31:46,790] [plex.py:711]               [DEBUG]    | Smart Collection Test: ?type=1&sort=random&label=213153                                            |
+[2022-09-29 16:31:46,906] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-09-29 16:31:46,906] [builder.py:2442]           [INFO]     |========================= Updating Details of Best of the 1970s Collection =========================|
+[2022-09-29 16:31:46,907] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-09-29 16:31:47,066] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Le meilleurs des années 1970
+                                                                 | Sort Title | +1_1Best of the 1970s
+                                                                 | Label | +PMM
+[2022-09-29 16:31:47,265] [builder.py:2513]           [INFO]     | Details: have been updated
+[2022-09-29 16:31:47,265] [builder.py:2517]           [INFO]     | 
+[2022-09-29 16:31:47,266] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Best of the 1970s'
+[2022-09-29 16:31:47,319] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-09-29 16:31:47,319] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-09-29 16:31:47,319] [plex_meta_manager.py:709]  [INFO]     |                               Finished Best of the 1970s Collection                                |
+[2022-09-29 16:31:47,319] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:09                                    |
+[2022-09-29 16:31:47,320] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

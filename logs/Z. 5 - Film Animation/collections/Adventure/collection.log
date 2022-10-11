@@ -1,0 +1,335 @@
+[2022-10-11 10:00:32,918] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 10:00:32,919] [builder.py:197]            [INFO]     |                           Adventure Collection in Z. 5 - Film Animation                            |
+[2022-10-11 10:00:32,919] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 10:00:32,919] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 10:00:32,919] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 10:00:32,919] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:00:32,919] [meta.py:128]               [DEBUG]    | Template Genre                                                                                     |
+[2022-10-11 10:00:32,919] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Genre')])                                                             |
+[2022-10-11 10:00:32,920] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:00:32,920] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Genre'), ('collection_name', 'Adventure'), ('mapping_name', 'Adventure'), ('library_type', 'movie'), ('library_name', 'Z. 5 - Film Animation'), ('name_encoded', 'Genre'), ('collection_name_encoded', 'Adventure'), ('mapping_name_encoded', 'Adventure'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%205%20-%20Film%20Animation'), ('collection_sort', 'Adventure')]) |
+[2022-10-11 10:00:32,920] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:00:32,920] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 10:00:32,920] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:00:32,920] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 10:00:32,921] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:00:32,921] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+3_Adventure', 'sync_mode': 'sync', 'smart_label': 'audience_rating.desc'} |
+[2022-10-11 10:00:32,921] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:00:32,921] [builder.py:219]            [INFO]     |================================= Validating Adventure Attributes ==================================|
+[2022-10-11 10:00:32,922] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:00:32,922] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-11 10:00:32,922] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-11 10:00:32,922] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:00:32,922] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-11 10:00:32,922] [builder.py:544]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-10-11 10:00:32,938] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:00:32,938] [builder.py:631]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-10-11 10:00:32,938] [builder.py:632]            [DEBUG]    | Value: ordereddict([('genre', 'Adventure')])                                                       |
+[2022-10-11 10:00:32,991] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:00:32,991] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-11 10:00:32,992] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_ADVENTURE.png           |
+[2022-10-11 10:00:33,253] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:00:33,254] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-10-11 10:00:33,254] [builder.py:632]            [DEBUG]    | Value: Adventure film is a genre that revolves around the conquests and explorations of a protagonist. The purpose of the conquest can be to retrieve a person or treasure, but often the main focus is simply the pursuit of the unknown. These films generally take place in exotic locations and play on historical myths. Adventure films incorporate suspenseful puzzles and intricate obstacles that the protagonist must overcome in order to achieve the end goal. |
+[2022-10-11 10:00:33,254] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:00:33,254] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 10:00:33,254] [builder.py:632]            [DEBUG]    | Value: +3_Adventure                                                                                |
+[2022-10-11 10:00:33,260] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:00:33,261] [plex.py:793]               [DEBUG]    | Looking for: Adventure                                                                             |
+[2022-10-11 10:00:33,261] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 10:00:33,261] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 10:00:33,261] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 10:00:33,262] [plex_meta_manager.py:563]  [INFO]     |=================================== Running Adventure Collection ===================================|
+[2022-10-11 10:00:33,262] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-10-11 10:00:33,262] [plex_meta_manager.py:570]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: audience_rating.desc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Adventure
+[2022-10-11 10:00:33,263] [plex_meta_manager.py:575]  [INFO]     | 
+[2022-10-11 10:00:33,263] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync
+[2022-10-11 10:00:33,263] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 10:00:33,263] [plex_meta_manager.py:580]  [DEBUG]    | Builder: plex_search: (1, 'Plex Movie Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Genre is Adventure', '?type=1&sort=titleSort&push=1&genre=28017&pop=1')
+[2022-10-11 10:00:33,264] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 10:00:33,264] [plex.py:819]               [INFO]     | Processing Plex Movie Search
+                                                                 | Sort By: title.asc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Match any of the following:
+                                                                 |       Genre is Adventure
+[2022-10-11 10:00:34,201] [plex.py:864]               [DEBUG]    | 
+[2022-10-11 10:00:34,201] [plex.py:865]               [DEBUG]    | 247 Keys Found: [(22024, 'ratingKey'), (19810, 'ratingKey'), (21631, 'ratingKey'), (21574, 'ratingKey'), (88579, 'ratingKey'), (7420, 'ratingKey'), (13637, 'ratingKey'), (21643, 'ratingKey'), (88879, 'ratingKey'), (22472, 'ratingKey'), (22465, 'ratingKey'), (22451, 'ratingKey'), (21623, 'ratingKey'), (88858, 'ratingKey'), (88590, 'ratingKey'), (88583, 'ratingKey'), (88594, 'ratingKey'), (88859, 'ratingKey'), (88856, 'ratingKey'), (88843, 'ratingKey'), (89287, 'ratingKey'), (88582, 'ratingKey'), (88838, 'ratingKey'), (88580, 'ratingKey'), (88780, 'ratingKey'), (88839, 'ratingKey'), (21575, 'ratingKey'), (21731, 'ratingKey'), (21591, 'ratingKey'), (88712, 'ratingKey'), (21606, 'ratingKey'), (19793, 'ratingKey'), (88810, 'ratingKey'), (22139, 'ratingKey'), (22292, 'ratingKey'), (21602, 'ratingKey'), (21743, 'ratingKey'), (22293, 'ratingKey'), (22399, 'ratingKey'), (22426, 'ratingKey'), (22433, 'ratingKey'), (21049, 'ratingKey'), (88906, 'ratingKey'), (88759, 'ratingKey'), (88914, 'ratingKey'), (88880, 'ratingKey'), (88566, 'ratingKey'), (88577, 'ratingKey'), (88915, 'ratingKey'), (88576, 'ratingKey'), (88911, 'ratingKey'), (88867, 'ratingKey'), (88863, 'ratingKey'), (88567, 'ratingKey'), (88910, 'ratingKey'), (88574, 'ratingKey'), (88868, 'ratingKey'), (88918, 'ratingKey'), (88575, 'ratingKey'), (88890, 'ratingKey'), (88917, 'ratingKey'), (21756, 'ratingKey'), (22571, 'ratingKey'), (22574, 'ratingKey'), (22570, 'ratingKey'), (22575, 'ratingKey'), (13680, 'ratingKey'), (13665, 'ratingKey'), (88644, 'ratingKey'), (22462, 'ratingKey'), (21593, 'ratingKey'), (88598, 'ratingKey'), (88597, 'ratingKey'), (83123, 'ratingKey'), (88664, 'ratingKey'), (88600, 'ratingKey'), (88606, 'ratingKey'), (21633, 'ratingKey'), (13650, 'ratingKey'), (13649, 'ratingKey'), (13639, 'ratingKey'), (13646, 'ratingKey'), (88540, 'ratingKey'), (88808, 'ratingKey'), (88523, 'ratingKey'), (88612, 'ratingKey'), (88877, 'ratingKey'), (88613, 'ratingKey'), (88619, 'ratingKey'), (88809, 'ratingKey'), (7406, 'ratingKey'), (88794, 'ratingKey'), (22482, 'ratingKey'), (22580, 'ratingKey'), (22485, 'ratingKey'), (21645, 'ratingKey'), (19778, 'ratingKey'), (22460, 'ratingKey'), (21647, 'ratingKey'), (21730, 'ratingKey'), (7466, 'ratingKey'), (7422, 'ratingKey'), (88738, 'ratingKey'), (88857, 'ratingKey'), (21576, 'ratingKey'), (22452, 'ratingKey'), (21650, 'ratingKey'), (19796, 'ratingKey'), (88901, 'ratingKey'), (21698, 'ratingKey'), (19771, 'ratingKey'), (88662, 'ratingKey'), (7423, 'ratingKey'), (19797, 'ratingKey'), (22363, 'ratingKey'), (7476, 'ratingKey'), (33322, 'ratingKey'), (88556, 'ratingKey'), (21604, 'ratingKey'), (21605, 'ratingKey'), (21599, 'ratingKey'), (21600, 'ratingKey'), (88816, 'ratingKey'), (19808, 'ratingKey'), (7469, 'ratingKey'), (88875, 'ratingKey'), (22080, 'ratingKey'), (83039, 'ratingKey'), (19775, 'ratingKey'), (22400, 'ratingKey'), (88796, 'ratingKey'), (22290, 'ratingKey'), (22496, 'ratingKey'), (88555, 'ratingKey'), (88616, 'ratingKey'), (88628, 'ratingKey'), (88632, 'ratingKey'), (88614, 'ratingKey'), (88633, 'ratingKey'), (88634, 'ratingKey'), (21740, 'ratingKey'), (13681, 'ratingKey'), (22492, 'ratingKey'), (22493, 'ratingKey'), (22497, 'ratingKey'), (21628, 'ratingKey'), (22364, 'ratingKey'), (83074, 'ratingKey'), (83075, 'ratingKey'), (83076, 'ratingKey'), (88526, 'ratingKey'), (88654, 'ratingKey'), (21981, 'ratingKey'), (21651, 'ratingKey'), (88707, 'ratingKey'), (88656, 'ratingKey'), (88655, 'ratingKey'), (21760, 'ratingKey'), (7471, 'ratingKey'), (88559, 'ratingKey'), (21601, 'ratingKey'), (19803, 'ratingKey'), (21734, 'ratingKey'), (22450, 'ratingKey'), (21592, 'ratingKey'), (13690, 'ratingKey'), (88561, 'ratingKey'), (83125, 'ratingKey'), (13688, 'ratingKey'), (22393, 'ratingKey'), (22383, 'ratingKey'), (21578, 'ratingKey'), (88659, 'ratingKey'), (21722, 'ratingKey'), (88909, 'ratingKey'), (88907, 'ratingKey'), (88564, 'ratingKey'), (88904, 'ratingKey'), (88908, 'ratingKey'), (88560, 'ratingKey'), (88913, 'ratingKey'), (88902, 'ratingKey'), (88897, 'ratingKey'), (88871, 'ratingKey'), (88872, 'ratingKey'), (88903, 'ratingKey'), (88899, 'ratingKey'), (88870, 'ratingKey'), (88869, 'ratingKey'), (88773, 'ratingKey'), (88563, 'ratingKey'), (88772, 'ratingKey'), (88562, 'ratingKey'), (88771, 'ratingKey'), (88774, 'ratingKey'), (7481, 'ratingKey'), (7482, 'ratingKey'), (7407, 'ratingKey'), (88840, 'ratingKey'), (21725, 'ratingKey'), (7457, 'ratingKey'), (21772, 'ratingKey'), (21911, 'ratingKey'), (19764, 'ratingKey'), (22291, 'ratingKey'), (22419, 'ratingKey'), (22454, 'ratingKey'), (22525, 'ratingKey'), (22526, 'ratingKey'), (21624, 'ratingKey'), (88524, 'ratingKey'), (21640, 'ratingKey'), (21691, 'ratingKey'), (22586, 'ratingKey'), (22587, 'ratingKey'), (22591, 'ratingKey'), (88692, 'ratingKey'), (19782, 'ratingKey'), (29071, 'ratingKey'), (34562, 'ratingKey'), (22395, 'ratingKey'), (88673, 'ratingKey'), (88680, 'ratingKey'), (88674, 'ratingKey'), (88677, 'ratingKey'), (88682, 'ratingKey'), (21723, 'ratingKey'), (88688, 'ratingKey'), (88689, 'ratingKey'), (88685, 'ratingKey'), (88832, 'ratingKey'), (88835, 'ratingKey'), (88833, 'ratingKey'), (88507, 'ratingKey'), (21910, 'ratingKey'), (21971, 'ratingKey'), (21932, 'ratingKey'), (83040, 'ratingKey'), (88646, 'ratingKey'), (22362, 'ratingKey'), (88737, 'ratingKey'), (21759, 'ratingKey'), (21696, 'ratingKey'), (21588, 'ratingKey'), (88731, 'ratingKey'), (88739, 'ratingKey'), (88534, 'ratingKey')]
+[2022-10-11 10:00:34,204] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 10:00:34,204] [builder.py:1541]           [DEBUG]    | 247 IDs Found: [(22024, 'ratingKey'), (19810, 'ratingKey'), (21631, 'ratingKey'), (21574, 'ratingKey'), (88579, 'ratingKey'), (7420, 'ratingKey'), (13637, 'ratingKey'), (21643, 'ratingKey'), (88879, 'ratingKey'), (22472, 'ratingKey'), (22465, 'ratingKey'), (22451, 'ratingKey'), (21623, 'ratingKey'), (88858, 'ratingKey'), (88590, 'ratingKey'), (88583, 'ratingKey'), (88594, 'ratingKey'), (88859, 'ratingKey'), (88856, 'ratingKey'), (88843, 'ratingKey'), (89287, 'ratingKey'), (88582, 'ratingKey'), (88838, 'ratingKey'), (88580, 'ratingKey'), (88780, 'ratingKey'), (88839, 'ratingKey'), (21575, 'ratingKey'), (21731, 'ratingKey'), (21591, 'ratingKey'), (88712, 'ratingKey'), (21606, 'ratingKey'), (19793, 'ratingKey'), (88810, 'ratingKey'), (22139, 'ratingKey'), (22292, 'ratingKey'), (21602, 'ratingKey'), (21743, 'ratingKey'), (22293, 'ratingKey'), (22399, 'ratingKey'), (22426, 'ratingKey'), (22433, 'ratingKey'), (21049, 'ratingKey'), (88906, 'ratingKey'), (88759, 'ratingKey'), (88914, 'ratingKey'), (88880, 'ratingKey'), (88566, 'ratingKey'), (88577, 'ratingKey'), (88915, 'ratingKey'), (88576, 'ratingKey'), (88911, 'ratingKey'), (88867, 'ratingKey'), (88863, 'ratingKey'), (88567, 'ratingKey'), (88910, 'ratingKey'), (88574, 'ratingKey'), (88868, 'ratingKey'), (88918, 'ratingKey'), (88575, 'ratingKey'), (88890, 'ratingKey'), (88917, 'ratingKey'), (21756, 'ratingKey'), (22571, 'ratingKey'), (22574, 'ratingKey'), (22570, 'ratingKey'), (22575, 'ratingKey'), (13680, 'ratingKey'), (13665, 'ratingKey'), (88644, 'ratingKey'), (22462, 'ratingKey'), (21593, 'ratingKey'), (88598, 'ratingKey'), (88597, 'ratingKey'), (83123, 'ratingKey'), (88664, 'ratingKey'), (88600, 'ratingKey'), (88606, 'ratingKey'), (21633, 'ratingKey'), (13650, 'ratingKey'), (13649, 'ratingKey'), (13639, 'ratingKey'), (13646, 'ratingKey'), (88540, 'ratingKey'), (88808, 'ratingKey'), (88523, 'ratingKey'), (88612, 'ratingKey'), (88877, 'ratingKey'), (88613, 'ratingKey'), (88619, 'ratingKey'), (88809, 'ratingKey'), (7406, 'ratingKey'), (88794, 'ratingKey'), (22482, 'ratingKey'), (22580, 'ratingKey'), (22485, 'ratingKey'), (21645, 'ratingKey'), (19778, 'ratingKey'), (22460, 'ratingKey'), (21647, 'ratingKey'), (21730, 'ratingKey'), (7466, 'ratingKey'), (7422, 'ratingKey'), (88738, 'ratingKey'), (88857, 'ratingKey'), (21576, 'ratingKey'), (22452, 'ratingKey'), (21650, 'ratingKey'), (19796, 'ratingKey'), (88901, 'ratingKey'), (21698, 'ratingKey'), (19771, 'ratingKey'), (88662, 'ratingKey'), (7423, 'ratingKey'), (19797, 'ratingKey'), (22363, 'ratingKey'), (7476, 'ratingKey'), (33322, 'ratingKey'), (88556, 'ratingKey'), (21604, 'ratingKey'), (21605, 'ratingKey'), (21599, 'ratingKey'), (21600, 'ratingKey'), (88816, 'ratingKey'), (19808, 'ratingKey'), (7469, 'ratingKey'), (88875, 'ratingKey'), (22080, 'ratingKey'), (83039, 'ratingKey'), (19775, 'ratingKey'), (22400, 'ratingKey'), (88796, 'ratingKey'), (22290, 'ratingKey'), (22496, 'ratingKey'), (88555, 'ratingKey'), (88616, 'ratingKey'), (88628, 'ratingKey'), (88632, 'ratingKey'), (88614, 'ratingKey'), (88633, 'ratingKey'), (88634, 'ratingKey'), (21740, 'ratingKey'), (13681, 'ratingKey'), (22492, 'ratingKey'), (22493, 'ratingKey'), (22497, 'ratingKey'), (21628, 'ratingKey'), (22364, 'ratingKey'), (83074, 'ratingKey'), (83075, 'ratingKey'), (83076, 'ratingKey'), (88526, 'ratingKey'), (88654, 'ratingKey'), (21981, 'ratingKey'), (21651, 'ratingKey'), (88707, 'ratingKey'), (88656, 'ratingKey'), (88655, 'ratingKey'), (21760, 'ratingKey'), (7471, 'ratingKey'), (88559, 'ratingKey'), (21601, 'ratingKey'), (19803, 'ratingKey'), (21734, 'ratingKey'), (22450, 'ratingKey'), (21592, 'ratingKey'), (13690, 'ratingKey'), (88561, 'ratingKey'), (83125, 'ratingKey'), (13688, 'ratingKey'), (22393, 'ratingKey'), (22383, 'ratingKey'), (21578, 'ratingKey'), (88659, 'ratingKey'), (21722, 'ratingKey'), (88909, 'ratingKey'), (88907, 'ratingKey'), (88564, 'ratingKey'), (88904, 'ratingKey'), (88908, 'ratingKey'), (88560, 'ratingKey'), (88913, 'ratingKey'), (88902, 'ratingKey'), (88897, 'ratingKey'), (88871, 'ratingKey'), (88872, 'ratingKey'), (88903, 'ratingKey'), (88899, 'ratingKey'), (88870, 'ratingKey'), (88869, 'ratingKey'), (88773, 'ratingKey'), (88563, 'ratingKey'), (88772, 'ratingKey'), (88562, 'ratingKey'), (88771, 'ratingKey'), (88774, 'ratingKey'), (7481, 'ratingKey'), (7482, 'ratingKey'), (7407, 'ratingKey'), (88840, 'ratingKey'), (21725, 'ratingKey'), (7457, 'ratingKey'), (21772, 'ratingKey'), (21911, 'ratingKey'), (19764, 'ratingKey'), (22291, 'ratingKey'), (22419, 'ratingKey'), (22454, 'ratingKey'), (22525, 'ratingKey'), (22526, 'ratingKey'), (21624, 'ratingKey'), (88524, 'ratingKey'), (21640, 'ratingKey'), (21691, 'ratingKey'), (22586, 'ratingKey'), (22587, 'ratingKey'), (22591, 'ratingKey'), (88692, 'ratingKey'), (19782, 'ratingKey'), (29071, 'ratingKey'), (34562, 'ratingKey'), (22395, 'ratingKey'), (88673, 'ratingKey'), (88680, 'ratingKey'), (88674, 'ratingKey'), (88677, 'ratingKey'), (88682, 'ratingKey'), (21723, 'ratingKey'), (88688, 'ratingKey'), (88689, 'ratingKey'), (88685, 'ratingKey'), (88832, 'ratingKey'), (88835, 'ratingKey'), (88833, 'ratingKey'), (88507, 'ratingKey'), (21910, 'ratingKey'), (21971, 'ratingKey'), (21932, 'ratingKey'), (83040, 'ratingKey'), (88646, 'ratingKey'), (22362, 'ratingKey'), (88737, 'ratingKey'), (21759, 'ratingKey'), (21696, 'ratingKey'), (21588, 'ratingKey'), (88731, 'ratingKey'), (88739, 'ratingKey'), (88534, 'ratingKey')]
+[2022-10-11 10:00:34,204] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 10:00:34,299] [builder.py:2064]           [INFO]     | 
+[2022-10-11 10:00:34,300] [builder.py:2065]           [INFO]     |================================== Adding to Adventure Collection ==================================|
+[2022-10-11 10:00:34,300] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-11 10:00:34,315] [builder.py:2080]           [INFO]     |   1/247 | Adventure Collection | + | 1001 Pattes (1998)                                            |
+[2022-10-11 10:00:34,761] [builder.py:2080]           [INFO]     |   2/247 | Adventure Collection | + | Ainbo, princesse d'Amazonie (2021)                            |
+[2022-10-11 10:00:35,300] [builder.py:2080]           [INFO]     |   3/247 | Adventure Collection | + | Aladdin (1992)                                                |
+[2022-10-11 10:00:35,318] [builder.py:2080]           [INFO]     |   4/247 | Adventure Collection | + | Alice au pays des merveilles (2010)                           |
+[2022-10-11 10:00:35,337] [builder.py:2080]           [INFO]     |   5/247 | Adventure Collection | + | All-Star Superman (2011)                                      |
+[2022-10-11 10:00:35,354] [builder.py:2080]           [INFO]     |   6/247 | Adventure Collection | + | Arrietty, le petit monde des chapardeurs (2010)               |
+[2022-10-11 10:00:35,797] [builder.py:2080]           [INFO]     |   7/247 | Adventure Collection | + | Astérix - Le Secret de la Potion Magique (2018)               |
+[2022-10-11 10:00:35,813] [builder.py:2080]           [INFO]     |   8/247 | Adventure Collection | + | Atlantide, l'empire perdu (2001)                              |
+[2022-10-11 10:00:35,829] [builder.py:2080]           [INFO]     |   9/247 | Adventure Collection | + | Avengers Confidential : La Veuve Noire et Le Punisher (2014)  |
+[2022-10-11 10:00:35,846] [builder.py:2080]           [INFO]     |  10/247 | Adventure Collection | + | Baby Boss (2017)                                              |
+[2022-10-11 10:00:36,760] [builder.py:2080]           [INFO]     |  11/247 | Adventure Collection | + | Baby Boss 2 : Une affaire de famille (2021)                   |
+[2022-10-11 10:00:37,661] [builder.py:2080]           [INFO]     |  12/247 | Adventure Collection | + | Bambi 2 (2006)                                                |
+[2022-10-11 10:00:38,165] [builder.py:2080]           [INFO]     |  13/247 | Adventure Collection | + | Basil, détective privé (1986)                                 |
+[2022-10-11 10:00:38,624] [builder.py:2080]           [INFO]     |  14/247 | Adventure Collection | + | Batman : Le Retour des Justiciers Masqués (2016)              |
+[2022-10-11 10:00:38,641] [builder.py:2080]           [INFO]     |  15/247 | Adventure Collection | + | Batman : Les Origines (2011)                                  |
+[2022-10-11 10:00:38,657] [builder.py:2080]           [INFO]     |  16/247 | Adventure Collection | + | Batman contre le Fantôme masqué (1993)                        |
+[2022-10-11 10:00:38,675] [builder.py:2080]           [INFO]     |  17/247 | Adventure Collection | + | Batman et Harley Quinn (2017)                                 |
+[2022-10-11 10:00:38,692] [builder.py:2080]           [INFO]     |  18/247 | Adventure Collection | + | Batman Unlimited : L'instinct animal (2015)                   |
+[2022-10-11 10:00:38,709] [builder.py:2080]           [INFO]     |  19/247 | Adventure Collection | + | Batman vs. Robin (2015)                                       |
+[2022-10-11 10:00:38,729] [builder.py:2080]           [INFO]     |  20/247 | Adventure Collection | + | Batman, Assaut sur Arkham (2014)                              |
+[2022-10-11 10:00:38,747] [builder.py:2080]           [INFO]     |  21/247 | Adventure Collection | + | Batman: Gotham by Gaslight (2018)                             |
+[2022-10-11 10:00:38,763] [builder.py:2080]           [INFO]     |  22/247 | Adventure Collection | + | Batman: Gotham Knight (2008)                                  |
+[2022-10-11 10:00:38,781] [builder.py:2080]           [INFO]     |  23/247 | Adventure Collection | + | Batman: La Mystérieuse Batwoman (2003)                        |
+[2022-10-11 10:00:38,799] [builder.py:2080]           [INFO]     |  24/247 | Adventure Collection | + | Batman: Mauvais Sang (2016)                                   |
+[2022-10-11 10:00:38,816] [builder.py:2080]           [INFO]     |  25/247 | Adventure Collection | + | Batman: Soul of the Dragon (2021)                             |
+[2022-10-11 10:00:38,834] [builder.py:2080]           [INFO]     |  26/247 | Adventure Collection | + | Belle (2021)                                                  |
+[2022-10-11 10:00:38,852] [builder.py:2080]           [INFO]     |  27/247 | Adventure Collection | + | La Belle au bois dormant (1959)                               |
+[2022-10-11 10:00:39,305] [builder.py:2080]           [INFO]     |  28/247 | Adventure Collection | + | La Belle et le Clochard (1955)                                |
+[2022-10-11 10:00:39,726] [builder.py:2080]           [INFO]     |  29/247 | Adventure Collection | + | Bernard et Bianca au Pays des Kangourous (1990)               |
+[2022-10-11 10:00:40,162] [builder.py:2080]           [INFO]     |  30/247 | Adventure Collection | + | Bienvenue chez les Loud : Le film (2021)                      |
+[2022-10-11 10:00:40,757] [builder.py:2080]           [INFO]     |  31/247 | Adventure Collection | + | Bienvenue chez les Robinson (2007)                            |
+[2022-10-11 10:00:41,219] [builder.py:2080]           [INFO]     |  32/247 | Adventure Collection | + | Blanche Neige, les souliers rouges et les sept nains (2019)   |
+[2022-10-11 10:00:41,389] [builder.py:2080]           [INFO]     |  33/247 | Adventure Collection | + | Buzz l'Éclair (2022)                                          |
+[2022-10-11 10:00:41,408] [builder.py:2080]           [INFO]     |  34/247 | Adventure Collection | + | Cars : Quatre roues (2006)                                    |
+[2022-10-11 10:00:41,868] [builder.py:2080]           [INFO]     |  35/247 | Adventure Collection | + | Cars 2 (2011)                                                 |
+[2022-10-11 10:00:42,702] [builder.py:2080]           [INFO]     |  36/247 | Adventure Collection | + | Cendrillon (2015)                                             |
+[2022-10-11 10:00:43,180] [builder.py:2080]           [INFO]     |  37/247 | Adventure Collection | + | Chicken Little (2005)                                         |
+[2022-10-11 10:00:43,627] [builder.py:2080]           [INFO]     |  38/247 | Adventure Collection | + | Clochette et l’Expédition Féerique (2010)                     |
+[2022-10-11 10:00:44,401] [builder.py:2080]           [INFO]     |  39/247 | Adventure Collection | + | Clochette et la Créature Légendaire (2014)                    |
+[2022-10-11 10:00:45,216] [builder.py:2080]           [INFO]     |  40/247 | Adventure Collection | + | Clochette et la fée pirate (2014)                             |
+[2022-10-11 10:00:45,668] [builder.py:2080]           [INFO]     |  41/247 | Adventure Collection | + | Clochette et le secret des fées (2012)                        |
+[2022-10-11 10:00:46,156] [builder.py:2080]           [INFO]     |  42/247 | Adventure Collection | + | Demon Slayer : Kimetsu no Yaiba - Le film : Le train de l'Infini (2020) |
+[2022-10-11 10:00:46,173] [builder.py:2080]           [INFO]     |  43/247 | Adventure Collection | + | Détective Conan - Croisement dans l'ancienne capitale (2003)  |
+[2022-10-11 10:00:46,588] [builder.py:2080]           [INFO]     |  44/247 | Adventure Collection | + | Détective Conan - Jolly Roger et le Cercueil bleu azur (2007) |
+[2022-10-11 10:00:46,607] [builder.py:2080]           [INFO]     |  45/247 | Adventure Collection | + | Détective Conan - L'Arche du Ciel (2010)                      |
+[2022-10-11 10:00:46,624] [builder.py:2080]           [INFO]     |  46/247 | Adventure Collection | + | Détective Conan - L'assassin Dans Son Regard (2000)           |
+[2022-10-11 10:00:47,044] [builder.py:2080]           [INFO]     |  47/247 | Adventure Collection | + | Détective Conan - La 14éme Cible (1998)                       |
+[2022-10-11 10:00:47,473] [builder.py:2080]           [INFO]     |  48/247 | Adventure Collection | + | Détective Conan - La lettre d’amour écarlate (2017)           |
+[2022-10-11 10:00:47,488] [builder.py:2080]           [INFO]     |  49/247 | Adventure Collection | + | Détective Conan - La Mélodie de la peur (2008)                |
+[2022-10-11 10:00:47,504] [builder.py:2080]           [INFO]     |  50/247 | Adventure Collection | + | Détective Conan - Le Cauchemar Noir de Jais (2016)            |
+[2022-10-11 10:00:47,523] [builder.py:2080]           [INFO]     |  51/247 | Adventure Collection | + | Détective Conan - Le Chasseur noir de jais (2009)             |
+[2022-10-11 10:00:47,541] [builder.py:2080]           [INFO]     |  52/247 | Adventure Collection | + | Détective Conan - Le fantôme de Baker Street (2002)           |
+[2022-10-11 10:00:48,019] [builder.py:2080]           [INFO]     |  53/247 | Adventure Collection | + | Détective Conan - Le Gratte-Ciel Infernal (1997)              |
+[2022-10-11 10:00:48,515] [builder.py:2080]           [INFO]     |  54/247 | Adventure Collection | + | Détective Conan - Le magicien de la fin du siècle (1999)      |
+[2022-10-11 10:00:49,046] [builder.py:2080]           [INFO]     |  55/247 | Adventure Collection | + | Détective Conan - Le Onzième Attaquant (2012)                 |
+[2022-10-11 10:00:49,065] [builder.py:2080]           [INFO]     |  56/247 | Adventure Collection | + | Detective Conan - Le requiem des détectives (2006)            |
+[2022-10-11 10:00:49,083] [builder.py:2080]           [INFO]     |  57/247 | Adventure Collection | + | Détective Conan - Le sniper dimensionnel (2014)               |
+[2022-10-11 10:00:49,100] [builder.py:2080]           [INFO]     |  58/247 | Adventure Collection | + | Détective Conan - Les Quinze Minutes de silence (2011)        |
+[2022-10-11 10:00:49,116] [builder.py:2080]           [INFO]     |  59/247 | Adventure Collection | + | Détective Conan - Les tournesols des flammes infernales (2015) |
+[2022-10-11 10:00:49,132] [builder.py:2080]           [INFO]     |  60/247 | Adventure Collection | + | Détective Conan - Stratégie en profondeur (2005)              |
+[2022-10-11 10:00:49,150] [builder.py:2080]           [INFO]     |  61/247 | Adventure Collection | + | Détective Conan - Un détective privé en mer lointaine (2013)  |
+[2022-10-11 10:00:49,168] [builder.py:2080]           [INFO]     |  62/247 | Adventure Collection | + | Dinosaure (2000)                                              |
+[2022-10-11 10:00:49,594] [builder.py:2080]           [INFO]     |  63/247 | Adventure Collection | + | Dragons (2010)                                                |
+[2022-10-11 10:00:49,609] [builder.py:2080]           [INFO]     |  64/247 | Adventure Collection | + | Dragons : Le cadeau du Furie Nocturne (2011)                  |
+[2022-10-11 10:00:50,039] [builder.py:2080]           [INFO]     |  65/247 | Adventure Collection | + | Dragons 2 (2014)                                              |
+[2022-10-11 10:00:50,057] [builder.py:2080]           [INFO]     |  66/247 | Adventure Collection | + | Dragons 3 : Le monde caché (2019)                             |
+[2022-10-11 10:00:50,074] [builder.py:2080]           [INFO]     |  67/247 | Adventure Collection | + | Dumbo (2019)                                                  |
+[2022-10-11 10:00:50,930] [builder.py:2080]           [INFO]     |  68/247 | Adventure Collection | + | Encanto, la fantastique famille Madrigal (2021)               |
+[2022-10-11 10:00:50,947] [builder.py:2080]           [INFO]     |  69/247 | Adventure Collection | + | La Famille Addams 2 : Une virée d'enfer (2021)                |
+[2022-10-11 10:00:51,578] [builder.py:2080]           [INFO]     |  70/247 | Adventure Collection | + | Ferdinand (2017)                                              |
+[2022-10-11 10:00:52,167] [builder.py:2080]           [INFO]     |  71/247 | Adventure Collection | + | Frère des ours (2003)                                         |
+[2022-10-11 10:00:52,631] [builder.py:2080]           [INFO]     |  72/247 | Adventure Collection | + | Green Lantern: Le Complot (2009)                              |
+[2022-10-11 10:00:52,649] [builder.py:2080]           [INFO]     |  73/247 | Adventure Collection | + | Green Lantern: Les Chevaliers De L'Emeraude (2011)            |
+[2022-10-11 10:00:52,795] [builder.py:2080]           [INFO]     |  74/247 | Adventure Collection | + | Green Lantern: Méfiez-vous de mon pouvoir (2022)              |
+[2022-10-11 10:00:52,814] [builder.py:2080]           [INFO]     |  75/247 | Adventure Collection | + | Hansel & Gretel : Agents secrets (2021)                       |
+[2022-10-11 10:00:52,832] [builder.py:2080]           [INFO]     |  76/247 | Adventure Collection | + | Hellboy Animated : De sang et de fer (2007)                   |
+[2022-10-11 10:00:52,850] [builder.py:2080]           [INFO]     |  77/247 | Adventure Collection | + | Hellboy Animated : Le Sabre des Tempêtes (2006)               |
+[2022-10-11 10:00:52,867] [builder.py:2080]           [INFO]     |  78/247 | Adventure Collection | + | Hercule (1997)                                                |
+[2022-10-11 10:00:52,885] [builder.py:2080]           [INFO]     |  79/247 | Adventure Collection | + | Hôtel Transylvanie (2012)                                     |
+[2022-10-11 10:00:52,905] [builder.py:2080]           [INFO]     |  80/247 | Adventure Collection | + | Hôtel Transylvanie 2 (2015)                                   |
+[2022-10-11 10:00:53,612] [builder.py:2080]           [INFO]     |  81/247 | Adventure Collection | + | Hôtel Transylvanie 3 : Des vacances monstrueuses (2018)       |
+[2022-10-11 10:00:54,225] [builder.py:2080]           [INFO]     |  82/247 | Adventure Collection | + | Hôtel Transylvanie : Changements monstres (2022)              |
+[2022-10-11 10:00:54,843] [builder.py:2080]           [INFO]     |  83/247 | Adventure Collection | + | Hulk vs. Thor et Wolverine (2009)                             |
+[2022-10-11 10:00:54,860] [builder.py:2080]           [INFO]     |  84/247 | Adventure Collection | + | Icare (2022)                                                  |
+[2022-10-11 10:00:55,406] [builder.py:2080]           [INFO]     |  85/247 | Adventure Collection | + | Injustice (2021)                                              |
+[2022-10-11 10:00:55,423] [builder.py:2080]           [INFO]     |  86/247 | Adventure Collection | + | Iron Man & Hulk : l'union des Super-héros (2013)              |
+[2022-10-11 10:00:55,440] [builder.py:2080]           [INFO]     |  87/247 | Adventure Collection | + | Iron Man and Captain America: Heroes United (2014)            |
+[2022-10-11 10:00:55,459] [builder.py:2080]           [INFO]     |  88/247 | Adventure Collection | + | Justice League Dark (2017)                                    |
+[2022-10-11 10:00:55,476] [builder.py:2080]           [INFO]     |  89/247 | Adventure Collection | + | Justice League Dark: Apokolips War (2020)                     |
+[2022-10-11 10:00:55,494] [builder.py:2080]           [INFO]     |  90/247 | Adventure Collection | + | Justice Society : World War II (2021)                         |
+[2022-10-11 10:00:55,513] [builder.py:2080]           [INFO]     |  91/247 | Adventure Collection | + | Kiki la petite sorcière (1989)                                |
+[2022-10-11 10:00:55,531] [builder.py:2080]           [INFO]     |  92/247 | Adventure Collection | + | Krypto et les Super-Animaux (2022)                            |
+[2022-10-11 10:00:55,613] [builder.py:2080]           [INFO]     |  93/247 | Adventure Collection | + | Kung Fu Panda (2008)                                          |
+[2022-10-11 10:00:55,632] [builder.py:2080]           [INFO]     |  94/247 | Adventure Collection | + | Kung Fu Panda 2 (2011)                                        |
+[2022-10-11 10:00:55,649] [builder.py:2080]           [INFO]     |  95/247 | Adventure Collection | + | Kung Fu Panda 3 (2016)                                        |
+[2022-10-11 10:00:55,670] [builder.py:2080]           [INFO]     |  96/247 | Adventure Collection | + | Kuzco, l'empereur mégalo (2000)                               |
+[2022-10-11 10:00:56,167] [builder.py:2080]           [INFO]     |  97/247 | Adventure Collection | + | L'Âge de glace : Les Aventures de Buck Wild (2022)            |
+[2022-10-11 10:00:56,763] [builder.py:2080]           [INFO]     |  98/247 | Adventure Collection | + | L'Île aux chiens (2018)                                       |
+[2022-10-11 10:00:56,782] [builder.py:2080]           [INFO]     |  99/247 | Adventure Collection | + | Là-haut (2009)                                                |
+[2022-10-11 10:00:56,798] [builder.py:2080]           [INFO]     | 100/247 | Adventure Collection | + | Le bossu de Notre Dame (1996)                                 |
+[2022-10-11 10:00:57,203] [builder.py:2080]           [INFO]     | 101/247 | Adventure Collection | + | Le Château ambulant (2004)                                    |
+[2022-10-11 10:00:57,221] [builder.py:2080]           [INFO]     | 102/247 | Adventure Collection | + | Le Château dans le ciel (1986)                                |
+[2022-10-11 10:00:57,240] [builder.py:2080]           [INFO]     | 103/247 | Adventure Collection | + | Le Dragon-Génie (2021)                                        |
+[2022-10-11 10:00:57,832] [builder.py:2080]           [INFO]     | 104/247 | Adventure Collection | + | Le fils de Batman (2014)                                      |
+[2022-10-11 10:00:57,850] [builder.py:2080]           [INFO]     | 105/247 | Adventure Collection | + | Le Livre de la jungle (1967)                                  |
+[2022-10-11 10:00:58,282] [builder.py:2080]           [INFO]     | 106/247 | Adventure Collection | + | Le Livre de la Jungle 2 (2003)                                |
+[2022-10-11 10:00:58,758] [builder.py:2080]           [INFO]     | 107/247 | Adventure Collection | + | Le Monde de Nemo (2003)                                       |
+[2022-10-11 10:00:58,776] [builder.py:2080]           [INFO]     | 108/247 | Adventure Collection | + | Le peuple loup (2020)                                         |
+[2022-10-11 10:00:58,790] [builder.py:2080]           [INFO]     | 109/247 | Adventure Collection | + | Le Retour de Mewtwo (2000)                                    |
+[2022-10-11 10:00:58,806] [builder.py:2080]           [INFO]     | 110/247 | Adventure Collection | + | Le Roi lion (1994)                                            |
+[2022-10-11 10:00:58,826] [builder.py:2080]           [INFO]     | 111/247 | Adventure Collection | + | Le Roi Lion (2019)                                            |
+[2022-10-11 10:00:59,667] [builder.py:2080]           [INFO]     | 112/247 | Adventure Collection | + | Le Royaume de Terracotta (2021)                               |
+[2022-10-11 10:00:59,685] [builder.py:2080]           [INFO]     | 113/247 | Adventure Collection | + | Le Royaume des chats (2002)                                   |
+[2022-10-11 10:01:00,191] [builder.py:2080]           [INFO]     | 114/247 | Adventure Collection | + | Le sommet des dieux (2021)                                    |
+[2022-10-11 10:01:00,367] [builder.py:2080]           [INFO]     | 115/247 | Adventure Collection | + | Le Voyage d’Arlo (2015)                                       |
+[2022-10-11 10:01:00,980] [builder.py:2080]           [INFO]     | 116/247 | Adventure Collection | + | Le Voyage de Chihiro (2001)                                   |
+[2022-10-11 10:01:00,999] [builder.py:2080]           [INFO]     | 117/247 | Adventure Collection | + | La Grande Aventure LEGO (2014)                                |
+[2022-10-11 10:01:01,015] [builder.py:2080]           [INFO]     | 118/247 | Adventure Collection | + | Lego Marvel Spider-Man: Vexed by Venom (2019)                 |
+[2022-10-11 10:01:01,032] [builder.py:2080]           [INFO]     | 119/247 | Adventure Collection | + | Les 101 Dalmatiens (1961)                                     |
+[2022-10-11 10:01:01,469] [builder.py:2080]           [INFO]     | 120/247 | Adventure Collection | + | Les Aristochats (1970)                                        |
+[2022-10-11 10:01:01,906] [builder.py:2080]           [INFO]     | 121/247 | Adventure Collection | + | Les Aventures de Bernard et Bianca (1977)                     |
+[2022-10-11 10:01:02,336] [builder.py:2080]           [INFO]     | 122/247 | Adventure Collection | + | Les Aventures de Winnie l'ourson (1977)                       |
+[2022-10-11 10:01:02,773] [builder.py:2080]           [INFO]     | 123/247 | Adventure Collection | + | Les Bad Guys (2022)                                           |
+[2022-10-11 10:01:03,409] [builder.py:2080]           [INFO]     | 124/247 | Adventure Collection | + | Les Bouchetrous (2021)                                        |
+[2022-10-11 10:01:03,623] [builder.py:2080]           [INFO]     | 125/247 | Adventure Collection | + | Les Contes de Terremer (2006)                                 |
+[2022-10-11 10:01:04,066] [builder.py:2080]           [INFO]     | 126/247 | Adventure Collection | + | Les Héros Pokémon (2002)                                      |
+[2022-10-11 10:01:04,082] [builder.py:2080]           [INFO]     | 127/247 | Adventure Collection | + | Les Indestructibles (2004)                                    |
+[2022-10-11 10:01:04,099] [builder.py:2080]           [INFO]     | 128/247 | Adventure Collection | + | Les Minions (2015)                                            |
+[2022-10-11 10:01:04,114] [builder.py:2080]           [INFO]     | 129/247 | Adventure Collection | + | Les Mitchell contre les Machines (2021)                       |
+[2022-10-11 10:01:04,741] [builder.py:2080]           [INFO]     | 130/247 | Adventure Collection | + | Les Mondes de Ralph (2012)                                    |
+[2022-10-11 10:01:04,758] [builder.py:2080]           [INFO]     | 131/247 | Adventure Collection | + | Les Murs vagabonds (2022)                                     |
+[2022-10-11 10:01:04,776] [builder.py:2080]           [INFO]     | 132/247 | Adventure Collection | + | Les Nouveaux Héros (2014)                                     |
+[2022-10-11 10:01:04,795] [builder.py:2080]           [INFO]     | 133/247 | Adventure Collection | + | Les Pingouins de Madagascar (2014)                            |
+[2022-10-11 10:01:05,867] [builder.py:2080]           [INFO]     | 134/247 | Adventure Collection | + | Les Vengeurs Ultimate (2006)                                  |
+[2022-10-11 10:01:05,883] [builder.py:2080]           [INFO]     | 135/247 | Adventure Collection | + | La Ligue des Justiciers : Crise sur deux terres (2010)        |
+[2022-10-11 10:01:05,898] [builder.py:2080]           [INFO]     | 136/247 | Adventure Collection | + | La Ligue des Justiciers : Dieux et Monstres (2015)            |
+[2022-10-11 10:01:05,917] [builder.py:2080]           [INFO]     | 137/247 | Adventure Collection | + | La Ligue des Justiciers : Le Paradoxe Flashpoint (2013)       |
+[2022-10-11 10:01:05,934] [builder.py:2080]           [INFO]     | 138/247 | Adventure Collection | + | La Ligue des Justiciers : Le Trône de l'Atlantide (2015)      |
+[2022-10-11 10:01:05,952] [builder.py:2080]           [INFO]     | 139/247 | Adventure Collection | + | La Ligue des justiciers : Nouvelle frontière (2008)           |
+[2022-10-11 10:01:05,970] [builder.py:2080]           [INFO]     | 140/247 | Adventure Collection | + | La Ligue des justiciers vs les Teen Titans (2016)             |
+[2022-10-11 10:01:05,986] [builder.py:2080]           [INFO]     | 141/247 | Adventure Collection | + | Lilo et Stitch (2002)                                         |
+[2022-10-11 10:01:06,446] [builder.py:2080]           [INFO]     | 142/247 | Adventure Collection | + | Luca (2021)                                                   |
+[2022-10-11 10:01:07,068] [builder.py:2080]           [INFO]     | 143/247 | Adventure Collection | + | Madagascar (2005)                                             |
+[2022-10-11 10:01:07,528] [builder.py:2080]           [INFO]     | 144/247 | Adventure Collection | + | Madagascar 2 (2008)                                           |
+[2022-10-11 10:01:07,996] [builder.py:2080]           [INFO]     | 145/247 | Adventure Collection | + | Madagascar 3 : Bons baisers d'Europe (2012)                   |
+[2022-10-11 10:01:08,469] [builder.py:2080]           [INFO]     | 146/247 | Adventure Collection | + | Merlin l'enchanteur (1963)                                    |
+[2022-10-11 10:01:08,901] [builder.py:2080]           [INFO]     | 147/247 | Adventure Collection | + | Milo sur Mars (2011)                                          |
+[2022-10-11 10:01:08,920] [builder.py:2080]           [INFO]     | 148/247 | Adventure Collection | + | Moi, moche et méchant (2010)                                  |
+[2022-10-11 10:01:09,210] [builder.py:2080]           [INFO]     | 149/247 | Adventure Collection | + | Moi, moche et méchant 2 (2013)                                |
+[2022-10-11 10:01:09,535] [builder.py:2080]           [INFO]     | 150/247 | Adventure Collection | + | Moi, moche et méchant 3 (2017)                                |
+[2022-10-11 10:01:09,552] [builder.py:2080]           [INFO]     | 151/247 | Adventure Collection | + | Mon ninja et moi (2018)                                       |
+[2022-10-11 10:01:09,569] [builder.py:2080]           [INFO]     | 152/247 | Adventure Collection | + | Monster Hunter: Legends of the Guild (2021)                   |
+[2022-10-11 10:01:09,587] [builder.py:2080]           [INFO]     | 153/247 | Adventure Collection | + | Monstres & Cie (2001)                                         |
+[2022-10-11 10:01:09,604] [builder.py:2080]           [INFO]     | 154/247 | Adventure Collection | + | Monstres Academy (2013)                                       |
+[2022-10-11 10:01:09,732] [builder.py:2080]           [INFO]     | 155/247 | Adventure Collection | + | La Mort et le Retour de Superman (2019)                       |
+[2022-10-11 10:01:10,145] [builder.py:2080]           [INFO]     | 156/247 | Adventure Collection | + | Mortal Kombat Legends : Scorpion's Revenge (2020)             |
+[2022-10-11 10:01:10,163] [builder.py:2080]           [INFO]     | 157/247 | Adventure Collection | + | Mortal Kombat Legends: Battle of the Realms (2021)            |
+[2022-10-11 10:01:10,182] [builder.py:2080]           [INFO]     | 158/247 | Adventure Collection | + | Mulan (1998)                                                  |
+[2022-10-11 10:01:10,198] [builder.py:2080]           [INFO]     | 159/247 | Adventure Collection | + | Nausicaä de la vallée du vent (1984)                          |
+[2022-10-11 10:01:10,217] [builder.py:2080]           [INFO]     | 160/247 | Adventure Collection | + | Next Avengers (2008)                                          |
+[2022-10-11 10:01:10,233] [builder.py:2080]           [INFO]     | 161/247 | Adventure Collection | + | Oliver & Compagnie (1988)                                     |
+[2022-10-11 10:01:10,721] [builder.py:2080]           [INFO]     | 162/247 | Adventure Collection | + | La Pat' Patrouille : Le Film (2021)                           |
+[2022-10-11 10:01:11,349] [builder.py:2080]           [INFO]     | 163/247 | Adventure Collection | + | Peter Pan (1953)                                              |
+[2022-10-11 10:01:11,804] [builder.py:2080]           [INFO]     | 164/247 | Adventure Collection | + | Peter Pan 2 : Retour au Pays imaginaire (2002)                |
+[2022-10-11 10:01:12,750] [builder.py:2080]           [INFO]     | 165/247 | Adventure Collection | + | La Petite Sirène (1989)                                       |
+[2022-10-11 10:01:12,767] [builder.py:2080]           [INFO]     | 166/247 | Adventure Collection | + | Pierre Lapin (2018)                                           |
+[2022-10-11 10:01:13,402] [builder.py:2080]           [INFO]     | 167/247 | Adventure Collection | + | Pikachu à la rescousse (1999)                                 |
+[2022-10-11 10:01:13,852] [builder.py:2080]           [INFO]     | 168/247 | Adventure Collection | + | Pil (2021)                                                    |
+[2022-10-11 10:01:13,871] [builder.py:2080]           [INFO]     | 169/247 | Adventure Collection | + | Pinocchio (2019)                                              |
+[2022-10-11 10:01:14,469] [builder.py:2080]           [INFO]     | 170/247 | Adventure Collection | + | Planes (2013)                                                 |
+[2022-10-11 10:01:15,293] [builder.py:2080]           [INFO]     | 171/247 | Adventure Collection | + | Planes 2 (2014)                                               |
+[2022-10-11 10:01:16,120] [builder.py:2080]           [INFO]     | 172/247 | Adventure Collection | + | La Planète au Trésor : Un nouvel univers (2002)               |
+[2022-10-11 10:01:16,555] [builder.py:2080]           [INFO]     | 173/247 | Adventure Collection | + | Planète Hulk (2010)                                           |
+[2022-10-11 10:01:16,571] [builder.py:2080]           [INFO]     | 174/247 | Adventure Collection | + | Pocahontas : Une légende indienne (1995)                      |
+[2022-10-11 10:01:16,658] [builder.py:2080]           [INFO]     | 175/247 | Adventure Collection | + | Pokémon : Arceus et le Joyau de Vie (2009)                    |
+[2022-10-11 10:01:16,676] [builder.py:2080]           [INFO]     | 176/247 | Adventure Collection | + | Pokémon : Giratina et le Gardien du Ciel (2008)               |
+[2022-10-11 10:01:16,692] [builder.py:2080]           [INFO]     | 177/247 | Adventure Collection | + | Pokémon : Jirachi, le génie des vœux (2003)                   |
+[2022-10-11 10:01:16,709] [builder.py:2080]           [INFO]     | 178/247 | Adventure Collection | + | Pokémon : L'ascension de Darkrai (2007)                       |
+[2022-10-11 10:01:16,727] [builder.py:2080]           [INFO]     | 179/247 | Adventure Collection | + | Pokémon : La destinée de Deoxys (2004)                        |
+[2022-10-11 10:01:16,743] [builder.py:2080]           [INFO]     | 180/247 | Adventure Collection | + | Pokémon : Le Maître des Mirages (2006)                        |
+[2022-10-11 10:01:16,762] [builder.py:2080]           [INFO]     | 181/247 | Adventure Collection | + | Pokémon : Lucario et le Mystère de Mew (2005)                 |
+[2022-10-11 10:01:16,780] [builder.py:2080]           [INFO]     | 182/247 | Adventure Collection | + | Pokémon : Zoroark, le Maître des Illusions (2010)             |
+[2022-10-11 10:01:16,796] [builder.py:2080]           [INFO]     | 183/247 | Adventure Collection | + | Pokémon 2 : Le pouvoir est en toi (1999)                      |
+[2022-10-11 10:01:16,812] [builder.py:2080]           [INFO]     | 184/247 | Adventure Collection | + | Pokémon 3 : Le Sort des Zarbi (2000)                          |
+[2022-10-11 10:01:16,830] [builder.py:2080]           [INFO]     | 185/247 | Adventure Collection | + | Pokémon 4Ever : Célébi, la voix de la forêt (2001)            |
+[2022-10-11 10:01:16,846] [builder.py:2080]           [INFO]     | 186/247 | Adventure Collection | + | Pokémon Ranger et le Temple des Mers (2006)                   |
+[2022-10-11 10:01:16,864] [builder.py:2080]           [INFO]     | 187/247 | Adventure Collection | + | Pokémon, le film : Blanc - Victini et Zekrom (2011)           |
+[2022-10-11 10:01:17,325] [builder.py:2080]           [INFO]     | 188/247 | Adventure Collection | + | Pokémon, le film : Diancie et le cocon de l'annihilation (2014) |
+[2022-10-11 10:01:17,342] [builder.py:2080]           [INFO]     | 189/247 | Adventure Collection | + | Pokémon, le film : Genesect et l’éveil de la légende (2013)   |
+[2022-10-11 10:01:17,360] [builder.py:2080]           [INFO]     | 190/247 | Adventure Collection | + | Pokémon, le film : Hoopa et le choc des légendes (2015)       |
+[2022-10-11 10:01:17,380] [builder.py:2080]           [INFO]     | 191/247 | Adventure Collection | + | Pokémon, le film : Je te choisis ! (2017)                     |
+[2022-10-11 10:01:17,398] [builder.py:2080]           [INFO]     | 192/247 | Adventure Collection | + | Pokémon, le film : Kyurem VS la Lame de la Justice (2012)     |
+[2022-10-11 10:01:17,416] [builder.py:2080]           [INFO]     | 193/247 | Adventure Collection | + | Pokémon, le film : Mewtwo contre Mew (1998)                   |
+[2022-10-11 10:01:17,433] [builder.py:2080]           [INFO]     | 194/247 | Adventure Collection | + | Pokémon, le film : Noir - Victini et Reshiram (2011)          |
+[2022-10-11 10:01:17,846] [builder.py:2080]           [INFO]     | 195/247 | Adventure Collection | + | Pokémon, le film : Volcanion et la merveille mécanique (2016) |
+[2022-10-11 10:01:17,865] [builder.py:2080]           [INFO]     | 196/247 | Adventure Collection | + | Pompoko (1994)                                                |
+[2022-10-11 10:01:18,302] [builder.py:2080]           [INFO]     | 197/247 | Adventure Collection | + | Ponyo sur la falaise (2008)                                   |
+[2022-10-11 10:01:18,794] [builder.py:2080]           [INFO]     | 198/247 | Adventure Collection | + | Porco Rosso (1992)                                            |
+[2022-10-11 10:01:19,219] [builder.py:2080]           [INFO]     | 199/247 | Adventure Collection | + | Pretty Guardian Sailor Moon Eternal : Le film - Partie 1 (2021) |
+[2022-10-11 10:01:19,236] [builder.py:2080]           [INFO]     | 200/247 | Adventure Collection | + | La Princesse et la grenouille (2009)                          |
+[2022-10-11 10:01:19,682] [builder.py:2080]           [INFO]     | 201/247 | Adventure Collection | + | Princesse Mononoké (1997)                                     |
+[2022-10-11 10:01:19,699] [builder.py:2080]           [INFO]     | 202/247 | Adventure Collection | + | Raiponce (2010)                                               |
+[2022-10-11 10:01:20,131] [builder.py:2080]           [INFO]     | 203/247 | Adventure Collection | + | Ratatouille (2007)                                            |
+[2022-10-11 10:01:20,148] [builder.py:2080]           [INFO]     | 204/247 | Adventure Collection | + | Raya et le Dernier Dragon (2021)                              |
+[2022-10-11 10:01:20,166] [builder.py:2080]           [INFO]     | 205/247 | Adventure Collection | + | Rebelle (2012)                                                |
+[2022-10-11 10:01:20,184] [builder.py:2080]           [INFO]     | 206/247 | Adventure Collection | + | La reine des neiges (2013)                                    |
+[2022-10-11 10:01:20,202] [builder.py:2080]           [INFO]     | 207/247 | Adventure Collection | + | La Reine des neiges II (2019)                                 |
+[2022-10-11 10:01:21,116] [builder.py:2080]           [INFO]     | 208/247 | Adventure Collection | + | Rio (2011)                                                    |
+[2022-10-11 10:01:21,421] [builder.py:2080]           [INFO]     | 209/247 | Adventure Collection | + | Rio 2 (2014)                                                  |
+[2022-10-11 10:01:21,664] [builder.py:2080]           [INFO]     | 210/247 | Adventure Collection | + | Robin des Bois (1973)                                         |
+[2022-10-11 10:01:22,087] [builder.py:2080]           [INFO]     | 211/247 | Adventure Collection | + | Ron débloque (2021)                                           |
+[2022-10-11 10:01:22,332] [builder.py:2080]           [INFO]     | 212/247 | Adventure Collection | + | Rox et Rouky (1981)                                           |
+[2022-10-11 10:01:22,752] [builder.py:2080]           [INFO]     | 213/247 | Adventure Collection | + | Shrek (2001)                                                  |
+[2022-10-11 10:01:22,770] [builder.py:2080]           [INFO]     | 214/247 | Adventure Collection | + | Shrek 2 (2004)                                                |
+[2022-10-11 10:01:23,598] [builder.py:2080]           [INFO]     | 215/247 | Adventure Collection | + | Shrek le troisième (2007)                                     |
+[2022-10-11 10:01:24,401] [builder.py:2080]           [INFO]     | 216/247 | Adventure Collection | + | Shrek 4, il était une fin (2010)                              |
+[2022-10-11 10:01:25,237] [builder.py:2080]           [INFO]     | 217/247 | Adventure Collection | + | Les Simpson, le film (2007)                                   |
+[2022-10-11 10:01:25,921] [builder.py:2080]           [INFO]     | 218/247 | Adventure Collection | + | Soul (2020)                                                   |
+[2022-10-11 10:01:26,018] [builder.py:2080]           [INFO]     | 219/247 | Adventure Collection | + | Spider-Man : New Generation (2018)                            |
+[2022-10-11 10:01:26,044] [builder.py:2080]           [INFO]     | 220/247 | Adventure Collection | + | Star Wars : The Clone Wars (2008)                             |
+[2022-10-11 10:01:26,063] [builder.py:2080]           [INFO]     | 221/247 | Adventure Collection | + | Strange Magic (2015)                                          |
+[2022-10-11 10:01:26,727] [builder.py:2080]           [INFO]     | 222/247 | Adventure Collection | + | Superman : L'Homme de demain (2020)                           |
+[2022-10-11 10:01:26,743] [builder.py:2080]           [INFO]     | 223/247 | Adventure Collection | + | Superman : Le Crépuscule d'un dieu (2007)                     |
+[2022-10-11 10:01:26,761] [builder.py:2080]           [INFO]     | 224/247 | Adventure Collection | + | Superman/Batman: Apocalypse (2010)                            |
+[2022-10-11 10:01:26,778] [builder.py:2080]           [INFO]     | 225/247 | Adventure Collection | + | SuperMan/Batman: Ennemis publics (2009)                       |
+[2022-10-11 10:01:26,795] [builder.py:2080]           [INFO]     | 226/247 | Adventure Collection | + | Superman/Shazam - Le retour de Black Adam (2010)              |
+[2022-10-11 10:01:26,813] [builder.py:2080]           [INFO]     | 227/247 | Adventure Collection | + | Tarzan (1999)                                                 |
+[2022-10-11 10:01:26,828] [builder.py:2080]           [INFO]     | 228/247 | Adventure Collection | + | Teen Titans Go! Vs. Teen Titans (2019)                        |
+[2022-10-11 10:01:26,844] [builder.py:2080]           [INFO]     | 229/247 | Adventure Collection | + | Teen Titans Le contrat Judas (2017)                           |
+[2022-10-11 10:01:26,862] [builder.py:2080]           [INFO]     | 230/247 | Adventure Collection | + | TMNT: les tortues ninja (2007)                                |
+[2022-10-11 10:01:26,878] [builder.py:2080]           [INFO]     | 231/247 | Adventure Collection | + | Tom & Jerry au Far West (2022)                                |
+[2022-10-11 10:01:27,478] [builder.py:2080]           [INFO]     | 232/247 | Adventure Collection | + | Tom et Jerry : L'histoire de Robin des Bois (2012)            |
+[2022-10-11 10:01:27,495] [builder.py:2080]           [INFO]     | 233/247 | Adventure Collection | + | Tom et Jerry : L’Anneau magique (2001)                        |
+[2022-10-11 10:01:27,512] [builder.py:2080]           [INFO]     | 234/247 | Adventure Collection | + | Tous en scène 2 (2021)                                        |
+[2022-10-11 10:01:28,183] [builder.py:2080]           [INFO]     | 235/247 | Adventure Collection | + | Toy Story (1995)                                              |
+[2022-10-11 10:01:28,203] [builder.py:2080]           [INFO]     | 236/247 | Adventure Collection | + | Toy Story 2 (1999)                                            |
+[2022-10-11 10:01:28,747] [builder.py:2080]           [INFO]     | 237/247 | Adventure Collection | + | Toy Story 3 (2010)                                            |
+[2022-10-11 10:01:28,766] [builder.py:2080]           [INFO]     | 238/247 | Adventure Collection | + | Toy Story 4 (2019)                                            |
+[2022-10-11 10:01:28,783] [builder.py:2080]           [INFO]     | 239/247 | Adventure Collection | + | La Traversée du temps (2006)                                  |
+[2022-10-11 10:01:28,910] [builder.py:2080]           [INFO]     | 240/247 | Adventure Collection | + | Vice-versa (2015)                                             |
+[2022-10-11 10:01:28,931] [builder.py:2080]           [INFO]     | 241/247 | Adventure Collection | + | Vivo (2021)                                                   |
+[2022-10-11 10:01:29,537] [builder.py:2080]           [INFO]     | 242/247 | Adventure Collection | + | Volt, star malgré lui (2008)                                  |
+[2022-10-11 10:01:30,007] [builder.py:2080]           [INFO]     | 243/247 | Adventure Collection | + | WALL·E (2008)                                                 |
+[2022-10-11 10:01:30,025] [builder.py:2080]           [INFO]     | 244/247 | Adventure Collection | + | The Wild (2006)                                               |
+[2022-10-11 10:01:30,450] [builder.py:2080]           [INFO]     | 245/247 | Adventure Collection | + | The Witcher : le cauchemar du Loup (2021)                     |
+[2022-10-11 10:01:30,468] [builder.py:2080]           [INFO]     | 246/247 | Adventure Collection | + | Wonder Woman (2009)                                           |
+[2022-10-11 10:01:30,484] [builder.py:2080]           [INFO]     | 247/247 | Adventure Collection | + | Zébulon le dragon et les médecins volants (2020)              |
+[2022-10-11 10:01:31,628] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-11 10:01:31,628] [builder.py:2102]           [INFO]     | 247 Movies Processed 247 Movies Added                                                              |
+[2022-10-11 10:01:31,646] [plex.py:711]               [DEBUG]    | Smart Collection Test: ?type=1&sort=audienceRating%3Adesc&label=213014                             |
+[2022-10-11 10:01:33,282] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-11 10:01:33,283] [builder.py:2442]           [INFO]     |============================= Updating Details of Adventure Collection =============================|
+[2022-10-11 10:01:33,283] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-11 10:01:33,548] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Adventure film is a genre that revolves around the conquests and explorations of a protagonist. The purpose of the conquest can be to retrieve a person or treasure, but often the main focus is simply the pursuit of the unknown. These films generally take place in exotic locations and play on historical myths. Adventure films incorporate suspenseful puzzles and intricate obstacles that the protagonist must overcome in order to achieve the end goal.
+                                                                 | Sort Title | +3_Adventure
+                                                                 | Label | +PMM
+[2022-10-11 10:01:33,823] [builder.py:2513]           [INFO]     | Details: have been updated
+[2022-10-11 10:01:33,823] [builder.py:2517]           [INFO]     | 
+[2022-10-11 10:01:33,824] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Adventure'
+[2022-10-11 10:01:33,824] [util.py:150]               [DEBUG]    | 1 poster found:
+[2022-10-11 10:01:33,824] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_ADVENTURE.png
+[2022-10-11 10:01:33,863] [library.py:170]            [INFO]     | Detail: url_poster updated poster to [URL] https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_ADVENTURE.png
+[2022-10-11 10:01:34,763] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-11 10:01:34,763] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 10:01:34,763] [plex_meta_manager.py:709]  [INFO]     |                                   Finished Adventure Collection                                    |
+[2022-10-11 10:01:34,764] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:01:01                                    |
+[2022-10-11 10:01:34,764] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

@@ -1,0 +1,64 @@
+[2022-10-08 13:05:00,066] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-08 13:05:00,067] [builder.py:197]            [INFO]     |                              The Godfather Collection in Z. 1 - Films                              |
+[2022-10-08 13:05:00,067] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-08 13:05:00,068] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-08 13:05:00,068] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-08 13:05:00,068] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-08 13:05:00,069] [meta.py:128]               [DEBUG]    | Template TMDb Collections                                                                          |
+[2022-10-08 13:05:00,069] [meta.py:129]               [DEBUG]    | Call: {'value': ['230'], 'tmdb_collection': ['230'], 'key_name': 'The Godfather', 'key': '230', 'name': 'TMDb Collections'} |
+[2022-10-08 13:05:00,069] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-08 13:05:00,069] [meta.py:305]               [DEBUG]    | Variables: {'value': ['230'], 'tmdb_collection': ['230'], 'key_name': 'The Godfather', 'key': '230', 'name': 'TMDb Collections', 'collection_name': 'The Godfather', 'mapping_name': 'The Godfather', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%27230%27%5D', 'tmdb_collection_encoded': '%5B%27230%27%5D', 'key_name_encoded': 'The%20Godfather', 'key_encoded': '230', 'name_encoded': 'TMDb%20Collections', 'collection_name_encoded': 'The%20Godfather', 'mapping_name_encoded': 'The%20Godfather', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'The Godfather'} |
+[2022-10-08 13:05:00,070] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-08 13:05:00,070] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-08 13:05:00,070] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-08 13:05:00,070] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-08 13:05:00,071] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-08 13:05:00,071] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['230'], 'minimum_items': 2}                |
+[2022-10-08 13:05:00,071] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-08 13:05:00,072] [builder.py:219]            [INFO]     |=============================== Validating The Godfather Attributes ================================|
+[2022-10-08 13:05:00,072] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-08 13:05:00,072] [builder.py:631]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-08 13:05:00,072] [builder.py:632]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-08 13:05:00,073] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-08 13:05:00,073] [builder.py:631]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-08 13:05:00,073] [builder.py:632]            [DEBUG]    | Value: ['230']                                                                                     |
+[2022-10-08 13:05:00,092] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-08 13:05:00,093] [builder.py:631]            [DEBUG]    | Validating Method: minimum_items                                                                   |
+[2022-10-08 13:05:00,093] [builder.py:632]            [DEBUG]    | Value: 2                                                                                           |
+[2022-10-08 13:05:00,338] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-08 13:05:00,338] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-08 13:05:00,338] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-08 13:05:00,339] [plex_meta_manager.py:563]  [INFO]     |================================= Running The Godfather Collection =================================|
+[2022-10-08 13:05:00,339] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-08 13:05:00,339] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-08 13:05:00,340] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-08 13:05:00,340] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 230                                                                      |
+[2022-10-08 13:05:00,340] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-08 13:05:00,349] [tmdb.py:382]               [INFO]     | Processing TMDb Collection: (230) The Godfather Collection (3 Items)                               |
+[2022-10-08 13:05:00,350] [builder.py:1540]           [DEBUG]    |                                                                                                    |
+[2022-10-08 13:05:00,350] [builder.py:1541]           [DEBUG]    | 3 IDs Found: [(238, 'tmdb'), (240, 'tmdb'), (242, 'tmdb')]                                         |
+[2022-10-08 13:05:00,350] [builder.py:1542]           [DEBUG]    |                                                                                                    |
+[2022-10-08 13:05:00,350] [builder.py:2064]           [INFO]     |                                                                                                    |
+[2022-10-08 13:05:00,351] [builder.py:2065]           [INFO]     |================================ Adding to The Godfather Collection ================================|
+[2022-10-08 13:05:00,351] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-08 13:05:00,351] [builder.py:2080]           [INFO]     | 1/3 | The Godfather Collection | = | Le Parrain (1972)                                             |
+[2022-10-08 13:05:00,351] [builder.py:2080]           [INFO]     | 2/3 | The Godfather Collection | = | Le Parrain, 2e partie (1974)                                  |
+[2022-10-08 13:05:00,352] [builder.py:2080]           [INFO]     | 3/3 | The Godfather Collection | = | Le Parrain, 3e partie (1990)                                  |
+[2022-10-08 13:05:00,352] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-08 13:05:00,352] [builder.py:2102]           [INFO]     | 3 Movies Processed 0 Movies Added                                                                  |
+[2022-10-08 13:05:00,362] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-08 13:05:00,362] [builder.py:2442]           [INFO]     |=========================== Updating Details of The Godfather Collection ===========================|
+[2022-10-08 13:05:00,363] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-08 13:05:00,375] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-10-08 13:05:00,376] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'The Godfather'                                        |
+[2022-10-08 13:05:00,376] [util.py:150]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-10-08 13:05:00,376] [util.py:152]               [DEBUG]    | Method: tmdb_collection_details Poster: https://image.tmdb.org/t/p/original/9Baumh5J9N1nJUYzNkm0xsgjpwY.jpg |
+[2022-10-08 13:05:00,376] [util.py:150]               [DEBUG]    | 1 background found:                                                                                |
+[2022-10-08 13:05:00,376] [util.py:152]               [DEBUG]    | Method: tmdb_collection_details Background: https://image.tmdb.org/t/p/original/3WZTxpgscsmoUk81TuECXdFOD0R.jpg |
+[2022-10-08 13:05:00,378] [library.py:172]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-10-08 13:05:00,379] [library.py:188]            [INFO]     | Detail: background update not needed                                                               |
+[2022-10-08 13:05:00,610] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-08 13:05:00,610] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-08 13:05:00,610] [plex_meta_manager.py:709]  [INFO]     |                                 Finished The Godfather Collection                                  |
+[2022-10-08 13:05:00,610] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-08 13:05:00,610] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

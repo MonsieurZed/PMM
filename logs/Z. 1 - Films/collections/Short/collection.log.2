@@ -1,0 +1,37 @@
+[2022-10-05 05:06:58,643] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-05 05:06:58,643] [builder.py:197]            [INFO]     |                                  Short Collection in Z. 1 - Films                                  |
+[2022-10-05 05:06:58,643] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-05 05:06:58,644] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-05 05:06:58,644] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-05 05:06:58,644] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-05 05:06:58,644] [meta.py:128]               [DEBUG]    | Template Genre                                                                                     |
+[2022-10-05 05:06:58,644] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Genre'), ('genre', 'Short')])                                         |
+[2022-10-05 05:06:58,645] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-05 05:06:58,645] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Genre'), ('genre', 'Short'), ('collection_name', 'Short'), ('mapping_name', 'Short'), ('library_type', 'movie'), ('library_name', 'Z. 1 - Films'), ('name_encoded', 'Genre'), ('genre_encoded', 'Short'), ('collection_name_encoded', 'Short'), ('mapping_name_encoded', 'Short'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%201%20-%20Films'), ('collection_sort', 'Short')]) |
+[2022-10-05 05:06:58,645] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-05 05:06:58,645] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-05 05:06:58,645] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-05 05:06:58,645] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-05 05:06:58,646] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-05 05:06:58,646] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+3_Short', 'sync_mode': 'sync', 'smart_label': 'audience_rating.desc', 'plex_search': {'genre': 'Short'}, 'collection_order': 'alpha'} |
+[2022-10-05 05:06:58,646] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-05 05:06:58,646] [builder.py:219]            [INFO]     |=================================== Validating Short Attributes ====================================|
+[2022-10-05 05:06:58,647] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-05 05:06:58,647] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-05 05:06:58,647] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-05 05:06:58,647] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-05 05:06:58,647] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-05 05:06:58,647] [builder.py:544]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-10-05 05:06:58,654] [plex_meta_manager.py:696]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 559, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str)
+                                                                 |   File "/modules/builder.py", line 608, in __init__
+                                                                 |     raise Failed(f"{self.Type} Error: collection_order does not work with Smart Collections")
+                                                                 | modules.util.Failed: Collection Error: collection_order does not work with Smart Collections
+                                                                 | 
+[2022-10-05 05:06:58,654] [plex_meta_manager.py:697]  [ERROR]    | Collection Error: collection_order does not work with Smart Collections
+[2022-10-05 05:06:58,655] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-05 05:06:58,655] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-05 05:06:58,655] [plex_meta_manager.py:709]  [INFO]     |                                     Finished Short Collection                                      |
+[2022-10-05 05:06:58,655] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-05 05:06:58,655] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

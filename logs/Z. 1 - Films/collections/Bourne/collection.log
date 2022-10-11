@@ -1,0 +1,76 @@
+[2022-10-11 09:18:39,941] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 09:18:39,941] [builder.py:197]            [INFO]     |                                 Bourne Collection in Z. 1 - Films                                  |
+[2022-10-11 09:18:39,941] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 09:18:39,941] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 09:18:39,941] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 09:18:39,941] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:18:39,942] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 09:18:39,942] [meta.py:129]               [DEBUG]    | Call: {'value': ['31562'], 'tmdb_collection': ['31562'], 'key_name': 'Bourne', 'key': '31562', 'name': 'my_template'} |
+[2022-10-11 09:18:39,942] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:18:39,942] [meta.py:305]               [DEBUG]    | Variables: {'value': ['31562'], 'tmdb_collection': ['31562'], 'key_name': 'Bourne', 'key': '31562', 'name': 'my_template', 'collection_name': 'Bourne', 'mapping_name': 'Bourne', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%2731562%27%5D', 'tmdb_collection_encoded': '%5B%2731562%27%5D', 'key_name_encoded': 'Bourne', 'key_encoded': '31562', 'name_encoded': 'my_template', 'collection_name_encoded': 'Bourne', 'mapping_name_encoded': 'Bourne', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Bourne'} |
+[2022-10-11 09:18:39,942] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:18:39,942] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 09:18:39,943] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:18:39,943] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 09:18:39,943] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:18:39,944] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['31562'], 'collection_order': 'release', 'collection_mode': 'hide_items'} |
+[2022-10-11 09:18:39,944] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:18:39,944] [builder.py:219]            [INFO]     |=================================== Validating Bourne Attributes ===================================|
+[2022-10-11 09:18:39,944] [builder.py:609]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:18:39,944] [builder.py:610]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 09:18:39,944] [builder.py:611]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 09:18:39,944] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:18:39,944] [builder.py:631]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 09:18:39,945] [builder.py:632]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 09:18:39,945] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:18:39,945] [builder.py:631]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 09:18:39,945] [builder.py:632]            [DEBUG]    | Value: ['31562']                                                                                   |
+[2022-10-11 09:18:39,960] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:18:39,960] [builder.py:631]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 09:18:39,960] [builder.py:632]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 09:18:39,966] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:18:39,966] [plex.py:793]               [DEBUG]    | Looking for: Bourne                                                                                |
+[2022-10-11 09:18:39,966] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 09:18:39,967] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 09:18:39,967] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 09:18:39,967] [plex_meta_manager.py:563]  [INFO]     |==================================== Running Bourne Collection =====================================|
+[2022-10-11 09:18:39,967] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 09:18:39,968] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 09:18:39,968] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 09:18:39,968] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 31562                                                                    |
+[2022-10-11 09:18:39,968] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 09:18:39,976] [tmdb.py:382]               [INFO]     | Processing TMDb Collection: (31562) Jason Bourne - Saga (5 Items)                                  |
+[2022-10-11 09:18:39,976] [builder.py:1540]           [DEBUG]    |                                                                                                    |
+[2022-10-11 09:18:39,976] [builder.py:1541]           [DEBUG]    | 5 IDs Found: [(2501, 'tmdb'), (2502, 'tmdb'), (2503, 'tmdb'), (49040, 'tmdb'), (324668, 'tmdb')]   |
+[2022-10-11 09:18:39,976] [builder.py:1542]           [DEBUG]    |                                                                                                    |
+[2022-10-11 09:18:39,976] [builder.py:2064]           [INFO]     |                                                                                                    |
+[2022-10-11 09:18:39,977] [builder.py:2065]           [INFO]     |=================================== Adding to Bourne Collection ====================================|
+[2022-10-11 09:18:39,977] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-11 09:18:39,977] [builder.py:2080]           [INFO]     | 1/5 | Bourne Collection | + | La Mémoire dans la peau (2002)                                       |
+[2022-10-11 09:18:40,250] [builder.py:2080]           [INFO]     | 2/5 | Bourne Collection | + | La Mort dans la peau (2004)                                          |
+[2022-10-11 09:18:40,503] [builder.py:2080]           [INFO]     | 3/5 | Bourne Collection | + | La Vengeance dans la peau (2007)                                     |
+[2022-10-11 09:18:40,903] [builder.py:2080]           [INFO]     | 4/5 | Bourne Collection | + | Jason Bourne : l’héritage (2012)                                     |
+[2022-10-11 09:18:41,238] [builder.py:2080]           [INFO]     | 5/5 | Bourne Collection | + | Jason Bourne (2016)                                                  |
+[2022-10-11 09:18:44,023] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-11 09:18:44,023] [builder.py:2102]           [INFO]     | 5 Movies Processed 5 Movies Added                                                                  |
+[2022-10-11 09:18:44,030] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-11 09:18:44,030] [builder.py:2442]           [INFO]     |============================== Updating Details of Bourne Collection ===============================|
+[2022-10-11 09:18:44,030] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-11 09:18:44,195] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_collection_details) | Jason Bourne est le personnage de fiction, héros éponyme de la série littéraire créée par Robert Ludlum, poursuivie par Eric Van Lustbader et incarné par Matt Damon dans les adaptations cinématographiques (Memoire dans la peau, La mort dans la peau, La vangeance dans la peau) et ensuite par Jeremy Renner dans (L'héritage).
+                                                                 | Label | +TMDb Collections, +PMM
+[2022-10-11 09:18:44,400] [builder.py:2513]           [INFO]     | Details: have been updated
+[2022-10-11 09:18:44,401] [builder.py:2517]           [INFO]     | 
+[2022-10-11 09:18:44,575] [builder.py:2529]           [INFO]     | Collection Mode | hideItems
+[2022-10-11 09:18:44,576] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Bourne'
+[2022-10-11 09:18:44,576] [util.py:150]               [DEBUG]    | 1 poster found:
+[2022-10-11 09:18:44,576] [util.py:152]               [DEBUG]    | Method: tmdb_collection_details Poster: https://image.tmdb.org/t/p/original/7wBBFK5uFm11IWXyMfUg5WUQFRb.jpg
+[2022-10-11 09:18:44,576] [util.py:150]               [DEBUG]    | 1 background found:
+[2022-10-11 09:18:44,577] [util.py:152]               [DEBUG]    | Method: tmdb_collection_details Background: https://image.tmdb.org/t/p/original/vA5xMglyZv7yzDTj1qUTU4OvelV.jpg
+[2022-10-11 09:18:44,740] [library.py:170]            [INFO]     | Detail: tmdb_collection_details updated poster to [URL] https://image.tmdb.org/t/p/original/7wBBFK5uFm11IWXyMfUg5WUQFRb.jpg
+[2022-10-11 09:18:44,761] [library.py:186]            [INFO]     | Detail: tmdb_collection_details updated background to [URL] https://image.tmdb.org/t/p/original/vA5xMglyZv7yzDTj1qUTU4OvelV.jpg
+[2022-10-11 09:18:45,009] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-11 09:18:45,009] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 09:18:45,009] [plex_meta_manager.py:709]  [INFO]     |                                     Finished Bourne Collection                                     |
+[2022-10-11 09:18:45,009] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:05                                    |
+[2022-10-11 09:18:45,010] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

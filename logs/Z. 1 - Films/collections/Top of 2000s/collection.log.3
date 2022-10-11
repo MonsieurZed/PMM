@@ -1,0 +1,50 @@
+[2022-10-11 07:57:42,366] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 07:57:42,367] [builder.py:197]            [INFO]     |                              Top of 2000s Collection in Z. 1 - Films                               |
+[2022-10-11 07:57:42,367] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 07:57:42,367] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 07:57:42,367] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 07:57:42,368] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 07:57:42,368] [meta.py:128]               [DEBUG]    | Template Chart                                                                                     |
+[2022-10-11 07:57:42,368] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Chart'), ('num', 3), ('year', 2000)])                                 |
+[2022-10-11 07:57:42,368] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 07:57:42,369] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Chart'), ('num', 3), ('year', 2000), ('collection_name', 'Top of 2000s'), ('mapping_name', 'Top of 2000s'), ('library_type', 'movie'), ('library_name', 'Z. 1 - Films'), ('name_encoded', 'Chart'), ('num_encoded', '3'), ('year_encoded', '2000'), ('collection_name_encoded', 'Top%20of%202000s'), ('mapping_name_encoded', 'Top%20of%202000s'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%201%20-%20Films'), ('collection_sort', 'Top of 2000s')]) |
+[2022-10-11 07:57:42,369] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 07:57:42,369] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 07:57:42,369] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 07:57:42,369] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 07:57:42,371] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 07:57:42,371] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+2_3DECADE of 2000', 'sync_mode': 'sync', 'smart_label': 'audience_rating.desc'} |
+[2022-10-11 07:57:42,371] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 07:57:42,371] [builder.py:219]            [INFO]     |================================ Validating Top of 2000s Attributes ================================|
+[2022-10-11 07:57:42,371] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-11 07:57:42,371] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-11 07:57:42,372] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-11 07:57:42,372] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-11 07:57:42,372] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-11 07:57:42,372] [builder.py:544]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-10-11 07:57:42,389] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 07:57:42,389] [builder.py:631]            [DEBUG]    | Validating Method: tmdb_discover                                                                   |
+[2022-10-11 07:57:42,389] [builder.py:632]            [DEBUG]    | Value: ordereddict([('primary_release_date.gte', '01/01/2000'), ('primary_release_date.lte', '12/31/2009'), ('with_original_language', 'fr'), ('sort_by', 'popularity.desc')]) |
+[2022-10-11 07:57:42,389] [util.py:745]               [WARNING]  | Collection Warning: tmdb_discover limit attribute not found using 100 as default                   |
+[2022-10-11 07:57:42,389] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 07:57:42,389] [builder.py:631]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-10-11 07:57:42,390] [builder.py:632]            [DEBUG]    | Value: ['https://www.imdb.com/list/ls000009131/', 'https://www.imdb.com/list/ls000026367/']        |
+[2022-10-11 07:57:42,982] [plex_meta_manager.py:696]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 559, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str)
+                                                                 |   File "/modules/builder.py", line 705, in __init__
+                                                                 |     self._imdb(method_name, method_data)
+                                                                 |   File "/modules/builder.py", line 1135, in _imdb
+                                                                 |     for imdb_dict in self.config.IMDb.validate_imdb_lists(self.Type, method_data, self.language):
+                                                                 |   File "/modules/imdb.py", line 52, in validate_imdb_lists
+                                                                 |     self._total(imdb_url, language)
+                                                                 |   File "/modules/imdb.py", line 95, in _total
+                                                                 |     raise Failed(f"IMDb Error: Failed to parse URL: {imdb_url}")
+                                                                 | modules.util.Failed: IMDb Error: Failed to parse URL: https://www.imdb.com/list/ls000009131/
+                                                                 | 
+[2022-10-11 07:57:42,983] [plex_meta_manager.py:697]  [ERROR]    | IMDb Error: Failed to parse URL: https://www.imdb.com/list/ls000009131/
+[2022-10-11 07:57:42,983] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-11 07:57:42,984] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 07:57:42,984] [plex_meta_manager.py:709]  [INFO]     |                                  Finished Top of 2000s Collection                                  |
+[2022-10-11 07:57:42,984] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 07:57:42,984] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

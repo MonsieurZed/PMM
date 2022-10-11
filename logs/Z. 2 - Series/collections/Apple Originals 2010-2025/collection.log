@@ -1,0 +1,205 @@
+[2022-09-30 05:11:34,884] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-09-30 05:11:34,884] [builder.py:197]            [INFO]     |                       Apple Originals 2010-2025 Collection in Z. 2 - Series                        |
+[2022-09-30 05:11:34,884] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-09-30 05:11:34,885] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-09-30 05:11:34,885] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-09-30 05:11:34,885] [builder.py:219]            [INFO]     |========================= Validating Apple Originals 2010-2025 Attributes ==========================|
+[2022-09-30 05:11:34,885] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-09-30 05:11:34,885] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-09-30 05:11:34,885] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-09-30 05:11:34,885] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-09-30 05:11:34,885] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-09-30 05:11:34,885] [builder.py:544]            [DEBUG]    | Value: originally_available.desc                                                                   |
+[2022-09-30 05:11:34,921] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-30 05:11:34,921] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-09-30 05:11:34,921] [builder.py:632]            [DEBUG]    | Value: +4_APPLE                                                                                    |
+[2022-09-30 05:11:34,921] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-30 05:11:34,922] [builder.py:631]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-09-30 05:11:34,922] [builder.py:632]            [DEBUG]    | Value: ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2010-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=250&companies=co0546168')]) |
+[2022-09-30 05:11:36,410] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-30 05:11:36,410] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-09-30 05:11:36,410] [builder.py:632]            [DEBUG]    | Value: All Apple TV Originals From 2010-2025                                                       |
+[2022-09-30 05:11:36,411] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-30 05:11:36,411] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-09-30 05:11:36,411] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/NETWORK_APPLE.png             |
+[2022-09-30 05:11:36,416] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-30 05:11:36,416] [builder.py:631]            [DEBUG]    | Validating Method: url_background                                                                  |
+[2022-09-30 05:11:36,416] [builder.py:632]            [DEBUG]    | Value: https://wallpaper-house.com/data/out/8/wallpaper2you_228774.png                             |
+[2022-09-30 05:11:36,567] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-09-30 05:11:36,568] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-09-30 05:11:36,568] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-09-30 05:11:36,568] [plex_meta_manager.py:563]  [INFO]     |=========================== Running Apple Originals 2010-2025 Collection ===========================|
+[2022-09-30 05:11:36,568] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-09-30 05:11:36,568] [plex_meta_manager.py:570]  [INFO]     | Smart Show Label                                                                                   |
+                                                                 | Sort By: originally_available.desc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Apple Originals 2010-2025
+[2022-09-30 05:11:36,569] [plex_meta_manager.py:575]  [INFO]     | 
+[2022-09-30 05:11:36,569] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync
+[2022-09-30 05:11:36,569] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-09-30 05:11:36,569] [plex_meta_manager.py:580]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2010-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=250&companies=co0546168', 'limit': 0}
+[2022-09-30 05:11:36,570] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-09-30 05:11:36,570] [imdb.py:184]               [INFO]     | Processing IMDb List: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2010-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=250&companies=co0546168
+[2022-09-30 05:11:41,015] [imdb.py:135]               [DEBUG]    | 127 IMDb IDs Found: ['tt18257378', 'tt21622048', 'tt21088136', 'tt17543896', 'tt12573454', 'tt12530246', 'tt5537002', 'tt15677150', 'tt14964772', 'tt14417718', 'tt13745850', 'tt12758060', 'tt10999120', 'tt0429087', 'tt14447458', 'tt10268488', 'tt15334032', 'tt16977750', 'tt10192406', 'tt20230770', 'tt15469618', 'tt3283594', 'tt21481106', 'tt13694702', 'tt20414738', 'tt4301160', 'tt14271498', 'tt14509156', 'tt19896142', 'tt13773908', 'tt14588348', 'tt19357122', 'tt14161704', 'tt19298532', 'tt14153448', 'tt5875444', 'tt8888462', 'tt18265020', 'tt2953250', 'tt17736322', 'tt12005128', 'tt13820498', 'tt19888862', 'tt17043406', 'tt11280740', 'tt2201261', 'tt12026710', 'tt12614214', 'tt19719870', 'tt14376344', 'tt12397680', 'tt15829598', 'tt13432848', 'tt20056754', 'tt15353214', 'tt14475988', 'tt13207508', 'tt11947248', 'tt3420504', 'tt8005626', 'tt9737326', 'tt15389998', 'tt13567344', 'tt15084142', 'tt10095582', 'tt0804484', 'tt7638556', 'tt15010478', 'tt10971064', 'tt11808942', 'tt7230750', 'tt11828492', 'tt13622130', 'tt3319460', 'tt14584186', 'tt11041132', 'tt14482570', 'tt21193624', 'tt22186400', 'tt9130508', 'tt11459366', 'tt14207226', 'tt6857376', 'tt10366460', 'tt13017992', 'tt13008036', 'tt13007964', 'tt13093506', 'tt13007904', 'tt9606374', 'tt9203832', 'tt10986410', 'tt10171532', 'tt8521376', 'tt6048922', 'tt12615492', 'tt10577736', 'tt12456266', 'tt10597242', 'tt11615290', 'tt12547226', 'tt12187270', 'tt2304589', 'tt6053512', 'tt12205436', 'tt12080818', 'tt6285944', 'tt11610268', 'tt8879940', 'tt11095742', 'tt8000674', 'tt5165368', 'tt10821190', 'tt7821582', 'tt8068860', 'tt7949218', 'tt11191198', 'tt11004134', 'tt10515488', 'tt7203552', 'tt10366494', 'tt7772588', 'tt8518136', 'tt10883124', 'tt6348410', 'tt21030092', 'tt6396082']
+[2022-09-30 05:11:41,016] [builder.py:1540]           [DEBUG]    | 
+[2022-09-30 05:11:41,016] [builder.py:1541]           [DEBUG]    | 127 IDs Found: [('tt18257378', 'imdb'), ('tt21622048', 'imdb'), ('tt21088136', 'imdb'), ('tt17543896', 'imdb'), ('tt12573454', 'imdb'), ('tt12530246', 'imdb'), ('tt5537002', 'imdb'), ('tt15677150', 'imdb'), ('tt14964772', 'imdb'), ('tt14417718', 'imdb'), ('tt13745850', 'imdb'), ('tt12758060', 'imdb'), ('tt10999120', 'imdb'), ('tt0429087', 'imdb'), ('tt14447458', 'imdb'), ('tt10268488', 'imdb'), ('tt15334032', 'imdb'), ('tt16977750', 'imdb'), ('tt10192406', 'imdb'), ('tt20230770', 'imdb'), ('tt15469618', 'imdb'), ('tt3283594', 'imdb'), ('tt21481106', 'imdb'), ('tt13694702', 'imdb'), ('tt20414738', 'imdb'), ('tt4301160', 'imdb'), ('tt14271498', 'imdb'), ('tt14509156', 'imdb'), ('tt19896142', 'imdb'), ('tt13773908', 'imdb'), ('tt14588348', 'imdb'), ('tt19357122', 'imdb'), ('tt14161704', 'imdb'), ('tt19298532', 'imdb'), ('tt14153448', 'imdb'), ('tt5875444', 'imdb'), ('tt8888462', 'imdb'), ('tt18265020', 'imdb'), ('tt2953250', 'imdb'), ('tt17736322', 'imdb'), ('tt12005128', 'imdb'), ('tt13820498', 'imdb'), ('tt19888862', 'imdb'), ('tt17043406', 'imdb'), ('tt11280740', 'imdb'), ('tt2201261', 'imdb'), ('tt12026710', 'imdb'), ('tt12614214', 'imdb'), ('tt19719870', 'imdb'), ('tt14376344', 'imdb'), ('tt12397680', 'imdb'), ('tt15829598', 'imdb'), ('tt13432848', 'imdb'), ('tt20056754', 'imdb'), ('tt15353214', 'imdb'), ('tt14475988', 'imdb'), ('tt13207508', 'imdb'), ('tt11947248', 'imdb'), ('tt3420504', 'imdb'), ('tt8005626', 'imdb'), ('tt9737326', 'imdb'), ('tt15389998', 'imdb'), ('tt13567344', 'imdb'), ('tt15084142', 'imdb'), ('tt10095582', 'imdb'), ('tt0804484', 'imdb'), ('tt7638556', 'imdb'), ('tt15010478', 'imdb'), ('tt10971064', 'imdb'), ('tt11808942', 'imdb'), ('tt7230750', 'imdb'), ('tt11828492', 'imdb'), ('tt13622130', 'imdb'), ('tt3319460', 'imdb'), ('tt14584186', 'imdb'), ('tt11041132', 'imdb'), ('tt14482570', 'imdb'), ('tt21193624', 'imdb'), ('tt22186400', 'imdb'), ('tt9130508', 'imdb'), ('tt11459366', 'imdb'), ('tt14207226', 'imdb'), ('tt6857376', 'imdb'), ('tt10366460', 'imdb'), ('tt13017992', 'imdb'), ('tt13008036', 'imdb'), ('tt13007964', 'imdb'), ('tt13093506', 'imdb'), ('tt13007904', 'imdb'), ('tt9606374', 'imdb'), ('tt9203832', 'imdb'), ('tt10986410', 'imdb'), ('tt10171532', 'imdb'), ('tt8521376', 'imdb'), ('tt6048922', 'imdb'), ('tt12615492', 'imdb'), ('tt10577736', 'imdb'), ('tt12456266', 'imdb'), ('tt10597242', 'imdb'), ('tt11615290', 'imdb'), ('tt12547226', 'imdb'), ('tt12187270', 'imdb'), ('tt2304589', 'imdb'), ('tt6053512', 'imdb'), ('tt12205436', 'imdb'), ('tt12080818', 'imdb'), ('tt6285944', 'imdb'), ('tt11610268', 'imdb'), ('tt8879940', 'imdb'), ('tt11095742', 'imdb'), ('tt8000674', 'imdb'), ('tt5165368', 'imdb'), ('tt10821190', 'imdb'), ('tt7821582', 'imdb'), ('tt8068860', 'imdb'), ('tt7949218', 'imdb'), ('tt11191198', 'imdb'), ('tt11004134', 'imdb'), ('tt10515488', 'imdb'), ('tt7203552', 'imdb'), ('tt10366494', 'imdb'), ('tt7772588', 'imdb'), ('tt8518136', 'imdb'), ('tt10883124', 'imdb'), ('tt6348410', 'imdb'), ('tt21030092', 'imdb'), ('tt6396082', 'imdb')]
+[2022-09-30 05:11:41,016] [builder.py:1542]           [DEBUG]    | 
+[2022-09-30 05:11:41,023] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt18257378
+[2022-09-30 05:11:41,029] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21622048
+[2022-09-30 05:11:41,048] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 201289
+[2022-09-30 05:11:41,058] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt16977750
+[2022-09-30 05:11:41,063] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21481106
+[2022-09-30 05:11:41,070] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt19896142
+[2022-09-30 05:11:41,076] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt14588348
+[2022-09-30 05:11:41,082] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt19298532
+[2022-09-30 05:11:41,091] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt19888862
+[2022-09-30 05:11:41,098] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt19719870
+[2022-09-30 05:11:41,106] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt13432848
+[2022-09-30 05:11:41,111] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt20056754
+[2022-09-30 05:11:41,131] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21193624
+[2022-09-30 05:11:41,136] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt22186400
+[2022-09-30 05:11:41,148] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt10171532
+[2022-09-30 05:11:41,156] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt12456266
+[2022-09-30 05:11:41,166] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt12205436
+[2022-09-30 05:11:41,173] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt10821190
+[2022-09-30 05:11:41,186] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21030092
+[2022-09-30 05:11:41,188] [builder.py:2064]           [INFO]     | 
+[2022-09-30 05:11:41,188] [builder.py:2065]           [INFO]     |========================== Adding to Apple Originals 2010-2025 Collection ==========================|
+[2022-09-30 05:11:41,188] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-09-30 05:11:41,259] [builder.py:2080]           [INFO]     |  1/21 | Apple Originals 2010-2025 Collection | = | Bad Sisters                                     |
+[2022-09-30 05:11:41,259] [builder.py:2080]           [INFO]     |  2/21 | Apple Originals 2010-2025 Collection | = | Five Days at Memorial                           |
+[2022-09-30 05:11:41,259] [builder.py:2080]           [INFO]     |  3/21 | Apple Originals 2010-2025 Collection | = | Surface                                         |
+[2022-09-30 05:11:41,260] [builder.py:2080]           [INFO]     |  4/21 | Apple Originals 2010-2025 Collection | = | Black Bird                                      |
+[2022-09-30 05:11:41,260] [builder.py:2080]           [INFO]     |  5/21 | Apple Originals 2010-2025 Collection | = | Loot                                            |
+[2022-09-30 05:11:41,260] [builder.py:2080]           [INFO]     |  6/21 | Apple Originals 2010-2025 Collection | = | Roar                                            |
+[2022-09-30 05:11:41,261] [builder.py:2080]           [INFO]     |  7/21 | Apple Originals 2010-2025 Collection | = | Slow Horses                                     |
+[2022-09-30 05:11:41,261] [builder.py:2080]           [INFO]     |  8/21 | Apple Originals 2010-2025 Collection | = | Shining Girls                                   |
+[2022-09-30 05:11:41,261] [builder.py:2080]           [INFO]     |  9/21 | Apple Originals 2010-2025 Collection | = | WeCrashed                                       |
+[2022-09-30 05:11:41,261] [builder.py:2080]           [INFO]     | 10/21 | Apple Originals 2010-2025 Collection | = | Les derniers jours de Ptolemy Grey              |
+[2022-09-30 05:11:41,262] [builder.py:2080]           [INFO]     | 11/21 | Apple Originals 2010-2025 Collection | = | Suspicion                                       |
+[2022-09-30 05:11:41,262] [builder.py:2080]           [INFO]     | 12/21 | Apple Originals 2010-2025 Collection | = | The Afterparty                                  |
+[2022-09-30 05:11:41,262] [builder.py:2080]           [INFO]     | 13/21 | Apple Originals 2010-2025 Collection | = | Invasion (2021)                                 |
+[2022-09-30 05:11:41,262] [builder.py:2080]           [INFO]     | 14/21 | Apple Originals 2010-2025 Collection | = | Foundation                                      |
+[2022-09-30 05:11:41,262] [builder.py:2080]           [INFO]     | 15/21 | Apple Originals 2010-2025 Collection | = | Ted Lasso                                       |
+[2022-09-30 05:11:41,263] [builder.py:2080]           [INFO]     | 16/21 | Apple Originals 2010-2025 Collection | = | Mythic Quest : Le festin du corbeau             |
+[2022-09-30 05:11:41,263] [builder.py:2080]           [INFO]     | 17/21 | Apple Originals 2010-2025 Collection | = | Little America                                  |
+[2022-09-30 05:11:41,263] [builder.py:2080]           [INFO]     | 18/21 | Apple Originals 2010-2025 Collection | = | Histoires Fantastiques                          |
+[2022-09-30 05:11:41,263] [builder.py:2080]           [INFO]     | 19/21 | Apple Originals 2010-2025 Collection | = | See                                             |
+[2022-09-30 05:11:41,264] [builder.py:2080]           [INFO]     | 20/21 | Apple Originals 2010-2025 Collection | = | For All Mankind                                 |
+[2022-09-30 05:11:41,264] [builder.py:2080]           [INFO]     | 21/21 | Apple Originals 2010-2025 Collection | = | Dickinson                                       |
+[2022-09-30 05:11:41,264] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-09-30 05:11:41,264] [builder.py:2102]           [INFO]     | 21 Shows Processed 0 Shows Added                                                                   |
+[2022-09-30 05:11:41,264] [builder.py:2228]           [INFO]     |                                                                                                    |
+[2022-09-30 05:11:41,264] [builder.py:2229]           [INFO]     |============================ Missing Movies from Library: Z. 2 - Series ============================|
+[2022-09-30 05:11:41,264] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-09-30 05:11:41,276] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Sharper (TMDb: 717980)                                  |
+[2022-09-30 05:11:41,307] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Emancipation (TMDb: 715931)                             |
+[2022-09-30 05:11:41,340] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Killers of the Flower Moon (TMDb: 466420)               |
+[2022-09-30 05:11:41,384] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Tetris (TMDb: 726759)                                   |
+[2022-09-30 05:11:41,411] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Spirited (2022) (TMDb: 632856)                          |
+[2022-09-30 05:11:41,444] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Louis Armstrong's Black & Blues (2022) (TMDb: 1014890)  |
+[2022-09-30 05:11:41,467] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | The Greatest Beer Run Ever (2022) (TMDb: 597922)        |
+[2022-09-30 05:11:41,489] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Raymond & Ray (2022) (TMDb: 869025)                     |
+[2022-09-30 05:11:41,511] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Causeway (2022) (TMDb: 595586)                          |
+[2022-09-30 05:11:41,544] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Kaepernick & America (2022) (TMDb: 960583)              |
+[2022-09-30 05:11:41,578] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | ¡Viva Maestro! (2022) (TMDb: 801690)                    |
+[2022-09-30 05:11:41,601] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | The Sky Is Everywhere (2022) (TMDb: 640265)             |
+[2022-09-30 05:11:41,619] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Cha Cha Real Smooth (2022) (TMDb: 814340)               |
+[2022-09-30 05:11:41,644] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Mariah's Christmas: The Magic Continues (2021) (TMDb: 893702) |
+[2022-09-30 05:11:41,668] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | 'Twas the Fight Before Christmas (2021) (TMDb: 888652)  |
+[2022-09-30 05:11:41,693] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Swan Song (2021) (TMDb: 765245)                         |
+[2022-09-30 05:11:41,718] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Finch (2021) (TMDb: 522402)                             |
+[2022-09-30 05:11:41,743] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | The Tragedy of Macbeth (2021) (TMDb: 591538)            |
+[2022-09-30 05:11:41,768] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Come from Away (2021) (TMDb: 727333)                    |
+[2022-09-30 05:11:41,793] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | 9/11: Inside the President's War Room (2021) (TMDb: 848981) |
+[2022-09-30 05:11:41,818] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | The Velvet Underground (2021) (TMDb: 543836)            |
+[2022-09-30 05:11:41,843] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Fathom (2021) (TMDb: 819024)                            |
+[2022-09-30 05:11:41,868] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Cherry (2021) (TMDb: 544401)                            |
+[2022-09-30 05:11:41,893] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Billie Eilish: The World's a Little Blurry (2021) (TMDb: 654754) |
+[2022-09-30 05:11:41,918] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Billie Eilish: "The World’s A Little Blurry" Live Premiere Event (2021) (TMDb: 1000703) |
+[2022-09-30 05:11:41,943] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Palmer (2021) (TMDb: 458220)                            |
+[2022-09-30 05:11:41,968] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | CODA (2021) (TMDb: 776503)                              |
+[2022-09-30 05:11:41,993] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Mariah Carey's Magical Christmas Special (2020) (TMDb: 766319) |
+[2022-09-30 05:11:42,019] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Bruce Springsteen's Letter to You (2020) (TMDb: 750160) |
+[2022-09-30 05:11:42,044] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | On the Rocks (2020) (TMDb: 575417)                      |
+[2022-09-30 05:11:42,069] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Fireball: Visitors from Darker Worlds (2020) (TMDb: 574082) |
+[2022-09-30 05:11:42,094] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Greyhound (2020) (TMDb: 516486)                         |
+[2022-09-30 05:11:42,119] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Beastie Boys Story (2020) (TMDb: 664416)                |
+[2022-09-30 05:11:42,144] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | The Banker (2020) (TMDb: 627725)                        |
+[2022-09-30 05:11:42,186] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Boys State (2020) (TMDb: 653723)                        |
+[2022-09-30 05:11:42,227] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Dads (2019) (TMDb: 621757)                              |
+[2022-09-30 05:11:42,252] [builder.py:2243]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Hala (2019) (TMDb: 535308)                              |
+[2022-09-30 05:11:42,253] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-09-30 05:11:42,253] [builder.py:2249]           [INFO]     | 37 Movies Missing                                                                                  |
+[2022-09-30 05:11:42,263] [builder.py:2274]           [INFO]     |                                                                                                    |
+[2022-09-30 05:11:42,264] [builder.py:2275]           [INFO]     |====================== Missing Shows from Library: Apple Originals 2010-2025 =======================|
+[2022-09-30 05:11:42,264] [builder.py:2276]           [INFO]     |                                                                                                    |
+[2022-09-30 05:11:42,291] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Criminal Record (TVDb: 421495)                          |
+[2022-09-30 05:11:42,319] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Dear Edward (TVDb: 415585)                              |
+[2022-09-30 05:11:42,357] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Shrinking (TVDb: 411364)                                |
+[2022-09-30 05:11:42,386] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | City on Fire (TVDb: 405848)                             |
+[2022-09-30 05:11:42,416] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | The Crowded Room (TVDb: 400723)                         |
+[2022-09-30 05:11:42,444] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Shantaram (TVDb: 416581)                                |
+[2022-09-30 05:11:42,494] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Life by Ella (TVDb: 423138)                             |
+[2022-09-30 05:11:42,519] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Best Foot Forward (TVDb: 420906)                        |
+[2022-09-30 05:11:42,541] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Now & Then (TVDb: 401411)                               |
+[2022-09-30 05:11:42,569] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Make or Break (TVDb: 418943)                            |
+[2022-09-30 05:11:42,594] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | 파친코 (TVDb: 368124)                                      |
+[2022-09-30 05:11:42,619] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | The Big Conn (TVDb: 416610)                             |
+[2022-09-30 05:11:42,644] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | They Call Me Magic (TVDb: 415810)                       |
+[2022-09-30 05:11:42,669] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Lincoln's Dilemma (TVDb: 414706)                        |
+[2022-09-30 05:11:42,695] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Severance (TVDb: 371980)                                |
+[2022-09-30 05:11:42,736] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Fraggle Rock: Back to the Rock (TVDb: 412536)           |
+[2022-09-30 05:11:42,761] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | The Line (TVDb: 402178)                                 |
+[2022-09-30 05:11:42,786] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | The Shrink Next Door (TVDb: 381206)                     |
+[2022-09-30 05:11:42,811] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Swagger (TVDb: 365914)                                  |
+[2022-09-30 05:11:42,836] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Puppy Place (TVDb: 409863)                              |
+[2022-09-30 05:11:42,861] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Acapulco (2021) (TVDb: 393155)                          |
+[2022-09-30 05:11:42,874] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | The Problem With Jon Stewart (TVDb: 400756)             |
+[2022-09-30 05:11:42,890] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Mr. Corman (TVDb: 393156)                               |
+[2022-09-30 05:11:42,907] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Schmigadoon! (TVDb: 393154)                             |
+[2022-09-30 05:11:42,924] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Physical (TVDb: 396346)                                 |
+[2022-09-30 05:11:42,940] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Lisey's Story (TVDb: 366527)                            |
+[2022-09-30 05:11:42,957] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | The Me You Can't See (TVDb: 402511)                     |
+[2022-09-30 05:11:42,974] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | The Mosquito Coast (TVDb: 370360)                       |
+[2022-09-30 05:11:42,990] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Watch the Sound with Mark Ronson (TVDb: 401054)         |
+[2022-09-30 05:11:43,007] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Earth at Night in Color (TVDb: 390128)                  |
+[2022-09-30 05:11:43,024] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Becoming You (TVDb: 387543)                             |
+[2022-09-30 05:11:43,040] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Tiny World (TVDb: 387542)                               |
+[2022-09-30 05:11:43,066] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Little Voice (TVDb: 361564)                             |
+[2022-09-30 05:11:43,124] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Greatness Code (TVDb: 383320)                           |
+[2022-09-30 05:11:43,141] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | טהרן (TVDb: 380010)                                     |
+[2022-09-30 05:11:43,158] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Dear... (TVDb: 371674)                                  |
+[2022-09-30 05:11:43,174] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Helpsters Help You (TVDb: 381154)                       |
+[2022-09-30 05:11:43,191] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Fraggle Rock: Rock On! (TVDb: 380853)                   |
+[2022-09-30 05:11:43,208] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Defending Jacob (TVDb: 368122)                          |
+[2022-09-30 05:11:43,224] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Home Before Dark (TVDb: 362004)                         |
+[2022-09-30 05:11:43,241] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Oprah Talks COVID-19 (TVDb: 378821)                     |
+[2022-09-30 05:11:43,266] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Visible: Out on Television (TVDb: 374895)               |
+[2022-09-30 05:11:43,275] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Truth Be Told (2019) (TVDb: 351527)                     |
+[2022-09-30 05:11:43,307] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Servant (TVDb: 368126)                                  |
+[2022-09-30 05:11:43,977] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Oprah’s Book Club (TVDb: 371019)                        |
+[2022-09-30 05:11:44,007] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Ghostwriter (2019) (TVDb: 369490)                       |
+[2022-09-30 05:11:44,032] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Helpsters (TVDb: 369782)                                |
+[2022-09-30 05:11:44,043] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | The Morning Show (TVDb: 361563)                         |
+[2022-09-30 05:11:44,074] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Lost Cities with Albert Lin (TVDb: 371126)              |
+[2022-09-30 05:11:44,084] [builder.py:2288]           [INFO]     | Apple Originals 2010-2025 Collection | ? | Carpool Karaoke: The Series (TVDb: 332954)              |
+[2022-09-30 05:11:44,085] [builder.py:2293]           [INFO]     |                                                                                                    |
+[2022-09-30 05:11:44,085] [builder.py:2294]           [INFO]     | 50 Shows Missing                                                                                   |
+[2022-09-30 05:11:44,120] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-09-30 05:11:44,120] [builder.py:2442]           [INFO]     |===================== Updating Details of Apple Originals 2010-2025 Collection =====================|
+[2022-09-30 05:11:44,120] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-09-30 05:11:44,129] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-09-30 05:11:44,129] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Apple Originals 2010-2025'                            |
+[2022-09-30 05:11:44,129] [util.py:150]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-09-30 05:11:44,129] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/NETWORK_APPLE.png |
+[2022-09-30 05:11:44,130] [util.py:150]               [DEBUG]    | 1 background found:                                                                                |
+[2022-09-30 05:11:44,130] [util.py:152]               [DEBUG]    | Method: url_background Background: https://wallpaper-house.com/data/out/8/wallpaper2you_228774.png |
+[2022-09-30 05:11:44,130] [library.py:172]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-09-30 05:11:44,131] [library.py:188]            [INFO]     | Detail: background update not needed                                                               |
+[2022-09-30 05:11:44,176] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-09-30 05:11:44,177] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-09-30 05:11:44,177] [plex_meta_manager.py:709]  [INFO]     |                           Finished Apple Originals 2010-2025 Collection                            |
+[2022-09-30 05:11:44,177] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:09                                    |
+[2022-09-30 05:11:44,177] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

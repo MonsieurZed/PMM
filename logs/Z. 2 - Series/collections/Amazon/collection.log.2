@@ -1,0 +1,385 @@
+[2022-10-10 10:31:18,589] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-10 10:31:18,590] [builder.py:197]            [INFO]     |                                 Amazon Collection in Z. 2 - Series                                 |
+[2022-10-10 10:31:18,590] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-10 10:31:18,590] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-10 10:31:18,590] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-10 10:31:18,590] [builder.py:219]            [INFO]     |=================================== Validating Amazon Attributes ===================================|
+[2022-10-10 10:31:18,591] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-10 10:31:18,591] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-10 10:31:18,591] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-10 10:31:18,591] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-10 10:31:18,591] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-10 10:31:18,591] [builder.py:544]            [DEBUG]    | Value: originally_available.desc                                                                   |
+[2022-10-10 10:31:18,606] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-10 10:31:18,606] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-10 10:31:18,606] [builder.py:632]            [DEBUG]    | Value: +11_APPLE                                                                                   |
+[2022-10-10 10:31:18,606] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-10 10:31:18,606] [builder.py:631]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-10-10 10:31:18,607] [builder.py:632]            [DEBUG]    | Value: ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2000-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=1000&companies=co0319272')]) |
+[2022-10-10 10:31:19,876] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-10 10:31:19,877] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-10-10 10:31:19,877] [builder.py:632]            [DEBUG]    | Value: All Amazon Originals                                                                        |
+[2022-10-10 10:31:19,878] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-10 10:31:19,878] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-10 10:31:19,878] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/NETWORK_AMAZON.png            |
+[2022-10-10 10:31:20,057] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-10 10:31:20,057] [builder.py:631]            [DEBUG]    | Validating Method: url_background                                                                  |
+[2022-10-10 10:31:20,058] [builder.py:632]            [DEBUG]    | Value: https://i.imgur.com/2jfs7oS.png                                                             |
+[2022-10-10 10:31:20,254] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-10 10:31:20,254] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-10 10:31:20,254] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-10 10:31:20,254] [plex_meta_manager.py:563]  [INFO]     |==================================== Running Amazon Collection =====================================|
+[2022-10-10 10:31:20,255] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-10-10 10:31:20,255] [plex_meta_manager.py:570]  [INFO]     | Smart Show Label                                                                                   |
+                                                                 | Sort By: originally_available.desc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Amazon
+[2022-10-10 10:31:20,255] [plex_meta_manager.py:575]  [INFO]     | 
+[2022-10-10 10:31:20,255] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync
+[2022-10-10 10:31:20,256] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-10 10:31:20,256] [plex_meta_manager.py:580]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2000-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=1000&companies=co0319272', 'limit': 0}
+[2022-10-10 10:31:20,256] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-10 10:31:20,256] [imdb.py:184]               [INFO]     | Processing IMDb List: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2000-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=1000&companies=co0319272
+[2022-10-10 10:31:30,975] [imdb.py:135]               [DEBUG]    | 310 IMDb IDs Found: ['tt12923632', 'tt8749198', 'tt15333984', 'tt14044212', 'tt12637874', 'tt16233952', 'tt9071456', 'tt8291284', 'tt19265146', 'tt11771270', 'tt22179944', 'tt13139228', 'tt21293078', 'tt14179942', 'tt13622204', 'tt7631058', 'tt14544190', 'tt19896302', 'tt11743610', 'tt21153686', 'tt14016500', 'tt8226360', 'tt2597804', 'tt10623646', 'tt11102716', 'tt13361448', 'tt11921588', 'tt14168162', 'tt11685912', 'tt3706352', 'tt4123432', 'tt16232892', 'tt2180339', 'tt15261910', 'tt6462958', 'tt16911310', 'tt9288030', 'tt10931784', 'tt12971802', 'tt11286210', 'tt13650600', 'tt14571576', 'tt14571518', 'tt15660422', 'tt16415198', 'tt16280900', 'tt15791014', 'tt10608454', 'tt4995540', 'tt14734228', 'tt15553596', 'tt7462410', 'tt15076878', 'tt13368190', 'tt8431322', 'tt15526556', 'tt10937180', 'tt13622180', 'tt3108894', 'tt15385930', 'tt13372944', 'tt13372794', 'tt13372884', 'tt15475628', 'tt14679942', 'tt13372992', 'tt11771006', 'tt12800524', 'tt10155932', 'tt15213278', 'tt16308040', 'tt14731254', 'tt9777666', 'tt11383348', 'tt14668426', 'tt12023002', 'tt8635092', 'tt14532426', 'tt14532412', 'tt14532380', 'tt14586552', 'tt14264844', 'tt13356646', 'tt6704972', 'tt10344410', 'tt14450630', 'tt0499097', 'tt22262682', 'tt10333426', 'tt11092594', 'tt13004056', 'tt8633062', 'tt13845484', 'tt12850564', 'tt7907922', 'tt13143964', 'tt13096334', 'tt10243992', 'tt12882620', 'tt11044858', 'tt12298506', 'tt8303474', 'tt9252488', 'tt12538822', 'tt10612922', 'tt12215286', 'tt14997764', 'tt11188556', 'tt12996012', 'tt5843876', 'tt8527842', 'tt12323842', 'tt6964748', 'tt8741290', 'tt7456722', 'tt11621622', 'tt11141900', 'tt9827834', 'tt8656686', 'tt11416746', 'tt11327514', 'tt10442360', 'tt8806524', 'tt8242084', 'tt7826376', 'tt10821190', 'tt6865630', 'tt11468536', 'tt10472008', 'tt8633046', 'tt11225428', 'tt7098662', 'tt8535180', 'tt8543390', 'tt10954364', 'tt8005176', 'tt3864056', 'tt6017756', 'tt5363618', 'tt6141246', 'tt1780967', 'tt0489974', 'tt9657544', 'tt8462276', 'tt6436726', 'tt9170224', 'tt10543784', 'tt1190634', 'tt10559318', 'tt8819906', 'tt7698468', 'tt8772296', 'tt6517320', 'tt9882084', 'tt1869454', 'tt8299768', 'tt8858104', 'tt8450534', 'tt6932244', 'tt2404465', 'tt9134666', 'tt7671064', 'tt8759834', 'tt7778680', 'tt8923482', 'tt8236336', 'tt6803046', 'tt8151874', 'tt6107548', 'tt22262588', 'tt7354736', 'tt7558708', 'tt6599482', 'tt9014000', 'tt7945440', 'tt7720790', 'tt5989218', 'tt7008682', 'tt1226837', 'tt7076630', 'tt1034415', 'tt5057054', 'tt7653274', 'tt7985540', 'tt8201502', 'tt8440450', 'tt7473890', 'tt8301070', 'tt8077544', 'tt8183162', 'tt8134160', 'tt6118426', 'tt1082583', 'tt3721964', 'tt7841526', 'tt7768846', 'tt5437928', 'tt6288124', 'tt5268348', 'tt7746718', 'tt6271042', 'tt6722926', 'tt6714738', 'tt7058078', 'tt6749328', 'tt5932548', 'tt5825380', 'tt6130902', 'tt6018306', 'tt6794990', 'tt7162324', 'tt5711280', 'tt5884230', 'tt7293158', 'tt7286078', 'tt7281972', 'tt5439796', 'tt5834198', 'tt0460890', 'tt6807046', 'tt5742374', 'tt5200330', 'tt5208216', 'tt4218696', 'tt5968748', 'tt6509214', 'tt6101624', 'tt5788814', 'tt5788792', 'tt1898069', 'tt4143508', 'tt3268340', 'tt6333056', 'tt5737862', 'tt5462602', 'tt6119048', 'tt5712554', 'tt6000818', 'tt1212428', 'tt4687880', 'tt4354616', 'tt14679930', 'tt5804038', 'tt1691152', 'tt5860892', 'tt5478730', 'tt5540054', 'tt6521852', 'tt5637798', 'tt5195428', 'tt3390892', 'tt1974419', 'tt1714917', 'tt2410290', 'tt5247022', 'tt4513674', 'tt2093991', 'tt6613890', 'tt4230700', 'tt4632316', 'tt4034228', 'tt4144190', 'tt4399942', 'tt4594834', 'tt4947608', 'tt4687906', 'tt4630676', 'tt4687892', 'tt4687882', 'tt4878612', 'tt4298468', 'tt4397438', 'tt5011816', 'tt4196686', 'tt4759942', 'tt3277624', 'tt4384904', 'tt4115864', 'tt4103160', 'tt3952746', 'tt3915196', 'tt3882018', 'tt2805574', 'tt3833470', 'tt1740299', 'tt3973808', 'tt3683278', 'tt3505662', 'tt3973820', 'tt3973768', 'tt3502262', 'tt3502248', 'tt3502172', 'tt3496764', 'tt3473724', 'tt3147330', 'tt3145422', 'tt2407380', 'tt3012532', 'tt3012184', 'tt3012160', 'tt2670434', 'tt2584174', 'tt2584098', 'tt2584090', 'tt2090440', 'tt2301351', 'tt1504489', 'tt1832979', 'tt1353056']
+[2022-10-10 10:31:30,975] [builder.py:1540]           [DEBUG]    | 
+[2022-10-10 10:31:30,976] [builder.py:1541]           [DEBUG]    | 310 IDs Found: [('tt12923632', 'imdb'), ('tt8749198', 'imdb'), ('tt15333984', 'imdb'), ('tt14044212', 'imdb'), ('tt12637874', 'imdb'), ('tt16233952', 'imdb'), ('tt9071456', 'imdb'), ('tt8291284', 'imdb'), ('tt19265146', 'imdb'), ('tt11771270', 'imdb'), ('tt22179944', 'imdb'), ('tt13139228', 'imdb'), ('tt21293078', 'imdb'), ('tt14179942', 'imdb'), ('tt13622204', 'imdb'), ('tt7631058', 'imdb'), ('tt14544190', 'imdb'), ('tt19896302', 'imdb'), ('tt11743610', 'imdb'), ('tt21153686', 'imdb'), ('tt14016500', 'imdb'), ('tt8226360', 'imdb'), ('tt2597804', 'imdb'), ('tt10623646', 'imdb'), ('tt11102716', 'imdb'), ('tt13361448', 'imdb'), ('tt11921588', 'imdb'), ('tt14168162', 'imdb'), ('tt11685912', 'imdb'), ('tt3706352', 'imdb'), ('tt4123432', 'imdb'), ('tt16232892', 'imdb'), ('tt2180339', 'imdb'), ('tt15261910', 'imdb'), ('tt6462958', 'imdb'), ('tt16911310', 'imdb'), ('tt9288030', 'imdb'), ('tt10931784', 'imdb'), ('tt12971802', 'imdb'), ('tt11286210', 'imdb'), ('tt13650600', 'imdb'), ('tt14571576', 'imdb'), ('tt14571518', 'imdb'), ('tt15660422', 'imdb'), ('tt16415198', 'imdb'), ('tt16280900', 'imdb'), ('tt15791014', 'imdb'), ('tt10608454', 'imdb'), ('tt4995540', 'imdb'), ('tt14734228', 'imdb'), ('tt15553596', 'imdb'), ('tt7462410', 'imdb'), ('tt15076878', 'imdb'), ('tt13368190', 'imdb'), ('tt8431322', 'imdb'), ('tt15526556', 'imdb'), ('tt10937180', 'imdb'), ('tt13622180', 'imdb'), ('tt3108894', 'imdb'), ('tt15385930', 'imdb'), ('tt13372944', 'imdb'), ('tt13372794', 'imdb'), ('tt13372884', 'imdb'), ('tt15475628', 'imdb'), ('tt14679942', 'imdb'), ('tt13372992', 'imdb'), ('tt11771006', 'imdb'), ('tt12800524', 'imdb'), ('tt10155932', 'imdb'), ('tt15213278', 'imdb'), ('tt16308040', 'imdb'), ('tt14731254', 'imdb'), ('tt9777666', 'imdb'), ('tt11383348', 'imdb'), ('tt14668426', 'imdb'), ('tt12023002', 'imdb'), ('tt8635092', 'imdb'), ('tt14532426', 'imdb'), ('tt14532412', 'imdb'), ('tt14532380', 'imdb'), ('tt14586552', 'imdb'), ('tt14264844', 'imdb'), ('tt13356646', 'imdb'), ('tt6704972', 'imdb'), ('tt10344410', 'imdb'), ('tt14450630', 'imdb'), ('tt0499097', 'imdb'), ('tt22262682', 'imdb'), ('tt10333426', 'imdb'), ('tt11092594', 'imdb'), ('tt13004056', 'imdb'), ('tt8633062', 'imdb'), ('tt13845484', 'imdb'), ('tt12850564', 'imdb'), ('tt7907922', 'imdb'), ('tt13143964', 'imdb'), ('tt13096334', 'imdb'), ('tt10243992', 'imdb'), ('tt12882620', 'imdb'), ('tt11044858', 'imdb'), ('tt12298506', 'imdb'), ('tt8303474', 'imdb'), ('tt9252488', 'imdb'), ('tt12538822', 'imdb'), ('tt10612922', 'imdb'), ('tt12215286', 'imdb'), ('tt14997764', 'imdb'), ('tt11188556', 'imdb'), ('tt12996012', 'imdb'), ('tt5843876', 'imdb'), ('tt8527842', 'imdb'), ('tt12323842', 'imdb'), ('tt6964748', 'imdb'), ('tt8741290', 'imdb'), ('tt7456722', 'imdb'), ('tt11621622', 'imdb'), ('tt11141900', 'imdb'), ('tt9827834', 'imdb'), ('tt8656686', 'imdb'), ('tt11416746', 'imdb'), ('tt11327514', 'imdb'), ('tt10442360', 'imdb'), ('tt8806524', 'imdb'), ('tt8242084', 'imdb'), ('tt7826376', 'imdb'), ('tt10821190', 'imdb'), ('tt6865630', 'imdb'), ('tt11468536', 'imdb'), ('tt10472008', 'imdb'), ('tt8633046', 'imdb'), ('tt11225428', 'imdb'), ('tt7098662', 'imdb'), ('tt8535180', 'imdb'), ('tt8543390', 'imdb'), ('tt10954364', 'imdb'), ('tt8005176', 'imdb'), ('tt3864056', 'imdb'), ('tt6017756', 'imdb'), ('tt5363618', 'imdb'), ('tt6141246', 'imdb'), ('tt1780967', 'imdb'), ('tt0489974', 'imdb'), ('tt9657544', 'imdb'), ('tt8462276', 'imdb'), ('tt6436726', 'imdb'), ('tt9170224', 'imdb'), ('tt10543784', 'imdb'), ('tt1190634', 'imdb'), ('tt10559318', 'imdb'), ('tt8819906', 'imdb'), ('tt7698468', 'imdb'), ('tt8772296', 'imdb'), ('tt6517320', 'imdb'), ('tt9882084', 'imdb'), ('tt1869454', 'imdb'), ('tt8299768', 'imdb'), ('tt8858104', 'imdb'), ('tt8450534', 'imdb'), ('tt6932244', 'imdb'), ('tt2404465', 'imdb'), ('tt9134666', 'imdb'), ('tt7671064', 'imdb'), ('tt8759834', 'imdb'), ('tt7778680', 'imdb'), ('tt8923482', 'imdb'), ('tt8236336', 'imdb'), ('tt6803046', 'imdb'), ('tt8151874', 'imdb'), ('tt6107548', 'imdb'), ('tt22262588', 'imdb'), ('tt7354736', 'imdb'), ('tt7558708', 'imdb'), ('tt6599482', 'imdb'), ('tt9014000', 'imdb'), ('tt7945440', 'imdb'), ('tt7720790', 'imdb'), ('tt5989218', 'imdb'), ('tt7008682', 'imdb'), ('tt1226837', 'imdb'), ('tt7076630', 'imdb'), ('tt1034415', 'imdb'), ('tt5057054', 'imdb'), ('tt7653274', 'imdb'), ('tt7985540', 'imdb'), ('tt8201502', 'imdb'), ('tt8440450', 'imdb'), ('tt7473890', 'imdb'), ('tt8301070', 'imdb'), ('tt8077544', 'imdb'), ('tt8183162', 'imdb'), ('tt8134160', 'imdb'), ('tt6118426', 'imdb'), ('tt1082583', 'imdb'), ('tt3721964', 'imdb'), ('tt7841526', 'imdb'), ('tt7768846', 'imdb'), ('tt5437928', 'imdb'), ('tt6288124', 'imdb'), ('tt5268348', 'imdb'), ('tt7746718', 'imdb'), ('tt6271042', 'imdb'), ('tt6722926', 'imdb'), ('tt6714738', 'imdb'), ('tt7058078', 'imdb'), ('tt6749328', 'imdb'), ('tt5932548', 'imdb'), ('tt5825380', 'imdb'), ('tt6130902', 'imdb'), ('tt6018306', 'imdb'), ('tt6794990', 'imdb'), ('tt7162324', 'imdb'), ('tt5711280', 'imdb'), ('tt5884230', 'imdb'), ('tt7293158', 'imdb'), ('tt7286078', 'imdb'), ('tt7281972', 'imdb'), ('tt5439796', 'imdb'), ('tt5834198', 'imdb'), ('tt0460890', 'imdb'), ('tt6807046', 'imdb'), ('tt5742374', 'imdb'), ('tt5200330', 'imdb'), ('tt5208216', 'imdb'), ('tt4218696', 'imdb'), ('tt5968748', 'imdb'), ('tt6509214', 'imdb'), ('tt6101624', 'imdb'), ('tt5788814', 'imdb'), ('tt5788792', 'imdb'), ('tt1898069', 'imdb'), ('tt4143508', 'imdb'), ('tt3268340', 'imdb'), ('tt6333056', 'imdb'), ('tt5737862', 'imdb'), ('tt5462602', 'imdb'), ('tt6119048', 'imdb'), ('tt5712554', 'imdb'), ('tt6000818', 'imdb'), ('tt1212428', 'imdb'), ('tt4687880', 'imdb'), ('tt4354616', 'imdb'), ('tt14679930', 'imdb'), ('tt5804038', 'imdb'), ('tt1691152', 'imdb'), ('tt5860892', 'imdb'), ('tt5478730', 'imdb'), ('tt5540054', 'imdb'), ('tt6521852', 'imdb'), ('tt5637798', 'imdb'), ('tt5195428', 'imdb'), ('tt3390892', 'imdb'), ('tt1974419', 'imdb'), ('tt1714917', 'imdb'), ('tt2410290', 'imdb'), ('tt5247022', 'imdb'), ('tt4513674', 'imdb'), ('tt2093991', 'imdb'), ('tt6613890', 'imdb'), ('tt4230700', 'imdb'), ('tt4632316', 'imdb'), ('tt4034228', 'imdb'), ('tt4144190', 'imdb'), ('tt4399942', 'imdb'), ('tt4594834', 'imdb'), ('tt4947608', 'imdb'), ('tt4687906', 'imdb'), ('tt4630676', 'imdb'), ('tt4687892', 'imdb'), ('tt4687882', 'imdb'), ('tt4878612', 'imdb'), ('tt4298468', 'imdb'), ('tt4397438', 'imdb'), ('tt5011816', 'imdb'), ('tt4196686', 'imdb'), ('tt4759942', 'imdb'), ('tt3277624', 'imdb'), ('tt4384904', 'imdb'), ('tt4115864', 'imdb'), ('tt4103160', 'imdb'), ('tt3952746', 'imdb'), ('tt3915196', 'imdb'), ('tt3882018', 'imdb'), ('tt2805574', 'imdb'), ('tt3833470', 'imdb'), ('tt1740299', 'imdb'), ('tt3973808', 'imdb'), ('tt3683278', 'imdb'), ('tt3505662', 'imdb'), ('tt3973820', 'imdb'), ('tt3973768', 'imdb'), ('tt3502262', 'imdb'), ('tt3502248', 'imdb'), ('tt3502172', 'imdb'), ('tt3496764', 'imdb'), ('tt3473724', 'imdb'), ('tt3147330', 'imdb'), ('tt3145422', 'imdb'), ('tt2407380', 'imdb'), ('tt3012532', 'imdb'), ('tt3012184', 'imdb'), ('tt3012160', 'imdb'), ('tt2670434', 'imdb'), ('tt2584174', 'imdb'), ('tt2584098', 'imdb'), ('tt2584090', 'imdb'), ('tt2090440', 'imdb'), ('tt2301351', 'imdb'), ('tt1504489', 'imdb'), ('tt1832979', 'imdb'), ('tt1353056', 'imdb')]
+[2022-10-10 10:31:30,976] [builder.py:1542]           [DEBUG]    | 
+[2022-10-10 10:31:30,982] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt12923632
+[2022-10-10 10:31:30,991] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 95555
+[2022-10-10 10:31:31,015] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 208596
+[2022-10-10 10:31:31,027] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt22179944
+[2022-10-10 10:31:31,039] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21153686
+[2022-10-10 10:31:31,060] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt14571576
+[2022-10-10 10:31:31,068] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt14571518
+[2022-10-10 10:31:31,074] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt16415198
+[2022-10-10 10:31:31,095] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt15475628
+[2022-10-10 10:31:31,107] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt16308040
+[2022-10-10 10:31:31,117] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt14532412
+[2022-10-10 10:31:31,126] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt22262682
+[2022-10-10 10:31:31,132] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt13004056
+[2022-10-10 10:31:31,137] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt13845484
+[2022-10-10 10:31:31,151] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt14997764
+[2022-10-10 10:31:31,174] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 112108
+[2022-10-10 10:31:31,188] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt10821190
+[2022-10-10 10:31:31,196] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt8633046
+[2022-10-10 10:31:31,233] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 158868
+[2022-10-10 10:31:31,256] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt22262588
+[2022-10-10 10:31:31,262] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt7354736
+[2022-10-10 10:31:31,272] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt9014000
+[2022-10-10 10:31:31,287] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt8301070
+[2022-10-10 10:31:31,292] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt8077544
+[2022-10-10 10:31:31,304] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt6722926
+[2022-10-10 10:31:31,309] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt6714738
+[2022-10-10 10:31:31,320] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt7162324
+[2022-10-10 10:31:31,343] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt14679930
+[2022-10-10 10:31:31,359] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt2410290
+[2022-10-10 10:31:31,366] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt6613890
+[2022-10-10 10:31:31,386] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt4298468
+[2022-10-10 10:31:31,399] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt4384904
+[2022-10-10 10:31:31,416] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 126093
+[2022-10-10 10:31:31,434] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt3147330
+[2022-10-10 10:31:31,444] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt2670434
+[2022-10-10 10:31:31,449] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt2584174
+[2022-10-10 10:31:31,459] [builder.py:2064]           [INFO]     | 
+[2022-10-10 10:31:31,460] [builder.py:2065]           [INFO]     |=================================== Adding to Amazon Collection ====================================|
+[2022-10-10 10:31:31,460] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-10 10:31:31,594] [builder.py:2080]           [INFO]     |  1/30 | Amazon Collection | = | Le Seigneur des anneaux : Les Anneaux de pouvoir                   |
+[2022-10-10 10:31:31,594] [builder.py:2080]           [INFO]     |  2/30 | Amazon Collection | = | La liste finale                                                    |
+[2022-10-10 10:31:31,594] [builder.py:2080]           [INFO]     |  3/30 | Amazon Collection | = | L'Été où je suis devenue jolie                                     |
+[2022-10-10 10:31:31,595] [builder.py:2080]           [INFO]     |  4/30 | Amazon Collection | = | Paper Girls                                                        |
+[2022-10-10 10:31:31,595] [builder.py:2080]           [INFO]     |  5/30 | Amazon Collection | = | Vers les étoiles                                                   |
+[2022-10-10 10:31:31,595] [builder.py:2080]           [INFO]     |  6/30 | Amazon Collection | = | Outer Range                                                        |
+[2022-10-10 10:31:31,596] [builder.py:2080]           [INFO]     |  7/30 | Amazon Collection | = | Reacher                                                            |
+[2022-10-10 10:31:31,596] [builder.py:2080]           [INFO]     |  8/30 | Amazon Collection | = | La Roue du temps                                                   |
+[2022-10-10 10:31:31,596] [builder.py:2080]           [INFO]     |  9/30 | Amazon Collection | = | Solos                                                              |
+[2022-10-10 10:31:31,597] [builder.py:2080]           [INFO]     | 10/30 | Amazon Collection | = | Panic                                                              |
+[2022-10-10 10:31:31,597] [builder.py:2080]           [INFO]     | 11/30 | Amazon Collection | = | The Wilds                                                          |
+[2022-10-10 10:31:31,597] [builder.py:2080]           [INFO]     | 12/30 | Amazon Collection | = | Truth Seekers                                                      |
+[2022-10-10 10:31:31,597] [builder.py:2080]           [INFO]     | 13/30 | Amazon Collection | = | Utopia                                                             |
+[2022-10-10 10:31:31,598] [builder.py:2080]           [INFO]     | 14/30 | Amazon Collection | = | Hunters                                                            |
+[2022-10-10 10:31:31,598] [builder.py:2080]           [INFO]     | 15/30 | Amazon Collection | = | Upload                                                             |
+[2022-10-10 10:31:31,598] [builder.py:2080]           [INFO]     | 16/30 | Amazon Collection | = | Carnival Row                                                       |
+[2022-10-10 10:31:31,598] [builder.py:2080]           [INFO]     | 17/30 | Amazon Collection | = | The Boys                                                           |
+[2022-10-10 10:31:31,599] [builder.py:2080]           [INFO]     | 18/30 | Amazon Collection | = | Euphoria                                                           |
+[2022-10-10 10:31:31,599] [builder.py:2080]           [INFO]     | 19/30 | Amazon Collection | = | Too Old to Die Young                                               |
+[2022-10-10 10:31:31,599] [builder.py:2080]           [INFO]     | 20/30 | Amazon Collection | = | Homecoming                                                         |
+[2022-10-10 10:31:31,599] [builder.py:2080]           [INFO]     | 21/30 | Amazon Collection | = | Les Jeunes Aventuriers                                             |
+[2022-10-10 10:31:31,600] [builder.py:2080]           [INFO]     | 22/30 | Amazon Collection | = | Mythes et Croyances                                                |
+[2022-10-10 10:31:31,600] [builder.py:2080]           [INFO]     | 23/30 | Amazon Collection | = | La Fabuleuse Mme Maisel                                            |
+[2022-10-10 10:31:31,600] [builder.py:2080]           [INFO]     | 24/30 | Amazon Collection | = | American Gods                                                      |
+[2022-10-10 10:31:31,600] [builder.py:2080]           [INFO]     | 25/30 | Amazon Collection | = | Goliath                                                            |
+[2022-10-10 10:31:31,601] [builder.py:2080]           [INFO]     | 26/30 | Amazon Collection | = | The Tick                                                           |
+[2022-10-10 10:31:31,601] [builder.py:2080]           [INFO]     | 27/30 | Amazon Collection | = | Good Girls Revolt                                                  |
+[2022-10-10 10:31:31,601] [builder.py:2080]           [INFO]     | 28/30 | Amazon Collection | = | Sneaky Pete                                                        |
+[2022-10-10 10:31:31,601] [builder.py:2080]           [INFO]     | 29/30 | Amazon Collection | = | Le Maître du Haut Château                                          |
+[2022-10-10 10:31:31,602] [builder.py:2080]           [INFO]     | 30/30 | Amazon Collection | = | Hand of God                                                        |
+[2022-10-10 10:31:31,602] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-10 10:31:31,602] [builder.py:2102]           [INFO]     | 30 Shows Processed 0 Shows Added                                                                   |
+[2022-10-10 10:31:31,602] [builder.py:2228]           [INFO]     |                                                                                                    |
+[2022-10-10 10:31:31,603] [builder.py:2229]           [INFO]     |============================ Missing Movies from Library: Z. 2 - Series ============================|
+[2022-10-10 10:31:31,603] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-10-10 10:31:31,750] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Somebody I Used to Know (TMDb: 869112)                                     |
+[2022-10-10 10:31:32,208] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Something from Tiffany's (2022) (TMDb: 916053)                             |
+[2022-10-10 10:31:32,274] [builder.py:2243]           [INFO]     | Amazon Collection | ? | The People We Hate at the Wedding (2022) (TMDb: 802372)                    |
+[2022-10-10 10:31:32,291] [builder.py:2243]           [INFO]     | Amazon Collection | ? | My Policeman (2022) (TMDb: 744114)                                         |
+[2022-10-10 10:31:32,316] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Flight/Risk (2022) (TMDb: 1001869)                                         |
+[2022-10-10 10:31:32,318] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Good Night Oppy (2022) (TMDb: 972545)                                      |
+[2022-10-10 10:31:32,333] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Wildcat (2022) (TMDb: 1019446)                                             |
+[2022-10-10 10:31:32,350] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Don't Make Me Go (2022) (TMDb: 861072)                                     |
+[2022-10-10 10:31:32,366] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Iain Stirling Failing Upwards (2022) (TMDb: 980618)                        |
+[2022-10-10 10:31:32,391] [builder.py:2243]           [INFO]     | Amazon Collection | ? | All the Old Knives (2022) (TMDb: 294793)                                   |
+[2022-10-10 10:31:32,455] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Fantastic Beasts: The Secrets of Dumbledore (2022) (TMDb: 338953)          |
+[2022-10-10 10:31:32,484] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Deep Water (2022) (TMDb: 619979)                                           |
+[2022-10-10 10:31:32,517] [builder.py:2243]           [INFO]     | Amazon Collection | ? | I Want You Back (2022) (TMDb: 680860)                                      |
+[2022-10-10 10:31:32,559] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Nanny (2022) (TMDb: 843932)                                                |
+[2022-10-10 10:31:32,592] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Lucy and Desi (2022) (TMDb: 736280)                                        |
+[2022-10-10 10:31:32,618] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Master (2022) (TMDb: 680829)                                               |
+[2022-10-10 10:31:32,646] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Emergency (2022) (TMDb: 819309)                                            |
+[2022-10-10 10:31:32,671] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Yearly Departed (2021) (TMDb: 919330)                                      |
+[2022-10-10 10:31:32,708] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Shatner in Space (2021) (TMDb: 912552)                                     |
+[2022-10-10 10:31:32,726] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Being the Ricardos (2021) (TMDb: 517088)                                   |
+[2022-10-10 10:31:32,743] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Mayor Pete (2021) (TMDb: 782310)                                           |
+[2022-10-10 10:31:32,776] [builder.py:2243]           [INFO]     | Amazon Collection | ? | The Tender Bar (2021) (TMDb: 727293)                                       |
+[2022-10-10 10:31:32,810] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Justin Bieber: Our World (2021) (TMDb: 871858)                             |
+[2022-10-10 10:31:32,826] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Madres (2021) (TMDb: 796428)                                               |
+[2022-10-10 10:31:32,875] [builder.py:2243]           [INFO]     | Amazon Collection | ? | The Manor (2021) (TMDb: 767499)                                            |
+[2022-10-10 10:31:32,905] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Black as Night (2021) (TMDb: 767504)                                       |
+[2022-10-10 10:31:32,948] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Bingo Hell (2021) (TMDb: 802226)                                           |
+[2022-10-10 10:31:32,975] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Birds of Paradise (2021) (TMDb: 667969)                                    |
+[2022-10-10 10:31:32,984] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Encounter (2021) (TMDb: 728526)                                            |
+[2022-10-10 10:31:33,028] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Cinderella (2021) (TMDb: 593910)                                           |
+[2022-10-10 10:31:33,046] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Val (2021) (TMDb: 834027)                                                  |
+[2022-10-10 10:31:33,071] [builder.py:2243]           [INFO]     | Amazon Collection | ? | The Tomorrow War (2021) (TMDb: 588228)                                     |
+[2022-10-10 10:31:33,105] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Mary J. Blige's My Life (2021) (TMDb: 835860)                              |
+[2022-10-10 10:31:33,126] [builder.py:2243]           [INFO]     | Amazon Collection | ? | 7th & Union (2021) (TMDb: 845887)                                          |
+[2022-10-10 10:31:33,143] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Everybody's Talking About Jamie (2021) (TMDb: 624899)                      |
+[2022-10-10 10:31:33,159] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Borat: VHS Cassette of Material Deemed “Sub-acceptable” By Kazakhstan Ministry of Censorship and Circumcision (2021) (TMDb: 818789) |
+[2022-10-10 10:31:33,201] [builder.py:2243]           [INFO]     | Amazon Collection | ? | See Us Unite for Change (2021) (TMDb: 833548)                              |
+[2022-10-10 10:31:33,280] [builder.py:2243]           [INFO]     | Amazon Collection | ? | P!NK: All I Know So Far (2021) (TMDb: 807597)                              |
+[2022-10-10 10:31:33,293] [builder.py:2243]           [INFO]     | Amazon Collection | ? | What Drives Us (2021) (TMDb: 817775)                                       |
+[2022-10-10 10:31:33,308] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Tom Clancy's Without Remorse (2021) (TMDb: 567189)                         |
+[2022-10-10 10:31:33,360] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Bliss (2021) (TMDb: 613911)                                                |
+[2022-10-10 10:31:33,468] [builder.py:2243]           [INFO]     | Amazon Collection | ? | My Name Is Pauli Murray (2021) (TMDb: 776589)                              |
+[2022-10-10 10:31:33,476] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Borat Subsequent Moviefilm (2020) (TMDb: 740985)                           |
+[2022-10-10 10:31:33,507] [builder.py:2243]           [INFO]     | Amazon Collection | ? | What the Constitution Means to Me (2020) (TMDb: 744174)                    |
+[2022-10-10 10:31:33,510] [builder.py:2243]           [INFO]     | Amazon Collection | ? | I'm Your Woman (2020) (TMDb: 643612)                                       |
+[2022-10-10 10:31:33,539] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Evil Eye (2020) (TMDb: 732713)                                             |
+[2022-10-10 10:31:33,582] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Nocturne (2020) (TMDb: 643550)                                             |
+[2022-10-10 10:31:33,598] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Black Box (2020) (TMDb: 716258)                                            |
+[2022-10-10 10:31:33,649] [builder.py:2243]           [INFO]     | Amazon Collection | ? | The Secrets We Keep (2020) (TMDb: 615115)                                  |
+[2022-10-10 10:31:33,666] [builder.py:2243]           [INFO]     | Amazon Collection | ? | All In: The Fight for Democracy (2020) (TMDb: 727705)                      |
+[2022-10-10 10:31:33,704] [builder.py:2243]           [INFO]     | Amazon Collection | ? | One Night in Miami... (2020) (TMDb: 661914)                                |
+[2022-10-10 10:31:33,751] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Dino Dana: The Movie (2020) (TMDb: 670328)                                 |
+[2022-10-10 10:31:33,793] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Chemical Hearts (2020) (TMDb: 621013)                                      |
+[2022-10-10 10:31:33,818] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Gina Brillon: The Floor Is Lava (2020) (TMDb: 712502)                      |
+[2022-10-10 10:31:33,843] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Sylvie's Love (2020) (TMDb: 584288)                                        |
+[2022-10-10 10:31:33,885] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Run Sweetheart Run (2020) (TMDb: 532870)                                   |
+[2022-10-10 10:31:33,908] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Time (2020) (TMDb: 653729)                                                 |
+[2022-10-10 10:31:33,933] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Uncle Frank (2020) (TMDb: 634544)                                          |
+[2022-10-10 10:31:33,958] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Russell Peters: Deported (2020) (TMDb: 664473)                             |
+[2022-10-10 10:31:33,983] [builder.py:2243]           [INFO]     | Amazon Collection | ? | My Spy (2020) (TMDb: 592834)                                               |
+[2022-10-10 10:31:34,008] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Ana (2020) (TMDb: 646453)                                                  |
+[2022-10-10 10:31:34,033] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Jayde Adams: Serious Black Jumper (2020) (TMDb: 661771)                    |
+[2022-10-10 10:31:34,050] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Ilana Glazer: The Planet Is Burning (2020) (TMDb: 660297)                  |
+[2022-10-10 10:31:34,101] [builder.py:2243]           [INFO]     | Amazon Collection | ? | The Kacey Musgraves Christmas Show (2019) (TMDb: 645362)                   |
+[2022-10-10 10:31:34,133] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Stranger in the Night (2019) (TMDb: 591532)                                |
+[2022-10-10 10:31:34,176] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Kill Chain (2020) (TMDb: 531299)                                           |
+[2022-10-10 10:31:34,202] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Savage X Fenty Show (2019) (TMDb: 632098)                                  |
+[2022-10-10 10:31:34,225] [builder.py:2243]           [INFO]     | Amazon Collection | ? | The Goldfinch (2019) (TMDb: 472674)                                        |
+[2022-10-10 10:31:34,233] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Radioactive (2020) (TMDb: 480857)                                          |
+[2022-10-10 10:31:34,268] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Sound of Metal (2020) (TMDb: 502033)                                       |
+[2022-10-10 10:31:34,270] [builder.py:2243]           [INFO]     | Amazon Collection | ? | The Aeronauts (2019) (TMDb: 514921)                                        |
+[2022-10-10 10:31:34,310] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Seberg (2019) (TMDb: 510298)                                               |
+[2022-10-10 10:31:34,343] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Jim Gaffigan: Quality Time (2019) (TMDb: 620778)                           |
+[2022-10-10 10:31:34,385] [builder.py:2243]           [INFO]     | Amazon Collection | ? | 7500 (2019) (TMDb: 509585)                                                 |
+[2022-10-10 10:31:34,435] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Prime Day Concert 2019 (2019) (TMDb: 614793)                               |
+[2022-10-10 10:31:34,477] [builder.py:2243]           [INFO]     | Amazon Collection | ? | A Call to Spy (2020) (TMDb: 589612)                                        |
+[2022-10-10 10:31:34,527] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Chasing Happiness (2019) (TMDb: 601169)                                    |
+[2022-10-10 10:31:34,560] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Blow the Man Down (2019) (TMDb: 586451)                                    |
+[2022-10-10 10:31:34,610] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Guava Island (2019) (TMDb: 543343)                                         |
+[2022-10-10 10:31:34,662] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Troop Zero (2019) (TMDb: 525946)                                           |
+[2022-10-10 10:31:34,704] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Brittany Runs a Marathon (2019) (TMDb: 529862)                             |
+[2022-10-10 10:31:34,762] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Selah and the Spades (2019) (TMDb: 543727)                                 |
+[2022-10-10 10:31:34,776] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Photograph (2019) (TMDb: 514586)                                           |
+[2022-10-10 10:31:34,824] [builder.py:2243]           [INFO]     | Amazon Collection | ? | One Child Nation (2019) (TMDb: 566368)                                     |
+[2022-10-10 10:31:34,835] [builder.py:2243]           [INFO]     | Amazon Collection | ? | The Report (2019) (TMDb: 524348)                                           |
+[2022-10-10 10:31:34,858] [builder.py:2243]           [INFO]     | Amazon Collection | ? | The Vast of Night (2019) (TMDb: 565743)                                    |
+[2022-10-10 10:31:34,899] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Honey Boy (2019) (TMDb: 512263)                                            |
+[2022-10-10 10:31:34,941] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Late Night (2019) (TMDb: 523172)                                           |
+[2022-10-10 10:31:34,952] [builder.py:2243]           [INFO]     | Amazon Collection | ? | The Lie (2018) (TMDb: 539649)                                              |
+[2022-10-10 10:31:35,002] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Life Itself (2018) (TMDb: 446696)                                          |
+[2022-10-10 10:31:35,033] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Beautiful Boy (2018) (TMDb: 451915)                                        |
+[2022-10-10 10:31:35,058] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Suspiria (2018) (TMDb: 361292)                                             |
+[2022-10-10 10:31:35,077] [builder.py:2243]           [INFO]     | Amazon Collection | ? | UFC 225: Whittaker vs. Romero 2 (2018) (TMDb: 525327)                      |
+[2022-10-10 10:31:35,119] [builder.py:2243]           [INFO]     | Amazon Collection | ? | King Lear (2018) (TMDb: 513427)                                            |
+[2022-10-10 10:31:35,144] [builder.py:2243]           [INFO]     | Amazon Collection | ? | UFC 223: Khabib vs. Iaquinta (2018) (TMDb: 510059)                         |
+[2022-10-10 10:31:35,185] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Gringo (2018) (TMDb: 340022)                                               |
+[2022-10-10 10:31:35,203] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Pass Over (2018) (TMDb: 501154)                                            |
+[2022-10-10 10:31:35,233] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Colette (2018) (TMDb: 454652)                                              |
+[2022-10-10 10:31:35,275] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Don't Worry, He Won't Get Far on Foot (2018) (TMDb: 443009)                |
+[2022-10-10 10:31:35,294] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Generation Wealth (2018) (TMDb: 493014)                                    |
+[2022-10-10 10:31:35,327] [builder.py:2243]           [INFO]     | Amazon Collection | ? | The 2018 Rose Parade Hosted by Cord & Tish (2018) (TMDb: 495781)           |
+[2022-10-10 10:31:35,368] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Wonder Wheel (2017) (TMDb: 429189)                                         |
+[2022-10-10 10:31:35,418] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Last Flag Flying (2017) (TMDb: 419709)                                     |
+[2022-10-10 10:31:35,469] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Brad's Status (2017) (TMDb: 425980)                                        |
+[2022-10-10 10:31:35,510] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Will vs. The Future (TMDb: 473633)                                         |
+[2022-10-10 10:31:35,569] [builder.py:2243]           [INFO]     | Amazon Collection | ? | A Kid Called Mayonnaise (2017) (TMDb: 913684)                              |
+[2022-10-10 10:31:35,611] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Skyward (2017) (TMDb: 473903)                                              |
+[2022-10-10 10:31:35,644] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Logan Lucky (2017) (TMDb: 399170)                                          |
+[2022-10-10 10:31:35,694] [builder.py:2243]           [INFO]     | Amazon Collection | ? | The Only Living Boy in New York (2017) (TMDb: 95608)                       |
+[2022-10-10 10:31:35,696] [builder.py:2243]           [INFO]     | Amazon Collection | ? | An American Girl Story: Summer Camp, Friends For Life (2017) (TMDb: 461038) |
+[2022-10-10 10:31:35,736] [builder.py:2243]           [INFO]     | Amazon Collection | ? | You Were Never Really Here (2017) (TMDb: 398181)                           |
+[2022-10-10 10:31:35,796] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Wonderstruck (2017) (TMDb: 383709)                                         |
+[2022-10-10 10:31:35,836] [builder.py:2243]           [INFO]     | Amazon Collection | ? | The Wall (2017) (TMDb: 405775)                                             |
+[2022-10-10 10:31:35,878] [builder.py:2243]           [INFO]     | Amazon Collection | ? | An American Girl Story - Ivy & Julie 1976: A Happy Balance (2017) (TMDb: 447480) |
+[2022-10-10 10:31:35,928] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Long Strange Trip (2017) (TMDb: 431714)                                    |
+[2022-10-10 10:31:35,961] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Crown Heights (2017) (TMDb: 425507)                                        |
+[2022-10-10 10:31:36,009] [builder.py:2243]           [INFO]     | Amazon Collection | ? | City of Ghosts (2017) (TMDb: 428501)                                       |
+[2022-10-10 10:31:36,042] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Landline (2017) (TMDb: 419459)                                             |
+[2022-10-10 10:31:36,118] [builder.py:2243]           [INFO]     | Amazon Collection | ? | The Big Sick (2017) (TMDb: 416477)                                         |
+[2022-10-10 10:31:36,133] [builder.py:2243]           [INFO]     | Amazon Collection | ? | An American Girl Story: Maryellen 1955 - Extraordinary Christmas (2016) (TMDb: 427561) |
+[2022-10-10 10:31:36,184] [builder.py:2243]           [INFO]     | Amazon Collection | ? | An American Girl Story - Melody 1963: Love Has to Win (2016) (TMDb: 421852) |
+[2022-10-10 10:31:36,218] [builder.py:2243]           [INFO]     | Amazon Collection | ? | The Lost City of Z (2017) (TMDb: 314095)                                   |
+[2022-10-10 10:31:36,277] [builder.py:2243]           [INFO]     | Amazon Collection | ? | I Am Not Your Negro (2017) (TMDb: 411019)                                  |
+[2022-10-10 10:31:36,334] [builder.py:2243]           [INFO]     | Amazon Collection | ? | David Lynch: The Art Life (2017) (TMDb: 413765)                            |
+[2022-10-10 10:31:36,904] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Ryan Bingham Live (TMDb: 996766)                                           |
+[2022-10-10 10:31:37,419] [builder.py:2243]           [INFO]     | Amazon Collection | ? | The Neon Demon (2016) (TMDb: 301365)                                       |
+[2022-10-10 10:31:37,444] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Gimme Danger (2016) (TMDb: 392820)                                         |
+[2022-10-10 10:31:37,494] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Paterson (2016) (TMDb: 370755)                                             |
+[2022-10-10 10:31:37,548] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Café Society (2016) (TMDb: 339397)                                         |
+[2022-10-10 10:31:37,615] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Elvis & Nixon (2016) (TMDb: 301348)                                        |
+[2022-10-10 10:31:37,726] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Complete Unknown (2016) (TMDb: 373476)                                     |
+[2022-10-10 10:31:37,783] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Gleason (2016) (TMDb: 373446)                                              |
+[2022-10-10 10:31:37,878] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Manchester by the Sea (2016) (TMDb: 334541)                                |
+[2022-10-10 10:31:37,901] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Wiener-Dog (2016) (TMDb: 326094)                                           |
+[2022-10-10 10:31:37,934] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Chi-Raq (2015) (TMDb: 340275)                                              |
+[2022-10-10 10:31:37,993] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Edge (2015) (TMDb: 500986)                                                 |
+[2022-10-10 10:31:38,052] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Casanova (2015) (TMDb: 376780)                                             |
+[2022-10-10 10:31:38,094] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Creative Control (2016) (TMDb: 320146)                                     |
+[2022-10-10 10:31:38,126] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Down Dog (2015) (TMDb: 320247)                                             |
+[2022-10-10 10:31:38,169] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Table 58 (2015) (TMDb: 491865)                                             |
+[2022-10-10 10:31:38,227] [builder.py:2243]           [INFO]     | Amazon Collection | ? | The After (2014) (TMDb: 347520)                                            |
+[2022-10-10 10:31:38,259] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Test (2013) (TMDb: 226979)                                                 |
+[2022-10-10 10:31:38,301] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Onion News Empire (2013) (TMDb: 465231)                                    |
+[2022-10-10 10:31:38,326] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Browsers (2013) (TMDb: 399786)                                             |
+[2022-10-10 10:31:38,376] [builder.py:2243]           [INFO]     | Amazon Collection | ? | Somebody's Hero (2012) (TMDb: 62196)                                       |
+[2022-10-10 10:31:38,377] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-10-10 10:31:38,377] [builder.py:2249]           [INFO]     | 145 Movies Missing                                                                                 |
+[2022-10-10 10:31:38,532] [builder.py:2274]           [INFO]     |                                                                                                    |
+[2022-10-10 10:31:38,533] [builder.py:2275]           [INFO]     |================================ Missing Shows from Library: Amazon ================================|
+[2022-10-10 10:31:38,533] [builder.py:2276]           [INFO]     |                                                                                                    |
+[2022-10-10 10:31:38,561] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Mr. & Mrs. Smith (2022) (TVDb: 396773)                                     |
+[2022-10-10 10:31:38,576] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Fallout (TVDb: 416744)                                                     |
+[2022-10-10 10:31:38,601] [builder.py:2288]           [INFO]     | Amazon Collection | ? | The Peripheral (TVDb: 349187)                                              |
+[2022-10-10 10:31:38,633] [builder.py:2288]           [INFO]     | Amazon Collection | ? | The English (TVDb: 402602)                                                 |
+[2022-10-10 10:31:38,660] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Sprung (TVDb: 401967)                                                      |
+[2022-10-10 10:31:38,724] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Cosmic Love (TVDb: 422827)                                                 |
+[2022-10-10 10:31:38,752] [builder.py:2288]           [INFO]     | Amazon Collection | ? | A League of Their Own (2022) (TVDb: 402931)                                |
+[2022-10-10 10:31:38,783] [builder.py:2288]           [INFO]     | Amazon Collection | ? | The Kids in the Hall (2022) (TVDb: 419533)                                 |
+[2022-10-10 10:31:38,799] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Bosch: Legacy (TVDb: 414553)                                               |
+[2022-10-10 10:31:38,832] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Lizzo’s Watch Out for the Big Grrrls (TVDb: 416823)                        |
+[2022-10-10 10:31:38,843] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Phat Tuesdays (TVDb: 414450)                                               |
+[2022-10-10 10:31:38,874] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Harlem (TVDb: 411866)                                                      |
+[2022-10-10 10:31:38,893] [builder.py:2288]           [INFO]     | Amazon Collection | ? | With Love (TVDb: 404298)                                                   |
+[2022-10-10 10:31:38,934] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Everybody Loves Natti (TVDb: 411661)                                       |
+[2022-10-10 10:31:38,952] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Tampa Baes (TVDb: 407035)                                                  |
+[2022-10-10 10:31:38,993] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Judy Justice (TVDb: 391619)                                                |
+[2022-10-10 10:31:39,010] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Maradona: Sueño bendito (TVDb: 397908)                                     |
+[2022-10-10 10:31:39,051] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Always Jane (TVDb: 410948)                                                 |
+[2022-10-10 10:31:39,068] [builder.py:2288]           [INFO]     | Amazon Collection | ? | I Know What You Did Last Summer (TVDb: 390256)                             |
+[2022-10-10 10:31:39,110] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Curse of the Chippendales (TVDb: 408856)                                   |
+[2022-10-10 10:31:39,129] [builder.py:2288]           [INFO]     | Amazon Collection | ? | LuLaRich (TVDb: 408854)                                                    |
+[2022-10-10 10:31:39,177] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Prime Day Show (TVDb: 405074)                                              |
+[2022-10-10 10:31:39,193] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Borat's American Lockdown & Debunking Borat (TVDb: 403269)                 |
+[2022-10-10 10:31:39,218] [builder.py:2288]           [INFO]     | Amazon Collection | ? | The Underground Railroad (TVDb: 373877)                                    |
+[2022-10-10 10:31:39,235] [builder.py:2288]           [INFO]     | Amazon Collection | ? | The Pack (2020) (US) (TVDb: 389914)                                        |
+[2022-10-10 10:31:39,252] [builder.py:2288]           [INFO]     | Amazon Collection | ? | All or Nothing: Tottenham Hotspur (TVDb: 385209)                           |
+[2022-10-10 10:31:39,282] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Prime Rewind: Inside The Boys (TVDb: 388377)                               |
+[2022-10-10 10:31:39,302] [builder.py:2288]           [INFO]     | Amazon Collection | ? | World's Toughest Race: Eco‑Challenge Fiji (TVDb: 379178)                   |
+[2022-10-10 10:31:39,326] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Alex Rider (TVDb: 370312)                                                  |
+[2022-10-10 10:31:39,356] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Tales from the Loop (TVDb: 368210)                                         |
+[2022-10-10 10:31:39,385] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Ted Bundy: Falling for a Killer (TVDb: 371107)                             |
+[2022-10-10 10:31:39,431] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Star Trek: Picard (TVDb: 364093)                                           |
+[2022-10-10 10:31:39,437] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Modern Love (TVDb: 357222)                                                 |
+[2022-10-10 10:31:39,452] [builder.py:2288]           [INFO]     | Amazon Collection | ? | The Feed (2019) (TVDb: 361038)                                             |
+[2022-10-10 10:31:39,483] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Free Meek (TVDb: 365967)                                                   |
+[2022-10-10 10:31:39,494] [builder.py:2288]           [INFO]     | Amazon Collection | ? | This Is Football (TVDb: 366370)                                            |
+[2022-10-10 10:31:39,541] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Love Island (US) (TVDb: 364107)                                            |
+[2022-10-10 10:31:39,552] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Good Omens (TVDb: 359569)                                                  |
+[2022-10-10 10:31:39,575] [builder.py:2288]           [INFO]     | Amazon Collection | ? | This Giant Beast That is the Global Economy (TVDb: 358474)                 |
+[2022-10-10 10:31:39,600] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Hanna (TVDb: 357690)                                                       |
+[2022-10-10 10:31:39,641] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Lorena (TVDb: 357880)                                                      |
+[2022-10-10 10:31:39,652] [builder.py:2288]           [INFO]     | Amazon Collection | ? | The Gymkhana Files (TVDb: 354040)                                          |
+[2022-10-10 10:31:39,685] [builder.py:2288]           [INFO]     | Amazon Collection | ? | The Romanoffs (TVDb: 350820)                                               |
+[2022-10-10 10:31:39,716] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Forever (2018) (TVDb: 350995)                                              |
+[2022-10-10 10:31:39,728] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Vanity Fair (2018) (TVDb: 349513)                                          |
+[2022-10-10 10:31:39,758] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Tom Clancy's Jack Ryan (TVDb: 336261)                                      |
+[2022-10-10 10:31:39,768] [builder.py:2288]           [INFO]     | Amazon Collection | ? | All or Nothing: Manchester City (TVDb: 350747)                             |
+[2022-10-10 10:31:39,799] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Eat. Race. Win. (TVDb: 349546)                                             |
+[2022-10-10 10:31:39,824] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Falco (TVDb: 349449)                                                       |
+[2022-10-10 10:31:39,845] [builder.py:2288]           [INFO]     | Amazon Collection | ? | All or Nothing: The Michigan Wolverines (TVDb: 345592)                     |
+[2022-10-10 10:31:39,886] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Ordeal by Innocence (TVDb: 344813)                                         |
+[2022-10-10 10:31:39,903] [builder.py:2288]           [INFO]     | Amazon Collection | ? | GRAND PRIX Driver (TVDb: 340937)                                           |
+[2022-10-10 10:31:39,908] [builder.py:2288]           [INFO]     | Amazon Collection | ? | McMafia (TVDb: 334075)                                                     |
+[2022-10-10 10:31:39,938] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Sea Oak (TVDb: 336822)                                                     |
+[2022-10-10 10:31:40,277] [builder.py:2283]           [ERROR]    | TVDb Error: Name not found from TVDb ID: 336825                                                    |
+[2022-10-10 10:31:40,292] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Britannia (TVDb: 333644)                                                   |
+[2022-10-10 10:31:40,309] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Absentia (TVDb: 330500)                                                    |
+[2022-10-10 10:31:40,359] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Philip K. Dick's Electric Dreams (TVDb: 329083)                            |
+[2022-10-10 10:31:40,412] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Comrade Detective (TVDb: 331301)                                           |
+[2022-10-10 10:31:40,434] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Dino Dana (TVDb: 331706)                                                   |
+[2022-10-10 10:31:40,476] [builder.py:2288]           [INFO]     | Amazon Collection | ? | American Playboy: The Hugh Hefner Story (TVDb: 324295)                     |
+[2022-10-10 10:31:40,492] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Budding Prospects (TVDb: 335020)                                           |
+[2022-10-10 10:31:40,534] [builder.py:2288]           [INFO]     | Amazon Collection | ? | The Legend of Master Legend (TVDb: 327915)                                 |
+[2022-10-10 10:31:40,568] [builder.py:2288]           [INFO]     | Amazon Collection | ? | The Grand Tour (2016) (TVDb: 314087)                                       |
+[2022-10-10 10:31:40,601] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Crisis in Six Scenes (TVDb: 315314)                                        |
+[2022-10-10 10:31:40,634] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Eat the World with Emeril Lagasse (TVDb: 316461)                           |
+[2022-10-10 10:31:40,651] [builder.py:2288]           [INFO]     | Amazon Collection | ? | I Love Dick (TVDb: 316951)                                                 |
+[2022-10-10 10:31:40,667] [builder.py:2288]           [INFO]     | Amazon Collection | ? | All or Nothing: American Football (TVDb: 313828)                           |
+[2022-10-10 10:31:40,678] [builder.py:2288]           [INFO]     | Amazon Collection | ? | The Interestings (TVDb: 367959)                                            |
+[2022-10-10 10:31:40,700] [builder.py:2288]           [INFO]     | Amazon Collection | ? | The Last Tycoon (TVDb: 315364)                                             |
+[2022-10-10 10:31:40,725] [builder.py:2288]           [INFO]     | Amazon Collection | ? | One Mississippi (TVDb: 315323)                                             |
+[2022-10-10 10:31:40,742] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Highston (TVDb: 313897)                                                    |
+[2022-10-10 10:31:40,758] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Patriot (TVDb: 323267)                                                     |
+[2022-10-10 10:31:40,800] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Z: The Beginning of Everything (TVDb: 313880)                              |
+[2022-10-10 10:31:40,811] [builder.py:2288]           [INFO]     | Amazon Collection | ? | The Kicks (2015) (TVDb: 316182)                                            |
+[2022-10-10 10:31:41,172] [builder.py:2283]           [ERROR]    | TVDb Error: Name not found from TVDb ID: 14247                                                     |
+[2022-10-10 10:31:41,199] [builder.py:2288]           [INFO]     | Amazon Collection | ? | The New Yorker Presents (TVDb: 305947)                                     |
+[2022-10-10 10:31:41,218] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Just Add Magic (TVDb: 299140)                                              |
+[2022-10-10 10:31:41,249] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Mad Dogs (US) (TVDb: 295828)                                               |
+[2022-10-10 10:31:41,260] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Point of Honor (TVDb: 333943)                                              |
+[2022-10-10 10:31:41,291] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Hysteria (2014) (TVDb: 347761)                                             |
+[2022-10-10 10:31:41,305] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Really (TVDb: 337867)                                                      |
+[2022-10-10 10:31:41,320] [builder.py:2288]           [INFO]     | Amazon Collection | ? | The Cosmopolitans (TVDb: 333940)                                           |
+[2022-10-10 10:31:41,341] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Red Oaks (TVDb: 284641)                                                    |
+[2022-10-10 10:31:41,353] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Transparent (TVDb: 278334)                                                 |
+[2022-10-10 10:31:41,370] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Bosch (TVDb: 277928)                                                       |
+[2022-10-10 10:31:41,408] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Mozart in the Jungle (TVDb: 278335)                                        |
+[2022-10-10 10:31:41,420] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Gortimer Gibbon's Life on Normal Street (TVDb: 278546)                     |
+[2022-10-10 10:31:41,470] [builder.py:2288]           [INFO]     | Amazon Collection | ? | The Rebels (TVDb: 337996)                                                  |
+[2022-10-10 10:31:41,487] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Annedroids (TVDb: 286246)                                                  |
+[2022-10-10 10:31:41,504] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Betas (TVDb: 269003)                                                       |
+[2022-10-10 10:31:41,505] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Alpha House (TVDb: 269008)                                                 |
+[2022-10-10 10:31:41,554] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Zombieland (TVDb: 333946)                                                  |
+[2022-10-10 10:31:41,604] [builder.py:2288]           [INFO]     | Amazon Collection | ? | RuPaul's Drag Race All Stars (TVDb: 263380)                                |
+[2022-10-10 10:31:41,668] [builder.py:2288]           [INFO]     | Amazon Collection | ? | Hart of Dixie (TVDb: 248880)                                               |
+[2022-10-10 10:31:41,704] [builder.py:2288]           [INFO]     | Amazon Collection | ? | RuPaul's Drag Race (TVDb: 85002)                                           |
+[2022-10-10 10:31:41,704] [builder.py:2293]           [INFO]     |                                                                                                    |
+[2022-10-10 10:31:41,705] [builder.py:2294]           [INFO]     | 94 Shows Missing                                                                                   |
+[2022-10-10 10:31:41,900] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-10 10:31:41,900] [builder.py:2442]           [INFO]     |============================== Updating Details of Amazon Collection ===============================|
+[2022-10-10 10:31:41,900] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-10 10:31:41,908] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-10-10 10:31:41,909] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Amazon'                                               |
+[2022-10-10 10:31:41,909] [util.py:150]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-10-10 10:31:41,909] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/NETWORK_AMAZON.png |
+[2022-10-10 10:31:41,909] [util.py:150]               [DEBUG]    | 1 background found:                                                                                |
+[2022-10-10 10:31:41,909] [util.py:152]               [DEBUG]    | Method: url_background Background: https://i.imgur.com/2jfs7oS.png                                 |
+[2022-10-10 10:31:41,910] [library.py:172]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-10-10 10:31:41,932] [library.py:188]            [INFO]     | Detail: background update not needed                                                               |
+[2022-10-10 10:31:41,992] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-10 10:31:41,992] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-10 10:31:41,992] [plex_meta_manager.py:709]  [INFO]     |                                     Finished Amazon Collection                                     |
+[2022-10-10 10:31:41,993] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:23                                    |
+[2022-10-10 10:31:41,993] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

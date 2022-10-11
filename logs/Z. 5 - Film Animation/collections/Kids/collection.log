@@ -1,0 +1,481 @@
+[2022-10-11 10:10:02,666] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 10:10:02,666] [builder.py:197]            [INFO]     |                              Kids Collection in Z. 5 - Film Animation                              |
+[2022-10-11 10:10:02,666] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 10:10:02,666] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 10:10:02,666] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 10:10:02,667] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:10:02,667] [meta.py:128]               [DEBUG]    | Template Genre                                                                                     |
+[2022-10-11 10:10:02,667] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Genre')])                                                             |
+[2022-10-11 10:10:02,667] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:10:02,667] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Genre'), ('collection_name', 'Kids'), ('mapping_name', 'Kids'), ('library_type', 'movie'), ('library_name', 'Z. 5 - Film Animation'), ('name_encoded', 'Genre'), ('collection_name_encoded', 'Kids'), ('mapping_name_encoded', 'Kids'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%205%20-%20Film%20Animation'), ('collection_sort', 'Kids')]) |
+[2022-10-11 10:10:02,667] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:10:02,668] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 10:10:02,668] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:10:02,668] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 10:10:02,668] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:10:02,669] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+3_Kids', 'sync_mode': 'sync', 'smart_label': 'audience_rating.desc'} |
+[2022-10-11 10:10:02,669] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:10:02,669] [builder.py:219]            [INFO]     |==================================== Validating Kids Attributes ====================================|
+[2022-10-11 10:10:02,669] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:10:02,669] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-11 10:10:02,669] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-11 10:10:02,669] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:10:02,670] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-11 10:10:02,670] [builder.py:544]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-10-11 10:10:02,685] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:10:02,685] [builder.py:631]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-10-11 10:10:02,685] [builder.py:632]            [DEBUG]    | Value: ['https://trakt.tv/users/canconfirm/lists/kids?sort=added,asc']                             |
+[2022-10-11 10:10:02,906] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:10:02,906] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-10-11 10:10:02,907] [builder.py:632]            [DEBUG]    | Value: Movies about distopian world                                                                |
+[2022-10-11 10:10:02,907] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:10:02,907] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-11 10:10:02,907] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_KIDS.png                |
+[2022-10-11 10:10:03,231] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:10:03,232] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 10:10:03,232] [builder.py:632]            [DEBUG]    | Value: +3_Kids                                                                                     |
+[2022-10-11 10:10:03,237] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:10:03,238] [plex.py:793]               [DEBUG]    | Looking for: Kids                                                                                  |
+[2022-10-11 10:10:03,238] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 10:10:03,238] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 10:10:03,238] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 10:10:03,238] [plex_meta_manager.py:563]  [INFO]     |===================================== Running Kids Collection ======================================|
+[2022-10-11 10:10:03,238] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-10-11 10:10:03,238] [plex_meta_manager.py:570]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: audience_rating.desc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Kids
+[2022-10-11 10:10:03,239] [plex_meta_manager.py:575]  [INFO]     | 
+[2022-10-11 10:10:03,239] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync
+[2022-10-11 10:10:03,239] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 10:10:03,239] [plex_meta_manager.py:580]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/canconfirm/lists/kids?sort=added,asc
+[2022-10-11 10:10:03,239] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 10:10:03,240] [trakt.py:487]              [INFO]     | Processing Trakt List: https://trakt.tv/users/canconfirm/lists/kids?sort=added,asc
+[2022-10-11 10:10:03,492] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 10:10:03,493] [builder.py:1541]           [DEBUG]    | 396 IDs Found: [(10386, 'tmdb'), (408, 'tmdb'), (10895, 'tmdb'), (11360, 'tmdb'), (3170, 'tmdb'), (11224, 'tmdb'), (10693, 'tmdb'), (12092, 'tmdb'), (10882, 'tmdb'), (10340, 'tmdb'), (12230, 'tmdb'), (9078, 'tmdb'), (10112, 'tmdb'), (9325, 'tmdb'), (11886, 'tmdb'), (250480, 'tmdb'), (10948, 'tmdb'), (11319, 'tmdb'), (9994, 'tmdb'), (10957, 'tmdb'), (10144, 'tmdb'), (12233, 'tmdb'), (10020, 'tmdb'), (11135, 'tmdb'), (8587, 'tmdb'), (812, 'tmdb'), (10530, 'tmdb'), (10545, 'tmdb'), (10674, 'tmdb'), (11970, 'tmdb'), (37135, 'tmdb'), (11688, 'tmdb'), (11544, 'tmdb'), (10865, 'tmdb'), (9016, 'tmdb'), (10009, 'tmdb'), (13700, 'tmdb'), (10198, 'tmdb'), (82690, 'tmdb'), (38757, 'tmdb'), (177572, 'tmdb'), (109445, 'tmdb'), (269149, 'tmdb'), (105864, 'tmdb'), (150540, 'tmdb'), (159824, 'tmdb'), (227973, 'tmdb'), (211672, 'tmdb'), (257445, 'tmdb'), (9487, 'tmdb'), (17578, 'tmdb'), (4978, 'tmdb'), (12155, 'tmdb'), (9444, 'tmdb'), (228326, 'tmdb'), (62177, 'tmdb'), (920, 'tmdb'), (49013, 'tmdb'), (411, 'tmdb'), (22794, 'tmdb'), (49519, 'tmdb'), (20352, 'tmdb'), (93456, 'tmdb'), (9340, 'tmdb'), (13053, 'tmdb'), (76492, 'tmdb'), (12222, 'tmdb'), (10191, 'tmdb'), (82702, 'tmdb'), (425, 'tmdb'), (8355, 'tmdb'), (950, 'tmdb'), (9806, 'tmdb'), (137106, 'tmdb'), (12144, 'tmdb'), (41216, 'tmdb'), (73723, 'tmdb'), (38055, 'tmdb'), (585, 'tmdb'), (62211, 'tmdb'), (82703, 'tmdb'), (34584, 'tmdb'), (116149, 'tmdb'), (2062, 'tmdb'), (10501, 'tmdb'), (808, 'tmdb'), (809, 'tmdb'), (810, 'tmdb'), (862, 'tmdb'), (863, 'tmdb'), (10193, 'tmdb'), (11708, 'tmdb'), (12335, 'tmdb'), (9598, 'tmdb'), (9986, 'tmdb'), (433, 'tmdb'), (11283, 'tmdb'), (252, 'tmdb'), (630, 'tmdb'), (10996, 'tmdb'), (10137, 'tmdb'), (9447, 'tmdb'), (9297, 'tmdb'), (11806, 'tmdb'), (10830, 'tmdb'), (9837, 'tmdb'), (19933, 'tmdb'), (9836, 'tmdb'), (9928, 'tmdb'), (10192, 'tmdb'), (417859, 'tmdb'), (533, 'tmdb'), (8916, 'tmdb'), (16366, 'tmdb'), (14836, 'tmdb'), (14447, 'tmdb'), (109451, 'tmdb'), (856, 'tmdb'), (7443, 'tmdb'), (10166, 'tmdb'), (1281, 'tmdb'), (14444, 'tmdb'), (16340, 'tmdb'), (284995, 'tmdb'), (332, 'tmdb'), (41513, 'tmdb'), (98566, 'tmdb'), (77931, 'tmdb'), (13597, 'tmdb'), (19101, 'tmdb'), (10539, 'tmdb'), (11359, 'tmdb'), (14518, 'tmdb'), (10681, 'tmdb'), (14160, 'tmdb'), (9502, 'tmdb'), (81188, 'tmdb'), (49444, 'tmdb'), (57800, 'tmdb'), (879, 'tmdb'), (77174, 'tmdb'), (1267, 'tmdb'), (11619, 'tmdb'), (6795, 'tmdb'), (72197, 'tmdb'), (213121, 'tmdb'), (10992, 'tmdb'), (531, 'tmdb'), (77459, 'tmdb'), (41515, 'tmdb'), (532, 'tmdb'), (21032, 'tmdb'), (11497, 'tmdb'), (530, 'tmdb'), (202575, 'tmdb'), (15655, 'tmdb'), (11704, 'tmdb'), (12, 'tmdb'), (51162, 'tmdb'), (2493, 'tmdb'), (263109, 'tmdb'), (150689, 'tmdb'), (140300, 'tmdb'), (97, 'tmdb'), (256835, 'tmdb'), (14411, 'tmdb'), (181533, 'tmdb'), (10140, 'tmdb'), (18360, 'tmdb'), (1593, 'tmdb'), (11774, 'tmdb'), (8844, 'tmdb'), (11674, 'tmdb'), (8839, 'tmdb'), (888, 'tmdb'), (10439, 'tmdb'), (1498, 'tmdb'), (2605, 'tmdb'), (11548, 'tmdb'), (228165, 'tmdb'), (10555, 'tmdb'), (3933, 'tmdb'), (300602, 'tmdb'), (14522, 'tmdb'), (15139, 'tmdb'), (228161, 'tmdb'), (953, 'tmdb'), (10527, 'tmdb'), (80321, 'tmdb'), (6477, 'tmdb'), (62214, 'tmdb'), (7518, 'tmdb'), (68179, 'tmdb'), (50359, 'tmdb'), (16866, 'tmdb'), (65759, 'tmdb'), (10567, 'tmdb'), (8920, 'tmdb'), (9023, 'tmdb'), (12819, 'tmdb'), (321528, 'tmdb'), (177271, 'tmdb'), (10199, 'tmdb'), (9906, 'tmdb'), (9975, 'tmdb'), (9513, 'tmdb'), (9904, 'tmdb'), (8965, 'tmdb'), (11802, 'tmdb'), (121734, 'tmdb'), (12589, 'tmdb'), (14175, 'tmdb'), (11114, 'tmdb'), (10380, 'tmdb'), (245685, 'tmdb'), (2454, 'tmdb'), (2268, 'tmdb'), (276905, 'tmdb'), (285, 'tmdb'), (9907, 'tmdb'), (313867, 'tmdb'), (9574, 'tmdb'), (19585, 'tmdb'), (6439, 'tmdb'), (6878, 'tmdb'), (68728, 'tmdb'), (58, 'tmdb'), (1865, 'tmdb'), (22, 'tmdb'), (278927, 'tmdb'), (21605, 'tmdb'), (102651, 'tmdb'), (5559, 'tmdb'), (15512, 'tmdb'), (16577, 'tmdb'), (28118, 'tmdb'), (322456, 'tmdb'), (14248, 'tmdb'), (10601, 'tmdb'), (10756, 'tmdb'), (230222, 'tmdb'), (10603, 'tmdb'), (10588, 'tmdb'), (10122, 'tmdb'), (10628, 'tmdb'), (146381, 'tmdb'), (16248, 'tmdb'), (241259, 'tmdb'), (80057, 'tvdb'), (266647, 'tmdb'), (11077, 'tmdb'), (153518, 'tmdb'), (328111, 'tmdb'), (258509, 'tmdb'), (127380, 'tmdb'), (43074, 'tmdb'), (368940, 'tmdb'), (267935, 'tmdb'), (1997, 'tmdb'), (234004, 'tmdb'), (54318, 'tmdb'), (2284, 'tmdb'), (118, 'tmdb'), (9982, 'tmdb'), (2300, 'tmdb'), (283366, 'tmdb'), (278154, 'tmdb'), (35, 'tmdb'), (136799, 'tmdb'), (77950, 'tmdb'), (332210, 'tmdb'), (294272, 'tmdb'), (302429, 'tmdb'), (8204, 'tmdb'), (10150, 'tmdb'), (28032, 'tmdb'), (35614, 'tmdb'), (80709, 'tmdb'), (1268, 'tmdb'), (11551, 'tmdb'), (11011, 'tmdb'), (11158, 'tmdb'), (2978, 'tmdb'), (620, 'tmdb'), (601, 'tmdb'), (324852, 'tmdb'), (313297, 'tmdb'), (25223, 'tmdb'), (277834, 'tmdb'), (15969, 'tmdb'), (49948, 'tmdb'), (317557, 'tmdb'), (335797, 'tmdb'), (259316, 'tmdb'), (81005, 'tmdb'), (4523, 'tmdb'), (321612, 'tmdb'), (224141, 'tmdb'), (42884, 'tmdb'), (280217, 'tmdb'), (508763, 'tmdb'), (456154, 'tmdb'), (12227, 'tmdb'), (354912, 'tmdb'), (260514, 'tmdb'), (324849, 'tmdb'), (295693, 'tmdb'), (364689, 'tmdb'), (346648, 'tmdb'), (137116, 'tmdb'), (260513, 'tmdb'), (400155, 'tmdb'), (381719, 'tmdb'), (360920, 'tmdb'), (8871, 'tmdb'), (420814, 'tmdb'), (407436, 'tmdb'), (338952, 'tmdb'), (523777, 'tmdb'), (442062, 'tmdb'), (495193, 'tmdb'), (23069, 'tmdb'), (433694, 'tmdb'), (446894, 'tmdb'), (404368, 'tmdb'), (166428, 'tmdb'), (454294, 'tmdb'), (22660, 'tmdb'), (26514, 'tmdb'), (505953, 'tmdb'), (460871, 'tmdb'), (498248, 'tmdb'), (581997, 'tmdb'), (509730, 'tmdb'), (400157, 'tmdb'), (527729, 'tmdb'), (329996, 'tmdb'), (522887, 'tmdb'), (11966, 'tmdb'), (406997, 'tmdb'), (671, 'tmdb'), (672, 'tmdb'), (673, 'tmdb'), (767, 'tmdb'), (44896, 'tmdb'), (64328, 'tmdb'), (11528, 'tmdb'), (8326, 'tmdb'), (458253, 'tmdb'), (602307, 'tmdb'), (46195, 'tmdb'), (454458, 'tmdb'), (44826, 'tmdb'), (522518, 'tmdb'), (412117, 'tmdb'), (615774, 'tmdb'), (301528, 'tmdb'), (454640, 'tmdb'), (420818, 'tmdb'), (499701, 'tmdb'), (512895, 'tmdb'), (508965, 'tmdb'), (460793, 'tmdb'), (638507, 'tmdb'), (420817, 'tmdb'), (447404, 'tmdb'), (642271, 'tmdb'), (606856, 'tmdb'), (481084, 'tmdb'), (330457, 'tmdb'), (422803, 'tmdb'), (448119, 'tmdb'), (550440, 'tmdb'), (13600, 'tmdb'), (431693, 'tmdb'), (454626, 'tmdb'), (508439, 'tmdb'), (420809, 'tmdb'), (431580, 'tmdb'), (486589, 'tmdb'), (481848, 'tmdb'), (446893, 'tmdb'), (560044, 'tmdb'), (690369, 'tmdb'), (385103, 'tmdb'), (508570, 'tmdb'), (400160, 'tmdb'), (337401, 'tmdb'), (594328, 'tmdb'), (529203, 'tmdb'), (508943, 'tmdb'), (527774, 'tmdb'), (585245, 'tmdb'), (568124, 'tmdb'), (639721, 'tmdb'), (508947, 'tmdb')]
+[2022-10-11 10:10:03,493] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 10:10:03,511] [builder.py:2064]           [INFO]     | 
+[2022-10-11 10:10:03,511] [builder.py:2065]           [INFO]     |==================================== Adding to Kids Collection =====================================|
+[2022-10-11 10:10:03,512] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-11 10:10:03,525] [builder.py:2080]           [INFO]     |  1/97 | Kids Collection | + | Peter Pan (1953)                                                     |
+[2022-10-11 10:10:03,542] [builder.py:2080]           [INFO]     |  2/97 | Kids Collection | + | La Belle au bois dormant (1959)                                      |
+[2022-10-11 10:10:03,559] [builder.py:2080]           [INFO]     |  3/97 | Kids Collection | + | La Belle et le Clochard (1955)                                       |
+[2022-10-11 10:10:03,575] [builder.py:2080]           [INFO]     |  4/97 | Kids Collection | + | Les 101 Dalmatiens (1961)                                            |
+[2022-10-11 10:10:03,593] [builder.py:2080]           [INFO]     |  5/97 | Kids Collection | + | Merlin l'enchanteur (1963)                                           |
+[2022-10-11 10:10:03,663] [builder.py:2080]           [INFO]     |  6/97 | Kids Collection | + | Les Aristochats (1970)                                               |
+[2022-10-11 10:10:03,679] [builder.py:2080]           [INFO]     |  7/97 | Kids Collection | + | Le Livre de la jungle (1967)                                         |
+[2022-10-11 10:10:03,695] [builder.py:2080]           [INFO]     |  8/97 | Kids Collection | + | Robin des Bois (1973)                                                |
+[2022-10-11 10:10:03,714] [builder.py:2080]           [INFO]     |  9/97 | Kids Collection | + | Les Aventures de Winnie l'ourson (1977)                              |
+[2022-10-11 10:10:03,730] [builder.py:2080]           [INFO]     | 10/97 | Kids Collection | + | Rox et Rouky (1981)                                                  |
+[2022-10-11 10:10:03,747] [builder.py:2080]           [INFO]     | 11/97 | Kids Collection | + | Les Aventures de Bernard et Bianca (1977)                            |
+[2022-10-11 10:10:03,762] [builder.py:2080]           [INFO]     | 12/97 | Kids Collection | + | Basil, détective privé (1986)                                        |
+[2022-10-11 10:10:03,779] [builder.py:2080]           [INFO]     | 13/97 | Kids Collection | + | La Petite Sirène (1989)                                              |
+[2022-10-11 10:10:03,795] [builder.py:2080]           [INFO]     | 14/97 | Kids Collection | + | Oliver & Compagnie (1988)                                            |
+[2022-10-11 10:10:03,812] [builder.py:2080]           [INFO]     | 15/97 | Kids Collection | + | La Belle et la Bête (1991)                                           |
+[2022-10-11 10:10:03,831] [builder.py:2080]           [INFO]     | 16/97 | Kids Collection | + | Bernard et Bianca au Pays des Kangourous (1990)                      |
+[2022-10-11 10:10:03,849] [builder.py:2080]           [INFO]     | 17/97 | Kids Collection | + | Le Roi lion (1994)                                                   |
+[2022-10-11 10:10:03,868] [builder.py:2080]           [INFO]     | 18/97 | Kids Collection | + | Aladdin (1992)                                                       |
+[2022-10-11 10:10:03,886] [builder.py:2080]           [INFO]     | 19/97 | Kids Collection | + | Pocahontas : Une légende indienne (1995)                             |
+[2022-10-11 10:10:03,902] [builder.py:2080]           [INFO]     | 20/97 | Kids Collection | + | Mulan (1998)                                                         |
+[2022-10-11 10:10:03,920] [builder.py:2080]           [INFO]     | 21/97 | Kids Collection | + | Hercule (1997)                                                       |
+[2022-10-11 10:10:03,937] [builder.py:2080]           [INFO]     | 22/97 | Kids Collection | + | Tarzan (1999)                                                        |
+[2022-10-11 10:10:03,954] [builder.py:2080]           [INFO]     | 23/97 | Kids Collection | + | Kuzco, l'empereur mégalo (2000)                                      |
+[2022-10-11 10:10:03,971] [builder.py:2080]           [INFO]     | 24/97 | Kids Collection | + | Lilo et Stitch (2002)                                                |
+[2022-10-11 10:10:03,990] [builder.py:2080]           [INFO]     | 25/97 | Kids Collection | + | Atlantide, l'empire perdu (2001)                                     |
+[2022-10-11 10:10:04,009] [builder.py:2080]           [INFO]     | 26/97 | Kids Collection | + | La Planète au Trésor : Un nouvel univers (2002)                      |
+[2022-10-11 10:10:04,093] [builder.py:2080]           [INFO]     | 27/97 | Kids Collection | + | Frère des ours (2003)                                                |
+[2022-10-11 10:10:04,112] [builder.py:2080]           [INFO]     | 28/97 | Kids Collection | + | La Princesse et la grenouille (2009)                                 |
+[2022-10-11 10:10:04,130] [builder.py:2080]           [INFO]     | 29/97 | Kids Collection | + | Les Mondes de Ralph (2012)                                           |
+[2022-10-11 10:10:04,149] [builder.py:2080]           [INFO]     | 30/97 | Kids Collection | + | Raiponce (2010)                                                      |
+[2022-10-11 10:10:04,167] [builder.py:2080]           [INFO]     | 31/97 | Kids Collection | + | Les Nouveaux Héros (2014)                                            |
+[2022-10-11 10:10:04,186] [builder.py:2080]           [INFO]     | 32/97 | Kids Collection | + | La reine des neiges (2013)                                           |
+[2022-10-11 10:10:04,206] [builder.py:2080]           [INFO]     | 33/97 | Kids Collection | + | Le Voyage d’Arlo (2015)                                              |
+[2022-10-11 10:10:04,226] [builder.py:2080]           [INFO]     | 34/97 | Kids Collection | + | Vice-versa (2015)                                                    |
+[2022-10-11 10:10:04,242] [builder.py:2080]           [INFO]     | 35/97 | Kids Collection | + | Hôtel Transylvanie 2 (2015)                                          |
+[2022-10-11 10:10:04,261] [builder.py:2080]           [INFO]     | 36/97 | Kids Collection | + | Les Minions (2015)                                                   |
+[2022-10-11 10:10:04,279] [builder.py:2080]           [INFO]     | 37/97 | Kids Collection | + | 1001 Pattes (1998)                                                   |
+[2022-10-11 10:10:04,298] [builder.py:2080]           [INFO]     | 38/97 | Kids Collection | + | Alice au pays des merveilles (2010)                                  |
+[2022-10-11 10:10:04,315] [builder.py:2080]           [INFO]     | 39/97 | Kids Collection | + | Rebelle (2012)                                                       |
+[2022-10-11 10:10:04,334] [builder.py:2080]           [INFO]     | 40/97 | Kids Collection | + | Cars : Quatre roues (2006)                                           |
+[2022-10-11 10:10:04,352] [builder.py:2080]           [INFO]     | 41/97 | Kids Collection | + | Cars 2 (2011)                                                        |
+[2022-10-11 10:10:04,369] [builder.py:2080]           [INFO]     | 42/97 | Kids Collection | + | Moi, moche et méchant (2010)                                         |
+[2022-10-11 10:10:04,386] [builder.py:2080]           [INFO]     | 43/97 | Kids Collection | + | Moi, moche et méchant 2 (2013)                                       |
+[2022-10-11 10:10:04,403] [builder.py:2080]           [INFO]     | 44/97 | Kids Collection | + | Volt, star malgré lui (2008)                                         |
+[2022-10-11 10:10:04,421] [builder.py:2080]           [INFO]     | 45/97 | Kids Collection | + | Hôtel Transylvanie (2012)                                            |
+[2022-10-11 10:10:04,439] [builder.py:2080]           [INFO]     | 46/97 | Kids Collection | + | Dragons (2010)                                                       |
+[2022-10-11 10:10:04,556] [builder.py:2080]           [INFO]     | 47/97 | Kids Collection | + | Dragons 2 (2014)                                                     |
+[2022-10-11 10:10:04,576] [builder.py:2080]           [INFO]     | 48/97 | Kids Collection | + | Les Indestructibles (2004)                                           |
+[2022-10-11 10:10:04,594] [builder.py:2080]           [INFO]     | 49/97 | Kids Collection | + | La Grande Aventure LEGO (2014)                                       |
+[2022-10-11 10:10:04,611] [builder.py:2080]           [INFO]     | 50/97 | Kids Collection | + | Monstres & Cie (2001)                                                |
+[2022-10-11 10:10:04,630] [builder.py:2080]           [INFO]     | 51/97 | Kids Collection | + | Monstres Academy (2013)                                              |
+[2022-10-11 10:10:04,647] [builder.py:2080]           [INFO]     | 52/97 | Kids Collection | + | Ratatouille (2007)                                                   |
+[2022-10-11 10:10:04,666] [builder.py:2080]           [INFO]     | 53/97 | Kids Collection | + | Shrek (2001)                                                         |
+[2022-10-11 10:10:04,684] [builder.py:2080]           [INFO]     | 54/97 | Kids Collection | + | Shrek 2 (2004)                                                       |
+[2022-10-11 10:10:04,704] [builder.py:2080]           [INFO]     | 55/97 | Kids Collection | + | Shrek le troisième (2007)                                            |
+[2022-10-11 10:10:04,721] [builder.py:2080]           [INFO]     | 56/97 | Kids Collection | + | Toy Story (1995)                                                     |
+[2022-10-11 10:10:04,739] [builder.py:2080]           [INFO]     | 57/97 | Kids Collection | + | Toy Story 2 (1999)                                                   |
+[2022-10-11 10:10:04,755] [builder.py:2080]           [INFO]     | 58/97 | Kids Collection | + | Toy Story 3 (2010)                                                   |
+[2022-10-11 10:10:04,773] [builder.py:2080]           [INFO]     | 59/97 | Kids Collection | + | Shrek 4, il était une fin (2010)                                     |
+[2022-10-11 10:10:04,791] [builder.py:2080]           [INFO]     | 60/97 | Kids Collection | + | WALL·E (2008)                                                        |
+[2022-10-11 10:10:04,807] [builder.py:2080]           [INFO]     | 61/97 | Kids Collection | + | Là-haut (2009)                                                       |
+[2022-10-11 10:10:04,825] [builder.py:2080]           [INFO]     | 62/97 | Kids Collection | + | Kung Fu Panda (2008)                                                 |
+[2022-10-11 10:10:04,844] [builder.py:2080]           [INFO]     | 63/97 | Kids Collection | + | Kung Fu Panda 2 (2011)                                               |
+[2022-10-11 10:10:04,863] [builder.py:2080]           [INFO]     | 64/97 | Kids Collection | + | Bienvenue chez les Robinson (2007)                                   |
+[2022-10-11 10:10:04,883] [builder.py:2080]           [INFO]     | 65/97 | Kids Collection | + | Le Monde de Nemo (2003)                                              |
+[2022-10-11 10:10:04,902] [builder.py:2080]           [INFO]     | 66/97 | Kids Collection | + | Cendrillon (2015)                                                    |
+[2022-10-11 10:10:05,340] [builder.py:2080]           [INFO]     | 67/97 | Kids Collection | + | Kung Fu Panda 3 (2016)                                               |
+[2022-10-11 10:10:05,361] [builder.py:2080]           [INFO]     | 68/97 | Kids Collection | + | Madagascar (2005)                                                    |
+[2022-10-11 10:10:05,380] [builder.py:2080]           [INFO]     | 69/97 | Kids Collection | + | Madagascar 2 (2008)                                                  |
+[2022-10-11 10:10:05,395] [builder.py:2080]           [INFO]     | 70/97 | Kids Collection | + | Madagascar 3 : Bons baisers d'Europe (2012)                          |
+[2022-10-11 10:10:05,411] [builder.py:2080]           [INFO]     | 71/97 | Kids Collection | + | Frankenweenie (2012)                                                 |
+[2022-10-11 10:10:05,428] [builder.py:2080]           [INFO]     | 72/97 | Kids Collection | + | Dinosaure (2000)                                                     |
+[2022-10-11 10:10:05,444] [builder.py:2080]           [INFO]     | 73/97 | Kids Collection | + | Batman vs. Robin (2015)                                              |
+[2022-10-11 10:10:05,462] [builder.py:2080]           [INFO]     | 74/97 | Kids Collection | + | The Wild (2006)                                                      |
+[2022-10-11 10:10:05,480] [builder.py:2080]           [INFO]     | 75/97 | Kids Collection | + | Chicken Little (2005)                                                |
+[2022-10-11 10:10:05,497] [builder.py:2080]           [INFO]     | 76/97 | Kids Collection | + | Les Simpson, le film (2007)                                          |
+[2022-10-11 10:10:05,517] [builder.py:2080]           [INFO]     | 77/97 | Kids Collection | + | Strange Magic (2015)                                                 |
+[2022-10-11 10:10:05,533] [builder.py:2080]           [INFO]     | 78/97 | Kids Collection | + | Moi, moche et méchant 3 (2017)                                       |
+[2022-10-11 10:10:05,554] [builder.py:2080]           [INFO]     | 79/97 | Kids Collection | + | Fantasia 2000 (1999)                                                 |
+[2022-10-11 10:10:05,570] [builder.py:2080]           [INFO]     | 80/97 | Kids Collection | + | Tous en scène (2016)                                                 |
+[2022-10-11 10:10:05,588] [builder.py:2080]           [INFO]     | 81/97 | Kids Collection | + | Baby Boss (2017)                                                     |
+[2022-10-11 10:10:05,606] [builder.py:2080]           [INFO]     | 82/97 | Kids Collection | + | Ferdinand (2017)                                                     |
+[2022-10-11 10:10:05,624] [builder.py:2080]           [INFO]     | 83/97 | Kids Collection | + | Hôtel Transylvanie 3 : Des vacances monstrueuses (2018)              |
+[2022-10-11 10:10:05,642] [builder.py:2080]           [INFO]     | 84/97 | Kids Collection | + | Pierre Lapin (2018)                                                  |
+[2022-10-11 10:10:05,660] [builder.py:2080]           [INFO]     | 85/97 | Kids Collection | + | Dragons 3 : Le monde caché (2019)                                    |
+[2022-10-11 10:10:05,678] [builder.py:2080]           [INFO]     | 86/97 | Kids Collection | + | Astérix - Le Secret de la Potion Magique (2018)                      |
+[2022-10-11 10:10:05,694] [builder.py:2080]           [INFO]     | 87/97 | Kids Collection | + | Dumbo (2019)                                                         |
+[2022-10-11 10:10:05,842] [builder.py:2080]           [INFO]     | 88/97 | Kids Collection | + | Rio (2011)                                                           |
+[2022-10-11 10:10:05,861] [builder.py:2080]           [INFO]     | 89/97 | Kids Collection | + | Toy Story 4 (2019)                                                   |
+[2022-10-11 10:10:05,879] [builder.py:2080]           [INFO]     | 90/97 | Kids Collection | + | Le Roi Lion (2019)                                                   |
+[2022-10-11 10:10:05,894] [builder.py:2080]           [INFO]     | 91/97 | Kids Collection | + | La Famille Addams (2019)                                             |
+[2022-10-11 10:10:05,912] [builder.py:2080]           [INFO]     | 92/97 | Kids Collection | + | La Reine des neiges II (2019)                                        |
+[2022-10-11 10:10:05,930] [builder.py:2080]           [INFO]     | 93/97 | Kids Collection | + | Blanche Neige, les souliers rouges et les sept nains (2019)          |
+[2022-10-11 10:10:05,949] [builder.py:2080]           [INFO]     | 94/97 | Kids Collection | + | Luca (2021)                                                          |
+[2022-10-11 10:10:05,966] [builder.py:2080]           [INFO]     | 95/97 | Kids Collection | + | Raya et le Dernier Dragon (2021)                                     |
+[2022-10-11 10:10:05,984] [builder.py:2080]           [INFO]     | 96/97 | Kids Collection | + | Encanto, la fantastique famille Madrigal (2021)                      |
+[2022-10-11 10:10:06,004] [builder.py:2080]           [INFO]     | 97/97 | Kids Collection | + | La Famille Addams 2 : Une virée d'enfer (2021)                       |
+[2022-10-11 10:10:07,502] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-11 10:10:07,503] [builder.py:2102]           [INFO]     | 97 Movies Processed 97 Movies Added                                                                |
+[2022-10-11 10:10:07,503] [builder.py:2228]           [INFO]     |                                                                                                    |
+[2022-10-11 10:10:07,503] [builder.py:2229]           [INFO]     |======================== Missing Movies from Library: Z. 5 - Film Animation ========================|
+[2022-10-11 10:10:07,503] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-10-11 10:10:07,520] [builder.py:2243]           [INFO]     | Kids Collection | ? | The Iron Giant (1999) (TMDb: 10386)                                          |
+[2022-10-11 10:10:07,554] [builder.py:2243]           [INFO]     | Kids Collection | ? | Blanche-Neige et les Sept Nains (1937) (TMDb: 408)                           |
+[2022-10-11 10:10:07,565] [builder.py:2243]           [INFO]     | Kids Collection | ? | Pinocchio (1940) (TMDb: 10895)                                               |
+[2022-10-11 10:10:07,604] [builder.py:2243]           [INFO]     | Kids Collection | ? | Dumbo (1941) (TMDb: 11360)                                                   |
+[2022-10-11 10:10:07,617] [builder.py:2243]           [INFO]     | Kids Collection | ? | Bambi (1942) (TMDb: 3170)                                                    |
+[2022-10-11 10:10:07,654] [builder.py:2243]           [INFO]     | Kids Collection | ? | Cendrillon (1950) (TMDb: 11224)                                              |
+[2022-10-11 10:10:07,671] [builder.py:2243]           [INFO]     | Kids Collection | ? | Alice au pays des merveilles (1951) (TMDb: 12092)                            |
+[2022-10-11 10:10:07,687] [builder.py:2243]           [INFO]     | Kids Collection | ? | The Black Cauldron (1985) (TMDb: 10957)                                      |
+[2022-10-11 10:10:07,712] [builder.py:2243]           [INFO]     | Kids Collection | ? | The Hunchback of Notre Dame (1996) (TMDb: 10545)                             |
+[2022-10-11 10:10:07,737] [builder.py:2243]           [INFO]     | Kids Collection | ? | La ferme se rebelle (2004) (TMDb: 13700)                                     |
+[2022-10-11 10:10:07,762] [builder.py:2243]           [INFO]     | Kids Collection | ? | Zootopia (2016) (TMDb: 269149)                                               |
+[2022-10-11 10:10:07,787] [builder.py:2243]           [INFO]     | Kids Collection | ? | Snoopy et les Peanuts : Le film (2015) (TMDb: 227973)                        |
+[2022-10-11 10:10:07,812] [builder.py:2243]           [INFO]     | Kids Collection | ? | Chair de poule - Le Film (2015) (TMDb: 257445)                               |
+[2022-10-11 10:10:07,837] [builder.py:2243]           [INFO]     | Kids Collection | ? | The Adventures of Tintin (2011) (TMDb: 17578)                                |
+[2022-10-11 10:10:07,862] [builder.py:2243]           [INFO]     | Kids Collection | ? | Fievel et le nouveau monde (1986) (TMDb: 4978)                               |
+[2022-10-11 10:10:07,887] [builder.py:2243]           [INFO]     | Kids Collection | ? | Anastasia (1997) (TMDb: 9444)                                                |
+[2022-10-11 10:10:07,912] [builder.py:2243]           [INFO]     | Kids Collection | ? | La Légende de Manolo (2014) (TMDb: 228326)                                   |
+[2022-10-11 10:10:07,937] [builder.py:2243]           [INFO]     | Kids Collection | ? | The Chronicles of Narnia: The Lion, the Witch and the Wardrobe (2005) (TMDb: 411) |
+[2022-10-11 10:10:07,962] [builder.py:2243]           [INFO]     | Kids Collection | ? | Cloudy with a Chance of Meatballs (2009) (TMDb: 22794)                       |
+[2022-10-11 10:10:07,987] [builder.py:2243]           [INFO]     | Kids Collection | ? | The Croods (2013) (TMDb: 49519)                                              |
+[2022-10-11 10:10:08,012] [builder.py:2243]           [INFO]     | Kids Collection | ? | Les Goonies (1985) (TMDb: 9340)                                              |
+[2022-10-11 10:10:08,037] [builder.py:2243]           [INFO]     | Kids Collection | ? | Horton Hears a Who! (2008) (TMDb: 12222)                                     |
+[2022-10-11 10:10:08,062] [builder.py:2243]           [INFO]     | Kids Collection | ? | L'Âge de glace (2002) (TMDb: 425)                                            |
+[2022-10-11 10:10:08,087] [builder.py:2243]           [INFO]     | Kids Collection | ? | Ice Age: Dawn of the Dinosaurs (2009) (TMDb: 8355)                           |
+[2022-10-11 10:10:08,112] [builder.py:2243]           [INFO]     | Kids Collection | ? | Ice Age: The Meltdown (2006) (TMDb: 950)                                     |
+[2022-10-11 10:10:08,137] [builder.py:2243]           [INFO]     | Kids Collection | ? | Le Petit dinosaure et la vallée des merveilles (1988) (TMDb: 12144)          |
+[2022-10-11 10:10:08,187] [builder.py:2243]           [INFO]     | Kids Collection | ? | Le royaume de Ga'Hoole - La légende des gardiens (2010) (TMDb: 41216)        |
+[2022-10-11 10:10:08,230] [builder.py:2243]           [INFO]     | Kids Collection | ? | The Lorax (2012) (TMDb: 73723)                                               |
+[2022-10-11 10:10:08,254] [builder.py:2243]           [INFO]     | Kids Collection | ? | Megamind (2010) (TMDb: 38055)                                                |
+[2022-10-11 10:10:08,279] [builder.py:2243]           [INFO]     | Kids Collection | ? | Mr. Peabody & Sherman (2014) (TMDb: 82703)                                   |
+[2022-10-11 10:10:08,304] [builder.py:2243]           [INFO]     | Kids Collection | ? | The NeverEnding Story (1984) (TMDb: 34584)                                   |
+[2022-10-11 10:10:08,329] [builder.py:2243]           [INFO]     | Kids Collection | ? | Paddington (2014) (TMDb: 116149)                                             |
+[2022-10-11 10:10:08,357] [builder.py:2243]           [INFO]     | Kids Collection | ? | La Route d'El Dorado (2000) (TMDb: 10501)                                    |
+[2022-10-11 10:10:08,377] [builder.py:2243]           [INFO]     | Kids Collection | ? | Chitty Chitty Bang Bang (1968) (TMDb: 11708)                                 |
+[2022-10-11 10:10:08,418] [builder.py:2243]           [INFO]     | Kids Collection | ? | L'Apprentie sorcière (1971) (TMDb: 12335)                                    |
+[2022-10-11 10:10:08,462] [builder.py:2243]           [INFO]     | Kids Collection | ? | Babe (1995) (TMDb: 9598)                                                     |
+[2022-10-11 10:10:08,476] [builder.py:2243]           [INFO]     | Kids Collection | ? | Charlotte's Web (2006) (TMDb: 9986)                                          |
+[2022-10-11 10:10:08,520] [builder.py:2243]           [INFO]     | Kids Collection | ? | Mary Poppins (1964) (TMDb: 433)                                              |
+[2022-10-11 10:10:08,535] [builder.py:2243]           [INFO]     | Kids Collection | ? | Nanny McPhee (2005) (TMDb: 11283)                                            |
+[2022-10-11 10:10:08,579] [builder.py:2243]           [INFO]     | Kids Collection | ? | Charlie et la Chocolaterie (1971) (TMDb: 252)                                |
+[2022-10-11 10:10:08,593] [builder.py:2243]           [INFO]     | Kids Collection | ? | The Wizard of Oz (1939) (TMDb: 630)                                          |
+[2022-10-11 10:10:08,654] [builder.py:2243]           [INFO]     | Kids Collection | ? | Stuart Little 2 (2002) (TMDb: 10996)                                         |
+[2022-10-11 10:10:08,679] [builder.py:2243]           [INFO]     | Kids Collection | ? | Stuart Little (1999) (TMDb: 10137)                                           |
+[2022-10-11 10:10:08,704] [builder.py:2243]           [INFO]     | Kids Collection | ? | Babe, le cochon dans la ville (1998) (TMDb: 9447)                            |
+[2022-10-11 10:10:08,729] [builder.py:2243]           [INFO]     | Kids Collection | ? | Monster House (2006) (TMDb: 9297)                                            |
+[2022-10-11 10:10:08,754] [builder.py:2243]           [INFO]     | Kids Collection | ? | Beethoven (1992) (TMDb: 11806)                                               |
+[2022-10-11 10:10:08,846] [builder.py:2243]           [INFO]     | Kids Collection | ? | Matilda (1996) (TMDb: 10830)                                                 |
+[2022-10-11 10:10:08,896] [builder.py:2243]           [INFO]     | Kids Collection | ? | The Prince of Egypt (1998) (TMDb: 9837)                                      |
+[2022-10-11 10:10:08,920] [builder.py:2243]           [INFO]     | Kids Collection | ? | Le Petit Grille-pain courageux (1987) (TMDb: 19933)                          |
+[2022-10-11 10:10:08,946] [builder.py:2243]           [INFO]     | Kids Collection | ? | Happy Feet (2006) (TMDb: 9836)                                               |
+[2022-10-11 10:10:08,965] [builder.py:2243]           [INFO]     | Kids Collection | ? | Robots (2005) (TMDb: 9928)                                                   |
+[2022-10-11 10:10:08,977] [builder.py:2243]           [INFO]     | Kids Collection | ? | Puss in Boots (2011) (TMDb: 417859)                                          |
+[2022-10-11 10:10:09,004] [builder.py:2243]           [INFO]     | Kids Collection | ? | Wallace & Gromit: The Curse of the Were-Rabbit (2005) (TMDb: 533)            |
+[2022-10-11 10:10:09,020] [builder.py:2243]           [INFO]     | Kids Collection | ? | Antz (1998) (TMDb: 8916)                                                     |
+[2022-10-11 10:10:09,033] [builder.py:2243]           [INFO]     | Kids Collection | ? | Joseph, le roi des rêves (2000) (TMDb: 16366)                                |
+[2022-10-11 10:10:09,066] [builder.py:2243]           [INFO]     | Kids Collection | ? | Coraline (2009) (TMDb: 14836)                                                |
+[2022-10-11 10:10:09,083] [builder.py:2243]           [INFO]     | Kids Collection | ? | Wallace & Gromit : Un sacré pétrin (2008) (TMDb: 14447)                      |
+[2022-10-11 10:10:09,100] [builder.py:2243]           [INFO]     | Kids Collection | ? | Cloudy with a Chance of Meatballs 2 (2013) (TMDb: 109451)                    |
+[2022-10-11 10:10:09,116] [builder.py:2243]           [INFO]     | Kids Collection | ? | Who Framed Roger Rabbit (1988) (TMDb: 856)                                   |
+[2022-10-11 10:10:09,158] [builder.py:2243]           [INFO]     | Kids Collection | ? | Chicken Run (2000) (TMDb: 7443)                                              |
+[2022-10-11 10:10:09,175] [builder.py:2243]           [INFO]     | Kids Collection | ? | The Witches (1990) (TMDb: 10166)                                             |
+[2022-10-11 10:10:09,192] [builder.py:2243]           [INFO]     | Kids Collection | ? | Bean (1997) (TMDb: 1281)                                                     |
+[2022-10-11 10:10:09,225] [builder.py:2243]           [INFO]     | Kids Collection | ? | Les Razmoket, le film (1998) (TMDb: 14444)                                   |
+[2022-10-11 10:10:09,241] [builder.py:2243]           [INFO]     | Kids Collection | ? | Les Razmoket à Paris, le film (2000) (TMDb: 16340)                           |
+[2022-10-11 10:10:09,258] [builder.py:2243]           [INFO]     | Kids Collection | ? | Scooby-Doo! : Aventures en Transylvanie (2014) (TMDb: 284995)                |
+[2022-10-11 10:10:09,275] [builder.py:2243]           [INFO]     | Kids Collection | ? | Inspecteur Gadget (1999) (TMDb: 332)                                         |
+[2022-10-11 10:10:09,291] [builder.py:2243]           [INFO]     | Kids Collection | ? | Les Schtroumpfs (2011) (TMDb: 41513)                                         |
+[2022-10-11 10:10:09,309] [builder.py:2243]           [INFO]     | Kids Collection | ? | Ninja Turtles (2014) (TMDb: 98566)                                           |
+[2022-10-11 10:10:09,325] [builder.py:2243]           [INFO]     | Kids Collection | ? | Les Schtroumpfs 2 (2013) (TMDb: 77931)                                       |
+[2022-10-11 10:10:09,327] [builder.py:2243]           [INFO]     | Kids Collection | ? | Labyrinth (1986) (TMDb: 13597)                                               |
+[2022-10-11 10:10:09,358] [builder.py:2243]           [INFO]     | Kids Collection | ? | A Little Princess (1995) (TMDb: 19101)                                       |
+[2022-10-11 10:10:09,375] [builder.py:2243]           [INFO]     | Kids Collection | ? | James et la pêche géante (1996) (TMDb: 10539)                                |
+[2022-10-11 10:10:09,429] [builder.py:2243]           [INFO]     | Kids Collection | ? | The Indian in the Cupboard (1995) (TMDb: 11359)                              |
+[2022-10-11 10:10:09,439] [builder.py:2243]           [INFO]     | Kids Collection | ? | Pierre et le Loup (2006) (TMDb: 14518)                                       |
+[2022-10-11 10:10:09,470] [builder.py:2243]           [INFO]     | Kids Collection | ? | Rise of the Guardians (2012) (TMDb: 81188)                                   |
+[2022-10-11 10:10:09,481] [builder.py:2243]           [INFO]     | Kids Collection | ? | Ice Age: Continental Drift (2012) (TMDb: 57800)                              |
+[2022-10-11 10:10:09,521] [builder.py:2243]           [INFO]     | Kids Collection | ? | Hook (1991) (TMDb: 879)                                                      |
+[2022-10-11 10:10:09,562] [builder.py:2243]           [INFO]     | Kids Collection | ? | ParaNorman (2012) (TMDb: 77174)                                              |
+[2022-10-11 10:10:09,571] [builder.py:2243]           [INFO]     | Kids Collection | ? | Flushed Away (2006) (TMDb: 11619)                                            |
+[2022-10-11 10:10:09,609] [builder.py:2243]           [INFO]     | Kids Collection | ? | Zathura: A Space Adventure (2005) (TMDb: 6795)                               |
+[2022-10-11 10:10:09,626] [builder.py:2243]           [INFO]     | Kids Collection | ? | Les Pirates ! Bons à rien, mauvais en tout (2012) (TMDb: 72197)              |
+[2022-10-11 10:10:09,667] [builder.py:2243]           [INFO]     | Kids Collection | ? | Toy Story : Angoisse au motel (2013) (TMDb: 213121)                          |
+[2022-10-11 10:10:09,684] [builder.py:2243]           [INFO]     | Kids Collection | ? | Cats & Dogs (2001) (TMDb: 10992)                                             |
+[2022-10-11 10:10:09,726] [builder.py:2243]           [INFO]     | Kids Collection | ? | Wallace & Gromit : Un mauvais pantalon (1993) (TMDb: 531)                    |
+[2022-10-11 10:10:09,743] [builder.py:2243]           [INFO]     | Kids Collection | ? | A Monster in Paris (2011) (TMDb: 77459)                                      |
+[2022-10-11 10:10:09,809] [builder.py:2243]           [INFO]     | Kids Collection | ? | Yogi l'ours (2010) (TMDb: 41515)                                             |
+[2022-10-11 10:10:09,826] [builder.py:2243]           [INFO]     | Kids Collection | ? | Wallace & Gromit : Rasé de près (1995) (TMDb: 532)                           |
+[2022-10-11 10:10:09,868] [builder.py:2243]           [INFO]     | Kids Collection | ? | Balto chien-loup, héros des neiges (1995) (TMDb: 21032)                      |
+[2022-10-11 10:10:09,884] [builder.py:2243]           [INFO]     | Kids Collection | ? | Charlie, mon héros (1989) (TMDb: 11497)                                      |
+[2022-10-11 10:10:09,901] [builder.py:2243]           [INFO]     | Kids Collection | ? | Wallace & Gromit : Une grande excursion (1990) (TMDb: 530)                   |
+[2022-10-11 10:10:09,918] [builder.py:2243]           [INFO]     | Kids Collection | ? | Le Manoir magique (2013) (TMDb: 202575)                                      |
+[2022-10-11 10:10:09,935] [builder.py:2243]           [INFO]     | Kids Collection | ? | Les Aventures de Tigrou (2000) (TMDb: 15655)                                 |
+[2022-10-11 10:10:09,951] [builder.py:2243]           [INFO]     | Kids Collection | ? | The Secret of NIMH (1982) (TMDb: 11704)                                      |
+[2022-10-11 10:10:09,968] [builder.py:2243]           [INFO]     | Kids Collection | ? | Winnie l'Ourson (2011) (TMDb: 51162)                                         |
+[2022-10-11 10:10:09,985] [builder.py:2243]           [INFO]     | Kids Collection | ? | The Princess Bride (1987) (TMDb: 2493)                                       |
+[2022-10-11 10:10:10,002] [builder.py:2243]           [INFO]     | Kids Collection | ? | Shaun le Mouton, le film (2015) (TMDb: 263109)                               |
+[2022-10-11 10:10:10,019] [builder.py:2243]           [INFO]     | Kids Collection | ? | TRON (1982) (TMDb: 97)                                                       |
+[2022-10-11 10:10:10,057] [builder.py:2243]           [INFO]     | Kids Collection | ? | Toy Story : Hors du Temps (2014) (TMDb: 256835)                              |
+[2022-10-11 10:10:10,090] [builder.py:2243]           [INFO]     | Kids Collection | ? | Sinbad: La légende des sept mers (2003) (TMDb: 14411)                        |
+[2022-10-11 10:10:10,115] [builder.py:2243]           [INFO]     | Kids Collection | ? | Night at the Museum: Secret of the Tomb (2014) (TMDb: 181533)                |
+[2022-10-11 10:10:10,158] [builder.py:2243]           [INFO]     | Kids Collection | ? | The Chronicles of Narnia: The Voyage of the Dawn Treader (2010) (TMDb: 10140) |
+[2022-10-11 10:10:10,171] [builder.py:2243]           [INFO]     | Kids Collection | ? | Night at the Museum: Battle of the Smithsonian (2009) (TMDb: 18360)          |
+[2022-10-11 10:10:10,188] [builder.py:2243]           [INFO]     | Kids Collection | ? | Night at the Museum (2006) (TMDb: 1593)                                      |
+[2022-10-11 10:10:10,205] [builder.py:2243]           [INFO]     | Kids Collection | ? | Lemony Snicket's A Series of Unfortunate Events (2004) (TMDb: 11774)         |
+[2022-10-11 10:10:10,229] [builder.py:2243]           [INFO]     | Kids Collection | ? | Jumanji (1995) (TMDb: 8844)                                                  |
+[2022-10-11 10:10:10,237] [builder.py:2243]           [INFO]     | Kids Collection | ? | 101 Dalmatians (1996) (TMDb: 11674)                                          |
+[2022-10-11 10:10:10,295] [builder.py:2243]           [INFO]     | Kids Collection | ? | Casper (1995) (TMDb: 8839)                                                   |
+[2022-10-11 10:10:10,306] [builder.py:2243]           [INFO]     | Kids Collection | ? | La Famille Pierrafeu (1994) (TMDb: 888)                                      |
+[2022-10-11 10:10:10,345] [builder.py:2243]           [INFO]     | Kids Collection | ? | Hocus Pocus (1993) (TMDb: 10439)                                             |
+[2022-10-11 10:10:10,356] [builder.py:2243]           [INFO]     | Kids Collection | ? | Teenage Mutant Ninja Turtles (1990) (TMDb: 1498)                             |
+[2022-10-11 10:10:10,387] [builder.py:2243]           [INFO]     | Kids Collection | ? | Short Circuit (1986) (TMDb: 2605)                                            |
+[2022-10-11 10:10:10,429] [builder.py:2243]           [INFO]     | Kids Collection | ? | Miracle sur la 8ème rue (1987) (TMDb: 11548)                                 |
+[2022-10-11 10:10:10,442] [builder.py:2243]           [INFO]     | Kids Collection | ? | Bob l'éponge, le film : Un héros sort de l'eau (2015) (TMDb: 228165)         |
+[2022-10-11 10:10:10,470] [builder.py:2243]           [INFO]     | Kids Collection | ? | Shark Tale (2004) (TMDb: 10555)                                              |
+[2022-10-11 10:10:10,492] [builder.py:2243]           [INFO]     | Kids Collection | ? | Corpse Bride (2005) (TMDb: 3933)                                             |
+[2022-10-11 10:10:10,504] [builder.py:2243]           [INFO]     | Kids Collection | ? | Objectif Lune (2015) (TMDb: 300602)                                          |
+[2022-10-11 10:10:10,532] [builder.py:2243]           [INFO]     | Kids Collection | ? | Prince noir (1994) (TMDb: 14522)                                             |
+[2022-10-11 10:10:10,551] [builder.py:2243]           [INFO]     | Kids Collection | ? | Richard au pays des livres magiques (1994) (TMDb: 15139)                     |
+[2022-10-11 10:10:10,593] [builder.py:2243]           [INFO]     | Kids Collection | ? | Home (2015) (TMDb: 228161)                                                   |
+[2022-10-11 10:10:10,609] [builder.py:2243]           [INFO]     | Kids Collection | ? | Alvin et les Chipmunks (2007) (TMDb: 6477)                                   |
+[2022-10-11 10:10:10,628] [builder.py:2243]           [INFO]     | Kids Collection | ? | Over the Hedge (2006) (TMDb: 7518)                                           |
+[2022-10-11 10:10:10,660] [builder.py:2243]           [INFO]     | Kids Collection | ? | Les Zévadés de l'espace (2012) (TMDb: 68179)                                 |
+[2022-10-11 10:10:10,677] [builder.py:2243]           [INFO]     | Kids Collection | ? | Hop (2011) (TMDb: 50359)                                                     |
+[2022-10-11 10:10:10,735] [builder.py:2243]           [INFO]     | Kids Collection | ? | Planète 51 (2009) (TMDb: 16866)                                              |
+[2022-10-11 10:10:10,785] [builder.py:2243]           [INFO]     | Kids Collection | ? | Happy Feet 2 (2011) (TMDb: 65759)                                            |
+[2022-10-11 10:10:10,818] [builder.py:2243]           [INFO]     | Kids Collection | ? | Garfield, le film (2004) (TMDb: 8920)                                        |
+[2022-10-11 10:10:10,860] [builder.py:2243]           [INFO]     | Kids Collection | ? | Spirit, l'étalon des plaines (2002) (TMDb: 9023)                             |
+[2022-10-11 10:10:10,899] [builder.py:2243]           [INFO]     | Kids Collection | ? | Alpha et Omega (2010) (TMDb: 12819)                                          |
+[2022-10-11 10:10:10,940] [builder.py:2243]           [INFO]     | Kids Collection | ? | LEGO Batman, le film : Unité des super héros (2013) (TMDb: 177271)           |
+[2022-10-11 10:10:10,960] [builder.py:2243]           [INFO]     | Kids Collection | ? | La Légende de Despereaux (2008) (TMDb: 10199)                                |
+[2022-10-11 10:10:11,012] [builder.py:2243]           [INFO]     | Kids Collection | ? | Lucas : Fourmi malgré lui (2006) (TMDb: 9906)                                |
+[2022-10-11 10:10:11,049] [builder.py:2243]           [INFO]     | Kids Collection | ? | Georges, Le Petit Curieux (2006) (TMDb: 9975)                                |
+[2022-10-11 10:10:11,068] [builder.py:2243]           [INFO]     | Kids Collection | ? | Garfield 2 (2006) (TMDb: 9513)                                               |
+[2022-10-11 10:10:11,165] [builder.py:2243]           [INFO]     | Kids Collection | ? | Les Énigmes de l'Atlantide (2003) (TMDb: 8965)                               |
+[2022-10-11 10:10:11,190] [builder.py:2243]           [INFO]     | Kids Collection | ? | Les chimpanzés de l'espace (2008) (TMDb: 11802)                              |
+[2022-10-11 10:10:11,210] [builder.py:2243]           [INFO]     | Kids Collection | ? | Tad l’explorateur - À la recherche de la cité perdue (2012) (TMDb: 121734)   |
+[2022-10-11 10:10:11,252] [builder.py:2243]           [INFO]     | Kids Collection | ? | Jimmy Neutron : Un Garçon Génial (2001) (TMDb: 12589)                        |
+[2022-10-11 10:10:11,282] [builder.py:2243]           [INFO]     | Kids Collection | ? | Vaillant, pigeon de combat ! (2005) (TMDb: 14175)                            |
+[2022-10-11 10:10:11,302] [builder.py:2243]           [INFO]     | Kids Collection | ? | Peter et Elliott le dragon (1977) (TMDb: 11114)                              |
+[2022-10-11 10:10:11,344] [builder.py:2243]           [INFO]     | Kids Collection | ? | Fievel au Far West (1991) (TMDb: 10380)                                      |
+[2022-10-11 10:10:11,374] [builder.py:2243]           [INFO]     | Kids Collection | ? | Postman Pat: The Movie (2014) (TMDb: 245685)                                 |
+[2022-10-11 10:10:11,394] [builder.py:2243]           [INFO]     | Kids Collection | ? | The Chronicles of Narnia: Prince Caspian (2008) (TMDb: 2454)                 |
+[2022-10-11 10:10:11,421] [builder.py:2243]           [INFO]     | Kids Collection | ? | The Golden Compass (2007) (TMDb: 2268)                                       |
+[2022-10-11 10:10:11,454] [builder.py:2243]           [INFO]     | Kids Collection | ? | NORM (2016) (TMDb: 276905)                                                   |
+[2022-10-11 10:10:11,463] [builder.py:2243]           [INFO]     | Kids Collection | ? | Pirates of the Caribbean: At World's End (2007) (TMDb: 285)                  |
+[2022-10-11 10:10:11,504] [builder.py:2243]           [INFO]     | Kids Collection | ? | La Ferme en folie (2006) (TMDb: 9907)                                        |
+[2022-10-11 10:10:11,521] [builder.py:2243]           [INFO]     | Kids Collection | ? | Un amour de tortue (2015) (TMDb: 313867)                                     |
+[2022-10-11 10:10:11,554] [builder.py:2243]           [INFO]     | Kids Collection | ? | Flubber (1997) (TMDb: 9574)                                                  |
+[2022-10-11 10:10:11,640] [builder.py:2243]           [INFO]     | Kids Collection | ? | Mission-G (2009) (TMDb: 19585)                                               |
+[2022-10-11 10:10:11,651] [builder.py:2243]           [INFO]     | Kids Collection | ? | Racing Stripes (2005) (TMDb: 6439)                                           |
+[2022-10-11 10:10:11,653] [builder.py:2243]           [INFO]     | Kids Collection | ? | Homeward Bound: The Incredible Journey (1993) (TMDb: 6878)                   |
+[2022-10-11 10:10:11,680] [builder.py:2243]           [INFO]     | Kids Collection | ? | Oz the Great and Powerful (2013) (TMDb: 68728)                               |
+[2022-10-11 10:10:11,703] [builder.py:2243]           [INFO]     | Kids Collection | ? | Pirates of the Caribbean: Dead Man's Chest (2006) (TMDb: 58)                 |
+[2022-10-11 10:10:11,713] [builder.py:2243]           [INFO]     | Kids Collection | ? | Pirates of the Caribbean: On Stranger Tides (2011) (TMDb: 1865)              |
+[2022-10-11 10:10:11,730] [builder.py:2243]           [INFO]     | Kids Collection | ? | Pirates of the Caribbean: The Curse of the Black Pearl (2003) (TMDb: 22)     |
+[2022-10-11 10:10:11,747] [builder.py:2243]           [INFO]     | Kids Collection | ? | The Jungle Book (2016) (TMDb: 278927)                                        |
+[2022-10-11 10:10:11,764] [builder.py:2243]           [INFO]     | Kids Collection | ? | Plein gaz (2002) (TMDb: 21605)                                               |
+[2022-10-11 10:10:11,801] [builder.py:2243]           [INFO]     | Kids Collection | ? | Maleficent (2014) (TMDb: 102651)                                             |
+[2022-10-11 10:10:11,822] [builder.py:2243]           [INFO]     | Kids Collection | ? | Bee Movie (2007) (TMDb: 5559)                                                |
+[2022-10-11 10:10:11,845] [builder.py:2243]           [INFO]     | Kids Collection | ? | Monsters vs Aliens (2009) (TMDb: 15512)                                      |
+[2022-10-11 10:10:11,872] [builder.py:2243]           [INFO]     | Kids Collection | ? | Astro Boy (2009) (TMDb: 16577)                                               |
+[2022-10-11 10:10:11,889] [builder.py:2243]           [INFO]     | Kids Collection | ? | Le Gruffalo (2009) (TMDb: 28118)                                             |
+[2022-10-11 10:10:11,905] [builder.py:2243]           [INFO]     | Kids Collection | ? | LEGO DC Comics Super Héros - La Ligue des Justiciers contre la Ligue des Bizarro (2015) (TMDb: 322456) |
+[2022-10-11 10:10:11,908] [builder.py:2243]           [INFO]     | Kids Collection | ? | Igor (2008) (TMDb: 14248)                                                    |
+[2022-10-11 10:10:11,922] [builder.py:2243]           [INFO]     | Kids Collection | ? | Peter Pan (2003) (TMDb: 10601)                                               |
+[2022-10-11 10:10:11,939] [builder.py:2243]           [INFO]     | Kids Collection | ? | The Haunted Mansion (2003) (TMDb: 10756)                                     |
+[2022-10-11 10:10:11,956] [builder.py:2243]           [INFO]     | Kids Collection | ? | Tarzan (2013) (TMDb: 230222)                                                 |
+[2022-10-11 10:10:11,972] [builder.py:2243]           [INFO]     | Kids Collection | ? | George de la jungle (1997) (TMDb: 10603)                                     |
+[2022-10-11 10:10:11,989] [builder.py:2243]           [INFO]     | Kids Collection | ? | Le chat chapeauté (2003) (TMDb: 10588)                                       |
+[2022-10-11 10:10:12,006] [builder.py:2243]           [INFO]     | Kids Collection | ? | Le Vol du Navigateur (1986) (TMDb: 10122)                                    |
+[2022-10-11 10:10:12,023] [builder.py:2243]           [INFO]     | Kids Collection | ? | Kangourou Jack (2003) (TMDb: 10628)                                          |
+[2022-10-11 10:10:12,040] [builder.py:2243]           [INFO]     | Kids Collection | ? | Justin et la Légende des chevaliers (2013) (TMDb: 146381)                    |
+[2022-10-11 10:10:12,081] [builder.py:2243]           [INFO]     | Kids Collection | ? | D.A.R.Y.L. (1985) (TMDb: 16248)                                              |
+[2022-10-11 10:10:12,098] [builder.py:2243]           [INFO]     | Kids Collection | ? | Alice Through the Looking Glass (2016) (TMDb: 241259)                        |
+[2022-10-11 10:10:12,111] [builder.py:2243]           [INFO]     | Kids Collection | ? | Pan (2015) (TMDb: 266647)                                                    |
+[2022-10-11 10:10:12,148] [builder.py:2243]           [INFO]     | Kids Collection | ? | Junior le terrible (1990) (TMDb: 11077)                                      |
+[2022-10-11 10:10:12,165] [builder.py:2243]           [INFO]     | Kids Collection | ? | Angry Birds: Le film (2016) (TMDb: 153518)                                   |
+[2022-10-11 10:10:12,206] [builder.py:2243]           [INFO]     | Kids Collection | ? | The Secret Life of Pets (2016) (TMDb: 328111)                                |
+[2022-10-11 10:10:12,223] [builder.py:2243]           [INFO]     | Kids Collection | ? | Alvin et les Chipmunks : À fond la caisse (2015) (TMDb: 258509)              |
+[2022-10-11 10:10:12,265] [builder.py:2243]           [INFO]     | Kids Collection | ? | Finding Dory (2016) (TMDb: 127380)                                           |
+[2022-10-11 10:10:12,282] [builder.py:2243]           [INFO]     | Kids Collection | ? | Ghostbusters (2016) (TMDb: 43074)                                            |
+[2022-10-11 10:10:12,323] [builder.py:2243]           [INFO]     | Kids Collection | ? | Robinson Crusoé (2016) (TMDb: 368940)                                        |
+[2022-10-11 10:10:12,346] [builder.py:2243]           [INFO]     | Kids Collection | ? | The BFG (2016) (TMDb: 267935)                                                |
+[2022-10-11 10:10:12,370] [builder.py:2243]           [INFO]     | Kids Collection | ? | Deux Frères (2004) (TMDb: 1997)                                              |
+[2022-10-11 10:10:12,381] [builder.py:2243]           [INFO]     | Kids Collection | ? | Ratchet et Clank (2016) (TMDb: 234004)                                       |
+[2022-10-11 10:10:12,412] [builder.py:2243]           [INFO]     | Kids Collection | ? | Le Dragon des mers : La Dernière Légende (2007) (TMDb: 54318)                |
+[2022-10-11 10:10:12,424] [builder.py:2243]           [INFO]     | Kids Collection | ? | Mr. Magorium's Wonder Emporium (2007) (TMDb: 2284)                           |
+[2022-10-11 10:10:12,462] [builder.py:2243]           [INFO]     | Kids Collection | ? | Charlie and the Chocolate Factory (2005) (TMDb: 118)                         |
+[2022-10-11 10:10:12,473] [builder.py:2243]           [INFO]     | Kids Collection | ? | Space Jam (1996) (TMDb: 2300)                                                |
+[2022-10-11 10:10:12,504] [builder.py:2243]           [INFO]     | Kids Collection | ? | Miss Peregrine's Home for Peculiar Children (2016) (TMDb: 283366)            |
+[2022-10-11 10:10:12,520] [builder.py:2243]           [INFO]     | Kids Collection | ? | L'Âge de glace : Les Lois de l'Univers (2016) (TMDb: 278154)                 |
+[2022-10-11 10:10:12,522] [builder.py:2243]           [INFO]     | Kids Collection | ? | Les Trolls (2016) (TMDb: 136799)                                             |
+[2022-10-11 10:10:12,545] [builder.py:2243]           [INFO]     | Kids Collection | ? | Turbo (2013) (TMDb: 77950)                                                   |
+[2022-10-11 10:10:12,570] [builder.py:2243]           [INFO]     | Kids Collection | ? | Cigognes et compagnie (2016) (TMDb: 332210)                                  |
+[2022-10-11 10:10:12,595] [builder.py:2243]           [INFO]     | Kids Collection | ? | Peter et Elliott le Dragon (2016) (TMDb: 294272)                             |
+[2022-10-11 10:10:12,621] [builder.py:2243]           [INFO]     | Kids Collection | ? | The Spiderwick Chronicles (2008) (TMDb: 8204)                                |
+[2022-10-11 10:10:12,645] [builder.py:2243]           [INFO]     | Kids Collection | ? | The Last Unicorn (1982) (TMDb: 10150)                                        |
+[2022-10-11 10:10:12,670] [builder.py:2243]           [INFO]     | Kids Collection | ? | Poucelina (1994) (TMDb: 28032)                                               |
+[2022-10-11 10:10:12,695] [builder.py:2243]           [INFO]     | Kids Collection | ? | Le Lutin Magique (1994) (TMDb: 35614)                                        |
+[2022-10-11 10:10:12,721] [builder.py:2243]           [INFO]     | Kids Collection | ? | Le Mini Noël des Borrowers (2011) (TMDb: 80709)                              |
+[2022-10-11 10:10:12,746] [builder.py:2243]           [INFO]     | Kids Collection | ? | Mr. Bean's Holiday (2007) (TMDb: 1268)                                       |
+[2022-10-11 10:10:12,770] [builder.py:2243]           [INFO]     | Kids Collection | ? | Small Soldiers (1998) (TMDb: 11551)                                          |
+[2022-10-11 10:10:12,795] [builder.py:2243]           [INFO]     | Kids Collection | ? | Richie Rich (1994) (TMDb: 11011)                                             |
+[2022-10-11 10:10:12,820] [builder.py:2243]           [INFO]     | Kids Collection | ? | Chérie, j'ai agrandi le bébé (1992) (TMDb: 11158)                            |
+[2022-10-11 10:10:12,846] [builder.py:2243]           [INFO]     | Kids Collection | ? | Ghostbusters II (1989) (TMDb: 2978)                                          |
+[2022-10-11 10:10:12,871] [builder.py:2243]           [INFO]     | Kids Collection | ? | Ghostbusters (1984) (TMDb: 620)                                              |
+[2022-10-11 10:10:12,895] [builder.py:2243]           [INFO]     | Kids Collection | ? | E.T. the Extra-Terrestrial (1982) (TMDb: 601)                                |
+[2022-10-11 10:10:12,920] [builder.py:2243]           [INFO]     | Kids Collection | ? | Kubo and the Two Strings (2016) (TMDb: 313297)                               |
+[2022-10-11 10:10:12,946] [builder.py:2243]           [INFO]     | Kids Collection | ? | Gopher Broke (2004) (TMDb: 25223)                                            |
+[2022-10-11 10:10:12,971] [builder.py:2243]           [INFO]     | Kids Collection | ? | Moana (2016) (TMDb: 277834)                                                  |
+[2022-10-11 10:10:12,996] [builder.py:2243]           [INFO]     | Kids Collection | ? | Le Retour de Jafar (1994) (TMDb: 15969)                                      |
+[2022-10-11 10:10:13,021] [builder.py:2243]           [INFO]     | Kids Collection | ? | La dame de Katwe (2016) (TMDb: 317557)                                       |
+[2022-10-11 10:10:13,046] [builder.py:2243]           [INFO]     | Kids Collection | ? | Fantastic Beasts and Where to Find Them (2016) (TMDb: 259316)                |
+[2022-10-11 10:10:13,071] [builder.py:2243]           [INFO]     | Kids Collection | ? | Jack the Giant Slayer (2013) (TMDb: 81005)                                   |
+[2022-10-11 10:10:13,129] [builder.py:2243]           [INFO]     | Kids Collection | ? | Il était une fois (2007) (TMDb: 4523)                                        |
+[2022-10-11 10:10:13,155] [builder.py:2243]           [INFO]     | Kids Collection | ? | Beauty and the Beast (2017) (TMDb: 321612)                                   |
+[2022-10-11 10:10:13,179] [builder.py:2243]           [INFO]     | Kids Collection | ? | Into the Woods (2014) (TMDb: 224141)                                         |
+[2022-10-11 10:10:13,205] [builder.py:2243]           [INFO]     | Kids Collection | ? | Cinderella (1997) (TMDb: 42884)                                              |
+[2022-10-11 10:10:13,246] [builder.py:2243]           [INFO]     | Kids Collection | ? | The Lego Movie 2: The Second Part (2019) (TMDb: 280217)                      |
+[2022-10-11 10:10:13,272] [builder.py:2243]           [INFO]     | Kids Collection | ? | L'Incroyable Aventure de Bella (2019) (TMDb: 508763)                         |
+[2022-10-11 10:10:13,329] [builder.py:2243]           [INFO]     | Kids Collection | ? | White Fang (2018) (TMDb: 456154)                                             |
+[2022-10-11 10:10:13,346] [builder.py:2243]           [INFO]     | Kids Collection | ? | Croc-Blanc (1991) (TMDb: 12227)                                              |
+[2022-10-11 10:10:13,395] [builder.py:2243]           [INFO]     | Kids Collection | ? | Coco (2017) (TMDb: 354912)                                                   |
+[2022-10-11 10:10:13,421] [builder.py:2243]           [INFO]     | Kids Collection | ? | Cars 3 (2017) (TMDb: 260514)                                                 |
+[2022-10-11 10:10:13,454] [builder.py:2243]           [INFO]     | Kids Collection | ? | The Lego Batman Movie (2017) (TMDb: 324849)                                  |
+[2022-10-11 10:10:13,480] [builder.py:2243]           [INFO]     | Kids Collection | ? | Paddington 2 (2017) (TMDb: 346648)                                           |
+[2022-10-11 10:10:13,530] [builder.py:2243]           [INFO]     | Kids Collection | ? | Les Schtroumpfs et le Village perdu (2017) (TMDb: 137116)                    |
+[2022-10-11 10:10:13,555] [builder.py:2243]           [INFO]     | Kids Collection | ? | Incredibles 2 (2018) (TMDb: 260513)                                          |
+[2022-10-11 10:10:13,580] [builder.py:2243]           [INFO]     | Kids Collection | ? | Le Grinch (2018) (TMDb: 360920)                                              |
+[2022-10-11 10:10:13,605] [builder.py:2243]           [INFO]     | Kids Collection | ? | How the Grinch Stole Christmas (1999) (TMDb: 8871)                           |
+[2022-10-11 10:10:13,630] [builder.py:2243]           [INFO]     | Kids Collection | ? | Christopher Robin (2018) (TMDb: 420814)                                      |
+[2022-10-11 10:10:13,655] [builder.py:2243]           [INFO]     | Kids Collection | ? | Mowgli: Legend of the Jungle (2018) (TMDb: 407436)                           |
+[2022-10-11 10:10:13,681] [builder.py:2243]           [INFO]     | Kids Collection | ? | Fantastic Beasts: The Crimes of Grindelwald (2018) (TMDb: 338952)            |
+[2022-10-11 10:10:13,722] [builder.py:2243]           [INFO]     | Kids Collection | ? | Nouvelle génération (2018) (TMDb: 523777)                                    |
+[2022-10-11 10:10:13,747] [builder.py:2243]           [INFO]     | Kids Collection | ? | Chair de Poule 2 : Les Fantômes d'Halloween (2018) (TMDb: 442062)            |
+[2022-10-11 10:10:13,772] [builder.py:2243]           [INFO]     | Kids Collection | ? | Benji (2018) (TMDb: 495193)                                                  |
+[2022-10-11 10:10:13,797] [builder.py:2243]           [INFO]     | Kids Collection | ? | Benji (1974) (TMDb: 23069)                                                   |
+[2022-10-11 10:10:13,822] [builder.py:2243]           [INFO]     | Kids Collection | ? | Stubby (2018) (TMDb: 433694)                                                 |
+[2022-10-11 10:10:13,838] [builder.py:2243]           [INFO]     | Kids Collection | ? | Yéti & Compagnie (2018) (TMDb: 446894)                                       |
+[2022-10-11 10:10:13,854] [builder.py:2243]           [INFO]     | Kids Collection | ? | Ralph Breaks the Internet (2018) (TMDb: 404368)                              |
+[2022-10-11 10:10:13,871] [builder.py:2243]           [INFO]     | Kids Collection | ? | The Kid Who Would Be King (2019) (TMDb: 454294)                              |
+[2022-10-11 10:10:13,888] [builder.py:2243]           [INFO]     | Kids Collection | ? | Fidèle vagabond (1957) (TMDb: 22660)                                         |
+[2022-10-11 10:10:13,904] [builder.py:2243]           [INFO]     | Kids Collection | ? | Where the Red Fern Grows (1974) (TMDb: 26514)                                |
+[2022-10-11 10:10:13,938] [builder.py:2243]           [INFO]     | Kids Collection | ? | Storm Boy (2019) (TMDb: 505953)                                              |
+[2022-10-11 10:10:13,955] [builder.py:2243]           [INFO]     | Kids Collection | ? | A Doggone Hollywood (2017) (TMDb: 460871)                                    |
+[2022-10-11 10:10:13,972] [builder.py:2243]           [INFO]     | Kids Collection | ? | Mia and the White Lion (2018) (TMDb: 498248)                                 |
+[2022-10-11 10:10:13,988] [builder.py:2243]           [INFO]     | Kids Collection | ? | Batman et les Tortues Ninja (2019) (TMDb: 581997)                            |
+[2022-10-11 10:10:14,021] [builder.py:2243]           [INFO]     | Kids Collection | ? | Royal Corgi (2019) (TMDb: 509730)                                            |
+[2022-10-11 10:10:14,038] [builder.py:2243]           [INFO]     | Kids Collection | ? | Le parc des merveilles (2019) (TMDb: 400157)                                 |
+[2022-10-11 10:10:14,055] [builder.py:2243]           [INFO]     | Kids Collection | ? | Manou à l’école des goélands (2019) (TMDb: 522887)                           |
+[2022-10-11 10:10:14,072] [builder.py:2243]           [INFO]     | Kids Collection | ? | Appelez-moi Johnny 5 (1988) (TMDb: 11966)                                    |
+[2022-10-11 10:10:14,147] [builder.py:2243]           [INFO]     | Kids Collection | ? | Wonder (2017) (TMDb: 406997)                                                 |
+[2022-10-11 10:10:14,164] [builder.py:2243]           [INFO]     | Kids Collection | ? | Harry Potter and the Philosopher's Stone (2001) (TMDb: 671)                  |
+[2022-10-11 10:10:14,197] [builder.py:2243]           [INFO]     | Kids Collection | ? | Harry Potter et la Chambre des secrets (2002) (TMDb: 672)                    |
+[2022-10-11 10:10:14,221] [builder.py:2243]           [INFO]     | Kids Collection | ? | Harry Potter and the Prisoner of Azkaban (2004) (TMDb: 673)                  |
+[2022-10-11 10:10:14,262] [builder.py:2243]           [INFO]     | Kids Collection | ? | Harry Potter and the Half-Blood Prince (2009) (TMDb: 767)                    |
+[2022-10-11 10:10:14,272] [builder.py:2243]           [INFO]     | Kids Collection | ? | Rango (2011) (TMDb: 44896)                                                   |
+[2022-10-11 10:10:14,304] [builder.py:2243]           [INFO]     | Kids Collection | ? | The Muppets (2011) (TMDb: 64328)                                             |
+[2022-10-11 10:10:14,314] [builder.py:2243]           [INFO]     | Kids Collection | ? | Le Gang des Champions (1993) (TMDb: 11528)                                   |
+[2022-10-11 10:10:14,345] [builder.py:2243]           [INFO]     | Kids Collection | ? | La Morsure du Lézard (2003) (TMDb: 8326)                                     |
+[2022-10-11 10:10:14,356] [builder.py:2243]           [INFO]     | Kids Collection | ? | Monsieur Link (2019) (TMDb: 458253)                                          |
+[2022-10-11 10:10:14,387] [builder.py:2243]           [INFO]     | Kids Collection | ? | LEGO DC Batman - Une Histoire de Famille (2019) (TMDb: 602307)               |
+[2022-10-11 10:10:14,398] [builder.py:2243]           [INFO]     | Kids Collection | ? | UglyDolls (2019) (TMDb: 454458)                                              |
+[2022-10-11 10:10:14,448] [builder.py:2243]           [INFO]     | Kids Collection | ? | Hugo (2011) (TMDb: 44826)                                                    |
+[2022-10-11 10:10:14,464] [builder.py:2243]           [INFO]     | Kids Collection | ? | Mes Autres Vies de Chien (2019) (TMDb: 522518)                               |
+[2022-10-11 10:10:14,488] [builder.py:2243]           [INFO]     | Kids Collection | ? | Comme des bêtes 2 (2019) (TMDb: 412117)                                      |
+[2022-10-11 10:10:14,514] [builder.py:2243]           [INFO]     | Kids Collection | ? | Scooby-Doo ! Retour sur l'île aux zombies (2019) (TMDb: 615774)              |
+[2022-10-11 10:10:14,556] [builder.py:2243]           [INFO]     | Kids Collection | ? | Angry Birds : Copains comme cochons (2019) (TMDb: 454640)                    |
+[2022-10-11 10:10:14,580] [builder.py:2243]           [INFO]     | Kids Collection | ? | Dora et la cité perdue (2019) (TMDb: 499701)                                 |
+[2022-10-11 10:10:14,599] [builder.py:2243]           [INFO]     | Kids Collection | ? | La Belle et le Clochard (2019) (TMDb: 512895)                                |
+[2022-10-11 10:10:14,630] [builder.py:2243]           [INFO]     | Kids Collection | ? | Klaus (2019) (TMDb: 508965)                                                  |
+[2022-10-11 10:10:14,656] [builder.py:2243]           [INFO]     | Kids Collection | ? | La Reine des Neiges : Joyeuses fêtes avec Olaf (2017) (TMDb: 460793)         |
+[2022-10-11 10:10:14,673] [builder.py:2243]           [INFO]     | Kids Collection | ? | Dragons : Retrouvailles (2019) (TMDb: 638507)                                |
+[2022-10-11 10:10:14,690] [builder.py:2243]           [INFO]     | Kids Collection | ? | Aladdin (2019) (TMDb: 420817)                                                |
+[2022-10-11 10:10:14,706] [builder.py:2243]           [INFO]     | Kids Collection | ? | Pokémon Detective Pikachu (2019) (TMDb: 447404)                              |
+[2022-10-11 10:10:14,765] [builder.py:2243]           [INFO]     | Kids Collection | ? | La Petite Sirène Live ! (2019) (TMDb: 642271)                                |
+[2022-10-11 10:10:14,790] [builder.py:2243]           [INFO]     | Kids Collection | ? | Togo (2019) (TMDb: 606856)                                                   |
+[2022-10-11 10:10:14,807] [builder.py:2243]           [INFO]     | Kids Collection | ? | A Shaun the Sheep Movie: Farmageddon (2019) (TMDb: 422803)                   |
+[2022-10-11 10:10:14,840] [builder.py:2243]           [INFO]     | Kids Collection | ? | Dolittle (2020) (TMDb: 448119)                                               |
+[2022-10-11 10:10:14,856] [builder.py:2243]           [INFO]     | Kids Collection | ? | Timmy Failure : Des erreurs ont été commises (2020) (TMDb: 550440)           |
+[2022-10-11 10:10:14,873] [builder.py:2243]           [INFO]     | Kids Collection | ? | La Cité de l'ombre (2008) (TMDb: 13600)                                      |
+[2022-10-11 10:10:14,898] [builder.py:2243]           [INFO]     | Kids Collection | ? | Les Incognitos (2019) (TMDb: 431693)                                         |
+[2022-10-11 10:10:14,915] [builder.py:2243]           [INFO]     | Kids Collection | ? | Sonic the Hedgehog (2020) (TMDb: 454626)                                     |
+[2022-10-11 10:10:14,932] [builder.py:2243]           [INFO]     | Kids Collection | ? | Onward (2020) (TMDb: 508439)                                                 |
+[2022-10-11 10:10:14,945] [builder.py:2243]           [INFO]     | Kids Collection | ? | Maleficent: Mistress of Evil (2019) (TMDb: 420809)                           |
+[2022-10-11 10:10:14,957] [builder.py:2243]           [INFO]     | Kids Collection | ? | Abominable (2019) (TMDb: 431580)                                             |
+[2022-10-11 10:10:14,974] [builder.py:2243]           [INFO]     | Kids Collection | ? | L'appel de la forêt (2020) (TMDb: 481848)                                    |
+[2022-10-11 10:10:15,015] [builder.py:2243]           [INFO]     | Kids Collection | ? | Les Trolls 2 : Tournée mondiale (2020) (TMDb: 446893)                        |
+[2022-10-11 10:10:15,049] [builder.py:2243]           [INFO]     | Kids Collection | ? | La famille Willoughby (2020) (TMDb: 560044)                                  |
+[2022-10-11 10:10:15,091] [builder.py:2243]           [INFO]     | Kids Collection | ? | LEGO DC Shazam - Magie et monstres (2020) (TMDb: 690369)                     |
+[2022-10-11 10:10:15,132] [builder.py:2243]           [INFO]     | Kids Collection | ? | Scooby ! (2020) (TMDb: 385103)                                               |
+[2022-10-11 10:10:15,174] [builder.py:2243]           [INFO]     | Kids Collection | ? | Le Seul et Unique Ivan (2020) (TMDb: 508570)                                 |
+[2022-10-11 10:10:15,224] [builder.py:2243]           [INFO]     | Kids Collection | ? | Bob l'éponge, le film: Éponge en eaux troubles (2020) (TMDb: 400160)         |
+[2022-10-11 10:10:15,241] [builder.py:2243]           [INFO]     | Kids Collection | ? | Mulan (2020) (TMDb: 337401)                                                  |
+[2022-10-11 10:10:15,283] [builder.py:2243]           [INFO]     | Kids Collection | ? | Phineas et Ferb, le film : Candice face à l’univers (2020) (TMDb: 594328)    |
+[2022-10-11 10:10:15,299] [builder.py:2243]           [INFO]     | Kids Collection | ? | Les Croods 2 : Une nouvelle ère (2020) (TMDb: 529203)                        |
+[2022-10-11 10:10:15,341] [builder.py:2243]           [INFO]     | Kids Collection | ? | Clifford the Big Red Dog (2021) (TMDb: 585245)                               |
+[2022-10-11 10:10:15,379] [builder.py:2243]           [INFO]     | Kids Collection | ? | Turning Red (2022) (TMDb: 508947)                                            |
+[2022-10-11 10:10:15,379] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-10-11 10:10:15,379] [builder.py:2249]           [INFO]     | 298 Movies Missing                                                                                 |
+[2022-10-11 10:10:16,896] [plex.py:711]               [DEBUG]    | Smart Collection Test: ?type=1&sort=audienceRating%3Adesc&label=226584                             |
+[2022-10-11 10:10:17,280] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-11 10:10:17,281] [builder.py:2442]           [INFO]     |=============================== Updating Details of Kids Collection ================================|
+[2022-10-11 10:10:17,281] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-11 10:10:17,550] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Movies about distopian world
+                                                                 | Sort Title | +3_Kids
+                                                                 | Label | +PMM
+[2022-10-11 10:10:17,821] [builder.py:2513]           [INFO]     | Details: have been updated
+[2022-10-11 10:10:17,822] [builder.py:2517]           [INFO]     | 
+[2022-10-11 10:10:17,822] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Kids'
+[2022-10-11 10:10:17,822] [util.py:150]               [DEBUG]    | 1 poster found:
+[2022-10-11 10:10:17,823] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_KIDS.png
+[2022-10-11 10:10:17,852] [library.py:170]            [INFO]     | Detail: url_poster updated poster to [URL] https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_KIDS.png
+[2022-10-11 10:10:18,302] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-11 10:10:18,302] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 10:10:18,302] [plex_meta_manager.py:709]  [INFO]     |                                      Finished Kids Collection                                      |
+[2022-10-11 10:10:18,302] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:15                                    |
+[2022-10-11 10:10:18,303] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

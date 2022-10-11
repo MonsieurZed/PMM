@@ -1,0 +1,135 @@
+[2022-09-29 08:45:29,032] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-09-29 08:45:29,032] [builder.py:197]            [INFO]     |                              Cesar Winners Collection in Z. 1 - Films                              |
+[2022-09-29 08:45:29,032] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-09-29 08:45:29,033] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-09-29 08:45:29,033] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-09-29 08:45:29,033] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-09-29 08:45:29,033] [meta.py:128]               [DEBUG]    | Template Chart                                                                                     |
+[2022-09-29 08:45:29,033] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Chart'), ('num', 5)])                                                 |
+[2022-09-29 08:45:29,034] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-09-29 08:45:29,034] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Chart'), ('num', 5), ('collection_name', 'Cesar Winners'), ('mapping_name', 'Cesar Winners'), ('library_type', 'movie'), ('library_name', 'Z. 1 - Films'), ('name_encoded', 'Chart'), ('num_encoded', '5'), ('collection_name_encoded', 'Cesar%20Winners'), ('mapping_name_encoded', 'Cesar%20Winners'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%201%20-%20Films'), ('collection_sort', 'Cesar Winners')]) |
+[2022-09-29 08:45:29,034] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-09-29 08:45:29,034] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-09-29 08:45:29,034] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-09-29 08:45:29,035] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-09-29 08:45:29,035] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-09-29 08:45:29,036] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+1_5Cesar Winners', 'sync_mode': 'sync', 'smart_label': 'random'} |
+[2022-09-29 08:45:29,036] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-09-29 08:45:29,036] [builder.py:219]            [INFO]     |=============================== Validating Cesar Winners Attributes ================================|
+[2022-09-29 08:45:29,036] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-09-29 08:45:29,036] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-09-29 08:45:29,036] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-09-29 08:45:29,037] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-09-29 08:45:29,037] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-09-29 08:45:29,037] [builder.py:544]            [DEBUG]    | Value: random                                                                                      |
+[2022-09-29 08:45:29,042] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 08:45:29,043] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-09-29 08:45:29,043] [builder.py:632]            [DEBUG]    | Value: https://t3.ftcdn.net/jpg/02/27/91/24/240_F_227912451_kaWIwRyRndDYUIVwY4IPOj3DNcCc5Rkg.jpg   |
+[2022-09-29 08:45:29,226] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 08:45:29,226] [builder.py:631]            [DEBUG]    | Validating Method: url_background                                                                  |
+[2022-09-29 08:45:29,226] [builder.py:632]            [DEBUG]    | Value: https://t3.ftcdn.net/jpg/02/27/91/24/240_F_227912451_kaWIwRyRndDYUIVwY4IPOj3DNcCc5Rkg.jpg   |
+[2022-09-29 08:45:29,313] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 08:45:29,314] [builder.py:631]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-09-29 08:45:29,314] [builder.py:632]            [DEBUG]    | Value: https://www.imdb.com/list/ls024896765/?sort=release_date,desc                               |
+[2022-09-29 08:45:32,798] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 08:45:32,799] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-09-29 08:45:32,799] [builder.py:632]            [DEBUG]    | Value: Cesar Winning Movies                                                                        |
+[2022-09-29 08:45:32,800] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 08:45:32,800] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-09-29 08:45:32,800] [builder.py:632]            [DEBUG]    | Value: +1_5Cesar Winners                                                                           |
+[2022-09-29 08:45:32,805] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-09-29 08:45:32,806] [plex.py:793]               [DEBUG]    | Looking for: Cesar Winners                                                                         |
+[2022-09-29 08:45:32,806] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-09-29 08:45:32,806] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-09-29 08:45:32,806] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-09-29 08:45:32,807] [plex_meta_manager.py:563]  [INFO]     |================================= Running Cesar Winners Collection =================================|
+[2022-09-29 08:45:32,807] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-09-29 08:45:32,807] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-09-29 08:45:32,807] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-09-29 08:45:32,808] [plex_meta_manager.py:580]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls024896765/?sort=release_date,desc', 'limit': 0} |
+[2022-09-29 08:45:32,808] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-09-29 08:45:32,808] [imdb.py:184]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls024896765/?sort=release_date,desc                |
+[2022-09-29 08:45:39,819] [imdb.py:135]               [DEBUG]    | 48 IMDb IDs Found: ['tt10505316', 'tt10196398', 'tt10199590', 'tt6002232', 'tt6135348', 'tt3716530', 'tt4466544', 'tt3409392', 'tt2315200', 'tt1602620', 'tt1655442', 'tt1588337', 'tt1235166', 'tt1048171', 'tt0487419', 'tt0459880', 'tt0411270', 'tt0338977', 'tt0338135', 'tt0253474', 'tt0211915', 'tt0216787', 'tt0174330', 'tt0120449', 'tt0119828', 'tt0117477', 'tt0113247', 'tt0111019', 'tt0108167', 'tt0105032', 'tt0103110', 'tt0099334', 'tt0098520', 'tt0094828', 'tt0092593', 'tt0092090', 'tt0090206', 'tt0088002', 'tt0085213', 'tt0086650', 'tt0083611', 'tt0082484', 'tt0080610', 'tt0080009', 'tt0077175', 'tt0076574', 'tt0074916', 'tt0073864'] |
+[2022-09-29 08:45:39,819] [builder.py:1540]           [DEBUG]    |                                                                                                    |
+[2022-09-29 08:45:39,820] [builder.py:1541]           [DEBUG]    | 48 IDs Found: [('tt10505316', 'imdb'), ('tt10196398', 'imdb'), ('tt10199590', 'imdb'), ('tt6002232', 'imdb'), ('tt6135348', 'imdb'), ('tt3716530', 'imdb'), ('tt4466544', 'imdb'), ('tt3409392', 'imdb'), ('tt2315200', 'imdb'), ('tt1602620', 'imdb'), ('tt1655442', 'imdb'), ('tt1588337', 'imdb'), ('tt1235166', 'imdb'), ('tt1048171', 'imdb'), ('tt0487419', 'imdb'), ('tt0459880', 'imdb'), ('tt0411270', 'imdb'), ('tt0338977', 'imdb'), ('tt0338135', 'imdb'), ('tt0253474', 'imdb'), ('tt0211915', 'imdb'), ('tt0216787', 'imdb'), ('tt0174330', 'imdb'), ('tt0120449', 'imdb'), ('tt0119828', 'imdb'), ('tt0117477', 'imdb'), ('tt0113247', 'imdb'), ('tt0111019', 'imdb'), ('tt0108167', 'imdb'), ('tt0105032', 'imdb'), ('tt0103110', 'imdb'), ('tt0099334', 'imdb'), ('tt0098520', 'imdb'), ('tt0094828', 'imdb'), ('tt0092593', 'imdb'), ('tt0092090', 'imdb'), ('tt0090206', 'imdb'), ('tt0088002', 'imdb'), ('tt0085213', 'imdb'), ('tt0086650', 'imdb'), ('tt0083611', 'imdb'), ('tt0082484', 'imdb'), ('tt0080610', 'imdb'), ('tt0080009', 'imdb'), ('tt0077175', 'imdb'), ('tt0076574', 'imdb'), ('tt0074916', 'imdb'), ('tt0073864', 'imdb')] |
+[2022-09-29 08:45:39,820] [builder.py:1542]           [DEBUG]    |                                                                                                    |
+[2022-09-29 08:45:55,360] [builder.py:2064]           [INFO]     |                                                                                                    |
+[2022-09-29 08:45:55,360] [builder.py:2065]           [INFO]     |================================ Adding to Cesar Winners Collection ================================|
+[2022-09-29 08:45:55,361] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-09-29 08:45:55,371] [builder.py:2080]           [INFO]     | 1/8 | Cesar Winners Collection | + | Illusions perdues (2021)                                      |
+[2022-09-29 08:45:56,253] [builder.py:2080]           [INFO]     | 2/8 | Cesar Winners Collection | + | Adieu les cons (2020)                                         |
+[2022-09-29 08:45:57,389] [builder.py:2080]           [INFO]     | 3/8 | Cesar Winners Collection | + | Les Misérables (2019)                                         |
+[2022-09-29 08:45:58,760] [builder.py:2080]           [INFO]     | 4/8 | Cesar Winners Collection | + | Amour (2012)                                                  |
+[2022-09-29 08:46:00,112] [builder.py:2080]           [INFO]     | 5/8 | Cesar Winners Collection | + | The Artist (2011)                                             |
+[2022-09-29 08:46:01,527] [builder.py:2080]           [INFO]     | 6/8 | Cesar Winners Collection | + | Le goût des autres (2000)                                     |
+[2022-09-29 08:46:02,408] [builder.py:2080]           [INFO]     | 7/8 | Cesar Winners Collection | + | On connaît la chanson (1997)                                  |
+[2022-09-29 08:46:03,157] [builder.py:2080]           [INFO]     | 8/8 | Cesar Winners Collection | + | La Haine (1995)                                               |
+[2022-09-29 08:46:04,147] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-09-29 08:46:04,147] [builder.py:2102]           [INFO]     | 8 Movies Processed 8 Movies Added                                                                  |
+[2022-09-29 08:46:04,148] [builder.py:2228]           [INFO]     |                                                                                                    |
+[2022-09-29 08:46:04,148] [builder.py:2229]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-09-29 08:46:04,148] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-09-29 08:46:04,754] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | Custody (2018) (TMDb: 451657)                                       |
+[2022-09-29 08:46:05,234] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | BPM (Beats per Minute) (2017) (TMDb: 451945)                        |
+[2022-09-29 08:46:05,796] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | Elle (2016) (TMDb: 337674)                                          |
+[2022-09-29 08:46:06,280] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | Fatima (2015) (TMDb: 336807)                                        |
+[2022-09-29 08:46:06,737] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | Timbuktu (2014) (TMDb: 265228)                                      |
+[2022-09-29 08:46:07,137] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | Me, Myself and Mum (2013) (TMDb: 190880)                            |
+[2022-09-29 08:46:07,705] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | Of Gods and Men (2010) (TMDb: 46332)                                |
+[2022-09-29 08:46:07,743] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | A Prophet (2009) (TMDb: 21575)                                      |
+[2022-09-29 08:46:08,214] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | Séraphine (2008) (TMDb: 14415)                                      |
+[2022-09-29 08:46:08,778] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | The Secret of the Grain (2007) (TMDb: 8280)                         |
+[2022-09-29 08:46:09,128] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | Lady Chatterley (2006) (TMDb: 3542)                                 |
+[2022-09-29 08:46:09,579] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | The Beat That My Heart Skipped (2005) (TMDb: 1553)                  |
+[2022-09-29 08:46:09,999] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | Games of Love and Chance (2003) (TMDb: 1549)                        |
+[2022-09-29 08:46:10,018] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | The Barbarian Invasions (2003) (TMDb: 11042)                        |
+[2022-09-29 08:46:10,064] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | The Pianist (2002) (TMDb: 423)                                      |
+[2022-09-29 08:46:10,139] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | Amélie (2001) (TMDb: 194)                                           |
+[2022-09-29 08:46:10,547] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | Venus Beauty Institute (1999) (TMDb: 33491)                         |
+[2022-09-29 08:46:11,032] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | The Dreamlife of Angels (1998) (TMDb: 9840)                         |
+[2022-09-29 08:46:11,505] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | Ridicule (1996) (TMDb: 12709)                                       |
+[2022-09-29 08:46:11,956] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | Wild Reeds (1994) (TMDb: 26933)                                     |
+[2022-09-29 08:46:12,541] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | Smoking / No Smoking (1993) (TMDb: 61560)                           |
+[2022-09-29 08:46:12,998] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | Savage Nights (1992) (TMDb: 41878)                                  |
+[2022-09-29 08:46:13,650] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | All the Mornings of the World (1991) (TMDb: 41804)                  |
+[2022-09-29 08:46:13,664] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | Cyrano de Bergerac (1990) (TMDb: 11673)                             |
+[2022-09-29 08:46:14,203] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | Too Beautiful for You (1989) (TMDb: 48524)                          |
+[2022-09-29 08:46:14,664] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | Camille Claudel (1988) (TMDb: 11709)                                |
+[2022-09-29 08:46:15,051] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | Au Revoir les Enfants (1987) (TMDb: 1786)                           |
+[2022-09-29 08:46:15,383] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | Thérèse (1986) (TMDb: 42029)                                        |
+[2022-09-29 08:46:16,589] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | Three Men and a Cradle (1985) (TMDb: 4180)                          |
+[2022-09-29 08:46:16,856] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | My New Partner (1984) (TMDb: 10260)                                 |
+[2022-09-29 08:46:17,300] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | Le Bal (1983) (TMDb: 60612)                                         |
+[2022-09-29 08:46:17,743] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | A Nos Amours (1983) (TMDb: 2282)                                    |
+[2022-09-29 08:46:18,286] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | La Balance (1982) (TMDb: 86404)                                     |
+[2022-09-29 08:46:18,305] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | Quest for Fire (1981) (TMDb: 62204)                                 |
+[2022-09-29 08:46:18,714] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | The Last Metro (1980) (TMDb: 1716)                                  |
+[2022-09-29 08:46:18,730] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | Tess (1979) (TMDb: 11121)                                           |
+[2022-09-29 08:46:19,247] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | Other People's Money (1978) (TMDb: 78376)                           |
+[2022-09-29 08:46:19,586] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | Providence (1977) (TMDb: 54140)                                     |
+[2022-09-29 08:46:20,173] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | Mr. Klein (1976) (TMDb: 58925)                                      |
+[2022-09-29 08:46:20,622] [builder.py:2243]           [INFO]     | Cesar Winners Collection | ? | The Old Gun (1975) (TMDb: 3480)                                     |
+[2022-09-29 08:46:20,622] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-09-29 08:46:20,623] [builder.py:2249]           [INFO]     | 40 Movies Missing                                                                                  |
+[2022-09-29 08:46:20,852] [plex.py:711]               [DEBUG]    | Smart Collection Test: ?type=1&sort=random&label=213149                                            |
+[2022-09-29 08:46:20,921] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-09-29 08:46:20,921] [builder.py:2442]           [INFO]     |=========================== Updating Details of Cesar Winners Collection ===========================|
+[2022-09-29 08:46:20,921] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-09-29 08:46:21,113] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Cesar Winning Movies     
+                                                                 | Sort Title | +1_5Cesar Winners
+                                                                 | Label | +PMM
+[2022-09-29 08:46:21,323] [builder.py:2513]           [INFO]     | Details: have been updated
+[2022-09-29 08:46:21,323] [builder.py:2517]           [INFO]     | 
+[2022-09-29 08:46:21,324] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Cesar Winners'
+[2022-09-29 08:46:21,324] [util.py:150]               [DEBUG]    | 1 poster found:
+[2022-09-29 08:46:21,324] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://t3.ftcdn.net/jpg/02/27/91/24/240_F_227912451_kaWIwRyRndDYUIVwY4IPOj3DNcCc5Rkg.jpg
+[2022-09-29 08:46:21,324] [util.py:150]               [DEBUG]    | 1 background found:
+[2022-09-29 08:46:21,324] [util.py:152]               [DEBUG]    | Method: url_background Background: https://t3.ftcdn.net/jpg/02/27/91/24/240_F_227912451_kaWIwRyRndDYUIVwY4IPOj3DNcCc5Rkg.jpg
+[2022-09-29 08:46:21,357] [library.py:170]            [INFO]     | Detail: url_poster updated poster to [URL] https://t3.ftcdn.net/jpg/02/27/91/24/240_F_227912451_kaWIwRyRndDYUIVwY4IPOj3DNcCc5Rkg.jpg
+[2022-09-29 08:46:21,383] [library.py:186]            [INFO]     | Detail: url_background updated background to [URL] https://t3.ftcdn.net/jpg/02/27/91/24/240_F_227912451_kaWIwRyRndDYUIVwY4IPOj3DNcCc5Rkg.jpg
+[2022-09-29 08:46:21,525] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-09-29 08:46:21,525] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-09-29 08:46:21,525] [plex_meta_manager.py:709]  [INFO]     |                                 Finished Cesar Winners Collection                                  |
+[2022-09-29 08:46:21,526] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:52                                    |
+[2022-09-29 08:46:21,526] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

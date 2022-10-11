@@ -1,0 +1,37 @@
+[2022-10-06 05:06:37,038] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-06 05:06:37,038] [builder.py:197]            [INFO]     |                             Stand Up Comedy Collection in Z. 1 - Films                             |
+[2022-10-06 05:06:37,038] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-06 05:06:37,038] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-06 05:06:37,038] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-06 05:06:37,038] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-06 05:06:37,038] [meta.py:128]               [DEBUG]    | Template Genre                                                                                     |
+[2022-10-06 05:06:37,038] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Genre')])                                                             |
+[2022-10-06 05:06:37,039] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-06 05:06:37,039] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Genre'), ('collection_name', 'Stand Up Comedy'), ('mapping_name', 'Stand Up Comedy'), ('library_type', 'movie'), ('library_name', 'Z. 1 - Films'), ('name_encoded', 'Genre'), ('collection_name_encoded', 'Stand%20Up%20Comedy'), ('mapping_name_encoded', 'Stand%20Up%20Comedy'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%201%20-%20Films'), ('collection_sort', 'Stand Up Comedy')]) |
+[2022-10-06 05:06:37,039] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-06 05:06:37,039] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-06 05:06:37,039] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-06 05:06:37,039] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-06 05:06:37,040] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-06 05:06:37,040] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+3_Stand Up Comedy', 'sync_mode': 'sync', 'smart_label': 'audience_rating.desc', 'plex_search': {'genre': '<<genre>>'}, 'collection_order': 'alpha'} |
+[2022-10-06 05:06:37,040] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-06 05:06:37,040] [builder.py:219]            [INFO]     |============================== Validating Stand Up Comedy Attributes ===============================|
+[2022-10-06 05:06:37,041] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-06 05:06:37,041] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-06 05:06:37,041] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-06 05:06:37,041] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-06 05:06:37,041] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-06 05:06:37,041] [builder.py:544]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-10-06 05:06:37,047] [plex_meta_manager.py:696]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 559, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str)
+                                                                 |   File "/modules/builder.py", line 608, in __init__
+                                                                 |     raise Failed(f"{self.Type} Error: collection_order does not work with Smart Collections")
+                                                                 | modules.util.Failed: Collection Error: collection_order does not work with Smart Collections
+                                                                 | 
+[2022-10-06 05:06:37,048] [plex_meta_manager.py:697]  [ERROR]    | Collection Error: collection_order does not work with Smart Collections
+[2022-10-06 05:06:37,048] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-06 05:06:37,048] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-06 05:06:37,048] [plex_meta_manager.py:709]  [INFO]     |                                Finished Stand Up Comedy Collection                                 |
+[2022-10-06 05:06:37,048] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-06 05:06:37,049] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

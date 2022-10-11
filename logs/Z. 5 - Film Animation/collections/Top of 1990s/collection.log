@@ -1,0 +1,544 @@
+[2022-10-11 09:56:49,147] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 09:56:49,147] [builder.py:197]            [INFO]     |                          Top of 1990s Collection in Z. 5 - Film Animation                          |
+[2022-10-11 09:56:49,147] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 09:56:49,148] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 09:56:49,148] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 09:56:49,148] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:56:49,148] [meta.py:128]               [DEBUG]    | Template Chart                                                                                     |
+[2022-10-11 09:56:49,148] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Chart'), ('num', 4), ('year', 1990)])                                 |
+[2022-10-11 09:56:49,148] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:56:49,149] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Chart'), ('num', 4), ('year', 1990), ('collection_name', 'Top of 1990s'), ('mapping_name', 'Top of 1990s'), ('library_type', 'movie'), ('library_name', 'Z. 5 - Film Animation'), ('name_encoded', 'Chart'), ('num_encoded', '4'), ('year_encoded', '1990'), ('collection_name_encoded', 'Top%20of%201990s'), ('mapping_name_encoded', 'Top%20of%201990s'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%205%20-%20Film%20Animation'), ('collection_sort', 'Top of 1990s')]) |
+[2022-10-11 09:56:49,149] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:56:49,149] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 09:56:49,149] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:56:49,149] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 09:56:49,150] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:56:49,150] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+2_4DECADE of 1990', 'sync_mode': 'sync', 'smart_label': 'audience_rating.desc'} |
+[2022-10-11 09:56:49,150] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:56:49,150] [builder.py:219]            [INFO]     |================================ Validating Top of 1990s Attributes ================================|
+[2022-10-11 09:56:49,151] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:56:49,151] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-11 09:56:49,151] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-11 09:56:49,151] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:56:49,151] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-11 09:56:49,151] [builder.py:544]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-10-11 09:56:49,167] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:56:49,168] [builder.py:631]            [DEBUG]    | Validating Method: tmdb_discover                                                                   |
+[2022-10-11 09:56:49,168] [builder.py:632]            [DEBUG]    | Value: ordereddict([('primary_release_date.gte', '01/01/1990'), ('primary_release_date.lte', '12/31/1999'), ('with_original_language', 'fr'), ('sort_by', 'popularity.desc')]) |
+[2022-10-11 09:56:49,168] [util.py:745]               [WARNING]  | Collection Warning: tmdb_discover limit attribute not found using 100 as default                   |
+[2022-10-11 09:56:49,168] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:56:49,169] [builder.py:631]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-10-11 09:56:49,169] [builder.py:632]            [DEBUG]    | Value: ['https://www.imdb.com/list/ls076329002/', 'https://www.imdb.com/list/ls000098513/']        |
+[2022-10-11 09:56:54,934] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:56:54,936] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-11 09:56:54,939] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/DECADE_1990.png               |
+[2022-10-11 09:56:55,270] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:56:55,270] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-10-11 09:56:55,270] [builder.py:632]            [DEBUG]    | Value: Le meilleurs des années 1990                                                                |
+[2022-10-11 09:56:55,271] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:56:55,271] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 09:56:55,271] [builder.py:632]            [DEBUG]    | Value: +2_4DECADE of 1990                                                                          |
+[2022-10-11 09:56:55,276] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:56:55,277] [plex.py:793]               [DEBUG]    | Looking for: Top of 1990s                                                                          |
+[2022-10-11 09:56:55,277] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 09:56:55,277] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 09:56:55,277] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 09:56:55,277] [plex_meta_manager.py:563]  [INFO]     |================================= Running Top of 1990s Collection ==================================|
+[2022-10-11 09:56:55,277] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-10-11 09:56:55,278] [plex_meta_manager.py:570]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: audience_rating.desc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Top of 1990s
+[2022-10-11 09:56:55,278] [plex_meta_manager.py:575]  [INFO]     | 
+[2022-10-11 09:56:55,279] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync
+[2022-10-11 09:56:55,279] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 09:56:55,279] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_discover: {'limit': 100, 'primary_release_date.gte': '01/01/1990', 'primary_release_date.lte': '12/31/1999', 'with_original_language': 'fr', 'sort_by': 'popularity.desc'}
+[2022-10-11 09:56:55,279] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 09:56:56,015] [tmdb.py:339]               [INFO]     | Processing TMDb Discover: 100 Movies
+[2022-10-11 09:56:56,015] [tmdb.py:341]               [INFO]     |            primary_release_date.gte: 1990-01-01
+[2022-10-11 09:56:56,015] [tmdb.py:341]               [INFO]     |            primary_release_date.lte: 1999-12-31
+[2022-10-11 09:56:56,016] [tmdb.py:341]               [INFO]     |            with_original_language: fr
+[2022-10-11 09:56:56,016] [tmdb.py:341]               [INFO]     |            sort_by: popularity.desc
+[2022-10-11 09:56:56,016] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 09:56:56,016] [builder.py:1541]           [DEBUG]    | 100 IDs Found: [(26338, 'tmdb'), (2330, 'tmdb'), (10995, 'tmdb'), (9564, 'tmdb'), (110, 'tmdb'), (902, 'tmdb'), (1600, 'tmdb'), (108, 'tmdb'), (11687, 'tmdb'), (406, 'tmdb'), (12531, 'tmdb'), (109, 'tmdb'), (10452, 'tmdb'), (12627, 'tmdb'), (9322, 'tmdb'), (25518, 'tmdb'), (9369, 'tmdb'), (26933, 'tmdb'), (35717, 'tmdb'), (892, 'tmdb'), (10353, 'tmdb'), (51980, 'tmdb'), (25355, 'tmdb'), (2731, 'tmdb'), (17961, 'tmdb'), (11479, 'tmdb'), (1568, 'tmdb'), (10086, 'tmdb'), (12709, 'tmdb'), (10347, 'tmdb'), (21348, 'tmdb'), (66537, 'tmdb'), (9421, 'tmdb'), (11796, 'tmdb'), (46991, 'tmdb'), (2767, 'tmdb'), (12652, 'tmdb'), (9305, 'tmdb'), (14626, 'tmdb'), (33517, 'tmdb'), (55107, 'tmdb'), (2528, 'tmdb'), (14283, 'tmdb'), (4734, 'tmdb'), (1567, 'tmdb'), (33491, 'tmdb'), (116636, 'tmdb'), (11673, 'tmdb'), (22240, 'tmdb'), (48150, 'tmdb'), (20978, 'tmdb'), (8056, 'tmdb'), (37563, 'tmdb'), (12716, 'tmdb'), (10239, 'tmdb'), (10241, 'tmdb'), (51191, 'tmdb'), (11489, 'tmdb'), (49938, 'tmdb'), (36998, 'tmdb'), (38414, 'tmdb'), (44706, 'tmdb'), (4482, 'tmdb'), (40223, 'tmdb'), (11139, 'tmdb'), (46334, 'tmdb'), (28213, 'tmdb'), (19963, 'tmdb'), (33828, 'tmdb'), (48580, 'tmdb'), (31789, 'tmdb'), (1785, 'tmdb'), (16130, 'tmdb'), (19223, 'tmdb'), (10732, 'tmdb'), (15097, 'tmdb'), (11876, 'tmdb'), (46761, 'tmdb'), (1802, 'tmdb'), (20220, 'tmdb'), (12717, 'tmdb'), (74714, 'tmdb'), (26813, 'tmdb'), (15466, 'tmdb'), (41580, 'tmdb'), (2817, 'tmdb'), (40815, 'tmdb'), (40089, 'tmdb'), (6444, 'tmdb'), (43612, 'tmdb'), (48336, 'tmdb'), (28212, 'tmdb'), (55705, 'tmdb'), (56321, 'tmdb'), (37653, 'tmdb'), (40258, 'tmdb'), (5144, 'tmdb'), (46959, 'tmdb'), (24183, 'tmdb'), (10401, 'tmdb')]
+[2022-10-11 09:56:56,016] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 09:56:56,017] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 09:56:56,017] [plex_meta_manager.py:580]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls076329002/', 'limit': 0}
+[2022-10-11 09:56:56,017] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 09:56:56,018] [imdb.py:184]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls076329002/
+[2022-10-11 09:57:02,180] [imdb.py:135]               [DEBUG]    | 50 IMDb IDs Found: ['tt0099685', 'tt0100802', 'tt0100150', 'tt0100157', 'tt0099348', 'tt0099582', 'tt0099077', 'tt0099615', 'tt0099028', 'tt0099423', 'tt0099785', 'tt0099487', 'tt0100449', 'tt0099365', 'tt0097202', 'tt0099371', 'tt0099810', 'tt0100685', 'tt0100935', 'tt0099700', 'tt0099871', 'tt0099653', 'tt0099726', 'tt0101026', 'tt0098967', 'tt0100054', 'tt0100395', 'tt0099088', 'tt0099422', 'tt0099939', 'tt0099892', 'tt0099121', 'tt0100318', 'tt0100405', 'tt0099005', 'tt0099204', 'tt0100140', 'tt0100814', 'tt0099674', 'tt0100212', 'tt0099329', 'tt0099052', 'tt0103008', 'tt0100107', 'tt0100514', 'tt0099581', 'tt0100758', 'tt0099938', 'tt0099141', 'tt0100224']
+[2022-10-11 09:57:02,181] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 09:57:02,181] [builder.py:1541]           [DEBUG]    | 50 IDs Found: [('tt0099685', 'imdb'), ('tt0100802', 'imdb'), ('tt0100150', 'imdb'), ('tt0100157', 'imdb'), ('tt0099348', 'imdb'), ('tt0099582', 'imdb'), ('tt0099077', 'imdb'), ('tt0099615', 'imdb'), ('tt0099028', 'imdb'), ('tt0099423', 'imdb'), ('tt0099785', 'imdb'), ('tt0099487', 'imdb'), ('tt0100449', 'imdb'), ('tt0099365', 'imdb'), ('tt0097202', 'imdb'), ('tt0099371', 'imdb'), ('tt0099810', 'imdb'), ('tt0100685', 'imdb'), ('tt0100935', 'imdb'), ('tt0099700', 'imdb'), ('tt0099871', 'imdb'), ('tt0099653', 'imdb'), ('tt0099726', 'imdb'), ('tt0101026', 'imdb'), ('tt0098967', 'imdb'), ('tt0100054', 'imdb'), ('tt0100395', 'imdb'), ('tt0099088', 'imdb'), ('tt0099422', 'imdb'), ('tt0099939', 'imdb'), ('tt0099892', 'imdb'), ('tt0099121', 'imdb'), ('tt0100318', 'imdb'), ('tt0100405', 'imdb'), ('tt0099005', 'imdb'), ('tt0099204', 'imdb'), ('tt0100140', 'imdb'), ('tt0100814', 'imdb'), ('tt0099674', 'imdb'), ('tt0100212', 'imdb'), ('tt0099329', 'imdb'), ('tt0099052', 'imdb'), ('tt0103008', 'imdb'), ('tt0100107', 'imdb'), ('tt0100514', 'imdb'), ('tt0099581', 'imdb'), ('tt0100758', 'imdb'), ('tt0099938', 'imdb'), ('tt0099141', 'imdb'), ('tt0100224', 'imdb')]
+[2022-10-11 09:57:02,181] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 09:57:02,570] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 09:57:02,572] [plex_meta_manager.py:580]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls000098513/', 'limit': 0}
+[2022-10-11 09:57:02,574] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 09:57:02,574] [imdb.py:184]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls000098513/
+[2022-10-11 09:57:28,556] [imdb.py:135]               [DEBUG]    | 309 IMDb IDs Found: ['tt0099487', 'tt0099685', 'tt0099674', 'tt0099939', 'tt0100150', 'tt0099871', 'tt0099088', 'tt0100802', 'tt0099810', 'tt0100442', 'tt0099073', 'tt0100054', 'tt0099703', 'tt0100263', 'tt0100157', 'tt0100403', 'tt0100814', 'tt0099669', 'tt0099266', 'tt0099077', 'tt0100470', 'tt0099776', 'tt0100454', 'tt0099785', 'tt0102926', 'tt0103064', 'tt0102975', 'tt0101540', 'tt0101410', 'tt0101414', 'tt0102798', 'tt0101829', 'tt0101991', 'tt0101597', 'tt0101640', 'tt0099888', 'tt0101921', 'tt0101984', 'tt0101507', 'tt0102511', 'tt0102181', 'tt0101700', 'tt0103776', 'tt0105695', 'tt0104257', 'tt0105236', 'tt0103772', 'tt0104714', 'tt0103759', 'tt0102592', 'tt0104012', 'tt0106308', 'tt0103873', 'tt0104684', 'tt0105851', 'tt0103644', 'tt0103874', 'tt0104036', 'tt0103905', 'tt0105275', 'tt0103919', 'tt0103671', 'tt0104107', 'tt0104348', 'tt0105151', 'tt0104756', 'tt0105323', 'tt0103939', 'tt0104797', 'tt0105130', 'tt0104507', 'tt0104691', 'tt0105488', 'tt0105032', 'tt0104940', 'tt0107290', 'tt0106582', 'tt0107529', 'tt0107688', 'tt0107818', 'tt0106918', 'tt0106489', 'tt0106977', 'tt0108188', 'tt0106856', 'tt0107206', 'tt0106452', 'tt0106469', 'tt0108281', 'tt0108148', 'tt0106912', 'tt0106677', 'tt0108550', 'tt0107207', 'tt0108122', 'tt0107322', 'tt0107156', 'tt0107282', 'tt0107468', 'tt0107653', 'tt0107943', 'tt0106673', 'tt0110632', 'tt0110413', 'tt0109506', 'tt0109836', 'tt0111742', 'tt0109707', 'tt0110308', 'tt0110631', 'tt0113409', 'tt0111257', 'tt0109688', 'tt0110322', 'tt0111667', 'tt0110912', 'tt0110148', 'tt0111503', 'tt0109444', 'tt0110932', 'tt0110365', 'tt0109842', 'tt0111309', 'tt0111418', 'tt0109831', 'tt0109445', 'tt0109424', 'tt0110729', 'tt0110296', 'tt0110963', 'tt0110005', 'tt0110367', 'tt0109340', 'tt0110917', 'tt0110116', 'tt0109759', 'tt0109045', 'tt0110357', 'tt0114369', 'tt0114746', 'tt0112384', 'tt0112851', 'tt0113189', 'tt0112740', 'tt0114069', 'tt0112442', 'tt0113749', 'tt0114558', 'tt0113690', 'tt0112819', 'tt0113627', 'tt0109642', 'tt0113862', 'tt0112750', 'tt0112767', 'tt0114690', 'tt0112682', 'tt0114279', 'tt0112471', 'tt0112461', 'tt0112818', 'tt0114323', 'tt0114906', 'tt0112757', 'tt0113247', 'tt0117500', 'tt0117060', 'tt0116367', 'tt0117731', 'tt0116365', 'tt0115736', 'tt0115571', 'tt0117665', 'tt0117381', 'tt0116209', 'tt0119256', 'tt0117666', 'tt0115964', 'tt0117883', 'tt0117407', 'tt0117658', 'tt0116905', 'tt0123092', 'tt0117318', 'tt0117128', 'tt0118117', 'tt0117690', 'tt0117359', 'tt0116164', 'tt0117615', 'tt0116767', 'tt0116594', 'tt0116882', 'tt0116683', 'tt0117069', 'tt0118003', 'tt0119349', 'tt0119654', 'tt0119174', 'tt0120338', 'tt0119116', 'tt0119094', 'tt0118583', 'tt0120201', 'tt0119177', 'tt0118884', 'tt0118771', 'tt0118749', 'tt0118971', 'tt0116922', 'tt0119794', 'tt0123755', 'tt0119792', 'tt0119008', 'tt0116261', 'tt0125659', 'tt0120036', 'tt0118531', 'tt0118647', 'tt0119558', 'tt0119472', 'tt0119822', 'tt0119951', 'tt0120885', 'tt0118842', 'tt0120255', 'tt0120514', 'tt0119217', 'tt0118851', 'tt0119815', 'tt0119893', 'tt0119164', 'tt0118845', 'tt0120408', 'tt0119250', 'tt0119167', 'tt0118685', 'tt0120586', 'tt0118929', 'tt0120669', 'tt0120815', 'tt0120591', 'tt0120611', 'tt0120768', 'tt0126765', 'tt0120890', 'tt0118636', 'tt0120735', 'tt0119223', 'tt0120714', 'tt0120324', 'tt0120070', 'tt0120660', 'tt0122690', 'tt0135166', 'tt0124901', 'tt0120382', 'tt0120789', 'tt0130827', 'tt0119347', 'tt0154506', 'tt0138704', 'tt0162973', 'tt0150662', 'tt0151691', 'tt0127722', 'tt0128442', 'tt0127536', 'tt0120802', 'tt0154420', 'tt0138414', 'tt0147612', 'tt0157356', 'tt0169547', 'tt0137363', 'tt0120655', 'tt0139134', 'tt0137523', 'tt0120689', 'tt0133093', 'tt0143145', 'tt0120616', 'tt0120784', 'tt0142688', 'tt0167404', 'tt0162661', 'tt0163988', 'tt0145531', 'tt0137494', 'tt0220806', 'tt0175880', 'tt0140352', 'tt0165854', 'tt0135790', 'tt0125664', 'tt0120663', 'tt0120601', 'tt0120834', 'tt0171804', 'tt0160672', 'tt0138874', 'tt0145653', 'tt0180748', 'tt0177789', 'tt0166943', 'tt0150216', 'tt0162710', 'tt0147800', 'tt0163651']
+[2022-10-11 09:57:28,557] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 09:57:28,557] [builder.py:1541]           [DEBUG]    | 309 IDs Found: [('tt0099487', 'imdb'), ('tt0099685', 'imdb'), ('tt0099674', 'imdb'), ('tt0099939', 'imdb'), ('tt0100150', 'imdb'), ('tt0099871', 'imdb'), ('tt0099088', 'imdb'), ('tt0100802', 'imdb'), ('tt0099810', 'imdb'), ('tt0100442', 'imdb'), ('tt0099073', 'imdb'), ('tt0100054', 'imdb'), ('tt0099703', 'imdb'), ('tt0100263', 'imdb'), ('tt0100157', 'imdb'), ('tt0100403', 'imdb'), ('tt0100814', 'imdb'), ('tt0099669', 'imdb'), ('tt0099266', 'imdb'), ('tt0099077', 'imdb'), ('tt0100470', 'imdb'), ('tt0099776', 'imdb'), ('tt0100454', 'imdb'), ('tt0099785', 'imdb'), ('tt0102926', 'imdb'), ('tt0103064', 'imdb'), ('tt0102975', 'imdb'), ('tt0101540', 'imdb'), ('tt0101410', 'imdb'), ('tt0101414', 'imdb'), ('tt0102798', 'imdb'), ('tt0101829', 'imdb'), ('tt0101991', 'imdb'), ('tt0101597', 'imdb'), ('tt0101640', 'imdb'), ('tt0099888', 'imdb'), ('tt0101921', 'imdb'), ('tt0101984', 'imdb'), ('tt0101507', 'imdb'), ('tt0102511', 'imdb'), ('tt0102181', 'imdb'), ('tt0101700', 'imdb'), ('tt0103776', 'imdb'), ('tt0105695', 'imdb'), ('tt0104257', 'imdb'), ('tt0105236', 'imdb'), ('tt0103772', 'imdb'), ('tt0104714', 'imdb'), ('tt0103759', 'imdb'), ('tt0102592', 'imdb'), ('tt0104012', 'imdb'), ('tt0106308', 'imdb'), ('tt0103873', 'imdb'), ('tt0104684', 'imdb'), ('tt0105851', 'imdb'), ('tt0103644', 'imdb'), ('tt0103874', 'imdb'), ('tt0104036', 'imdb'), ('tt0103905', 'imdb'), ('tt0105275', 'imdb'), ('tt0103919', 'imdb'), ('tt0103671', 'imdb'), ('tt0104107', 'imdb'), ('tt0104348', 'imdb'), ('tt0105151', 'imdb'), ('tt0104756', 'imdb'), ('tt0105323', 'imdb'), ('tt0103939', 'imdb'), ('tt0104797', 'imdb'), ('tt0105130', 'imdb'), ('tt0104507', 'imdb'), ('tt0104691', 'imdb'), ('tt0105488', 'imdb'), ('tt0105032', 'imdb'), ('tt0104940', 'imdb'), ('tt0107290', 'imdb'), ('tt0106582', 'imdb'), ('tt0107529', 'imdb'), ('tt0107688', 'imdb'), ('tt0107818', 'imdb'), ('tt0106918', 'imdb'), ('tt0106489', 'imdb'), ('tt0106977', 'imdb'), ('tt0108188', 'imdb'), ('tt0106856', 'imdb'), ('tt0107206', 'imdb'), ('tt0106452', 'imdb'), ('tt0106469', 'imdb'), ('tt0108281', 'imdb'), ('tt0108148', 'imdb'), ('tt0106912', 'imdb'), ('tt0106677', 'imdb'), ('tt0108550', 'imdb'), ('tt0107207', 'imdb'), ('tt0108122', 'imdb'), ('tt0107322', 'imdb'), ('tt0107156', 'imdb'), ('tt0107282', 'imdb'), ('tt0107468', 'imdb'), ('tt0107653', 'imdb'), ('tt0107943', 'imdb'), ('tt0106673', 'imdb'), ('tt0110632', 'imdb'), ('tt0110413', 'imdb'), ('tt0109506', 'imdb'), ('tt0109836', 'imdb'), ('tt0111742', 'imdb'), ('tt0109707', 'imdb'), ('tt0110308', 'imdb'), ('tt0110631', 'imdb'), ('tt0113409', 'imdb'), ('tt0111257', 'imdb'), ('tt0109688', 'imdb'), ('tt0110322', 'imdb'), ('tt0111667', 'imdb'), ('tt0110912', 'imdb'), ('tt0110148', 'imdb'), ('tt0111503', 'imdb'), ('tt0109444', 'imdb'), ('tt0110932', 'imdb'), ('tt0110365', 'imdb'), ('tt0109842', 'imdb'), ('tt0111309', 'imdb'), ('tt0111418', 'imdb'), ('tt0109831', 'imdb'), ('tt0109445', 'imdb'), ('tt0109424', 'imdb'), ('tt0110729', 'imdb'), ('tt0110296', 'imdb'), ('tt0110963', 'imdb'), ('tt0110005', 'imdb'), ('tt0110367', 'imdb'), ('tt0109340', 'imdb'), ('tt0110917', 'imdb'), ('tt0110116', 'imdb'), ('tt0109759', 'imdb'), ('tt0109045', 'imdb'), ('tt0110357', 'imdb'), ('tt0114369', 'imdb'), ('tt0114746', 'imdb'), ('tt0112384', 'imdb'), ('tt0112851', 'imdb'), ('tt0113189', 'imdb'), ('tt0112740', 'imdb'), ('tt0114069', 'imdb'), ('tt0112442', 'imdb'), ('tt0113749', 'imdb'), ('tt0114558', 'imdb'), ('tt0113690', 'imdb'), ('tt0112819', 'imdb'), ('tt0113627', 'imdb'), ('tt0109642', 'imdb'), ('tt0113862', 'imdb'), ('tt0112750', 'imdb'), ('tt0112767', 'imdb'), ('tt0114690', 'imdb'), ('tt0112682', 'imdb'), ('tt0114279', 'imdb'), ('tt0112471', 'imdb'), ('tt0112461', 'imdb'), ('tt0112818', 'imdb'), ('tt0114323', 'imdb'), ('tt0114906', 'imdb'), ('tt0112757', 'imdb'), ('tt0113247', 'imdb'), ('tt0117500', 'imdb'), ('tt0117060', 'imdb'), ('tt0116367', 'imdb'), ('tt0117731', 'imdb'), ('tt0116365', 'imdb'), ('tt0115736', 'imdb'), ('tt0115571', 'imdb'), ('tt0117665', 'imdb'), ('tt0117381', 'imdb'), ('tt0116209', 'imdb'), ('tt0119256', 'imdb'), ('tt0117666', 'imdb'), ('tt0115964', 'imdb'), ('tt0117883', 'imdb'), ('tt0117407', 'imdb'), ('tt0117658', 'imdb'), ('tt0116905', 'imdb'), ('tt0123092', 'imdb'), ('tt0117318', 'imdb'), ('tt0117128', 'imdb'), ('tt0118117', 'imdb'), ('tt0117690', 'imdb'), ('tt0117359', 'imdb'), ('tt0116164', 'imdb'), ('tt0117615', 'imdb'), ('tt0116767', 'imdb'), ('tt0116594', 'imdb'), ('tt0116882', 'imdb'), ('tt0116683', 'imdb'), ('tt0117069', 'imdb'), ('tt0118003', 'imdb'), ('tt0119349', 'imdb'), ('tt0119654', 'imdb'), ('tt0119174', 'imdb'), ('tt0120338', 'imdb'), ('tt0119116', 'imdb'), ('tt0119094', 'imdb'), ('tt0118583', 'imdb'), ('tt0120201', 'imdb'), ('tt0119177', 'imdb'), ('tt0118884', 'imdb'), ('tt0118771', 'imdb'), ('tt0118749', 'imdb'), ('tt0118971', 'imdb'), ('tt0116922', 'imdb'), ('tt0119794', 'imdb'), ('tt0123755', 'imdb'), ('tt0119792', 'imdb'), ('tt0119008', 'imdb'), ('tt0116261', 'imdb'), ('tt0125659', 'imdb'), ('tt0120036', 'imdb'), ('tt0118531', 'imdb'), ('tt0118647', 'imdb'), ('tt0119558', 'imdb'), ('tt0119472', 'imdb'), ('tt0119822', 'imdb'), ('tt0119951', 'imdb'), ('tt0120885', 'imdb'), ('tt0118842', 'imdb'), ('tt0120255', 'imdb'), ('tt0120514', 'imdb'), ('tt0119217', 'imdb'), ('tt0118851', 'imdb'), ('tt0119815', 'imdb'), ('tt0119893', 'imdb'), ('tt0119164', 'imdb'), ('tt0118845', 'imdb'), ('tt0120408', 'imdb'), ('tt0119250', 'imdb'), ('tt0119167', 'imdb'), ('tt0118685', 'imdb'), ('tt0120586', 'imdb'), ('tt0118929', 'imdb'), ('tt0120669', 'imdb'), ('tt0120815', 'imdb'), ('tt0120591', 'imdb'), ('tt0120611', 'imdb'), ('tt0120768', 'imdb'), ('tt0126765', 'imdb'), ('tt0120890', 'imdb'), ('tt0118636', 'imdb'), ('tt0120735', 'imdb'), ('tt0119223', 'imdb'), ('tt0120714', 'imdb'), ('tt0120324', 'imdb'), ('tt0120070', 'imdb'), ('tt0120660', 'imdb'), ('tt0122690', 'imdb'), ('tt0135166', 'imdb'), ('tt0124901', 'imdb'), ('tt0120382', 'imdb'), ('tt0120789', 'imdb'), ('tt0130827', 'imdb'), ('tt0119347', 'imdb'), ('tt0154506', 'imdb'), ('tt0138704', 'imdb'), ('tt0162973', 'imdb'), ('tt0150662', 'imdb'), ('tt0151691', 'imdb'), ('tt0127722', 'imdb'), ('tt0128442', 'imdb'), ('tt0127536', 'imdb'), ('tt0120802', 'imdb'), ('tt0154420', 'imdb'), ('tt0138414', 'imdb'), ('tt0147612', 'imdb'), ('tt0157356', 'imdb'), ('tt0169547', 'imdb'), ('tt0137363', 'imdb'), ('tt0120655', 'imdb'), ('tt0139134', 'imdb'), ('tt0137523', 'imdb'), ('tt0120689', 'imdb'), ('tt0133093', 'imdb'), ('tt0143145', 'imdb'), ('tt0120616', 'imdb'), ('tt0120784', 'imdb'), ('tt0142688', 'imdb'), ('tt0167404', 'imdb'), ('tt0162661', 'imdb'), ('tt0163988', 'imdb'), ('tt0145531', 'imdb'), ('tt0137494', 'imdb'), ('tt0220806', 'imdb'), ('tt0175880', 'imdb'), ('tt0140352', 'imdb'), ('tt0165854', 'imdb'), ('tt0135790', 'imdb'), ('tt0125664', 'imdb'), ('tt0120663', 'imdb'), ('tt0120601', 'imdb'), ('tt0120834', 'imdb'), ('tt0171804', 'imdb'), ('tt0160672', 'imdb'), ('tt0138874', 'imdb'), ('tt0145653', 'imdb'), ('tt0180748', 'imdb'), ('tt0177789', 'imdb'), ('tt0166943', 'imdb'), ('tt0150216', 'imdb'), ('tt0162710', 'imdb'), ('tt0147800', 'imdb'), ('tt0163651', 'imdb')]
+[2022-10-11 09:57:28,557] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 09:57:31,286] [builder.py:2064]           [INFO]     | 
+[2022-10-11 09:57:31,288] [builder.py:2065]           [INFO]     |================================ Adding to Top of 1990s Collection =================================|
+[2022-10-11 09:57:31,292] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-11 09:57:31,307] [builder.py:2080]           [INFO]     | 1/2 | Top of 1990s Collection | + | La Belle et la Bête (1991)                                     |
+[2022-10-11 09:57:31,326] [builder.py:2080]           [INFO]     | 2/2 | Top of 1990s Collection | + | Le Roi lion (1994)                                             |
+[2022-10-11 09:57:31,821] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-11 09:57:31,822] [builder.py:2102]           [INFO]     | 2 Movies Processed 2 Movies Added                                                                  |
+[2022-10-11 09:57:31,822] [builder.py:2228]           [INFO]     |                                                                                                    |
+[2022-10-11 09:57:31,822] [builder.py:2229]           [INFO]     |======================== Missing Movies from Library: Z. 5 - Film Animation ========================|
+[2022-10-11 09:57:31,822] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-10-11 09:57:31,834] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Romance (1999) (TMDb: 26338)                                         |
+[2022-10-11 09:57:31,855] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Taxi (1998) (TMDb: 2330)                                             |
+[2022-10-11 09:57:31,868] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Lover (1992) (TMDb: 10995)                                       |
+[2022-10-11 09:57:31,901] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Asterix & Obelix Take on Caesar (1999) (TMDb: 9564)                  |
+[2022-10-11 09:57:31,918] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Three Colors: Red (1994) (TMDb: 110)                                 |
+[2022-10-11 09:57:31,946] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The City of Lost Children (1995) (TMDb: 902)                         |
+[2022-10-11 09:57:31,968] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Double Life of Véronique (1991) (TMDb: 1600)                     |
+[2022-10-11 09:57:31,985] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Three Colors: Blue (1993) (TMDb: 108)                                |
+[2022-10-11 09:57:32,013] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Visitors (1993) (TMDb: 11687)                                    |
+[2022-10-11 09:57:32,035] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | La Haine (1995) (TMDb: 406)                                          |
+[2022-10-11 09:57:32,063] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Apartment (1996) (TMDb: 12531)                                   |
+[2022-10-11 09:57:32,074] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Three Colors: White (1994) (TMDb: 109)                               |
+[2022-10-11 09:57:32,104] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Queen Margot (1994) (TMDb: 10452)                                    |
+[2022-10-11 09:57:32,118] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | La Belle Noiseuse (1991) (TMDb: 12627)                               |
+[2022-10-11 09:57:32,146] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | La Femme Nikita (1990) (TMDb: 9322)                                  |
+[2022-10-11 09:57:32,185] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | La Belle Verte (1996) (TMDb: 25518)                                  |
+[2022-10-11 09:57:32,238] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Asterix Conquers America (1994) (TMDb: 9369)                         |
+[2022-10-11 09:57:32,285] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Wild Reeds (1994) (TMDb: 26933)                                      |
+[2022-10-11 09:57:32,327] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Pola X (1999) (TMDb: 35717)                                          |
+[2022-10-11 09:57:32,345] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Delicatessen (1991) (TMDb: 892)                                      |
+[2022-10-11 09:57:32,362] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Visitors II: The Corridors of Time (1998) (TMDb: 10353)          |
+[2022-10-11 09:57:32,402] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Germinal (1993) (TMDb: 51980)                                        |
+[2022-10-11 09:57:32,420] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Irma Vep (1996) (TMDb: 25355)                                        |
+[2022-10-11 09:57:32,445] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Indochine (1992) (TMDb: 2731)                                        |
+[2022-10-11 09:57:32,462] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Torment (1994) (TMDb: 17961)                                         |
+[2022-10-11 09:57:32,479] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Little Indian, Big City (1994) (TMDb: 11479)                         |
+[2022-10-11 09:57:32,496] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Carne (1991) (TMDb: 1568)                                            |
+[2022-10-11 09:57:32,498] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Man Bites Dog (1992) (TMDb: 10086)                                   |
+[2022-10-11 09:57:32,520] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Ridicule (1996) (TMDb: 12709)                                        |
+[2022-10-11 09:57:32,537] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Dobermann (1997) (TMDb: 10347)                                       |
+[2022-10-11 09:57:32,554] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Kirikou and the Sorceress (1998) (TMDb: 21348)                       |
+[2022-10-11 09:57:32,571] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Disenchanted (1990) (TMDb: 66537)                                |
+[2022-10-11 09:57:32,587] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Le Dîner de Cons (1998) (TMDb: 9421)                                 |
+[2022-10-11 09:57:32,629] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Le mari de la coiffeuse (1990) (TMDb: 11796)                         |
+[2022-10-11 09:57:32,645] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | An Affair of Love (1999) (TMDb: 46991)                               |
+[2022-10-11 09:57:32,671] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Lovers on the Bridge (1991) (TMDb: 2767)                         |
+[2022-10-11 09:57:32,680] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Nelly and Monsieur Arnaud (1995) (TMDb: 12652)                       |
+[2022-10-11 09:57:32,696] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Microcosmos (1996) (TMDb: 9305)                                      |
+[2022-10-11 09:57:32,712] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Beau Travail (1999) (TMDb: 14626)                                    |
+[2022-10-11 09:57:32,729] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Beyond the Clouds (1995) (TMDb: 33517)                               |
+[2022-10-11 09:57:32,746] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | L'ennui (1998) (TMDb: 55107)                                         |
+[2022-10-11 09:57:32,763] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Madame Bovary (1991) (TMDb: 2528)                                    |
+[2022-10-11 09:57:32,788] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Red Violin (1998) (TMDb: 14283)                                  |
+[2022-10-11 09:57:32,798] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Van Gogh (1991) (TMDb: 4734)                                         |
+[2022-10-11 09:57:32,830] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | I Stand Alone (1998) (TMDb: 1567)                                    |
+[2022-10-11 09:57:32,840] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Venus Beauty Institute (1999) (TMDb: 33491)                          |
+[2022-10-11 09:57:32,842] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Two Orphan Vampires (1997) (TMDb: 116636)                            |
+[2022-10-11 09:57:32,871] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Cyrano de Bergerac (1990) (TMDb: 11673)                              |
+[2022-10-11 09:57:32,882] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | My New Partner II (1990) (TMDb: 22240)                               |
+[2022-10-11 09:57:32,921] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | A Heart in Winter (1992) (TMDb: 48150)                               |
+[2022-10-11 09:57:32,937] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | My Father the Hero (1991) (TMDb: 20978)                              |
+[2022-10-11 09:57:32,971] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Train of Life (1998) (TMDb: 8056)                                    |
+[2022-10-11 09:57:32,996] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | A Summer's Tale (1996) (TMDb: 37563)                                 |
+[2022-10-11 09:57:33,012] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | La Gloire de mon père (1990) (TMDb: 12716)                           |
+[2022-10-11 09:57:33,054] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | An Autumn Tale (1998) (TMDb: 10239)                                  |
+[2022-10-11 09:57:33,088] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | A Tale of Winter (1992) (TMDb: 10241)                                |
+[2022-10-11 09:57:33,096] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Guardian Angels (1995) (TMDb: 51191)                                 |
+[2022-10-11 09:57:33,146] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Rosetta (1999) (TMDb: 11489)                                         |
+[2022-10-11 09:57:33,172] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Half a Chance (1998) (TMDb: 49938)                                   |
+[2022-10-11 09:57:33,196] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Eighth Day (1996) (TMDb: 36998)                                  |
+[2022-10-11 09:57:33,230] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | L'Appât (1995) (TMDb: 38414)                                         |
+[2022-10-11 09:57:33,246] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Bet (1997) (TMDb: 44706)                                         |
+[2022-10-11 09:57:33,288] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | French Twist (1995) (TMDb: 4482)                                     |
+[2022-10-11 09:57:33,305] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Operation Corned Beef (1991) (TMDb: 40223)                           |
+[2022-10-11 09:57:33,355] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Leolo (1992) (TMDb: 11139)                                           |
+[2022-10-11 09:57:33,372] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Captain Conan (1996) (TMDb: 46334)                                   |
+[2022-10-11 09:57:33,413] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | A Tale of Springtime (1990) (TMDb: 28213)                            |
+[2022-10-11 09:57:33,430] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Bernie (1996) (TMDb: 19963)                                          |
+[2022-10-11 09:57:33,472] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Criminal Lovers (1999) (TMDb: 33828)                                 |
+[2022-10-11 09:57:33,488] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | A Self-Made Hero (1996) (TMDb: 48580)                                |
+[2022-10-11 09:57:33,522] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | What a Drag (1996) (TMDb: 31789)                                     |
+[2022-10-11 09:57:33,564] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Milou en Mai (1990) (TMDb: 1785)                                     |
+[2022-10-11 09:57:33,590] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | La Classe américaine (1993) (TMDb: 16130)                            |
+[2022-10-11 09:57:33,614] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | A Pure Formality (1994) (TMDb: 19223)                                |
+[2022-10-11 09:57:33,630] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | D’Artagnan’s Daughter (1994) (TMDb: 10732)                           |
+[2022-10-11 09:57:33,672] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Fear City: A Family-Style Comedy (1994) (TMDb: 15097)                |
+[2022-10-11 09:57:33,704] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Horseman on the Roof (1995) (TMDb: 11876)                        |
+[2022-10-11 09:57:33,739] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Sitcom (1998) (TMDb: 46761)                                          |
+[2022-10-11 09:57:33,756] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | La Cérémonie (1995) (TMDb: 1802)                                     |
+[2022-10-11 09:57:33,805] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | 1001 Nights (1990) (TMDb: 20220)                                     |
+[2022-10-11 09:57:33,838] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | My Mother's Castle (1990) (TMDb: 12717)                              |
+[2022-10-11 09:57:33,864] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Diên Biên Phu (1992) (TMDb: 74714)                                   |
+[2022-10-11 09:57:33,906] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Himalaya (1999) (TMDb: 26813)                                        |
+[2022-10-11 09:57:33,922] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Atlantis (1991) (TMDb: 15466)                                        |
+[2022-10-11 09:57:33,964] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Le Colonel Chabert (1994) (TMDb: 41580)                              |
+[2022-10-11 09:57:33,980] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Same Old Song (1997) (TMDb: 2817)                                    |
+[2022-10-11 09:57:33,998] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | On Guard (1997) (TMDb: 40815)                                        |
+[2022-10-11 09:57:34,021] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Best Job in the World (1996) (TMDb: 40089)                       |
+[2022-10-11 09:57:34,048] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Auntie Danielle (1990) (TMDb: 6444)                                  |
+[2022-10-11 09:57:34,065] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Le Bonheur est dans le pré (1995) (TMDb: 43612)                      |
+[2022-10-11 09:57:34,097] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Lumière et Compagnie (1995) (TMDb: 48336)                            |
+[2022-10-11 09:57:34,113] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | La Vie de Bohème (1992) (TMDb: 28212)                                |
+[2022-10-11 09:57:34,124] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Belle maman (1999) (TMDb: 55705)                                     |
+[2022-10-11 09:57:34,140] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Toto the Hero (1991) (TMDb: 56321)                                   |
+[2022-10-11 09:57:34,156] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Three Brothers (1995) (TMDb: 37653)                              |
+[2022-10-11 09:57:34,173] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Baby Blood (1990) (TMDb: 40258)                                      |
+[2022-10-11 09:57:34,189] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Marquise (1997) (TMDb: 5144)                                         |
+[2022-10-11 09:57:34,206] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | 36.15 code Père Noël (1990) (TMDb: 46959)                            |
+[2022-10-11 09:57:34,223] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Promise (1996) (TMDb: 24183)                                     |
+[2022-10-11 09:57:34,264] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Girl on the Bridge (1999) (TMDb: 10401)                          |
+[2022-10-11 09:57:34,282] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | GoodFellas (1990) (TMDb: 769)                                        |
+[2022-10-11 09:57:34,298] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Total Recall (1990) (TMDb: 861)                                      |
+[2022-10-11 09:57:34,315] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Miller's Crossing (1990) (TMDb: 379)                                 |
+[2022-10-11 09:57:34,331] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Misery (1990) (TMDb: 1700)                                           |
+[2022-10-11 09:57:34,363] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Dances with Wolves (1990) (TMDb: 581)                                |
+[2022-10-11 09:57:34,390] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Flatliners (1990) (TMDb: 1551)                                       |
+[2022-10-11 09:57:34,432] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Awakenings (1990) (TMDb: 11005)                                      |
+[2022-10-11 09:57:34,448] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Freshman (1990) (TMDb: 10168)                                    |
+[2022-10-11 09:57:34,490] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | American Dream (1990) (TMDb: 41326)                                  |
+[2022-10-11 09:57:34,507] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Die Hard 2 (1990) (TMDb: 1573)                                       |
+[2022-10-11 09:57:34,557] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Home Alone (1990) (TMDb: 771)                                        |
+[2022-10-11 09:57:34,574] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Edward Scissorhands (1990) (TMDb: 162)                               |
+[2022-10-11 09:57:34,624] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Quick Change (1990) (TMDb: 10729)                                    |
+[2022-10-11 09:57:34,647] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Darkman (1990) (TMDb: 9556)                                          |
+[2022-10-11 09:57:34,682] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Killer (1989) (TMDb: 10835)                                      |
+[2022-10-11 09:57:34,729] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Days of Thunder (1990) (TMDb: 2119)                                  |
+[2022-10-11 09:57:34,741] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Hunt for Red October (1990) (TMDb: 1669)                         |
+[2022-10-11 09:57:34,780] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | State of Grace (1990) (TMDb: 1662)                                   |
+[2022-10-11 09:57:34,791] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Wild at Heart (1990) (TMDb: 483)                                     |
+[2022-10-11 09:57:34,863] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Gremlins 2: The New Batch (1990) (TMDb: 928)                         |
+[2022-10-11 09:57:34,874] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Jacob's Ladder (1990) (TMDb: 2291)                                   |
+[2022-10-11 09:57:34,905] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Ghost (1990) (TMDb: 251)                                             |
+[2022-10-11 09:57:34,924] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Hamlet (1990) (TMDb: 10264)                                          |
+[2022-10-11 09:57:34,947] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Tie Me Up! Tie Me Down! (1990) (TMDb: 2469)                          |
+[2022-10-11 09:57:34,957] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Boiling Point (1990) (TMDb: 26936)                                   |
+[2022-10-11 09:57:34,980] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Lord of the Flies (1990) (TMDb: 10847)                               |
+[2022-10-11 09:57:35,005] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Postcards from the Edge (1990) (TMDb: 22414)                         |
+[2022-10-11 09:57:35,030] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Back to the Future Part III (1990) (TMDb: 196)                       |
+[2022-10-11 09:57:35,041] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Dick Tracy (1990) (TMDb: 8592)                                       |
+[2022-10-11 09:57:35,058] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | King of New York (1990) (TMDb: 9558)                                 |
+[2022-10-11 09:57:35,091] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Joe Versus the Volcano (1990) (TMDb: 2565)                           |
+[2022-10-11 09:57:35,108] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Berkeley in the Sixties (1990) (TMDb: 37447)                         |
+[2022-10-11 09:57:35,128] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Pacific Heights (1990) (TMDb: 2990)                                  |
+[2022-10-11 09:57:35,146] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Pretty Woman (1990) (TMDb: 114)                                      |
+[2022-10-11 09:57:35,158] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Air America (1990) (TMDb: 11856)                                     |
+[2022-10-11 09:57:35,192] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Cadillac Man (1990) (TMDb: 10164)                                    |
+[2022-10-11 09:57:35,208] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Mermaids (1990) (TMDb: 4587)                                         |
+[2022-10-11 09:57:35,225] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Tremors (1990) (TMDb: 9362)                                          |
+[2022-10-11 09:57:35,247] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Godfather Part III (1990) (TMDb: 242)                            |
+[2022-10-11 09:57:35,273] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | My Blue Heaven (1990) (TMDb: 16384)                                  |
+[2022-10-11 09:57:35,298] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Cry-Baby (1990) (TMDb: 9768)                                         |
+[2022-10-11 09:57:35,339] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Arachnophobia (1990) (TMDb: 6488)                                    |
+[2022-10-11 09:57:35,378] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Superstar: The Life and Times of Andy Warhol (1990) (TMDb: 250434)   |
+[2022-10-11 09:57:35,406] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Maniac Cop 2 (1990) (TMDb: 28090)                                    |
+[2022-10-11 09:57:35,456] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Rookie (1990) (TMDb: 6723)                                       |
+[2022-10-11 09:57:35,495] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Flashback (1990) (TMDb: 12719)                                       |
+[2022-10-11 09:57:35,537] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Teenage Mutant Ninja Turtles (1990) (TMDb: 1498)                     |
+[2022-10-11 09:57:35,591] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Kindergarten Cop (1990) (TMDb: 951)                                  |
+[2022-10-11 09:57:35,617] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Bird on a Wire (1990) (TMDb: 1727)                                   |
+[2022-10-11 09:57:35,641] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Narrow Margin (1990) (TMDb: 31597)                                   |
+[2022-10-11 09:57:35,700] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Q & A (1990) (TMDb: 31598)                                           |
+[2022-10-11 09:57:35,725] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Avalon (1990) (TMDb: 2302)                                           |
+[2022-10-11 09:57:35,763] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Grifters (1990) (TMDb: 18129)                                    |
+[2022-10-11 09:57:35,791] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Predator 2 (1990) (TMDb: 169)                                        |
+[2022-10-11 09:57:35,849] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Journey of Hope (1990) (TMDb: 41834)                                 |
+[2022-10-11 09:57:35,880] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Europa Europa (1990) (TMDb: 8996)                                    |
+[2022-10-11 09:57:35,908] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Boys on the Outside (1990) (TMDb: 52811)                             |
+[2022-10-11 09:57:35,958] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Silence of the Lambs (1991) (TMDb: 274)                          |
+[2022-10-11 09:57:36,008] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Terminator 2: Judgment Day (1991) (TMDb: 280)                        |
+[2022-10-11 09:57:36,033] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Star Trek VI: The Undiscovered Country (1991) (TMDb: 174)            |
+[2022-10-11 09:57:36,059] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Cape Fear (1991) (TMDb: 1598)                                        |
+[2022-10-11 09:57:36,096] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Barton Fink (1991) (TMDb: 290)                                       |
+[2022-10-11 09:57:36,098] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Robin Hood: Prince of Thieves (1991) (TMDb: 8367)                    |
+[2022-10-11 09:57:36,128] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Europa (1991) (TMDb: 9065)                                           |
+[2022-10-11 09:57:36,150] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Rhapsody in August (1991) (TMDb: 20645)                              |
+[2022-10-11 09:57:36,200] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Closet Land (1991) (TMDb: 58648)                                     |
+[2022-10-11 09:57:36,237] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Raise the Red Lantern (1991) (TMDb: 10404)                           |
+[2022-10-11 09:57:36,278] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Last Blood (1991) (TMDb: 45460)                                  |
+[2022-10-11 09:57:36,320] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Fried Green Tomatoes (1991) (TMDb: 1633)                             |
+[2022-10-11 09:57:36,350] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Guilty by Suspicion (1991) (TMDb: 22423)                             |
+[2022-10-11 09:57:36,400] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Boyz n the Hood (1991) (TMDb: 650)                                   |
+[2022-10-11 09:57:36,403] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Naked Lunch (1991) (TMDb: 2742)                                      |
+[2022-10-11 09:57:36,426] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Kafka (1991) (TMDb: 2297)                                            |
+[2022-10-11 09:57:36,451] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Batman Returns (1992) (TMDb: 364)                                    |
+[2022-10-11 09:57:36,501] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Unforgiven (1992) (TMDb: 33)                                         |
+[2022-10-11 09:57:36,526] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | A Few Good Men (1992) (TMDb: 881)                                    |
+[2022-10-11 09:57:36,584] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Reservoir Dogs (1992) (TMDb: 500)                                    |
+[2022-10-11 09:57:36,626] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Basic Instinct (1992) (TMDb: 402)                                    |
+[2022-10-11 09:57:36,651] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Lethal Weapon 3 (1992) (TMDb: 943)                                   |
+[2022-10-11 09:57:36,701] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Bad Lieutenant (1992) (TMDb: 12143)                                  |
+[2022-10-11 09:57:36,737] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | One False Move (1992) (TMDb: 21128)                                  |
+[2022-10-11 09:57:36,779] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Flight of the Innocent (1992) (TMDb: 41655)                          |
+[2022-10-11 09:57:36,810] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Evil Dead 3 : L'Armée des ténèbres (1992) (TMDb: 766)                |
+[2022-10-11 09:57:36,851] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Braindead (1992) (TMDb: 763)                                         |
+[2022-10-11 09:57:36,913] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Hard Boiled (1992) (TMDb: 11782)                                     |
+[2022-10-11 09:57:36,923] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Full Contact (1992) (TMDb: 27073)                                    |
+[2022-10-11 09:57:36,939] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Alien³ (1992) (TMDb: 8077)                                           |
+[2022-10-11 09:57:36,980] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Bram Stoker's Dracula (1992) (TMDb: 6114)                            |
+[2022-10-11 09:57:36,988] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Crying Game (1992) (TMDb: 11386)                                 |
+[2022-10-11 09:57:37,038] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Romper Stomper (1992) (TMDb: 10412)                                  |
+[2022-10-11 09:57:37,050] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Candyman (1992) (TMDb: 9529)                                         |
+[2022-10-11 09:57:37,088] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | American Me (1992) (TMDb: 13199)                                     |
+[2022-10-11 09:57:37,100] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Diggstown (1992) (TMDb: 19143)                                       |
+[2022-10-11 09:57:37,130] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Glengarry Glen Ross (1992) (TMDb: 9504)                              |
+[2022-10-11 09:57:37,141] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Player (1992) (TMDb: 10403)                                      |
+[2022-10-11 09:57:37,180] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Lorenzo's Oil (1992) (TMDb: 2007)                                    |
+[2022-10-11 09:57:37,213] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Scent of a Woman (1992) (TMDb: 9475)                                 |
+[2022-10-11 09:57:37,226] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Chaplin (1992) (TMDb: 10435)                                         |
+[2022-10-11 09:57:37,264] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Malcolm X (1992) (TMDb: 1883)                                        |
+[2022-10-11 09:57:37,289] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Peter's Friends (1992) (TMDb: 11790)                                 |
+[2022-10-11 09:57:37,331] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Last of the Mohicans (1992) (TMDb: 9361)                         |
+[2022-10-11 09:57:37,356] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Strictly Ballroom (1992) (TMDb: 10409)                               |
+[2022-10-11 09:57:37,406] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Savage Nights (1992) (TMDb: 41878)                                   |
+[2022-10-11 09:57:37,423] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Muppet Christmas Carol (1992) (TMDb: 10437)                      |
+[2022-10-11 09:57:37,473] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Jurassic Park (1993) (TMDb: 329)                                     |
+[2022-10-11 09:57:37,514] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Cliffhanger (1993) (TMDb: 9350)                                      |
+[2022-10-11 09:57:37,556] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Panic sur Florida Beach (1993) (TMDb: 25389)                         |
+[2022-10-11 09:57:37,572] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Nightmare Before Christmas (1993) (TMDb: 9479)                   |
+[2022-10-11 09:57:37,589] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Philadelphia (1993) (TMDb: 9800)                                     |
+[2022-10-11 09:57:37,608] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Firm (1993) (TMDb: 37233)                                        |
+[2022-10-11 09:57:37,623] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | A Bronx Tale (1993) (TMDb: 1607)                                     |
+[2022-10-11 09:57:37,639] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Fugitive (1993) (TMDb: 5503)                                     |
+[2022-10-11 09:57:37,663] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Sonatine (1993) (TMDb: 7500)                                         |
+[2022-10-11 09:57:37,691] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Falling Down (1993) (TMDb: 37094)                                    |
+[2022-10-11 09:57:37,707] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | In the Line of Fire (1993) (TMDb: 9386)                              |
+[2022-10-11 09:57:37,729] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Body Snatchers (1993) (TMDb: 4722)                                   |
+[2022-10-11 09:57:37,746] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Bound by Honor (1993) (TMDb: 9702)                                   |
+[2022-10-11 09:57:37,773] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Tai-Chi Master (1993) (TMDb: 11143)                                  |
+[2022-10-11 09:57:37,790] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Iron Monkey (1993) (TMDb: 12780)                                     |
+[2022-10-11 09:57:37,832] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Fire in the Sky (1993) (TMDb: 15613)                                 |
+[2022-10-11 09:57:37,849] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Dazed and Confused (1993) (TMDb: 9571)                               |
+[2022-10-11 09:57:37,865] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | What's Eating Gilbert Grape (1993) (TMDb: 1587)                      |
+[2022-10-11 09:57:37,882] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | In the Name of the Father (1993) (TMDb: 7984)                        |
+[2022-10-11 09:57:37,905] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Short Cuts (1993) (TMDb: 695)                                        |
+[2022-10-11 09:57:37,938] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | King of the Hill (1993) (TMDb: 34024)                                |
+[2022-10-11 09:57:37,980] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Wedding Banquet (1993) (TMDb: 9261)                              |
+[2022-10-11 09:57:37,991] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Joy Luck Club (1993) (TMDb: 19931)                               |
+[2022-10-11 09:57:38,030] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | M. Butterfly (1993) (TMDb: 1413)                                     |
+[2022-10-11 09:57:38,071] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Naked (1993) (TMDb: 21450)                                           |
+[2022-10-11 09:57:38,074] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Remains of the Day (1993) (TMDb: 1245)                           |
+[2022-10-11 09:57:38,085] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Dave (1993) (TMDb: 11566)                                            |
+[2022-10-11 09:57:38,122] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Natural Born Killers (1994) (TMDb: 241)                              |
+[2022-10-11 09:57:38,155] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Léon: The Professional (1994) (TMDb: 101)                            |
+[2022-10-11 09:57:38,165] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Crow (1994) (TMDb: 9495)                                         |
+[2022-10-11 09:57:38,188] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Mary Shelley's Frankenstein (1994) (TMDb: 3036)                      |
+[2022-10-11 09:57:38,222] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Wolf (1994) (TMDb: 10395)                                            |
+[2022-10-11 09:57:38,246] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Ed Wood (1994) (TMDb: 522)                                           |
+[2022-10-11 09:57:38,258] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Last Seduction (1994) (TMDb: 25284)                              |
+[2022-10-11 09:57:38,279] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Nightwatch (1994) (TMDb: 6498)                                       |
+[2022-10-11 09:57:38,297] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | In the Mouth of Madness (1995) (TMDb: 2654)                          |
+[2022-10-11 09:57:38,309] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Speed (1994) (TMDb: 1637)                                            |
+[2022-10-11 09:57:38,333] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Ashes of Time (1994) (TMDb: 40751)                                   |
+[2022-10-11 09:57:38,340] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Legends of the Fall (1994) (TMDb: 4476)                              |
+[2022-10-11 09:57:38,358] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The War (1994) (TMDb: 19855)                                         |
+[2022-10-11 09:57:38,407] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Pulp Fiction (1994) (TMDb: 680)                                      |
+[2022-10-11 09:57:38,422] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Interview with the Vampire (1994) (TMDb: 628)                        |
+[2022-10-11 09:57:38,440] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | True Lies (1994) (TMDb: 36955)                                       |
+[2022-10-11 09:57:38,483] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Clear and Present Danger (1994) (TMDb: 9331)                         |
+[2022-10-11 09:57:38,524] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Quiz Show (1994) (TMDb: 11450)                                       |
+[2022-10-11 09:57:38,547] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Little Odessa (1994) (TMDb: 47504)                                   |
+[2022-10-11 09:57:38,582] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Fresh (1994) (TMDb: 13815)                                           |
+[2022-10-11 09:57:38,599] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Sum of Us (1994) (TMDb: 36614)                                   |
+[2022-10-11 09:57:38,633] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Threesome (1994) (TMDb: 10635)                                       |
+[2022-10-11 09:57:38,666] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Four Weddings and a Funeral (1994) (TMDb: 712)                       |
+[2022-10-11 09:57:38,716] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Clerks (1994) (TMDb: 2292)                                           |
+[2022-10-11 09:57:38,733] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Chungking Express (1994) (TMDb: 11104)                               |
+[2022-10-11 09:57:38,749] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Once Were Warriors (1994) (TMDb: 527)                                |
+[2022-10-11 09:57:38,772] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Ladybird Ladybird (1994) (TMDb: 49980)                               |
+[2022-10-11 09:57:38,795] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Heavenly Creatures (1994) (TMDb: 1024)                               |
+[2022-10-11 09:57:38,813] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Little Women (1994) (TMDb: 9587)                                     |
+[2022-10-11 09:57:38,845] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Browning Version (1994) (TMDb: 49805)                            |
+[2022-10-11 09:57:38,880] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Immortal Beloved (1994) (TMDb: 13701)                                |
+[2022-10-11 09:57:38,900] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Exotica (1994) (TMDb: 20156)                                         |
+[2022-10-11 09:57:38,938] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Adventures of Priscilla, Queen of the Desert (1994) (TMDb: 2759) |
+[2022-10-11 09:57:38,949] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Se7en (1995) (TMDb: 807)                                             |
+[2022-10-11 09:57:38,988] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Twelve Monkeys (1995) (TMDb: 63)                                     |
+[2022-10-11 09:57:38,999] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Apollo 13 (1995) (TMDb: 568)                                         |
+[2022-10-11 09:57:39,030] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Desperado (1995) (TMDb: 8068)                                        |
+[2022-10-11 09:57:39,042] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | GoldenEye (1995) (TMDb: 710)                                         |
+[2022-10-11 09:57:39,079] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Crimson Tide (1995) (TMDb: 8963)                                     |
+[2022-10-11 09:57:39,092] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Outbreak (1995) (TMDb: 6950)                                         |
+[2022-10-11 09:57:39,105] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Bad Boys (1995) (TMDb: 9737)                                         |
+[2022-10-11 09:57:39,117] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Mallrats (1995) (TMDb: 2293)                                         |
+[2022-10-11 09:57:39,138] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Strange Days (1995) (TMDb: 281)                                      |
+[2022-10-11 09:57:39,162] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Lord of Illusions (1995) (TMDb: 8973)                                |
+[2022-10-11 09:57:39,180] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Dead Presidents (1995) (TMDb: 11443)                                 |
+[2022-10-11 09:57:39,188] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Leaving Las Vegas (1995) (TMDb: 451)                                 |
+[2022-10-11 09:57:39,213] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Dolores Claiborne (1995) (TMDb: 11929)                               |
+[2022-10-11 09:57:39,237] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Mr. Holland's Opus (1995) (TMDb: 2054)                               |
+[2022-10-11 09:57:39,239] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Crying Freeman (1995) (TMDb: 9501)                                   |
+[2022-10-11 09:57:39,255] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Cyclo (1995) (TMDb: 36266)                                           |
+[2022-10-11 09:57:39,279] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Tokyo Fist (1995) (TMDb: 41577)                                      |
+[2022-10-11 09:57:39,297] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Richard III (1995) (TMDb: 31174)                                     |
+[2022-10-11 09:57:39,305] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Before Sunrise (1995) (TMDb: 76)                                     |
+[2022-10-11 09:57:39,338] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Basketball Diaries (1995) (TMDb: 10474)                          |
+[2022-10-11 09:57:39,346] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Dead Man Walking (1995) (TMDb: 687)                                  |
+[2022-10-11 09:57:39,360] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Safe (1995) (TMDb: 32646)                                            |
+[2022-10-11 09:57:39,393] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Welcome to the Dollhouse (1996) (TMDb: 11446)                        |
+[2022-10-11 09:57:39,410] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Cure (1995) (TMDb: 6715)                                         |
+[2022-10-11 09:57:39,451] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Rock (1996) (TMDb: 9802)                                         |
+[2022-10-11 09:57:39,463] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Mission : Impossible (1996) (TMDb: 954)                              |
+[2022-10-11 09:57:39,501] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | From Dusk Till Dawn (1996) (TMDb: 755)                               |
+[2022-10-11 09:57:39,519] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Star Trek: First Contact (1996) (TMDb: 199)                          |
+[2022-10-11 09:57:39,568] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Frighteners (1996) (TMDb: 10779)                                 |
+[2022-10-11 09:57:39,587] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Bound (1996) (TMDb: 9303)                                            |
+[2022-10-11 09:57:39,589] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Arrival (1996) (TMDb: 10547)                                     |
+[2022-10-11 09:57:39,626] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Sleepers (1996) (TMDb: 819)                                          |
+[2022-10-11 09:57:39,657] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Primal Fear (1996) (TMDb: 1592)                                      |
+[2022-10-11 09:57:39,701] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The English Patient (1996) (TMDb: 409)                               |
+[2022-10-11 09:57:39,718] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Double mise (1997) (TMDb: 8052)                                      |
+[2022-10-11 09:57:39,746] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Sling Blade (1996) (TMDb: 12498)                                     |
+[2022-10-11 09:57:39,768] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Crash (1996) (TMDb: 884)                                             |
+[2022-10-11 09:57:39,797] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Thesis (1996) (TMDb: 9299)                                           |
+[2022-10-11 09:57:39,838] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Pusher (1996) (TMDb: 2061)                                           |
+[2022-10-11 09:57:39,849] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Stendhal Syndrome (1996) (TMDb: 39434)                           |
+[2022-10-11 09:57:39,888] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Lone Star (1996) (TMDb: 26748)                                       |
+[2022-10-11 09:57:39,930] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Fudoh: The New Generation (1996) (TMDb: 36282)                       |
+[2022-10-11 09:57:39,938] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The People vs. Larry Flynt (1996) (TMDb: 1630)                       |
+[2022-10-11 09:57:39,972] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Mystery Science Theater 3000: The Movie (1996) (TMDb: 3065)          |
+[2022-10-11 09:57:39,980] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The War at Home (1996) (TMDb: 59232)                                 |
+[2022-10-11 09:57:40,005] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Some Mother's Son (1996) (TMDb: 58102)                               |
+[2022-10-11 09:57:40,029] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Ponette (1996) (TMDb: 38523)                                         |
+[2022-10-11 09:57:40,047] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Regular Guys (1996) (TMDb: 9098)                                     |
+[2022-10-11 09:57:40,070] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Shall We Dance? (1996) (TMDb: 11239)                                 |
+[2022-10-11 09:57:40,097] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Kids Return (1996) (TMDb: 27233)                                     |
+[2022-10-11 09:57:40,121] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | I Shot Andy Warhol (1996) (TMDb: 26890)                              |
+[2022-10-11 09:57:40,138] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Lilies (1996) (TMDb: 47643)                                          |
+[2022-10-11 09:57:40,162] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | James et la pêche géante (1996) (TMDb: 10539)                        |
+[2022-10-11 09:57:40,180] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Moebius (1996) (TMDb: 39335)                                         |
+[2022-10-11 09:57:40,193] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Tykho Moon (1996) (TMDb: 39315)                                      |
+[2022-10-11 09:57:40,238] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Ice Storm (1997) (TMDb: 68924)                                   |
+[2022-10-11 09:57:40,280] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Men in Black (1997) (TMDb: 607)                                      |
+[2022-10-11 09:57:40,293] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Game (1997) (TMDb: 2649)                                         |
+[2022-10-11 09:57:40,322] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Titanic (1997) (TMDb: 597)                                           |
+[2022-10-11 09:57:40,347] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Fifth Element (1997) (TMDb: 18)                                  |
+[2022-10-11 09:57:40,371] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Face/Off (1997) (TMDb: 754)                                          |
+[2022-10-11 09:57:40,405] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Alien, la résurrection (1997) (TMDb: 8078)                           |
+[2022-10-11 09:57:40,455] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Starship Troopers (1997) (TMDb: 563)                                 |
+[2022-10-11 09:57:40,468] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Gattaca (1997) (TMDb: 782)                                           |
+[2022-10-11 09:57:40,521] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Contact (1997) (TMDb: 686)                                           |
+[2022-10-11 09:57:40,535] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Breakdown (1997) (TMDb: 2163)                                        |
+[2022-10-11 09:57:40,588] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Boogie Nights (1997) (TMDb: 4995)                                    |
+[2022-10-11 09:57:40,602] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Devil's Advocate (1997) (TMDb: 1813)                             |
+[2022-10-11 09:57:40,630] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Lost Highway (1997) (TMDb: 638)                                      |
+[2022-10-11 09:57:40,655] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Nirvana (1997) (TMDb: 8765)                                          |
+[2022-10-11 09:57:40,713] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Cube (1997) (TMDb: 431)                                              |
+[2022-10-11 09:57:40,744] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Nil by Mouth (1997) (TMDb: 21252)                                    |
+[2022-10-11 09:57:40,805] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Donnie Brasco (1997) (TMDb: 9366)                                    |
+[2022-10-11 09:57:40,806] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Eye of God (1997) (TMDb: 62184)                                      |
+[2022-10-11 09:57:40,863] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Open Your Eyes (1997) (TMDb: 1902)                                   |
+[2022-10-11 09:57:40,877] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Rosewood (1997) (TMDb: 25624)                                        |
+[2022-10-11 09:57:40,938] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | One Eight Seven (1997) (TMDb: 6072)                                  |
+[2022-10-11 09:57:40,996] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Assignment (1997) (TMDb: 18355)                                  |
+[2022-10-11 09:57:41,011] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Lolita (1997) (TMDb: 9769)                                           |
+[2022-10-11 09:57:41,072] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Knockin' on Heaven's Door (1997) (TMDb: 158)                         |
+[2022-10-11 09:57:41,121] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | As Good as It Gets (1997) (TMDb: 2898)                               |
+[2022-10-11 09:57:41,136] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Private Parts (1997) (TMDb: 9403)                                    |
+[2022-10-11 09:57:41,196] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Wag the Dog (1997) (TMDb: 586)                                       |
+[2022-10-11 09:57:41,211] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Chasing Amy (1997) (TMDb: 2255)                                      |
+[2022-10-11 09:57:41,238] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Sweet Hereafter (1997) (TMDb: 10217)                             |
+[2022-10-11 09:57:41,296] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Wilde (1997) (TMDb: 11365)                                           |
+[2022-10-11 09:57:41,311] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Good Will Hunting (1997) (TMDb: 489)                                 |
+[2022-10-11 09:57:41,338] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Chinese Box (1997) (TMDb: 30265)                                     |
+[2022-10-11 09:57:41,396] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Four Days in September (1997) (TMDb: 21253)                          |
+[2022-10-11 09:57:41,412] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Photographing Fairies (1997) (TMDb: 26644)                           |
+[2022-10-11 09:57:41,463] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Full Monty (1997) (TMDb: 9427)                                   |
+[2022-10-11 09:57:41,481] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Happy Together (1997) (TMDb: 18329)                                  |
+[2022-10-11 09:57:41,504] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Eel (1997) (TMDb: 20506)                                         |
+[2022-10-11 09:57:41,538] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Fireworks (1997) (TMDb: 5910)                                        |
+[2022-10-11 09:57:41,553] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Funny Games (1997) (TMDb: 10234)                                     |
+[2022-10-11 09:57:41,605] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Barracuda (1997) (TMDb: 59976)                                       |
+[2022-10-11 09:57:41,622] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | American History X (1998) (TMDb: 73)                                 |
+[2022-10-11 09:57:41,663] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Dark City (1998) (TMDb: 2666)                                        |
+[2022-10-11 09:57:41,688] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Fear and Loathing in Las Vegas (1998) (TMDb: 1878)                   |
+[2022-10-11 09:57:41,713] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Saving Private Ryan (1998) (TMDb: 857)                               |
+[2022-10-11 09:57:41,746] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Armageddon (1998) (TMDb: 95)                                         |
+[2022-10-11 09:57:41,772] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Blade (1998) (TMDb: 36647)                                           |
+[2022-10-11 09:57:41,782] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Negotiator (1998) (TMDb: 9631)                                   |
+[2022-10-11 09:57:41,845] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | 23 (1998) (TMDb: 1557)                                               |
+[2022-10-11 09:57:41,863] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Wild Things (1998) (TMDb: 617)                                       |
+[2022-10-11 09:57:41,880] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Apt Pupil (1998) (TMDb: 9445)                                        |
+[2022-10-11 09:57:41,891] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Lock, Stock and Two Smoking Barrels (1998) (TMDb: 100)               |
+[2022-10-11 09:57:41,946] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Great Expectations (1998) (TMDb: 9410)                               |
+[2022-10-11 09:57:41,948] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Interview (1998) (TMDb: 19846)                                   |
+[2022-10-11 09:57:41,959] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | A Simple Plan (1998) (TMDb: 10223)                                   |
+[2022-10-11 09:57:41,996] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Savior (1998) (TMDb: 2042)                                           |
+[2022-10-11 09:57:42,007] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Enemy of the State (1998) (TMDb: 9798)                               |
+[2022-10-11 09:57:42,046] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Ronin (1998) (TMDb: 8195)                                            |
+[2022-10-11 09:57:42,067] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Blind Faith (1998) (TMDb: 238972)                                    |
+[2022-10-11 09:57:42,088] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Thursday (1998) (TMDb: 9812)                                         |
+[2022-10-11 09:57:42,121] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Truman Show (1998) (TMDb: 37165)                                 |
+[2022-10-11 09:57:42,152] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Pleasantville (1998) (TMDb: 2657)                                    |
+[2022-10-11 09:57:42,171] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Run Lola Run (1998) (TMDb: 104)                                      |
+[2022-10-11 09:57:42,208] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | I Want You (1998) (TMDb: 35113)                                      |
+[2022-10-11 09:57:42,229] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Following (1999) (TMDb: 11660)                                       |
+[2022-10-11 09:57:42,267] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Pi (1998) (TMDb: 473)                                                |
+[2022-10-11 09:57:42,284] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Get Real (1998) (TMDb: 24584)                                        |
+[2022-10-11 09:57:42,326] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Show Me Love (1998) (TMDb: 11634)                                    |
+[2022-10-11 09:57:42,342] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | My Name Is Joe (1998) (TMDb: 8129)                                   |
+[2022-10-11 09:57:42,384] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Another Day in Paradise (1998) (TMDb: 36136)                         |
+[2022-10-11 09:57:42,404] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Rounders (1998) (TMDb: 10220)                                        |
+[2022-10-11 09:57:42,433] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Elizabeth (1998) (TMDb: 4518)                                        |
+[2022-10-11 09:57:42,451] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Celebration (1998) (TMDb: 309)                                   |
+[2022-10-11 09:57:42,467] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Edge of Seventeen (1998) (TMDb: 4927)                                |
+[2022-10-11 09:57:42,489] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Happiness (1998) (TMDb: 10683)                                       |
+[2022-10-11 09:57:42,512] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Only Clouds Move the Stars (1998) (TMDb: 17575)                      |
+[2022-10-11 09:57:42,530] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | American Beauty (1999) (TMDb: 14)                                    |
+[2022-10-11 09:57:42,539] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Arlington Road (1999) (TMDb: 1073)                                   |
+[2022-10-11 09:57:42,571] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Dogma (1999) (TMDb: 1832)                                            |
+[2022-10-11 09:57:42,581] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Cruel Intentions (1999) (TMDb: 796)                                  |
+[2022-10-11 09:57:42,605] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Fight Club (1999) (TMDb: 550)                                        |
+[2022-10-11 09:57:42,634] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Green Mile (1999) (TMDb: 497)                                    |
+[2022-10-11 09:57:42,651] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Matrix (1999) (TMDb: 603)                                        |
+[2022-10-11 09:57:42,693] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The World Is Not Enough (1999) (TMDb: 36643)                         |
+[2022-10-11 09:57:42,709] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Mummy (1999) (TMDb: 564)                                         |
+[2022-10-11 09:57:42,751] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Payback (1999) (TMDb: 2112)                                          |
+[2022-10-11 09:57:42,768] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Ninth Gate (1999) (TMDb: 622)                                    |
+[2022-10-11 09:57:42,788] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Sixth Sense (1999) (TMDb: 745)                                   |
+[2022-10-11 09:57:42,808] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Sleepy Hollow (1999) (TMDb: 2668)                                    |
+[2022-10-11 09:57:42,822] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Bringing Out the Dead (1999) (TMDb: 8649)                            |
+[2022-10-11 09:57:42,863] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Stigmata (1999) (TMDb: 10307)                                        |
+[2022-10-11 09:57:42,904] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Entrapment (1999) (TMDb: 1844)                                       |
+[2022-10-11 09:57:42,916] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Tell Me Something (1999) (TMDb: 16371)                               |
+[2022-10-11 09:57:42,955] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Magnolia (1999) (TMDb: 334)                                          |
+[2022-10-11 09:57:42,965] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Insider (1999) (TMDb: 9008)                                      |
+[2022-10-11 09:57:43,005] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | The Limey (1999) (TMDb: 10388)                                       |
+[2022-10-11 09:57:43,016] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Bang, Boom, Bang (1999) (TMDb: 344)                                  |
+[2022-10-11 09:57:43,055] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Man on the Moon (1999) (TMDb: 1850)                                  |
+[2022-10-11 09:57:43,088] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Eyes Wide Shut (1999) (TMDb: 345)                                    |
+[2022-10-11 09:57:43,096] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Being John Malkovich (1999) (TMDb: 492)                              |
+[2022-10-11 09:57:43,105] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Snow Falling on Cedars (1999) (TMDb: 10219)                          |
+[2022-10-11 09:57:43,121] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Boys Don't Cry (1999) (TMDb: 226)                                    |
+[2022-10-11 09:57:43,139] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Joe the King (1999) (TMDb: 53151)                                    |
+[2022-10-11 09:57:43,162] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Three Seasons (1999) (TMDb: 4154)                                    |
+[2022-10-11 09:57:43,180] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Angela's Ashes (1999) (TMDb: 10397)                                  |
+[2022-10-11 09:57:43,204] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | En Chine, on mange des chiens (1999) (TMDb: 250)                     |
+[2022-10-11 09:57:43,221] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Galaxy Quest (1999) (TMDb: 926)                                      |
+[2022-10-11 09:57:43,255] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Music of the Heart (1999) (TMDb: 26149)                              |
+[2022-10-11 09:57:43,279] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Cradle Will Rock (1999) (TMDb: 32274)                                |
+[2022-10-11 09:57:43,322] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | Trick (1999) (TMDb: 1812)                                            |
+[2022-10-11 09:57:43,338] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | 10 Things I Hate About You (1999) (TMDb: 4951)                       |
+[2022-10-11 09:57:43,380] [builder.py:2243]           [INFO]     | Top of 1990s Collection | ? | American Pie (1999) (TMDb: 2105)                                     |
+[2022-10-11 09:57:43,380] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-10-11 09:57:43,380] [builder.py:2249]           [INFO]     | 432 Movies Missing                                                                                 |
+[2022-10-11 09:57:43,916] [plex.py:711]               [DEBUG]    | Smart Collection Test: ?type=1&sort=audienceRating%3Adesc&label=213190                             |
+[2022-10-11 09:57:43,954] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-11 09:57:43,955] [builder.py:2442]           [INFO]     |=========================== Updating Details of Top of 1990s Collection ============================|
+[2022-10-11 09:57:43,955] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-11 09:57:44,222] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Le meilleurs des années 1990
+                                                                 | Sort Title | +2_4DECADE of 1990
+                                                                 | Label | +PMM
+[2022-10-11 09:57:44,505] [builder.py:2513]           [INFO]     | Details: have been updated
+[2022-10-11 09:57:44,505] [builder.py:2517]           [INFO]     | 
+[2022-10-11 09:57:44,505] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Top of 1990s'
+[2022-10-11 09:57:44,506] [util.py:150]               [DEBUG]    | 1 poster found:
+[2022-10-11 09:57:44,506] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/DECADE_1990.png
+[2022-10-11 09:57:44,551] [library.py:170]            [INFO]     | Detail: url_poster updated poster to [URL] https://raw.githubusercontent.com/MonsieurZed/poster/main/img/DECADE_1990.png
+[2022-10-11 09:57:44,575] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-11 09:57:44,575] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 09:57:44,575] [plex_meta_manager.py:709]  [INFO]     |                                  Finished Top of 1990s Collection                                  |
+[2022-10-11 09:57:44,575] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:55                                    |
+[2022-10-11 09:57:44,576] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

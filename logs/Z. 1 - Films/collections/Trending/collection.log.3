@@ -1,0 +1,207 @@
+[2022-10-11 07:54:36,178] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 07:54:36,178] [builder.py:197]            [INFO]     |                                Trending Collection in Z. 1 - Films                                 |
+[2022-10-11 07:54:36,178] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 07:54:36,178] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 07:54:36,179] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 07:54:36,179] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 07:54:36,179] [meta.py:128]               [DEBUG]    | Template Chart                                                                                     |
+[2022-10-11 07:54:36,179] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Chart'), ('num', 2)])                                                 |
+[2022-10-11 07:54:36,179] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 07:54:36,179] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Chart'), ('num', 2), ('collection_name', 'Trending'), ('mapping_name', 'Trending'), ('library_type', 'movie'), ('library_name', 'Z. 1 - Films'), ('name_encoded', 'Chart'), ('num_encoded', '2'), ('collection_name_encoded', 'Trending'), ('mapping_name_encoded', 'Trending'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%201%20-%20Films'), ('collection_sort', 'Trending')]) |
+[2022-10-11 07:54:36,180] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 07:54:36,180] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 07:54:36,180] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 07:54:36,180] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 07:54:36,180] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 07:54:36,180] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+1_2Trending', 'sync_mode': 'sync'}                     |
+[2022-10-11 07:54:36,181] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 07:54:36,181] [builder.py:219]            [INFO]     |================================== Validating Trending Attributes ==================================|
+[2022-10-11 07:54:36,181] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-11 07:54:36,181] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-11 07:54:36,181] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-11 07:54:36,181] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 07:54:36,181] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-11 07:54:36,182] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/TOP_TRENDING.png              |
+[2022-10-11 07:54:36,189] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 07:54:36,189] [builder.py:631]            [DEBUG]    | Validating Method: trakt_trending                                                                  |
+[2022-10-11 07:54:36,189] [builder.py:632]            [DEBUG]    | Value: 30                                                                                          |
+[2022-10-11 07:54:36,189] [builder.py:1432]           [WARNING]  | Collection Warning: trakt_trending will run as trakt_chart                                         |
+[2022-10-11 07:54:36,189] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 07:54:36,189] [builder.py:631]            [DEBUG]    | Validating Method: tmdb_trending_daily                                                             |
+[2022-10-11 07:54:36,190] [builder.py:632]            [DEBUG]    | Value: 30                                                                                          |
+[2022-10-11 07:54:36,190] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 07:54:36,190] [builder.py:631]            [DEBUG]    | Validating Method: tmdb_trending_weekly                                                            |
+[2022-10-11 07:54:36,190] [builder.py:632]            [DEBUG]    | Value: 30                                                                                          |
+[2022-10-11 07:54:36,190] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 07:54:36,190] [builder.py:631]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-10-11 07:54:36,190] [builder.py:632]            [DEBUG]    | Value: ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=tv_movie'), ('limit', 50)]) |
+[2022-10-11 07:54:37,224] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 07:54:37,224] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-10-11 07:54:37,224] [builder.py:632]            [DEBUG]    | Value: Movies Trending across the internet                                                         |
+[2022-10-11 07:54:37,224] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 07:54:37,224] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 07:54:37,225] [builder.py:632]            [DEBUG]    | Value: +1_2Trending                                                                                |
+[2022-10-11 07:54:37,600] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 07:54:37,600] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 07:54:37,601] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 07:54:37,601] [plex_meta_manager.py:563]  [INFO]     |=================================== Running Trending Collection ====================================|
+[2022-10-11 07:54:37,601] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 07:54:37,601] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-10-11 07:54:37,601] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 07:54:37,601] [plex_meta_manager.py:580]  [DEBUG]    | Builder: trakt_chart: {'chart': 'trending', 'limit': 30, 'time_period': None}                      |
+[2022-10-11 07:54:37,601] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 07:54:37,602] [trakt.py:495]              [INFO]     | Processing Trakt Chart: 30 Trending Movies                                                         |
+[2022-10-11 07:54:38,015] [builder.py:1540]           [DEBUG]    |                                                                                                    |
+[2022-10-11 07:54:38,015] [builder.py:1541]           [DEBUG]    | 30 IDs Found: [(718930, 'tmdb'), (338947, 'tmdb'), (361743, 'tmdb'), (901385, 'tmdb'), (1024530, 'tmdb'), (616037, 'tmdb'), (882598, 'tmdb'), (799546, 'tmdb'), (976720, 'tmdb'), (551271, 'tmdb'), (49051, 'tmdb'), (57158, 'tmdb'), (766507, 'tmdb'), (507086, 'tmdb'), (642885, 'tmdb'), (1726, 'tmdb'), (674, 'tmdb'), (920, 'tmdb'), (425909, 'tmdb'), (894205, 'tmdb'), (597922, 'tmdb'), (801803, 'tmdb'), (118340, 'tmdb'), (120, 'tmdb'), (277834, 'tmdb'), (286217, 'tmdb'), (122, 'tmdb'), (121, 'tmdb'), (671, 'tmdb'), (10138, 'tmdb')] |
+[2022-10-11 07:54:38,015] [builder.py:1542]           [DEBUG]    |                                                                                                    |
+[2022-10-11 07:54:38,017] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 07:54:38,017] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_trending_daily: 30                                                                   |
+[2022-10-11 07:54:38,017] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 07:54:38,041] [tmdb.py:344]               [INFO]     | Processing TMDb Trending Daily: 30 Movies                                                          |
+[2022-10-11 07:54:38,041] [builder.py:1540]           [DEBUG]    |                                                                                                    |
+[2022-10-11 07:54:38,042] [builder.py:1541]           [DEBUG]    | 30 IDs Found: [(894205, 'tmdb'), (1024530, 'tmdb'), (799546, 'tmdb'), (338947, 'tmdb'), (718930, 'tmdb'), (723419, 'tmdb'), (886396, 'tmdb'), (999722, 'tmdb'), (795109, 'tmdb'), (901385, 'tmdb'), (616037, 'tmdb'), (642885, 'tmdb'), (882598, 'tmdb'), (717728, 'tmdb'), (335795, 'tmdb'), (616820, 'tmdb'), (361743, 'tmdb'), (505642, 'tmdb'), (664469, 'tmdb'), (436270, 'tmdb'), (1018648, 'tmdb'), (301502, 'tmdb'), (597922, 'tmdb'), (366672, 'tmdb'), (1023086, 'tmdb'), (507086, 'tmdb'), (881487, 'tmdb'), (801803, 'tmdb'), (438148, 'tmdb'), (760741, 'tmdb')] |
+[2022-10-11 07:54:38,042] [builder.py:1542]           [DEBUG]    |                                                                                                    |
+[2022-10-11 07:54:38,043] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 07:54:38,043] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_trending_weekly: 30                                                                  |
+[2022-10-11 07:54:38,043] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 07:54:38,066] [tmdb.py:344]               [INFO]     | Processing TMDb Trending Weekly: 30 Movies                                                         |
+[2022-10-11 07:54:38,066] [builder.py:1540]           [DEBUG]    |                                                                                                    |
+[2022-10-11 07:54:38,067] [builder.py:1541]           [DEBUG]    | 30 IDs Found: [(718930, 'tmdb'), (894205, 'tmdb'), (642885, 'tmdb'), (616037, 'tmdb'), (301502, 'tmdb'), (799546, 'tmdb'), (338947, 'tmdb'), (723419, 'tmdb'), (597922, 'tmdb'), (361743, 'tmdb'), (717728, 'tmdb'), (976720, 'tmdb'), (882598, 'tmdb'), (744276, 'tmdb'), (505642, 'tmdb'), (429473, 'tmdb'), (760741, 'tmdb'), (985939, 'tmdb'), (438148, 'tmdb'), (810693, 'tmdb'), (830788, 'tmdb'), (795109, 'tmdb'), (852046, 'tmdb'), (507086, 'tmdb'), (532639, 'tmdb'), (999722, 'tmdb'), (634649, 'tmdb'), (539681, 'tmdb'), (436270, 'tmdb'), (19995, 'tmdb')] |
+[2022-10-11 07:54:38,067] [builder.py:1542]           [DEBUG]    |                                                                                                    |
+[2022-10-11 07:54:38,068] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 07:54:38,068] [plex_meta_manager.py:580]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?title_type=tv_movie', 'limit': 50} |
+[2022-10-11 07:54:38,068] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 07:54:38,068] [imdb.py:184]               [INFO]     | Processing IMDb List: 50 Items at https://www.imdb.com/search/title/?title_type=tv_movie           |
+[2022-10-11 07:54:42,035] [imdb.py:135]               [DEBUG]    | 50 IMDb IDs Found: ['tt1447981', 'tt0173886', 'tt0073820', 'tt20049600', 'tt21969174', 'tt13649036', 'tt0274761', 'tt18070050', 'tt15486810', 'tt6079304', 'tt0105126', 'tt21969154', 'tt0414078', 'tt3440298', 'tt0128801', 'tt0816520', 'tt9159182', 'tt20101986', 'tt0090163', 'tt21532904', 'tt22179486', 'tt13464350', 'tt0475293', 'tt6878820', 'tt0853153', 'tt0085404', 'tt21616920', 'tt12881516', 'tt0467421', 'tt0123865', 'tt0082235', 'tt8022928', 'tt0473389', 'tt3660850', 'tt8318648', 'tt0092239', 'tt12194000', 'tt0104930', 'tt1258157', 'tt1618435', 'tt0250934', 'tt0250593', 'tt0113296', 'tt15208950', 'tt1267299', 'tt0146402', 'tt10388558', 'tt21617068', 'tt16030222', 'tt21653744'] |
+[2022-10-11 07:54:42,035] [builder.py:1540]           [DEBUG]    |                                                                                                    |
+[2022-10-11 07:54:42,035] [builder.py:1541]           [DEBUG]    | 50 IDs Found: [('tt1447981', 'imdb'), ('tt0173886', 'imdb'), ('tt0073820', 'imdb'), ('tt20049600', 'imdb'), ('tt21969174', 'imdb'), ('tt13649036', 'imdb'), ('tt0274761', 'imdb'), ('tt18070050', 'imdb'), ('tt15486810', 'imdb'), ('tt6079304', 'imdb'), ('tt0105126', 'imdb'), ('tt21969154', 'imdb'), ('tt0414078', 'imdb'), ('tt3440298', 'imdb'), ('tt0128801', 'imdb'), ('tt0816520', 'imdb'), ('tt9159182', 'imdb'), ('tt20101986', 'imdb'), ('tt0090163', 'imdb'), ('tt21532904', 'imdb'), ('tt22179486', 'imdb'), ('tt13464350', 'imdb'), ('tt0475293', 'imdb'), ('tt6878820', 'imdb'), ('tt0853153', 'imdb'), ('tt0085404', 'imdb'), ('tt21616920', 'imdb'), ('tt12881516', 'imdb'), ('tt0467421', 'imdb'), ('tt0123865', 'imdb'), ('tt0082235', 'imdb'), ('tt8022928', 'imdb'), ('tt0473389', 'imdb'), ('tt3660850', 'imdb'), ('tt8318648', 'imdb'), ('tt0092239', 'imdb'), ('tt12194000', 'imdb'), ('tt0104930', 'imdb'), ('tt1258157', 'imdb'), ('tt1618435', 'imdb'), ('tt0250934', 'imdb'), ('tt0250593', 'imdb'), ('tt0113296', 'imdb'), ('tt15208950', 'imdb'), ('tt1267299', 'imdb'), ('tt0146402', 'imdb'), ('tt10388558', 'imdb'), ('tt21617068', 'imdb'), ('tt16030222', 'imdb'), ('tt21653744', 'imdb')] |
+[2022-10-11 07:54:42,036] [builder.py:1542]           [DEBUG]    |                                                                                                    |
+[2022-10-11 07:54:43,641] [builder.py:2064]           [INFO]     |                                                                                                    |
+[2022-10-11 07:54:43,641] [builder.py:2065]           [INFO]     |================================== Adding to Trending Collection ===================================|
+[2022-10-11 07:54:43,642] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-11 07:54:43,642] [builder.py:2080]           [INFO]     |  1/33 | Trending Collection | = | Bullet Train (2022)                                              |
+[2022-10-11 07:54:43,642] [builder.py:2080]           [INFO]     |  2/33 | Trending Collection | = | Hellraiser (2022)                                                |
+[2022-10-11 07:54:43,643] [builder.py:2080]           [INFO]     |  3/33 | Trending Collection | = | Top Gun: Maverick (2022)                                         |
+[2022-10-11 07:54:43,643] [builder.py:2080]           [INFO]     |  4/33 | Trending Collection | = | Grimcutty : l'enfer des réseaux (2022)                           |
+[2022-10-11 07:54:43,644] [builder.py:2080]           [INFO]     |  5/33 | Trending Collection | = | Thor : Love and Thunder (2022)                                   |
+[2022-10-11 07:54:43,644] [builder.py:2080]           [INFO]     |  6/33 | Trending Collection | = | Vesper Chronicles (2022)                                         |
+[2022-10-11 07:54:43,645] [builder.py:2080]           [INFO]     |  7/33 | Trending Collection | = | Le Hobbit : Un voyage inattendu (2012)                           |
+[2022-10-11 07:54:43,645] [builder.py:2080]           [INFO]     |  8/33 | Trending Collection | = | Le Hobbit : La Désolation de Smaug (2013)                        |
+[2022-10-11 07:54:43,645] [builder.py:2080]           [INFO]     |  9/33 | Trending Collection | = | Prey (2022)                                                      |
+[2022-10-11 07:54:43,646] [builder.py:2080]           [INFO]     | 10/33 | Trending Collection | = | Jurassic World : Le Monde d’après (2022)                         |
+[2022-10-11 07:54:43,646] [builder.py:2080]           [INFO]     | 11/33 | Trending Collection | = | Hocus Pocus 2 (2022)                                             |
+[2022-10-11 07:54:43,647] [builder.py:2080]           [INFO]     | 12/33 | Trending Collection | = | Iron Man (2008)                                                  |
+[2022-10-11 07:54:43,647] [builder.py:2080]           [INFO]     | 13/33 | Trending Collection | = | Harry Potter IV : La Coupe de feu (2005)                         |
+[2022-10-11 07:54:43,647] [builder.py:2080]           [INFO]     | 14/33 | Trending Collection | = | S.O.S. Fantômes : L’Héritage (2021)                              |
+[2022-10-11 07:54:43,648] [builder.py:2080]           [INFO]     | 15/33 | Trending Collection | = | Werewolf By Night (2022)                                         |
+[2022-10-11 07:54:43,648] [builder.py:2080]           [INFO]     | 16/33 | Trending Collection | = | Une bière au front (2022)                                        |
+[2022-10-11 07:54:43,648] [builder.py:2080]           [INFO]     | 17/33 | Trending Collection | = | Les Gardiens de la Galaxie (2014)                                |
+[2022-10-11 07:54:43,649] [builder.py:2080]           [INFO]     | 18/33 | Trending Collection | = | Le Seigneur des anneaux I : La Communaute de l'anneau (2001)     |
+[2022-10-11 07:54:43,649] [builder.py:2080]           [INFO]     | 19/33 | Trending Collection | = | Seul sur Mars (2015)                                             |
+[2022-10-11 07:54:43,649] [builder.py:2080]           [INFO]     | 20/33 | Trending Collection | = | Le Seigneur des anneaux III : Le Retour du roi (2003)            |
+[2022-10-11 07:54:43,650] [builder.py:2080]           [INFO]     | 21/33 | Trending Collection | = | Le Seigneur des anneaux II : Les Deux Tours (2002)               |
+[2022-10-11 07:54:43,650] [builder.py:2080]           [INFO]     | 22/33 | Trending Collection | = | Harry Potter : À l'ecole des sorciers (2001)                     |
+[2022-10-11 07:54:43,650] [builder.py:2080]           [INFO]     | 23/33 | Trending Collection | = | Iron Man 2 (2010)                                                |
+[2022-10-11 07:54:43,650] [builder.py:2080]           [INFO]     | 24/33 | Trending Collection | = | Old People (2022)                                                |
+[2022-10-11 07:54:43,651] [builder.py:2080]           [INFO]     | 25/33 | Trending Collection | = | Blonde (2022)                                                    |
+[2022-10-11 07:54:43,651] [builder.py:2080]           [INFO]     | 26/33 | Trending Collection | = | Devil's Workshop (2022)                                          |
+[2022-10-11 07:54:43,652] [builder.py:2080]           [INFO]     | 27/33 | Trending Collection | = | Fall (2022)                                                      |
+[2022-10-11 07:54:43,652] [builder.py:2080]           [INFO]     | 28/33 | Trending Collection | = | Athena (2022)                                                    |
+[2022-10-11 07:54:43,653] [builder.py:2080]           [INFO]     | 29/33 | Trending Collection | = | Pinocchio (2022)                                                 |
+[2022-10-11 07:54:43,653] [builder.py:2080]           [INFO]     | 30/33 | Trending Collection | = | Spider-Man: No Way Home (2021)                                   |
+[2022-10-11 07:54:43,654] [builder.py:2080]           [INFO]     | 31/33 | Trending Collection | = | Avatar (2009)                                                    |
+[2022-10-11 07:54:43,654] [builder.py:2080]           [INFO]     | 32/33 | Trending Collection | = | Threads (1984)                                                   |
+[2022-10-11 07:54:43,654] [builder.py:2080]           [INFO]     | 33/33 | Trending Collection | = | Z-O-M-B-I-E-S (2018)                                             |
+[2022-10-11 07:54:43,654] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-11 07:54:43,655] [builder.py:2102]           [INFO]     | 33 Movies Processed 0 Movies Added                                                                 |
+[2022-10-11 07:54:43,655] [builder.py:2228]           [INFO]     |                                                                                                    |
+[2022-10-11 07:54:43,655] [builder.py:2229]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-10-11 07:54:43,655] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-10-11 07:54:43,671] [builder.py:2243]           [INFO]     | Trending Collection | ? | Significant Other (2022) (TMDb: 901385)                                  |
+[2022-10-11 07:54:43,688] [builder.py:2243]           [INFO]     | Trending Collection | ? | Smile (2022) (TMDb: 882598)                                              |
+[2022-10-11 07:54:43,714] [builder.py:2243]           [INFO]     | Trending Collection | ? | Luckiest Girl Alive (2022) (TMDb: 799546)                                |
+[2022-10-11 07:54:43,722] [builder.py:2243]           [INFO]     | Trending Collection | ? | Medieval (2022) (TMDb: 551271)                                           |
+[2022-10-11 07:54:43,738] [builder.py:2243]           [INFO]     | Trending Collection | ? | Cars (2006) (TMDb: 920)                                                  |
+[2022-10-11 07:54:43,788] [builder.py:2243]           [INFO]     | Trending Collection | ? | 独行月球 (2022) (TMDb: 801803)                                               |
+[2022-10-11 07:54:43,827] [builder.py:2243]           [INFO]     | Trending Collection | ? | Moana (2016) (TMDb: 277834)                                              |
+[2022-10-11 07:54:43,852] [builder.py:2243]           [INFO]     | Trending Collection | ? | Mr. Harrigan's Phone (2022) (TMDb: 723419)                               |
+[2022-10-11 07:54:43,877] [builder.py:2243]           [INFO]     | Trending Collection | ? | Batman and Superman: Battle of the Super Sons (2022) (TMDb: 886396)      |
+[2022-10-11 07:54:43,902] [builder.py:2243]           [INFO]     | Trending Collection | ? | Catherine Called Birdy (2022) (TMDb: 795109)                             |
+[2022-10-11 07:54:43,944] [builder.py:2243]           [INFO]     | Trending Collection | ? | Jeepers Creepers: Reborn (2022) (TMDb: 717728)                           |
+[2022-10-11 07:54:43,957] [builder.py:2243]           [INFO]     | Trending Collection | ? | Monster High: The Movie (2022) (TMDb: 335795)                            |
+[2022-10-11 07:54:43,999] [builder.py:2243]           [INFO]     | Trending Collection | ? | Halloween Ends (2022) (TMDb: 616820)                                     |
+[2022-10-11 07:54:44,015] [builder.py:2243]           [INFO]     | Trending Collection | ? | Black Panther: Wakanda Forever (2022) (TMDb: 505642)                     |
+[2022-10-11 07:54:44,058] [builder.py:2243]           [INFO]     | Trending Collection | ? | Amsterdam (2022) (TMDb: 664469)                                          |
+[2022-10-11 07:54:44,074] [builder.py:2243]           [INFO]     | Trending Collection | ? | Black Adam (2022) (TMDb: 436270)                                         |
+[2022-10-11 07:54:44,107] [builder.py:2243]           [INFO]     | Trending Collection | ? | The Redeem Team (2022) (TMDb: 1018648)                                   |
+[2022-10-11 07:54:44,124] [builder.py:2243]           [INFO]     | Trending Collection | ? | Paws of Fury: The Legend of Hank (2022) (TMDb: 366672)                   |
+[2022-10-11 07:54:44,138] [builder.py:2243]           [INFO]     | Trending Collection | ? | The Visitor (2022) (TMDb: 881487)                                        |
+[2022-10-11 07:54:44,179] [builder.py:2243]           [INFO]     | Trending Collection | ? | Minions: The Rise of Gru (2022) (TMDb: 438148)                           |
+[2022-10-11 07:54:44,196] [builder.py:2243]           [INFO]     | Trending Collection | ? | Beast (2022) (TMDb: 760741)                                              |
+[2022-10-11 07:54:44,238] [builder.py:2243]           [INFO]     | Trending Collection | ? | After Ever Happy (2022) (TMDb: 744276)                                   |
+[2022-10-11 07:54:44,255] [builder.py:2243]           [INFO]     | Trending Collection | ? | Lou (2022) (TMDb: 429473)                                                |
+[2022-10-11 07:54:44,296] [builder.py:2243]           [INFO]     | Trending Collection | ? | Jujutsu Kaisen 0 (2021) (TMDb: 810693)                                   |
+[2022-10-11 07:54:44,313] [builder.py:2243]           [INFO]     | Trending Collection | ? | The Invitation (2022) (TMDb: 830788)                                     |
+[2022-10-11 07:54:44,314] [builder.py:2243]           [INFO]     | Trending Collection | ? | DC League of Super-Pets (2022) (TMDb: 539681)                            |
+[2022-10-11 07:54:44,347] [builder.py:2243]           [INFO]     | Trending Collection | ? | Halloweentown (1998) (TMDb: 27850)                                       |
+[2022-10-11 07:54:44,363] [builder.py:2243]           [INFO]     | Trending Collection | ? | Trilogy of Terror (1975) (TMDb: 38783)                                   |
+[2022-10-11 07:54:44,405] [builder.py:2243]           [INFO]     | Trending Collection | ? | The Gabby Petito Story (2022) (TMDb: 1012661)                            |
+[2022-10-11 07:54:44,421] [builder.py:2243]           [INFO]     | Trending Collection | ? | Nikki & Nora: Sister Sleuths (2022) (TMDb: 1020532)                      |
+[2022-10-11 07:54:44,463] [builder.py:2243]           [INFO]     | Trending Collection | ? | Help (2021) (TMDb: 826796)                                               |
+[2022-10-11 07:54:44,479] [builder.py:2243]           [INFO]     | Trending Collection | ? | Halloweentown II: Kalabar's Revenge (2001) (TMDb: 34205)                 |
+[2022-10-11 07:54:44,513] [builder.py:2243]           [INFO]     | Trending Collection | ? | Under Wraps 2 (2022) (TMDb: 936061)                                      |
+[2022-10-11 07:54:44,525] [builder.py:2243]           [INFO]     | Trending Collection | ? | Teen Wolf: The Movie (TMDb: 877703)                                      |
+[2022-10-11 07:54:44,556] [builder.py:2243]           [INFO]     | Trending Collection | ? | Amish Witches: The True Story of Holmes County (2016) (TMDb: 424996)     |
+[2022-10-11 07:54:44,566] [builder.py:2243]           [INFO]     | Trending Collection | ? | Perry Mason : La Robe rouge (1992) (TMDb: 95400)                         |
+[2022-10-11 07:54:44,582] [builder.py:2243]           [INFO]     | Trending Collection | ? | Girlfriendship (2022) (TMDb: 983242)                                     |
+[2022-10-11 07:54:44,599] [builder.py:2243]           [INFO]     | Trending Collection | ? | Halloweentown High (2004) (TMDb: 34560)                                  |
+[2022-10-11 07:54:44,617] [builder.py:2243]           [INFO]     | Trending Collection | ? | Descendants (2015) (TMDb: 277217)                                        |
+[2022-10-11 07:54:44,634] [builder.py:2243]           [INFO]     | Trending Collection | ? | Under Wraps (1997) (TMDb: 76212)                                         |
+[2022-10-11 07:54:44,664] [builder.py:2243]           [INFO]     | Trending Collection | ? | Return to Halloweentown (2006) (TMDb: 34204)                             |
+[2022-10-11 07:54:44,681] [builder.py:2243]           [INFO]     | Trending Collection | ? | Hocus Pocus 25th Anniversary Halloween Bash (2022) (TMDb: 555032)        |
+[2022-10-11 07:54:44,697] [builder.py:2243]           [INFO]     | Trending Collection | ? | Bring It On: Cheer or Die (2022) (TMDb: 831410)                          |
+[2022-10-11 07:54:44,723] [builder.py:2243]           [INFO]     | Trending Collection | ? | Francesca Quinn, PI (2022) (TMDb: 1006315)                               |
+[2022-10-11 07:54:44,740] [builder.py:2243]           [INFO]     | Trending Collection | ? | Cursed Friends (2022) (TMDb: 1031206)                                    |
+[2022-10-11 07:54:44,782] [builder.py:2243]           [INFO]     | Trending Collection | ? | Le Secret de la momie (2021) (TMDb: 763873)                              |
+[2022-10-11 07:54:44,799] [builder.py:2243]           [INFO]     | Trending Collection | ? | High School Musical (2006) (TMDb: 10947)                                 |
+[2022-10-11 07:54:44,849] [builder.py:2243]           [INFO]     | Trending Collection | ? | Stuart, une vie à l'envers (2007) (TMDb: 50032)                          |
+[2022-10-11 07:54:44,865] [builder.py:2243]           [INFO]     | Trending Collection | ? | Le Jour d'après (1983) (TMDb: 7012)                                      |
+[2022-10-11 07:54:44,881] [builder.py:2243]           [INFO]     | Trending Collection | ? | Fly Away With Me (2022) (TMDb: 1006306)                                  |
+[2022-10-11 07:54:44,898] [builder.py:2243]           [INFO]     | Trending Collection | ? | Black Island (2021) (TMDb: 847981)                                       |
+[2022-10-11 07:54:44,915] [builder.py:2243]           [INFO]     | Trending Collection | ? | Des amours de sœurcières (2005) (TMDb: 21481)                            |
+[2022-10-11 07:54:44,931] [builder.py:2243]           [INFO]     | Trending Collection | ? | Gia (1998) (TMDb: 14533)                                                 |
+[2022-10-11 07:54:44,948] [builder.py:2243]           [INFO]     | Trending Collection | ? | Les Fleurs de sang (1983) (TMDb: 30931)                                  |
+[2022-10-11 07:54:44,965] [builder.py:2243]           [INFO]     | Trending Collection | ? | Descendants 3 (2019) (TMDb: 506574)                                      |
+[2022-10-11 07:54:44,982] [builder.py:2243]           [INFO]     | Trending Collection | ? | The Ron Clark Story (2006) (TMDb: 25527)                                 |
+[2022-10-11 07:54:45,011] [builder.py:2243]           [INFO]     | Trending Collection | ? | The Assault (2014) (TMDb: 295237)                                        |
+[2022-10-11 07:54:45,024] [builder.py:2243]           [INFO]     | Trending Collection | ? | Escaping the Madhouse: The Nellie Bly Story (2019) (TMDb: 522892)        |
+[2022-10-11 07:54:45,048] [builder.py:2243]           [INFO]     | Trending Collection | ? | The Worst Witch (1986) (TMDb: 24054)                                     |
+[2022-10-11 07:54:45,057] [builder.py:2243]           [INFO]     | Trending Collection | ? | Out of Office (2022) (TMDb: 1015172)                                     |
+[2022-10-11 07:54:45,085] [builder.py:2243]           [INFO]     | Trending Collection | ? | Mrs. 'Arris Goes to Paris (1992) (TMDb: 96767)                           |
+[2022-10-11 07:54:45,098] [builder.py:2243]           [INFO]     | Trending Collection | ? | Scooby-Doo! The Mystery Begins (2009) (TMDb: 22620)                      |
+[2022-10-11 07:54:45,147] [builder.py:2243]           [INFO]     | Trending Collection | ? | Scooby-Doo ! et le monstre du lac (2010) (TMDb: 47533)                   |
+[2022-10-11 07:54:45,163] [builder.py:2243]           [INFO]     | Trending Collection | ? | 61* (2001) (TMDb: 20536)                                                 |
+[2022-10-11 07:54:45,205] [builder.py:2243]           [INFO]     | Trending Collection | ? | Mom's Got a Date with a Vampire (2000) (TMDb: 92208)                     |
+[2022-10-11 07:54:45,221] [builder.py:2243]           [INFO]     | Trending Collection | ? | Here Come the Munsters (1995) (TMDb: 249391)                             |
+[2022-10-11 07:54:45,247] [builder.py:2243]           [INFO]     | Trending Collection | ? | Un été à Channing (2021) (TMDb: 858918)                                  |
+[2022-10-11 07:54:45,272] [builder.py:2243]           [INFO]     | Trending Collection | ? | The Rocky Horror Picture Show: Let's Do the Time Warp Again (2016) (TMDb: 377448) |
+[2022-10-11 07:54:45,289] [builder.py:2243]           [INFO]     | Trending Collection | ? | Addams Family Reunion (1998) (TMDb: 11508)                               |
+[2022-10-11 07:54:45,330] [builder.py:2243]           [INFO]     | Trending Collection | ? | La récolte des amoureux (2019) (TMDb: 641564)                            |
+[2022-10-11 07:54:45,347] [builder.py:2243]           [INFO]     | Trending Collection | ? | The Secrets of Bella Vista (2022) (TMDb: 1006314)                        |
+[2022-10-11 07:54:45,389] [builder.py:2243]           [INFO]     | Trending Collection | ? | The Bad Seed Returns (2022) (TMDb: 897338)                               |
+[2022-10-11 07:54:45,405] [builder.py:2243]           [INFO]     | Trending Collection | ? | Romance In Style (2022) (TMDb: 994052)                                   |
+[2022-10-11 07:54:45,406] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-10-11 07:54:45,406] [builder.py:2249]           [INFO]     | 73 Movies Missing                                                                                  |
+[2022-10-11 07:54:45,428] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-11 07:54:45,429] [builder.py:2442]           [INFO]     |============================= Updating Details of Trending Collection ==============================|
+[2022-10-11 07:54:45,429] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-11 07:54:45,439] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-10-11 07:54:45,439] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Trending'                                             |
+[2022-10-11 07:54:45,440] [util.py:150]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-10-11 07:54:45,440] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/TOP_TRENDING.png |
+[2022-10-11 07:54:45,441] [library.py:172]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-10-11 07:54:45,824] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 07:54:45,824] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 07:54:45,824] [plex_meta_manager.py:709]  [INFO]     |                                    Finished Trending Collection                                    |
+[2022-10-11 07:54:45,825] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:09                                    |
+[2022-10-11 07:54:45,825] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

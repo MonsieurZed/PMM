@@ -1,0 +1,241 @@
+[2022-09-29 22:05:35,766] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-09-29 22:05:35,766] [builder.py:197]            [INFO]     |                      HBO Max Originals 2021-2025 Collection in Z. 2 - Series                       |
+[2022-09-29 22:05:35,766] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-09-29 22:05:35,767] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-09-29 22:05:35,767] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-09-29 22:05:35,767] [builder.py:219]            [INFO]     |======================== Validating HBO Max Originals 2021-2025 Attributes =========================|
+[2022-09-29 22:05:35,768] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-09-29 22:05:35,768] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-09-29 22:05:35,768] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-09-29 22:05:35,768] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-09-29 22:05:35,768] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-09-29 22:05:35,768] [builder.py:544]            [DEBUG]    | Value: originally_available.desc                                                                   |
+[2022-09-29 22:05:35,788] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 22:05:35,789] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-09-29 22:05:35,789] [builder.py:632]            [DEBUG]    | Value: +4_HBOMAX                                                                                   |
+[2022-09-29 22:05:35,789] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 22:05:35,790] [builder.py:631]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-09-29 22:05:35,790] [builder.py:632]            [DEBUG]    | Value: ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2021-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=250&companies=co0754095')]) |
+[2022-09-29 22:05:37,762] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 22:05:37,763] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-09-29 22:05:37,763] [builder.py:632]            [DEBUG]    | Value: All HBO Max Originals From 2021-2025                                                        |
+[2022-09-29 22:05:37,763] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 22:05:37,763] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-09-29 22:05:37,764] [builder.py:632]            [DEBUG]    | Value: https://i.redd.it/zxdvw3tk3f151.jpg                                                         |
+[2022-09-29 22:05:37,812] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 22:05:37,812] [builder.py:631]            [DEBUG]    | Validating Method: url_background                                                                  |
+[2022-09-29 22:05:37,812] [builder.py:632]            [DEBUG]    | Value: https://wallpapercave.com/wp/wp6402755.png                                                  |
+[2022-09-29 22:05:37,929] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-09-29 22:05:37,929] [plex.py:793]               [DEBUG]    | Looking for: HBO Max Originals 2021-2025                                                           |
+[2022-09-29 22:05:37,929] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-09-29 22:05:37,930] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-09-29 22:05:37,930] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-09-29 22:05:37,930] [plex_meta_manager.py:563]  [INFO]     |========================== Running HBO Max Originals 2021-2025 Collection ==========================|
+[2022-09-29 22:05:37,930] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-09-29 22:05:37,931] [plex_meta_manager.py:570]  [INFO]     | Smart Show Label                                                                                   |
+                                                                 | Sort By: originally_available.desc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is HBO Max Originals 2021-2025
+[2022-09-29 22:05:37,932] [plex_meta_manager.py:575]  [INFO]     | 
+[2022-09-29 22:05:37,932] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync
+[2022-09-29 22:05:37,932] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-09-29 22:05:37,932] [plex_meta_manager.py:580]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2021-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=250&companies=co0754095', 'limit': 0}
+[2022-09-29 22:05:37,932] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-09-29 22:05:37,933] [imdb.py:184]               [INFO]     | Processing IMDb List: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2021-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=250&companies=co0754095
+[2022-09-29 22:05:43,535] [imdb.py:135]               [DEBUG]    | 201 IMDb IDs Found: ['tt3581920', 'tt17042406', 'tt15494650', 'tt15435876', 'tt15303234', 'tt15268188', 'tt14586350', 'tt13885492', 'tt6166392', 'tt9362930', 'tt13345606', 'tt20215396', 'tt16280138', 'tt20215534', 'tt14674810', 'tt8005118', 'tt17220704', 'tt15824600', 'tt22049770', 'tt21873386', 'tt21650874', 'tt22179944', 'tt21374850', 'tt11198330', 'tt21327638', 'tt21435030', 'tt13075042', 'tt11212198', 'tt12116498', 'tt21103642', 'tt14597532', 'tt11987198', 'tt13249596', 'tt15306876', 'tt19758560', 'tt19799468', 'tt3704428', 'tt9883832', 'tt13649314', 'tt12899886', 'tt8783930', 'tt11324406', 'tt12879632', 'tt21912464', 'tt18271228', 'tt14558054', 'tt13142526', 'tt2887954', 'tt4123432', 'tt8834630', 'tt21193916', 'tt18949702', 'tt15422240', 'tt12585076', 'tt10975574', 'tt19316410', 'tt11947418', 'tt17003316', 'tt15575238', 'tt11057226', 'tt16118722', 'tt15590294', 'tt18332840', 'tt11000902', 'tt1877830', 'tt18363426', 'tt15462640', 'tt14400760', 'tt14128670', 'tt17526762', 'tt17005194', 'tt14542924', 'tt17041964', 'tt4406178', 'tt11225626', 'tt17048424', 'tt15588224', 'tt13146488', 'tt11188682', 'tt20215742', 'tt15719162', 'tt16116174', 'tt11847842', 'tt3781380', 'tt14669888', 'tt11111752', 'tt16533296', 'tt16433744', 'tt16288880', 'tt5232622', 'tt16433356', 'tt14501126', 'tt10838180', 'tt10574236', 'tt15186426', 'tt16304360', 'tt13819960', 'tt14218830', 'tt16154112', 'tt11471892', 'tt16153658', 'tt7740496', 'tt3581652', 'tt15431326', 'tt11540284', 'tt15781474', 'tt15716316', 'tt16152220', 'tt11212276', 'tt15168124', 'tt15390756', 'tt15766708', 'tt15765436', 'tt12708514', 'tt12643356', 'tt15475200', 'tt15520020', 'tt15513290', 'tt14396056', 'tt11188206', 'tt15532762', 'tt15532736', 'tt10773194', 'tt15286764', 'tt8110232', 'tt1924245', 'tt15560488', 'tt12682218', 'tt7972668', 'tt1160419', 'tt9620288', 'tt3811906', 'tt14324128', 'tt11525188', 'tt15141288', 'tt15078488', 'tt15046062', 'tt14675328', 'tt14406000', 'tt3272066', 'tt21190614', 'tt14903810', 'tt15210254', 'tt15101380', 'tt14825858', 'tt6334354', 'tt15004156', 'tt14812994', 'tt14126234', 'tt13406094', 'tt10653784', 'tt14734578', 'tt8923510', 'tt14948500', 'tt11525644', 'tt14375756', 'tt14630348', 'tt14512538', 'tt1321510', 'tt15058146', 'tt13450602', 'tt11337862', 'tt7069210', 'tt14968632', 'tt11815682', 'tt12762460', 'tt3215824', 'tt14336298', 'tt11987400', 'tt11210524', 'tt11945774', 'tt14330162', 'tt8697870', 'tt8396314', 'tt0293429', 'tt14236436', 'tt5034838', 'tt14215442', 'tt12361974', 'tt7808566', 'tt11847410', 'tt9024096', 'tt11454722', 'tt14057586', 'tt14173880', 'tt8399720', 'tt13990468', 'tt6820128', 'tt7384402', 'tt9784798', 'tt13648224', 'tt12837188', 'tt5618690', 'tt13957038', 'tt10016180', 'tt13409770', 'tt13670374', 'tt13061914', 'tt11716294', 'tt13793360', 'tt10985096']
+[2022-09-29 22:05:43,536] [builder.py:1540]           [DEBUG]    | 
+[2022-09-29 22:05:43,537] [builder.py:1541]           [DEBUG]    | 201 IDs Found: [('tt3581920', 'imdb'), ('tt17042406', 'imdb'), ('tt15494650', 'imdb'), ('tt15435876', 'imdb'), ('tt15303234', 'imdb'), ('tt15268188', 'imdb'), ('tt14586350', 'imdb'), ('tt13885492', 'imdb'), ('tt6166392', 'imdb'), ('tt9362930', 'imdb'), ('tt13345606', 'imdb'), ('tt20215396', 'imdb'), ('tt16280138', 'imdb'), ('tt20215534', 'imdb'), ('tt14674810', 'imdb'), ('tt8005118', 'imdb'), ('tt17220704', 'imdb'), ('tt15824600', 'imdb'), ('tt22049770', 'imdb'), ('tt21873386', 'imdb'), ('tt21650874', 'imdb'), ('tt22179944', 'imdb'), ('tt21374850', 'imdb'), ('tt11198330', 'imdb'), ('tt21327638', 'imdb'), ('tt21435030', 'imdb'), ('tt13075042', 'imdb'), ('tt11212198', 'imdb'), ('tt12116498', 'imdb'), ('tt21103642', 'imdb'), ('tt14597532', 'imdb'), ('tt11987198', 'imdb'), ('tt13249596', 'imdb'), ('tt15306876', 'imdb'), ('tt19758560', 'imdb'), ('tt19799468', 'imdb'), ('tt3704428', 'imdb'), ('tt9883832', 'imdb'), ('tt13649314', 'imdb'), ('tt12899886', 'imdb'), ('tt8783930', 'imdb'), ('tt11324406', 'imdb'), ('tt12879632', 'imdb'), ('tt21912464', 'imdb'), ('tt18271228', 'imdb'), ('tt14558054', 'imdb'), ('tt13142526', 'imdb'), ('tt2887954', 'imdb'), ('tt4123432', 'imdb'), ('tt8834630', 'imdb'), ('tt21193916', 'imdb'), ('tt18949702', 'imdb'), ('tt15422240', 'imdb'), ('tt12585076', 'imdb'), ('tt10975574', 'imdb'), ('tt19316410', 'imdb'), ('tt11947418', 'imdb'), ('tt17003316', 'imdb'), ('tt15575238', 'imdb'), ('tt11057226', 'imdb'), ('tt16118722', 'imdb'), ('tt15590294', 'imdb'), ('tt18332840', 'imdb'), ('tt11000902', 'imdb'), ('tt1877830', 'imdb'), ('tt18363426', 'imdb'), ('tt15462640', 'imdb'), ('tt14400760', 'imdb'), ('tt14128670', 'imdb'), ('tt17526762', 'imdb'), ('tt17005194', 'imdb'), ('tt14542924', 'imdb'), ('tt17041964', 'imdb'), ('tt4406178', 'imdb'), ('tt11225626', 'imdb'), ('tt17048424', 'imdb'), ('tt15588224', 'imdb'), ('tt13146488', 'imdb'), ('tt11188682', 'imdb'), ('tt20215742', 'imdb'), ('tt15719162', 'imdb'), ('tt16116174', 'imdb'), ('tt11847842', 'imdb'), ('tt3781380', 'imdb'), ('tt14669888', 'imdb'), ('tt11111752', 'imdb'), ('tt16533296', 'imdb'), ('tt16433744', 'imdb'), ('tt16288880', 'imdb'), ('tt5232622', 'imdb'), ('tt16433356', 'imdb'), ('tt14501126', 'imdb'), ('tt10838180', 'imdb'), ('tt10574236', 'imdb'), ('tt15186426', 'imdb'), ('tt16304360', 'imdb'), ('tt13819960', 'imdb'), ('tt14218830', 'imdb'), ('tt16154112', 'imdb'), ('tt11471892', 'imdb'), ('tt16153658', 'imdb'), ('tt7740496', 'imdb'), ('tt3581652', 'imdb'), ('tt15431326', 'imdb'), ('tt11540284', 'imdb'), ('tt15781474', 'imdb'), ('tt15716316', 'imdb'), ('tt16152220', 'imdb'), ('tt11212276', 'imdb'), ('tt15168124', 'imdb'), ('tt15390756', 'imdb'), ('tt15766708', 'imdb'), ('tt15765436', 'imdb'), ('tt12708514', 'imdb'), ('tt12643356', 'imdb'), ('tt15475200', 'imdb'), ('tt15520020', 'imdb'), ('tt15513290', 'imdb'), ('tt14396056', 'imdb'), ('tt11188206', 'imdb'), ('tt15532762', 'imdb'), ('tt15532736', 'imdb'), ('tt10773194', 'imdb'), ('tt15286764', 'imdb'), ('tt8110232', 'imdb'), ('tt1924245', 'imdb'), ('tt15560488', 'imdb'), ('tt12682218', 'imdb'), ('tt7972668', 'imdb'), ('tt1160419', 'imdb'), ('tt9620288', 'imdb'), ('tt3811906', 'imdb'), ('tt14324128', 'imdb'), ('tt11525188', 'imdb'), ('tt15141288', 'imdb'), ('tt15078488', 'imdb'), ('tt15046062', 'imdb'), ('tt14675328', 'imdb'), ('tt14406000', 'imdb'), ('tt3272066', 'imdb'), ('tt21190614', 'imdb'), ('tt14903810', 'imdb'), ('tt15210254', 'imdb'), ('tt15101380', 'imdb'), ('tt14825858', 'imdb'), ('tt6334354', 'imdb'), ('tt15004156', 'imdb'), ('tt14812994', 'imdb'), ('tt14126234', 'imdb'), ('tt13406094', 'imdb'), ('tt10653784', 'imdb'), ('tt14734578', 'imdb'), ('tt8923510', 'imdb'), ('tt14948500', 'imdb'), ('tt11525644', 'imdb'), ('tt14375756', 'imdb'), ('tt14630348', 'imdb'), ('tt14512538', 'imdb'), ('tt1321510', 'imdb'), ('tt15058146', 'imdb'), ('tt13450602', 'imdb'), ('tt11337862', 'imdb'), ('tt7069210', 'imdb'), ('tt14968632', 'imdb'), ('tt11815682', 'imdb'), ('tt12762460', 'imdb'), ('tt3215824', 'imdb'), ('tt14336298', 'imdb'), ('tt11987400', 'imdb'), ('tt11210524', 'imdb'), ('tt11945774', 'imdb'), ('tt14330162', 'imdb'), ('tt8697870', 'imdb'), ('tt8396314', 'imdb'), ('tt0293429', 'imdb'), ('tt14236436', 'imdb'), ('tt5034838', 'imdb'), ('tt14215442', 'imdb'), ('tt12361974', 'imdb'), ('tt7808566', 'imdb'), ('tt11847410', 'imdb'), ('tt9024096', 'imdb'), ('tt11454722', 'imdb'), ('tt14057586', 'imdb'), ('tt14173880', 'imdb'), ('tt8399720', 'imdb'), ('tt13990468', 'imdb'), ('tt6820128', 'imdb'), ('tt7384402', 'imdb'), ('tt9784798', 'imdb'), ('tt13648224', 'imdb'), ('tt12837188', 'imdb'), ('tt5618690', 'imdb'), ('tt13957038', 'imdb'), ('tt10016180', 'imdb'), ('tt13409770', 'imdb'), ('tt13670374', 'imdb'), ('tt13061914', 'imdb'), ('tt11716294', 'imdb'), ('tt13793360', 'imdb'), ('tt10985096', 'imdb')]
+[2022-09-29 22:05:43,538] [builder.py:1542]           [DEBUG]    | 
+[2022-09-29 22:05:43,563] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt15494650
+[2022-09-29 22:05:43,584] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt15303234
+[2022-09-29 22:05:43,605] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt13885492
+[2022-09-29 22:05:43,635] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt14674810
+[2022-09-29 22:05:43,658] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21873386
+[2022-09-29 22:05:43,669] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt22179944
+[2022-09-29 22:05:43,859] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21912464
+[2022-09-29 22:05:43,890] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21193916
+[2022-09-29 22:05:44,057] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt15462640
+[2022-09-29 22:05:44,237] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 155097
+[2022-09-29 22:05:44,264] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt20215742
+[2022-09-29 22:05:44,290] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt3781380
+[2022-09-29 22:05:44,307] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt14669888
+[2022-09-29 22:05:44,327] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt11111752
+[2022-09-29 22:05:44,785] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt15765436
+[2022-09-29 22:05:44,811] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt15532762
+[2022-09-29 22:05:44,829] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt15532736
+[2022-09-29 22:05:45,505] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21190614
+[2022-09-29 22:05:45,537] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt14948500
+[2022-09-29 22:05:45,691] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt15058146
+[2022-09-29 22:05:45,841] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt14968632
+[2022-09-29 22:05:46,228] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt14236436
+[2022-09-29 22:05:46,695] [builder.py:2064]           [INFO]     | 
+[2022-09-29 22:05:46,695] [builder.py:2065]           [INFO]     |========================= Adding to HBO Max Originals 2021-2025 Collection =========================|
+[2022-09-29 22:05:46,695] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-09-29 22:05:46,751] [builder.py:2080]           [INFO]     | 1/9 | HBO Max Originals 2021-2025 Collection | + | House of the Dragon                             |
+[2022-09-29 22:05:47,120] [builder.py:2080]           [INFO]     | 2/9 | HBO Max Originals 2021-2025 Collection | + | Tokyo Vice                                      |
+[2022-09-29 22:05:47,457] [builder.py:2080]           [INFO]     | 3/9 | HBO Max Originals 2021-2025 Collection | + | DMZ                                             |
+[2022-09-29 22:05:47,693] [builder.py:2080]           [INFO]     | 4/9 | HBO Max Originals 2021-2025 Collection | + | The Gilded Age                                  |
+[2022-09-29 22:05:47,853] [builder.py:2080]           [INFO]     | 5/9 | HBO Max Originals 2021-2025 Collection | + | Peacemaker                                      |
+[2022-09-29 22:05:48,225] [builder.py:2080]           [INFO]     | 6/9 | HBO Max Originals 2021-2025 Collection | + | Station Eleven                                  |
+[2022-09-29 22:05:48,459] [builder.py:2080]           [INFO]     | 7/9 | HBO Max Originals 2021-2025 Collection | + | The White Lotus                                 |
+[2022-09-29 22:05:48,680] [builder.py:2080]           [INFO]     | 8/9 | HBO Max Originals 2021-2025 Collection | + | Gossip Girl                                     |
+[2022-09-29 22:05:48,965] [builder.py:2080]           [INFO]     | 9/9 | HBO Max Originals 2021-2025 Collection | + | The Nevers                                      |
+[2022-09-29 22:05:49,413] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-09-29 22:05:49,414] [builder.py:2102]           [INFO]     | 9 Shows Processed 9 Shows Added                                                                    |
+[2022-09-29 22:05:49,414] [builder.py:2228]           [INFO]     |                                                                                                    |
+[2022-09-29 22:05:49,414] [builder.py:2229]           [INFO]     |============================ Missing Movies from Library: Z. 2 - Series ============================|
+[2022-09-29 22:05:49,415] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-09-29 22:05:49,441] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Black Canary (TMDb: 863808)                           |
+[2022-09-29 22:05:49,466] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Wonka (2023) (TMDb: 787699)                           |
+[2022-09-29 22:05:49,491] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Blue Beetle (2023) (TMDb: 565770)                     |
+[2022-09-29 22:05:49,516] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Evil Dead Rise (2023) (TMDb: 713704)                  |
+[2022-09-29 22:05:49,547] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Magic Mike's Last Dance (2023) (TMDb: 906221)         |
+[2022-09-29 22:05:49,572] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | American Girl: Corinne Tan (TMDb: 974834)             |
+[2022-09-29 22:05:49,606] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | House Party (2022) (TMDb: 632065)                     |
+[2022-09-29 22:05:49,625] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | A Christmas Story Christmas (2022) (TMDb: 929340)     |
+[2022-09-29 22:05:49,650] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Habla Loud (2022) (TMDb: 1024525)                     |
+[2022-09-29 22:05:49,705] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Escape from Kabul (2022) (TMDb: 1013258)              |
+[2022-09-29 22:05:49,717] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | All the Beauty and the Bloodshed (2022) (TMDb: 1004663) |
+[2022-09-29 22:05:49,775] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Entre Nos Presents: Jesus Sepulveda: Mr. Tough Life (2022) (TMDb: 1001832) |
+[2022-09-29 22:05:49,800] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Milestone Generations (2022) (TMDb: 1005087)          |
+[2022-09-29 22:05:49,858] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | The Anarchists (2022) (TMDb: 1012843)                 |
+[2022-09-29 22:05:49,883] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Land of Gold (2022) (TMDb: 965649)                    |
+[2022-09-29 22:05:49,934] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Father of the Bride (2022) (TMDb: 746419)             |
+[2022-09-29 22:05:49,959] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Katrina Babies (2022) (TMDb: 866074)                  |
+[2022-09-29 22:05:50,009] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | 38 at the Garden (2022) (TMDb: 967183)                |
+[2022-09-29 22:05:50,605] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Elvis (2022) (TMDb: 614934)                           |
+[2022-09-29 22:05:50,623] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Moonage Daydream (2022) (TMDb: 957457)                |
+[2022-09-29 22:05:50,643] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Bill Maher: #Adulting (2022) (TMDb: 960639)           |
+[2022-09-29 22:05:50,690] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Fantastic Beasts: The Secrets of Dumbledore (2022) (TMDb: 338953) |
+[2022-09-29 22:05:50,709] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Brie's Bake Off Challenge (2022) (TMDb: 957800)       |
+[2022-09-29 22:05:50,733] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Jerrod Carmichael: Rothaniel (2022) (TMDb: 952326)    |
+[2022-09-29 22:05:50,750] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Eraser: Reborn (2022) (TMDb: 923597)                  |
+[2022-09-29 22:05:50,775] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Moonshot (2022) (TMDb: 767825)                        |
+[2022-09-29 22:05:50,799] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Tony Hawk: Until the Wheels Fall Off (2022) (TMDb: 881198) |
+[2022-09-29 22:05:50,937] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | The Batman (2022) (TMDb: 414906)                      |
+[2022-09-29 22:05:50,954] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | The Beauty of Blackness (2022) (TMDb: 945005)         |
+[2022-09-29 22:05:51,570] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Kimi (2022) (TMDb: 800510)                            |
+[2022-09-29 22:05:51,582] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | And Just Like That… The Documentary (2022) (TMDb: 933255) |
+[2022-09-29 22:05:51,607] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Terry Bradshaw: Going Deep (2022) (TMDb: 925977)      |
+[2022-09-29 22:05:51,632] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Navalny (2022) (TMDb: 926676)                         |
+[2022-09-29 22:05:51,657] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Am I Ok? (2022) (TMDb: 641934)                        |
+[2022-09-29 22:05:51,682] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Moses Storm: Trash White (2022) (TMDb: 925901)        |
+[2022-09-29 22:05:51,734] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Carole King & James Taylor: Just Call Out My Name (2022) (TMDb: 920230) |
+[2022-09-29 22:05:51,753] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Harry Potter 20th Anniversary: Return to Hogwarts (2022) (TMDb: 899082) |
+[2022-09-29 22:05:51,789] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | The Super Bob Einstein Movie (2021) (TMDb: 918632)    |
+[2022-09-29 22:05:51,839] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Beanie Mania (2021) (TMDb: 916613)                    |
+[2022-09-29 22:05:51,859] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Reopening Night (2021) (TMDb: 911518)                 |
+[2022-09-29 22:05:51,997] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | The Matrix Resurrections (2021) (TMDb: 624860)        |
+[2022-09-29 22:05:52,039] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Christmas Is Canceled (2021) (TMDb: 899382)           |
+[2022-09-29 22:05:52,058] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | The Forever Prisoner (2021) (TMDb: 902547)            |
+[2022-09-29 22:05:52,100] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | drew michael: red blue green (2021) (TMDb: 904144)    |
+[2022-09-29 22:05:52,625] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Nightmare Alley (2021) (TMDb: 597208)                 |
+[2022-09-29 22:05:53,193] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | West Side Story (2021) (TMDb: 511809)                 |
+[2022-09-29 22:05:53,216] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | 8-Bit Christmas (2021) (TMDb: 802217)                 |
+[2022-09-29 22:05:53,282] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | 2021 Rock & Roll Hall of Fame Induction Ceremony (2021) (TMDb: 903976) |
+[2022-09-29 22:05:53,317] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Comedy Chingonas (2021) (TMDb: 903088)                |
+[2022-09-29 22:05:53,326] [builder.py:2237]           [ERROR]    | TMDb Error: No Movie found for TMDb ID 878564                                                      |
+[2022-09-29 22:05:53,350] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Dear Rider: The Jake Burton Story (2021) (TMDb: 884573) |
+[2022-09-29 22:05:53,376] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Aida Rodriguez: Fighting Words (2021) (TMDb: 889924)  |
+[2022-09-29 22:05:53,400] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Single Mother by Choice (2021) (TMDb: 893204)         |
+[2022-09-29 22:05:53,450] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Ricky Velez: Here's Everything (2021) (TMDb: 882898)  |
+[2022-09-29 22:05:53,476] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Four Hours at the Capitol (2021) (TMDb: 879535)       |
+[2022-09-29 22:05:53,509] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Phoebe Robinson: Sorry, Harriet Tubman (2021) (TMDb: 882292) |
+[2022-09-29 22:05:53,542] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | 15 Minutes of Shame (2021) (TMDb: 641363)             |
+[2022-09-29 22:05:53,609] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | My Dead Dad (2021) (TMDb: 874396)                     |
+[2022-09-29 22:05:53,659] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | The Many Saints of Newark (2021) (TMDb: 524369)       |
+[2022-09-29 22:05:54,189] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Cry Macho (2021) (TMDb: 749274)                       |
+[2022-09-29 22:05:54,207] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Clint Eastwood: A Cinematic Legacy (2021) (TMDb: 881931) |
+[2022-09-29 22:05:54,232] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Citizen Ashe (2021) (TMDb: 850990)                    |
+[2022-09-29 22:05:54,368] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Dune (2021) (TMDb: 438631)                            |
+[2022-09-29 22:05:54,902] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | King Richard (2021) (TMDb: 614917)                    |
+[2022-09-29 22:05:55,521] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Malignant (2021) (TMDb: 619778)                       |
+[2022-09-29 22:05:55,564] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | If I Can't Have Love, I Want Power (2021) (TMDb: 850337) |
+[2022-09-29 22:05:55,589] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Eyes on the Prize: Hallowed Ground (2021) (TMDb: 852336) |
+[2022-09-29 22:05:55,614] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Marlon Wayans: You Know What It Is (2021) (TMDb: 850654) |
+[2022-09-29 22:05:56,281] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Reminiscence (2021) (TMDb: 579047)                    |
+[2022-09-29 22:05:56,306] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Betrayal at Attica (2021) (TMDb: 857079)              |
+[2022-09-29 22:05:56,331] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Romeo Santos: King of Bachata (2021) (TMDb: 856554)   |
+[2022-09-29 22:05:56,356] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | The Suicide Squad (2021) (TMDb: 436969)               |
+[2022-09-29 22:05:56,372] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Woodstock 99: Peace, Love, and Rage (2021) (TMDb: 848562) |
+[2022-09-29 22:05:56,411] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Simple As Water (2021) (TMDb: 698499)                 |
+[2022-09-29 22:05:56,453] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | No Sudden Move (2021) (TMDb: 649409)                  |
+[2022-09-29 22:05:56,508] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | LFG (2021) (TMDb: 808703)                             |
+[2022-09-29 22:05:56,584] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | The Price of Freedom (2021) (TMDb: 822096)            |
+[2022-09-29 22:05:56,611] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Roadrunner: A Film About Anthony Bourdain (2021) (TMDb: 642732) |
+[2022-09-29 22:05:57,315] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | In the Heights (2021) (TMDb: 467909)                  |
+[2022-09-29 22:05:57,326] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Dreamland: The Burning of Black Wall Street (2021) (TMDb: 828720) |
+[2022-09-29 22:05:57,342] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Friends: The Reunion (2021) (TMDb: 691179)            |
+[2022-09-29 22:05:57,480] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | The Conjuring: The Devil Made Me Do It (2021) (TMDb: 423108) |
+[2022-09-29 22:05:58,040] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Those Who Wish Me Dead (2021) (TMDb: 578701)          |
+[2022-09-29 22:05:58,050] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Generation Why? (2021) (TMDb: 825178)                 |
+[2022-09-29 22:05:58,125] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Our Towns (2021) (TMDb: 812018)                       |
+[2022-09-29 22:05:58,280] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Mortal Kombat (2021) (TMDb: 460465)                   |
+[2022-09-29 22:05:58,422] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Godzilla vs. Kong (2021) (TMDb: 399566)               |
+[2022-09-29 22:05:59,304] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Zack Snyder's Justice League (2021) (TMDb: 791373)    |
+[2022-09-29 22:05:59,316] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | The Fallout (2021) (TMDb: 795514)                     |
+[2022-09-29 22:05:59,351] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Women Is Losers (2021) (TMDb: 623273)                 |
+[2022-09-29 22:05:59,384] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Covid Diaries NYC (2021) (TMDb: 779184)               |
+[2022-09-29 22:05:59,426] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Persona: The Dark Truth Behind Personality Tests (2021) (TMDb: 800164) |
+[2022-09-29 22:05:59,467] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | TINA (2021) (TMDb: 773736)                            |
+[2022-09-29 22:05:59,509] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | The Right One (2021) (TMDb: 774785)                   |
+[2022-09-29 22:05:59,551] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | This Is Not a War Story (2021) (TMDb: 847947)         |
+[2022-09-29 22:06:00,218] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Judas and the Black Messiah (2021) (TMDb: 583406)     |
+[2022-09-29 22:06:00,260] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | We’re All Going to the World’s Fair (2022) (TMDb: 776501) |
+[2022-09-29 22:06:00,276] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Street Gang: How We Got to Sesame Street (2021) (TMDb: 476044) |
+[2022-09-29 22:06:00,320] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | The Little Things (2021) (TMDb: 602269)               |
+[2022-09-29 22:06:00,335] [builder.py:2243]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Locked Down (2021) (TMDb: 741228)                     |
+[2022-09-29 22:06:00,335] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-09-29 22:06:00,335] [builder.py:2249]           [INFO]     | 99 Movies Missing                                                                                  |
+[2022-09-29 22:06:00,488] [builder.py:2274]           [INFO]     |                                                                                                    |
+[2022-09-29 22:06:00,489] [builder.py:2275]           [INFO]     |===================== Missing Shows from Library: HBO Max Originals 2021-2025 ======================|
+[2022-09-29 22:06:00,489] [builder.py:2276]           [INFO]     |                                                                                                    |
+[2022-09-29 22:06:01,114] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | The Last of Us (TVDb: 392256)                         |
+[2022-09-29 22:06:01,927] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Degrassi (2023) (TVDb: 414639)                        |
+[2022-09-29 22:06:02,663] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | The Penguin (TVDb: 417648)                            |
+[2022-09-29 22:06:03,613] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Love & Death (TVDb: 402181)                           |
+[2022-09-29 22:06:04,371] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | B. Loved (TVDb: 422693)                               |
+[2022-09-29 22:06:04,980] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | The Big Brunch (TVDb: 417920)                         |
+[2022-09-29 22:06:05,992] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Pretty Little Liars: Original Sin (TVDb: 389085)      |
+[2022-09-29 22:06:06,693] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Rap Sh!t (TVDb: 396681)                               |
+[2022-09-29 22:06:07,500] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Edge of the Earth (TVDb: 421560)                      |
+[2022-09-29 22:06:08,415] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Gordita Chronicles (TVDb: 402708)                     |
+[2022-09-29 22:06:09,340] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Menudo: Forever Young (TVDb: 421521)                  |
+[2022-09-29 22:06:10,305] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Irma Vep (TVDb: 393404)                               |
+[2022-09-29 22:06:10,327] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | George Carlin's American Dream (TVDb: 419734)         |
+[2022-09-29 22:06:11,005] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | The Time Traveler's Wife (TVDb: 397536)               |
+[2022-09-29 22:06:11,732] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | The Staircase (2022) (TVDb: 400269)                   |
+[2022-09-29 22:06:12,541] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | The Baby (TVDb: 393566)                               |
+[2022-09-29 22:06:13,210] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | The Garcias (TVDb: 402031)                            |
+[2022-09-29 22:06:14,267] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Not So Pretty (TVDb: 418765)                          |
+[2022-09-29 22:06:14,954] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Julia (2022) (TVDb: 395129)                           |
+[2022-09-29 22:06:15,589] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Who’s Talking to Chris Wallace? (TVDb: 418219)        |
+[2022-09-29 22:06:16,339] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Minx (TVDb: 400542)                                   |
+[2022-09-29 22:06:16,991] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | The Last Movie Stars (TVDb: 422021)                   |
+[2022-09-29 22:06:17,667] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Game Theory with Bomani Jones (TVDb: 411316)          |
+[2022-09-29 22:06:18,273] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Brené Brown: Atlas of the Heart (TVDb: 417680)        |
+[2022-09-29 22:06:18,910] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Gaming Wall St (TVDb: 417170)                         |
+[2022-09-29 22:06:19,675] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Our Flag Means Death (TVDb: 390093)                   |
+[2022-09-29 22:06:20,351] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | About Last Night (TVDb: 398542)                       |
+[2022-09-29 22:06:20,991] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Take Out with Lisa Ling (TVDb: 414636)                |
+[2022-09-29 22:06:21,779] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | The Cleaning Lady (US) (TVDb: 402365)                 |
+[2022-09-29 22:06:22,475] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | The Tourist (TVDb: 395919)                            |
+[2022-09-29 22:06:33,644] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | The Girl Before (TVDb: 397765)                        |
+[2022-09-29 22:06:34,312] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Chillin Island (TVDb: 413316)                         |
+[2022-09-29 22:06:35,010] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Finding Magic Mike (TVDb: 401310)                     |
+[2022-09-29 22:06:35,659] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | The Murders at Starved Rock (TVDb: 412398)            |
+[2022-09-29 22:06:36,342] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | And Just Like That... (TVDb: 394924)                  |
+[2022-09-29 22:06:36,382] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Abbott Elementary (TVDb: 402910)                      |
+[2022-09-29 22:06:37,041] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Landscapers (TVDb: 375516)                            |
+[2022-09-29 22:06:37,735] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Harry Potter: Hogwarts Tournament of Houses (TVDb: 411461) |
+[2022-09-29 22:06:38,367] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Black and Missing (TVDb: 412056)                      |
+[2022-09-29 22:06:39,030] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | The Sex Lives of College Girls (TVDb: 390161)         |
+[2022-09-29 22:06:40,009] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Head of the Class (2021) (TVDb: 382339)               |
+[2022-09-29 22:06:40,640] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | What Happened, Brittany Murphy? (TVDb: 411130)        |
+[2022-09-29 22:06:41,317] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | The Way Down: God, Greed, and the Cult of Gwen Shamblin (TVDb: 410515) |
+[2022-09-29 22:06:42,051] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Scenes from a Marriage (US) (TVDb: 394109)            |
+[2022-09-29 22:06:42,854] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | NYC Epicenters 9/11-2021½ (TVDb: 408703)              |
+[2022-09-29 22:06:43,588] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Chapelwaite (TVDb: 382426)                            |
+[2022-09-29 22:06:44,263] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | Sweet Life: Los Angeles (TVDb: 408316)                |
+[2022-09-29 22:06:44,939] [builder.py:2288]           [INFO]     | HBO Max Originals 2021-2025 Collection | ? | The Hype (TVDb: 398837)                               |

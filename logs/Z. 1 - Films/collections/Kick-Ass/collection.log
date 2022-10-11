@@ -1,0 +1,73 @@
+[2022-10-11 09:19:21,629] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 09:19:21,629] [builder.py:197]            [INFO]     |                                Kick-Ass Collection in Z. 1 - Films                                 |
+[2022-10-11 09:19:21,629] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 09:19:21,629] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 09:19:21,629] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 09:19:21,630] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:19:21,630] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 09:19:21,630] [meta.py:129]               [DEBUG]    | Call: {'value': ['179892'], 'tmdb_collection': ['179892'], 'key_name': 'Kick-Ass', 'key': '179892', 'name': 'my_template'} |
+[2022-10-11 09:19:21,631] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:19:21,631] [meta.py:305]               [DEBUG]    | Variables: {'value': ['179892'], 'tmdb_collection': ['179892'], 'key_name': 'Kick-Ass', 'key': '179892', 'name': 'my_template', 'collection_name': 'Kick-Ass', 'mapping_name': 'Kick-Ass', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%27179892%27%5D', 'tmdb_collection_encoded': '%5B%27179892%27%5D', 'key_name_encoded': 'Kick-Ass', 'key_encoded': '179892', 'name_encoded': 'my_template', 'collection_name_encoded': 'Kick-Ass', 'mapping_name_encoded': 'Kick-Ass', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Kick-Ass'} |
+[2022-10-11 09:19:21,631] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:19:21,632] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 09:19:21,632] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:19:21,632] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 09:19:21,633] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:19:21,633] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['179892'], 'collection_order': 'release', 'collection_mode': 'hide_items'} |
+[2022-10-11 09:19:21,633] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:19:21,634] [builder.py:219]            [INFO]     |================================== Validating Kick-Ass Attributes ==================================|
+[2022-10-11 09:19:21,634] [builder.py:609]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:19:21,634] [builder.py:610]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 09:19:21,634] [builder.py:611]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 09:19:21,635] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:19:21,635] [builder.py:631]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 09:19:21,635] [builder.py:632]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 09:19:21,635] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:19:21,635] [builder.py:631]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 09:19:21,636] [builder.py:632]            [DEBUG]    | Value: ['179892']                                                                                  |
+[2022-10-11 09:19:21,647] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:19:21,647] [builder.py:631]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 09:19:21,647] [builder.py:632]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 09:19:21,654] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:19:21,654] [plex.py:793]               [DEBUG]    | Looking for: Kick-Ass                                                                              |
+[2022-10-11 09:19:21,654] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 09:19:21,654] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 09:19:21,655] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 09:19:21,655] [plex_meta_manager.py:563]  [INFO]     |=================================== Running Kick-Ass Collection ====================================|
+[2022-10-11 09:19:21,655] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 09:19:21,655] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 09:19:21,655] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 09:19:21,656] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 179892                                                                   |
+[2022-10-11 09:19:21,656] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 09:19:21,660] [tmdb.py:382]               [INFO]     | Processing TMDb Collection: (179892) Kick-Ass - Saga (2 Items)                                     |
+[2022-10-11 09:19:21,661] [builder.py:1540]           [DEBUG]    |                                                                                                    |
+[2022-10-11 09:19:21,661] [builder.py:1541]           [DEBUG]    | 2 IDs Found: [(23483, 'tmdb'), (59859, 'tmdb')]                                                    |
+[2022-10-11 09:19:21,661] [builder.py:1542]           [DEBUG]    |                                                                                                    |
+[2022-10-11 09:19:21,661] [builder.py:2064]           [INFO]     |                                                                                                    |
+[2022-10-11 09:19:21,661] [builder.py:2065]           [INFO]     |================================== Adding to Kick-Ass Collection ===================================|
+[2022-10-11 09:19:21,662] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-11 09:19:21,662] [builder.py:2080]           [INFO]     | 1/2 | Kick-Ass Collection | + | Kick-Ass (2010)                                                    |
+[2022-10-11 09:19:21,944] [builder.py:2080]           [INFO]     | 2/2 | Kick-Ass Collection | + | Kick-Ass 2 (2013)                                                  |
+[2022-10-11 09:19:25,091] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-11 09:19:25,091] [builder.py:2102]           [INFO]     | 2 Movies Processed 2 Movies Added                                                                  |
+[2022-10-11 09:19:25,098] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-11 09:19:25,098] [builder.py:2442]           [INFO]     |============================= Updating Details of Kick-Ass Collection ==============================|
+[2022-10-11 09:19:25,098] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-11 09:19:25,263] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_collection_details) | Kick-Ass est un film d'action-comédie de super-héros britanno-américain de 2010 basé sur la bande dessinée Marvel du même nom de Mark Millar et John Romita, Jr. Le film a été réalisé par Matthew Vaughn, qui a coproduit avec Brad Pitt et co-écrit le scénario avec Jane Goldman. C'est le premier volet de la série de films Kick Ass. Bien qu'il ait suscité une certaine controverse pour ses blasphèmes et la violence dont il a fait l'objet de la part d'un enfant, Kick-Ass a été bien accueilli par la critique et le public. Une suite intitulée Kick-Ass 2 écrite et mise en scène par Jeff Wadlow (avec Vaughn revenant en tant que producteur seulement) sort en août 2013, Taylor-Johnson, Mintz-Plasse et Moretz reprenant leurs rôles.
+                                                                 | Label | +TMDb Collections, +PMM
+[2022-10-11 09:19:25,466] [builder.py:2513]           [INFO]     | Details: have been updated
+[2022-10-11 09:19:25,466] [builder.py:2517]           [INFO]     | 
+[2022-10-11 09:19:25,639] [builder.py:2529]           [INFO]     | Collection Mode | hideItems
+[2022-10-11 09:19:25,640] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Kick-Ass'
+[2022-10-11 09:19:25,640] [util.py:150]               [DEBUG]    | 1 poster found:
+[2022-10-11 09:19:25,640] [util.py:152]               [DEBUG]    | Method: tmdb_collection_details Poster: https://image.tmdb.org/t/p/original/2UzHizIS6Z87ocDdY4TALPj1EqD.jpg
+[2022-10-11 09:19:25,640] [util.py:150]               [DEBUG]    | 1 background found:
+[2022-10-11 09:19:25,640] [util.py:152]               [DEBUG]    | Method: tmdb_collection_details Background: https://image.tmdb.org/t/p/original/fYMsCXEMguNlSORJIHydfBgOnty.jpg
+[2022-10-11 09:19:25,662] [library.py:170]            [INFO]     | Detail: tmdb_collection_details updated poster to [URL] https://image.tmdb.org/t/p/original/2UzHizIS6Z87ocDdY4TALPj1EqD.jpg
+[2022-10-11 09:19:25,706] [library.py:186]            [INFO]     | Detail: tmdb_collection_details updated background to [URL] https://image.tmdb.org/t/p/original/fYMsCXEMguNlSORJIHydfBgOnty.jpg
+[2022-10-11 09:19:25,941] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-11 09:19:25,941] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 09:19:25,941] [plex_meta_manager.py:709]  [INFO]     |                                    Finished Kick-Ass Collection                                    |
+[2022-10-11 09:19:25,941] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:04                                    |
+[2022-10-11 09:19:25,942] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

@@ -1,0 +1,126 @@
+[2022-10-11 10:07:19,993] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 10:07:19,994] [builder.py:197]            [INFO]     |                            Musical Collection in Z. 5 - Film Animation                             |
+[2022-10-11 10:07:19,994] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 10:07:19,994] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 10:07:19,994] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 10:07:19,994] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:07:19,994] [meta.py:128]               [DEBUG]    | Template Genre                                                                                     |
+[2022-10-11 10:07:19,994] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Genre')])                                                             |
+[2022-10-11 10:07:19,995] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:07:19,995] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Genre'), ('collection_name', 'Musical'), ('mapping_name', 'Musical'), ('library_type', 'movie'), ('library_name', 'Z. 5 - Film Animation'), ('name_encoded', 'Genre'), ('collection_name_encoded', 'Musical'), ('mapping_name_encoded', 'Musical'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%205%20-%20Film%20Animation'), ('collection_sort', 'Musical')]) |
+[2022-10-11 10:07:19,995] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:07:19,995] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 10:07:19,995] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:07:19,995] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 10:07:19,996] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:07:19,996] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+3_Musical', 'sync_mode': 'sync', 'smart_label': 'audience_rating.desc'} |
+[2022-10-11 10:07:19,996] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:07:19,996] [builder.py:219]            [INFO]     |================================== Validating Musical Attributes ===================================|
+[2022-10-11 10:07:19,997] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:07:19,997] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-11 10:07:19,997] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-11 10:07:19,997] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:07:19,997] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-11 10:07:19,997] [builder.py:544]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-10-11 10:07:20,014] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:07:20,014] [builder.py:631]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-10-11 10:07:20,014] [builder.py:632]            [DEBUG]    | Value: ordereddict([('genre', 'Musical')])                                                         |
+[2022-10-11 10:07:20,069] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:07:20,069] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-11 10:07:20,069] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_MUSICAL.png             |
+[2022-10-11 10:07:20,327] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:07:20,327] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-10-11 10:07:20,328] [builder.py:632]            [DEBUG]    | Value: A Musical interweaves vocal and dance performances into the narrative of the film. The songs of a film can either be used to further the story or simply enhance the experience of the audience. These films are often done on a grand scale and incorporate lavish costumes and sets. Traditional musicals center on a well-known star, famous for their dancing or singing skills (i.e. Fred Astaire, Gene Kelly, Judy Garland). These films explore concepts such are love and success, allowing the audience to escape from reality. |
+[2022-10-11 10:07:20,328] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:07:20,328] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 10:07:20,328] [builder.py:632]            [DEBUG]    | Value: +3_Musical                                                                                  |
+[2022-10-11 10:07:20,333] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:07:20,334] [plex.py:793]               [DEBUG]    | Looking for: Musical                                                                               |
+[2022-10-11 10:07:20,334] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 10:07:20,334] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 10:07:20,334] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 10:07:20,334] [plex_meta_manager.py:563]  [INFO]     |==================================== Running Musical Collection ====================================|
+[2022-10-11 10:07:20,334] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-10-11 10:07:20,335] [plex_meta_manager.py:570]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: audience_rating.desc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Musical
+[2022-10-11 10:07:20,335] [plex_meta_manager.py:575]  [INFO]     | 
+[2022-10-11 10:07:20,335] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync
+[2022-10-11 10:07:20,335] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 10:07:20,336] [plex_meta_manager.py:580]  [DEBUG]    | Builder: plex_search: (1, 'Plex Movie Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Genre is Musical', '?type=1&sort=titleSort&push=1&genre=28403&pop=1')
+[2022-10-11 10:07:20,336] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 10:07:20,336] [plex.py:819]               [INFO]     | Processing Plex Movie Search
+                                                                 | Sort By: title.asc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Match any of the following:
+                                                                 |       Genre is Musical
+[2022-10-11 10:07:20,490] [plex.py:864]               [DEBUG]    | 
+[2022-10-11 10:07:20,490] [plex.py:865]               [DEBUG]    | 38 Keys Found: [(21631, 'ratingKey'), (21623, 'ratingKey'), (88839, 'ratingKey'), (21575, 'ratingKey'), (21638, 'ratingKey'), (21731, 'ratingKey'), (88712, 'ratingKey'), (21606, 'ratingKey'), (13665, 'ratingKey'), (92137, 'ratingKey'), (21632, 'ratingKey'), (21593, 'ratingKey'), (21633, 'ratingKey'), (21576, 'ratingKey'), (22452, 'ratingKey'), (21698, 'ratingKey'), (19771, 'ratingKey'), (21605, 'ratingKey'), (21600, 'ratingKey'), (21628, 'ratingKey'), (21760, 'ratingKey'), (21601, 'ratingKey'), (21734, 'ratingKey'), (21592, 'ratingKey'), (21722, 'ratingKey'), (21725, 'ratingKey'), (21772, 'ratingKey'), (22419, 'ratingKey'), (22454, 'ratingKey'), (22525, 'ratingKey'), (22526, 'ratingKey'), (21624, 'ratingKey'), (22395, 'ratingKey'), (88835, 'ratingKey'), (88506, 'ratingKey'), (88507, 'ratingKey'), (88737, 'ratingKey'), (22417, 'ratingKey')]
+[2022-10-11 10:07:20,491] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 10:07:20,491] [builder.py:1541]           [DEBUG]    | 38 IDs Found: [(21631, 'ratingKey'), (21623, 'ratingKey'), (88839, 'ratingKey'), (21575, 'ratingKey'), (21638, 'ratingKey'), (21731, 'ratingKey'), (88712, 'ratingKey'), (21606, 'ratingKey'), (13665, 'ratingKey'), (92137, 'ratingKey'), (21632, 'ratingKey'), (21593, 'ratingKey'), (21633, 'ratingKey'), (21576, 'ratingKey'), (22452, 'ratingKey'), (21698, 'ratingKey'), (19771, 'ratingKey'), (21605, 'ratingKey'), (21600, 'ratingKey'), (21628, 'ratingKey'), (21760, 'ratingKey'), (21601, 'ratingKey'), (21734, 'ratingKey'), (21592, 'ratingKey'), (21722, 'ratingKey'), (21725, 'ratingKey'), (21772, 'ratingKey'), (22419, 'ratingKey'), (22454, 'ratingKey'), (22525, 'ratingKey'), (22526, 'ratingKey'), (21624, 'ratingKey'), (22395, 'ratingKey'), (88835, 'ratingKey'), (88506, 'ratingKey'), (88507, 'ratingKey'), (88737, 'ratingKey'), (22417, 'ratingKey')]
+[2022-10-11 10:07:20,491] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 10:07:20,495] [builder.py:2064]           [INFO]     | 
+[2022-10-11 10:07:20,496] [builder.py:2065]           [INFO]     |=================================== Adding to Musical Collection ===================================|
+[2022-10-11 10:07:20,496] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-11 10:07:20,509] [builder.py:2080]           [INFO]     |  1/38 | Musical Collection | + | Aladdin (1992)                                                    |
+[2022-10-11 10:07:20,529] [builder.py:2080]           [INFO]     |  2/38 | Musical Collection | + | Basil, détective privé (1986)                                     |
+[2022-10-11 10:07:20,547] [builder.py:2080]           [INFO]     |  3/38 | Musical Collection | + | Belle (2021)                                                      |
+[2022-10-11 10:07:20,565] [builder.py:2080]           [INFO]     |  4/38 | Musical Collection | + | La Belle au bois dormant (1959)                                   |
+[2022-10-11 10:07:20,583] [builder.py:2080]           [INFO]     |  5/38 | Musical Collection | + | La Belle et la Bête (1991)                                        |
+[2022-10-11 10:07:20,600] [builder.py:2080]           [INFO]     |  6/38 | Musical Collection | + | La Belle et le Clochard (1955)                                    |
+[2022-10-11 10:07:20,615] [builder.py:2080]           [INFO]     |  7/38 | Musical Collection | + | Bienvenue chez les Loud : Le film (2021)                          |
+[2022-10-11 10:07:20,631] [builder.py:2080]           [INFO]     |  8/38 | Musical Collection | + | Bienvenue chez les Robinson (2007)                                |
+[2022-10-11 10:07:20,646] [builder.py:2080]           [INFO]     |  9/38 | Musical Collection | + | Encanto, la fantastique famille Madrigal (2021)                   |
+[2022-10-11 10:07:20,664] [builder.py:2080]           [INFO]     | 10/38 | Musical Collection | + | Entergalactic (2022)                                              |
+[2022-10-11 10:07:20,680] [builder.py:2080]           [INFO]     | 11/38 | Musical Collection | + | Fantasia 2000 (1999)                                              |
+[2022-10-11 10:07:20,696] [builder.py:2080]           [INFO]     | 12/38 | Musical Collection | + | Frère des ours (2003)                                             |
+[2022-10-11 10:07:20,712] [builder.py:2080]           [INFO]     | 13/38 | Musical Collection | + | Hercule (1997)                                                    |
+[2022-10-11 10:07:20,727] [builder.py:2080]           [INFO]     | 14/38 | Musical Collection | + | Le Livre de la jungle (1967)                                      |
+[2022-10-11 10:07:20,743] [builder.py:2080]           [INFO]     | 15/38 | Musical Collection | + | Le Livre de la Jungle 2 (2003)                                    |
+[2022-10-11 10:07:20,760] [builder.py:2080]           [INFO]     | 16/38 | Musical Collection | + | Le Roi lion (1994)                                                |
+[2022-10-11 10:07:20,849] [builder.py:2080]           [INFO]     | 17/38 | Musical Collection | + | Le Roi Lion (2019)                                                |
+[2022-10-11 10:07:20,867] [builder.py:2080]           [INFO]     | 18/38 | Musical Collection | + | Les Aristochats (1970)                                            |
+[2022-10-11 10:07:20,885] [builder.py:2080]           [INFO]     | 19/38 | Musical Collection | + | Les Aventures de Winnie l'ourson (1977)                           |
+[2022-10-11 10:07:20,913] [builder.py:2080]           [INFO]     | 20/38 | Musical Collection | + | Merlin l'enchanteur (1963)                                        |
+[2022-10-11 10:07:20,933] [builder.py:2080]           [INFO]     | 21/38 | Musical Collection | + | Mulan (1998)                                                      |
+[2022-10-11 10:07:20,953] [builder.py:2080]           [INFO]     | 22/38 | Musical Collection | + | Oliver & Compagnie (1988)                                         |
+[2022-10-11 10:07:20,975] [builder.py:2080]           [INFO]     | 23/38 | Musical Collection | + | Peter Pan (1953)                                                  |
+[2022-10-11 10:07:20,991] [builder.py:2080]           [INFO]     | 24/38 | Musical Collection | + | La Petite Sirène (1989)                                           |
+[2022-10-11 10:07:21,008] [builder.py:2080]           [INFO]     | 25/38 | Musical Collection | + | Pocahontas : Une légende indienne (1995)                          |
+[2022-10-11 10:07:21,025] [builder.py:2080]           [INFO]     | 26/38 | Musical Collection | + | La Princesse et la grenouille (2009)                              |
+[2022-10-11 10:07:21,042] [builder.py:2080]           [INFO]     | 27/38 | Musical Collection | + | Raiponce (2010)                                                   |
+[2022-10-11 10:07:21,061] [builder.py:2080]           [INFO]     | 28/38 | Musical Collection | + | La reine des neiges (2013)                                        |
+[2022-10-11 10:07:21,079] [builder.py:2080]           [INFO]     | 29/38 | Musical Collection | + | La Reine des neiges II (2019)                                     |
+[2022-10-11 10:07:21,095] [builder.py:2080]           [INFO]     | 30/38 | Musical Collection | + | Rio (2011)                                                        |
+[2022-10-11 10:07:21,114] [builder.py:2080]           [INFO]     | 31/38 | Musical Collection | + | Rio 2 (2014)                                                      |
+[2022-10-11 10:07:21,133] [builder.py:2080]           [INFO]     | 32/38 | Musical Collection | + | Robin des Bois (1973)                                             |
+[2022-10-11 10:07:21,149] [builder.py:2080]           [INFO]     | 33/38 | Musical Collection | + | Strange Magic (2015)                                              |
+[2022-10-11 10:07:21,166] [builder.py:2080]           [INFO]     | 34/38 | Musical Collection | + | Tom et Jerry : L'histoire de Robin des Bois (2012)                |
+[2022-10-11 10:07:21,182] [builder.py:2080]           [INFO]     | 35/38 | Musical Collection | + | Tous en scène (2016)                                              |
+[2022-10-11 10:07:21,200] [builder.py:2080]           [INFO]     | 36/38 | Musical Collection | + | Tous en scène 2 (2021)                                            |
+[2022-10-11 10:07:21,217] [builder.py:2080]           [INFO]     | 37/38 | Musical Collection | + | Vivo (2021)                                                       |
+[2022-10-11 10:07:21,237] [builder.py:2080]           [INFO]     | 38/38 | Musical Collection | + | Winnie l'Ourson : Bonne année (2002)                              |
+[2022-10-11 10:07:22,662] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-11 10:07:22,662] [builder.py:2102]           [INFO]     | 38 Movies Processed 38 Movies Added                                                                |
+[2022-10-11 10:07:22,680] [plex.py:711]               [DEBUG]    | Smart Collection Test: ?type=1&sort=audienceRating%3Adesc&label=213040                             |
+[2022-10-11 10:07:22,881] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-11 10:07:22,882] [builder.py:2442]           [INFO]     |============================== Updating Details of Musical Collection ==============================|
+[2022-10-11 10:07:22,882] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-11 10:07:23,156] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | A Musical interweaves vocal and dance performances into the narrative of the film. The songs of a film can either be used to further the story or simply enhance the experience of the audience. These films are often done on a grand scale and incorporate lavish costumes and sets. Traditional musicals center on a well-known star, famous for their dancing or singing skills (i.e. Fred Astaire, Gene Kelly, Judy Garland). These films explore concepts such are love and success, allowing the audience to escape from reality.
+                                                                 | Sort Title | +3_Musical
+                                                                 | Label | +PMM
+[2022-10-11 10:07:23,441] [builder.py:2513]           [INFO]     | Details: have been updated
+[2022-10-11 10:07:23,441] [builder.py:2517]           [INFO]     | 
+[2022-10-11 10:07:23,442] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Musical'
+[2022-10-11 10:07:23,442] [util.py:150]               [DEBUG]    | 1 poster found:
+[2022-10-11 10:07:23,442] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_MUSICAL.png
+[2022-10-11 10:07:23,496] [library.py:170]            [INFO]     | Detail: url_poster updated poster to [URL] https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_MUSICAL.png
+[2022-10-11 10:07:23,656] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-11 10:07:23,656] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 10:07:23,656] [plex_meta_manager.py:709]  [INFO]     |                                    Finished Musical Collection                                     |
+[2022-10-11 10:07:23,656] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:03                                    |
+[2022-10-11 10:07:23,657] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

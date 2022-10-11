@@ -1,0 +1,65 @@
+[2022-10-11 09:47:43,472] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 09:47:43,472] [builder.py:197]            [INFO]     |                          DC Extended Universe Collection in Z. 2 - Series                          |
+[2022-10-11 09:47:43,472] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 09:47:43,472] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 09:47:43,473] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 09:47:43,473] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:47:43,473] [meta.py:128]               [DEBUG]    | Template Studio                                                                                    |
+[2022-10-11 09:47:43,473] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Studio'), ('studio', 'DC Extended Universe')])                        |
+[2022-10-11 09:47:43,474] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:47:43,474] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Studio'), ('studio', 'DC Extended Universe'), ('collection_name', 'DC Extended Universe'), ('mapping_name', 'DC Extended Universe'), ('library_type', 'show'), ('library_name', 'Z. 2 - Series'), ('name_encoded', 'Studio'), ('studio_encoded', 'DC%20Extended%20Universe'), ('collection_name_encoded', 'DC%20Extended%20Universe'), ('mapping_name_encoded', 'DC%20Extended%20Universe'), ('library_type_encoded', 'show'), ('library_name_encoded', 'Z.%202%20-%20Series'), ('collection_sort', 'DC Extended Universe')]) |
+[2022-10-11 09:47:43,474] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:47:43,474] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 09:47:43,474] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:47:43,474] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 09:47:43,475] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:47:43,476] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'plex_search': {'studio': 'DC Extended Universe'}, 'sort_title': '+12_DC Extended Universe', 'collection_order': 'alpha'} |
+[2022-10-11 09:47:43,476] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:47:43,476] [builder.py:219]            [INFO]     |============================ Validating DC Extended Universe Attributes ============================|
+[2022-10-11 09:47:43,476] [builder.py:609]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:47:43,476] [builder.py:610]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 09:47:43,476] [builder.py:611]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-10-11 09:47:43,477] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:47:43,477] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-11 09:47:43,477] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/STUDIO_DCU.png                |
+[2022-10-11 09:47:43,639] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:47:43,639] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-10-11 09:47:43,640] [builder.py:632]            [DEBUG]    | Value: The DC Extended Universe (DCEU) is a series of superhero films, distributed by Warner Bros. Pictures and based on characters that appear in American comic books by DC Comics. The shared universe, much like the original DC Universe in comic books and the television programs, was established by crossing over common plot elements, settings, cast, and characters. |
+[2022-10-11 09:47:43,640] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:47:43,640] [builder.py:631]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-10-11 09:47:43,640] [builder.py:632]            [DEBUG]    | Value: {'studio': 'DC Extended Universe'}                                                          |
+[2022-10-11 09:47:43,641] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:47:43,641] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 09:47:43,641] [builder.py:632]            [DEBUG]    | Value: +12_DC Extended Universe                                                                    |
+[2022-10-11 09:47:43,647] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:47:43,647] [plex.py:793]               [DEBUG]    | Looking for: DC Extended Universe                                                                  |
+[2022-10-11 09:47:43,647] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 09:47:43,648] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 09:47:43,648] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 09:47:43,648] [plex_meta_manager.py:563]  [INFO]     |============================= Running DC Extended Universe Collection ==============================|
+[2022-10-11 09:47:43,648] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 09:47:43,649] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 09:47:43,649] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 09:47:43,649] [plex_meta_manager.py:580]  [DEBUG]    | Builder: plex_search: (2, 'Plex Show Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Studio contains DC Extended Universe', '?type=2&sort=titleSort&push=1&show.studio=DC%20Extended%20Universe&pop=1') |
+[2022-10-11 09:47:43,650] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 09:47:43,650] [plex.py:819]               [INFO]     | Processing Plex Show Search                                                                        |
+                                                                 | Sort By: title.asc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Match any of the following:
+                                                                 |       Studio contains DC Extended Universe
+[2022-10-11 09:47:43,656] [plex_meta_manager.py:696]  [DEBUG]    | Traceback (most recent call last):
+                                                                 |   File "//plex_meta_manager.py", line 583, in run_collection
+                                                                 |     builder.filter_and_save_items(builder.gather_ids(method, value))
+                                                                 |   File "/modules/builder.py", line 1492, in gather_ids
+                                                                 |     ids = self.library.get_rating_keys(method, value)
+                                                                 |   File "/modules/plex.py", line 862, in get_rating_keys
+                                                                 |     raise Failed("Plex Error: No Items found in Plex")
+                                                                 | modules.util.Failed: Plex Error: No Items found in Plex
+                                                                 | 
+[2022-10-11 09:47:43,658] [plex_meta_manager.py:697]  [ERROR]    | Plex Error: No Items found in Plex
+[2022-10-11 09:47:43,658] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-11 09:47:43,658] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 09:47:43,658] [plex_meta_manager.py:709]  [INFO]     |                              Finished DC Extended Universe Collection                              |
+[2022-10-11 09:47:43,658] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 09:47:43,659] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

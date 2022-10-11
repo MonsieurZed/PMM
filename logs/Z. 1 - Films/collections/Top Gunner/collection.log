@@ -1,0 +1,66 @@
+[2022-10-11 09:27:00,578] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 09:27:00,578] [builder.py:197]            [INFO]     |                               Top Gunner Collection in Z. 1 - Films                                |
+[2022-10-11 09:27:00,578] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 09:27:00,579] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 09:27:00,579] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 09:27:00,579] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:27:00,579] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 09:27:00,580] [meta.py:129]               [DEBUG]    | Call: {'value': ['986568'], 'tmdb_collection': ['986568'], 'key_name': 'Top Gunner', 'key': '986568', 'name': 'my_template'} |
+[2022-10-11 09:27:00,580] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:27:00,580] [meta.py:305]               [DEBUG]    | Variables: {'value': ['986568'], 'tmdb_collection': ['986568'], 'key_name': 'Top Gunner', 'key': '986568', 'name': 'my_template', 'collection_name': 'Top Gunner', 'mapping_name': 'Top Gunner', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%27986568%27%5D', 'tmdb_collection_encoded': '%5B%27986568%27%5D', 'key_name_encoded': 'Top%20Gunner', 'key_encoded': '986568', 'name_encoded': 'my_template', 'collection_name_encoded': 'Top%20Gunner', 'mapping_name_encoded': 'Top%20Gunner', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Top Gunner'} |
+[2022-10-11 09:27:00,580] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:27:00,580] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 09:27:00,581] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:27:00,581] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 09:27:00,582] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:27:00,582] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['986568'], 'collection_order': 'release', 'collection_mode': 'hide_items'} |
+[2022-10-11 09:27:00,582] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:27:00,582] [builder.py:219]            [INFO]     |================================= Validating Top Gunner Attributes =================================|
+[2022-10-11 09:27:00,583] [builder.py:609]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:27:00,583] [builder.py:610]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 09:27:00,583] [builder.py:611]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 09:27:00,583] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:27:00,583] [builder.py:631]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 09:27:00,584] [builder.py:632]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 09:27:00,584] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:27:00,584] [builder.py:631]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 09:27:00,584] [builder.py:632]            [DEBUG]    | Value: ['986568']                                                                                  |
+[2022-10-11 09:27:00,600] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:27:00,600] [builder.py:631]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 09:27:00,601] [builder.py:632]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 09:27:00,606] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:27:00,607] [plex.py:793]               [DEBUG]    | Looking for: Top Gunner                                                                            |
+[2022-10-11 09:27:00,607] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 09:27:00,607] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 09:27:00,607] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 09:27:00,608] [plex_meta_manager.py:563]  [INFO]     |================================== Running Top Gunner Collection ===================================|
+[2022-10-11 09:27:00,608] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 09:27:00,608] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 09:27:00,608] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 09:27:00,608] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 986568                                                                   |
+[2022-10-11 09:27:00,609] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 09:27:00,614] [tmdb.py:382]               [INFO]     | Processing TMDb Collection: (986568) Top Gunner Collection (2 Items)                               |
+[2022-10-11 09:27:00,614] [builder.py:1540]           [DEBUG]    |                                                                                                    |
+[2022-10-11 09:27:00,614] [builder.py:1541]           [DEBUG]    | 2 IDs Found: [(714351, 'tmdb'), (980083, 'tmdb')]                                                  |
+[2022-10-11 09:27:00,614] [builder.py:1542]           [DEBUG]    |                                                                                                    |
+[2022-10-11 09:27:00,614] [builder.py:2064]           [INFO]     |                                                                                                    |
+[2022-10-11 09:27:00,615] [builder.py:2065]           [INFO]     |================================= Adding to Top Gunner Collection ==================================|
+[2022-10-11 09:27:00,615] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-11 09:27:00,615] [builder.py:2080]           [INFO]     | 1/2 | Top Gunner Collection | + | Top Gunner : Le Choc de deux nations (2020)                      |
+[2022-10-11 09:27:00,839] [builder.py:2080]           [INFO]     | 2/2 | Top Gunner Collection | + | Top Gunner: Danger Zone (2022)                                   |
+[2022-10-11 09:27:03,976] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-11 09:27:03,976] [builder.py:2102]           [INFO]     | 2 Movies Processed 2 Movies Added                                                                  |
+[2022-10-11 09:27:03,985] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-11 09:27:03,985] [builder.py:2442]           [INFO]     |============================ Updating Details of Top Gunner Collection =============================|
+[2022-10-11 09:27:03,986] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-11 09:27:04,154] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Label | +TMDb Collections, +PMM
+[2022-10-11 09:27:04,372] [builder.py:2513]           [INFO]     | Details: have been updated
+[2022-10-11 09:27:04,372] [builder.py:2517]           [INFO]     | 
+[2022-10-11 09:27:04,554] [builder.py:2529]           [INFO]     | Collection Mode | hideItems
+[2022-10-11 09:27:04,555] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Top Gunner'
+[2022-10-11 09:27:04,738] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-11 09:27:04,739] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 09:27:04,739] [plex_meta_manager.py:709]  [INFO]     |                                   Finished Top Gunner Collection                                   |
+[2022-10-11 09:27:04,739] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:04                                    |
+[2022-10-11 09:27:04,740] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

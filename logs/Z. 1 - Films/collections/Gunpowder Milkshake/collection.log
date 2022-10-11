@@ -1,0 +1,58 @@
+[2022-10-11 09:14:05,145] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 09:14:05,145] [builder.py:197]            [INFO]     |                           Gunpowder Milkshake Collection in Z. 1 - Films                           |
+[2022-10-11 09:14:05,146] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 09:14:05,146] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 09:14:05,146] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 09:14:05,146] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:14:05,146] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 09:14:05,146] [meta.py:129]               [DEBUG]    | Call: {'value': ['848375'], 'tmdb_collection': ['848375'], 'key_name': 'Gunpowder Milkshake', 'key': '848375', 'name': 'my_template'} |
+[2022-10-11 09:14:05,146] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:14:05,147] [meta.py:305]               [DEBUG]    | Variables: {'value': ['848375'], 'tmdb_collection': ['848375'], 'key_name': 'Gunpowder Milkshake', 'key': '848375', 'name': 'my_template', 'collection_name': 'Gunpowder Milkshake', 'mapping_name': 'Gunpowder Milkshake', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%27848375%27%5D', 'tmdb_collection_encoded': '%5B%27848375%27%5D', 'key_name_encoded': 'Gunpowder%20Milkshake', 'key_encoded': '848375', 'name_encoded': 'my_template', 'collection_name_encoded': 'Gunpowder%20Milkshake', 'mapping_name_encoded': 'Gunpowder%20Milkshake', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Gunpowder Milkshake'} |
+[2022-10-11 09:14:05,147] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:14:05,147] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 09:14:05,147] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:14:05,147] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 09:14:05,148] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:14:05,148] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['848375'], 'collection_order': 'release', 'collection_mode': 'hide_items'} |
+[2022-10-11 09:14:05,148] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:14:05,148] [builder.py:219]            [INFO]     |============================ Validating Gunpowder Milkshake Attributes =============================|
+[2022-10-11 09:14:05,148] [builder.py:609]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:14:05,148] [builder.py:610]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 09:14:05,149] [builder.py:611]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 09:14:05,149] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:14:05,149] [builder.py:631]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 09:14:05,149] [builder.py:632]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 09:14:05,149] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:14:05,149] [builder.py:631]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 09:14:05,149] [builder.py:632]            [DEBUG]    | Value: ['848375']                                                                                  |
+[2022-10-11 09:14:05,159] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:14:05,159] [builder.py:631]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 09:14:05,159] [builder.py:632]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 09:14:05,165] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:14:05,165] [plex.py:793]               [DEBUG]    | Looking for: Gunpowder Milkshake                                                                   |
+[2022-10-11 09:14:05,165] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 09:14:05,165] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 09:14:05,165] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 09:14:05,165] [plex_meta_manager.py:563]  [INFO]     |============================== Running Gunpowder Milkshake Collection ==============================|
+[2022-10-11 09:14:05,166] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 09:14:05,166] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 09:14:05,166] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 09:14:05,166] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 848375                                                                   |
+[2022-10-11 09:14:05,166] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 09:14:05,171] [tmdb.py:382]               [INFO]     | Processing TMDb Collection: (848375) Bloody Milkshake - Saga (2 Items)                             |
+[2022-10-11 09:14:05,171] [builder.py:1540]           [DEBUG]    |                                                                                                    |
+[2022-10-11 09:14:05,171] [builder.py:1541]           [DEBUG]    | 2 IDs Found: [(574060, 'tmdb'), (848371, 'tmdb')]                                                  |
+[2022-10-11 09:14:05,171] [builder.py:1542]           [DEBUG]    |                                                                                                    |
+[2022-10-11 09:14:05,171] [builder.py:2228]           [INFO]     |                                                                                                    |
+[2022-10-11 09:14:05,172] [builder.py:2229]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-10-11 09:14:05,172] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-10-11 09:14:05,185] [builder.py:2243]           [INFO]     | Gunpowder Milkshake Collection | ? | Gunpowder Milkshake 2 (TMDb: 848371)                          |
+[2022-10-11 09:14:05,185] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-10-11 09:14:05,185] [builder.py:2249]           [INFO]     | 1 Movie Missing                                                                                    |
+[2022-10-11 09:14:07,600] [plex_meta_manager.py:624]  [INFO]     |                                                                                                    |
+[2022-10-11 09:14:07,600] [plex_meta_manager.py:625]  [INFO]     | Collection Minimum: 2 not met for Gunpowder Milkshake Collection                                   |
+[2022-10-11 09:14:07,601] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 09:14:07,601] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 09:14:07,601] [plex_meta_manager.py:709]  [INFO]     |                              Finished Gunpowder Milkshake Collection                               |
+[2022-10-11 09:14:07,601] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-10-11 09:14:07,601] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

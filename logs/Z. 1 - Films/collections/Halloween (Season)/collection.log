@@ -1,0 +1,40 @@
+[2022-09-29 07:50:49,964] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-09-29 07:50:49,964] [builder.py:197]            [INFO]     |                               Halloween. Collection in Z. 1 - Films                                |
+[2022-09-29 07:50:49,965] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-09-29 07:50:49,965] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-09-29 07:50:49,965] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-09-29 07:50:49,965] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-09-29 07:50:49,965] [meta.py:128]               [DEBUG]    | Template Other Genre                                                                               |
+[2022-09-29 07:50:49,965] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Other Genre')])                                                       |
+[2022-09-29 07:50:49,966] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-09-29 07:50:49,966] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Other Genre'), ('collection_name', 'Halloween.'), ('mapping_name', 'Halloween.'), ('library_type', 'movie'), ('library_name', 'Z. 1 - Films'), ('name_encoded', 'Other%20Genre'), ('collection_name_encoded', 'Halloween.'), ('mapping_name_encoded', 'Halloween.'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%201%20-%20Films'), ('collection_sort', 'Halloween.')]) |
+[2022-09-29 07:50:49,966] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-09-29 07:50:49,966] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-09-29 07:50:49,966] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-09-29 07:50:49,966] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-09-29 07:50:49,967] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-09-29 07:50:49,967] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+3_Halloween.', 'sync_mode': 'sync', 'smart_label': 'random'} |
+[2022-09-29 07:50:49,967] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-09-29 07:50:49,967] [builder.py:219]            [INFO]     |================================= Validating Halloween. Attributes =================================|
+[2022-09-29 07:50:49,967] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-09-29 07:50:49,968] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-09-29 07:50:49,968] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-09-29 07:50:49,968] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-09-29 07:50:49,968] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-09-29 07:50:49,968] [builder.py:544]            [DEBUG]    | Value: random                                                                                      |
+[2022-09-29 07:50:49,972] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 07:50:49,972] [builder.py:631]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-09-29 07:50:49,972] [builder.py:632]            [DEBUG]    | Value: ['https://trakt.tv/users/kairbear08/lists/halloween', 'https://trakt.tv/users/mybicycle/lists/halloween', 'https://trakt.tv/users/jayinftl/lists/halloween', 'https://trakt.tv/users/roswellgeek/lists/halloween'] |
+[2022-09-29 07:50:49,973] [plex_meta_manager.py:696]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 559, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str)
+                                                                 |   File "/modules/builder.py", line 641, in __init__
+                                                                 |     raise Failed(f"{self.Type} Error: {method_final} requires Trakt to be configured")
+                                                                 | modules.util.Failed: Collection Error: trakt_list requires Trakt to be configured
+                                                                 | 
+[2022-09-29 07:50:49,974] [plex_meta_manager.py:697]  [ERROR]    | Collection Error: trakt_list requires Trakt to be configured
+[2022-09-29 07:50:49,974] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-09-29 07:50:49,975] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-09-29 07:50:49,975] [plex_meta_manager.py:709]  [INFO]     |                                   Finished Halloween. Collection                                   |
+[2022-09-29 07:50:49,975] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-09-29 07:50:49,975] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

@@ -1,0 +1,85 @@
+[2022-10-11 10:15:53,523] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 10:15:53,523] [builder.py:197]            [INFO]     |                         Studio Ghibli Collection in Z. 5 - Film Animation                          |
+[2022-10-11 10:15:53,523] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 10:15:53,524] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 10:15:53,524] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 10:15:53,524] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:15:53,524] [meta.py:128]               [DEBUG]    | Template Studio                                                                                    |
+[2022-10-11 10:15:53,524] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Studio'), ('studio', 'Studio Ghibli')])                               |
+[2022-10-11 10:15:53,525] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:15:53,525] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Studio'), ('studio', 'Studio Ghibli'), ('collection_name', 'Studio Ghibli'), ('mapping_name', 'Studio Ghibli'), ('library_type', 'movie'), ('library_name', 'Z. 5 - Film Animation'), ('name_encoded', 'Studio'), ('studio_encoded', 'Studio%20Ghibli'), ('collection_name_encoded', 'Studio%20Ghibli'), ('mapping_name_encoded', 'Studio%20Ghibli'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%205%20-%20Film%20Animation'), ('collection_sort', 'Studio Ghibli')]) |
+[2022-10-11 10:15:53,525] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:15:53,525] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 10:15:53,525] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:15:53,525] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 10:15:53,526] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:15:53,527] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'plex_search': {'studio': 'Studio Ghibli'}, 'sort_title': '+12_Studio Ghibli', 'collection_order': 'alpha'} |
+[2022-10-11 10:15:53,527] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:15:53,527] [builder.py:219]            [INFO]     |=============================== Validating Studio Ghibli Attributes ================================|
+[2022-10-11 10:15:53,527] [builder.py:609]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:15:53,527] [builder.py:610]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 10:15:53,527] [builder.py:611]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-10-11 10:15:53,528] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:15:53,528] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-11 10:15:53,528] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/STUDIO_GHIBLI.png             |
+[2022-10-11 10:15:53,689] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:15:53,690] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-10-11 10:15:53,690] [builder.py:632]            [DEBUG]    | Value: Studio Ghibli Inc. is a Japanese animation film studio headquartered in Koganei, Tokyo. The studio is best known for its animated feature films, and has also produced several short films, television commercials, and one television film. The studio’s mascot and most recognizable symbol is the character, Totoro, a giant cat-like spirit from the 1988 classic, My Neighbor Totoro. |
+[2022-10-11 10:15:53,690] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:15:53,690] [builder.py:631]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-10-11 10:15:53,691] [builder.py:632]            [DEBUG]    | Value: {'studio': 'Studio Ghibli'}                                                                 |
+[2022-10-11 10:15:53,691] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:15:53,691] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 10:15:53,691] [builder.py:632]            [DEBUG]    | Value: +12_Studio Ghibli                                                                           |
+[2022-10-11 10:15:53,864] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 10:15:53,864] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 10:15:53,865] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 10:15:53,865] [plex_meta_manager.py:563]  [INFO]     |================================= Running Studio Ghibli Collection =================================|
+[2022-10-11 10:15:53,865] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 10:15:53,865] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 10:15:53,865] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 10:15:53,865] [plex_meta_manager.py:580]  [DEBUG]    | Builder: plex_search: (1, 'Plex Movie Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Studio contains Studio Ghibli', '?type=1&sort=titleSort&push=1&studio=Studio%20Ghibli&pop=1') |
+[2022-10-11 10:15:53,866] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 10:15:53,866] [plex.py:819]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: title.asc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Match any of the following:
+                                                                 |       Studio contains Studio Ghibli
+[2022-10-11 10:15:53,912] [plex.py:864]               [DEBUG]    | 
+[2022-10-11 10:15:53,912] [plex.py:865]               [DEBUG]    | 8 Keys Found: [(7421, 'ratingKey'), (7437, 'ratingKey'), (7476, 'ratingKey'), (7469, 'ratingKey'), (7465, 'ratingKey'), (7481, 'ratingKey'), (7407, 'ratingKey'), (7408, 'ratingKey')]
+[2022-10-11 10:15:53,913] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 10:15:53,913] [builder.py:1541]           [DEBUG]    | 8 IDs Found: [(7421, 'ratingKey'), (7437, 'ratingKey'), (7476, 'ratingKey'), (7469, 'ratingKey'), (7465, 'ratingKey'), (7481, 'ratingKey'), (7407, 'ratingKey'), (7408, 'ratingKey')]
+[2022-10-11 10:15:53,913] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 10:15:53,913] [builder.py:2064]           [INFO]     | 
+[2022-10-11 10:15:53,914] [builder.py:2065]           [INFO]     |================================ Adding to Studio Ghibli Collection ================================|
+[2022-10-11 10:15:53,914] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-11 10:15:53,914] [builder.py:2080]           [INFO]     | 1/8 | Studio Ghibli Collection | = | La Colline aux Coquelicots (2011)                             |
+[2022-10-11 10:15:53,914] [builder.py:2080]           [INFO]     | 2/8 | Studio Ghibli Collection | = | Le Tombeau des Lucioles (1988)                                |
+[2022-10-11 10:15:53,914] [builder.py:2080]           [INFO]     | 3/8 | Studio Ghibli Collection | = | Le Voyage de Chihiro (2001)                                   |
+[2022-10-11 10:15:53,915] [builder.py:2080]           [INFO]     | 4/8 | Studio Ghibli Collection | = | Les Contes de Terremer (2006)                                 |
+[2022-10-11 10:15:53,915] [builder.py:2080]           [INFO]     | 5/8 | Studio Ghibli Collection | = | Mes voisins les Yamada (1999)                                 |
+[2022-10-11 10:15:53,915] [builder.py:2080]           [INFO]     | 6/8 | Studio Ghibli Collection | = | Pompoko (1994)                                                |
+[2022-10-11 10:15:53,915] [builder.py:2080]           [INFO]     | 7/8 | Studio Ghibli Collection | = | Porco Rosso (1992)                                            |
+[2022-10-11 10:15:53,915] [builder.py:2080]           [INFO]     | 8/8 | Studio Ghibli Collection | = | Souvenirs goutte à goutte (1991)                              |
+[2022-10-11 10:15:53,915] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-11 10:15:53,916] [builder.py:2102]           [INFO]     | 8 Movies Processed 0 Movies Added                                                                  |
+[2022-10-11 10:15:53,922] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-11 10:15:53,922] [builder.py:2442]           [INFO]     |=========================== Updating Details of Studio Ghibli Collection ===========================|
+[2022-10-11 10:15:53,922] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-11 10:15:54,198] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Studio Ghibli Inc. is a Japanese animation film studio headquartered in Koganei, Tokyo. The studio is best known for its animated feature films, and has also produced several short films, television commercials, and one television film. The studio’s mascot and most recognizable symbol is the character, Totoro, a giant cat-like spirit from the 1988 classic, My Neighbor Totoro.
+                                                                 | Sort Title | +12_Studio Ghibli
+                                                                 | Label | +PMM
+[2022-10-11 10:15:54,488] [builder.py:2513]           [INFO]     | Details: have been updated
+[2022-10-11 10:15:54,488] [builder.py:2517]           [INFO]     | 
+[2022-10-11 10:15:54,769] [builder.py:2540]           [INFO]     | Collection Order | alpha
+[2022-10-11 10:15:54,769] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Studio Ghibli'
+[2022-10-11 10:15:54,769] [util.py:150]               [DEBUG]    | 1 poster found:
+[2022-10-11 10:15:54,770] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/STUDIO_GHIBLI.png
+[2022-10-11 10:15:54,820] [library.py:170]            [INFO]     | Detail: url_poster updated poster to [URL] https://raw.githubusercontent.com/MonsieurZed/poster/main/img/STUDIO_GHIBLI.png
+[2022-10-11 10:15:55,016] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-11 10:15:55,016] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 10:15:55,016] [plex_meta_manager.py:709]  [INFO]     |                                 Finished Studio Ghibli Collection                                  |
+[2022-10-11 10:15:55,016] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:01                                    |
+[2022-10-11 10:15:55,016] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

@@ -1,0 +1,113 @@
+[2022-10-11 09:53:27,893] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 09:53:27,894] [builder.py:197]            [INFO]     |                          Top ZedFlix Collection in Z. 5 - Film Animation                           |
+[2022-10-11 09:53:27,894] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 09:53:27,894] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 09:53:27,894] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 09:53:27,894] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:53:27,895] [meta.py:128]               [DEBUG]    | Template Chart                                                                                     |
+[2022-10-11 09:53:27,895] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Chart'), ('num', 1)])                                                 |
+[2022-10-11 09:53:27,895] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:53:27,895] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Chart'), ('num', 1), ('collection_name', 'Top ZedFlix'), ('mapping_name', 'Top ZedFlix'), ('library_type', 'movie'), ('library_name', 'Z. 5 - Film Animation'), ('name_encoded', 'Chart'), ('num_encoded', '1'), ('collection_name_encoded', 'Top%20ZedFlix'), ('mapping_name_encoded', 'Top%20ZedFlix'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%205%20-%20Film%20Animation'), ('collection_sort', 'Top ZedFlix')]) |
+[2022-10-11 09:53:27,896] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:53:27,896] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 09:53:27,896] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:53:27,896] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 09:53:27,897] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:53:27,897] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+1_1Top ZedFlix', 'sync_mode': 'sync'}                  |
+[2022-10-11 09:53:27,897] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:53:27,897] [builder.py:219]            [INFO]     |================================ Validating Top ZedFlix Attributes =================================|
+[2022-10-11 09:53:27,898] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:53:27,898] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-11 09:53:27,898] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-11 09:53:27,898] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:53:27,898] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-11 09:53:27,899] [builder.py:544]            [DEBUG]    | Value: plays.asc                                                                                   |
+[2022-10-11 09:53:27,941] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:53:27,941] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-11 09:53:27,941] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/TOP_PLEX.png                  |
+[2022-10-11 09:53:28,104] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:53:28,104] [builder.py:631]            [DEBUG]    | Validating Method: tautulli_popular                                                                |
+[2022-10-11 09:53:28,104] [builder.py:632]            [DEBUG]    | Value: ordereddict([('list_days', 60), ('list_size', 30), ('list_buffer', 30)])                    |
+[2022-10-11 09:53:28,105] [util.py:745]               [WARNING]  | Collection Warning: tautulli_popular list_minimum attribute not found using 0 as default           |
+[2022-10-11 09:53:28,105] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:53:28,105] [builder.py:631]            [DEBUG]    | Validating Method: tautulli_watched                                                                |
+[2022-10-11 09:53:28,105] [builder.py:632]            [DEBUG]    | Value: ordereddict([('list_days', 60), ('list_size', 30), ('list_buffer', 30)])                    |
+[2022-10-11 09:53:28,106] [util.py:745]               [WARNING]  | Collection Warning: tautulli_watched list_minimum attribute not found using 0 as default           |
+[2022-10-11 09:53:28,106] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:53:28,106] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-10-11 09:53:28,106] [builder.py:632]            [DEBUG]    | Value: Movies Popular on ZedFlix                                                                   |
+[2022-10-11 09:53:28,106] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:53:28,107] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 09:53:28,107] [builder.py:632]            [DEBUG]    | Value: +1_1Top ZedFlix                                                                             |
+[2022-10-11 09:53:28,112] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:53:28,112] [plex.py:793]               [DEBUG]    | Looking for: Top ZedFlix                                                                           |
+[2022-10-11 09:53:28,112] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 09:53:28,113] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 09:53:28,113] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 09:53:28,113] [plex_meta_manager.py:563]  [INFO]     |================================== Running Top ZedFlix Collection ==================================|
+[2022-10-11 09:53:28,113] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-10-11 09:53:28,113] [plex_meta_manager.py:570]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: plays.asc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Top ZedFlix
+[2022-10-11 09:53:28,114] [plex_meta_manager.py:575]  [INFO]     | 
+[2022-10-11 09:53:28,114] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync
+[2022-10-11 09:53:28,114] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 09:53:28,115] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tautulli_popular: {'list_type': 'popular', 'list_days': 60, 'list_size': 30, 'list_buffer': 30, 'list_minimum': 0}
+[2022-10-11 09:53:28,115] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 09:53:28,115] [tautulli.py:28]            [INFO]     | Processing Tautulli Most Popular: 30 Movies
+[2022-10-11 09:53:29,088] [tautulli.py:57]            [ERROR]    | Plex Error: Item not found {'title': 'Les Minions 2 : Il était une fois Gru', 'year': 2022, 'users_watched': 3, 'rating_key': 74777, 'grandparent_rating_key': '', 'last_play': 1662066946, 'total_plays': 3, 'grandparent_thumb': '', 'thumb': '/library/metadata/74777/thumb/1660402746', 'art': '/library/metadata/74777/art/1660402746', 'section_id': 8, 'media_type': 'movie', 'content_rating': 'PG', 'labels': [], 'user': '', 'friendly_name': '', 'platform': '', 'live': 0, 'guid': 'plex://movie/5d776cab47dd6e001f6edfa2', 'row_id': 990}
+[2022-10-11 09:53:29,103] [tautulli.py:57]            [ERROR]    | Plex Error: Item not found {'title': 'Les Minions 2 - Il était une fois Gru', 'year': 2022, 'users_watched': 2, 'rating_key': 74777, 'grandparent_rating_key': '', 'last_play': 1663358061, 'total_plays': 4, 'grandparent_thumb': '', 'thumb': '/library/metadata/74777/thumb/1663125965', 'art': '/library/metadata/74777/art/1663125965', 'section_id': 8, 'media_type': 'movie', 'content_rating': 'PG', 'labels': [], 'user': '', 'friendly_name': '', 'platform': '', 'live': 0, 'guid': 'plex://movie/5d776cab47dd6e001f6edfa2', 'row_id': 1420}
+[2022-10-11 09:53:29,116] [tautulli.py:57]            [ERROR]    | Plex Error: Item not found {'title': 'Le Règne des Supermen', 'year': 2019, 'users_watched': 2, 'rating_key': 77584, 'grandparent_rating_key': '', 'last_play': 1662194535, 'total_plays': 4, 'grandparent_thumb': '', 'thumb': '/library/metadata/77584/thumb/1660874533', 'art': '/library/metadata/77584/art/1660874533', 'section_id': 8, 'media_type': 'movie', 'content_rating': 'PG-13', 'labels': [], 'user': '', 'friendly_name': '', 'platform': '', 'live': 0, 'guid': 'plex://movie/5d776d85594b2b001e70b1a1', 'row_id': 1013}
+[2022-10-11 09:53:29,813] [tautulli.py:58]            [DEBUG]    | 
+[2022-10-11 09:53:29,813] [tautulli.py:59]            [DEBUG]    | 8 Keys Found: [(13665, 'ratingKey'), (21633, 'ratingKey'), (83039, 'ratingKey'), (88810, 'ratingKey'), (88681, 'ratingKey'), (88707, 'ratingKey'), (88782, 'ratingKey'), (88523, 'ratingKey')]
+[2022-10-11 09:53:29,813] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 09:53:29,814] [builder.py:1541]           [DEBUG]    | 8 IDs Found: [(13665, 'ratingKey'), (21633, 'ratingKey'), (83039, 'ratingKey'), (88810, 'ratingKey'), (88681, 'ratingKey'), (88707, 'ratingKey'), (88782, 'ratingKey'), (88523, 'ratingKey')]
+[2022-10-11 09:53:29,814] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 09:53:29,815] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 09:53:29,815] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tautulli_watched: {'list_type': 'watched', 'list_days': 60, 'list_size': 30, 'list_buffer': 30, 'list_minimum': 0}
+[2022-10-11 09:53:29,815] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 09:53:29,815] [tautulli.py:28]            [INFO]     | Processing Tautulli Most Watched: 30 Movies
+[2022-10-11 09:53:29,975] [tautulli.py:57]            [ERROR]    | Plex Error: Item not found {'title': 'Les Minions 2 - Il était une fois Gru', 'year': 2022, 'total_plays': 4, 'total_duration': 13201, 'users_watched': '', 'rating_key': 74777, 'grandparent_rating_key': '', 'last_play': 1663358061, 'grandparent_thumb': '', 'thumb': '/library/metadata/74777/thumb/1663125965', 'art': '/library/metadata/74777/art/1663125965', 'section_id': 8, 'media_type': 'movie', 'content_rating': 'PG', 'labels': [], 'user': '', 'friendly_name': '', 'platform': '', 'live': 0, 'guid': 'plex://movie/5d776cab47dd6e001f6edfa2', 'row_id': 1420}
+[2022-10-11 09:53:30,012] [tautulli.py:57]            [ERROR]    | Plex Error: Item not found {'title': 'Le Règne des Supermen', 'year': 2019, 'total_plays': 4, 'total_duration': 16448, 'users_watched': '', 'rating_key': 77584, 'grandparent_rating_key': '', 'last_play': 1662194535, 'grandparent_thumb': '', 'thumb': '/library/metadata/77584/thumb/1660874533', 'art': '/library/metadata/77584/art/1660874533', 'section_id': 8, 'media_type': 'movie', 'content_rating': 'PG-13', 'labels': [], 'user': '', 'friendly_name': '', 'platform': '', 'live': 0, 'guid': 'plex://movie/5d776d85594b2b001e70b1a1', 'row_id': 1013}
+[2022-10-11 09:53:30,056] [tautulli.py:57]            [ERROR]    | Plex Error: Item not found {'title': 'Les Minions 2 : Il était une fois Gru', 'year': 2022, 'total_plays': 3, 'total_duration': 12526, 'users_watched': '', 'rating_key': 74777, 'grandparent_rating_key': '', 'last_play': 1662066946, 'grandparent_thumb': '', 'thumb': '/library/metadata/74777/thumb/1660402746', 'art': '/library/metadata/74777/art/1660402746', 'section_id': 8, 'media_type': 'movie', 'content_rating': 'PG', 'labels': [], 'user': '', 'friendly_name': '', 'platform': '', 'live': 0, 'guid': 'plex://movie/5d776cab47dd6e001f6edfa2', 'row_id': 990}
+[2022-10-11 09:53:31,585] [tautulli.py:58]            [DEBUG]    | 
+[2022-10-11 09:53:31,585] [tautulli.py:59]            [DEBUG]    | 8 Keys Found: [(88707, 'ratingKey'), (13665, 'ratingKey'), (88782, 'ratingKey'), (88523, 'ratingKey'), (21633, 'ratingKey'), (83039, 'ratingKey'), (88613, 'ratingKey'), (88579, 'ratingKey')]
+[2022-10-11 09:53:31,585] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 09:53:31,586] [builder.py:1541]           [DEBUG]    | 8 IDs Found: [(88707, 'ratingKey'), (13665, 'ratingKey'), (88782, 'ratingKey'), (88523, 'ratingKey'), (21633, 'ratingKey'), (83039, 'ratingKey'), (88613, 'ratingKey'), (88579, 'ratingKey')]
+[2022-10-11 09:53:31,586] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 09:53:31,586] [builder.py:2064]           [INFO]     | 
+[2022-10-11 09:53:31,586] [builder.py:2065]           [INFO]     |================================= Adding to Top ZedFlix Collection =================================|
+[2022-10-11 09:53:31,586] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-11 09:53:31,599] [builder.py:2080]           [INFO]     |  1/10 | Top ZedFlix Collection | + | Encanto, la fantastique famille Madrigal (2021)               |
+[2022-10-11 09:53:32,014] [builder.py:2080]           [INFO]     |  2/10 | Top ZedFlix Collection | + | Hercule (1997)                                                |
+[2022-10-11 09:53:32,497] [builder.py:2080]           [INFO]     |  3/10 | Top ZedFlix Collection | + | Les Minions (2015)                                            |
+[2022-10-11 09:53:32,793] [builder.py:2080]           [INFO]     |  4/10 | Top ZedFlix Collection | + | Buzz l'Éclair (2022)                                          |
+[2022-10-11 09:53:33,423] [builder.py:2080]           [INFO]     |  5/10 | Top ZedFlix Collection | + | Superman: Red Son (2020)                                      |
+[2022-10-11 09:53:34,265] [builder.py:2080]           [INFO]     |  6/10 | Top ZedFlix Collection | + | La Mort et le Retour de Superman (2019)                       |
+[2022-10-11 09:53:35,122] [builder.py:2080]           [INFO]     |  7/10 | Top ZedFlix Collection | + | Batman : The Long Halloween 1ère Partie (2021)                |
+[2022-10-11 09:53:35,942] [builder.py:2080]           [INFO]     |  8/10 | Top ZedFlix Collection | + | Injustice (2021)                                              |
+[2022-10-11 09:53:36,519] [builder.py:2080]           [INFO]     |  9/10 | Top ZedFlix Collection | + | Justice League Dark (2017)                                    |
+[2022-10-11 09:53:36,957] [builder.py:2080]           [INFO]     | 10/10 | Top ZedFlix Collection | + | All-Star Superman (2011)                                      |
+[2022-10-11 09:53:37,399] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-11 09:53:37,399] [builder.py:2102]           [INFO]     | 10 Movies Processed 10 Movies Added                                                                |
+[2022-10-11 09:53:37,414] [plex.py:711]               [DEBUG]    | Smart Collection Test: ?type=1&sort=viewCount&label=213546                                         |
+[2022-10-11 09:53:37,494] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-11 09:53:37,494] [builder.py:2442]           [INFO]     |============================ Updating Details of Top ZedFlix Collection ============================|
+[2022-10-11 09:53:37,495] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-11 09:53:37,767] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Movies Popular on ZedFlix
+                                                                 | Sort Title | +1_1Top ZedFlix
+                                                                 | Label | +PMM
+[2022-10-11 09:53:38,051] [builder.py:2513]           [INFO]     | Details: have been updated
+[2022-10-11 09:53:38,051] [builder.py:2517]           [INFO]     | 
+[2022-10-11 09:53:38,052] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Top ZedFlix'
+[2022-10-11 09:53:38,052] [util.py:150]               [DEBUG]    | 1 poster found:
+[2022-10-11 09:53:38,052] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/TOP_PLEX.png
+[2022-10-11 09:53:38,110] [library.py:170]            [INFO]     | Detail: url_poster updated poster to [URL] https://raw.githubusercontent.com/MonsieurZed/poster/main/img/TOP_PLEX.png
+[2022-10-11 09:53:38,189] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-11 09:53:38,190] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 09:53:38,190] [plex_meta_manager.py:709]  [INFO]     |                                  Finished Top ZedFlix Collection                                   |
+[2022-10-11 09:53:38,190] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:10                                    |
+[2022-10-11 09:53:38,190] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
