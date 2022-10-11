@@ -1,7 +1,7 @@
 templates:
   Holiday:    
     delete_not_scheduled: true
-    sort_title: +4_<<collection_name>>
+    sort_title: +A4_<<collection_name>>
     run_again: true
     visible_home: true
     visible_shared: true

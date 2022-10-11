@@ -3,14 +3,14 @@
 libraries: # Library mappings must have a colon (:) placed after them
   Z. 1 - Films:
     metadata_path:
-      - file: config/movie_1_chart.yml
-      - file: config/movie_2_top_of.yml
-      - file: config/movie_3_genre.yml
-      - file: config/movie_4_holiday.yml
-      - file: config/movie_5_origin.yml
-      - file: config/movie_20_dynamic.yml
-      - file: config/all_11_network.yml
-      - file: config/all_12_studio.yml
+      - file: config/movies_A1_chart.yml
+      - file: config/movies_A2_top_of.yml
+      - file: config/movies_A3_genre.yml
+      - file: config/movies_A4_holiday.yml
+      - file: config/movies_A5_origin.yml
+      - file: config/movies_C12_dynamic.yml
+      - file: config/all_B1_network.yml
+      - file: config/all_B2_studio.yml
     operations:
       mass_audience_rating_update: imdb
       mass_critic_rating_update: mdb_tomatoes
@@ -21,10 +21,10 @@ libraries: # Library mappings must have a colon (:) placed after them
 
   Z. 2 - Series:
     metadata_path:
-      - file: config/serie_1_chart.yml
-      - file: config/all_11_network.yml
-      - file: config/all_12_studio.yml
-      - file: config/movie_20_dynamic.yml
+      - file: config/tvshows_A1_chart.yml
+      - file: config/all_B1_network.yml
+      - file: config/all_B2_studio.yml
+      - file: config/movies_C12_dynamic.yml
     operations:
       mass_audience_rating_update: imdb
       mass_critic_rating_update: mdb_tomatoes
@@ -35,14 +35,14 @@ libraries: # Library mappings must have a colon (:) placed after them
 
   Z. 5 - Film Animation:
     metadata_path:
-      - file: config/movie_1_chart.yml
-      - file: config/movie_2_top_of.yml
-      - file: config/movie_3_genre.yml
-      - file: config/movie_4_holiday.yml
-      - file: config/movie_5_origin.yml
-      - file: config/movie_20_dynamic.yml
-      - file: config/all_11_network.yml
-      - file: config/all_12_studio.yml
+      - file: config/movies_A1_chart.yml
+      - file: config/movies_A2_top_of.yml
+      - file: config/movies_A3_genre.yml
+      - file: config/movies_A4_holiday.yml
+      - file: config/movies_A5_origin.yml
+      - file: config/movies_C12_dynamic.yml
+      - file: config/all_B1_network.yml
+      - file: config/all_B2_studio.yml
     operations:
       mass_audience_rating_update: imdb
       mass_critic_rating_update: mdb_tomatoes
@@ -53,10 +53,10 @@ libraries: # Library mappings must have a colon (:) placed after them
 
   Z. 6 - Series Animation:
     metadata_path:
-      - file: config/serie_1_chart.yml
-      - file: config/all_11_network.yml
-      - file: config/all_12_studio.yml
-      - file: config/movie_20_dynamic.yml
+      - file: config/tvshows_1_chart.yml
+      - file: config/all_B1_network.yml
+      - file: config/all_B2_studio.yml
+      - file: config/movies_C12_dynamic.yml
     operations:
       mass_audience_rating_update: imdb
       mass_critic_rating_update: mdb_tomatoes

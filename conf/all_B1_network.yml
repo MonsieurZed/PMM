@@ -1,10 +1,10 @@
 templates:
   Network:
-    sort_title: +11_<<collection_name>>
+    sort_title: +B1_<<collection_name>>
     smart_label: originally_available.desc
     sync_mode: sync
 
-collections: # CBS ABC
+collections:
   AMC:    
     template: {name: Network}
     imdb_list:
@@ -37,19 +37,12 @@ collections: # CBS ABC
     summary: All CANAL Originals
     url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/NETWORK_CANAL.png 
 
-  # FX: 
-  #   template: {name: Network}
-  #   imdb_list:
-  #     url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2000-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=1000&companies=co0777254
-  #   summary: All FX Originals
-  #   url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/NETWORK_FX.png  
-
-  AMC:    
+  Netflix:    
     template: {name: Network}
     imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2000-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=1000&companies=co0815501
-    summary: All AMC Originals
-    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/NETWORK_AMC.png 
+      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2000-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=1000&companies=co0144901
+    summary: All Netflix Originals
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/NETWORK_NETFLIX.png 
 
   HBO:
     template: {name: Network}
@@ -78,13 +71,6 @@ collections: # CBS ABC
     summary: All Paramount Originals
     url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/NETWORK_PARAMOUT.png 
 
-  # Peacock:    
-  #   template: {name: Network}
-  #   imdb_list:
-  #     url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2000-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=1000&companies=co0764707
-  #   summary: All Peacock Originals
-  #   url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/NETWORK_PEACOCK.png 
-
   Stan:    
     template: {name: Network}
     imdb_list:
@@ -99,4 +85,30 @@ collections: # CBS ABC
     summary: All Syfy Originals
     url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/NETWORK_SYFY.png 
 
+  # FX: 
+  #   template: {name: Network}
+  #   imdb_list:
+  #     url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2000-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=1000&companies=co0777254
+  #   summary: All FX Originals
+  #   url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/NETWORK_FX.png  
 
+  # Peacock:    
+  #   template: {name: Network}
+  #   imdb_list:
+  #     url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2000-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=1000&companies=co0764707
+  #   summary: All Peacock Originals
+  #   url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/NETWORK_PEACOCK.png 
+
+  # ABC:    
+  #   template: {name: Network}
+  #   imdb_list:
+  #     url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2000-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=1000&companies=co0894353
+  #   summary: All ABC Originals
+  #   url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/NETWORK_ABC.png 
+
+  # CBS:    
+  #   template: {name: Network}
+  #   imdb_list:
+  #     url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2000-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=1000&companies=co0070627
+  #   summary: All CBS Originals
+  #   url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/NETWORK_CBS.png 

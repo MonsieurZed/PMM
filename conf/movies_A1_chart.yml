@@ -1,6 +1,6 @@
 templates:
   Chart:
-    sort_title: +1_<<num>><<collection_name>>
+    sort_title: +A1_<<num>><<collection_name>>
     sync_mode: sync
 
 collections:
@@ -60,7 +60,7 @@ collections:
       - https://trakt.tv/users/pjcob/lists/2022-cannes
   
   Great Movies You May Have Never Heard Of:
-    template: { name: Chart }
+    template: { name: Chart , num: 6  }
     visible_home: true
     visible_shared: true
     trakt_list:
@@ -69,7 +69,7 @@ collections:
     url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/CHART_RADAR.png
 
   Reddit:
-    template: { name: Chart}
+    template: { name: Chartm , num: 6  }
     visible_home: true
     visible_shared: true
     trakt_list:

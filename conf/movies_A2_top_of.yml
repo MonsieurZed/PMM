@@ -1,6 +1,6 @@
 templates:
   Chart:
-    sort_title: +2_<<num>>DECADE of <<year>>
+    sort_title: +A2_<<num>>DECADE of <<year>>
     sync_mode: sync
     summary: Rotten Tomatoes DECADE Movies of <<year>>
     smart_label: audience_rating.desc

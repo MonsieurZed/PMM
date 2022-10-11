@@ -1,6 +1,6 @@
 templates:
   Country:
-    sort_title: +5_<<collection_name>>
+    sort_title: +A5_<<collection_name>>
     sync_mode: sync
     smart_label: audience_rating.desc
     plex_all: true

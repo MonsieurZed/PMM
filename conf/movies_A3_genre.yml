@@ -1,6 +1,6 @@
 templates:
   Genre:
-    sort_title: +3_<<collection_name>>
+    sort_title: +A3_<<collection_name>>
     sync_mode: sync
     smart_label: audience_rating.desc
 
@@ -144,7 +144,7 @@ collections:
       - https://trakt.tv/users/perossjr/lists/hacking-23555875
       - https://trakt.tv/users/vagnerr/lists/hacking-computing
     summary: Movies about hacking
-    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_HACKER.png
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_HACKING.png
 
 
   LGBT+:
@@ -361,7 +361,7 @@ collections:
       - https://trakt.tv/users/rockcrusher/lists/cars
       - https://trakt.tv/users/jagster101/lists/cars
     summary: Movies about Cars
-    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_SEA.png
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_CARS.png
 
   Drugs:
     template: { name: Genre}
@@ -386,7 +386,7 @@ collections:
       - https://trakt.tv/users/additup/lists/politics
       - https://trakt.tv/users/acrylamid/lists/political
     summary: Movies about Politics
-    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_DRUGS.png
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_POLITICS.png
  
   Youth:
     template: { name: Genre}
@@ -397,5 +397,5 @@ collections:
       - https://trakt.tv/users/holetariat/lists/rep-youth
       - https://trakt.tv/users/nachtfalter/lists/youth
     summary: Movies about Youth
-    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_DRUGS.png
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_YOUTH.png
 

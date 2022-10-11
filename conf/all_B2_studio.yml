@@ -3,7 +3,7 @@ templates:
     plex_search:
       studio: <<studio>>
     url_poster: <<poster>>
-    sort_title: +12_<<collection_name>>
+    sort_title: +B2_<<collection_name>>
     collection_order: alpha
 
 collections:

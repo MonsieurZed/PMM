@@ -4,7 +4,7 @@
 templates:
 
   Chart:
-    sort_title: +1_<<num>><<collection_name>>
+    sort_title: +A1_<<num>><<collection_name>>
     sync_mode: sync
     smart_label: random
 
@@ -51,4 +51,5 @@ collections:
     imdb_list: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&groups=emmy_winner
     summary: Emmy Winning Shows
     url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/WIN_EMMY.png
+  
   
