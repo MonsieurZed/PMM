@@ -1,0 +1,73 @@
+[2022-10-11 11:18:17,392] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:18:17,392] [builder.py:200]            [INFO]     |                                   300 Collection in Z. 1 - Films                                   |
+[2022-10-11 11:18:17,393] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:18:17,393] [builder.py:201]            [INFO]     |                                                                                                    |
+[2022-10-11 11:18:17,393] [builder.py:206]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:18:17,393] [builder.py:222]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:17,393] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:18:17,394] [meta.py:129]               [DEBUG]    | Call: {'value': ['125570'], 'tmdb_collection': ['125570'], 'key_name': '300', 'key': '125570', 'my_collection_poster': 'https://images.theposterdb.com/prod/public/images/posters/optimized/collections/5069/RIzoKxBGKQ2JGCGVFdzKymfmwkFzegv9hnDBbWSH.webp', 'name': 'my_template'} |
+[2022-10-11 11:18:17,394] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:17,394] [meta.py:305]               [DEBUG]    | Variables: {'value': ['125570'], 'tmdb_collection': ['125570'], 'key_name': '300', 'key': '125570', 'my_collection_poster': 'https://images.theposterdb.com/prod/public/images/posters/optimized/collections/5069/RIzoKxBGKQ2JGCGVFdzKymfmwkFzegv9hnDBbWSH.webp', 'name': 'my_template', 'collection_name': '300', 'mapping_name': '300', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%27125570%27%5D', 'tmdb_collection_encoded': '%5B%27125570%27%5D', 'key_name_encoded': '300', 'key_encoded': '125570', 'my_collection_poster_encoded': 'https%3A//images.theposterdb.com/prod/public/images/posters/optimized/collections/5069/RIzoKxBGKQ2JGCGVFdzKymfmwkFzegv9hnDBbWSH.webp', 'name_encoded': 'my_template', 'collection_name_encoded': '300', 'mapping_name_encoded': '300', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': '300'} |
+[2022-10-11 11:18:17,394] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:17,394] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:18:17,395] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:17,395] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:18:17,397] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:17,397] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['125570'], 'collection_order': 'release', 'url_poster': 'https://images.theposterdb.com/prod/public/images/posters/optimized/collections/5069/RIzoKxBGKQ2JGCGVFdzKymfmwkFzegv9hnDBbWSH.webp', 'collection_mode': 'hide_items', 'sort_title': '+C1_300'} |
+[2022-10-11 11:18:17,397] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:17,397] [builder.py:230]            [INFO]     |==================================== Validating 300 Attributes =====================================|
+[2022-10-11 11:18:17,398] [builder.py:620]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:17,398] [builder.py:621]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:18:17,398] [builder.py:622]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:18:17,398] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:17,398] [builder.py:657]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:18:17,399] [builder.py:658]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:18:17,399] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:17,399] [builder.py:657]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:18:17,399] [builder.py:658]            [DEBUG]    | Value: ['125570']                                                                                  |
+[2022-10-11 11:18:17,415] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:17,415] [builder.py:657]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-11 11:18:17,415] [builder.py:658]            [DEBUG]    | Value: https://images.theposterdb.com/prod/public/images/posters/optimized/collections/5069/RIzoKxBGKQ2JGCGVFdzKymfmwkFzegv9hnDBbWSH.webp |
+[2022-10-11 11:18:17,506] [builder.py:854]            [WARNING]  | Collection Warning: No Poster Found at https://images.theposterdb.com/prod/public/images/posters/optimized/collections/5069/RIzoKxBGKQ2JGCGVFdzKymfmwkFzegv9hnDBbWSH.webp |
+[2022-10-11 11:18:17,506] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:17,507] [builder.py:657]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:18:17,507] [builder.py:658]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:18:17,507] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:17,507] [builder.py:657]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:18:17,507] [builder.py:658]            [DEBUG]    | Value: +C1_300                                                                                     |
+[2022-10-11 11:18:17,702] [builder.py:823]            [INFO]     |                                                                                                    |
+[2022-10-11 11:18:17,702] [builder.py:824]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:18:17,702] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:17,702] [plex_meta_manager.py:563]  [INFO]     |====================================== Running 300 Collection ======================================|
+[2022-10-11 11:18:17,703] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:17,703] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:18:17,703] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:17,703] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 125570                                                                   |
+[2022-10-11 11:18:17,703] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:17,708] [tmdb.py:381]               [INFO]     | Processing TMDb Collection: (125570) 300 - Saga (2 Items)                                          |
+[2022-10-11 11:18:17,708] [builder.py:1581]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:17,708] [builder.py:1582]           [DEBUG]    | 2 IDs Found: [(1271, 'tmdb'), (53182, 'tmdb')]                                                     |
+[2022-10-11 11:18:17,708] [builder.py:1583]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:17,709] [builder.py:2132]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:17,709] [builder.py:2133]           [INFO]     |===================================== Adding to 300 Collection =====================================|
+[2022-10-11 11:18:17,709] [builder.py:2134]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:17,710] [builder.py:2148]           [INFO]     | 1/2 | 300 Collection | = | 300 (2007)                                                              |
+[2022-10-11 11:18:17,710] [builder.py:2148]           [INFO]     | 2/2 | 300 Collection | = | 300 : La Naissance d’un Empire (2014)                                   |
+[2022-10-11 11:18:17,710] [builder.py:2168]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:17,710] [builder.py:2170]           [INFO]     | 2 Movies Processed 0 Movies Added                                                                  |
+[2022-10-11 11:18:17,718] [builder.py:2521]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:17,718] [builder.py:2522]           [INFO]     |================================ Updating Details of 300 Collection ================================|
+[2022-10-11 11:18:17,727] [builder.py:2523]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:17,740] [builder.py:2589]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-10-11 11:18:17,741] [builder.py:2660]           [WARNING]  | Asset Warning: Unable to find asset folder: '300'                                                  |
+[2022-10-11 11:18:17,741] [util.py:171]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-10-11 11:18:17,741] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Poster: https://image.tmdb.org/t/p/original/mPkW5eqxf89qVUP87moCAyxy05O.jpg |
+[2022-10-11 11:18:17,741] [util.py:171]               [DEBUG]    | 1 background found:                                                                                |
+[2022-10-11 11:18:17,742] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Background: https://image.tmdb.org/t/p/original/aMGlbrOwAiqN7VyYHYwwj3CTDfk.jpg |
+[2022-10-11 11:18:17,743] [library.py:173]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-10-11 11:18:17,744] [library.py:189]            [INFO]     | Detail: background update not needed                                                               |
+[2022-10-11 11:18:17,928] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:17,928] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:18:17,928] [plex_meta_manager.py:709]  [INFO]     |                                      Finished 300 Collection                                       |
+[2022-10-11 11:18:17,929] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 11:18:17,929] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

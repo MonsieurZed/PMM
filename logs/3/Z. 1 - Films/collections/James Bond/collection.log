@@ -1,0 +1,98 @@
+[2022-10-11 11:18:16,015] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:18:16,015] [builder.py:200]            [INFO]     |                               James Bond Collection in Z. 1 - Films                                |
+[2022-10-11 11:18:16,015] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:18:16,015] [builder.py:201]            [INFO]     |                                                                                                    |
+[2022-10-11 11:18:16,015] [builder.py:206]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:18:16,016] [builder.py:222]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:16,016] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:18:16,016] [meta.py:129]               [DEBUG]    | Call: {'value': ['645'], 'tmdb_collection': ['645'], 'key_name': 'James Bond', 'key': '645', 'name': 'my_template'} |
+[2022-10-11 11:18:16,016] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:16,016] [meta.py:305]               [DEBUG]    | Variables: {'value': ['645'], 'tmdb_collection': ['645'], 'key_name': 'James Bond', 'key': '645', 'name': 'my_template', 'collection_name': 'James Bond', 'mapping_name': 'James Bond', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%27645%27%5D', 'tmdb_collection_encoded': '%5B%27645%27%5D', 'key_name_encoded': 'James%20Bond', 'key_encoded': '645', 'name_encoded': 'my_template', 'collection_name_encoded': 'James%20Bond', 'mapping_name_encoded': 'James%20Bond', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'James Bond'} |
+[2022-10-11 11:18:16,016] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:16,017] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:18:16,017] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:16,017] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:18:16,018] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:16,018] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['645'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_James Bond'} |
+[2022-10-11 11:18:16,018] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:16,018] [builder.py:230]            [INFO]     |================================= Validating James Bond Attributes =================================|
+[2022-10-11 11:18:16,018] [builder.py:620]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:16,018] [builder.py:621]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:18:16,019] [builder.py:622]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:18:16,019] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:16,019] [builder.py:657]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:18:16,019] [builder.py:658]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:18:16,019] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:16,019] [builder.py:657]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:18:16,019] [builder.py:658]            [DEBUG]    | Value: ['645']                                                                                     |
+[2022-10-11 11:18:16,051] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:16,051] [builder.py:657]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:18:16,051] [builder.py:658]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:18:16,051] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:16,052] [builder.py:657]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:18:16,052] [builder.py:658]            [DEBUG]    | Value: +C1_James Bond                                                                              |
+[2022-10-11 11:18:16,294] [builder.py:823]            [INFO]     |                                                                                                    |
+[2022-10-11 11:18:16,294] [builder.py:824]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:18:16,295] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:16,295] [plex_meta_manager.py:563]  [INFO]     |================================== Running James Bond Collection ===================================|
+[2022-10-11 11:18:16,295] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:16,295] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:18:16,295] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:16,295] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 645                                                                      |
+[2022-10-11 11:18:16,296] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:16,307] [tmdb.py:381]               [INFO]     | Processing TMDb Collection: (645) James Bond 007 - Saga (26 Items)                                 |
+[2022-10-11 11:18:16,307] [builder.py:1581]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:16,307] [builder.py:1582]           [DEBUG]    | 26 IDs Found: [(253, 'tmdb'), (646, 'tmdb'), (657, 'tmdb'), (658, 'tmdb'), (660, 'tmdb'), (667, 'tmdb'), (668, 'tmdb'), (681, 'tmdb'), (682, 'tmdb'), (691, 'tmdb'), (698, 'tmdb'), (699, 'tmdb'), (700, 'tmdb'), (707, 'tmdb'), (709, 'tmdb'), (710, 'tmdb'), (714, 'tmdb'), (10764, 'tmdb'), (36557, 'tmdb'), (36643, 'tmdb'), (36669, 'tmdb'), (37724, 'tmdb'), (206647, 'tmdb'), (708, 'tmdb'), (370172, 'tmdb'), (36670, 'tmdb')] |
+[2022-10-11 11:18:16,308] [builder.py:1583]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:16,308] [builder.py:2132]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:16,308] [builder.py:2133]           [INFO]     |================================= Adding to James Bond Collection ==================================|
+[2022-10-11 11:18:16,309] [builder.py:2134]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:16,309] [builder.py:2148]           [INFO]     |  1/12 | James Bond Collection | = | James Bond 007 contre Dr. No (1962)                            |
+[2022-10-11 11:18:16,309] [builder.py:2148]           [INFO]     |  2/12 | James Bond Collection | = | Goldfinger (1964)                                              |
+[2022-10-11 11:18:16,309] [builder.py:2148]           [INFO]     |  3/12 | James Bond Collection | = | L'Homme au pistolet d'or (1974)                                |
+[2022-10-11 11:18:16,309] [builder.py:2148]           [INFO]     |  4/12 | James Bond Collection | = | GoldenEye (1995)                                               |
+[2022-10-11 11:18:16,309] [builder.py:2148]           [INFO]     |  5/12 | James Bond Collection | = | 007 : Demain ne meurt jamais (1997)                            |
+[2022-10-11 11:18:16,310] [builder.py:2148]           [INFO]     |  6/12 | James Bond Collection | = | 007 : Quantum of Solace (2008)                                 |
+[2022-10-11 11:18:16,310] [builder.py:2148]           [INFO]     |  7/12 | James Bond Collection | = | 007 : Casino Royale (2006)                                     |
+[2022-10-11 11:18:16,310] [builder.py:2148]           [INFO]     |  8/12 | James Bond Collection | = | Le Monde ne suffit pas (1999)                                  |
+[2022-10-11 11:18:16,310] [builder.py:2148]           [INFO]     |  9/12 | James Bond Collection | = | 007 : Meurs un autre jour (2002)                               |
+[2022-10-11 11:18:16,310] [builder.py:2148]           [INFO]     | 10/12 | James Bond Collection | = | 007 : Skyfall (2012)                                           |
+[2022-10-11 11:18:16,311] [builder.py:2148]           [INFO]     | 11/12 | James Bond Collection | = | 007 Spectre (2015)                                             |
+[2022-10-11 11:18:16,311] [builder.py:2148]           [INFO]     | 12/12 | James Bond Collection | = | 007 : Mourir peut attendre (2021)                              |
+[2022-10-11 11:18:16,311] [builder.py:2168]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:16,311] [builder.py:2170]           [INFO]     | 12 Movies Processed 0 Movies Added                                                                 |
+[2022-10-11 11:18:16,311] [builder.py:2300]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:16,311] [builder.py:2301]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-10-11 11:18:16,312] [builder.py:2302]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:16,333] [builder.py:2315]           [INFO]     | James Bond Collection | ? | Vivre et laisser mourir (1973) (TMDb: 253)                             |
+[2022-10-11 11:18:16,350] [builder.py:2315]           [INFO]     | James Bond Collection | ? | From Russia with Love (1963) (TMDb: 657)                               |
+[2022-10-11 11:18:16,374] [builder.py:2315]           [INFO]     | James Bond Collection | ? | Thunderball (1965) (TMDb: 660)                                         |
+[2022-10-11 11:18:16,384] [builder.py:2315]           [INFO]     | James Bond Collection | ? | You Only Live Twice (1967) (TMDb: 667)                                 |
+[2022-10-11 11:18:16,422] [builder.py:2315]           [INFO]     | James Bond Collection | ? | On Her Majesty's Secret Service (1969) (TMDb: 668)                     |
+[2022-10-11 11:18:16,433] [builder.py:2315]           [INFO]     | James Bond Collection | ? | Diamonds Are Forever (1971) (TMDb: 681)                                |
+[2022-10-11 11:18:16,481] [builder.py:2315]           [INFO]     | James Bond Collection | ? | The Spy Who Loved Me (1977) (TMDb: 691)                                |
+[2022-10-11 11:18:16,501] [builder.py:2315]           [INFO]     | James Bond Collection | ? | Moonraker (1979) (TMDb: 698)                                           |
+[2022-10-11 11:18:16,548] [builder.py:2315]           [INFO]     | James Bond Collection | ? | For Your Eyes Only (1981) (TMDb: 699)                                  |
+[2022-10-11 11:18:16,560] [builder.py:2315]           [INFO]     | James Bond Collection | ? | Octopussy (1983) (TMDb: 700)                                           |
+[2022-10-11 11:18:16,581] [builder.py:2315]           [INFO]     | James Bond Collection | ? | A View to a Kill (1985) (TMDb: 707)                                    |
+[2022-10-11 11:18:16,607] [builder.py:2315]           [INFO]     | James Bond Collection | ? | Licence to Kill (1989) (TMDb: 709)                                     |
+[2022-10-11 11:18:16,640] [builder.py:2315]           [INFO]     | James Bond Collection | ? | The Living Daylights (1987) (TMDb: 708)                                |
+[2022-10-11 11:18:16,656] [builder.py:2315]           [INFO]     | James Bond Collection | ? | Never Say Never Again (1983) (TMDb: 36670)                             |
+[2022-10-11 11:18:16,656] [builder.py:2320]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:16,657] [builder.py:2321]           [INFO]     | 14 Movies Missing                                                                                  |
+[2022-10-11 11:18:16,675] [builder.py:2521]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:16,676] [builder.py:2522]           [INFO]     |============================ Updating Details of James Bond Collection =============================|
+[2022-10-11 11:18:16,676] [builder.py:2523]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:16,689] [builder.py:2589]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-10-11 11:18:16,690] [builder.py:2660]           [WARNING]  | Asset Warning: Unable to find asset folder: 'James Bond'                                           |
+[2022-10-11 11:18:16,690] [util.py:171]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-10-11 11:18:16,690] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Poster: https://image.tmdb.org/t/p/original/HORpg5CSkmeQlAolx3bKMrKgfi.jpg |
+[2022-10-11 11:18:16,690] [util.py:171]               [DEBUG]    | 1 background found:                                                                                |
+[2022-10-11 11:18:16,690] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Background: https://image.tmdb.org/t/p/original/dOSECZImeyZldoq0ObieBE0lwie.jpg |
+[2022-10-11 11:18:16,692] [library.py:173]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-10-11 11:18:16,693] [library.py:189]            [INFO]     | Detail: background update not needed                                                               |
+[2022-10-11 11:18:17,079] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:17,079] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:18:17,080] [plex_meta_manager.py:709]  [INFO]     |                                   Finished James Bond Collection                                   |
+[2022-10-11 11:18:17,080] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:01                                    |
+[2022-10-11 11:18:17,080] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

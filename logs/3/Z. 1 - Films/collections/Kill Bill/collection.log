@@ -1,0 +1,69 @@
+[2022-10-11 11:18:59,421] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:18:59,421] [builder.py:200]            [INFO]     |                                Kill Bill Collection in Z. 1 - Films                                |
+[2022-10-11 11:18:59,421] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:18:59,421] [builder.py:201]            [INFO]     |                                                                                                    |
+[2022-10-11 11:18:59,422] [builder.py:206]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:18:59,422] [builder.py:222]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:59,422] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:18:59,422] [meta.py:129]               [DEBUG]    | Call: {'value': ['2883'], 'tmdb_collection': ['2883'], 'key_name': 'Kill Bill', 'key': '2883', 'name': 'my_template'} |
+[2022-10-11 11:18:59,422] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:59,422] [meta.py:305]               [DEBUG]    | Variables: {'value': ['2883'], 'tmdb_collection': ['2883'], 'key_name': 'Kill Bill', 'key': '2883', 'name': 'my_template', 'collection_name': 'Kill Bill', 'mapping_name': 'Kill Bill', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%272883%27%5D', 'tmdb_collection_encoded': '%5B%272883%27%5D', 'key_name_encoded': 'Kill%20Bill', 'key_encoded': '2883', 'name_encoded': 'my_template', 'collection_name_encoded': 'Kill%20Bill', 'mapping_name_encoded': 'Kill%20Bill', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Kill Bill'} |
+[2022-10-11 11:18:59,422] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:59,423] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:18:59,423] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:59,423] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:18:59,424] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:59,424] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['2883'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_Kill Bill'} |
+[2022-10-11 11:18:59,424] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:59,424] [builder.py:230]            [INFO]     |================================= Validating Kill Bill Attributes ==================================|
+[2022-10-11 11:18:59,424] [builder.py:620]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:59,424] [builder.py:621]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:18:59,425] [builder.py:622]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:18:59,425] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:59,425] [builder.py:657]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:18:59,425] [builder.py:658]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:18:59,425] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:59,425] [builder.py:657]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:18:59,425] [builder.py:658]            [DEBUG]    | Value: ['2883']                                                                                    |
+[2022-10-11 11:18:59,443] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:59,443] [builder.py:657]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:18:59,444] [builder.py:658]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:18:59,444] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:59,444] [builder.py:657]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:18:59,444] [builder.py:658]            [DEBUG]    | Value: +C1_Kill Bill                                                                               |
+[2022-10-11 11:18:59,650] [builder.py:823]            [INFO]     |                                                                                                    |
+[2022-10-11 11:18:59,651] [builder.py:824]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:18:59,651] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:59,651] [plex_meta_manager.py:563]  [INFO]     |=================================== Running Kill Bill Collection ===================================|
+[2022-10-11 11:18:59,651] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:59,651] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:18:59,652] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:59,652] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 2883                                                                     |
+[2022-10-11 11:18:59,652] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:59,657] [tmdb.py:381]               [INFO]     | Processing TMDb Collection: (2883) Kill Bill - Saga (2 Items)                                      |
+[2022-10-11 11:18:59,657] [builder.py:1581]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:59,658] [builder.py:1582]           [DEBUG]    | 2 IDs Found: [(24, 'tmdb'), (393, 'tmdb')]                                                         |
+[2022-10-11 11:18:59,658] [builder.py:1583]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:59,658] [builder.py:2132]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:59,658] [builder.py:2133]           [INFO]     |================================== Adding to Kill Bill Collection ==================================|
+[2022-10-11 11:18:59,658] [builder.py:2134]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:59,659] [builder.py:2148]           [INFO]     | 1/2 | Kill Bill Collection | = | Kill Bill : Volume 1 (2003)                                       |
+[2022-10-11 11:18:59,659] [builder.py:2148]           [INFO]     | 2/2 | Kill Bill Collection | = | Kill Bill : Volume 2 (2004)                                       |
+[2022-10-11 11:18:59,659] [builder.py:2168]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:59,659] [builder.py:2170]           [INFO]     | 2 Movies Processed 0 Movies Added                                                                  |
+[2022-10-11 11:18:59,667] [builder.py:2521]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:59,667] [builder.py:2522]           [INFO]     |============================= Updating Details of Kill Bill Collection =============================|
+[2022-10-11 11:18:59,668] [builder.py:2523]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:59,677] [builder.py:2589]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-10-11 11:18:59,677] [builder.py:2660]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Kill Bill'                                            |
+[2022-10-11 11:18:59,677] [util.py:171]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-10-11 11:18:59,678] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Poster: https://image.tmdb.org/t/p/original/tf1nUtw3LJGUGv1EFFi23iz6ngr.jpg |
+[2022-10-11 11:18:59,678] [util.py:171]               [DEBUG]    | 1 background found:                                                                                |
+[2022-10-11 11:18:59,678] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Background: https://image.tmdb.org/t/p/original/oCLKNACMNrEf4T1EP6BpMXDl5m1.jpg |
+[2022-10-11 11:18:59,679] [library.py:173]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-10-11 11:18:59,680] [library.py:189]            [INFO]     | Detail: background update not needed                                                               |
+[2022-10-11 11:18:59,907] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:59,907] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:18:59,908] [plex_meta_manager.py:709]  [INFO]     |                                   Finished Kill Bill Collection                                    |
+[2022-10-11 11:18:59,908] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 11:18:59,908] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

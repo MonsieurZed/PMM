@@ -1,0 +1,72 @@
+[2022-10-11 11:19:23,653] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:19:23,654] [builder.py:200]            [INFO]     |                                  Rambo Collection in Z. 1 - Films                                  |
+[2022-10-11 11:19:23,654] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:19:23,654] [builder.py:201]            [INFO]     |                                                                                                    |
+[2022-10-11 11:19:23,654] [builder.py:206]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:19:23,654] [builder.py:222]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:23,654] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:19:23,654] [meta.py:129]               [DEBUG]    | Call: {'value': ['5039'], 'tmdb_collection': ['5039'], 'key_name': 'Rambo', 'key': '5039', 'name': 'my_template'} |
+[2022-10-11 11:19:23,655] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:23,655] [meta.py:305]               [DEBUG]    | Variables: {'value': ['5039'], 'tmdb_collection': ['5039'], 'key_name': 'Rambo', 'key': '5039', 'name': 'my_template', 'collection_name': 'Rambo', 'mapping_name': 'Rambo', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%275039%27%5D', 'tmdb_collection_encoded': '%5B%275039%27%5D', 'key_name_encoded': 'Rambo', 'key_encoded': '5039', 'name_encoded': 'my_template', 'collection_name_encoded': 'Rambo', 'mapping_name_encoded': 'Rambo', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Rambo'} |
+[2022-10-11 11:19:23,655] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:23,655] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:19:23,655] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:23,655] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:19:23,656] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:23,656] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['5039'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_Rambo'} |
+[2022-10-11 11:19:23,657] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:23,657] [builder.py:230]            [INFO]     |=================================== Validating Rambo Attributes ====================================|
+[2022-10-11 11:19:23,657] [builder.py:620]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:23,657] [builder.py:621]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:19:23,657] [builder.py:622]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:19:23,657] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:23,657] [builder.py:657]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:19:23,658] [builder.py:658]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:19:23,658] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:23,658] [builder.py:657]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:19:23,658] [builder.py:658]            [DEBUG]    | Value: ['5039']                                                                                    |
+[2022-10-11 11:19:23,671] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:23,671] [builder.py:657]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:19:23,671] [builder.py:658]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:19:23,672] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:23,672] [builder.py:657]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:19:23,672] [builder.py:658]            [DEBUG]    | Value: +C1_Rambo                                                                                   |
+[2022-10-11 11:19:23,882] [builder.py:823]            [INFO]     |                                                                                                    |
+[2022-10-11 11:19:23,882] [builder.py:824]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:19:23,882] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:23,882] [plex_meta_manager.py:563]  [INFO]     |===================================== Running Rambo Collection =====================================|
+[2022-10-11 11:19:23,882] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:23,883] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:19:23,883] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:23,883] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 5039                                                                     |
+[2022-10-11 11:19:23,883] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:23,888] [tmdb.py:381]               [INFO]     | Processing TMDb Collection: (5039) Rambo - Saga (5 Items)                                          |
+[2022-10-11 11:19:23,888] [builder.py:1581]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:23,889] [builder.py:1582]           [DEBUG]    | 5 IDs Found: [(1368, 'tmdb'), (1369, 'tmdb'), (1370, 'tmdb'), (7555, 'tmdb'), (522938, 'tmdb')]    |
+[2022-10-11 11:19:23,889] [builder.py:1583]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:23,889] [builder.py:2132]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:23,889] [builder.py:2133]           [INFO]     |==================================== Adding to Rambo Collection ====================================|
+[2022-10-11 11:19:23,890] [builder.py:2134]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:23,890] [builder.py:2148]           [INFO]     | 1/5 | Rambo Collection | = | Rambo I : First Blood (1982)                                          |
+[2022-10-11 11:19:23,890] [builder.py:2148]           [INFO]     | 2/5 | Rambo Collection | = | Rambo II : La Mission (1985)                                          |
+[2022-10-11 11:19:23,890] [builder.py:2148]           [INFO]     | 3/5 | Rambo Collection | = | Rambo III (1988)                                                      |
+[2022-10-11 11:19:23,890] [builder.py:2148]           [INFO]     | 4/5 | Rambo Collection | = | John Rambo (2008)                                                     |
+[2022-10-11 11:19:23,890] [builder.py:2148]           [INFO]     | 5/5 | Rambo Collection | = | Rambo IV : Last Blood (2019)                                          |
+[2022-10-11 11:19:23,891] [builder.py:2168]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:23,891] [builder.py:2170]           [INFO]     | 5 Movies Processed 0 Movies Added                                                                  |
+[2022-10-11 11:19:23,896] [builder.py:2521]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:23,897] [builder.py:2522]           [INFO]     |=============================== Updating Details of Rambo Collection ===============================|
+[2022-10-11 11:19:23,897] [builder.py:2523]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:23,905] [builder.py:2589]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-10-11 11:19:23,905] [builder.py:2660]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Rambo'                                                |
+[2022-10-11 11:19:23,906] [util.py:171]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-10-11 11:19:23,906] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Poster: https://image.tmdb.org/t/p/original/feGOEOVrOLyjtEnVa88rQLgD3XY.jpg |
+[2022-10-11 11:19:23,906] [util.py:171]               [DEBUG]    | 1 background found:                                                                                |
+[2022-10-11 11:19:23,906] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Background: https://image.tmdb.org/t/p/original/9vlISRco1XbV7xa038IpLcDtBSV.jpg |
+[2022-10-11 11:19:23,907] [library.py:173]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-10-11 11:19:23,908] [library.py:189]            [INFO]     | Detail: background update not needed                                                               |
+[2022-10-11 11:19:24,122] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:24,122] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:19:24,123] [plex_meta_manager.py:709]  [INFO]     |                                     Finished Rambo Collection                                      |
+[2022-10-11 11:19:24,123] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 11:19:24,123] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

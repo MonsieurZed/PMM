@@ -1,0 +1,83 @@
+[2022-10-11 10:15:58,491] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 10:15:58,492] [builder.py:197]            [INFO]     |                             Pixar Collection in Z. 5 - Film Animation                              |
+[2022-10-11 10:15:58,492] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 10:15:58,492] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 10:15:58,492] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 10:15:58,492] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:15:58,493] [meta.py:128]               [DEBUG]    | Template Studio                                                                                    |
+[2022-10-11 10:15:58,493] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Studio'), ('studio', 'Pixar')])                                       |
+[2022-10-11 10:15:58,493] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:15:58,493] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Studio'), ('studio', 'Pixar'), ('collection_name', 'Pixar'), ('mapping_name', 'Pixar'), ('library_type', 'movie'), ('library_name', 'Z. 5 - Film Animation'), ('name_encoded', 'Studio'), ('studio_encoded', 'Pixar'), ('collection_name_encoded', 'Pixar'), ('mapping_name_encoded', 'Pixar'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%205%20-%20Film%20Animation'), ('collection_sort', 'Pixar')]) |
+[2022-10-11 10:15:58,494] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:15:58,494] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 10:15:58,494] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:15:58,494] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 10:15:58,495] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:15:58,495] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'plex_search': {'studio': 'Pixar'}, 'sort_title': '+12_Pixar', 'collection_order': 'alpha'} |
+[2022-10-11 10:15:58,496] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:15:58,496] [builder.py:219]            [INFO]     |=================================== Validating Pixar Attributes ====================================|
+[2022-10-11 10:15:58,496] [builder.py:609]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:15:58,496] [builder.py:610]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 10:15:58,496] [builder.py:611]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-10-11 10:15:58,497] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:15:58,497] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-11 10:15:58,497] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/STUDIO_PIXAR.png              |
+[2022-10-11 10:15:58,673] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:15:58,673] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-10-11 10:15:58,673] [builder.py:632]            [DEBUG]    | Value: Pixar Animation Studios, commonly known as Pixar, is an American computer animation studio based in Emeryville, California, a subsidiary of Disney Studios Content owned by The Walt Disney Company. Pixar began in 1979 as part of the Lucasfilm computer division, known as the Graphics Group, before its spin-off as a corporation on February 3, 1986, with funding from Apple co-founder Steve Jobs, who became its majority shareholder. Disney purchased Pixar in 2006 at a valuation of $7.4 billion by converting each share of Pixar stock to 2.3 shares of Disney stock, a transaction that resulted in Jobs becoming Disney's largest single shareholder at the time. Pixar is best known for its feature films technologically powered by RenderMan, the company's own implementation of the industry-standard RenderMan Interface Specification image-rendering application programming interface. Luxo Jr., a desk lamp from the studio's 1986 short film of the same name, is the studio's mascot. |
+[2022-10-11 10:15:58,674] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:15:58,674] [builder.py:631]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-10-11 10:15:58,674] [builder.py:632]            [DEBUG]    | Value: {'studio': 'Pixar'}                                                                         |
+[2022-10-11 10:15:58,674] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:15:58,675] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 10:15:58,675] [builder.py:632]            [DEBUG]    | Value: +12_Pixar                                                                                   |
+[2022-10-11 10:15:58,799] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 10:15:58,799] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 10:15:58,799] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 10:15:58,800] [plex_meta_manager.py:563]  [INFO]     |===================================== Running Pixar Collection =====================================|
+[2022-10-11 10:15:58,800] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 10:15:58,800] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 10:15:58,800] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 10:15:58,800] [plex_meta_manager.py:580]  [DEBUG]    | Builder: plex_search: (1, 'Plex Movie Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Studio contains Pixar', '?type=1&sort=titleSort&push=1&studio=Pixar&pop=1') |
+[2022-10-11 10:15:58,800] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 10:15:58,800] [plex.py:819]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: title.asc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Match any of the following:
+                                                                 |       Studio contains Pixar
+[2022-10-11 10:15:58,840] [plex.py:864]               [DEBUG]    | 
+[2022-10-11 10:15:58,840] [plex.py:865]               [DEBUG]    | 6 Keys Found: [(21647, 'ratingKey'), (21650, 'ratingKey'), (22363, 'ratingKey'), (21981, 'ratingKey'), (21910, 'ratingKey'), (21971, 'ratingKey')]
+[2022-10-11 10:15:58,840] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 10:15:58,840] [builder.py:1541]           [DEBUG]    | 6 IDs Found: [(21647, 'ratingKey'), (21650, 'ratingKey'), (22363, 'ratingKey'), (21981, 'ratingKey'), (21910, 'ratingKey'), (21971, 'ratingKey')]
+[2022-10-11 10:15:58,841] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 10:15:58,841] [builder.py:2064]           [INFO]     | 
+[2022-10-11 10:15:58,841] [builder.py:2065]           [INFO]     |==================================== Adding to Pixar Collection ====================================|
+[2022-10-11 10:15:58,841] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-11 10:15:58,842] [builder.py:2080]           [INFO]     | 1/6 | Pixar Collection | = | Là-haut (2009)                                                        |
+[2022-10-11 10:15:58,842] [builder.py:2080]           [INFO]     | 2/6 | Pixar Collection | = | Le Monde de Nemo (2003)                                               |
+[2022-10-11 10:15:58,842] [builder.py:2080]           [INFO]     | 3/6 | Pixar Collection | + | Le Voyage d’Arlo (2015)                                               |
+[2022-10-11 10:15:59,058] [builder.py:2080]           [INFO]     | 4/6 | Pixar Collection | = | Monstres & Cie (2001)                                                 |
+[2022-10-11 10:15:59,059] [builder.py:2080]           [INFO]     | 5/6 | Pixar Collection | = | Toy Story (1995)                                                      |
+[2022-10-11 10:15:59,059] [builder.py:2080]           [INFO]     | 6/6 | Pixar Collection | = | Toy Story 2 (1999)                                                    |
+[2022-10-11 10:16:01,138] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-11 10:16:01,138] [builder.py:2102]           [INFO]     | 6 Movies Processed 1 Movies Added                                                                  |
+[2022-10-11 10:16:01,145] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-11 10:16:01,146] [builder.py:2442]           [INFO]     |=============================== Updating Details of Pixar Collection ===============================|
+[2022-10-11 10:16:01,146] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-11 10:16:01,415] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Pixar Animation Studios, commonly known as Pixar, is an American computer animation studio based in Emeryville, California, a subsidiary of Disney Studios Content owned by The Walt Disney Company. Pixar began in 1979 as part of the Lucasfilm computer division, known as the Graphics Group, before its spin-off as a corporation on February 3, 1986, with funding from Apple co-founder Steve Jobs, who became its majority shareholder. Disney purchased Pixar in 2006 at a valuation of $7.4 billion by converting each share of Pixar stock to 2.3 shares of Disney stock, a transaction that resulted in Jobs becoming Disney's largest single shareholder at the time. Pixar is best known for its feature films technologically powered by RenderMan, the company's own implementation of the industry-standard RenderMan Interface Specification image-rendering application programming interface. Luxo Jr., a desk lamp from the studio's 1986 short film of the same name, is the studio's mascot.
+                                                                 | Sort Title | +12_Pixar
+                                                                 | Label | +PMM
+[2022-10-11 10:16:01,702] [builder.py:2513]           [INFO]     | Details: have been updated
+[2022-10-11 10:16:01,703] [builder.py:2517]           [INFO]     | 
+[2022-10-11 10:16:01,975] [builder.py:2540]           [INFO]     | Collection Order | alpha
+[2022-10-11 10:16:01,975] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Pixar'
+[2022-10-11 10:16:01,976] [util.py:150]               [DEBUG]    | 1 poster found:
+[2022-10-11 10:16:01,976] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/STUDIO_PIXAR.png
+[2022-10-11 10:16:02,057] [library.py:170]            [INFO]     | Detail: url_poster updated poster to [URL] https://raw.githubusercontent.com/MonsieurZed/poster/main/img/STUDIO_PIXAR.png
+[2022-10-11 10:16:02,202] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-11 10:16:02,202] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 10:16:02,203] [plex_meta_manager.py:709]  [INFO]     |                                     Finished Pixar Collection                                      |
+[2022-10-11 10:16:02,203] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:03                                    |
+[2022-10-11 10:16:02,203] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

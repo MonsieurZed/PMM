@@ -1,0 +1,71 @@
+[2022-10-11 10:03:37,984] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 10:03:37,984] [builder.py:197]            [INFO]     |                            Western Collection in Z. 5 - Film Animation                             |
+[2022-10-11 10:03:37,985] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 10:03:37,985] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 10:03:37,985] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 10:03:37,985] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:03:37,985] [meta.py:128]               [DEBUG]    | Template Genre                                                                                     |
+[2022-10-11 10:03:37,985] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Genre')])                                                             |
+[2022-10-11 10:03:37,985] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:03:37,986] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Genre'), ('collection_name', 'Western'), ('mapping_name', 'Western'), ('library_type', 'movie'), ('library_name', 'Z. 5 - Film Animation'), ('name_encoded', 'Genre'), ('collection_name_encoded', 'Western'), ('mapping_name_encoded', 'Western'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%205%20-%20Film%20Animation'), ('collection_sort', 'Western')]) |
+[2022-10-11 10:03:37,986] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:03:37,986] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 10:03:37,986] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:03:37,986] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 10:03:37,987] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:03:37,987] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+3_Western', 'sync_mode': 'sync', 'smart_label': 'audience_rating.desc'} |
+[2022-10-11 10:03:37,987] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:03:37,987] [builder.py:219]            [INFO]     |================================== Validating Western Attributes ===================================|
+[2022-10-11 10:03:37,987] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:03:37,987] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-11 10:03:37,988] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-11 10:03:37,988] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:03:37,988] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-11 10:03:37,988] [builder.py:544]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-10-11 10:03:38,004] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:03:38,004] [builder.py:631]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-10-11 10:03:38,005] [builder.py:632]            [DEBUG]    | Value: ordereddict([('genre', 'Western')])                                                         |
+[2022-10-11 10:03:38,065] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:03:38,065] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-11 10:03:38,065] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_WESTERN.png             |
+[2022-10-11 10:03:38,542] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:03:38,543] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-10-11 10:03:38,543] [builder.py:632]            [DEBUG]    | Value: Western Film is a genre that revolves around stories primarily set in the late 19th century in the American Old West. Most Westerns are set between the American Civil War (1865) and the early 1900s. Common themes within Western Film include: the conquest of the wild west, the cultural separation of the East and the West, the West’s resistance to modern change, the conflict between Cowboys and Indians, outlaws, and treasure/gold hunting. American Western Film usually revolves around a stoic hero and emphasizes the importance of honor and sacrifice. |
+[2022-10-11 10:03:38,543] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:03:38,544] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 10:03:38,544] [builder.py:632]            [DEBUG]    | Value: +3_Western                                                                                  |
+[2022-10-11 10:03:38,549] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:03:38,550] [plex.py:793]               [DEBUG]    | Looking for: Western                                                                               |
+[2022-10-11 10:03:38,550] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 10:03:38,550] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 10:03:38,550] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 10:03:38,551] [plex_meta_manager.py:563]  [INFO]     |==================================== Running Western Collection ====================================|
+[2022-10-11 10:03:38,551] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-10-11 10:03:38,551] [plex_meta_manager.py:570]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: audience_rating.desc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Western
+[2022-10-11 10:03:38,552] [plex_meta_manager.py:575]  [INFO]     | 
+[2022-10-11 10:03:38,552] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync
+[2022-10-11 10:03:38,552] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 10:03:38,552] [plex_meta_manager.py:580]  [DEBUG]    | Builder: plex_search: (1, 'Plex Movie Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Genre is Western', '?type=1&sort=titleSort&push=1&genre=30960&pop=1')
+[2022-10-11 10:03:38,553] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 10:03:38,553] [plex.py:819]               [INFO]     | Processing Plex Movie Search
+                                                                 | Sort By: title.asc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Match any of the following:
+                                                                 |       Genre is Western
+[2022-10-11 10:03:38,564] [plex.py:864]               [DEBUG]    | 
+[2022-10-11 10:03:38,564] [plex.py:865]               [DEBUG]    | 1 Keys Found: [(88832, 'ratingKey')]
+[2022-10-11 10:03:38,564] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 10:03:38,564] [builder.py:1541]           [DEBUG]    | 1 IDs Found: [(88832, 'ratingKey')]
+[2022-10-11 10:03:38,565] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 10:03:38,565] [plex_meta_manager.py:624]  [INFO]     | 
+[2022-10-11 10:03:38,565] [plex_meta_manager.py:625]  [INFO]     | Collection Minimum: 2 not met for Western Collection
+[2022-10-11 10:03:38,565] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-11 10:03:38,565] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 10:03:38,565] [plex_meta_manager.py:709]  [INFO]     |                                    Finished Western Collection                                     |
+[2022-10-11 10:03:38,565] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 10:03:38,566] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

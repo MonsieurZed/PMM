@@ -1,0 +1,93 @@
+[2022-10-11 11:18:02,562] [plex_meta_manager.py:413]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:02,562] [plex_meta_manager.py:414]  [INFO]     |====================================================================================================|
+[2022-10-11 11:18:02,562] [plex_meta_manager.py:414]  [INFO]     |                                        Z. 1 - Films Library                                        |
+[2022-10-11 11:18:02,562] [plex_meta_manager.py:414]  [INFO]     |====================================================================================================|
+[2022-10-11 11:18:02,562] [plex_meta_manager.py:416]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:02,563] [plex_meta_manager.py:417]  [DEBUG]    | Mapping Name: Z. 1 - Films                                                                         |
+[2022-10-11 11:18:02,563] [plex_meta_manager.py:418]  [DEBUG]    | Folder Name: Z. 1 - Films                                                                          |
+[2022-10-11 11:18:02,563] [plex_meta_manager.py:420]  [DEBUG]    | Asset Directory: config/assets                                                                     |
+[2022-10-11 11:18:02,563] [plex_meta_manager.py:421]  [DEBUG]    | Asset Folders: True                                                                                |
+[2022-10-11 11:18:02,563] [plex_meta_manager.py:422]  [DEBUG]    | Create Asset Folders: False                                                                        |
+[2022-10-11 11:18:02,563] [plex_meta_manager.py:423]  [DEBUG]    | Download URL Assets: False                                                                         |
+[2022-10-11 11:18:02,563] [plex_meta_manager.py:424]  [DEBUG]    | Sync Mode: append                                                                                  |
+[2022-10-11 11:18:02,564] [plex_meta_manager.py:425]  [DEBUG]    | Minimum Items: 2                                                                                   |
+[2022-10-11 11:18:02,564] [plex_meta_manager.py:426]  [DEBUG]    | Delete Below Minimum: False                                                                        |
+[2022-10-11 11:18:02,564] [plex_meta_manager.py:427]  [DEBUG]    | Delete Not Scheduled: False                                                                        |
+[2022-10-11 11:18:02,564] [plex_meta_manager.py:428]  [DEBUG]    | Default Collection Order: None                                                                     |
+[2022-10-11 11:18:02,564] [plex_meta_manager.py:429]  [DEBUG]    | Missing Only Released: False                                                                       |
+[2022-10-11 11:18:02,564] [plex_meta_manager.py:430]  [DEBUG]    | Only Filter Missing: False                                                                         |
+[2022-10-11 11:18:02,564] [plex_meta_manager.py:431]  [DEBUG]    | Show Unmanaged: True                                                                               |
+[2022-10-11 11:18:02,564] [plex_meta_manager.py:432]  [DEBUG]    | Show Filtered: False                                                                               |
+[2022-10-11 11:18:02,565] [plex_meta_manager.py:433]  [DEBUG]    | Show Missing: True                                                                                 |
+[2022-10-11 11:18:02,565] [plex_meta_manager.py:434]  [DEBUG]    | Show Missing Assets: True                                                                          |
+[2022-10-11 11:18:02,565] [plex_meta_manager.py:435]  [DEBUG]    | Save Report: True                                                                                  |
+[2022-10-11 11:18:02,565] [plex_meta_manager.py:436]  [DEBUG]    | Report Path: /config/Z. 1 - Films_report.yml                                                       |
+[2022-10-11 11:18:02,565] [plex_meta_manager.py:437]  [DEBUG]    | Clean Bundles: False                                                                               |
+[2022-10-11 11:18:02,565] [plex_meta_manager.py:438]  [DEBUG]    | Empty Trash: False                                                                                 |
+[2022-10-11 11:18:02,565] [plex_meta_manager.py:439]  [DEBUG]    | Optimize: False                                                                                    |
+[2022-10-11 11:18:02,565] [plex_meta_manager.py:440]  [DEBUG]    | Timeout: 60                                                                                        |
+[2022-10-11 11:18:02,566] [library.py:280]            [INFO]     |                                                                                                    |
+[2022-10-11 11:18:02,566] [library.py:281]            [INFO]     |================================ Caching Z. 1 - Films Library Items ================================|
+[2022-10-11 11:18:02,566] [library.py:282]            [INFO]     |                                                                                                    |
+[2022-10-11 11:18:02,567] [plex.py:510]               [INFO]     | Loading All Movies from Library: Z. 1 - Films                                                      |
+[2022-10-11 11:18:11,969] [plex.py:519]               [INFO]     | Loaded 1934 Movies                                                                                 |
+[2022-10-11 11:18:11,974] [plex_meta_manager.py:470]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:11,974] [plex_meta_manager.py:471]  [INFO]     |=================================== Mapping Z. 1 - Films Library ===================================|
+[2022-10-11 11:18:11,974] [plex_meta_manager.py:472]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:13,082] [library.py:312]            [INFO]     |                                                                                                    |
+[2022-10-11 11:18:13,082] [library.py:313]            [INFO]     | Processed 1934 Movies                                                                              |
+[2022-10-11 11:18:13,083] [plex_meta_manager.py:494]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:13,083] [plex_meta_manager.py:495]  [INFO]     |====================================================================================================|
+[2022-10-11 11:18:13,083] [plex_meta_manager.py:495]  [INFO]     |                              Running movies_C12_dynamic Metadata File                              |
+[2022-10-11 11:18:13,083] [plex_meta_manager.py:495]  [INFO]     |                                   config/movies_C12_dynamic.yml                                    |
+[2022-10-11 11:18:13,083] [plex_meta_manager.py:495]  [INFO]     |====================================================================================================|
+[2022-10-11 11:18:13,083] [plex_meta_manager.py:508]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:13,083] [plex_meta_manager.py:509]  [INFO]     |====================================================================================================|
+[2022-10-11 11:18:13,084] [plex_meta_manager.py:509]  [INFO]     |                                            Collections                                             |
+[2022-10-11 11:18:13,084] [plex_meta_manager.py:509]  [INFO]     |====================================================================================================|
+[2022-10-11 11:20:37,155] [operations.py:21]          [INFO]     |                                                                                                    |
+[2022-10-11 11:20:37,155] [operations.py:22]          [INFO]     |====================================================================================================|
+[2022-10-11 11:20:37,156] [operations.py:22]          [INFO]     |                                  Z. 1 - Films Library Operations                                   |
+[2022-10-11 11:20:37,156] [operations.py:22]          [INFO]     |====================================================================================================|
+[2022-10-11 11:20:37,156] [operations.py:23]          [INFO]     |                                                                                                    |
+[2022-10-11 11:20:37,156] [operations.py:24]          [DEBUG]    | Assets For All: False                                                                              |
+[2022-10-11 11:20:37,156] [operations.py:25]          [DEBUG]    | Delete Collections With Less: None                                                                 |
+[2022-10-11 11:20:37,157] [operations.py:26]          [DEBUG]    | Delete Unmanaged Collections: False                                                                |
+[2022-10-11 11:20:37,157] [operations.py:27]          [DEBUG]    | Show Unmanaged Collections: True                                                                   |
+[2022-10-11 11:20:37,157] [operations.py:28]          [DEBUG]    | Mass Genre Update: None                                                                            |
+[2022-10-11 11:20:37,157] [operations.py:29]          [DEBUG]    | Mass Audience Rating Update: None                                                                  |
+[2022-10-11 11:20:37,157] [operations.py:30]          [DEBUG]    | Mass Critic Rating Update: None                                                                    |
+[2022-10-11 11:20:37,157] [operations.py:31]          [DEBUG]    | Mass User Rating Update: None                                                                      |
+[2022-10-11 11:20:37,158] [operations.py:32]          [DEBUG]    | Mass Episode Audience Rating Update: None                                                          |
+[2022-10-11 11:20:37,158] [operations.py:33]          [DEBUG]    | Mass Episode Critic Rating Update: None                                                            |
+[2022-10-11 11:20:37,158] [operations.py:34]          [DEBUG]    | Mass Episode User Rating Update: None                                                              |
+[2022-10-11 11:20:37,158] [operations.py:35]          [DEBUG]    | Mass Content Rating Update: None                                                                   |
+[2022-10-11 11:20:37,158] [operations.py:36]          [DEBUG]    | Mass Original Title Update: None                                                                   |
+[2022-10-11 11:20:37,158] [operations.py:37]          [DEBUG]    | Mass Originally Available Update: None                                                             |
+[2022-10-11 11:20:37,158] [operations.py:38]          [DEBUG]    | Mass IMDb Parental Labels: None                                                                    |
+[2022-10-11 11:20:37,159] [operations.py:39]          [DEBUG]    | Mass Collection Mode Update: None                                                                  |
+[2022-10-11 11:20:37,159] [operations.py:40]          [DEBUG]    | Split Duplicates: False                                                                            |
+[2022-10-11 11:20:37,159] [operations.py:41]          [DEBUG]    | Radarr Add All Existing: False                                                                     |
+[2022-10-11 11:20:37,159] [operations.py:42]          [DEBUG]    | Radarr Remove by Tag: None                                                                         |
+[2022-10-11 11:20:37,159] [operations.py:43]          [DEBUG]    | Sonarr Add All Existing: False                                                                     |
+[2022-10-11 11:20:37,159] [operations.py:44]          [DEBUG]    | Sonarr Remove by Tag: None                                                                         |
+[2022-10-11 11:20:37,160] [operations.py:45]          [DEBUG]    | Update Blank Track Titles: None                                                                    |
+[2022-10-11 11:20:37,160] [operations.py:46]          [DEBUG]    | Update Remove Title Parentheses: None                                                              |
+[2022-10-11 11:20:37,160] [operations.py:47]          [DEBUG]    | Genre Mapper: None                                                                                 |
+[2022-10-11 11:20:37,160] [operations.py:48]          [DEBUG]    | Content Rating Mapper: None                                                                        |
+[2022-10-11 11:20:37,160] [operations.py:49]          [DEBUG]    | Metadata Backup: None                                                                              |
+[2022-10-11 11:20:37,160] [operations.py:50]          [DEBUG]    | Item Operation: False                                                                              |
+[2022-10-11 11:20:37,160] [operations.py:51]          [DEBUG]    |                                                                                                    |
+[2022-10-11 11:21:15,234] [operations.py:539]         [INFO]     |                                                                                                    |
+[2022-10-11 11:21:15,234] [operations.py:540]         [INFO]     |========================== Unmanaged Collections in Z. 1 - Films Library ===========================|
+[2022-10-11 11:21:15,234] [operations.py:541]         [INFO]     |                                                                                                    |
+[2022-10-11 11:21:15,235] [operations.py:543]         [INFO]     |                                                                                                    |
+[2022-10-11 11:21:15,235] [operations.py:543]         [INFO]     | HellBoy                                                                                            |
+[2022-10-11 11:21:15,236] [operations.py:543]         [INFO]     | Spider-man                                                                                         |
+[2022-10-11 11:21:15,236] [operations.py:544]         [INFO]     |                                                                                                    |
+[2022-10-11 11:21:15,236] [operations.py:545]         [INFO]     | 3 Unmanaged Collections                                                                            |
+[2022-10-11 11:21:15,236] [operations.py:629]         [INFO]     |                                                                                                    |
+[2022-10-11 11:21:15,236] [operations.py:630]         [INFO]     |====================================================================================================|
+[2022-10-11 11:21:15,237] [operations.py:630]         [INFO]     |                              Finished Z. 1 - Films Library Operations                              |
+[2022-10-11 11:21:15,237] [operations.py:630]         [INFO]     |                                    Operations Run Time: 0:00:38                                    |
+[2022-10-11 11:21:15,237] [operations.py:630]         [INFO]     |====================================================================================================|

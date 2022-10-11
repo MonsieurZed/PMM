@@ -1,0 +1,79 @@
+[2022-10-11 11:20:21,184] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:20:21,185] [builder.py:200]            [INFO]     |                               Spider-Man Collection in Z. 1 - Films                                |
+[2022-10-11 11:20:21,185] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:20:21,185] [builder.py:201]            [INFO]     |                                                                                                    |
+[2022-10-11 11:20:21,185] [builder.py:206]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:20:21,186] [builder.py:222]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:21,186] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:20:21,186] [meta.py:129]               [DEBUG]    | Call: {'value': ['556'], 'tmdb_collection': ['556'], 'key_name': 'Spider-Man', 'key': '556', 'name': 'my_template'} |
+[2022-10-11 11:20:21,186] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:21,186] [meta.py:305]               [DEBUG]    | Variables: {'value': ['556'], 'tmdb_collection': ['556'], 'key_name': 'Spider-Man', 'key': '556', 'name': 'my_template', 'collection_name': 'Spider-Man', 'mapping_name': 'Spider-Man', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%27556%27%5D', 'tmdb_collection_encoded': '%5B%27556%27%5D', 'key_name_encoded': 'Spider-Man', 'key_encoded': '556', 'name_encoded': 'my_template', 'collection_name_encoded': 'Spider-Man', 'mapping_name_encoded': 'Spider-Man', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Spider-Man'} |
+[2022-10-11 11:20:21,187] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:21,187] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:20:21,187] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:21,187] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:20:21,188] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:21,188] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['556'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_Spider-Man'} |
+[2022-10-11 11:20:21,188] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:21,189] [builder.py:230]            [INFO]     |================================= Validating Spider-Man Attributes =================================|
+[2022-10-11 11:20:21,189] [builder.py:620]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:21,189] [builder.py:621]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:20:21,189] [builder.py:622]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:20:21,189] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:21,189] [builder.py:657]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:20:21,189] [builder.py:658]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:20:21,190] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:21,190] [builder.py:657]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:20:21,190] [builder.py:658]            [DEBUG]    | Value: ['556']                                                                                     |
+[2022-10-11 11:20:21,203] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:21,203] [builder.py:657]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:20:21,203] [builder.py:658]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:20:21,204] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:21,204] [builder.py:657]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:20:21,204] [builder.py:658]            [DEBUG]    | Value: +C1_Spider-Man                                                                              |
+[2022-10-11 11:20:21,213] [plex.py:803]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:21,213] [plex.py:805]               [DEBUG]    | Found: Amazing Spider-Man                                                                          |
+[2022-10-11 11:20:21,213] [plex.py:805]               [DEBUG]    | Found: Spider-Man (Avengers)                                                                       |
+[2022-10-11 11:20:21,213] [plex.py:806]               [DEBUG]    | Looking for: Spider-Man                                                                            |
+[2022-10-11 11:20:21,213] [builder.py:823]            [INFO]     |                                                                                                    |
+[2022-10-11 11:20:21,214] [builder.py:824]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:20:21,214] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:20:21,214] [plex_meta_manager.py:563]  [INFO]     |================================== Running Spider-Man Collection ===================================|
+[2022-10-11 11:20:21,214] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:20:21,214] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:20:21,214] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:21,214] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 556                                                                      |
+[2022-10-11 11:20:21,215] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:20:21,220] [tmdb.py:381]               [INFO]     | Processing TMDb Collection: (556) Spider-Man - Saga (3 Items)                                      |
+[2022-10-11 11:20:21,220] [builder.py:1581]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:21,221] [builder.py:1582]           [DEBUG]    | 3 IDs Found: [(557, 'tmdb'), (558, 'tmdb'), (559, 'tmdb')]                                         |
+[2022-10-11 11:20:21,221] [builder.py:1583]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:21,221] [builder.py:2132]           [INFO]     |                                                                                                    |
+[2022-10-11 11:20:21,221] [builder.py:2133]           [INFO]     |================================= Adding to Spider-Man Collection ==================================|
+[2022-10-11 11:20:21,221] [builder.py:2134]           [INFO]     |                                                                                                    |
+[2022-10-11 11:20:21,221] [builder.py:2148]           [INFO]     | 1/3 | Spider-Man Collection | + | Spider-Man I (2002)                                              |
+[2022-10-11 11:20:21,563] [builder.py:2148]           [INFO]     | 2/3 | Spider-Man Collection | + | Spider-Man II (2004)                                             |
+[2022-10-11 11:20:21,978] [builder.py:2148]           [INFO]     | 3/3 | Spider-Man Collection | + | Spider-Man III (2007)                                            |
+[2022-10-11 11:20:22,415] [builder.py:2168]           [INFO]     |                                                                                                    |
+[2022-10-11 11:20:22,415] [builder.py:2170]           [INFO]     | 3 Movies Processed 3 Movies Added                                                                  |
+[2022-10-11 11:20:22,424] [plex.py:803]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:22,424] [plex.py:805]               [DEBUG]    | Found: Amazing Spider-Man                                                                          |
+[2022-10-11 11:20:22,424] [plex.py:805]               [DEBUG]    | Found: Spider-Man (Avengers)                                                                       |
+[2022-10-11 11:20:22,424] [plex.py:805]               [DEBUG]    | Found: Spider-man                                                                                  |
+[2022-10-11 11:20:22,424] [plex.py:806]               [DEBUG]    | Looking for: Spider-Man                                                                            |
+[2022-10-11 11:20:22,425] [plex_meta_manager.py:646]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 638, in run_collection
+                                                                 |     builder.load_collection()
+                                                                 |   File "/modules/builder.py", line 2515, in load_collection
+                                                                 |     self.obj = self.library.get_playlist(self.name) if self.playlist else self.library.get_collection(self.name)
+                                                                 |   File "/modules/plex.py", line 807, in get_collection
+                                                                 |     raise Failed(f"Plex Error: Collection {data} not found")
+                                                                 | modules.util.Failed: Plex Error: Collection Spider-Man not found
+                                                                 | 
+[2022-10-11 11:20:22,426] [plex_meta_manager.py:648]  [INFO]     | 
+[2022-10-11 11:20:22,426] [plex_meta_manager.py:649]  [INFO]     |===================================== No Collection to Update ======================================|
+[2022-10-11 11:20:22,426] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:20:22,427] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:20:22,427] [plex_meta_manager.py:709]  [INFO]     |                                   Finished Spider-Man Collection                                   |
+[2022-10-11 11:20:22,427] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:01                                    |
+[2022-10-11 11:20:22,427] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

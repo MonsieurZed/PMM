@@ -1,0 +1,72 @@
+[2022-10-11 11:19:09,360] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:19:09,361] [builder.py:200]            [INFO]     |                              Department Q Collection in Z. 1 - Films                               |
+[2022-10-11 11:19:09,361] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:19:09,361] [builder.py:201]            [INFO]     |                                                                                                    |
+[2022-10-11 11:19:09,361] [builder.py:206]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:19:09,361] [builder.py:222]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:09,362] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:19:09,362] [meta.py:129]               [DEBUG]    | Call: {'value': ['319850'], 'tmdb_collection': ['319850'], 'key_name': 'Department Q', 'key': '319850', 'name': 'my_template'} |
+[2022-10-11 11:19:09,362] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:09,362] [meta.py:305]               [DEBUG]    | Variables: {'value': ['319850'], 'tmdb_collection': ['319850'], 'key_name': 'Department Q', 'key': '319850', 'name': 'my_template', 'collection_name': 'Department Q', 'mapping_name': 'Department Q', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%27319850%27%5D', 'tmdb_collection_encoded': '%5B%27319850%27%5D', 'key_name_encoded': 'Department%20Q', 'key_encoded': '319850', 'name_encoded': 'my_template', 'collection_name_encoded': 'Department%20Q', 'mapping_name_encoded': 'Department%20Q', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Department Q'} |
+[2022-10-11 11:19:09,362] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:09,363] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:19:09,363] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:09,363] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:19:09,364] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:09,364] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['319850'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_Department Q'} |
+[2022-10-11 11:19:09,364] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:09,364] [builder.py:230]            [INFO]     |================================ Validating Department Q Attributes ================================|
+[2022-10-11 11:19:09,364] [builder.py:620]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:09,365] [builder.py:621]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:19:09,365] [builder.py:622]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:19:09,365] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:09,365] [builder.py:657]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:19:09,365] [builder.py:658]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:19:09,365] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:09,365] [builder.py:657]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:19:09,365] [builder.py:658]            [DEBUG]    | Value: ['319850']                                                                                  |
+[2022-10-11 11:19:09,381] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:09,381] [builder.py:657]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:19:09,381] [builder.py:658]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:19:09,381] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:09,381] [builder.py:657]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:19:09,381] [builder.py:658]            [DEBUG]    | Value: +C1_Department Q                                                                            |
+[2022-10-11 11:19:09,629] [builder.py:823]            [INFO]     |                                                                                                    |
+[2022-10-11 11:19:09,629] [builder.py:824]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:19:09,629] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:09,629] [plex_meta_manager.py:563]  [INFO]     |================================= Running Department Q Collection ==================================|
+[2022-10-11 11:19:09,630] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:09,630] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:19:09,630] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:09,630] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 319850                                                                   |
+[2022-10-11 11:19:09,630] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:09,638] [tmdb.py:381]               [INFO]     | Processing TMDb Collection: (319850) Les Enquêtes du Département V - Saga (5 Items)                |
+[2022-10-11 11:19:09,639] [builder.py:1581]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:09,639] [builder.py:1582]           [DEBUG]    | 5 IDs Found: [(196024, 'tmdb'), (254201, 'tmdb'), (348668, 'tmdb'), (479226, 'tmdb'), (659940, 'tmdb')] |
+[2022-10-11 11:19:09,639] [builder.py:1583]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:09,640] [builder.py:2132]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:09,640] [builder.py:2133]           [INFO]     |================================ Adding to Department Q Collection =================================|
+[2022-10-11 11:19:09,640] [builder.py:2134]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:09,641] [builder.py:2148]           [INFO]     | 1/5 | Department Q Collection | = | Les Enquêtes du Département V : Miséricorde (2013)             |
+[2022-10-11 11:19:09,641] [builder.py:2148]           [INFO]     | 2/5 | Department Q Collection | = | Les Enquêtes du Département V : Profanation (2014)             |
+[2022-10-11 11:19:09,641] [builder.py:2148]           [INFO]     | 3/5 | Department Q Collection | = | Les Enquêtes du Département V: Délivrance (2016)               |
+[2022-10-11 11:19:09,641] [builder.py:2148]           [INFO]     | 4/5 | Department Q Collection | = | Les Enquêtes du Département V : Dossier 64 (2018)              |
+[2022-10-11 11:19:09,642] [builder.py:2148]           [INFO]     | 5/5 | Department Q Collection | = | Les Enquêtes du département V : L'Effet Papillon (2021)        |
+[2022-10-11 11:19:09,642] [builder.py:2168]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:09,642] [builder.py:2170]           [INFO]     | 5 Movies Processed 0 Movies Added                                                                  |
+[2022-10-11 11:19:09,652] [builder.py:2521]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:09,652] [builder.py:2522]           [INFO]     |=========================== Updating Details of Department Q Collection ============================|
+[2022-10-11 11:19:09,653] [builder.py:2523]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:09,665] [builder.py:2589]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-10-11 11:19:09,666] [builder.py:2660]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Department Q'                                         |
+[2022-10-11 11:19:09,666] [util.py:171]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-10-11 11:19:09,666] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Poster: https://image.tmdb.org/t/p/original/bhWjdlAcuG36pY6TOd2angZ8hKs.jpg |
+[2022-10-11 11:19:09,666] [util.py:171]               [DEBUG]    | 1 background found:                                                                                |
+[2022-10-11 11:19:09,666] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Background: https://image.tmdb.org/t/p/original/mrgykjULNOZavn9xw9bp98aH1Rc.jpg |
+[2022-10-11 11:19:09,668] [library.py:173]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-10-11 11:19:09,669] [library.py:189]            [INFO]     | Detail: background update not needed                                                               |
+[2022-10-11 11:19:09,994] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:09,994] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:19:09,995] [plex_meta_manager.py:709]  [INFO]     |                                  Finished Department Q Collection                                  |
+[2022-10-11 11:19:09,995] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 11:19:09,995] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

@@ -1,0 +1,74 @@
+[2022-10-11 11:19:03,525] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:19:03,525] [builder.py:200]            [INFO]     |                              Les Charlots Collection in Z. 1 - Films                               |
+[2022-10-11 11:19:03,525] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:19:03,525] [builder.py:201]            [INFO]     |                                                                                                    |
+[2022-10-11 11:19:03,525] [builder.py:206]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:19:03,526] [builder.py:222]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:03,526] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:19:03,526] [meta.py:129]               [DEBUG]    | Call: {'value': ['188133'], 'tmdb_collection': ['188133'], 'key_name': 'Les Charlots', 'key': '188133', 'name': 'my_template'} |
+[2022-10-11 11:19:03,526] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:03,526] [meta.py:305]               [DEBUG]    | Variables: {'value': ['188133'], 'tmdb_collection': ['188133'], 'key_name': 'Les Charlots', 'key': '188133', 'name': 'my_template', 'collection_name': 'Les Charlots', 'mapping_name': 'Les Charlots', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%27188133%27%5D', 'tmdb_collection_encoded': '%5B%27188133%27%5D', 'key_name_encoded': 'Les%20Charlots', 'key_encoded': '188133', 'name_encoded': 'my_template', 'collection_name_encoded': 'Les%20Charlots', 'mapping_name_encoded': 'Les%20Charlots', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Les Charlots'} |
+[2022-10-11 11:19:03,526] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:03,527] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:19:03,527] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:03,527] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:19:03,528] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:03,528] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['188133'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_Les Charlots'} |
+[2022-10-11 11:19:03,528] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:03,528] [builder.py:230]            [INFO]     |================================ Validating Les Charlots Attributes ================================|
+[2022-10-11 11:19:03,529] [builder.py:620]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:03,529] [builder.py:621]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:19:03,529] [builder.py:622]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:19:03,529] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:03,529] [builder.py:657]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:19:03,529] [builder.py:658]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:19:03,530] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:03,530] [builder.py:657]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:19:03,530] [builder.py:658]            [DEBUG]    | Value: ['188133']                                                                                  |
+[2022-10-11 11:19:03,553] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:03,553] [builder.py:657]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:19:03,553] [builder.py:658]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:19:03,554] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:03,554] [builder.py:657]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:19:03,554] [builder.py:658]            [DEBUG]    | Value: +C1_Les Charlots                                                                            |
+[2022-10-11 11:19:03,559] [plex.py:803]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:03,560] [plex.py:806]               [DEBUG]    | Looking for: Les Charlots                                                                          |
+[2022-10-11 11:19:03,560] [builder.py:823]            [INFO]     |                                                                                                    |
+[2022-10-11 11:19:03,560] [builder.py:824]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:19:03,560] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:03,561] [plex_meta_manager.py:563]  [INFO]     |================================= Running Les Charlots Collection ==================================|
+[2022-10-11 11:19:03,561] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:03,561] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:19:03,561] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:03,561] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 188133                                                                   |
+[2022-10-11 11:19:03,562] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:03,572] [tmdb.py:381]               [INFO]     | Processing TMDb Collection: (188133) Les Charlots - Saga (15 Items)                                |
+[2022-10-11 11:19:03,573] [builder.py:1581]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:03,573] [builder.py:1582]           [DEBUG]    | 15 IDs Found: [(72280, 'tmdb'), (61852, 'tmdb'), (79391, 'tmdb'), (72259, 'tmdb'), (62662, 'tmdb'), (78564, 'tmdb'), (62659, 'tmdb'), (62660, 'tmdb'), (47157, 'tmdb'), (56501, 'tmdb'), (72373, 'tmdb'), (79386, 'tmdb'), (79387, 'tmdb'), (62663, 'tmdb'), (79370, 'tmdb')] |
+[2022-10-11 11:19:03,573] [builder.py:1583]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:03,573] [builder.py:2300]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:03,574] [builder.py:2301]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-10-11 11:19:03,574] [builder.py:2302]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:03,593] [builder.py:2315]           [INFO]     | Les Charlots Collection | ? | The Great Java (1971) (TMDb: 72280)                                  |
+[2022-10-11 11:19:03,614] [builder.py:2315]           [INFO]     | Les Charlots Collection | ? | Charlots Go to Spain (1972) (TMDb: 79391)                            |
+[2022-10-11 11:19:03,664] [builder.py:2315]           [INFO]     | Les Charlots Collection | ? | Rookies Run Amok (1971) (TMDb: 72259)                                |
+[2022-10-11 11:19:03,679] [builder.py:2315]           [INFO]     | Les Charlots Collection | ? | Rookies Go to War (1974) (TMDb: 62662)                               |
+[2022-10-11 11:19:03,723] [builder.py:2315]           [INFO]     | Les Charlots Collection | ? | Les Charlots contre Dracula (1980) (TMDb: 78564)                     |
+[2022-10-11 11:19:03,737] [builder.py:2315]           [INFO]     | Les Charlots Collection | ? | The Four Charlots Musketeers 2 (1974) (TMDb: 62659)                  |
+[2022-10-11 11:19:03,781] [builder.py:2315]           [INFO]     | Les Charlots Collection | ? | Stadium Nuts (1972) (TMDb: 62660)                                    |
+[2022-10-11 11:19:03,796] [builder.py:2315]           [INFO]     | Les Charlots Collection | ? | The Four Charlots Musketeers (1974) (TMDb: 47157)                    |
+[2022-10-11 11:19:03,839] [builder.py:2315]           [INFO]     | Les Charlots Collection | ? | From Hong Kong with Love (1975) (TMDb: 56501)                        |
+[2022-10-11 11:19:03,854] [builder.py:2315]           [INFO]     | Les Charlots Collection | ? | Rookies Run Amok 2 (1983) (TMDb: 72373)                              |
+[2022-10-11 11:19:03,906] [builder.py:2315]           [INFO]     | Les Charlots Collection | ? | Les Charlots en délire (1979) (TMDb: 79386)                          |
+[2022-10-11 11:19:03,931] [builder.py:2315]           [INFO]     | Les Charlots Collection | ? | Charlots' Connection (1984) (TMDb: 79387)                            |
+[2022-10-11 11:19:03,956] [builder.py:2315]           [INFO]     | Les Charlots Collection | ? | The Charlots Return (1992) (TMDb: 62663)                             |
+[2022-10-11 11:19:03,981] [builder.py:2315]           [INFO]     | Les Charlots Collection | ? | Et vive la liberté! (1978) (TMDb: 79370)                             |
+[2022-10-11 11:19:03,981] [builder.py:2320]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:03,982] [builder.py:2321]           [INFO]     | 14 Movies Missing                                                                                  |
+[2022-10-11 11:19:04,028] [plex_meta_manager.py:624]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:04,028] [plex_meta_manager.py:625]  [INFO]     | Collection Minimum: 2 not met for Les Charlots Collection                                          |
+[2022-10-11 11:19:04,028] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:04,028] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:19:04,029] [plex_meta_manager.py:709]  [INFO]     |                                  Finished Les Charlots Collection                                  |
+[2022-10-11 11:19:04,029] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 11:19:04,029] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

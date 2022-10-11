@@ -1,0 +1,191 @@
+[2022-10-11 10:01:57,597] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 10:01:57,597] [builder.py:197]            [INFO]     |                             Drama Collection in Z. 5 - Film Animation                              |
+[2022-10-11 10:01:57,597] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 10:01:57,597] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 10:01:57,597] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 10:01:57,597] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:01:57,598] [meta.py:128]               [DEBUG]    | Template Genre                                                                                     |
+[2022-10-11 10:01:57,598] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Genre')])                                                             |
+[2022-10-11 10:01:57,598] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:01:57,598] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Genre'), ('collection_name', 'Drama'), ('mapping_name', 'Drama'), ('library_type', 'movie'), ('library_name', 'Z. 5 - Film Animation'), ('name_encoded', 'Genre'), ('collection_name_encoded', 'Drama'), ('mapping_name_encoded', 'Drama'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%205%20-%20Film%20Animation'), ('collection_sort', 'Drama')]) |
+[2022-10-11 10:01:57,598] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:01:57,598] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 10:01:57,598] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:01:57,599] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 10:01:57,599] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:01:57,599] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+3_Drama', 'sync_mode': 'sync', 'smart_label': 'audience_rating.desc'} |
+[2022-10-11 10:01:57,599] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:01:57,599] [builder.py:219]            [INFO]     |=================================== Validating Drama Attributes ====================================|
+[2022-10-11 10:01:57,600] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:01:57,600] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-11 10:01:57,600] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-11 10:01:57,600] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:01:57,600] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-11 10:01:57,600] [builder.py:544]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-10-11 10:01:57,616] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:01:57,617] [builder.py:631]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-10-11 10:01:57,617] [builder.py:632]            [DEBUG]    | Value: ordereddict([('genre', 'Drame')])                                                           |
+[2022-10-11 10:01:57,672] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:01:57,672] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-11 10:01:57,673] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_DRAMA.png               |
+[2022-10-11 10:01:57,908] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:01:57,909] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-10-11 10:01:57,909] [builder.py:632]            [DEBUG]    | Value: Drama film is a genre that relies on the emotional and relational development of realistic characters. While Drama film relies heavily on this kind of development, dramatic themes play a large role in the plot as well. Often, these dramatic themes are taken from intense, real life issues. Whether heroes or heroines are facing a conflict from the outside or a conflict within themselves, Drama film aims to tell an honest story of human struggles. |
+[2022-10-11 10:01:57,909] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:01:57,909] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 10:01:57,909] [builder.py:632]            [DEBUG]    | Value: +3_Drama                                                                                    |
+[2022-10-11 10:01:57,914] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:01:57,914] [plex.py:793]               [DEBUG]    | Looking for: Drama                                                                                 |
+[2022-10-11 10:01:57,914] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 10:01:57,914] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 10:01:57,915] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 10:01:57,915] [plex_meta_manager.py:563]  [INFO]     |===================================== Running Drama Collection =====================================|
+[2022-10-11 10:01:57,915] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-10-11 10:01:57,915] [plex_meta_manager.py:570]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: audience_rating.desc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Drama
+[2022-10-11 10:01:57,916] [plex_meta_manager.py:575]  [INFO]     | 
+[2022-10-11 10:01:57,916] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync
+[2022-10-11 10:01:57,916] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 10:01:57,916] [plex_meta_manager.py:580]  [DEBUG]    | Builder: plex_search: (1, 'Plex Movie Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Genre is Drame', '?type=1&sort=titleSort&push=1&genre=27936&pop=1')
+[2022-10-11 10:01:57,916] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 10:01:57,916] [plex.py:819]               [INFO]     | Processing Plex Movie Search
+                                                                 | Sort By: title.asc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Match any of the following:
+                                                                 |       Genre is Drame
+[2022-10-11 10:01:58,316] [plex.py:864]               [DEBUG]    | 
+[2022-10-11 10:01:58,317] [plex.py:865]               [DEBUG]    | 103 Keys Found: [(21642, 'ratingKey'), (7420, 'ratingKey'), (22451, 'ratingKey'), (88590, 'ratingKey'), (88777, 'ratingKey'), (88778, 'ratingKey'), (88782, 'ratingKey'), (88588, 'ratingKey'), (88581, 'ratingKey'), (88789, 'ratingKey'), (88589, 'ratingKey'), (88856, 'ratingKey'), (88582, 'ratingKey'), (88838, 'ratingKey'), (88781, 'ratingKey'), (88839, 'ratingKey'), (21731, 'ratingKey'), (21591, 'ratingKey'), (88810, 'ratingKey'), (21602, 'ratingKey'), (7421, 'ratingKey'), (88906, 'ratingKey'), (88905, 'ratingKey'), (88759, 'ratingKey'), (88880, 'ratingKey'), (88867, 'ratingKey'), (88567, 'ratingKey'), (88912, 'ratingKey'), (88910, 'ratingKey'), (88868, 'ratingKey'), (88890, 'ratingKey'), (88917, 'ratingKey'), (21756, 'ratingKey'), (92137, 'ratingKey'), (88797, 'ratingKey'), (88798, 'ratingKey'), (88799, 'ratingKey'), (88800, 'ratingKey'), (88801, 'ratingKey'), (22462, 'ratingKey'), (22317, 'ratingKey'), (21593, 'ratingKey'), (21644, 'ratingKey'), (88597, 'ratingKey'), (88523, 'ratingKey'), (7413, 'ratingKey'), (88610, 'ratingKey'), (7406, 'ratingKey'), (22580, 'ratingKey'), (93902, 'ratingKey'), (22460, 'ratingKey'), (21647, 'ratingKey'), (21730, 'ratingKey'), (7436, 'ratingKey'), (88857, 'ratingKey'), (88901, 'ratingKey'), (21698, 'ratingKey'), (19771, 'ratingKey'), (7423, 'ratingKey'), (19797, 'ratingKey'), (7437, 'ratingKey'), (7431, 'ratingKey'), (22363, 'ratingKey'), (88796, 'ratingKey'), (88634, 'ratingKey'), (21740, 'ratingKey'), (88755, 'ratingKey'), (21358, 'ratingKey'), (34244, 'ratingKey'), (13690, 'ratingKey'), (13688, 'ratingKey'), (88659, 'ratingKey'), (21722, 'ratingKey'), (88909, 'ratingKey'), (88904, 'ratingKey'), (88908, 'ratingKey'), (88560, 'ratingKey'), (88913, 'ratingKey'), (88899, 'ratingKey'), (88870, 'ratingKey'), (88563, 'ratingKey'), (88771, 'ratingKey'), (7481, 'ratingKey'), (88840, 'ratingKey'), (19764, 'ratingKey'), (22454, 'ratingKey'), (21640, 'ratingKey'), (7461, 'ratingKey'), (19782, 'ratingKey'), (7462, 'ratingKey'), (7408, 'ratingKey'), (88680, 'ratingKey'), (88677, 'ratingKey'), (21723, 'ratingKey'), (88689, 'ratingKey'), (83040, 'ratingKey'), (88646, 'ratingKey'), (22362, 'ratingKey'), (88737, 'ratingKey'), (21759, 'ratingKey'), (22417, 'ratingKey'), (88731, 'ratingKey'), (21697, 'ratingKey')]
+[2022-10-11 10:01:58,318] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 10:01:58,318] [builder.py:1541]           [DEBUG]    | 103 IDs Found: [(21642, 'ratingKey'), (7420, 'ratingKey'), (22451, 'ratingKey'), (88590, 'ratingKey'), (88777, 'ratingKey'), (88778, 'ratingKey'), (88782, 'ratingKey'), (88588, 'ratingKey'), (88581, 'ratingKey'), (88789, 'ratingKey'), (88589, 'ratingKey'), (88856, 'ratingKey'), (88582, 'ratingKey'), (88838, 'ratingKey'), (88781, 'ratingKey'), (88839, 'ratingKey'), (21731, 'ratingKey'), (21591, 'ratingKey'), (88810, 'ratingKey'), (21602, 'ratingKey'), (7421, 'ratingKey'), (88906, 'ratingKey'), (88905, 'ratingKey'), (88759, 'ratingKey'), (88880, 'ratingKey'), (88867, 'ratingKey'), (88567, 'ratingKey'), (88912, 'ratingKey'), (88910, 'ratingKey'), (88868, 'ratingKey'), (88890, 'ratingKey'), (88917, 'ratingKey'), (21756, 'ratingKey'), (92137, 'ratingKey'), (88797, 'ratingKey'), (88798, 'ratingKey'), (88799, 'ratingKey'), (88800, 'ratingKey'), (88801, 'ratingKey'), (22462, 'ratingKey'), (22317, 'ratingKey'), (21593, 'ratingKey'), (21644, 'ratingKey'), (88597, 'ratingKey'), (88523, 'ratingKey'), (7413, 'ratingKey'), (88610, 'ratingKey'), (7406, 'ratingKey'), (22580, 'ratingKey'), (93902, 'ratingKey'), (22460, 'ratingKey'), (21647, 'ratingKey'), (21730, 'ratingKey'), (7436, 'ratingKey'), (88857, 'ratingKey'), (88901, 'ratingKey'), (21698, 'ratingKey'), (19771, 'ratingKey'), (7423, 'ratingKey'), (19797, 'ratingKey'), (7437, 'ratingKey'), (7431, 'ratingKey'), (22363, 'ratingKey'), (88796, 'ratingKey'), (88634, 'ratingKey'), (21740, 'ratingKey'), (88755, 'ratingKey'), (21358, 'ratingKey'), (34244, 'ratingKey'), (13690, 'ratingKey'), (13688, 'ratingKey'), (88659, 'ratingKey'), (21722, 'ratingKey'), (88909, 'ratingKey'), (88904, 'ratingKey'), (88908, 'ratingKey'), (88560, 'ratingKey'), (88913, 'ratingKey'), (88899, 'ratingKey'), (88870, 'ratingKey'), (88563, 'ratingKey'), (88771, 'ratingKey'), (7481, 'ratingKey'), (88840, 'ratingKey'), (19764, 'ratingKey'), (22454, 'ratingKey'), (21640, 'ratingKey'), (7461, 'ratingKey'), (19782, 'ratingKey'), (7462, 'ratingKey'), (7408, 'ratingKey'), (88680, 'ratingKey'), (88677, 'ratingKey'), (21723, 'ratingKey'), (88689, 'ratingKey'), (83040, 'ratingKey'), (88646, 'ratingKey'), (22362, 'ratingKey'), (88737, 'ratingKey'), (21759, 'ratingKey'), (22417, 'ratingKey'), (88731, 'ratingKey'), (21697, 'ratingKey')]
+[2022-10-11 10:01:58,318] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 10:01:58,336] [builder.py:2064]           [INFO]     | 
+[2022-10-11 10:01:58,336] [builder.py:2065]           [INFO]     |==================================== Adding to Drama Collection ====================================|
+[2022-10-11 10:01:58,337] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-11 10:01:58,359] [builder.py:2080]           [INFO]     |   1/103 | Drama Collection | + | Akira (1988)                                                      |
+[2022-10-11 10:01:58,380] [builder.py:2080]           [INFO]     |   2/103 | Drama Collection | + | Arrietty, le petit monde des chapardeurs (2010)                   |
+[2022-10-11 10:01:58,397] [builder.py:2080]           [INFO]     |   3/103 | Drama Collection | + | Bambi 2 (2006)                                                    |
+[2022-10-11 10:01:58,415] [builder.py:2080]           [INFO]     |   4/103 | Drama Collection | + | Batman : Les Origines (2011)                                      |
+[2022-10-11 10:01:58,433] [builder.py:2080]           [INFO]     |   5/103 | Drama Collection | + | Batman : The Dark Knight Returns, Part 1 (2012)                   |
+[2022-10-11 10:01:58,452] [builder.py:2080]           [INFO]     |   6/103 | Drama Collection | + | Batman : The Dark Knight Returns, Part 2 (2013)                   |
+[2022-10-11 10:01:58,471] [builder.py:2080]           [INFO]     |   7/103 | Drama Collection | + | Batman : The Long Halloween 1ère Partie (2021)                    |
+[2022-10-11 10:01:58,487] [builder.py:2080]           [INFO]     |   8/103 | Drama Collection | + | Batman : The Long Halloween 2ème Partie (2021)                    |
+[2022-10-11 10:01:58,505] [builder.py:2080]           [INFO]     |   9/103 | Drama Collection | + | Batman : Un deuil dans la famille (2020)                          |
+[2022-10-11 10:01:58,525] [builder.py:2080]           [INFO]     |  10/103 | Drama Collection | + | Batman & Mr Freeze : SubZero (1998)                               |
+[2022-10-11 10:01:58,567] [builder.py:2080]           [INFO]     |  11/103 | Drama Collection | + | Batman et Red Hood : Sous le masque rouge (2010)                  |
+[2022-10-11 10:01:58,630] [builder.py:2080]           [INFO]     |  12/103 | Drama Collection | + | Batman vs. Robin (2015)                                           |
+[2022-10-11 10:01:58,650] [builder.py:2080]           [INFO]     |  13/103 | Drama Collection | + | Batman: Gotham Knight (2008)                                      |
+[2022-10-11 10:01:58,668] [builder.py:2080]           [INFO]     |  14/103 | Drama Collection | + | Batman: La Mystérieuse Batwoman (2003)                            |
+[2022-10-11 10:01:58,686] [builder.py:2080]           [INFO]     |  15/103 | Drama Collection | + | Batman: The Killing Joke (2016)                                   |
+[2022-10-11 10:01:58,704] [builder.py:2080]           [INFO]     |  16/103 | Drama Collection | + | Belle (2021)                                                      |
+[2022-10-11 10:01:58,722] [builder.py:2080]           [INFO]     |  17/103 | Drama Collection | + | La Belle et le Clochard (1955)                                    |
+[2022-10-11 10:01:58,742] [builder.py:2080]           [INFO]     |  18/103 | Drama Collection | + | Bernard et Bianca au Pays des Kangourous (1990)                   |
+[2022-10-11 10:01:58,762] [builder.py:2080]           [INFO]     |  19/103 | Drama Collection | + | Buzz l'Éclair (2022)                                              |
+[2022-10-11 10:01:58,781] [builder.py:2080]           [INFO]     |  20/103 | Drama Collection | + | Cendrillon (2015)                                                 |
+[2022-10-11 10:01:58,798] [builder.py:2080]           [INFO]     |  21/103 | Drama Collection | + | La Colline aux Coquelicots (2011)                                 |
+[2022-10-11 10:01:59,262] [builder.py:2080]           [INFO]     |  22/103 | Drama Collection | + | Détective Conan - Croisement dans l'ancienne capitale (2003)      |
+[2022-10-11 10:01:59,278] [builder.py:2080]           [INFO]     |  23/103 | Drama Collection | + | Détective Conan - Décompte aux Cieux (2001)                       |
+[2022-10-11 10:01:59,296] [builder.py:2080]           [INFO]     |  24/103 | Drama Collection | + | Détective Conan - Jolly Roger et le Cercueil bleu azur (2007)     |
+[2022-10-11 10:01:59,313] [builder.py:2080]           [INFO]     |  25/103 | Drama Collection | + | Détective Conan - L'assassin Dans Son Regard (2000)               |
+[2022-10-11 10:01:59,332] [builder.py:2080]           [INFO]     |  26/103 | Drama Collection | + | Détective Conan - Le fantôme de Baker Street (2002)               |
+[2022-10-11 10:01:59,350] [builder.py:2080]           [INFO]     |  27/103 | Drama Collection | + | Détective Conan - Le magicien de la fin du siècle (1999)          |
+[2022-10-11 10:01:59,368] [builder.py:2080]           [INFO]     |  28/103 | Drama Collection | + | Détective Conan - Le magicien du ciel argenté (2004)              |
+[2022-10-11 10:01:59,384] [builder.py:2080]           [INFO]     |  29/103 | Drama Collection | + | Détective Conan - Le Onzième Attaquant (2012)                     |
+[2022-10-11 10:01:59,400] [builder.py:2080]           [INFO]     |  30/103 | Drama Collection | + | Détective Conan - Le sniper dimensionnel (2014)                   |
+[2022-10-11 10:01:59,418] [builder.py:2080]           [INFO]     |  31/103 | Drama Collection | + | Détective Conan - Stratégie en profondeur (2005)                  |
+[2022-10-11 10:01:59,436] [builder.py:2080]           [INFO]     |  32/103 | Drama Collection | + | Détective Conan - Un détective privé en mer lointaine (2013)      |
+[2022-10-11 10:01:59,529] [builder.py:2080]           [INFO]     |  33/103 | Drama Collection | + | Dinosaure (2000)                                                  |
+[2022-10-11 10:01:59,548] [builder.py:2080]           [INFO]     |  34/103 | Drama Collection | + | Entergalactic (2022)                                              |
+[2022-10-11 10:01:59,729] [builder.py:2080]           [INFO]     |  35/103 | Drama Collection | + | Neon Genesis Evangelion : The End of Evangelion (1997)            |
+[2022-10-11 10:01:59,745] [builder.py:2080]           [INFO]     |  36/103 | Drama Collection | + | Evangelion: 1.0 You Are (Not) Alone (2007)                        |
+[2022-10-11 10:01:59,761] [builder.py:2080]           [INFO]     |  37/103 | Drama Collection | + | Evangelion: 2.0 You Can (Not) Advance (2009)                      |
+[2022-10-11 10:01:59,781] [builder.py:2080]           [INFO]     |  38/103 | Drama Collection | + | Evangelion : 3.0 You Can (Not) Redo (2012)                        |
+[2022-10-11 10:01:59,798] [builder.py:2080]           [INFO]     |  39/103 | Drama Collection | + | Evangelion : 3.0+1.0 Thrice Upon a Time (2021)                    |
+[2022-10-11 10:01:59,817] [builder.py:2080]           [INFO]     |  40/103 | Drama Collection | + | Ferdinand (2017)                                                  |
+[2022-10-11 10:01:59,835] [builder.py:2080]           [INFO]     |  41/103 | Drama Collection | + | Frankenweenie (2012)                                              |
+[2022-10-11 10:01:59,853] [builder.py:2080]           [INFO]     |  42/103 | Drama Collection | + | Frère des ours (2003)                                             |
+[2022-10-11 10:01:59,871] [builder.py:2080]           [INFO]     |  43/103 | Drama Collection | + | Ghost in the Shell (1995)                                         |
+[2022-10-11 10:01:59,889] [builder.py:2080]           [INFO]     |  44/103 | Drama Collection | + | Green Lantern: Les Chevaliers De L'Emeraude (2011)                |
+[2022-10-11 10:01:59,906] [builder.py:2080]           [INFO]     |  45/103 | Drama Collection | + | Injustice (2021)                                                  |
+[2022-10-11 10:01:59,924] [builder.py:2080]           [INFO]     |  46/103 | Drama Collection | + | Je peux entendre l'océan (1993)                                   |
+[2022-10-11 10:02:00,449] [builder.py:2080]           [INFO]     |  47/103 | Drama Collection | + | Je veux manger ton pancréas (2018)                                |
+[2022-10-11 10:02:01,013] [builder.py:2080]           [INFO]     |  48/103 | Drama Collection | + | Kiki la petite sorcière (1989)                                    |
+[2022-10-11 10:02:01,032] [builder.py:2080]           [INFO]     |  49/103 | Drama Collection | + | Kung Fu Panda 2 (2011)                                            |
+[2022-10-11 10:02:01,049] [builder.py:2080]           [INFO]     |  50/103 | Drama Collection | + | Kuroko's Basket: Last Game (2017)                                 |
+[2022-10-11 10:02:01,630] [builder.py:2080]           [INFO]     |  51/103 | Drama Collection | + | L'Île aux chiens (2018)                                           |
+[2022-10-11 10:02:01,646] [builder.py:2080]           [INFO]     |  52/103 | Drama Collection | + | Là-haut (2009)                                                    |
+[2022-10-11 10:02:01,664] [builder.py:2080]           [INFO]     |  53/103 | Drama Collection | + | Le bossu de Notre Dame (1996)                                     |
+[2022-10-11 10:02:01,681] [builder.py:2080]           [INFO]     |  54/103 | Drama Collection | + | Le Conte de la princesse Kaguya (2013)                            |
+[2022-10-11 10:02:02,220] [builder.py:2080]           [INFO]     |  55/103 | Drama Collection | + | Le fils de Batman (2014)                                          |
+[2022-10-11 10:02:02,240] [builder.py:2080]           [INFO]     |  56/103 | Drama Collection | + | Le Retour de Mewtwo (2000)                                        |
+[2022-10-11 10:02:02,256] [builder.py:2080]           [INFO]     |  57/103 | Drama Collection | + | Le Roi lion (1994)                                                |
+[2022-10-11 10:02:02,275] [builder.py:2080]           [INFO]     |  58/103 | Drama Collection | + | Le Roi Lion (2019)                                                |
+[2022-10-11 10:02:02,292] [builder.py:2080]           [INFO]     |  59/103 | Drama Collection | + | Le Royaume des chats (2002)                                       |
+[2022-10-11 10:02:02,310] [builder.py:2080]           [INFO]     |  60/103 | Drama Collection | + | Le sommet des dieux (2021)                                        |
+[2022-10-11 10:02:02,326] [builder.py:2080]           [INFO]     |  61/103 | Drama Collection | + | Le Tombeau des Lucioles (1988)                                    |
+[2022-10-11 10:02:02,344] [builder.py:2080]           [INFO]     |  62/103 | Drama Collection | + | Le vent se lève (2013)                                            |
+[2022-10-11 10:02:02,360] [builder.py:2080]           [INFO]     |  63/103 | Drama Collection | + | Le Voyage d’Arlo (2015)                                           |
+[2022-10-11 10:02:02,376] [builder.py:2080]           [INFO]     |  64/103 | Drama Collection | + | Les Murs vagabonds (2022)                                         |
+[2022-10-11 10:02:02,392] [builder.py:2080]           [INFO]     |  65/103 | Drama Collection | + | La Ligue des justiciers vs les Teen Titans (2016)                 |
+[2022-10-11 10:02:02,409] [builder.py:2080]           [INFO]     |  66/103 | Drama Collection | + | Lilo et Stitch (2002)                                             |
+[2022-10-11 10:02:02,427] [builder.py:2080]           [INFO]     |  67/103 | Drama Collection | + | La Mort de Superman (2018)                                        |
+[2022-10-11 10:02:02,446] [builder.py:2080]           [INFO]     |  68/103 | Drama Collection | + | Perfect Blue (1998)                                               |
+[2022-10-11 10:02:02,464] [builder.py:2080]           [INFO]     |  69/103 | Drama Collection | + | Persepolis (2007)                                                 |
+[2022-10-11 10:02:02,480] [builder.py:2080]           [INFO]     |  70/103 | Drama Collection | + | Pierre Lapin (2018)                                               |
+[2022-10-11 10:02:02,498] [builder.py:2080]           [INFO]     |  71/103 | Drama Collection | + | Pinocchio (2019)                                                  |
+[2022-10-11 10:02:02,516] [builder.py:2080]           [INFO]     |  72/103 | Drama Collection | + | Planète Hulk (2010)                                               |
+[2022-10-11 10:02:02,534] [builder.py:2080]           [INFO]     |  73/103 | Drama Collection | + | Pocahontas : Une légende indienne (1995)                          |
+[2022-10-11 10:02:02,552] [builder.py:2080]           [INFO]     |  74/103 | Drama Collection | + | Pokémon : Arceus et le Joyau de Vie (2009)                        |
+[2022-10-11 10:02:02,568] [builder.py:2080]           [INFO]     |  75/103 | Drama Collection | + | Pokémon : L'ascension de Darkrai (2007)                           |
+[2022-10-11 10:02:02,584] [builder.py:2080]           [INFO]     |  76/103 | Drama Collection | + | Pokémon : La destinée de Deoxys (2004)                            |
+[2022-10-11 10:02:02,599] [builder.py:2080]           [INFO]     |  77/103 | Drama Collection | + | Pokémon : Le Maître des Mirages (2006)                            |
+[2022-10-11 10:02:03,075] [builder.py:2080]           [INFO]     |  78/103 | Drama Collection | + | Pokémon : Lucario et le Mystère de Mew (2005)                     |
+[2022-10-11 10:02:03,094] [builder.py:2080]           [INFO]     |  79/103 | Drama Collection | + | Pokémon, le film : Blanc - Victini et Zekrom (2011)               |
+[2022-10-11 10:02:03,112] [builder.py:2080]           [INFO]     |  80/103 | Drama Collection | + | Pokémon, le film : Diancie et le cocon de l'annihilation (2014)   |
+[2022-10-11 10:02:03,128] [builder.py:2080]           [INFO]     |  81/103 | Drama Collection | + | Pokémon, le film : Je te choisis ! (2017)                         |
+[2022-10-11 10:02:03,145] [builder.py:2080]           [INFO]     |  82/103 | Drama Collection | + | Pokémon, le film : Noir - Victini et Reshiram (2011)              |
+[2022-10-11 10:02:03,162] [builder.py:2080]           [INFO]     |  83/103 | Drama Collection | + | Pompoko (1994)                                                    |
+[2022-10-11 10:02:03,179] [builder.py:2080]           [INFO]     |  84/103 | Drama Collection | + | Pretty Guardian Sailor Moon Eternal : Le film - Partie 1 (2021)   |
+[2022-10-11 10:02:03,198] [builder.py:2080]           [INFO]     |  85/103 | Drama Collection | + | Raya et le Dernier Dragon (2021)                                  |
+[2022-10-11 10:02:03,214] [builder.py:2080]           [INFO]     |  86/103 | Drama Collection | + | La Reine des neiges II (2019)                                     |
+[2022-10-11 10:02:03,230] [builder.py:2080]           [INFO]     |  87/103 | Drama Collection | + | Rox et Rouky (1981)                                               |
+[2022-10-11 10:02:03,246] [builder.py:2080]           [INFO]     |  88/103 | Drama Collection | + | Si tu tends l'oreille (1995)                                      |
+[2022-10-11 10:02:03,692] [builder.py:2080]           [INFO]     |  89/103 | Drama Collection | + | Soul (2020)                                                       |
+[2022-10-11 10:02:03,708] [builder.py:2080]           [INFO]     |  90/103 | Drama Collection | + | Souvenirs de Marnie (2014)                                        |
+[2022-10-11 10:02:04,148] [builder.py:2080]           [INFO]     |  91/103 | Drama Collection | + | Souvenirs goutte à goutte (1991)                                  |
+[2022-10-11 10:02:04,616] [builder.py:2080]           [INFO]     |  92/103 | Drama Collection | + | Superman : Le Crépuscule d'un dieu (2007)                         |
+[2022-10-11 10:02:04,634] [builder.py:2080]           [INFO]     |  93/103 | Drama Collection | + | SuperMan/Batman: Ennemis publics (2009)                           |
+[2022-10-11 10:02:04,652] [builder.py:2080]           [INFO]     |  94/103 | Drama Collection | + | Tarzan (1999)                                                     |
+[2022-10-11 10:02:04,669] [builder.py:2080]           [INFO]     |  95/103 | Drama Collection | + | Teen Titans Le contrat Judas (2017)                               |
+[2022-10-11 10:02:04,686] [builder.py:2080]           [INFO]     |  96/103 | Drama Collection | + | Toy Story 4 (2019)                                                |
+[2022-10-11 10:02:04,702] [builder.py:2080]           [INFO]     |  97/103 | Drama Collection | + | La Traversée du temps (2006)                                      |
+[2022-10-11 10:02:04,721] [builder.py:2080]           [INFO]     |  98/103 | Drama Collection | + | Vice-versa (2015)                                                 |
+[2022-10-11 10:02:04,738] [builder.py:2080]           [INFO]     |  99/103 | Drama Collection | + | Vivo (2021)                                                       |
+[2022-10-11 10:02:04,756] [builder.py:2080]           [INFO]     | 100/103 | Drama Collection | + | Volt, star malgré lui (2008)                                      |
+[2022-10-11 10:02:04,838] [builder.py:2080]           [INFO]     | 101/103 | Drama Collection | + | Winnie l'Ourson : Bonne année (2002)                              |
+[2022-10-11 10:02:05,282] [builder.py:2080]           [INFO]     | 102/103 | Drama Collection | + | The Witcher : le cauchemar du Loup (2021)                         |
+[2022-10-11 10:02:05,301] [builder.py:2080]           [INFO]     | 103/103 | Drama Collection | + | Your Name. (2016)                                                 |
+[2022-10-11 10:02:06,009] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-11 10:02:06,009] [builder.py:2102]           [INFO]     | 103 Movies Processed 103 Movies Added                                                              |
+[2022-10-11 10:02:06,026] [plex.py:711]               [DEBUG]    | Smart Collection Test: ?type=1&sort=audienceRating%3Adesc&label=213022                             |
+[2022-10-11 10:02:06,453] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-11 10:02:06,454] [builder.py:2442]           [INFO]     |=============================== Updating Details of Drama Collection ===============================|
+[2022-10-11 10:02:06,454] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-11 10:02:06,722] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Drama film is a genre that relies on the emotional and relational development of realistic characters. While Drama film relies heavily on this kind of development, dramatic themes play a large role in the plot as well. Often, these dramatic themes are taken from intense, real life issues. Whether heroes or heroines are facing a conflict from the outside or a conflict within themselves, Drama film aims to tell an honest story of human struggles.
+                                                                 | Sort Title | +3_Drama
+                                                                 | Label | +PMM
+[2022-10-11 10:02:07,010] [builder.py:2513]           [INFO]     | Details: have been updated
+[2022-10-11 10:02:07,011] [builder.py:2517]           [INFO]     | 
+[2022-10-11 10:02:07,011] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Drama'
+[2022-10-11 10:02:07,011] [util.py:150]               [DEBUG]    | 1 poster found:
+[2022-10-11 10:02:07,012] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_DRAMA.png
+[2022-10-11 10:02:07,047] [library.py:170]            [INFO]     | Detail: url_poster updated poster to [URL] https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_DRAMA.png
+[2022-10-11 10:02:07,437] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-11 10:02:07,437] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 10:02:07,437] [plex_meta_manager.py:709]  [INFO]     |                                     Finished Drama Collection                                      |
+[2022-10-11 10:02:07,438] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:09                                    |
+[2022-10-11 10:02:07,438] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

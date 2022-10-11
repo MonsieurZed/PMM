@@ -1,0 +1,184 @@
+[2022-09-29 16:32:11,134] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-09-29 16:32:11,135] [builder.py:197]            [INFO]     |                            Best of the 2010s Collection in Z. 1 - Films                            |
+[2022-09-29 16:32:11,135] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-09-29 16:32:11,135] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-09-29 16:32:11,135] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-09-29 16:32:11,135] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-09-29 16:32:11,136] [meta.py:128]               [DEBUG]    | Template Chart                                                                                     |
+[2022-09-29 16:32:11,136] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Chart'), ('num', 7)])                                                 |
+[2022-09-29 16:32:11,136] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-09-29 16:32:11,136] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Chart'), ('num', 7), ('collection_name', 'Best of the 2010s'), ('mapping_name', 'Best of the 2010s'), ('library_type', 'movie'), ('library_name', 'Z. 1 - Films'), ('name_encoded', 'Chart'), ('num_encoded', '7'), ('collection_name_encoded', 'Best%20of%20the%202010s'), ('mapping_name_encoded', 'Best%20of%20the%202010s'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%201%20-%20Films'), ('collection_sort', 'Best of the 2010s')]) |
+[2022-09-29 16:32:11,136] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-09-29 16:32:11,137] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-09-29 16:32:11,137] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-09-29 16:32:11,137] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-09-29 16:32:11,138] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-09-29 16:32:11,138] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+1_7Best of the 2010s', 'sync_mode': 'sync', 'smart_label': 'random'} |
+[2022-09-29 16:32:11,138] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-09-29 16:32:11,138] [builder.py:219]            [INFO]     |============================= Validating Best of the 2010s Attributes ==============================|
+[2022-09-29 16:32:11,138] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-09-29 16:32:11,138] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-09-29 16:32:11,138] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-09-29 16:32:11,139] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-09-29 16:32:11,139] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-09-29 16:32:11,139] [builder.py:544]            [DEBUG]    | Value: random                                                                                      |
+[2022-09-29 16:32:11,151] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 16:32:11,151] [builder.py:631]            [DEBUG]    | Validating Method: tmdb_discover                                                                   |
+[2022-09-29 16:32:11,151] [builder.py:632]            [DEBUG]    | Value: ordereddict([('primary_release_date.gte', '01/01/2010'), ('primary_release_date.lte', '12/31/2019'), ('with_original_language', 'fr'), ('sort_by', 'popularity.desc'), ('limit', 100)]) |
+[2022-09-29 16:32:11,152] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 16:32:11,152] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-09-29 16:32:11,152] [builder.py:632]            [DEBUG]    | Value: Le meilleurs des années 2010                                                                |
+[2022-09-29 16:32:11,152] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 16:32:11,152] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-09-29 16:32:11,152] [builder.py:632]            [DEBUG]    | Value: +1_7Best of the 2010s                                                                       |
+[2022-09-29 16:32:11,158] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-09-29 16:32:11,158] [plex.py:793]               [DEBUG]    | Looking for: Best of the 2010s                                                                     |
+[2022-09-29 16:32:11,159] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-09-29 16:32:11,159] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-09-29 16:32:11,159] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-09-29 16:32:11,159] [plex_meta_manager.py:563]  [INFO]     |=============================== Running Best of the 2010s Collection ===============================|
+[2022-09-29 16:32:11,160] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-09-29 16:32:11,160] [plex_meta_manager.py:570]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: random
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Best of the 2010s
+[2022-09-29 16:32:11,161] [plex_meta_manager.py:575]  [INFO]     | 
+[2022-09-29 16:32:11,161] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync
+[2022-09-29 16:32:11,161] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-09-29 16:32:11,162] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_discover: {'limit': 100, 'primary_release_date.gte': '01/01/2010', 'primary_release_date.lte': '12/31/2019', 'with_original_language': 'fr', 'sort_by': 'popularity.desc'}
+[2022-09-29 16:32:11,162] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-09-29 16:32:11,997] [tmdb.py:339]               [INFO]     | Processing TMDb Discover: 100 Movies
+[2022-09-29 16:32:11,997] [tmdb.py:341]               [INFO]     |            primary_release_date.gte: 2010-01-01
+[2022-09-29 16:32:11,997] [tmdb.py:341]               [INFO]     |            primary_release_date.lte: 2019-12-31
+[2022-09-29 16:32:11,997] [tmdb.py:341]               [INFO]     |            with_original_language: fr
+[2022-09-29 16:32:11,998] [tmdb.py:341]               [INFO]     |            sort_by: popularity.desc
+[2022-09-29 16:32:11,998] [builder.py:1540]           [DEBUG]    | 
+[2022-09-29 16:32:11,998] [builder.py:1541]           [DEBUG]    | 100 IDs Found: [(453354, 'tmdb'), (86331, 'tmdb'), (163733, 'tmdb'), (77338, 'tmdb'), (74513, 'tmdb'), (37645, 'tmdb'), (112160, 'tmdb'), (173185, 'tmdb'), (412520, 'tmdb'), (484641, 'tmdb'), (184314, 'tmdb'), (197796, 'tmdb'), (438478, 'tmdb'), (77459, 'tmdb'), (467938, 'tmdb'), (487616, 'tmdb'), (513302, 'tmdb'), (382591, 'tmdb'), (478820, 'tmdb'), (323661, 'tmdb'), (170522, 'tmdb'), (531428, 'tmdb'), (498248, 'tmdb'), (423453, 'tmdb'), (434355, 'tmdb'), (398924, 'tmdb'), (204436, 'tmdb'), (477489, 'tmdb'), (460059, 'tmdb'), (382598, 'tmdb'), (507076, 'tmdb'), (448779, 'tmdb'), (525554, 'tmdb'), (265177, 'tmdb'), (294457, 'tmdb'), (393519, 'tmdb'), (484468, 'tmdb'), (456154, 'tmdb'), (292431, 'tmdb'), (478860, 'tmdb'), (499726, 'tmdb'), (527729, 'tmdb'), (59118, 'tmdb'), (140870, 'tmdb'), (415010, 'tmdb'), (46332, 'tmdb'), (469274, 'tmdb'), (338189, 'tmdb'), (416148, 'tmdb'), (65496, 'tmdb'), (392794, 'tmdb'), (35552, 'tmdb'), (344120, 'tmdb'), (304410, 'tmdb'), (505436, 'tmdb'), (337674, 'tmdb'), (430528, 'tmdb'), (537655, 'tmdb'), (152584, 'tmdb'), (200112, 'tmdb'), (46738, 'tmdb'), (559401, 'tmdb'), (85872, 'tmdb'), (186992, 'tmdb'), (515841, 'tmdb'), (377263, 'tmdb'), (451995, 'tmdb'), (262391, 'tmdb'), (458302, 'tmdb'), (453191, 'tmdb'), (586863, 'tmdb'), (457955, 'tmdb'), (393764, 'tmdb'), (456165, 'tmdb'), (382511, 'tmdb'), (575479, 'tmdb'), (451713, 'tmdb'), (580600, 'tmdb'), (399121, 'tmdb'), (438347, 'tmdb'), (342878, 'tmdb'), (570131, 'tmdb'), (485189, 'tmdb'), (330764, 'tmdb'), (440355, 'tmdb'), (458534, 'tmdb'), (89899, 'tmdb'), (595867, 'tmdb'), (336199, 'tmdb'), (571650, 'tmdb'), (421447, 'tmdb'), (451657, 'tmdb'), (519141, 'tmdb'), (342281, 'tmdb'), (205048, 'tmdb'), (545669, 'tmdb'), (495673, 'tmdb'), (426830, 'tmdb'), (587301, 'tmdb'), (451955, 'tmdb')]
+[2022-09-29 16:32:11,998] [builder.py:1542]           [DEBUG]    | 
+[2022-09-29 16:32:12,000] [builder.py:2064]           [INFO]     | 
+[2022-09-29 16:32:12,001] [builder.py:2065]           [INFO]     |============================== Adding to Best of the 2010s Collection ==============================|
+[2022-09-29 16:32:12,001] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-09-29 16:32:12,099] [builder.py:2080]           [INFO]     |  1/16 | Best of the 2010s Collection | = | Intouchables (2011)                                     |
+[2022-09-29 16:32:12,099] [builder.py:2080]           [INFO]     |  2/16 | Best of the 2010s Collection | = | Anna (2019)                                             |
+[2022-09-29 16:32:12,099] [builder.py:2080]           [INFO]     |  3/16 | Best of the 2010s Collection | = | Portrait de la jeune fille en feu (2019)                |
+[2022-09-29 16:32:12,100] [builder.py:2080]           [INFO]     |  4/16 | Best of the 2010s Collection | = | Mia et le Lion Blanc (2018)                             |
+[2022-09-29 16:32:12,100] [builder.py:2080]           [INFO]     |  5/16 | Best of the 2010s Collection | = | Taxi 5 (2018)                                           |
+[2022-09-29 16:32:12,100] [builder.py:2080]           [INFO]     |  6/16 | Best of the 2010s Collection | = | Mommy (2014)                                            |
+[2022-09-29 16:32:12,100] [builder.py:2080]           [INFO]     |  7/16 | Best of the 2010s Collection | = | Le chant du loup (2019)                                 |
+[2022-09-29 16:32:12,100] [builder.py:2080]           [INFO]     |  8/16 | Best of the 2010s Collection | = | La famille Bélier (2014)                                |
+[2022-09-29 16:32:12,101] [builder.py:2080]           [INFO]     |  9/16 | Best of the 2010s Collection | = | Qu'est-ce qu'on a encore fait au Bon Dieu ? (2019)      |
+[2022-09-29 16:32:12,101] [builder.py:2080]           [INFO]     | 10/16 | Best of the 2010s Collection | = | Comme un chef (2012)                                    |
+[2022-09-29 16:32:12,101] [builder.py:2080]           [INFO]     | 11/16 | Best of the 2010s Collection | = | Les Misérables (2019)                                   |
+[2022-09-29 16:32:12,102] [builder.py:2080]           [INFO]     | 12/16 | Best of the 2010s Collection | = | Un Moment d'égarement (2015)                            |
+[2022-09-29 16:32:12,102] [builder.py:2080]           [INFO]     | 13/16 | Best of the 2010s Collection | = | Le Tout nouveau testament (2015)                        |
+[2022-09-29 16:32:12,102] [builder.py:2080]           [INFO]     | 14/16 | Best of the 2010s Collection | = | Tout le monde debout (2018)                             |
+[2022-09-29 16:32:12,102] [builder.py:2080]           [INFO]     | 15/16 | Best of the 2010s Collection | = | Chambre 212 (2019)                                      |
+[2022-09-29 16:32:12,102] [builder.py:2080]           [INFO]     | 16/16 | Best of the 2010s Collection | + | Une famille à louer (2015)                              |
+[2022-09-29 16:32:13,195] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-09-29 16:32:13,195] [builder.py:2102]           [INFO]     | 16 Movies Processed 1 Movies Added                                                                 |
+[2022-09-29 16:32:13,195] [builder.py:2228]           [INFO]     |                                                                                                    |
+[2022-09-29 16:32:13,196] [builder.py:2229]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-09-29 16:32:13,196] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-09-29 16:32:13,271] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Ava (2017) (TMDb: 453354)                                       |
+[2022-09-29 16:32:13,291] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Desire (2011) (TMDb: 86331)                                     |
+[2022-09-29 16:32:13,316] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | After (2013) (TMDb: 163733)                                     |
+[2022-09-29 16:32:13,341] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Special Forces (2011) (TMDb: 74513)                             |
+[2022-09-29 16:32:13,367] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | 22 Bullets (2010) (TMDb: 37645)                                 |
+[2022-09-29 16:32:13,391] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Sexual Chronicles of a French Family (2012) (TMDb: 112160)      |
+[2022-09-29 16:32:13,421] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | It Boy (2013) (TMDb: 173185)                                    |
+[2022-09-29 16:32:13,483] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Sex Doll (2016) (TMDb: 412520)                                  |
+[2022-09-29 16:32:13,499] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Young & Beautiful (2013) (TMDb: 184314)                         |
+[2022-09-29 16:32:13,515] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Beauty and the Beast (2014) (TMDb: 197796)                      |
+[2022-09-29 16:32:13,530] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Pornocracy: The New Sex Multinationals (2017) (TMDb: 438478)    |
+[2022-09-29 16:32:13,558] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | A Monster in Paris (2011) (TMDb: 77459)                         |
+[2022-09-29 16:32:13,583] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Revenge (2017) (TMDb: 467938)                                   |
+[2022-09-29 16:32:13,608] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Curiosa (2019) (TMDb: 487616)                                   |
+[2022-09-29 16:32:13,633] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Minuscule 2: Mandibles from Far Away (2019) (TMDb: 513302)      |
+[2022-09-29 16:32:13,658] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Two Is a Family (2016) (TMDb: 382591)                           |
+[2022-09-29 16:32:13,681] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | The Emperor of Paris (2018) (TMDb: 478820)                      |
+[2022-09-29 16:32:13,738] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Mune: Guardian of the Moon (2015) (TMDb: 323661)                |
+[2022-09-29 16:32:13,752] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Asterix: The Mansions of the Gods (2014) (TMDb: 170522)         |
+[2022-09-29 16:32:13,779] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Sahara (2017) (TMDb: 423453)                                    |
+[2022-09-29 16:32:13,811] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | A Bag of Marbles (2017) (TMDb: 398924)                          |
+[2022-09-29 16:32:13,827] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Jack and the Cuckoo-Clock Heart (2014) (TMDb: 204436)           |
+[2022-09-29 16:32:13,869] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Just a Breath Away (2018) (TMDb: 477489)                        |
+[2022-09-29 16:32:13,886] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Burn Out (2018) (TMDb: 460059)                                  |
+[2022-09-29 16:32:13,928] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Full Speed (2016) (TMDb: 382598)                                |
+[2022-09-29 16:32:13,957] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Climax (2018) (TMDb: 507076)                                    |
+[2022-09-29 16:32:13,991] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | The Jungle Bunch (2017) (TMDb: 448779)                          |
+[2022-09-29 16:32:14,011] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | The Bouncer (2018) (TMDb: 525554)                               |
+[2022-09-29 16:32:14,053] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | The Apostle (2014) (TMDb: 294457)                               |
+[2022-09-29 16:32:14,070] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Raw (2016) (TMDb: 393519)                                       |
+[2022-09-29 16:32:14,111] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | White Fang (2018) (TMDb: 456154)                                |
+[2022-09-29 16:32:14,128] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Love (2015) (TMDb: 292431)                                      |
+[2022-09-29 16:32:14,188] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Proxima (2019) (TMDb: 478860)                                   |
+[2022-09-29 16:32:14,207] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | MILF (2018) (TMDb: 499726)                                      |
+[2022-09-29 16:32:14,255] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Asterix: The Secret of the Magic Potion (2018) (TMDb: 527729)   |
+[2022-09-29 16:32:14,272] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | The Prey (2011) (TMDb: 59118)                                   |
+[2022-09-29 16:32:14,321] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Minuscule: Valley of the Lost Ants (2013) (TMDb: 140870)        |
+[2022-09-29 16:32:14,338] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Ravenous (2017) (TMDb: 415010)                                  |
+[2022-09-29 16:32:14,388] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Of Gods and Men (2010) (TMDb: 46332)                            |
+[2022-09-29 16:32:14,405] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Nicky Larson and the Cupid's Perfume (2019) (TMDb: 469274)      |
+[2022-09-29 16:32:14,433] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | It's Only the End of the World (2016) (TMDb: 338189)            |
+[2022-09-29 16:32:14,447] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Rocco (2016) (TMDb: 416148)                                     |
+[2022-09-29 16:32:14,480] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Student Services (2010) (TMDb: 65496)                           |
+[2022-09-29 16:32:14,496] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | The Dancer (2016) (TMDb: 392794)                                |
+[2022-09-29 16:32:14,539] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | The Extraordinary Adventures of Adèle Blanc-Sec (2010) (TMDb: 35552) |
+[2022-09-29 16:32:14,558] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Rabid Dogs (2015) (TMDb: 344120)                                |
+[2022-09-29 16:32:14,605] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Elle (2016) (TMDb: 337674)                                      |
+[2022-09-29 16:32:14,630] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | If I Were a Boy (2017) (TMDb: 430528)                           |
+[2022-09-29 16:32:14,657] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | The Bears' Famous Invasion of Sicily (2019) (TMDb: 537655)      |
+[2022-09-29 16:32:14,673] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Blue Is the Warmest Color (2013) (TMDb: 152584)                 |
+[2022-09-29 16:32:14,702] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Puppylove (2013) (TMDb: 200112)                                 |
+[2022-09-29 16:32:14,720] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Incendies (2010) (TMDb: 46738)                                  |
+[2022-09-29 16:32:14,736] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Sibyl (2019) (TMDb: 559401)                                     |
+[2022-09-29 16:32:14,756] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Stranger by the Lake (2013) (TMDb: 186992)                      |
+[2022-09-29 16:32:14,781] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | I Am Not an Easy Man (2018) (TMDb: 515841)                      |
+[2022-09-29 16:32:14,806] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Frantz (2016) (TMDb: 377263)                                    |
+[2022-09-29 16:32:14,822] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Faces Places (2017) (TMDb: 451995)                              |
+[2022-09-29 16:32:14,854] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Serial (Bad) Weddings (2014) (TMDb: 262391)                     |
+[2022-09-29 16:32:14,880] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Remi, Nobody's Boy (2018) (TMDb: 458302)                        |
+[2022-09-29 16:32:14,908] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | The Big Bad Fox and Other Tales (2017) (TMDb: 453191)           |
+[2022-09-29 16:32:14,941] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | The Night Eats the World (2018) (TMDb: 457955)                  |
+[2022-09-29 16:32:14,974] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | The African Doctor (2016) (TMDb: 393764)                        |
+[2022-09-29 16:32:15,008] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Family Is Family (2018) (TMDb: 456165)                          |
+[2022-09-29 16:32:15,031] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Penny Pincher! (2016) (TMDb: 382511)                            |
+[2022-09-29 16:32:15,073] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | An Easy Girl (2019) (TMDb: 575479)                              |
+[2022-09-29 16:32:15,099] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | An Impossible Love (2018) (TMDb: 451713)                        |
+[2022-09-29 16:32:15,133] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Astro Kid (2019) (TMDb: 580600)                                 |
+[2022-09-29 16:32:15,181] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | An Officer and a Spy (2019) (TMDb: 399121)                      |
+[2022-09-29 16:32:15,208] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Wedding Unplanned (2017) (TMDb: 438347)                         |
+[2022-09-29 16:32:15,256] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Love at Second Sight (2019) (TMDb: 570131)                      |
+[2022-09-29 16:32:15,283] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Sorry Angel (2018) (TMDb: 485189)                               |
+[2022-09-29 16:32:15,331] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | The Royal Exchange (2017) (TMDb: 440355)                        |
+[2022-09-29 16:32:15,728] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | The Players (2012) (TMDb: 89899)                                |
+[2022-09-29 16:32:15,744] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Macadam Stories (2015) (TMDb: 336199)                           |
+[2022-09-29 16:32:15,760] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Paradise Beach (2019) (TMDb: 571650)                            |
+[2022-09-29 16:32:15,777] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | The Climb (2017) (TMDb: 421447)                                 |
+[2022-09-29 16:32:15,794] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Custody (2018) (TMDb: 451657)                                   |
+[2022-09-29 16:32:16,201] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Matthias & Maxime (2019) (TMDb: 519141)                         |
+[2022-09-29 16:32:16,227] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Oggy and the Cockroaches: The Movie (2013) (TMDb: 205048)       |
+[2022-09-29 16:32:16,699] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Fast and Furious - La Saga no Limit (2017) (TMDb: 545669)       |
+[2022-09-29 16:32:17,104] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Belleville Cop (2018) (TMDb: 495673)                            |
+[2022-09-29 16:32:17,698] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Family Heist (2017) (TMDb: 426830)                              |
+[2022-09-29 16:32:18,128] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | School Life (2019) (TMDb: 587301)                               |
+[2022-09-29 16:32:18,753] [builder.py:2243]           [INFO]     | Best of the 2010s Collection | ? | Double Lover (2017) (TMDb: 451955)                              |
+[2022-09-29 16:32:18,753] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-09-29 16:32:18,753] [builder.py:2249]           [INFO]     | 84 Movies Missing                                                                                  |
+[2022-09-29 16:32:19,021] [plex.py:711]               [DEBUG]    | Smart Collection Test: ?type=1&sort=random&label=213173                                            |
+[2022-09-29 16:32:19,117] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-09-29 16:32:19,117] [builder.py:2442]           [INFO]     |========================= Updating Details of Best of the 2010s Collection =========================|
+[2022-09-29 16:32:19,117] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-09-29 16:32:19,293] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Le meilleurs des années 2010
+                                                                 | Sort Title | +1_7Best of the 2010s
+                                                                 | Label | +PMM
+[2022-09-29 16:32:19,498] [builder.py:2513]           [INFO]     | Details: have been updated
+[2022-09-29 16:32:19,498] [builder.py:2517]           [INFO]     | 
+[2022-09-29 16:32:19,499] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Best of the 2010s'
+[2022-09-29 16:32:19,577] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-09-29 16:32:19,577] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-09-29 16:32:19,577] [plex_meta_manager.py:709]  [INFO]     |                               Finished Best of the 2010s Collection                                |
+[2022-09-29 16:32:19,577] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:08                                    |
+[2022-09-29 16:32:19,578] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

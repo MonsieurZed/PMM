@@ -1,0 +1,71 @@
+[2022-10-11 11:18:52,265] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:18:52,265] [builder.py:200]            [INFO]     |                              Hunger Games Collection in Z. 1 - Films                               |
+[2022-10-11 11:18:52,265] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:18:52,266] [builder.py:201]            [INFO]     |                                                                                                    |
+[2022-10-11 11:18:52,266] [builder.py:206]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:18:52,266] [builder.py:222]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:52,266] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:18:52,266] [meta.py:129]               [DEBUG]    | Call: {'value': ['131635'], 'tmdb_collection': ['131635'], 'key_name': 'Hunger Games', 'key': '131635', 'name': 'my_template'} |
+[2022-10-11 11:18:52,266] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:52,267] [meta.py:305]               [DEBUG]    | Variables: {'value': ['131635'], 'tmdb_collection': ['131635'], 'key_name': 'Hunger Games', 'key': '131635', 'name': 'my_template', 'collection_name': 'Hunger Games', 'mapping_name': 'Hunger Games', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%27131635%27%5D', 'tmdb_collection_encoded': '%5B%27131635%27%5D', 'key_name_encoded': 'Hunger%20Games', 'key_encoded': '131635', 'name_encoded': 'my_template', 'collection_name_encoded': 'Hunger%20Games', 'mapping_name_encoded': 'Hunger%20Games', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Hunger Games'} |
+[2022-10-11 11:18:52,267] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:52,267] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:18:52,267] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:52,267] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:18:52,268] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:52,268] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['131635'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_Hunger Games'} |
+[2022-10-11 11:18:52,268] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:52,268] [builder.py:230]            [INFO]     |================================ Validating Hunger Games Attributes ================================|
+[2022-10-11 11:18:52,268] [builder.py:620]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:52,269] [builder.py:621]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:18:52,269] [builder.py:622]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:18:52,269] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:52,269] [builder.py:657]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:18:52,269] [builder.py:658]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:18:52,269] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:52,269] [builder.py:657]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:18:52,269] [builder.py:658]            [DEBUG]    | Value: ['131635']                                                                                  |
+[2022-10-11 11:18:52,282] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:52,282] [builder.py:657]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:18:52,282] [builder.py:658]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:18:52,282] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:52,283] [builder.py:657]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:18:52,283] [builder.py:658]            [DEBUG]    | Value: +C1_Hunger Games                                                                            |
+[2022-10-11 11:18:52,486] [builder.py:823]            [INFO]     |                                                                                                    |
+[2022-10-11 11:18:52,487] [builder.py:824]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:18:52,487] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:52,487] [plex_meta_manager.py:563]  [INFO]     |================================= Running Hunger Games Collection ==================================|
+[2022-10-11 11:18:52,487] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:52,487] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:18:52,488] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:52,488] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 131635                                                                   |
+[2022-10-11 11:18:52,488] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:52,494] [tmdb.py:381]               [INFO]     | Processing TMDb Collection: (131635) Hunger Games - Saga (4 Items)                                 |
+[2022-10-11 11:18:52,494] [builder.py:1581]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:52,494] [builder.py:1582]           [DEBUG]    | 4 IDs Found: [(131631, 'tmdb'), (131634, 'tmdb'), (70160, 'tmdb'), (101299, 'tmdb')]               |
+[2022-10-11 11:18:52,494] [builder.py:1583]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:52,495] [builder.py:2132]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:52,495] [builder.py:2133]           [INFO]     |================================ Adding to Hunger Games Collection =================================|
+[2022-10-11 11:18:52,495] [builder.py:2134]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:52,496] [builder.py:2148]           [INFO]     | 1/4 | Hunger Games Collection | = | Hunger Games : La Révolte, 1ère Partie (2014)                  |
+[2022-10-11 11:18:52,496] [builder.py:2148]           [INFO]     | 2/4 | Hunger Games Collection | = | Hunger Games : La Révolte, 2ème Partie (2015)                  |
+[2022-10-11 11:18:52,496] [builder.py:2148]           [INFO]     | 3/4 | Hunger Games Collection | = | Hunger Games (2012)                                            |
+[2022-10-11 11:18:52,496] [builder.py:2148]           [INFO]     | 4/4 | Hunger Games Collection | = | Hunger Games : L'Embrasement (2013)                            |
+[2022-10-11 11:18:52,496] [builder.py:2168]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:52,497] [builder.py:2170]           [INFO]     | 4 Movies Processed 0 Movies Added                                                                  |
+[2022-10-11 11:18:52,504] [builder.py:2521]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:52,504] [builder.py:2522]           [INFO]     |=========================== Updating Details of Hunger Games Collection ============================|
+[2022-10-11 11:18:52,505] [builder.py:2523]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:52,514] [builder.py:2589]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-10-11 11:18:52,515] [builder.py:2660]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Hunger Games'                                         |
+[2022-10-11 11:18:52,515] [util.py:171]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-10-11 11:18:52,515] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Poster: https://image.tmdb.org/t/p/original/59JUIv2dvzbjnZhQ99u5pvh3NRQ.jpg |
+[2022-10-11 11:18:52,515] [util.py:171]               [DEBUG]    | 1 background found:                                                                                |
+[2022-10-11 11:18:52,515] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Background: https://image.tmdb.org/t/p/original/Ipp7cegtub4t0mu7xaKLQkYoGc.jpg |
+[2022-10-11 11:18:52,516] [library.py:173]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-10-11 11:18:52,517] [library.py:189]            [INFO]     | Detail: background update not needed                                                               |
+[2022-10-11 11:18:52,716] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:52,716] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:18:52,716] [plex_meta_manager.py:709]  [INFO]     |                                  Finished Hunger Games Collection                                  |
+[2022-10-11 11:18:52,717] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 11:18:52,717] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

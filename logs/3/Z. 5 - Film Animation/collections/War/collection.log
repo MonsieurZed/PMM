@@ -1,0 +1,150 @@
+[2022-10-11 10:09:36,419] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 10:09:36,420] [builder.py:197]            [INFO]     |                              War Collection in Z. 5 - Film Animation                               |
+[2022-10-11 10:09:36,420] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 10:09:36,420] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 10:09:36,420] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 10:09:36,420] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:09:36,421] [meta.py:128]               [DEBUG]    | Template Genre                                                                                     |
+[2022-10-11 10:09:36,421] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Genre')])                                                             |
+[2022-10-11 10:09:36,421] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:09:36,421] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Genre'), ('collection_name', 'War'), ('mapping_name', 'War'), ('library_type', 'movie'), ('library_name', 'Z. 5 - Film Animation'), ('name_encoded', 'Genre'), ('collection_name_encoded', 'War'), ('mapping_name_encoded', 'War'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%205%20-%20Film%20Animation'), ('collection_sort', 'War')]) |
+[2022-10-11 10:09:36,421] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:09:36,421] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 10:09:36,422] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:09:36,422] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 10:09:36,423] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:09:36,423] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+3_War', 'sync_mode': 'sync', 'smart_label': 'audience_rating.desc'} |
+[2022-10-11 10:09:36,423] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:09:36,423] [builder.py:219]            [INFO]     |==================================== Validating War Attributes =====================================|
+[2022-10-11 10:09:36,423] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:09:36,424] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-11 10:09:36,424] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-11 10:09:36,424] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:09:36,424] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-11 10:09:36,424] [builder.py:544]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-10-11 10:09:36,444] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:09:36,444] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-11 10:09:36,444] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_WAR.png                 |
+[2022-10-11 10:09:36,750] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:09:36,750] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-10-11 10:09:36,750] [builder.py:632]            [DEBUG]    | Value: War Film is a genre that looks at the reality of war on a grand scale. They often focus on landmark battles as well as political issues within war. This genre usually focuses on a main character and his team of support, giving the audience an inside look into the gritty reality of war. |
+[2022-10-11 10:09:36,751] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:09:36,751] [builder.py:631]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-10-11 10:09:36,751] [builder.py:632]            [DEBUG]    | Value: [ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=war'), ('limit', 200)]), ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=war&sort=user_rating,desc'), ('limit', 200)])] |
+[2022-10-11 10:09:38,373] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:09:38,374] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 10:09:38,374] [builder.py:632]            [DEBUG]    | Value: +3_War                                                                                      |
+[2022-10-11 10:09:38,380] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:09:38,380] [plex.py:793]               [DEBUG]    | Looking for: War                                                                                   |
+[2022-10-11 10:09:38,380] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 10:09:38,381] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 10:09:38,381] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 10:09:38,381] [plex_meta_manager.py:563]  [INFO]     |====================================== Running War Collection ======================================|
+[2022-10-11 10:09:38,381] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-10-11 10:09:38,381] [plex_meta_manager.py:570]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: audience_rating.desc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is War
+[2022-10-11 10:09:38,382] [plex_meta_manager.py:575]  [INFO]     | 
+[2022-10-11 10:09:38,382] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync
+[2022-10-11 10:09:38,382] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 10:09:38,382] [plex_meta_manager.py:580]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=war', 'limit': 200}
+[2022-10-11 10:09:38,382] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 10:09:38,382] [imdb.py:184]               [INFO]     | Processing IMDb List: 200 Items at https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=war
+[2022-10-11 10:09:42,427] [imdb.py:135]               [DEBUG]    | 73 IMDb IDs Found: ['tt0765010', 'tt0361748', 'tt8579674', 'tt0457430', 'tt2119532', 'tt0120815', 'tt0112573', 'tt0213847', 'tt2084970', 'tt7984766', 'tt5013056', 'tt2713180', 'tt0265086', 'tt0451279', 'tt2584384', 'tt0118799', 'tt0253474', 'tt0783233', 'tt0942385', 'tt2005151', 'tt1790885', 'tt4172430', 'tt0104691', 'tt0320661', 'tt0110322', 'tt0363163', 'tt3640424', 'tt0187393', 'tt2179136', 'tt4555426', 'tt0120863', 'tt0120188', 'tt0349683', 'tt3682448', 'tt0887912', 'tt0164184', 'tt0311113', 'tt1091191', 'tt0120762', 'tt0277434', 'tt0213149', 'tt0215750', 'tt0116209', 'tt0418763', 'tt1809398', 'tt0159365', 'tt0914798', 'tt0314353', 'tt0112740', 'tt0443272', 'tt6294822', 'tt0385002', 'tt0346491', 'tt0985699', 'tt1327194', 'tt0120102', 'tt0816442', 'tt4776998', 'tt0395169', 'tt1034303', 'tt0455824', 'tt0367959', 'tt1568911', 'tt0498380', 'tt2177771', 'tt0159273', 'tt0989757', 'tt1234548', 'tt0462504', 'tt0418689', 'tt0947810', 'tt10295212', 'tt5813916']
+[2022-10-11 10:09:42,427] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 10:09:42,428] [builder.py:1541]           [DEBUG]    | 73 IDs Found: [('tt0765010', 'imdb'), ('tt0361748', 'imdb'), ('tt8579674', 'imdb'), ('tt0457430', 'imdb'), ('tt2119532', 'imdb'), ('tt0120815', 'imdb'), ('tt0112573', 'imdb'), ('tt0213847', 'imdb'), ('tt2084970', 'imdb'), ('tt7984766', 'imdb'), ('tt5013056', 'imdb'), ('tt2713180', 'imdb'), ('tt0265086', 'imdb'), ('tt0451279', 'imdb'), ('tt2584384', 'imdb'), ('tt0118799', 'imdb'), ('tt0253474', 'imdb'), ('tt0783233', 'imdb'), ('tt0942385', 'imdb'), ('tt2005151', 'imdb'), ('tt1790885', 'imdb'), ('tt4172430', 'imdb'), ('tt0104691', 'imdb'), ('tt0320661', 'imdb'), ('tt0110322', 'imdb'), ('tt0363163', 'imdb'), ('tt3640424', 'imdb'), ('tt0187393', 'imdb'), ('tt2179136', 'imdb'), ('tt4555426', 'imdb'), ('tt0120863', 'imdb'), ('tt0120188', 'imdb'), ('tt0349683', 'imdb'), ('tt3682448', 'imdb'), ('tt0887912', 'imdb'), ('tt0164184', 'imdb'), ('tt0311113', 'imdb'), ('tt1091191', 'imdb'), ('tt0120762', 'imdb'), ('tt0277434', 'imdb'), ('tt0213149', 'imdb'), ('tt0215750', 'imdb'), ('tt0116209', 'imdb'), ('tt0418763', 'imdb'), ('tt1809398', 'imdb'), ('tt0159365', 'imdb'), ('tt0914798', 'imdb'), ('tt0314353', 'imdb'), ('tt0112740', 'imdb'), ('tt0443272', 'imdb'), ('tt6294822', 'imdb'), ('tt0385002', 'imdb'), ('tt0346491', 'imdb'), ('tt0985699', 'imdb'), ('tt1327194', 'imdb'), ('tt0120102', 'imdb'), ('tt0816442', 'imdb'), ('tt4776998', 'imdb'), ('tt0395169', 'imdb'), ('tt1034303', 'imdb'), ('tt0455824', 'imdb'), ('tt0367959', 'imdb'), ('tt1568911', 'imdb'), ('tt0498380', 'imdb'), ('tt2177771', 'imdb'), ('tt0159273', 'imdb'), ('tt0989757', 'imdb'), ('tt1234548', 'imdb'), ('tt0462504', 'imdb'), ('tt0418689', 'imdb'), ('tt0947810', 'imdb'), ('tt10295212', 'imdb'), ('tt5813916', 'imdb')]
+[2022-10-11 10:09:42,428] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 10:09:42,708] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 10:09:42,710] [plex_meta_manager.py:580]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=war&sort=user_rating,desc', 'limit': 200}
+[2022-10-11 10:09:42,710] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 10:09:42,710] [imdb.py:184]               [INFO]     | Processing IMDb List: 200 Items at https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=war&sort=user_rating,desc
+[2022-10-11 10:09:46,610] [imdb.py:135]               [DEBUG]    | 73 IMDb IDs Found: ['tt0120815', 'tt0118799', 'tt0253474', 'tt10295212', 'tt0112573', 'tt0361748', 'tt8579674', 'tt5813916', 'tt0457430', 'tt0363163', 'tt2119532', 'tt0395169', 'tt2084970', 'tt2584384', 'tt0498380', 'tt5013056', 'tt0783233', 'tt0914798', 'tt0265086', 'tt0104691', 'tt3682448', 'tt0215750', 'tt0120863', 'tt0120762', 'tt2713180', 'tt1091191', 'tt0887912', 'tt0816442', 'tt0110322', 'tt4555426', 'tt1790885', 'tt0451279', 'tt0385002', 'tt0311113', 'tt0213847', 'tt0116209', 'tt7984766', 'tt4172430', 'tt2179136', 'tt0462504', 'tt0443272', 'tt0112740', 'tt6294822', 'tt1809398', 'tt1568911', 'tt0320661', 'tt0187393', 'tt0159365', 'tt3640424', 'tt2005151', 'tt1034303', 'tt0985699', 'tt0765010', 'tt0418689', 'tt0277434', 'tt0120188', 'tt0120102', 'tt0942385', 'tt0418763', 'tt0947810', 'tt0455824', 'tt0314353', 'tt1327194', 'tt0164184', 'tt0159273', 'tt0989757', 'tt0349683', 'tt1234548', 'tt0213149', 'tt2177771', 'tt0367959', 'tt4776998', 'tt0346491']
+[2022-10-11 10:09:46,611] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 10:09:46,611] [builder.py:1541]           [DEBUG]    | 73 IDs Found: [('tt0120815', 'imdb'), ('tt0118799', 'imdb'), ('tt0253474', 'imdb'), ('tt10295212', 'imdb'), ('tt0112573', 'imdb'), ('tt0361748', 'imdb'), ('tt8579674', 'imdb'), ('tt5813916', 'imdb'), ('tt0457430', 'imdb'), ('tt0363163', 'imdb'), ('tt2119532', 'imdb'), ('tt0395169', 'imdb'), ('tt2084970', 'imdb'), ('tt2584384', 'imdb'), ('tt0498380', 'imdb'), ('tt5013056', 'imdb'), ('tt0783233', 'imdb'), ('tt0914798', 'imdb'), ('tt0265086', 'imdb'), ('tt0104691', 'imdb'), ('tt3682448', 'imdb'), ('tt0215750', 'imdb'), ('tt0120863', 'imdb'), ('tt0120762', 'imdb'), ('tt2713180', 'imdb'), ('tt1091191', 'imdb'), ('tt0887912', 'imdb'), ('tt0816442', 'imdb'), ('tt0110322', 'imdb'), ('tt4555426', 'imdb'), ('tt1790885', 'imdb'), ('tt0451279', 'imdb'), ('tt0385002', 'imdb'), ('tt0311113', 'imdb'), ('tt0213847', 'imdb'), ('tt0116209', 'imdb'), ('tt7984766', 'imdb'), ('tt4172430', 'imdb'), ('tt2179136', 'imdb'), ('tt0462504', 'imdb'), ('tt0443272', 'imdb'), ('tt0112740', 'imdb'), ('tt6294822', 'imdb'), ('tt1809398', 'imdb'), ('tt1568911', 'imdb'), ('tt0320661', 'imdb'), ('tt0187393', 'imdb'), ('tt0159365', 'imdb'), ('tt3640424', 'imdb'), ('tt2005151', 'imdb'), ('tt1034303', 'imdb'), ('tt0985699', 'imdb'), ('tt0765010', 'imdb'), ('tt0418689', 'imdb'), ('tt0277434', 'imdb'), ('tt0120188', 'imdb'), ('tt0120102', 'imdb'), ('tt0942385', 'imdb'), ('tt0418763', 'imdb'), ('tt0947810', 'imdb'), ('tt0455824', 'imdb'), ('tt0314353', 'imdb'), ('tt1327194', 'imdb'), ('tt0164184', 'imdb'), ('tt0159273', 'imdb'), ('tt0989757', 'imdb'), ('tt0349683', 'imdb'), ('tt1234548', 'imdb'), ('tt0213149', 'imdb'), ('tt2177771', 'imdb'), ('tt0367959', 'imdb'), ('tt4776998', 'imdb'), ('tt0346491', 'imdb')]
+[2022-10-11 10:09:46,611] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 10:09:46,662] [builder.py:2228]           [INFO]     | 
+[2022-10-11 10:09:46,664] [builder.py:2229]           [INFO]     |======================== Missing Movies from Library: Z. 5 - Film Animation ========================|
+[2022-10-11 10:09:46,664] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-10-11 10:09:46,739] [builder.py:2243]           [INFO]     | War Collection | ? | Brothers (2009) (TMDb: 7445)                                                  |
+[2022-10-11 10:09:46,760] [builder.py:2243]           [INFO]     | War Collection | ? | Inglourious Basterds (2009) (TMDb: 16869)                                     |
+[2022-10-11 10:09:46,796] [builder.py:2243]           [INFO]     | War Collection | ? | 1917 (2019) (TMDb: 530915)                                                    |
+[2022-10-11 10:09:46,821] [builder.py:2243]           [INFO]     | War Collection | ? | Pan's Labyrinth (2006) (TMDb: 1417)                                           |
+[2022-10-11 10:09:46,846] [builder.py:2243]           [INFO]     | War Collection | ? | Hacksaw Ridge (2016) (TMDb: 324786)                                           |
+[2022-10-11 10:09:46,871] [builder.py:2243]           [INFO]     | War Collection | ? | Saving Private Ryan (1998) (TMDb: 857)                                        |
+[2022-10-11 10:09:46,888] [builder.py:2243]           [INFO]     | War Collection | ? | Braveheart (1995) (TMDb: 197)                                                 |
+[2022-10-11 10:09:46,930] [builder.py:2243]           [INFO]     | War Collection | ? | Malena (2000) (TMDb: 10867)                                                   |
+[2022-10-11 10:09:46,947] [builder.py:2243]           [INFO]     | War Collection | ? | Imitation Game (2014) (TMDb: 205596)                                          |
+[2022-10-11 10:09:46,988] [builder.py:2243]           [INFO]     | War Collection | ? | The King (2019) (TMDb: 504949)                                                |
+[2022-10-11 10:09:47,005] [builder.py:2243]           [INFO]     | War Collection | ? | Dunkirk (2017) (TMDb: 374720)                                                 |
+[2022-10-11 10:09:47,038] [builder.py:2243]           [INFO]     | War Collection | ? | Fury (2014) (TMDb: 228150)                                                    |
+[2022-10-11 10:09:47,054] [builder.py:2243]           [INFO]     | War Collection | ? | Black Hawk Down (2001) (TMDb: 855)                                            |
+[2022-10-11 10:09:47,087] [builder.py:2243]           [INFO]     | War Collection | ? | Wonder Woman (2017) (TMDb: 297762)                                            |
+[2022-10-11 10:09:47,096] [builder.py:2243]           [INFO]     | War Collection | ? | Jojo Rabbit (2019) (TMDb: 515001)                                             |
+[2022-10-11 10:09:47,121] [builder.py:2243]           [INFO]     | War Collection | ? | Life Is Beautiful (1997) (TMDb: 637)                                          |
+[2022-10-11 10:09:47,155] [builder.py:2243]           [INFO]     | War Collection | ? | The Pianist (2002) (TMDb: 423)                                                |
+[2022-10-11 10:09:47,171] [builder.py:2243]           [INFO]     | War Collection | ? | Atonement (2007) (TMDb: 4347)                                                 |
+[2022-10-11 10:09:47,188] [builder.py:2243]           [INFO]     | War Collection | ? | Tropic Thunder (2008) (TMDb: 7446)                                            |
+[2022-10-11 10:09:47,205] [builder.py:2243]           [INFO]     | War Collection | ? | War Dogs (2016) (TMDb: 308266)                                                |
+[2022-10-11 10:09:47,222] [builder.py:2243]           [INFO]     | War Collection | ? | Zero Dark Thirty (2012) (TMDb: 97630)                                         |
+[2022-10-11 10:09:47,239] [builder.py:2243]           [INFO]     | War Collection | ? | 13 Hours: The Secret Soldiers of Benghazi (2016) (TMDb: 300671)               |
+[2022-10-11 10:09:47,255] [builder.py:2243]           [INFO]     | War Collection | ? | The Last of the Mohicans (1992) (TMDb: 9361)                                  |
+[2022-10-11 10:09:47,272] [builder.py:2243]           [INFO]     | War Collection | ? | Kingdom of Heaven (2005) (TMDb: 1495)                                         |
+[2022-10-11 10:09:47,289] [builder.py:2243]           [INFO]     | War Collection | ? | Legends of the Fall (1994) (TMDb: 4476)                                       |
+[2022-10-11 10:09:47,306] [builder.py:2243]           [INFO]     | War Collection | ? | Downfall (2004) (TMDb: 613)                                                   |
+[2022-10-11 10:09:47,322] [builder.py:2243]           [INFO]     | War Collection | ? | Alliés (2016) (TMDb: 369885)                                                  |
+[2022-10-11 10:09:47,340] [builder.py:2243]           [INFO]     | War Collection | ? | The Patriot (2000) (TMDb: 2024)                                               |
+[2022-10-11 10:09:47,372] [builder.py:2243]           [INFO]     | War Collection | ? | American Sniper (2014) (TMDb: 190859)                                         |
+[2022-10-11 10:09:47,389] [builder.py:2243]           [INFO]     | War Collection | ? | Darkest Hour (2017) (TMDb: 399404)                                            |
+[2022-10-11 10:09:47,429] [builder.py:2243]           [INFO]     | War Collection | ? | The Thin Red Line (1998) (TMDb: 8741)                                         |
+[2022-10-11 10:09:47,439] [builder.py:2243]           [INFO]     | War Collection | ? | Three Kings (1999) (TMDb: 6415)                                               |
+[2022-10-11 10:09:47,479] [builder.py:2243]           [INFO]     | War Collection | ? | Le Roi Arthur (2004) (TMDb: 9477)                                             |
+[2022-10-11 10:09:47,489] [builder.py:2243]           [INFO]     | War Collection | ? | Le pont des espions (2015) (TMDb: 296098)                                     |
+[2022-10-11 10:09:47,529] [builder.py:2243]           [INFO]     | War Collection | ? | The Hurt Locker (2008) (TMDb: 12162)                                          |
+[2022-10-11 10:09:47,539] [builder.py:2243]           [INFO]     | War Collection | ? | La Somme de toutes les peurs (2002) (TMDb: 4614)                              |
+[2022-10-11 10:09:47,570] [builder.py:2243]           [INFO]     | War Collection | ? | Master and Commander: The Far Side of the World (2003) (TMDb: 8619)           |
+[2022-10-11 10:09:47,581] [builder.py:2243]           [INFO]     | War Collection | ? | Lone Survivor (2013) (TMDb: 193756)                                           |
+[2022-10-11 10:09:47,623] [builder.py:2243]           [INFO]     | War Collection | ? | We Were Soldiers (2002) (TMDb: 10590)                                         |
+[2022-10-11 10:09:47,640] [builder.py:2243]           [INFO]     | War Collection | ? | Pearl Harbor (2001) (TMDb: 676)                                               |
+[2022-10-11 10:09:47,681] [builder.py:2243]           [INFO]     | War Collection | ? | Enemy at the Gates (2001) (TMDb: 853)                                         |
+[2022-10-11 10:09:47,698] [builder.py:2243]           [INFO]     | War Collection | ? | The English Patient (1996) (TMDb: 409)                                        |
+[2022-10-11 10:09:47,806] [builder.py:2243]           [INFO]     | War Collection | ? | Jarhead (2005) (TMDb: 25)                                                     |
+[2022-10-11 10:09:47,823] [builder.py:2243]           [INFO]     | War Collection | ? | Invincible (2014) (TMDb: 227306)                                              |
+[2022-10-11 10:09:47,865] [builder.py:2243]           [INFO]     | War Collection | ? | Cold Mountain (2003) (TMDb: 2289)                                             |
+[2022-10-11 10:09:47,882] [builder.py:2243]           [INFO]     | War Collection | ? | The Boy in the Striped Pyjamas (2008) (TMDb: 14574)                           |
+[2022-10-11 10:09:47,923] [builder.py:2243]           [INFO]     | War Collection | ? | Tears of the Sun (2003) (TMDb: 9567)                                          |
+[2022-10-11 10:09:47,940] [builder.py:2243]           [INFO]     | War Collection | ? | Crimson Tide (1995) (TMDb: 8963)                                              |
+[2022-10-11 10:09:47,951] [builder.py:2243]           [INFO]     | War Collection | ? | Lincoln (2012) (TMDb: 72976)                                                  |
+[2022-10-11 10:09:47,971] [builder.py:2243]           [INFO]     | War Collection | ? | The Post (2017) (TMDb: 446354)                                                |
+[2022-10-11 10:09:48,004] [builder.py:2243]           [INFO]     | War Collection | ? | Hooligans (2005) (TMDb: 8923)                                                 |
+[2022-10-11 10:09:48,031] [builder.py:2243]           [INFO]     | War Collection | ? | Alexander (2004) (TMDb: 1966)                                                 |
+[2022-10-11 10:09:48,048] [builder.py:2243]           [INFO]     | War Collection | ? | Valkyrie (2008) (TMDb: 2253)                                                  |
+[2022-10-11 10:09:48,089] [builder.py:2243]           [INFO]     | War Collection | ? | The Lucky One (2012) (TMDb: 77877)                                            |
+[2022-10-11 10:09:48,106] [builder.py:2243]           [INFO]     | War Collection | ? | Seven Years in Tibet (1997) (TMDb: 978)                                       |
+[2022-10-11 10:09:48,156] [builder.py:2243]           [INFO]     | War Collection | ? | The Book Thief (2013) (TMDb: 203833)                                          |
+[2022-10-11 10:09:48,173] [builder.py:2243]           [INFO]     | War Collection | ? | The Promise (2016) (TMDb: 354859)                                             |
+[2022-10-11 10:09:48,206] [builder.py:2243]           [INFO]     | War Collection | ? | Hotel Rwanda (2004) (TMDb: 205)                                               |
+[2022-10-11 10:09:48,248] [builder.py:2243]           [INFO]     | War Collection | ? | Defiance (2008) (TMDb: 13813)                                                 |
+[2022-10-11 10:09:48,264] [builder.py:2243]           [INFO]     | War Collection | ? | Australia (2008) (TMDb: 6972)                                                 |
+[2022-10-11 10:09:48,281] [builder.py:2243]           [INFO]     | War Collection | ? | Hannibal Rising (2007) (TMDb: 1248)                                           |
+[2022-10-11 10:09:48,315] [builder.py:2243]           [INFO]     | War Collection | ? | War Horse (2011) (TMDb: 57212)                                                |
+[2022-10-11 10:09:48,345] [builder.py:2243]           [INFO]     | War Collection | ? | Letters from Iwo Jima (2006) (TMDb: 1251)                                     |
+[2022-10-11 10:09:48,363] [builder.py:2243]           [INFO]     | War Collection | ? | The Monuments Men (2014) (TMDb: 152760)                                       |
+[2022-10-11 10:09:48,373] [builder.py:2243]           [INFO]     | War Collection | ? | Behind Enemy Lines (2001) (TMDb: 8007)                                        |
+[2022-10-11 10:09:48,396] [builder.py:2243]           [INFO]     | War Collection | ? | Dear John (2010) (TMDb: 22971)                                                |
+[2022-10-11 10:09:48,429] [builder.py:2243]           [INFO]     | War Collection | ? | The Men Who Stare at Goats (2009) (TMDb: 10313)                               |
+[2022-10-11 10:09:48,471] [builder.py:2243]           [INFO]     | War Collection | ? | Rescue Dawn (2006) (TMDb: 9952)                                               |
+[2022-10-11 10:09:48,504] [builder.py:2243]           [INFO]     | War Collection | ? | Flags of Our Fathers (2006) (TMDb: 3683)                                      |
+[2022-10-11 10:09:48,515] [builder.py:2243]           [INFO]     | War Collection | ? | Green Zone (2010) (TMDb: 22972)                                               |
+[2022-10-11 10:09:48,554] [builder.py:2243]           [INFO]     | War Collection | ? | Shershaah (2021) (TMDb: 599925)                                               |
+[2022-10-11 10:09:48,570] [builder.py:2243]           [INFO]     | War Collection | ? | The Mountain II (2016) (TMDb: 427008)                                         |
+[2022-10-11 10:09:48,571] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-10-11 10:09:48,571] [builder.py:2249]           [INFO]     | 72 Movies Missing                                                                                  |
+[2022-10-11 10:09:49,976] [plex_meta_manager.py:624]  [INFO]     |                                                                                                    |
+[2022-10-11 10:09:49,976] [plex_meta_manager.py:625]  [INFO]     | Collection Minimum: 2 not met for War Collection                                                   |
+[2022-10-11 10:09:49,976] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 10:09:49,976] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 10:09:49,976] [plex_meta_manager.py:709]  [INFO]     |                                      Finished War Collection                                       |
+[2022-10-11 10:09:49,977] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:13                                    |
+[2022-10-11 10:09:49,977] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

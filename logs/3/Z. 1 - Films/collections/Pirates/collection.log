@@ -1,0 +1,62 @@
+[2022-10-11 11:19:21,757] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:19:21,757] [builder.py:200]            [INFO]     |                                 Pirates Collection in Z. 1 - Films                                 |
+[2022-10-11 11:19:21,757] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:19:21,757] [builder.py:201]            [INFO]     |                                                                                                    |
+[2022-10-11 11:19:21,758] [builder.py:206]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:19:21,758] [builder.py:222]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:21,758] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:19:21,758] [meta.py:129]               [DEBUG]    | Call: {'value': ['591122'], 'tmdb_collection': ['591122'], 'key_name': 'Pirates', 'key': '591122', 'name': 'my_template'} |
+[2022-10-11 11:19:21,758] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:21,758] [meta.py:305]               [DEBUG]    | Variables: {'value': ['591122'], 'tmdb_collection': ['591122'], 'key_name': 'Pirates', 'key': '591122', 'name': 'my_template', 'collection_name': 'Pirates', 'mapping_name': 'Pirates', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%27591122%27%5D', 'tmdb_collection_encoded': '%5B%27591122%27%5D', 'key_name_encoded': 'Pirates', 'key_encoded': '591122', 'name_encoded': 'my_template', 'collection_name_encoded': 'Pirates', 'mapping_name_encoded': 'Pirates', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Pirates'} |
+[2022-10-11 11:19:21,758] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:21,759] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:19:21,759] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:21,759] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:19:21,760] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:21,760] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['591122'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_Pirates'} |
+[2022-10-11 11:19:21,760] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:21,760] [builder.py:230]            [INFO]     |================================== Validating Pirates Attributes ===================================|
+[2022-10-11 11:19:21,761] [builder.py:620]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:21,761] [builder.py:621]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:19:21,761] [builder.py:622]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:19:21,761] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:21,761] [builder.py:657]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:19:21,761] [builder.py:658]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:19:21,761] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:21,762] [builder.py:657]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:19:21,762] [builder.py:658]            [DEBUG]    | Value: ['591122']                                                                                  |
+[2022-10-11 11:19:21,773] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:21,773] [builder.py:657]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:19:21,773] [builder.py:658]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:19:21,773] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:21,774] [builder.py:657]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:19:21,774] [builder.py:658]            [DEBUG]    | Value: +C1_Pirates                                                                                 |
+[2022-10-11 11:19:21,781] [plex.py:803]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:21,781] [plex.py:805]               [DEBUG]    | Found: Pirates of the Caribbean                                                                    |
+[2022-10-11 11:19:21,781] [plex.py:806]               [DEBUG]    | Looking for: Pirates                                                                               |
+[2022-10-11 11:19:21,782] [builder.py:823]            [INFO]     |                                                                                                    |
+[2022-10-11 11:19:21,782] [builder.py:824]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:19:21,782] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:21,782] [plex_meta_manager.py:563]  [INFO]     |==================================== Running Pirates Collection ====================================|
+[2022-10-11 11:19:21,782] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:21,783] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:19:21,783] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:21,783] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 591122                                                                   |
+[2022-10-11 11:19:21,783] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:21,787] [tmdb.py:381]               [INFO]     | Processing TMDb Collection: (591122) The Pirates - Saga (2 Items)                                  |
+[2022-10-11 11:19:21,788] [builder.py:1581]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:21,788] [builder.py:1582]           [DEBUG]    | 2 IDs Found: [(591120, 'tmdb'), (285213, 'tmdb')]                                                  |
+[2022-10-11 11:19:21,788] [builder.py:1583]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:21,788] [builder.py:2300]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:21,789] [builder.py:2301]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-10-11 11:19:21,789] [builder.py:2302]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:21,810] [builder.py:2315]           [INFO]     | Pirates Collection | ? | The Pirates (2014) (TMDb: 285213)                                         |
+[2022-10-11 11:19:21,811] [builder.py:2320]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:21,811] [builder.py:2321]           [INFO]     | 1 Movie Missing                                                                                    |
+[2022-10-11 11:19:21,870] [plex_meta_manager.py:624]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:21,870] [plex_meta_manager.py:625]  [INFO]     | Collection Minimum: 2 not met for Pirates Collection                                               |
+[2022-10-11 11:19:21,871] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:21,871] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:19:21,871] [plex_meta_manager.py:709]  [INFO]     |                                    Finished Pirates Collection                                     |
+[2022-10-11 11:19:21,871] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 11:19:21,871] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

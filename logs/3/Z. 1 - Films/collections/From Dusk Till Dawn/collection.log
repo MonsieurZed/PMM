@@ -1,0 +1,62 @@
+[2022-10-11 11:20:31,948] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:20:31,949] [builder.py:200]            [INFO]     |                           From Dusk Till Dawn Collection in Z. 1 - Films                           |
+[2022-10-11 11:20:31,949] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:20:31,949] [builder.py:201]            [INFO]     |                                                                                                    |
+[2022-10-11 11:20:31,949] [builder.py:206]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:20:31,949] [builder.py:222]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:31,949] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:20:31,949] [meta.py:129]               [DEBUG]    | Call: {'value': ['10924'], 'tmdb_collection': ['10924'], 'key_name': 'From Dusk Till Dawn', 'key': '10924', 'name': 'my_template'} |
+[2022-10-11 11:20:31,950] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:31,950] [meta.py:305]               [DEBUG]    | Variables: {'value': ['10924'], 'tmdb_collection': ['10924'], 'key_name': 'From Dusk Till Dawn', 'key': '10924', 'name': 'my_template', 'collection_name': 'From Dusk Till Dawn', 'mapping_name': 'From Dusk Till Dawn', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%2710924%27%5D', 'tmdb_collection_encoded': '%5B%2710924%27%5D', 'key_name_encoded': 'From%20Dusk%20Till%20Dawn', 'key_encoded': '10924', 'name_encoded': 'my_template', 'collection_name_encoded': 'From%20Dusk%20Till%20Dawn', 'mapping_name_encoded': 'From%20Dusk%20Till%20Dawn', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'From Dusk Till Dawn'} |
+[2022-10-11 11:20:31,950] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:31,950] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:20:31,950] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:31,950] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:20:31,951] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:31,951] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['10924'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_From Dusk Till Dawn'} |
+[2022-10-11 11:20:31,951] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:31,952] [builder.py:230]            [INFO]     |============================ Validating From Dusk Till Dawn Attributes =============================|
+[2022-10-11 11:20:31,952] [builder.py:620]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:31,952] [builder.py:621]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:20:31,952] [builder.py:622]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:20:31,952] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:31,952] [builder.py:657]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:20:31,952] [builder.py:658]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:20:31,952] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:31,953] [builder.py:657]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:20:31,953] [builder.py:658]            [DEBUG]    | Value: ['10924']                                                                                   |
+[2022-10-11 11:20:31,966] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:31,967] [builder.py:657]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:20:31,967] [builder.py:658]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:20:31,967] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:31,967] [builder.py:657]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:20:31,968] [builder.py:658]            [DEBUG]    | Value: +C1_From Dusk Till Dawn                                                                     |
+[2022-10-11 11:20:31,975] [plex.py:803]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:31,975] [plex.py:806]               [DEBUG]    | Looking for: From Dusk Till Dawn                                                                   |
+[2022-10-11 11:20:31,975] [builder.py:823]            [INFO]     |                                                                                                    |
+[2022-10-11 11:20:31,976] [builder.py:824]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:20:31,976] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:20:31,976] [plex_meta_manager.py:563]  [INFO]     |============================== Running From Dusk Till Dawn Collection ==============================|
+[2022-10-11 11:20:31,976] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:20:31,976] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:20:31,976] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:31,977] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 10924                                                                    |
+[2022-10-11 11:20:31,977] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:20:31,982] [tmdb.py:381]               [INFO]     | Processing TMDb Collection: (10924) Une Nuit en Enfer - Saga (3 Items)                             |
+[2022-10-11 11:20:31,982] [builder.py:1581]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:31,982] [builder.py:1582]           [DEBUG]    | 3 IDs Found: [(755, 'tmdb'), (10213, 'tmdb'), (12095, 'tmdb')]                                     |
+[2022-10-11 11:20:31,982] [builder.py:1583]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:31,983] [builder.py:2300]           [INFO]     |                                                                                                    |
+[2022-10-11 11:20:31,983] [builder.py:2301]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-10-11 11:20:31,983] [builder.py:2302]           [INFO]     |                                                                                                    |
+[2022-10-11 11:20:32,009] [builder.py:2315]           [INFO]     | From Dusk Till Dawn Collection | ? | Une Nuit en enfer 3 : La Fille du bourreau (1999) (TMDb: 10213) |
+[2022-10-11 11:20:32,048] [builder.py:2315]           [INFO]     | From Dusk Till Dawn Collection | ? | Une Nuit en enfer 2 : Le prix du sang (1999) (TMDb: 12095)    |
+[2022-10-11 11:20:32,048] [builder.py:2320]           [INFO]     |                                                                                                    |
+[2022-10-11 11:20:32,048] [builder.py:2321]           [INFO]     | 2 Movies Missing                                                                                   |
+[2022-10-11 11:20:32,121] [plex_meta_manager.py:624]  [INFO]     |                                                                                                    |
+[2022-10-11 11:20:32,121] [plex_meta_manager.py:625]  [INFO]     | Collection Minimum: 2 not met for From Dusk Till Dawn Collection                                   |
+[2022-10-11 11:20:32,121] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:20:32,121] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:20:32,122] [plex_meta_manager.py:709]  [INFO]     |                              Finished From Dusk Till Dawn Collection                               |
+[2022-10-11 11:20:32,122] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 11:20:32,122] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

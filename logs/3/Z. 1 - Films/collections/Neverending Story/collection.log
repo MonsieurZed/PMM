@@ -1,0 +1,62 @@
+[2022-10-11 11:19:01,548] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:19:01,548] [builder.py:200]            [INFO]     |                            Neverending Story Collection in Z. 1 - Films                            |
+[2022-10-11 11:19:01,548] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:19:01,548] [builder.py:201]            [INFO]     |                                                                                                    |
+[2022-10-11 11:19:01,548] [builder.py:206]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:19:01,548] [builder.py:222]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:01,549] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:19:01,549] [meta.py:129]               [DEBUG]    | Call: {'value': ['91430'], 'tmdb_collection': ['91430'], 'key_name': 'Neverending Story', 'key': '91430', 'name': 'my_template'} |
+[2022-10-11 11:19:01,549] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:01,549] [meta.py:305]               [DEBUG]    | Variables: {'value': ['91430'], 'tmdb_collection': ['91430'], 'key_name': 'Neverending Story', 'key': '91430', 'name': 'my_template', 'collection_name': 'Neverending Story', 'mapping_name': 'Neverending Story', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%2791430%27%5D', 'tmdb_collection_encoded': '%5B%2791430%27%5D', 'key_name_encoded': 'Neverending%20Story', 'key_encoded': '91430', 'name_encoded': 'my_template', 'collection_name_encoded': 'Neverending%20Story', 'mapping_name_encoded': 'Neverending%20Story', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Neverending Story'} |
+[2022-10-11 11:19:01,549] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:01,549] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:19:01,550] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:01,550] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:19:01,551] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:01,551] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['91430'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_Neverending Story'} |
+[2022-10-11 11:19:01,551] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:01,551] [builder.py:230]            [INFO]     |============================= Validating Neverending Story Attributes ==============================|
+[2022-10-11 11:19:01,551] [builder.py:620]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:01,552] [builder.py:621]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:19:01,552] [builder.py:622]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:19:01,552] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:01,552] [builder.py:657]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:19:01,552] [builder.py:658]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:19:01,552] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:01,552] [builder.py:657]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:19:01,552] [builder.py:658]            [DEBUG]    | Value: ['91430']                                                                                   |
+[2022-10-11 11:19:01,565] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:01,565] [builder.py:657]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:19:01,565] [builder.py:658]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:19:01,566] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:01,566] [builder.py:657]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:19:01,566] [builder.py:658]            [DEBUG]    | Value: +C1_Neverending Story                                                                       |
+[2022-10-11 11:19:01,572] [plex.py:803]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:01,572] [plex.py:806]               [DEBUG]    | Looking for: Neverending Story                                                                     |
+[2022-10-11 11:19:01,572] [builder.py:823]            [INFO]     |                                                                                                    |
+[2022-10-11 11:19:01,572] [builder.py:824]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:19:01,572] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:01,572] [plex_meta_manager.py:563]  [INFO]     |=============================== Running Neverending Story Collection ===============================|
+[2022-10-11 11:19:01,573] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:01,573] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:19:01,573] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:01,573] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 91430                                                                    |
+[2022-10-11 11:19:01,573] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:01,578] [tmdb.py:381]               [INFO]     | Processing TMDb Collection: (91430) L'Histoire sans fin - Saga (3 Items)                           |
+[2022-10-11 11:19:01,578] [builder.py:1581]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:01,579] [builder.py:1582]           [DEBUG]    | 3 IDs Found: [(34584, 'tmdb'), (34636, 'tmdb'), (27793, 'tmdb')]                                   |
+[2022-10-11 11:19:01,579] [builder.py:1583]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:01,579] [builder.py:2300]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:01,579] [builder.py:2301]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-10-11 11:19:01,579] [builder.py:2302]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:01,593] [builder.py:2315]           [INFO]     | Neverending Story Collection | ? | The NeverEnding Story II: The Next Chapter (1990) (TMDb: 34636) |
+[2022-10-11 11:19:01,614] [builder.py:2315]           [INFO]     | Neverending Story Collection | ? | The NeverEnding Story III (1994) (TMDb: 27793)                  |
+[2022-10-11 11:19:01,615] [builder.py:2320]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:01,615] [builder.py:2321]           [INFO]     | 2 Movies Missing                                                                                   |
+[2022-10-11 11:19:01,655] [plex_meta_manager.py:624]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:01,655] [plex_meta_manager.py:625]  [INFO]     | Collection Minimum: 2 not met for Neverending Story Collection                                     |
+[2022-10-11 11:19:01,655] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:01,655] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:19:01,656] [plex_meta_manager.py:709]  [INFO]     |                               Finished Neverending Story Collection                                |
+[2022-10-11 11:19:01,656] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 11:19:01,656] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

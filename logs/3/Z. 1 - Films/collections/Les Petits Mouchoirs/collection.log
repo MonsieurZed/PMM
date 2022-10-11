@@ -1,0 +1,69 @@
+[2022-10-11 11:19:10,842] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:19:10,843] [builder.py:200]            [INFO]     |                          Les Petits Mouchoirs Collection in Z. 1 - Films                           |
+[2022-10-11 11:19:10,843] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:19:10,843] [builder.py:201]            [INFO]     |                                                                                                    |
+[2022-10-11 11:19:10,843] [builder.py:206]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:19:10,843] [builder.py:222]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:10,843] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:19:10,844] [meta.py:129]               [DEBUG]    | Call: {'value': ['629597'], 'tmdb_collection': ['629597'], 'key_name': 'Les Petits Mouchoirs', 'key': '629597', 'name': 'my_template'} |
+[2022-10-11 11:19:10,844] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:10,844] [meta.py:305]               [DEBUG]    | Variables: {'value': ['629597'], 'tmdb_collection': ['629597'], 'key_name': 'Les Petits Mouchoirs', 'key': '629597', 'name': 'my_template', 'collection_name': 'Les Petits Mouchoirs', 'mapping_name': 'Les Petits Mouchoirs', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%27629597%27%5D', 'tmdb_collection_encoded': '%5B%27629597%27%5D', 'key_name_encoded': 'Les%20Petits%20Mouchoirs', 'key_encoded': '629597', 'name_encoded': 'my_template', 'collection_name_encoded': 'Les%20Petits%20Mouchoirs', 'mapping_name_encoded': 'Les%20Petits%20Mouchoirs', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Les Petits Mouchoirs'} |
+[2022-10-11 11:19:10,844] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:10,844] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:19:10,844] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:10,844] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:19:10,845] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:10,845] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['629597'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_Les Petits Mouchoirs'} |
+[2022-10-11 11:19:10,845] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:10,846] [builder.py:230]            [INFO]     |============================ Validating Les Petits Mouchoirs Attributes ============================|
+[2022-10-11 11:19:10,846] [builder.py:620]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:10,846] [builder.py:621]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:19:10,846] [builder.py:622]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:19:10,846] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:10,846] [builder.py:657]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:19:10,846] [builder.py:658]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:19:10,846] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:10,847] [builder.py:657]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:19:10,847] [builder.py:658]            [DEBUG]    | Value: ['629597']                                                                                  |
+[2022-10-11 11:19:10,858] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:10,858] [builder.py:657]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:19:10,858] [builder.py:658]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:19:10,858] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:10,859] [builder.py:657]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:19:10,859] [builder.py:658]            [DEBUG]    | Value: +C1_Les Petits Mouchoirs                                                                    |
+[2022-10-11 11:19:11,049] [builder.py:823]            [INFO]     |                                                                                                    |
+[2022-10-11 11:19:11,049] [builder.py:824]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:19:11,050] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:11,050] [plex_meta_manager.py:563]  [INFO]     |============================= Running Les Petits Mouchoirs Collection ==============================|
+[2022-10-11 11:19:11,050] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:11,050] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:19:11,050] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:11,051] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 629597                                                                   |
+[2022-10-11 11:19:11,051] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:11,056] [tmdb.py:381]               [INFO]     | Processing TMDb Collection: (629597) Les Petits Mouchoirs - Saga (2 Items)                         |
+[2022-10-11 11:19:11,056] [builder.py:1581]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:11,056] [builder.py:1582]           [DEBUG]    | 2 IDs Found: [(48034, 'tmdb'), (542830, 'tmdb')]                                                   |
+[2022-10-11 11:19:11,056] [builder.py:1583]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:11,057] [builder.py:2132]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:11,057] [builder.py:2133]           [INFO]     |============================ Adding to Les Petits Mouchoirs Collection =============================|
+[2022-10-11 11:19:11,057] [builder.py:2134]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:11,057] [builder.py:2148]           [INFO]     | 1/2 | Les Petits Mouchoirs Collection | = | Les petits mouchoirs (2010)                            |
+[2022-10-11 11:19:11,057] [builder.py:2148]           [INFO]     | 2/2 | Les Petits Mouchoirs Collection | = | Nous finirons ensemble (2019)                          |
+[2022-10-11 11:19:11,058] [builder.py:2168]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:11,058] [builder.py:2170]           [INFO]     | 2 Movies Processed 0 Movies Added                                                                  |
+[2022-10-11 11:19:11,064] [builder.py:2521]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:11,064] [builder.py:2522]           [INFO]     |======================= Updating Details of Les Petits Mouchoirs Collection ========================|
+[2022-10-11 11:19:11,064] [builder.py:2523]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:11,074] [builder.py:2589]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-10-11 11:19:11,074] [builder.py:2660]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Les Petits Mouchoirs'                                 |
+[2022-10-11 11:19:11,074] [util.py:171]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-10-11 11:19:11,074] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Poster: https://image.tmdb.org/t/p/original/hwfFCnG0vzajqVt93hlqahXZmk6.jpg |
+[2022-10-11 11:19:11,075] [util.py:171]               [DEBUG]    | 1 background found:                                                                                |
+[2022-10-11 11:19:11,075] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Background: https://image.tmdb.org/t/p/original/ulLTOXuARvVlQVQRAlQRbtps9Y2.jpg |
+[2022-10-11 11:19:11,076] [library.py:173]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-10-11 11:19:11,077] [library.py:189]            [INFO]     | Detail: background update not needed                                                               |
+[2022-10-11 11:19:11,265] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:11,266] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:19:11,266] [plex_meta_manager.py:709]  [INFO]     |                              Finished Les Petits Mouchoirs Collection                              |
+[2022-10-11 11:19:11,266] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 11:19:11,266] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

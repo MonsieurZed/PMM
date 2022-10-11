@@ -1,0 +1,50 @@
+[2022-10-11 08:06:32,583] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 08:06:32,584] [builder.py:197]            [INFO]     |                                 Mystery Collection in Z. 1 - Films                                 |
+[2022-10-11 08:06:32,584] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 08:06:32,584] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 08:06:32,584] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 08:06:32,584] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:06:32,584] [meta.py:128]               [DEBUG]    | Template Genre                                                                                     |
+[2022-10-11 08:06:32,584] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Genre')])                                                             |
+[2022-10-11 08:06:32,585] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:06:32,585] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Genre'), ('collection_name', 'Mystery'), ('mapping_name', 'Mystery'), ('library_type', 'movie'), ('library_name', 'Z. 1 - Films'), ('name_encoded', 'Genre'), ('collection_name_encoded', 'Mystery'), ('mapping_name_encoded', 'Mystery'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%201%20-%20Films'), ('collection_sort', 'Mystery')]) |
+[2022-10-11 08:06:32,585] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:06:32,585] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 08:06:32,585] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:06:32,585] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 08:06:32,586] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:06:32,586] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+3_Mystery', 'sync_mode': 'sync', 'smart_label': 'audience_rating.desc'} |
+[2022-10-11 08:06:32,586] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:06:32,586] [builder.py:219]            [INFO]     |================================== Validating Mystery Attributes ===================================|
+[2022-10-11 08:06:32,586] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:06:32,586] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-11 08:06:32,586] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-11 08:06:32,587] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:06:32,587] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-11 08:06:32,587] [builder.py:544]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-10-11 08:06:32,602] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:06:32,602] [builder.py:631]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-10-11 08:06:32,602] [builder.py:632]            [DEBUG]    | Value: ordereddict([('genre', ['Mystere', 'Mystery'])])                                            |
+[2022-10-11 08:06:32,679] [plex_meta_manager.py:696]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 559, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str)
+                                                                 |   File "/modules/builder.py", line 709, in __init__
+                                                                 |     self._plex(method_name, method_data)
+                                                                 |   File "/modules/builder.py", line 1273, in _plex
+                                                                 |     self.builders.append((method_name, self.build_filter("plex_search", dict_data)))
+                                                                 |   File "/modules/builder.py", line 1891, in build_filter
+                                                                 |     built_filter, filter_text = _filter(base_dict, is_all=base_all)
+                                                                 |   File "/modules/builder.py", line 1825, in _filter
+                                                                 |     inside_filter, inside_display = _filter(dict_data, is_all=attr == "all", level=level)
+                                                                 |   File "/modules/builder.py", line 1830, in _filter
+                                                                 |     validation = self.validate_attribute(attr, modifier, final_attr, _data, validate, plex_search=True)
+                                                                 |   File "/modules/builder.py", line 1977, in validate_attribute
+                                                                 |     raise Failed(error)
+                                                                 | modules.util.Failed: Plex Error: genre: Mystere not found
+                                                                 | 
+[2022-10-11 08:06:32,681] [plex_meta_manager.py:697]  [ERROR]    | Plex Error: genre: Mystere not found
+[2022-10-11 08:06:32,681] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-11 08:06:32,681] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 08:06:32,682] [plex_meta_manager.py:709]  [INFO]     |                                    Finished Mystery Collection                                     |
+[2022-10-11 08:06:32,682] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 08:06:32,682] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

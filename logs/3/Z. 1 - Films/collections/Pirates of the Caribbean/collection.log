@@ -1,0 +1,78 @@
+[2022-10-11 11:19:21,872] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:19:21,872] [builder.py:200]            [INFO]     |                        Pirates of the Caribbean Collection in Z. 1 - Films                         |
+[2022-10-11 11:19:21,872] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:19:21,872] [builder.py:201]            [INFO]     |                                                                                                    |
+[2022-10-11 11:19:21,872] [builder.py:206]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:19:21,873] [builder.py:222]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:21,873] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:19:21,873] [meta.py:129]               [DEBUG]    | Call: {'value': ['295'], 'tmdb_collection': ['295'], 'key_name': 'Pirates of the Caribbean', 'key': '295', 'name': 'my_template'} |
+[2022-10-11 11:19:21,873] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:21,873] [meta.py:305]               [DEBUG]    | Variables: {'value': ['295'], 'tmdb_collection': ['295'], 'key_name': 'Pirates of the Caribbean', 'key': '295', 'name': 'my_template', 'collection_name': 'Pirates of the Caribbean', 'mapping_name': 'Pirates of the Caribbean', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%27295%27%5D', 'tmdb_collection_encoded': '%5B%27295%27%5D', 'key_name_encoded': 'Pirates%20of%20the%20Caribbean', 'key_encoded': '295', 'name_encoded': 'my_template', 'collection_name_encoded': 'Pirates%20of%20the%20Caribbean', 'mapping_name_encoded': 'Pirates%20of%20the%20Caribbean', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Pirates of the Caribbean'} |
+[2022-10-11 11:19:21,873] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:21,873] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:19:21,873] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:21,874] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:19:21,874] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:21,875] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['295'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_Pirates of the Caribbean'} |
+[2022-10-11 11:19:21,875] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:21,875] [builder.py:230]            [INFO]     |========================== Validating Pirates of the Caribbean Attributes ==========================|
+[2022-10-11 11:19:21,875] [builder.py:620]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:21,875] [builder.py:621]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:19:21,875] [builder.py:622]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:19:21,875] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:21,875] [builder.py:657]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:19:21,876] [builder.py:658]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:19:21,876] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:21,876] [builder.py:657]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:19:21,876] [builder.py:658]            [DEBUG]    | Value: ['295']                                                                                     |
+[2022-10-11 11:19:21,890] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:21,890] [builder.py:657]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:19:21,891] [builder.py:658]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:19:21,891] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:21,891] [builder.py:657]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:19:21,891] [builder.py:658]            [DEBUG]    | Value: +C1_Pirates of the Caribbean                                                                |
+[2022-10-11 11:19:22,113] [builder.py:823]            [INFO]     |                                                                                                    |
+[2022-10-11 11:19:22,113] [builder.py:824]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:19:22,113] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:22,113] [plex_meta_manager.py:563]  [INFO]     |=========================== Running Pirates of the Caribbean Collection ============================|
+[2022-10-11 11:19:22,114] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:22,114] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:19:22,114] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:22,114] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 295                                                                      |
+[2022-10-11 11:19:22,114] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:22,120] [tmdb.py:381]               [INFO]     | Processing TMDb Collection: (295) Pirates des Caraïbes - Saga (6 Items)                            |
+[2022-10-11 11:19:22,120] [builder.py:1581]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:22,120] [builder.py:1582]           [DEBUG]    | 6 IDs Found: [(22, 'tmdb'), (58, 'tmdb'), (285, 'tmdb'), (1865, 'tmdb'), (166426, 'tmdb'), (425904, 'tmdb')] |
+[2022-10-11 11:19:22,120] [builder.py:1583]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:22,121] [builder.py:2132]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:22,121] [builder.py:2133]           [INFO]     |========================== Adding to Pirates of the Caribbean Collection ===========================|
+[2022-10-11 11:19:22,121] [builder.py:2134]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:22,121] [builder.py:2148]           [INFO]     | 1/5 | Pirates of the Caribbean Collection | = | Pirates des Caraïbes I : La Malédiction du Black Pearl (2003) |
+[2022-10-11 11:19:22,121] [builder.py:2148]           [INFO]     | 2/5 | Pirates of the Caribbean Collection | = | Pirates des Caraïbes II : Le Secret du coffre maudit (2006) |
+[2022-10-11 11:19:22,121] [builder.py:2148]           [INFO]     | 3/5 | Pirates of the Caribbean Collection | = | Pirates des Caraïbes III : Jusqu'au bout du monde (2007) |
+[2022-10-11 11:19:22,122] [builder.py:2148]           [INFO]     | 4/5 | Pirates of the Caribbean Collection | = | Pirates des Caraïbes IV : La Fontaine de jouvence (2011) |
+[2022-10-11 11:19:22,122] [builder.py:2148]           [INFO]     | 5/5 | Pirates of the Caribbean Collection | = | Pirates des Caraibes V: La Vengeance de Salazar (2017) |
+[2022-10-11 11:19:22,122] [builder.py:2168]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:22,122] [builder.py:2170]           [INFO]     | 5 Movies Processed 0 Movies Added                                                                  |
+[2022-10-11 11:19:22,122] [builder.py:2300]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:22,123] [builder.py:2301]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-10-11 11:19:22,123] [builder.py:2302]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:22,141] [builder.py:2315]           [INFO]     | Pirates of the Caribbean Collection | ? | Untitled Pirates of the Caribbean Reboot (TMDb: 425904)  |
+[2022-10-11 11:19:22,141] [builder.py:2320]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:22,142] [builder.py:2321]           [INFO]     | 1 Movie Missing                                                                                    |
+[2022-10-11 11:19:22,206] [builder.py:2521]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:22,207] [builder.py:2522]           [INFO]     |===================== Updating Details of Pirates of the Caribbean Collection ======================|
+[2022-10-11 11:19:22,207] [builder.py:2523]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:22,215] [builder.py:2589]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-10-11 11:19:22,215] [builder.py:2660]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Pirates of the Caribbean'                             |
+[2022-10-11 11:19:22,215] [util.py:171]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-10-11 11:19:22,215] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Poster: https://image.tmdb.org/t/p/original/usU1WwpWh0yKx65jZ12fQyklqUC.jpg |
+[2022-10-11 11:19:22,216] [util.py:171]               [DEBUG]    | 1 background found:                                                                                |
+[2022-10-11 11:19:22,216] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Background: https://image.tmdb.org/t/p/original/wxgD3fB5lQ2sGJLog0rvXW049Pf.jpg |
+[2022-10-11 11:19:22,217] [library.py:173]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-10-11 11:19:22,218] [library.py:189]            [INFO]     | Detail: background update not needed                                                               |
+[2022-10-11 11:19:22,421] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:22,421] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:19:22,422] [plex_meta_manager.py:709]  [INFO]     |                            Finished Pirates of the Caribbean Collection                            |
+[2022-10-11 11:19:22,422] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 11:19:22,422] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

@@ -1,0 +1,69 @@
+[2022-10-08 13:04:18,591] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-08 13:04:18,591] [builder.py:197]            [INFO]     |                        The Space Odyssey Series Collection in Z. 1 - Films                         |
+[2022-10-08 13:04:18,591] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-08 13:04:18,591] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-08 13:04:18,592] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-08 13:04:18,592] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-08 13:04:18,592] [meta.py:128]               [DEBUG]    | Template TMDb Collections                                                                          |
+[2022-10-08 13:04:18,592] [meta.py:129]               [DEBUG]    | Call: {'value': ['4438'], 'tmdb_collection': ['4438'], 'key_name': 'The Space Odyssey Series', 'key': '4438', 'name': 'TMDb Collections'} |
+[2022-10-08 13:04:18,592] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-08 13:04:18,592] [meta.py:305]               [DEBUG]    | Variables: {'value': ['4438'], 'tmdb_collection': ['4438'], 'key_name': 'The Space Odyssey Series', 'key': '4438', 'name': 'TMDb Collections', 'collection_name': 'The Space Odyssey Series', 'mapping_name': 'The Space Odyssey Series', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%274438%27%5D', 'tmdb_collection_encoded': '%5B%274438%27%5D', 'key_name_encoded': 'The%20Space%20Odyssey%20Series', 'key_encoded': '4438', 'name_encoded': 'TMDb%20Collections', 'collection_name_encoded': 'The%20Space%20Odyssey%20Series', 'mapping_name_encoded': 'The%20Space%20Odyssey%20Series', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'The Space Odyssey Series'} |
+[2022-10-08 13:04:18,592] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-08 13:04:18,593] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-08 13:04:18,593] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-08 13:04:18,593] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-08 13:04:18,593] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-08 13:04:18,593] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['4438'], 'minimum_items': 2}               |
+[2022-10-08 13:04:18,593] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-08 13:04:18,594] [builder.py:219]            [INFO]     |========================== Validating The Space Odyssey Series Attributes ==========================|
+[2022-10-08 13:04:18,594] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-08 13:04:18,594] [builder.py:631]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-08 13:04:18,594] [builder.py:632]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-08 13:04:18,594] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-08 13:04:18,594] [builder.py:631]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-08 13:04:18,595] [builder.py:632]            [DEBUG]    | Value: ['4438']                                                                                    |
+[2022-10-08 13:04:18,610] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-08 13:04:18,610] [builder.py:631]            [DEBUG]    | Validating Method: minimum_items                                                                   |
+[2022-10-08 13:04:18,610] [builder.py:632]            [DEBUG]    | Value: 2                                                                                           |
+[2022-10-08 13:04:18,617] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-10-08 13:04:18,617] [plex.py:793]               [DEBUG]    | Looking for: The Space Odyssey Series                                                              |
+[2022-10-08 13:04:18,618] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-08 13:04:18,618] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-08 13:04:18,618] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-08 13:04:18,618] [plex_meta_manager.py:563]  [INFO]     |=========================== Running The Space Odyssey Series Collection ============================|
+[2022-10-08 13:04:18,618] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-08 13:04:18,618] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-08 13:04:18,619] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-08 13:04:18,619] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 4438                                                                     |
+[2022-10-08 13:04:18,619] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-08 13:04:18,624] [tmdb.py:382]               [INFO]     | Processing TMDb Collection: (4438) The Space Odyssey Series (2 Items)                              |
+[2022-10-08 13:04:18,624] [builder.py:1540]           [DEBUG]    |                                                                                                    |
+[2022-10-08 13:04:18,624] [builder.py:1541]           [DEBUG]    | 2 IDs Found: [(62, 'tmdb'), (4437, 'tmdb')]                                                        |
+[2022-10-08 13:04:18,625] [builder.py:1542]           [DEBUG]    |                                                                                                    |
+[2022-10-08 13:04:18,625] [builder.py:2064]           [INFO]     |                                                                                                    |
+[2022-10-08 13:04:18,625] [builder.py:2065]           [INFO]     |========================== Adding to The Space Odyssey Series Collection ===========================|
+[2022-10-08 13:04:18,625] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-08 13:04:18,626] [builder.py:2080]           [INFO]     | 1/2 | The Space Odyssey Series Collection | + | 2001 : L’odyssée de l’espace (1968)                |
+[2022-10-08 13:04:19,525] [builder.py:2080]           [INFO]     | 2/2 | The Space Odyssey Series Collection | + | 2010 : L’année du premier contact (1984)           |
+[2022-10-08 13:04:19,741] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-08 13:04:19,741] [builder.py:2102]           [INFO]     | 2 Movies Processed 2 Movies Added                                                                  |
+[2022-10-08 13:04:19,747] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-08 13:04:19,747] [builder.py:2442]           [INFO]     |===================== Updating Details of The Space Odyssey Series Collection ======================|
+[2022-10-08 13:04:19,747] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-08 13:04:20,124] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_collection_details) | The Space Odyssey series is a science fiction series of two film adaptations from Arthur C. Clarke works. 2001: A Space Odyssey — a film and novel — produced concurrently and released in 1968, and 2010: The Year We Make Contact, an adaption by Peter Hyams.
+                                                                 | Label | +TMDb Collections, +PMM
+[2022-10-08 13:04:20,341] [builder.py:2513]           [INFO]     | Details: have been updated
+[2022-10-08 13:04:20,341] [builder.py:2517]           [INFO]     | 
+[2022-10-08 13:04:20,341] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'The Space Odyssey Series'
+[2022-10-08 13:04:20,342] [util.py:150]               [DEBUG]    | 1 poster found:
+[2022-10-08 13:04:20,342] [util.py:152]               [DEBUG]    | Method: tmdb_collection_details Poster: https://image.tmdb.org/t/p/original/bxQaNDuSLCllnMSQ0ZLg7e6HrMW.jpg
+[2022-10-08 13:04:20,342] [util.py:150]               [DEBUG]    | 1 background found:
+[2022-10-08 13:04:20,342] [util.py:152]               [DEBUG]    | Method: tmdb_collection_details Background: https://image.tmdb.org/t/p/original/15FumSExI9SRoL7QJWZAsA0b10c.jpg
+[2022-10-08 13:04:20,432] [library.py:170]            [INFO]     | Detail: tmdb_collection_details updated poster to [URL] https://image.tmdb.org/t/p/original/bxQaNDuSLCllnMSQ0ZLg7e6HrMW.jpg
+[2022-10-08 13:04:20,499] [library.py:186]            [INFO]     | Detail: tmdb_collection_details updated background to [URL] https://image.tmdb.org/t/p/original/15FumSExI9SRoL7QJWZAsA0b10c.jpg
+[2022-10-08 13:04:20,733] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-08 13:04:20,733] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-08 13:04:20,733] [plex_meta_manager.py:709]  [INFO]     |                            Finished The Space Odyssey Series Collection                            |
+[2022-10-08 13:04:20,734] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-10-08 13:04:20,734] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

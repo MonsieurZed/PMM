@@ -1,0 +1,75 @@
+[2022-10-11 11:18:37,589] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:18:37,589] [builder.py:200]            [INFO]     |                                  Crows Collection in Z. 1 - Films                                  |
+[2022-10-11 11:18:37,589] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:18:37,590] [builder.py:201]            [INFO]     |                                                                                                    |
+[2022-10-11 11:18:37,590] [builder.py:206]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:18:37,590] [builder.py:222]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:37,590] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:18:37,590] [meta.py:129]               [DEBUG]    | Call: {'value': ['192174'], 'tmdb_collection': ['192174'], 'key_name': 'Crows', 'key': '192174', 'name': 'my_template'} |
+[2022-10-11 11:18:37,590] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:37,590] [meta.py:305]               [DEBUG]    | Variables: {'value': ['192174'], 'tmdb_collection': ['192174'], 'key_name': 'Crows', 'key': '192174', 'name': 'my_template', 'collection_name': 'Crows', 'mapping_name': 'Crows', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%27192174%27%5D', 'tmdb_collection_encoded': '%5B%27192174%27%5D', 'key_name_encoded': 'Crows', 'key_encoded': '192174', 'name_encoded': 'my_template', 'collection_name_encoded': 'Crows', 'mapping_name_encoded': 'Crows', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Crows'} |
+[2022-10-11 11:18:37,591] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:37,591] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:18:37,591] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:37,591] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:18:37,592] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:37,592] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['192174'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_Crows'} |
+[2022-10-11 11:18:37,592] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:37,592] [builder.py:230]            [INFO]     |=================================== Validating Crows Attributes ====================================|
+[2022-10-11 11:18:37,592] [builder.py:620]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:37,592] [builder.py:621]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:18:37,593] [builder.py:622]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:18:37,593] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:37,593] [builder.py:657]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:18:37,593] [builder.py:658]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:18:37,593] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:37,593] [builder.py:657]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:18:37,593] [builder.py:658]            [DEBUG]    | Value: ['192174']                                                                                  |
+[2022-10-11 11:18:37,605] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:37,605] [builder.py:657]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:18:37,606] [builder.py:658]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:18:37,606] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:37,606] [builder.py:657]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:18:37,606] [builder.py:658]            [DEBUG]    | Value: +C1_Crows                                                                                   |
+[2022-10-11 11:18:37,805] [builder.py:823]            [INFO]     |                                                                                                    |
+[2022-10-11 11:18:37,806] [builder.py:824]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:18:37,806] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:37,806] [plex_meta_manager.py:563]  [INFO]     |===================================== Running Crows Collection =====================================|
+[2022-10-11 11:18:37,806] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:37,807] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:18:37,807] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:37,807] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 192174                                                                   |
+[2022-10-11 11:18:37,807] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:37,812] [tmdb.py:381]               [INFO]     | Processing TMDb Collection: (192174) Crows Zero - Saga (3 Items)                                   |
+[2022-10-11 11:18:37,812] [builder.py:1581]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:37,813] [builder.py:1582]           [DEBUG]    | 3 IDs Found: [(14943, 'tmdb'), (25716, 'tmdb'), (253451, 'tmdb')]                                  |
+[2022-10-11 11:18:37,813] [builder.py:1583]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:37,813] [builder.py:2132]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:37,813] [builder.py:2133]           [INFO]     |==================================== Adding to Crows Collection ====================================|
+[2022-10-11 11:18:37,813] [builder.py:2134]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:37,814] [builder.py:2148]           [INFO]     | 1/2 | Crows Collection | = | Crows Zero (2007)                                                     |
+[2022-10-11 11:18:37,814] [builder.py:2148]           [INFO]     | 2/2 | Crows Collection | = | Crows Zero II (2009)                                                  |
+[2022-10-11 11:18:37,814] [builder.py:2168]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:37,814] [builder.py:2170]           [INFO]     | 2 Movies Processed 0 Movies Added                                                                  |
+[2022-10-11 11:18:37,814] [builder.py:2300]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:37,814] [builder.py:2301]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-10-11 11:18:37,815] [builder.py:2302]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:37,837] [builder.py:2315]           [INFO]     | Crows Collection | ? | Crows Explode (2014) (TMDb: 253451)                                         |
+[2022-10-11 11:18:37,837] [builder.py:2320]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:37,838] [builder.py:2321]           [INFO]     | 1 Movie Missing                                                                                    |
+[2022-10-11 11:18:37,872] [builder.py:2521]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:37,873] [builder.py:2522]           [INFO]     |=============================== Updating Details of Crows Collection ===============================|
+[2022-10-11 11:18:37,873] [builder.py:2523]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:37,882] [builder.py:2589]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-10-11 11:18:37,882] [builder.py:2660]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Crows'                                                |
+[2022-10-11 11:18:37,882] [util.py:171]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-10-11 11:18:37,883] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Poster: https://image.tmdb.org/t/p/original/cCk7eolipCWIGb9AJcnvraHRUCr.jpg |
+[2022-10-11 11:18:37,883] [util.py:171]               [DEBUG]    | 1 background found:                                                                                |
+[2022-10-11 11:18:37,883] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Background: https://image.tmdb.org/t/p/original/gO7rOvpYIRFPoMZgMq6EZkznmBc.jpg |
+[2022-10-11 11:18:37,884] [library.py:173]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-10-11 11:18:37,885] [library.py:189]            [INFO]     | Detail: background update not needed                                                               |
+[2022-10-11 11:18:38,069] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:38,069] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:18:38,070] [plex_meta_manager.py:709]  [INFO]     |                                     Finished Crows Collection                                      |
+[2022-10-11 11:18:38,070] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 11:18:38,070] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

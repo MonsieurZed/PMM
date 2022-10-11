@@ -1,0 +1,426 @@
+[2022-10-11 08:27:41,364] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 08:27:41,364] [builder.py:197]            [INFO]     |                              Top of 2020s Collection in Z. 1 - Films                               |
+[2022-10-11 08:27:41,364] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 08:27:41,364] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 08:27:41,364] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 08:27:41,364] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:27:41,364] [meta.py:128]               [DEBUG]    | Template Chart                                                                                     |
+[2022-10-11 08:27:41,365] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Chart'), ('num', 1), ('year', 2020)])                                 |
+[2022-10-11 08:27:41,365] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:27:41,365] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Chart'), ('num', 1), ('year', 2020), ('collection_name', 'Top of 2020s'), ('mapping_name', 'Top of 2020s'), ('library_type', 'movie'), ('library_name', 'Z. 1 - Films'), ('name_encoded', 'Chart'), ('num_encoded', '1'), ('year_encoded', '2020'), ('collection_name_encoded', 'Top%20of%202020s'), ('mapping_name_encoded', 'Top%20of%202020s'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%201%20-%20Films'), ('collection_sort', 'Top of 2020s')]) |
+[2022-10-11 08:27:41,365] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:27:41,365] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 08:27:41,365] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:27:41,366] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 08:27:41,366] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:27:41,366] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+2_1DECADE of 2020', 'sync_mode': 'sync', 'smart_label': 'audience_rating.desc'} |
+[2022-10-11 08:27:41,366] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:27:41,367] [builder.py:219]            [INFO]     |================================ Validating Top of 2020s Attributes ================================|
+[2022-10-11 08:27:41,367] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:27:41,367] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-11 08:27:41,367] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-11 08:27:41,367] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:27:41,367] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-11 08:27:41,367] [builder.py:544]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-10-11 08:27:41,384] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:27:41,384] [builder.py:631]            [DEBUG]    | Validating Method: tmdb_discover                                                                   |
+[2022-10-11 08:27:41,384] [builder.py:632]            [DEBUG]    | Value: ordereddict([('primary_release_date.gte', '01/01/2020'), ('primary_release_date.lte', '12/31/2029'), ('with_original_language', 'fr'), ('sort_by', 'popularity.desc')]) |
+[2022-10-11 08:27:41,385] [util.py:745]               [WARNING]  | Collection Warning: tmdb_discover limit attribute not found using 100 as default                   |
+[2022-10-11 08:27:41,385] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:27:41,385] [builder.py:631]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-10-11 08:27:41,385] [builder.py:632]            [DEBUG]    | Value: ['https://www.imdb.com/list/ls093127242/', 'https://www.imdb.com/list/ls096735829/']        |
+[2022-10-11 08:27:48,558] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:27:48,559] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-11 08:27:48,559] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/DECADE_2020.png               |
+[2022-10-11 08:27:48,717] [builder.py:828]            [WARNING]  | Collection Warning: No Poster Found at https://raw.githubusercontent.com/MonsieurZed/poster/main/img/DECADE_2020.png |
+[2022-10-11 08:27:48,718] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:27:48,718] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-10-11 08:27:48,718] [builder.py:632]            [DEBUG]    | Value: Le meilleurs des années 2020                                                                |
+[2022-10-11 08:27:48,718] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:27:48,718] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 08:27:48,719] [builder.py:632]            [DEBUG]    | Value: +2_1DECADE of 2020                                                                          |
+[2022-10-11 08:27:48,724] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:27:48,724] [plex.py:793]               [DEBUG]    | Looking for: Top of 2020s                                                                          |
+[2022-10-11 08:27:48,725] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 08:27:48,725] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 08:27:48,725] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 08:27:48,725] [plex_meta_manager.py:563]  [INFO]     |================================= Running Top of 2020s Collection ==================================|
+[2022-10-11 08:27:48,725] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-10-11 08:27:48,725] [plex_meta_manager.py:570]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: audience_rating.desc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Top of 2020s
+[2022-10-11 08:27:48,726] [plex_meta_manager.py:575]  [INFO]     | 
+[2022-10-11 08:27:48,726] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync
+[2022-10-11 08:27:48,727] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 08:27:48,727] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_discover: {'limit': 100, 'primary_release_date.gte': '01/01/2020', 'primary_release_date.lte': '12/31/2029', 'with_original_language': 'fr', 'sort_by': 'popularity.desc'}
+[2022-10-11 08:27:48,727] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 08:27:49,469] [tmdb.py:339]               [INFO]     | Processing TMDb Discover: 100 Movies
+[2022-10-11 08:27:49,469] [tmdb.py:341]               [INFO]     |            primary_release_date.gte: 2020-01-01
+[2022-10-11 08:27:49,470] [tmdb.py:341]               [INFO]     |            primary_release_date.lte: 2029-12-31
+[2022-10-11 08:27:49,470] [tmdb.py:341]               [INFO]     |            with_original_language: fr
+[2022-10-11 08:27:49,470] [tmdb.py:341]               [INFO]     |            sort_by: popularity.desc
+[2022-10-11 08:27:49,471] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 08:27:49,471] [builder.py:1541]           [DEBUG]    | 100 IDs Found: [(852046, 'tmdb'), (781099, 'tmdb'), (911129, 'tmdb'), (936074, 'tmdb'), (783556, 'tmdb'), (892527, 'tmdb'), (755812, 'tmdb'), (726684, 'tmdb'), (851303, 'tmdb'), (785985, 'tmdb'), (523936, 'tmdb'), (811596, 'tmdb'), (676705, 'tmdb'), (928381, 'tmdb'), (746333, 'tmdb'), (752564, 'tmdb'), (757999, 'tmdb'), (729720, 'tmdb'), (630240, 'tmdb'), (885266, 'tmdb'), (992536, 'tmdb'), (641501, 'tmdb'), (637534, 'tmdb'), (811211, 'tmdb'), (793723, 'tmdb'), (754067, 'tmdb'), (671043, 'tmdb'), (889672, 'tmdb'), (496450, 'tmdb'), (833417, 'tmdb'), (664506, 'tmdb'), (669444, 'tmdb'), (807070, 'tmdb'), (520725, 'tmdb'), (660334, 'tmdb'), (833326, 'tmdb'), (471498, 'tmdb'), (978444, 'tmdb'), (757341, 'tmdb'), (680531, 'tmdb'), (904203, 'tmdb'), (803701, 'tmdb'), (454527, 'tmdb'), (613583, 'tmdb'), (783558, 'tmdb'), (633954, 'tmdb'), (838916, 'tmdb'), (582897, 'tmdb'), (1028024, 'tmdb'), (993545, 'tmdb'), (714869, 'tmdb'), (799844, 'tmdb'), (1021637, 'tmdb'), (633951, 'tmdb'), (1030690, 'tmdb'), (672437, 'tmdb'), (550738, 'tmdb'), (845140, 'tmdb'), (1005597, 'tmdb'), (659954, 'tmdb'), (823951, 'tmdb'), (809065, 'tmdb'), (852438, 'tmdb'), (659067, 'tmdb'), (643215, 'tmdb'), (893369, 'tmdb'), (665828, 'tmdb'), (611408, 'tmdb'), (860578, 'tmdb'), (663260, 'tmdb'), (659959, 'tmdb'), (968739, 'tmdb'), (987487, 'tmdb'), (706503, 'tmdb'), (893366, 'tmdb'), (762079, 'tmdb'), (785516, 'tmdb'), (1029645, 'tmdb'), (928204, 'tmdb'), (730769, 'tmdb'), (793998, 'tmdb'), (827887, 'tmdb'), (919573, 'tmdb'), (651881, 'tmdb'), (526811, 'tmdb'), (869617, 'tmdb'), (660006, 'tmdb'), (613370, 'tmdb'), (582885, 'tmdb'), (957743, 'tmdb'), (934752, 'tmdb'), (974930, 'tmdb'), (670243, 'tmdb'), (746131, 'tmdb'), (605734, 'tmdb'), (613377, 'tmdb'), (838723, 'tmdb'), (680952, 'tmdb'), (660000, 'tmdb'), (658905, 'tmdb')]
+[2022-10-11 08:27:49,471] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 08:27:49,474] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 08:27:49,474] [plex_meta_manager.py:580]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls093127242/', 'limit': 0}
+[2022-10-11 08:27:49,474] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 08:27:49,475] [imdb.py:184]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls093127242/
+[2022-10-11 08:28:03,588] [imdb.py:135]               [DEBUG]    | 192 IMDb IDs Found: ['tt10612922', 'tt8359816', 'tt9067182', 'tt10272386', 'tt5198068', 'tt8951086', 'tt9231040', 'tt10633456', 'tt8173728', 'tt10514222', 'tt7090638', 'tt10706602', 'tt2948372', 'tt7557108', 'tt10551100', 'tt10098482', 'tt9770150', 'tt9586294', 'tt6803046', 'tt9133378', 'tt2762506', 'tt1667354', 'tt11296058', 'tt8241872', 'tt10409498', 'tt5363618', 'tt11416746', 'tt9139586', 'tt9747594', 'tt10199640', 'tt7772582', 'tt10551102', 'tt8362736', 'tt6785292', 'tt1070874', 'tt9801736', 'tt10767168', 'tt10288566', 'tt9777644', 'tt7374926', 'tt6193408', 'tt8649186', 'tt9647768', 'tt10199590', 'tt9484998', 'tt10642834', 'tt11394298', 'tt11161474', 'tt8633478', 'tt6723592', 'tt8949056', 'tt8206668', 'tt9601220', 'tt9120416', 'tt10618286', 'tt8634406', 'tt10384744', 'tt11358398', 'tt10229558', 'tt11394158', 'tt8637440', 'tt10964430', 'tt11054164', 'tt6835498', 'tt12763920', 'tt10563420', 'tt6012380', 'tt8372298', 'tt4460792', 'tt8983166', 'tt6010976', 'tt9000224', 'tt10243992', 'tt9686708', 'tt7755856', 'tt9318280', 'tt11568878', 'tt9068100', 'tt6722726', 'tt8399664', 'tt6624144', 'tt8430598', 'tt9072352', 'tt5073642', 'tt11644332', 'tt8647310', 'tt11140488', 'tt6882604', 'tt10620868', 'tt12274228', 'tt6862538', 'tt3064338', 'tt7120602', 'tt7921248', 'tt8233874', 'tt7335104', 'tt7672068', 'tt8923484', 'tt8311958', 'tt12749596', 'tt2226162', 'tt9735758', 'tt11905962', 'tt9620292', 'tt8338762', 'tt9614460', 'tt3547306', 'tt10482504', 'tt12137964', 'tt6533972', 'tt7146812', 'tt8800266', 'tt5918982', 'tt7737734', 'tt9248952', 'tt1086064', 'tt6927492', 'tt8228288', 'tt8759834', 'tt8907986', 'tt9355200', 'tt8567342', 'tt8386654', 'tt8829128', 'tt8193790', 'tt8299768', 'tt1051906', 'tt6285944', 'tt7347846', 'tt9016016', 'tt9000302', 'tt6878306', 'tt8544498', 'tt11392114', 'tt10919380', 'tt9214832', 'tt9148706', 'tt4193072', 'tt4798836', 'tt11388406', 'tt6886080', 'tt7541106', 'tt8143990', 'tt10199670', 'tt13143964', 'tt8179470', 'tt9016974', 'tt3833480', 'tt11697690', 'tt7713068', 'tt8332802', 'tt9691136', 'tt5160614', 'tt8305806', 'tt8820348', 'tt8816194', 'tt8850222', 'tt7798646', 'tt0783640', 'tt2716382', 'tt8358220', 'tt10309552', 'tt11614912', 'tt8368406', 'tt8976576', 'tt9765144', 'tt8367814', 'tt6048922', 'tt9894470', 'tt3993886', 'tt10085338', 'tt7103742', 'tt1502397', 'tt9806468', 'tt10009030', 'tt11394332', 'tt9386648', 'tt9247314', 'tt8535968', 'tt8830002', 'tt8015444', 'tt8186932', 'tt10843306', 'tt10584984', 'tt9877170', 'tt8354752', 'tt8058874', 'tt10314450', 'tt8244784', 'tt3794354', 'tt9261218', 'tt10736580']
+[2022-10-11 08:28:03,588] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 08:28:03,589] [builder.py:1541]           [DEBUG]    | 192 IDs Found: [('tt10612922', 'imdb'), ('tt8359816', 'imdb'), ('tt9067182', 'imdb'), ('tt10272386', 'imdb'), ('tt5198068', 'imdb'), ('tt8951086', 'imdb'), ('tt9231040', 'imdb'), ('tt10633456', 'imdb'), ('tt8173728', 'imdb'), ('tt10514222', 'imdb'), ('tt7090638', 'imdb'), ('tt10706602', 'imdb'), ('tt2948372', 'imdb'), ('tt7557108', 'imdb'), ('tt10551100', 'imdb'), ('tt10098482', 'imdb'), ('tt9770150', 'imdb'), ('tt9586294', 'imdb'), ('tt6803046', 'imdb'), ('tt9133378', 'imdb'), ('tt2762506', 'imdb'), ('tt1667354', 'imdb'), ('tt11296058', 'imdb'), ('tt8241872', 'imdb'), ('tt10409498', 'imdb'), ('tt5363618', 'imdb'), ('tt11416746', 'imdb'), ('tt9139586', 'imdb'), ('tt9747594', 'imdb'), ('tt10199640', 'imdb'), ('tt7772582', 'imdb'), ('tt10551102', 'imdb'), ('tt8362736', 'imdb'), ('tt6785292', 'imdb'), ('tt1070874', 'imdb'), ('tt9801736', 'imdb'), ('tt10767168', 'imdb'), ('tt10288566', 'imdb'), ('tt9777644', 'imdb'), ('tt7374926', 'imdb'), ('tt6193408', 'imdb'), ('tt8649186', 'imdb'), ('tt9647768', 'imdb'), ('tt10199590', 'imdb'), ('tt9484998', 'imdb'), ('tt10642834', 'imdb'), ('tt11394298', 'imdb'), ('tt11161474', 'imdb'), ('tt8633478', 'imdb'), ('tt6723592', 'imdb'), ('tt8949056', 'imdb'), ('tt8206668', 'imdb'), ('tt9601220', 'imdb'), ('tt9120416', 'imdb'), ('tt10618286', 'imdb'), ('tt8634406', 'imdb'), ('tt10384744', 'imdb'), ('tt11358398', 'imdb'), ('tt10229558', 'imdb'), ('tt11394158', 'imdb'), ('tt8637440', 'imdb'), ('tt10964430', 'imdb'), ('tt11054164', 'imdb'), ('tt6835498', 'imdb'), ('tt12763920', 'imdb'), ('tt10563420', 'imdb'), ('tt6012380', 'imdb'), ('tt8372298', 'imdb'), ('tt4460792', 'imdb'), ('tt8983166', 'imdb'), ('tt6010976', 'imdb'), ('tt9000224', 'imdb'), ('tt10243992', 'imdb'), ('tt9686708', 'imdb'), ('tt7755856', 'imdb'), ('tt9318280', 'imdb'), ('tt11568878', 'imdb'), ('tt9068100', 'imdb'), ('tt6722726', 'imdb'), ('tt8399664', 'imdb'), ('tt6624144', 'imdb'), ('tt8430598', 'imdb'), ('tt9072352', 'imdb'), ('tt5073642', 'imdb'), ('tt11644332', 'imdb'), ('tt8647310', 'imdb'), ('tt11140488', 'imdb'), ('tt6882604', 'imdb'), ('tt10620868', 'imdb'), ('tt12274228', 'imdb'), ('tt6862538', 'imdb'), ('tt3064338', 'imdb'), ('tt7120602', 'imdb'), ('tt7921248', 'imdb'), ('tt8233874', 'imdb'), ('tt7335104', 'imdb'), ('tt7672068', 'imdb'), ('tt8923484', 'imdb'), ('tt8311958', 'imdb'), ('tt12749596', 'imdb'), ('tt2226162', 'imdb'), ('tt9735758', 'imdb'), ('tt11905962', 'imdb'), ('tt9620292', 'imdb'), ('tt8338762', 'imdb'), ('tt9614460', 'imdb'), ('tt3547306', 'imdb'), ('tt10482504', 'imdb'), ('tt12137964', 'imdb'), ('tt6533972', 'imdb'), ('tt7146812', 'imdb'), ('tt8800266', 'imdb'), ('tt5918982', 'imdb'), ('tt7737734', 'imdb'), ('tt9248952', 'imdb'), ('tt1086064', 'imdb'), ('tt6927492', 'imdb'), ('tt8228288', 'imdb'), ('tt8759834', 'imdb'), ('tt8907986', 'imdb'), ('tt9355200', 'imdb'), ('tt8567342', 'imdb'), ('tt8386654', 'imdb'), ('tt8829128', 'imdb'), ('tt8193790', 'imdb'), ('tt8299768', 'imdb'), ('tt1051906', 'imdb'), ('tt6285944', 'imdb'), ('tt7347846', 'imdb'), ('tt9016016', 'imdb'), ('tt9000302', 'imdb'), ('tt6878306', 'imdb'), ('tt8544498', 'imdb'), ('tt11392114', 'imdb'), ('tt10919380', 'imdb'), ('tt9214832', 'imdb'), ('tt9148706', 'imdb'), ('tt4193072', 'imdb'), ('tt4798836', 'imdb'), ('tt11388406', 'imdb'), ('tt6886080', 'imdb'), ('tt7541106', 'imdb'), ('tt8143990', 'imdb'), ('tt10199670', 'imdb'), ('tt13143964', 'imdb'), ('tt8179470', 'imdb'), ('tt9016974', 'imdb'), ('tt3833480', 'imdb'), ('tt11697690', 'imdb'), ('tt7713068', 'imdb'), ('tt8332802', 'imdb'), ('tt9691136', 'imdb'), ('tt5160614', 'imdb'), ('tt8305806', 'imdb'), ('tt8820348', 'imdb'), ('tt8816194', 'imdb'), ('tt8850222', 'imdb'), ('tt7798646', 'imdb'), ('tt0783640', 'imdb'), ('tt2716382', 'imdb'), ('tt8358220', 'imdb'), ('tt10309552', 'imdb'), ('tt11614912', 'imdb'), ('tt8368406', 'imdb'), ('tt8976576', 'imdb'), ('tt9765144', 'imdb'), ('tt8367814', 'imdb'), ('tt6048922', 'imdb'), ('tt9894470', 'imdb'), ('tt3993886', 'imdb'), ('tt10085338', 'imdb'), ('tt7103742', 'imdb'), ('tt1502397', 'imdb'), ('tt9806468', 'imdb'), ('tt10009030', 'imdb'), ('tt11394332', 'imdb'), ('tt9386648', 'imdb'), ('tt9247314', 'imdb'), ('tt8535968', 'imdb'), ('tt8830002', 'imdb'), ('tt8015444', 'imdb'), ('tt8186932', 'imdb'), ('tt10843306', 'imdb'), ('tt10584984', 'imdb'), ('tt9877170', 'imdb'), ('tt8354752', 'imdb'), ('tt8058874', 'imdb'), ('tt10314450', 'imdb'), ('tt8244784', 'imdb'), ('tt3794354', 'imdb'), ('tt9261218', 'imdb'), ('tt10736580', 'imdb')]
+[2022-10-11 08:28:03,589] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 08:28:03,724] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 08:28:03,725] [plex_meta_manager.py:580]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls096735829/', 'limit': 0}
+[2022-10-11 08:28:03,725] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 08:28:03,725] [imdb.py:184]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls096735829/
+[2022-10-11 08:28:09,592] [imdb.py:135]               [DEBUG]    | 47 IMDb IDs Found: ['tt9426210', 'tt5867314', 'tt6456326', 'tt12592252', 'tt5259822', 'tt5774060', 'tt7737786', 'tt5918982', 'tt6723592', 'tt13095604', 'tt9016974', 'tt12109842', 'tt11946300', 'tt6803046', 'tt8368406', 'tt8269120', 'tt8936646', 'tt10127562', 'tt9735758', 'tt11191124', 'tt4523530', 'tt10307440', 'tt1502397', 'tt10310140', 'tt9086228', 'tt8367814', 'tt4379420', 'tt11388406', 'tt8850222', 'tt11905962', 'tt7975244', 'tt10627720', 'tt8228288', 'tt8305806', 'tt7073710', 'tt1051906', 'tt9310328', 'tt5073642', 'tt8244784', 'tt7347846', 'tt8816194', 'tt3794354', 'tt4354756', 'tt1634106', 'tt7978672', 'tt8856470', 'tt6193408']
+[2022-10-11 08:28:09,592] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 08:28:09,592] [builder.py:1541]           [DEBUG]    | 47 IDs Found: [('tt9426210', 'imdb'), ('tt5867314', 'imdb'), ('tt6456326', 'imdb'), ('tt12592252', 'imdb'), ('tt5259822', 'imdb'), ('tt5774060', 'imdb'), ('tt7737786', 'imdb'), ('tt5918982', 'imdb'), ('tt6723592', 'imdb'), ('tt13095604', 'imdb'), ('tt9016974', 'imdb'), ('tt12109842', 'imdb'), ('tt11946300', 'imdb'), ('tt6803046', 'imdb'), ('tt8368406', 'imdb'), ('tt8269120', 'imdb'), ('tt8936646', 'imdb'), ('tt10127562', 'imdb'), ('tt9735758', 'imdb'), ('tt11191124', 'imdb'), ('tt4523530', 'imdb'), ('tt10307440', 'imdb'), ('tt1502397', 'imdb'), ('tt10310140', 'imdb'), ('tt9086228', 'imdb'), ('tt8367814', 'imdb'), ('tt4379420', 'imdb'), ('tt11388406', 'imdb'), ('tt8850222', 'imdb'), ('tt11905962', 'imdb'), ('tt7975244', 'imdb'), ('tt10627720', 'imdb'), ('tt8228288', 'imdb'), ('tt8305806', 'imdb'), ('tt7073710', 'imdb'), ('tt1051906', 'imdb'), ('tt9310328', 'imdb'), ('tt5073642', 'imdb'), ('tt8244784', 'imdb'), ('tt7347846', 'imdb'), ('tt8816194', 'imdb'), ('tt3794354', 'imdb'), ('tt4354756', 'imdb'), ('tt1634106', 'imdb'), ('tt7978672', 'imdb'), ('tt8856470', 'imdb'), ('tt6193408', 'imdb')]
+[2022-10-11 08:28:09,593] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 08:28:09,623] [builder.py:2064]           [INFO]     | 
+[2022-10-11 08:28:09,624] [builder.py:2065]           [INFO]     |================================ Adding to Top of 2020s Collection =================================|
+[2022-10-11 08:28:09,625] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-11 08:28:09,930] [builder.py:2080]           [INFO]     |  1/66 | Top of 2020s Collection | = | Athena (2022)                                                |
+[2022-10-11 08:28:09,930] [builder.py:2080]           [INFO]     |  2/66 | Top of 2020s Collection | = | Inexorable (2022)                                            |
+[2022-10-11 08:28:09,931] [builder.py:2080]           [INFO]     |  3/66 | Top of 2020s Collection | = | Notre-Dame brûle (2022)                                      |
+[2022-10-11 08:28:09,931] [builder.py:2080]           [INFO]     |  4/66 | Top of 2020s Collection | = | Sans répit (2022)                                            |
+[2022-10-11 08:28:09,932] [builder.py:2080]           [INFO]     |  5/66 | Top of 2020s Collection | = | Super-héros malgré lui (2022)                                |
+[2022-10-11 08:28:09,932] [builder.py:2080]           [INFO]     |  6/66 | Top of 2020s Collection | = | Maigret (2022)                                               |
+[2022-10-11 08:28:09,933] [builder.py:2080]           [INFO]     |  7/66 | Top of 2020s Collection | = | Le dernier mercenaire (2021)                                 |
+[2022-10-11 08:28:09,933] [builder.py:2080]           [INFO]     |  8/66 | Top of 2020s Collection | = | Titane (2021)                                                |
+[2022-10-11 08:28:09,934] [builder.py:2080]           [INFO]     |  9/66 | Top of 2020s Collection | = | Kung Fu Zohra (2022)                                         |
+[2022-10-11 08:28:09,934] [builder.py:2080]           [INFO]     | 10/66 | Top of 2020s Collection | = | Comment je suis devenu super-héros (2020)                    |
+[2022-10-11 08:28:09,934] [builder.py:2080]           [INFO]     | 11/66 | Top of 2020s Collection | = | BAC Nord (2021)                                              |
+[2022-10-11 08:28:09,934] [builder.py:2080]           [INFO]     | 12/66 | Top of 2020s Collection | = | Oxygène (2021)                                               |
+[2022-10-11 08:28:09,935] [builder.py:2080]           [INFO]     | 13/66 | Top of 2020s Collection | = | J'adore ce que vous faites (2022)                            |
+[2022-10-11 08:28:09,935] [builder.py:2080]           [INFO]     | 14/66 | Top of 2020s Collection | = | Un divan à Tunis (2020)                                      |
+[2022-10-11 08:28:09,936] [builder.py:2080]           [INFO]     | 15/66 | Top of 2020s Collection | = | La Brigade (2022)                                            |
+[2022-10-11 08:28:09,936] [builder.py:2080]           [INFO]     | 16/66 | Top of 2020s Collection | = | Coupez ! (2022)                                              |
+[2022-10-11 08:28:09,936] [builder.py:2080]           [INFO]     | 17/66 | Top of 2020s Collection | = | Mystère à Saint-Tropez (2021)                                |
+[2022-10-11 08:28:09,937] [builder.py:2080]           [INFO]     | 18/66 | Top of 2020s Collection | = | Boîte noire (2021)                                           |
+[2022-10-11 08:28:09,937] [builder.py:2080]           [INFO]     | 19/66 | Top of 2020s Collection | = | 8 Rue de l’Humanité (2021)                                   |
+[2022-10-11 08:28:09,937] [builder.py:2080]           [INFO]     | 20/66 | Top of 2020s Collection | = | Barbaque (2021)                                              |
+[2022-10-11 08:28:09,937] [builder.py:2080]           [INFO]     | 21/66 | Top of 2020s Collection | = | Adieu les cons (2020)                                        |
+[2022-10-11 08:28:09,937] [builder.py:2080]           [INFO]     | 22/66 | Top of 2020s Collection | = | Adieu Monsieur Haffmann (2022)                               |
+[2022-10-11 08:28:09,937] [builder.py:2080]           [INFO]     | 23/66 | Top of 2020s Collection | = | Les Olympiades (2021)                                        |
+[2022-10-11 08:28:09,938] [builder.py:2080]           [INFO]     | 24/66 | Top of 2020s Collection | = | Illusions perdues (2021)                                     |
+[2022-10-11 08:28:09,938] [builder.py:2080]           [INFO]     | 25/66 | Top of 2020s Collection | = | Les parfums (2020)                                           |
+[2022-10-11 08:28:09,939] [builder.py:2080]           [INFO]     | 26/66 | Top of 2020s Collection | = | Sorry We Missed You (2019)                                   |
+[2022-10-11 08:28:09,939] [builder.py:2080]           [INFO]     | 27/66 | Top of 2020s Collection | = | The Father (2020)                                            |
+[2022-10-11 08:28:09,939] [builder.py:2080]           [INFO]     | 28/66 | Top of 2020s Collection | = | Minari (2021)                                                |
+[2022-10-11 08:28:09,940] [builder.py:2080]           [INFO]     | 29/66 | Top of 2020s Collection | = | Nomadland (2020)                                             |
+[2022-10-11 08:28:09,940] [builder.py:2080]           [INFO]     | 30/66 | Top of 2020s Collection | = | Sound of Metal (2020)                                        |
+[2022-10-11 08:28:09,941] [builder.py:2080]           [INFO]     | 31/66 | Top of 2020s Collection | = | Les Sept de Chicago (2020)                                   |
+[2022-10-11 08:28:09,941] [builder.py:2080]           [INFO]     | 32/66 | Top of 2020s Collection | = | Drunk (2020)                                                 |
+[2022-10-11 08:28:09,941] [builder.py:2080]           [INFO]     | 33/66 | Top of 2020s Collection | = | Da 5 Bloods : Frères de Sang (2020)                          |
+[2022-10-11 08:28:09,942] [builder.py:2080]           [INFO]     | 34/66 | Top of 2020s Collection | = | Les Misérables (2019)                                        |
+[2022-10-11 08:28:09,942] [builder.py:2080]           [INFO]     | 35/66 | Top of 2020s Collection | = | Palm Springs (2020)                                          |
+[2022-10-11 08:28:09,942] [builder.py:2080]           [INFO]     | 36/66 | Top of 2020s Collection | = | Run (2020)                                                   |
+[2022-10-11 08:28:09,943] [builder.py:2080]           [INFO]     | 37/66 | Top of 2020s Collection | = | Tenet (2020)                                                 |
+[2022-10-11 08:28:09,943] [builder.py:2080]           [INFO]     | 38/66 | Top of 2020s Collection | = | Bad Education (2020)                                         |
+[2022-10-11 08:28:09,944] [builder.py:2080]           [INFO]     | 39/66 | Top of 2020s Collection | = | Mank (2020)                                                  |
+[2022-10-11 08:28:09,944] [builder.py:2080]           [INFO]     | 40/66 | Top of 2020s Collection | = | The Assistant (2020)                                         |
+[2022-10-11 08:28:09,944] [builder.py:2080]           [INFO]     | 41/66 | Top of 2020s Collection | = | Possessor (2020)                                             |
+[2022-10-11 08:28:09,945] [builder.py:2080]           [INFO]     | 42/66 | Top of 2020s Collection | = | La Plateforme (2019)                                         |
+[2022-10-11 08:28:09,945] [builder.py:2080]           [INFO]     | 43/66 | Top of 2020s Collection | = | Le daim (2019)                                               |
+[2022-10-11 08:28:09,945] [builder.py:2080]           [INFO]     | 44/66 | Top of 2020s Collection | = | Invisible Man (2020)                                         |
+[2022-10-11 08:28:09,946] [builder.py:2080]           [INFO]     | 45/66 | Top of 2020s Collection | = | The Banker (2020)                                            |
+[2022-10-11 08:28:09,946] [builder.py:2080]           [INFO]     | 46/66 | Top of 2020s Collection | = | La Mission (2020)                                            |
+[2022-10-11 08:28:09,946] [builder.py:2080]           [INFO]     | 47/66 | Top of 2020s Collection | = | Emma. (2020)                                                 |
+[2022-10-11 08:28:09,947] [builder.py:2080]           [INFO]     | 48/66 | Top of 2020s Collection | = | Kajillionaire (2020)                                         |
+[2022-10-11 08:28:09,947] [builder.py:2080]           [INFO]     | 49/66 | Top of 2020s Collection | = | Borat Subsequent Moviefilm (2020)                            |
+[2022-10-11 08:28:09,948] [builder.py:2080]           [INFO]     | 50/66 | Top of 2020s Collection | = | Synchronic (2020)                                            |
+[2022-10-11 08:28:09,948] [builder.py:2080]           [INFO]     | 51/66 | Top of 2020s Collection | = | Birds of Prey et la fantabuleuse histoire de Harley Quinn (2020) |
+[2022-10-11 08:28:09,949] [builder.py:2080]           [INFO]     | 52/66 | Top of 2020s Collection | = | Shadow in the Cloud (2020)                                   |
+[2022-10-11 08:28:09,949] [builder.py:2080]           [INFO]     | 53/66 | Top of 2020s Collection | = | Come to Daddy (2020)                                         |
+[2022-10-11 08:28:09,950] [builder.py:2080]           [INFO]     | 54/66 | Top of 2020s Collection | = | Peninsula (2020)                                             |
+[2022-10-11 08:28:09,951] [builder.py:2080]           [INFO]     | 55/66 | Top of 2020s Collection | = | Vivarium (2020)                                              |
+[2022-10-11 08:28:09,952] [builder.py:2080]           [INFO]     | 56/66 | Top of 2020s Collection | = | The Gentlemen (2020)                                         |
+[2022-10-11 08:28:09,952] [builder.py:2080]           [INFO]     | 57/66 | Top of 2020s Collection | = | USS Greyhound : La Bataille de l'Atlantique (2020)           |
+[2022-10-11 08:28:09,953] [builder.py:2080]           [INFO]     | 58/66 | Top of 2020s Collection | = | Bad Boys for Life (2020)                                     |
+[2022-10-11 08:28:09,953] [builder.py:2080]           [INFO]     | 59/66 | Top of 2020s Collection | = | The Hunt (2020)                                              |
+[2022-10-11 08:28:09,954] [builder.py:2080]           [INFO]     | 60/66 | Top of 2020s Collection | = | Sonic, le film (2020)                                        |
+[2022-10-11 08:28:09,954] [builder.py:2080]           [INFO]     | 61/66 | Top of 2020s Collection | = | The Empty Man (2020)                                         |
+[2022-10-11 08:28:09,955] [builder.py:2080]           [INFO]     | 62/66 | Top of 2020s Collection | = | Monsters of Man (2020)                                       |
+[2022-10-11 08:28:09,956] [builder.py:2080]           [INFO]     | 63/66 | Top of 2020s Collection | = | Songbird (2020)                                              |
+[2022-10-11 08:28:09,957] [builder.py:2080]           [INFO]     | 64/66 | Top of 2020s Collection | = | Tyler Rake (2020)                                            |
+[2022-10-11 08:28:09,958] [builder.py:2080]           [INFO]     | 65/66 | Top of 2020s Collection | = | Jumanji : Next Level (2019)                                  |
+[2022-10-11 08:28:09,958] [builder.py:2080]           [INFO]     | 66/66 | Top of 2020s Collection | = | Bloodshot (2020)                                             |
+[2022-10-11 08:28:09,958] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-11 08:28:09,959] [builder.py:2102]           [INFO]     | 66 Movies Processed 0 Movies Added                                                                 |
+[2022-10-11 08:28:09,961] [builder.py:2228]           [INFO]     |                                                                                                    |
+[2022-10-11 08:28:09,961] [builder.py:2229]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-10-11 08:28:09,961] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-10-11 08:28:10,064] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Sous emprise (2022) (TMDb: 911129)                                   |
+[2022-10-11 08:28:10,084] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Tenor (2022) (TMDb: 936074)                                          |
+[2022-10-11 08:28:10,131] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Men on the Verge of a Nervous Breakdown (2022) (TMDb: 783556)        |
+[2022-10-11 08:28:10,193] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | King (2022) (TMDb: 892527)                                           |
+[2022-10-11 08:28:10,248] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Miraculous World: New York, United HeroeZ (2020) (TMDb: 755812)      |
+[2022-10-11 08:28:10,253] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Miraculous World: Shanghai – The Legend of Ladydragon (2021) (TMDb: 726684) |
+[2022-10-11 08:28:10,317] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Waiting for Bojangles (2022) (TMDb: 851303)                          |
+[2022-10-11 08:28:10,329] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Takedown (2022) (TMDb: 785985)                                   |
+[2022-10-11 08:28:10,345] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Meander (2021) (TMDb: 523936)                                        |
+[2022-10-11 08:28:10,384] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Pil's Adventures (2021) (TMDb: 676705)                               |
+[2022-10-11 08:28:10,395] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Beautiful Minds (2022) (TMDb: 757999)                                |
+[2022-10-11 08:28:10,412] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | My Daughter's Killer (2022) (TMDb: 992536)                           |
+[2022-10-11 08:28:10,436] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Young Lovers (2022) (TMDb: 811211)                               |
+[2022-10-11 08:28:10,468] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Sentinelle (2021) (TMDb: 793723)                                     |
+[2022-10-11 08:28:10,493] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Vicky and Her Mystery (2021) (TMDb: 754067)                          |
+[2022-10-11 08:28:10,526] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Spoiled Brats (2021) (TMDb: 671043)                                  |
+[2022-10-11 08:28:10,537] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The World of Yesterday (2022) (TMDb: 889672)                         |
+[2022-10-11 08:28:10,554] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Miraculous Ladybug & Cat Noir: The Movie (2023) (TMDb: 496450)       |
+[2022-10-11 08:28:10,587] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Full Time (2022) (TMDb: 833417)                                      |
+[2022-10-11 08:28:10,629] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Another World (2022) (TMDb: 664506)                                  |
+[2022-10-11 08:28:10,646] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Les chevaliers du fiel dynamitent 2019 (2020) (TMDb: 669444)         |
+[2022-10-11 08:28:10,662] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Vortex (2022) (TMDb: 807070)                                         |
+[2022-10-11 08:28:10,679] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Lost Prince (2020) (TMDb: 520725)                                |
+[2022-10-11 08:28:10,696] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Arthur Rambo (2022) (TMDb: 660334)                                   |
+[2022-10-11 08:28:10,713] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Zero Fucks Given (2022) (TMDb: 833326)                               |
+[2022-10-11 08:28:10,754] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Top Gun : les coulisses du grand retour (2022) (TMDb: 978444)        |
+[2022-10-11 08:28:10,772] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Butcher’s Daughter (2022) (TMDb: 757341)                         |
+[2022-10-11 08:28:10,787] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Mad Women's Ball (2021) (TMDb: 680531)                           |
+[2022-10-11 08:28:10,812] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | One Piece - En route vers l'épisode 1000 (2021) (TMDb: 904203)       |
+[2022-10-11 08:28:10,837] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | I Want to Talk About Duras (2022) (TMDb: 803701)                     |
+[2022-10-11 08:28:10,862] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Benedetta (2021) (TMDb: 454527)                                      |
+[2022-10-11 08:28:10,887] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Kids Are Back (2021) (TMDb: 613583)                                  |
+[2022-10-11 08:28:10,912] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Fly Me Away (2021) (TMDb: 783558)                                    |
+[2022-10-11 08:28:10,937] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Guide to the Perfect Family (2021) (TMDb: 633954)                |
+[2022-10-11 08:28:10,962] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Kev Adams: The Real Me (2022) (TMDb: 1028024)                        |
+[2022-10-11 08:28:10,987] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Avatar - Au Hellfest 2022 (2022) (TMDb: 993545)                      |
+[2022-10-11 08:28:11,029] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Serial (Bad) Weddings 3 (2022) (TMDb: 714869)                        |
+[2022-10-11 08:28:11,054] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Je te veux moi non plus (2021) (TMDb: 799844)                        |
+[2022-10-11 08:28:11,104] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Songes d’une Nuit Cambodgienne (2022) (TMDb: 1021637)                |
+[2022-10-11 08:28:11,129] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Confessions d'un tueur à gages (2022) (TMDb: 633951)                 |
+[2022-10-11 08:28:11,179] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Devenir Marilyn (2022) (TMDb: 1030690)                               |
+[2022-10-11 08:28:11,204] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Brain Freeze (2021) (TMDb: 672437)                                   |
+[2022-10-11 08:28:11,262] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Spycies (2020) (TMDb: 550738)                                        |
+[2022-10-11 08:28:11,288] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Le souffle du dragon (2022) (TMDb: 1005597)                          |
+[2022-10-11 08:28:11,338] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Azor (2021) (TMDb: 659954)                                           |
+[2022-10-11 08:28:11,363] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | November (2022) (TMDb: 823951)                                       |
+[2022-10-11 08:28:11,388] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Flashback (2021) (TMDb: 809065)                                      |
+[2022-10-11 08:28:11,434] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | La Terre et le Sang (2020) (TMDb: 659067)                            |
+[2022-10-11 08:28:11,455] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Asterix & Obelix: The Middle Kingdom (2023) (TMDb: 643215)           |
+[2022-10-11 08:28:11,472] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Jack Mimoun et les secrets de Val Verde (2022) (TMDb: 893369)        |
+[2022-10-11 08:28:11,518] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Bigbug (2022) (TMDb: 665828)                                         |
+[2022-10-11 08:28:11,540] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Jackie Chan - Humour, gloire et kung-fu (2021) (TMDb: 860578)        |
+[2022-10-11 08:28:11,592] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Summer of 85 (2020) (TMDb: 659959)                                   |
+[2022-10-11 08:28:11,633] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Dangerous Liaisons (2022) (TMDb: 968739)                             |
+[2022-10-11 08:28:11,672] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Les éveillées (2022) (TMDb: 987487)                                  |
+[2022-10-11 08:28:11,682] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Balle perdue (2020) (TMDb: 706503)                                   |
+[2022-10-11 08:28:11,705] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Le Petit Nicolas - Qu’est-ce qu’on attend pour être heureux ? (2022) (TMDb: 893366) |
+[2022-10-11 08:28:12,144] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Le Calendrier (2021) (TMDb: 762079)                                  |
+[2022-10-11 08:28:12,164] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Kite Zo A : laisse les os (2022) (TMDb: 1029645)                     |
+[2022-10-11 08:28:12,188] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Champagne ! (2022) (TMDb: 928204)                                    |
+[2022-10-11 08:28:12,230] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | L'Événement (2021) (TMDb: 793998)                                    |
+[2022-10-11 08:28:12,255] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Blast (2022) (TMDb: 827887)                                          |
+[2022-10-11 08:28:12,280] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | L’Innocent (2022) (TMDb: 919573)                                     |
+[2022-10-11 08:28:12,306] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Simple Passion (2021) (TMDb: 526811)                                 |
+[2022-10-11 08:28:12,330] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Friendzone (2021) (TMDb: 869617)                                     |
+[2022-10-11 08:28:12,373] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Madame Claude (2021) (TMDb: 660006)                                  |
+[2022-10-11 08:28:12,397] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Brutus vs Cesar (2020) (TMDb: 613370)                                |
+[2022-10-11 08:28:12,439] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Mignonnes (2020) (TMDb: 582885)                                      |
+[2022-10-11 08:28:12,464] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Un bon début (2022) (TMDb: 957743)                                   |
+[2022-10-11 08:28:12,489] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Les Harkis (2022) (TMDb: 934752)                                     |
+[2022-10-11 08:28:12,509] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Temps morts (2022) (TMDb: 974930)                                    |
+[2022-10-11 08:28:12,526] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | #JeSuisLà (2020) (TMDb: 605734)                                      |
+[2022-10-11 08:28:12,568] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | 30 jours max (2020) (TMDb: 613377)                                   |
+[2022-10-11 08:28:12,584] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Aya (2022) (TMDb: 838723)                                            |
+[2022-10-11 08:28:12,635] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Josep (2020) (TMDb: 680952)                                          |
+[2022-10-11 08:28:12,659] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | One Night in Miami... (2020) (TMDb: 661914)                          |
+[2022-10-11 08:28:12,693] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Rocks (2019) (TMDb: 575773)                                          |
+[2022-10-11 08:28:12,764] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Wolfwalkers (2020) (TMDb: 441130)                                    |
+[2022-10-11 08:28:12,784] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | House of Hummingbird (2019) (TMDb: 547404)                           |
+[2022-10-11 08:28:12,828] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | First Cow (2020) (TMDb: 558582)                                      |
+[2022-10-11 08:28:12,871] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Wolf House (2018) (TMDb: 499537)                                 |
+[2022-10-11 08:28:12,926] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Ma Rainey's Black Bottom (2020) (TMDb: 615667)                       |
+[2022-10-11 08:28:12,968] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Swerve (2018) (TMDb: 606443)                                     |
+[2022-10-11 08:28:13,010] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Collective (2019) (TMDb: 618363)                                     |
+[2022-10-11 08:28:13,036] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Soul (2020) (TMDb: 508442)                                           |
+[2022-10-11 08:28:13,119] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Saint Maud (2020) (TMDb: 575776)                                     |
+[2022-10-11 08:28:13,152] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Clark Sisters: First Ladies of Gospel (2020) (TMDb: 690443)      |
+[2022-10-11 08:28:13,193] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Better Days (2019) (TMDb: 575813)                                    |
+[2022-10-11 08:28:13,210] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Vast of Night (2019) (TMDb: 565743)                              |
+[2022-10-11 08:28:13,252] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Premature (2020) (TMDb: 565379)                                      |
+[2022-10-11 08:28:13,269] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Bacurau (2019) (TMDb: 446159)                                        |
+[2022-10-11 08:28:13,310] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Painted Bird (2019) (TMDb: 477428)                               |
+[2022-10-11 08:28:13,327] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Painter and the Thief (2020) (TMDb: 654170)                      |
+[2022-10-11 08:28:13,343] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Vitalina Varela (2019) (TMDb: 468592)                                |
+[2022-10-11 08:28:13,360] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Only the Animals (2019) (TMDb: 574321)                               |
+[2022-10-11 08:28:13,377] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Time (2020) (TMDb: 653729)                                           |
+[2022-10-11 08:28:13,394] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Arkansas (2020) (TMDb: 560204)                                       |
+[2022-10-11 08:28:13,410] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Beasts Clawing at Straws (2020) (TMDb: 571648)                       |
+[2022-10-11 08:28:13,412] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Beanpole (2019) (TMDb: 517148)                                       |
+[2022-10-11 08:28:13,427] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Never Rarely Sometimes Always (2020) (TMDb: 595671)                  |
+[2022-10-11 08:28:13,444] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Lovers Rock (TMDb: 1016041)                                          |
+[2022-10-11 08:28:13,461] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Make Up (2020) (TMDb: 584583)                                        |
+[2022-10-11 08:28:13,477] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Marona's Fantastic Tale (2020) (TMDb: 568381)                        |
+[2022-10-11 08:28:13,497] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | A White, White Day (2019) (TMDb: 596870)                             |
+[2022-10-11 08:28:13,519] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | La Llorona (2019) (TMDb: 617708)                                     |
+[2022-10-11 08:28:13,536] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Proxima (2019) (TMDb: 478860)                                        |
+[2022-10-11 08:28:13,553] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | A Shaun the Sheep Movie: Farmageddon (2019) (TMDb: 422803)           |
+[2022-10-11 08:28:13,586] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Corpus Christi (2019) (TMDb: 471707)                                 |
+[2022-10-11 08:28:13,602] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Wild Goose Lake (2019) (TMDb: 575428)                            |
+[2022-10-11 08:28:13,619] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Forty-Year-Old Version (2020) (TMDb: 620897)                     |
+[2022-10-11 08:28:13,636] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Mole Agent (2020) (TMDb: 653756)                                 |
+[2022-10-11 08:28:13,653] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Pieces of a Woman (2020) (TMDb: 641662)                              |
+[2022-10-11 08:28:13,687] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Yes, God, Yes (2020) (TMDb: 527660)                                  |
+[2022-10-11 08:28:13,695] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Black Bear (2020) (TMDb: 624788)                                     |
+[2022-10-11 08:28:13,737] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Alice (2020) (TMDb: 576002)                                          |
+[2022-10-11 08:28:13,747] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Acute Misfortune (2018) (TMDb: 508109)                               |
+[2022-10-11 08:28:13,786] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Heroic Losers (2019) (TMDb: 596054)                                  |
+[2022-10-11 08:28:13,851] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Man Standing Next (2020) (TMDb: 566397)                          |
+[2022-10-11 08:28:13,869] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Dark and the Wicked (2020) (TMDb: 680593)                        |
+[2022-10-11 08:28:13,887] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Miss Juneteenth (2020) (TMDb: 653668)                                |
+[2022-10-11 08:28:13,920] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Climb (2019) (TMDb: 595931)                                      |
+[2022-10-11 08:28:13,950] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Thappad (2020) (TMDb: 668435)                                        |
+[2022-10-11 08:28:13,969] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Yummy (2019) (TMDb: 633604)                                          |
+[2022-10-11 08:28:13,996] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Crystal Swan (2018) (TMDb: 527248)                                   |
+[2022-10-11 08:28:14,085] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Deliver Us from Evil (2020) (TMDb: 581526)                           |
+[2022-10-11 08:28:14,102] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Deeper You Dig (2019) (TMDb: 611640)                             |
+[2022-10-11 08:28:14,118] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Ordinary Love (2019) (TMDb: 588787)                                  |
+[2022-10-11 08:28:14,135] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Swallow (2020) (TMDb: 586461)                                        |
+[2022-10-11 08:28:14,152] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Calm with Horses (2020) (TMDb: 574396)                               |
+[2022-10-11 08:28:14,168] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | पंगा (2020) (TMDb: 656007)                                           |
+[2022-10-11 08:28:14,211] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Midnight Family (2019) (TMDb: 566367)                                |
+[2022-10-11 08:28:14,247] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | I'm Your Woman (2020) (TMDb: 643612)                                 |
+[2022-10-11 08:28:14,277] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The King of Staten Island (2020) (TMDb: 579583)                      |
+[2022-10-11 08:28:14,322] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Banana Split (2018) (TMDb: 493058)                                   |
+[2022-10-11 08:28:14,382] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Driveways (2020) (TMDb: 568994)                                      |
+[2022-10-11 08:28:14,461] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Residue (2020) (TMDb: 666271)                                        |
+[2022-10-11 08:28:14,478] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Ghost Town Anthology (2019) (TMDb: 568790)                           |
+[2022-10-11 08:28:14,527] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Come As You Are (2020) (TMDb: 576568)                                |
+[2022-10-11 08:28:14,544] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Babyteeth (2020) (TMDb: 522098)                                      |
+[2022-10-11 08:28:14,564] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | A Good Woman Is Hard to Find (2019) (TMDb: 500656)                   |
+[2022-10-11 08:28:14,614] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Shirley (2020) (TMDb: 547017)                                        |
+[2022-10-11 08:28:14,631] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Relic (2020) (TMDb: 539181)                                          |
+[2022-10-11 08:28:14,644] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Color Out of Space (2019) (TMDb: 548473)                             |
+[2022-10-11 08:28:14,661] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Baseball Girl (2020) (TMDb: 636291)                                  |
+[2022-10-11 08:28:14,678] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Buffaloed (2020) (TMDb: 547012)                                      |
+[2022-10-11 08:28:14,694] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Wolf of Snow Hollow (2020) (TMDb: 652004)                        |
+[2022-10-11 08:28:14,711] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Archive (2020) (TMDb: 606234)                                        |
+[2022-10-11 08:28:14,728] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | #Alive (2020) (TMDb: 614696)                                         |
+[2022-10-11 08:28:14,745] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Rent-A-Pal (2020) (TMDb: 707408)                                     |
+[2022-10-11 08:28:14,761] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Yellow Rose (2020) (TMDb: 593427)                                    |
+[2022-10-11 08:28:14,778] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Mutant Blast (2019) (TMDb: 543593)                                   |
+[2022-10-11 08:28:14,812] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Hippopotamus (2017) (TMDb: 516027)                                   |
+[2022-10-11 08:28:14,822] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Whistlers (2019) (TMDb: 504582)                                  |
+[2022-10-11 08:28:14,853] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Extra Ordinary (2019) (TMDb: 538227)                                 |
+[2022-10-11 08:28:14,864] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Goldie (2020) (TMDb: 574489)                                         |
+[2022-10-11 08:28:14,895] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Why Don't You Just Die! (2018) (TMDb: 514684)                        |
+[2022-10-11 08:28:14,906] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Crip Camp: A Disability Revolution (2020) (TMDb: 653725)             |
+[2022-10-11 08:28:14,936] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Divine Love (2019) (TMDb: 504592)                                    |
+[2022-10-11 08:28:14,953] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Host (2020) (TMDb: 723072)                                           |
+[2022-10-11 08:28:14,970] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Hunter Hunter (2020) (TMDb: 759902)                                  |
+[2022-10-11 08:28:14,987] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Get Duked! (2019) (TMDb: 580629)                                     |
+[2022-10-11 08:28:15,003] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Sputnik (2020) (TMDb: 594718)                                        |
+[2022-10-11 08:28:15,020] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Promising Young Woman (2020) (TMDb: 582014)                          |
+[2022-10-11 08:28:15,037] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Nest (2020) (TMDb: 545237)                                       |
+[2022-10-11 08:28:15,047] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Chhapaak (2020) (TMDb: 590404)                                       |
+[2022-10-11 08:28:15,082] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Cut Throat City (2020) (TMDb: 493065)                                |
+[2022-10-11 08:28:15,113] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Trip to Greece (2020) (TMDb: 611179)                             |
+[2022-10-11 08:28:15,130] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Anything for Jackson (2020) (TMDb: 734353)                           |
+[2022-10-11 08:28:15,172] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Princess of the Row (2020) (TMDb: 583757)                            |
+[2022-10-11 08:28:15,188] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Onward (2020) (TMDb: 508439)                                         |
+[2022-10-11 08:28:15,230] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Ema (2019) (TMDb: 540709)                                            |
+[2022-10-11 08:28:15,256] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Other Lamb (2020) (TMDb: 617786)                                 |
+[2022-10-11 08:28:15,289] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Jawaani Jaaneman (2020) (TMDb: 607297)                               |
+[2022-10-11 08:28:15,314] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Bill & Ted Face the Music (2020) (TMDb: 501979)                      |
+[2022-10-11 08:28:15,355] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Mope (2019) (TMDb: 565377)                                           |
+[2022-10-11 08:28:15,381] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Selah and the Spades (2019) (TMDb: 543727)                           |
+[2022-10-11 08:28:15,422] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Angrezi Medium (2020) (TMDb: 606717)                                 |
+[2022-10-11 08:28:15,489] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Koko-di Koko-da (2019) (TMDb: 565373)                                |
+[2022-10-11 08:28:15,514] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Take Me Somewhere Nice (2019) (TMDb: 572979)                         |
+[2022-10-11 08:28:15,572] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Torn: Dark Bullets (2020) (TMDb: 696610)                             |
+[2022-10-11 08:28:15,606] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Torpedo: U-235 (2019) (TMDb: 554022)                                 |
+[2022-10-11 08:28:15,664] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Blow the Man Down (2019) (TMDb: 586451)                              |
+[2022-10-11 08:28:15,681] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Lodge (2020) (TMDb: 474764)                                      |
+[2022-10-11 08:28:15,739] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Saint Frances (2020) (TMDb: 576005)                                  |
+[2022-10-11 08:28:15,756] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Impetigore (2019) (TMDb: 572468)                                     |
+[2022-10-11 08:28:15,806] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Way Back (2020) (TMDb: 529485)                                   |
+[2022-10-11 08:28:15,839] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Bloody Nose, Empty Pockets (2020) (TMDb: 605437)                     |
+[2022-10-11 08:28:15,889] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Freaky (2020) (TMDb: 551804)                                         |
+[2022-10-11 08:28:15,906] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Misbehaviour (2020) (TMDb: 567965)                                   |
+[2022-10-11 08:28:15,956] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | How to Build a Girl (2020) (TMDb: 572299)                            |
+[2022-10-11 08:28:15,989] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Bad Hair (2021) (TMDb: 530351)                                       |
+[2022-10-11 08:28:16,031] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Horse Girl (2020) (TMDb: 653601)                                     |
+[2022-10-11 08:28:16,073] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | To the Stars (2019) (TMDb: 513111)                                   |
+[2022-10-11 08:28:16,114] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | 1BR (2019) (TMDb: 611605)                                            |
+[2022-10-11 08:28:16,140] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Liberte (2019) (TMDb: 595924)                                        |
+[2022-10-11 08:28:16,190] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Looks That Kill (2021) (TMDb: 610290)                                |
+[2022-10-11 08:28:16,223] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Outpost (2020) (TMDb: 531876)                                    |
+[2022-10-11 08:28:16,282] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Woman Who Ran (2020) (TMDb: 662401)                              |
+[2022-10-11 08:28:16,332] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Amulet (2020) (TMDb: 653615)                                         |
+[2022-10-11 08:28:16,348] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Dark Red (2018) (TMDb: 557526)                                   |
+[2022-10-11 08:28:16,398] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Wretched (2020) (TMDb: 605804)                                   |
+[2022-10-11 08:28:16,431] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | I Will Make You Mine (2020) (TMDb: 664597)                           |
+[2022-10-11 08:28:16,472] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Photograph (2020) (TMDb: 589049)                                 |
+[2022-10-11 08:28:16,498] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Last Full Measure (2020) (TMDb: 442065)                          |
+[2022-10-11 08:28:16,540] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Sea Fever (2020) (TMDb: 507441)                                      |
+[2022-10-11 08:28:16,573] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | After Midnight (2019) (TMDb: 586595)                                 |
+[2022-10-11 08:28:16,606] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | 12 Hour Shift (2020) (TMDb: 667141)                                  |
+[2022-10-11 08:28:16,648] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | She Dies Tomorrow (2020) (TMDb: 664297)                              |
+[2022-10-11 08:28:16,672] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Vampires vs. the Bronx (2020) (TMDb: 567971)                         |
+[2022-10-11 08:28:16,701] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Odd Family : Zombie on sale (2019) (TMDb: 572151)                |
+[2022-10-11 08:28:16,724] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | VFW (2019) (TMDb: 624779)                                            |
+[2022-10-11 08:28:16,749] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | All Day and a Night (2020) (TMDb: 530956)                            |
+[2022-10-11 08:28:16,774] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Blood on Her Name (2020) (TMDb: 611634)                              |
+[2022-10-11 08:28:16,799] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Jezebel (2020) (TMDb: 576704)                                        |
+[2022-10-11 08:28:16,824] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | It Snows in Benidorm (2020) (TMDb: 645693)                           |
+[2022-10-11 08:28:16,849] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Snatchers (2019) (TMDb: 580632)                                      |
+[2022-10-11 08:28:16,874] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Spree (2020) (TMDb: 653598)                                          |
+[2022-10-11 08:28:16,899] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Tammy's Always Dying (2019) (TMDb: 619638)                           |
+[2022-10-11 08:28:16,924] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Spiral (2019) (TMDb: 614199)                                         |
+[2022-10-11 08:28:16,926] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | System Crasher (2019) (TMDb: 567410)                                 |
+[2022-10-11 08:28:16,949] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Bird Talk (2019) (TMDb: 618221)                                      |
+[2022-10-11 08:28:16,974] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Last and First Men (2020) (TMDb: 566038)                             |
+[2022-10-11 08:28:16,999] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | M.O.M. Mothers of Monsters (2020) (TMDb: 675253)                     |
+[2022-10-11 08:28:17,025] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Beach House (2020) (TMDb: 632304)                                |
+[2022-10-11 08:28:17,045] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Nofinofy (2019) (TMDb: 633354)                                       |
+[2022-10-11 08:28:17,078] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Malang (2020) (TMDb: 661043)                                         |
+[2022-10-11 08:28:17,104] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Emperor (2020) (TMDb: 666219)                                        |
+[2022-10-11 08:28:17,129] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | We Summon the Darkness (2020) (TMDb: 546724)                         |
+[2022-10-11 08:28:17,154] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Becky (2020) (TMDb: 601844)                                          |
+[2022-10-11 08:28:17,178] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Uncorked (2020) (TMDb: 660609)                                       |
+[2022-10-11 08:28:17,204] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Spell (2020) (TMDb: 621151)                                          |
+[2022-10-11 08:28:17,229] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Weathering with You (2019) (TMDb: 568160)                            |
+[2022-10-11 08:28:17,253] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Tesla (2020) (TMDb: 517412)                                          |
+[2022-10-11 08:28:17,279] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Underwater (2020) (TMDb: 443791)                                     |
+[2022-10-11 08:28:17,280] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Greenland (2020) (TMDb: 524047)                                      |
+[2022-10-11 08:28:17,304] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Phenomenon (2020) (TMDb: 745272)                                 |
+[2022-10-11 08:28:17,328] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Trump Card (2020) (TMDb: 692250)                                     |
+[2022-10-11 08:28:17,354] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Deep Blue Sea 3 (2020) (TMDb: 703745)                                |
+[2022-10-11 08:28:17,378] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Dark Encounter (2019) (TMDb: 612515)                                 |
+[2022-10-11 08:28:17,404] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Dragon Quest: Your Story (2019) (TMDb: 592867)                       |
+[2022-10-11 08:28:17,428] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Primal: Tales of Savagery (2019) (TMDb: 704264)                      |
+[2022-10-11 08:28:17,454] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Valley of the Gods (2020) (TMDb: 331044)                             |
+[2022-10-11 08:28:17,487] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Decline (2020) (TMDb: 674607)                                    |
+[2022-10-11 08:28:17,512] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Fatman (2020) (TMDb: 602211)                                         |
+[2022-10-11 08:28:17,537] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Gretel & Hansel (2020) (TMDb: 542224)                                |
+[2022-10-11 08:28:17,562] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | No Chance (2020) (TMDb: 493550)                                      |
+[2022-10-11 08:28:17,612] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Ne Zha (2019) (TMDb: 615453)                                         |
+[2022-10-11 08:28:17,628] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | What Keeps You Alive (2018) (TMDb: 503752)                           |
+[2022-10-11 08:28:17,643] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Altered Carbon: Resleeved (2020) (TMDb: 665251)                      |
+[2022-10-11 08:28:17,670] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | The Wave (2019) (TMDb: 619263)                                       |
+[2022-10-11 08:28:17,695] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Black Water: Abyss (2020) (TMDb: 522444)                             |
+[2022-10-11 08:28:17,720] [builder.py:2243]           [INFO]     | Top of 2020s Collection | ? | Pokémon : Mewtwo contre-attaque - Évolution (2019) (TMDb: 571891)    |
+[2022-10-11 08:28:17,721] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-10-11 08:28:17,721] [builder.py:2249]           [INFO]     | 252 Movies Missing                                                                                 |
+[2022-10-11 08:28:18,278] [plex.py:711]               [DEBUG]    | Smart Collection Test: ?type=1&sort=audienceRating%3Adesc&label=213196                             |
+[2022-10-11 08:28:18,518] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-11 08:28:18,518] [builder.py:2442]           [INFO]     |=========================== Updating Details of Top of 2020s Collection ============================|
+[2022-10-11 08:28:18,519] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-11 08:28:18,683] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Le meilleurs des années 2020
+                                                                 | Sort Title | +2_1DECADE of 2020
+                                                                 | Label | +PMM
+[2022-10-11 08:28:18,859] [builder.py:2513]           [INFO]     | Details: have been updated
+[2022-10-11 08:28:18,859] [builder.py:2517]           [INFO]     | 
+[2022-10-11 08:28:18,860] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Top of 2020s'
+[2022-10-11 08:28:19,090] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-11 08:28:19,090] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 08:28:19,091] [plex_meta_manager.py:709]  [INFO]     |                                  Finished Top of 2020s Collection                                  |
+[2022-10-11 08:28:19,091] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:37                                    |
+[2022-10-11 08:28:19,091] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

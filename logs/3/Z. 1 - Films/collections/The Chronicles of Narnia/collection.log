@@ -1,0 +1,64 @@
+[2022-10-08 13:04:59,520] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-08 13:04:59,520] [builder.py:197]            [INFO]     |                        The Chronicles of Narnia Collection in Z. 1 - Films                         |
+[2022-10-08 13:04:59,521] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-08 13:04:59,521] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-08 13:04:59,521] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-08 13:04:59,521] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-08 13:04:59,521] [meta.py:128]               [DEBUG]    | Template TMDb Collections                                                                          |
+[2022-10-08 13:04:59,521] [meta.py:129]               [DEBUG]    | Call: {'value': ['420'], 'tmdb_collection': ['420'], 'key_name': 'The Chronicles of Narnia', 'key': '420', 'name': 'TMDb Collections'} |
+[2022-10-08 13:04:59,522] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-08 13:04:59,522] [meta.py:305]               [DEBUG]    | Variables: {'value': ['420'], 'tmdb_collection': ['420'], 'key_name': 'The Chronicles of Narnia', 'key': '420', 'name': 'TMDb Collections', 'collection_name': 'The Chronicles of Narnia', 'mapping_name': 'The Chronicles of Narnia', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%27420%27%5D', 'tmdb_collection_encoded': '%5B%27420%27%5D', 'key_name_encoded': 'The%20Chronicles%20of%20Narnia', 'key_encoded': '420', 'name_encoded': 'TMDb%20Collections', 'collection_name_encoded': 'The%20Chronicles%20of%20Narnia', 'mapping_name_encoded': 'The%20Chronicles%20of%20Narnia', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'The Chronicles of Narnia'} |
+[2022-10-08 13:04:59,522] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-08 13:04:59,522] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-08 13:04:59,522] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-08 13:04:59,522] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-08 13:04:59,523] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-08 13:04:59,523] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['420'], 'minimum_items': 2}                |
+[2022-10-08 13:04:59,523] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-08 13:04:59,524] [builder.py:219]            [INFO]     |========================== Validating The Chronicles of Narnia Attributes ==========================|
+[2022-10-08 13:04:59,524] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-08 13:04:59,524] [builder.py:631]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-08 13:04:59,524] [builder.py:632]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-08 13:04:59,524] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-08 13:04:59,524] [builder.py:631]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-08 13:04:59,525] [builder.py:632]            [DEBUG]    | Value: ['420']                                                                                     |
+[2022-10-08 13:04:59,542] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-08 13:04:59,543] [builder.py:631]            [DEBUG]    | Validating Method: minimum_items                                                                   |
+[2022-10-08 13:04:59,543] [builder.py:632]            [DEBUG]    | Value: 2                                                                                           |
+[2022-10-08 13:04:59,773] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-08 13:04:59,774] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-08 13:04:59,774] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-08 13:04:59,774] [plex_meta_manager.py:563]  [INFO]     |=========================== Running The Chronicles of Narnia Collection ============================|
+[2022-10-08 13:04:59,774] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-08 13:04:59,775] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-08 13:04:59,775] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-08 13:04:59,775] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 420                                                                      |
+[2022-10-08 13:04:59,775] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-08 13:04:59,788] [tmdb.py:382]               [INFO]     | Processing TMDb Collection: (420) The Chronicles of Narnia Collection (3 Items)                    |
+[2022-10-08 13:04:59,788] [builder.py:1540]           [DEBUG]    |                                                                                                    |
+[2022-10-08 13:04:59,788] [builder.py:1541]           [DEBUG]    | 3 IDs Found: [(411, 'tmdb'), (2454, 'tmdb'), (10140, 'tmdb')]                                      |
+[2022-10-08 13:04:59,788] [builder.py:1542]           [DEBUG]    |                                                                                                    |
+[2022-10-08 13:04:59,789] [builder.py:2064]           [INFO]     |                                                                                                    |
+[2022-10-08 13:04:59,789] [builder.py:2065]           [INFO]     |========================== Adding to The Chronicles of Narnia Collection ===========================|
+[2022-10-08 13:04:59,789] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-08 13:04:59,789] [builder.py:2080]           [INFO]     | 1/3 | The Chronicles of Narnia Collection | = | Le Monde de Narnia : Le Lion, la sorcière blanche et l'armoire magique (2005) |
+[2022-10-08 13:04:59,790] [builder.py:2080]           [INFO]     | 2/3 | The Chronicles of Narnia Collection | = | Le Monde de Narnia : Le Prince caspian (2008)      |
+[2022-10-08 13:04:59,790] [builder.py:2080]           [INFO]     | 3/3 | The Chronicles of Narnia Collection | = | Le Monde de Narnia : L'Odyssée du passeur d'aurore (2010) |
+[2022-10-08 13:04:59,790] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-08 13:04:59,790] [builder.py:2102]           [INFO]     | 3 Movies Processed 0 Movies Added                                                                  |
+[2022-10-08 13:04:59,799] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-08 13:04:59,799] [builder.py:2442]           [INFO]     |===================== Updating Details of The Chronicles of Narnia Collection ======================|
+[2022-10-08 13:04:59,800] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-08 13:04:59,812] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-10-08 13:04:59,812] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'The Chronicles of Narnia'                             |
+[2022-10-08 13:04:59,812] [util.py:150]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-10-08 13:04:59,812] [util.py:152]               [DEBUG]    | Method: tmdb_collection_details Poster: https://image.tmdb.org/t/p/original/sh6Kn8VBfXotJ6qsvJkdfscxXKR.jpg |
+[2022-10-08 13:04:59,813] [util.py:150]               [DEBUG]    | 1 background found:                                                                                |
+[2022-10-08 13:04:59,813] [util.py:152]               [DEBUG]    | Method: tmdb_collection_details Background: https://image.tmdb.org/t/p/original/ojjzZUQlqKTsN1T7s5OAVZSjYMH.jpg |
+[2022-10-08 13:04:59,814] [library.py:172]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-10-08 13:04:59,815] [library.py:188]            [INFO]     | Detail: background update not needed                                                               |
+[2022-10-08 13:05:00,064] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-08 13:05:00,064] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-08 13:05:00,065] [plex_meta_manager.py:709]  [INFO]     |                            Finished The Chronicles of Narnia Collection                            |
+[2022-10-08 13:05:00,065] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-08 13:05:00,065] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

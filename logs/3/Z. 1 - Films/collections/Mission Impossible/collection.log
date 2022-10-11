@@ -1,0 +1,82 @@
+[2022-10-11 11:19:16,721] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:19:16,721] [builder.py:200]            [INFO]     |                           Mission: Impossible Collection in Z. 1 - Films                           |
+[2022-10-11 11:19:16,721] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:19:16,721] [builder.py:201]            [INFO]     |                                                                                                    |
+[2022-10-11 11:19:16,721] [builder.py:203]            [INFO]     | Log Folder Name: Mission: Impossible is invalid using Mission Impossible                           |
+[2022-10-11 11:19:16,721] [builder.py:204]            [INFO]     |                                                                                                    |
+[2022-10-11 11:19:16,722] [builder.py:206]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:19:16,722] [builder.py:222]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:16,722] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:19:16,722] [meta.py:129]               [DEBUG]    | Call: {'value': ['87359'], 'tmdb_collection': ['87359'], 'key_name': 'Mission: Impossible', 'key': '87359', 'name': 'my_template'} |
+[2022-10-11 11:19:16,722] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:16,722] [meta.py:305]               [DEBUG]    | Variables: {'value': ['87359'], 'tmdb_collection': ['87359'], 'key_name': 'Mission: Impossible', 'key': '87359', 'name': 'my_template', 'collection_name': 'Mission: Impossible', 'mapping_name': 'Mission: Impossible', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%2787359%27%5D', 'tmdb_collection_encoded': '%5B%2787359%27%5D', 'key_name_encoded': 'Mission%3A%20Impossible', 'key_encoded': '87359', 'name_encoded': 'my_template', 'collection_name_encoded': 'Mission%3A%20Impossible', 'mapping_name_encoded': 'Mission%3A%20Impossible', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Mission: Impossible'} |
+[2022-10-11 11:19:16,723] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:16,723] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:19:16,723] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:16,723] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:19:16,724] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:16,724] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['87359'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_Mission: Impossible'} |
+[2022-10-11 11:19:16,724] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:16,724] [builder.py:230]            [INFO]     |============================ Validating Mission: Impossible Attributes =============================|
+[2022-10-11 11:19:16,725] [builder.py:620]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:16,725] [builder.py:621]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:19:16,725] [builder.py:622]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:19:16,725] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:16,725] [builder.py:657]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:19:16,725] [builder.py:658]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:19:16,725] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:16,726] [builder.py:657]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:19:16,726] [builder.py:658]            [DEBUG]    | Value: ['87359']                                                                                   |
+[2022-10-11 11:19:16,744] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:16,744] [builder.py:657]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:19:16,744] [builder.py:658]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:19:16,744] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:16,745] [builder.py:657]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:19:16,745] [builder.py:658]            [DEBUG]    | Value: +C1_Mission: Impossible                                                                     |
+[2022-10-11 11:19:16,960] [builder.py:823]            [INFO]     |                                                                                                    |
+[2022-10-11 11:19:16,961] [builder.py:824]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:19:16,961] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:16,961] [plex_meta_manager.py:563]  [INFO]     |============================== Running Mission: Impossible Collection ==============================|
+[2022-10-11 11:19:16,961] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:16,961] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:19:16,961] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:16,962] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 87359                                                                    |
+[2022-10-11 11:19:16,962] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:16,969] [tmdb.py:381]               [INFO]     | Processing TMDb Collection: (87359) Mission : Impossible - Saga (8 Items)                          |
+[2022-10-11 11:19:16,970] [builder.py:1581]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:16,970] [builder.py:1582]           [DEBUG]    | 8 IDs Found: [(954, 'tmdb'), (955, 'tmdb'), (956, 'tmdb'), (56292, 'tmdb'), (177677, 'tmdb'), (353081, 'tmdb'), (575264, 'tmdb'), (575265, 'tmdb')] |
+[2022-10-11 11:19:16,970] [builder.py:1583]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:16,971] [builder.py:2132]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:16,971] [builder.py:2133]           [INFO]     |============================= Adding to Mission: Impossible Collection =============================|
+[2022-10-11 11:19:16,971] [builder.py:2134]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:16,971] [builder.py:2148]           [INFO]     | 1/6 | Mission: Impossible Collection | = | Mission : Impossible I (1996)                           |
+[2022-10-11 11:19:16,972] [builder.py:2148]           [INFO]     | 2/6 | Mission: Impossible Collection | = | Mission : Impossible II (2000)                          |
+[2022-10-11 11:19:16,972] [builder.py:2148]           [INFO]     | 3/6 | Mission: Impossible Collection | = | Mission : Impossible III (2006)                         |
+[2022-10-11 11:19:16,972] [builder.py:2148]           [INFO]     | 4/6 | Mission: Impossible Collection | = | Mission : Impossible IV - Protocole Fantôme (2011)      |
+[2022-10-11 11:19:16,972] [builder.py:2148]           [INFO]     | 5/6 | Mission: Impossible Collection | = | Mission : Impossible V - Rogue Nation (2015)            |
+[2022-10-11 11:19:16,972] [builder.py:2148]           [INFO]     | 6/6 | Mission: Impossible Collection | = | Mission : Impossible VI - Fallout (2018)                |
+[2022-10-11 11:19:16,973] [builder.py:2168]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:16,973] [builder.py:2170]           [INFO]     | 6 Movies Processed 0 Movies Added                                                                  |
+[2022-10-11 11:19:16,973] [builder.py:2300]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:16,973] [builder.py:2301]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-10-11 11:19:16,973] [builder.py:2302]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:16,992] [builder.py:2315]           [INFO]     | Mission: Impossible Collection | ? | Mission: Impossible - Dead Reckoning Part One (2023) (TMDb: 575264) |
+[2022-10-11 11:19:17,010] [builder.py:2315]           [INFO]     | Mission: Impossible Collection | ? | Mission: Impossible - Dead Reckoning Part Two (2024) (TMDb: 575265) |
+[2022-10-11 11:19:17,010] [builder.py:2320]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:17,010] [builder.py:2321]           [INFO]     | 2 Movies Missing                                                                                   |
+[2022-10-11 11:19:17,069] [builder.py:2521]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:17,070] [builder.py:2522]           [INFO]     |======================== Updating Details of Mission: Impossible Collection ========================|
+[2022-10-11 11:19:17,070] [builder.py:2523]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:17,078] [builder.py:2589]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-10-11 11:19:17,079] [builder.py:2660]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Mission Impossible'                                   |
+[2022-10-11 11:19:17,079] [util.py:171]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-10-11 11:19:17,079] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Poster: https://image.tmdb.org/t/p/original/5nUgyjBem5QctwzQoDyJ3kuE7xh.jpg |
+[2022-10-11 11:19:17,080] [util.py:171]               [DEBUG]    | 1 background found:                                                                                |
+[2022-10-11 11:19:17,080] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Background: https://image.tmdb.org/t/p/original/jYl0UuJFcmhymv9ZNO14lPLDY1Z.jpg |
+[2022-10-11 11:19:17,081] [library.py:173]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-10-11 11:19:17,082] [library.py:189]            [INFO]     | Detail: background update not needed                                                               |
+[2022-10-11 11:19:17,296] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:17,296] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:19:17,296] [plex_meta_manager.py:709]  [INFO]     |                              Finished Mission: Impossible Collection                               |
+[2022-10-11 11:19:17,296] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 11:19:17,296] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

@@ -1,0 +1,460 @@
+[2022-09-29 07:52:30,634] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-09-29 07:52:30,634] [builder.py:197]            [INFO]     |                                 LGBTQ+ Collection in Z. 1 - Films                                  |
+[2022-09-29 07:52:30,634] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-09-29 07:52:30,634] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-09-29 07:52:30,634] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-09-29 07:52:30,635] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-09-29 07:52:30,635] [meta.py:128]               [DEBUG]    | Template Other Genre                                                                               |
+[2022-09-29 07:52:30,635] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Other Genre')])                                                       |
+[2022-09-29 07:52:30,635] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-09-29 07:52:30,635] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Other Genre'), ('collection_name', 'LGBTQ+'), ('mapping_name', 'LGBTQ+'), ('library_type', 'movie'), ('library_name', 'Z. 1 - Films'), ('name_encoded', 'Other%20Genre'), ('collection_name_encoded', 'LGBTQ%2B'), ('mapping_name_encoded', 'LGBTQ%2B'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%201%20-%20Films'), ('collection_sort', 'LGBTQ+')]) |
+[2022-09-29 07:52:30,635] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-09-29 07:52:30,636] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-09-29 07:52:30,636] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-09-29 07:52:30,636] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-09-29 07:52:30,636] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-09-29 07:52:30,637] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+3_LGBTQ+', 'sync_mode': 'sync', 'smart_label': 'random'} |
+[2022-09-29 07:52:30,637] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-09-29 07:52:30,637] [builder.py:219]            [INFO]     |=================================== Validating LGBTQ+ Attributes ===================================|
+[2022-09-29 07:52:30,637] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-09-29 07:52:30,637] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-09-29 07:52:30,637] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-09-29 07:52:30,637] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-09-29 07:52:30,638] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-09-29 07:52:30,638] [builder.py:544]            [DEBUG]    | Value: random                                                                                      |
+[2022-09-29 07:52:30,642] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 07:52:30,642] [builder.py:631]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-09-29 07:52:30,642] [builder.py:632]            [DEBUG]    | Value: https://www.imdb.com/list/ls062688328/                                                      |
+[2022-09-29 07:52:34,887] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 07:52:34,888] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-09-29 07:52:34,888] [builder.py:632]            [DEBUG]    | Value: LGBTQ+ film is a genre of films where the characters decpict lesbian, gay, bisexual, transgender, queer and intersex people. |
+[2022-09-29 07:52:34,889] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 07:52:34,889] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-09-29 07:52:34,889] [builder.py:632]            [DEBUG]    | Value: +3_LGBTQ+                                                                                   |
+[2022-09-29 07:52:34,896] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-09-29 07:52:34,896] [plex.py:793]               [DEBUG]    | Looking for: LGBTQ+                                                                                |
+[2022-09-29 07:52:34,896] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-09-29 07:52:34,897] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-09-29 07:52:34,897] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-09-29 07:52:34,897] [plex_meta_manager.py:563]  [INFO]     |==================================== Running LGBTQ+ Collection =====================================|
+[2022-09-29 07:52:34,897] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-09-29 07:52:34,897] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-09-29 07:52:34,897] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-09-29 07:52:34,897] [plex_meta_manager.py:580]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls062688328/', 'limit': 0}                  |
+[2022-09-29 07:52:34,897] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-09-29 07:52:34,897] [imdb.py:184]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls062688328/                                       |
+[2022-09-29 07:53:05,485] [imdb.py:135]               [DEBUG]    | 407 IMDb IDs Found: ['tt1838520', 'tt3294200', 'tt0993842', 'tt3398268', 'tt2402927', 'tt2929690', 'tt1315981', 'tt4270516', 'tt1731141', 'tt2115295', 'tt1974419', 'tt1847731', 'tt0113670', 'tt0842926', 'tt3671542', 'tt0073629', 'tt4262174', 'tt0869977', 'tt0245238', 'tt3697270', 'tt0150662', 'tt6405218', 'tt1774591', 'tt5207320', 'tt1183665', 'tt3824458', 'tt3007302', 'tt0072890', 'tt1650048', 'tt0185125', 'tt5883632', 'tt1104083', 'tt4975722', 'tt0084489', 'tt0089015', 'tt0996605', 'tt0104448', 'tt0417189', 'tt1714210', 'tt1532503', 'tt1440741', 'tt0115640', 'tt0942384', 'tt0091578', 'tt2994832', 'tt6259890', 'tt3638396', 'tt4676840', 'tt0264761', 'tt3467900', 'tt3498364', 'tt5584782', 'tt5644824', 'tt6333070', 'tt6099416', 'tt5631456', 'tt6041174', 'tt5061564', 'tt5635086', 'tt5834036', 'tt6129730', 'tt4590092', 'tt6303866', 'tt6108178', 'tt2798920', 'tt4746516', 'tt5503490', 'tt4406114', 'tt3778616', 'tt4946696', 'tt2560102', 'tt2217458', 'tt0097594', 'tt1684628', 'tt1235842', 'tt4462372', 'tt2318625', 'tt0423651', 'tt0349070', 'tt1846449', 'tt1116182', 'tt0830570', 'tt3848072', 'tt6053440', 'tt4097826', 'tt4305148', 'tt4123506', 'tt2402623', 'tt2260850', 'tt3289362', 'tt5452964', 'tt5153712', 'tt5194364', 'tt4700860', 'tt5777098', 'tt5354406', 'tt2905422', 'tt4425152', 'tt3920890', 'tt5436082', 'tt3403928', 'tt4027504', 'tt4515538', 'tt4884602', 'tt4503828', 'tt4346090', 'tt3993760', 'tt5238886', 'tt5696020', 'tt5459188', 'tt4729990', 'tt5529712', 'tt5477402', 'tt5126584', 'tt6350356', 'tt4009830', 'tt3576780', 'tt4341528', 'tt5479546', 'tt4930882', 'tt4530876', 'tt5075798', 'tt4064498', 'tt5529254', 'tt5910324', 'tt3532686', 'tt3427066', 'tt3621802', 'tt2401181', 'tt1702429', 'tt3212408', 'tt4097612', 'tt3369248', 'tt4085044', 'tt3703836', 'tt3121332', 'tt3184934', 'tt2935662', 'tt1533089', 'tt3899516', 'tt4353990', 'tt4490654', 'tt4065250', 'tt4483552', 'tt3173534', 'tt4177250', 'tt4549266', 'tt3669098', 'tt0907843', 'tt4125760', 'tt4145318', 'tt5209658', 'tt4276000', 'tt3173506', 'tt3624740', 'tt3581370', 'tt3588216', 'tt3780526', 'tt5119448', 'tt4392140', 'tt4214874', 'tt3986496', 'tt4396602', 'tt4270482', 'tt3630326', 'tt4253482', 'tt3797290', 'tt3954584', 'tt3755230', 'tt4473574', 'tt2245173', 'tt4433560', 'tt2634384', 'tt4538072', 'tt3606848', 'tt0084565', 'tt2176350', 'tt3950002', 'tt0995829', 'tt0067690', 'tt0075753', 'tt0783530', 'tt0148103', 'tt3817962', 'tt3661798', 'tt2321549', 'tt1625150', 'tt0093512', 'tt1702014', 'tt2617828', 'tt1687221', 'tt0420206', 'tt4427060', 'tt2691102', 'tt1166805', 'tt1221188', 'tt0085838', 'tt1242642', 'tt2196053', 'tt5226984', 'tt6039372', 'tt3710966', 'tt5954892', 'tt5842218', 'tt6969946', 'tt4016934', 'tt1048174', 'tt2250564', 'tt3832354', 'tt4846220', 'tt0227277', 'tt1714627', 'tt2385764', 'tt6658898', 'tt3278224', 'tt4838248', 'tt4197642', 'tt4109632', 'tt5265960', 'tt5831402', 'tt5958170', 'tt6392492', 'tt6992850', 'tt5529666', 'tt6423202', 'tt7176320', 'tt4613254', 'tt1555126', 'tt0118036', 'tt2066980', 'tt2423914', 'tt4057798', 'tt3775450', 'tt2442908', 'tt7078710', 'tt6304046', 'tt5913968', 'tt7008872', 'tt8286894', 'tt5447962', 'tt4042818', 'tt7925066', 'tt7158430', 'tt5713994', 'tt5480782', 'tt6169920', 'tt5923026', 'tt7073710', 'tt5981304', 'tt6265970', 'tt5215656', 'tt6182402', 'tt5580240', 'tt0425985', 'tt3074328', 'tt8613070', 'tt7681824', 'tt5770414', 'tt5761504', 'tt5070130', 'tt8990978', 'tt5643380', 'tt5022872', 'tt6744860', 'tt1906518', 'tt1727824', 'tt6257174', 'tt0247196', 'tt8050586', 'tt5639354', 'tt5278598', 'tt0080662', 'tt8108164', 'tt5935704', 'tt6917290', 'tt5322168', 'tt5176580', 'tt5215650', 'tt8493776', 'tt5437928', 'tt6207634', 'tt0166178', 'tt6441072', 'tt7997016', 'tt7875464', 'tt7241926', 'tt7690022', 'tt7485508', 'tt1577040', 'tt0384504', 'tt4158624', 'tt6400166', 'tt6704898', 'tt9011376', 'tt7087260', 'tt0274558', 'tt9134194', 'tt6958014', 'tt6577814', 'tt6884200', 'tt5164432', 'tt0118586', 'tt10309906', 'tt10221140', 'tt5517708', 'tt9683478', 'tt4651466', 'tt0116834', 'tt0107693', 'tt0359045', 'tt7886936', 'tt6909050', 'tt6652228', 'tt7901640', 'tt6255500', 'tt7736144', 'tt6841122', 'tt6386132', 'tt10814438', 'tt8769940', 'tt10269016', 'tt7713450', 'tt10562574', 'tt10922526', 'tt9865260', 'tt0042803', 'tt10457128', 'tt8443704', 'tt5786632', 'tt0108366', 'tt0782867', 'tt7901366', 'tt7808072', 'tt10166602', 'tt0461694', 'tt10699362', 'tt5985952', 'tt3318220', 'tt4756312', 'tt10394844', 'tt12718670', 'tt0629670', 'tt8090564', 'tt11388990', 'tt0064068', 'tt11745888', 'tt7725422', 'tt11788984', 'tt7212878', 'tt11695326', 'tt0421994', 'tt0054743', 'tt10768194', 'tt3394960', 'tt5005862', 'tt0452568', 'tt3127020', 'tt2312036', 'tt0382189', 'tt8362736', 'tt1385817', 'tt3741316', 'tt5851928', 'tt9848536', 'tt4370596', 'tt7820906', 'tt1510686', 'tt0435706', 'tt0923779', 'tt0492481', 'tt0366527', 'tt5978724', 'tt5978724', 'tt1268962', 'tt1176686', 'tt0306432', 'tt0256459', 'tt6426028', 'tt1161444', 'tt0891457', 'tt0179116', 'tt0496328', 'tt0415234', 'tt2589640', 'tt4556738', 'tt0116931', 'tt0063683', 'tt3326106', 'tt0428672', 'tt0206036', 'tt2570858', 'tt6316466', 'tt2125698', 'tt0470913', 'tt0284229', 'tt0333764', 'tt4513316', 'tt3973012', 'tt4622512', 'tt1859522', 'tt4595882', 'tt8425034', 'tt4080768', 'tt3333968', 'tt0057129', 'tt0045826', 'tt1762248'] |
+[2022-09-29 07:53:05,486] [builder.py:1540]           [DEBUG]    |                                                                                                    |
+[2022-09-29 07:53:05,486] [builder.py:1541]           [DEBUG]    | 407 IDs Found: [('tt1838520', 'imdb'), ('tt3294200', 'imdb'), ('tt0993842', 'imdb'), ('tt3398268', 'imdb'), ('tt2402927', 'imdb'), ('tt2929690', 'imdb'), ('tt1315981', 'imdb'), ('tt4270516', 'imdb'), ('tt1731141', 'imdb'), ('tt2115295', 'imdb'), ('tt1974419', 'imdb'), ('tt1847731', 'imdb'), ('tt0113670', 'imdb'), ('tt0842926', 'imdb'), ('tt3671542', 'imdb'), ('tt0073629', 'imdb'), ('tt4262174', 'imdb'), ('tt0869977', 'imdb'), ('tt0245238', 'imdb'), ('tt3697270', 'imdb'), ('tt0150662', 'imdb'), ('tt6405218', 'imdb'), ('tt1774591', 'imdb'), ('tt5207320', 'imdb'), ('tt1183665', 'imdb'), ('tt3824458', 'imdb'), ('tt3007302', 'imdb'), ('tt0072890', 'imdb'), ('tt1650048', 'imdb'), ('tt0185125', 'imdb'), ('tt5883632', 'imdb'), ('tt1104083', 'imdb'), ('tt4975722', 'imdb'), ('tt0084489', 'imdb'), ('tt0089015', 'imdb'), ('tt0996605', 'imdb'), ('tt0104448', 'imdb'), ('tt0417189', 'imdb'), ('tt1714210', 'imdb'), ('tt1532503', 'imdb'), ('tt1440741', 'imdb'), ('tt0115640', 'imdb'), ('tt0942384', 'imdb'), ('tt0091578', 'imdb'), ('tt2994832', 'imdb'), ('tt6259890', 'imdb'), ('tt3638396', 'imdb'), ('tt4676840', 'imdb'), ('tt0264761', 'imdb'), ('tt3467900', 'imdb'), ('tt3498364', 'imdb'), ('tt5584782', 'imdb'), ('tt5644824', 'imdb'), ('tt6333070', 'imdb'), ('tt6099416', 'imdb'), ('tt5631456', 'imdb'), ('tt6041174', 'imdb'), ('tt5061564', 'imdb'), ('tt5635086', 'imdb'), ('tt5834036', 'imdb'), ('tt6129730', 'imdb'), ('tt4590092', 'imdb'), ('tt6303866', 'imdb'), ('tt6108178', 'imdb'), ('tt2798920', 'imdb'), ('tt4746516', 'imdb'), ('tt5503490', 'imdb'), ('tt4406114', 'imdb'), ('tt3778616', 'imdb'), ('tt4946696', 'imdb'), ('tt2560102', 'imdb'), ('tt2217458', 'imdb'), ('tt0097594', 'imdb'), ('tt1684628', 'imdb'), ('tt1235842', 'imdb'), ('tt4462372', 'imdb'), ('tt2318625', 'imdb'), ('tt0423651', 'imdb'), ('tt0349070', 'imdb'), ('tt1846449', 'imdb'), ('tt1116182', 'imdb'), ('tt0830570', 'imdb'), ('tt3848072', 'imdb'), ('tt6053440', 'imdb'), ('tt4097826', 'imdb'), ('tt4305148', 'imdb'), ('tt4123506', 'imdb'), ('tt2402623', 'imdb'), ('tt2260850', 'imdb'), ('tt3289362', 'imdb'), ('tt5452964', 'imdb'), ('tt5153712', 'imdb'), ('tt5194364', 'imdb'), ('tt4700860', 'imdb'), ('tt5777098', 'imdb'), ('tt5354406', 'imdb'), ('tt2905422', 'imdb'), ('tt4425152', 'imdb'), ('tt3920890', 'imdb'), ('tt5436082', 'imdb'), ('tt3403928', 'imdb'), ('tt4027504', 'imdb'), ('tt4515538', 'imdb'), ('tt4884602', 'imdb'), ('tt4503828', 'imdb'), ('tt4346090', 'imdb'), ('tt3993760', 'imdb'), ('tt5238886', 'imdb'), ('tt5696020', 'imdb'), ('tt5459188', 'imdb'), ('tt4729990', 'imdb'), ('tt5529712', 'imdb'), ('tt5477402', 'imdb'), ('tt5126584', 'imdb'), ('tt6350356', 'imdb'), ('tt4009830', 'imdb'), ('tt3576780', 'imdb'), ('tt4341528', 'imdb'), ('tt5479546', 'imdb'), ('tt4930882', 'imdb'), ('tt4530876', 'imdb'), ('tt5075798', 'imdb'), ('tt4064498', 'imdb'), ('tt5529254', 'imdb'), ('tt5910324', 'imdb'), ('tt3532686', 'imdb'), ('tt3427066', 'imdb'), ('tt3621802', 'imdb'), ('tt2401181', 'imdb'), ('tt1702429', 'imdb'), ('tt3212408', 'imdb'), ('tt4097612', 'imdb'), ('tt3369248', 'imdb'), ('tt4085044', 'imdb'), ('tt3703836', 'imdb'), ('tt3121332', 'imdb'), ('tt3184934', 'imdb'), ('tt2935662', 'imdb'), ('tt1533089', 'imdb'), ('tt3899516', 'imdb'), ('tt4353990', 'imdb'), ('tt4490654', 'imdb'), ('tt4065250', 'imdb'), ('tt4483552', 'imdb'), ('tt3173534', 'imdb'), ('tt4177250', 'imdb'), ('tt4549266', 'imdb'), ('tt3669098', 'imdb'), ('tt0907843', 'imdb'), ('tt4125760', 'imdb'), ('tt4145318', 'imdb'), ('tt5209658', 'imdb'), ('tt4276000', 'imdb'), ('tt3173506', 'imdb'), ('tt3624740', 'imdb'), ('tt3581370', 'imdb'), ('tt3588216', 'imdb'), ('tt3780526', 'imdb'), ('tt5119448', 'imdb'), ('tt4392140', 'imdb'), ('tt4214874', 'imdb'), ('tt3986496', 'imdb'), ('tt4396602', 'imdb'), ('tt4270482', 'imdb'), ('tt3630326', 'imdb'), ('tt4253482', 'imdb'), ('tt3797290', 'imdb'), ('tt3954584', 'imdb'), ('tt3755230', 'imdb'), ('tt4473574', 'imdb'), ('tt2245173', 'imdb'), ('tt4433560', 'imdb'), ('tt2634384', 'imdb'), ('tt4538072', 'imdb'), ('tt3606848', 'imdb'), ('tt0084565', 'imdb'), ('tt2176350', 'imdb'), ('tt3950002', 'imdb'), ('tt0995829', 'imdb'), ('tt0067690', 'imdb'), ('tt0075753', 'imdb'), ('tt0783530', 'imdb'), ('tt0148103', 'imdb'), ('tt3817962', 'imdb'), ('tt3661798', 'imdb'), ('tt2321549', 'imdb'), ('tt1625150', 'imdb'), ('tt0093512', 'imdb'), ('tt1702014', 'imdb'), ('tt2617828', 'imdb'), ('tt1687221', 'imdb'), ('tt0420206', 'imdb'), ('tt4427060', 'imdb'), ('tt2691102', 'imdb'), ('tt1166805', 'imdb'), ('tt1221188', 'imdb'), ('tt0085838', 'imdb'), ('tt1242642', 'imdb'), ('tt2196053', 'imdb'), ('tt5226984', 'imdb'), ('tt6039372', 'imdb'), ('tt3710966', 'imdb'), ('tt5954892', 'imdb'), ('tt5842218', 'imdb'), ('tt6969946', 'imdb'), ('tt4016934', 'imdb'), ('tt1048174', 'imdb'), ('tt2250564', 'imdb'), ('tt3832354', 'imdb'), ('tt4846220', 'imdb'), ('tt0227277', 'imdb'), ('tt1714627', 'imdb'), ('tt2385764', 'imdb'), ('tt6658898', 'imdb'), ('tt3278224', 'imdb'), ('tt4838248', 'imdb'), ('tt4197642', 'imdb'), ('tt4109632', 'imdb'), ('tt5265960', 'imdb'), ('tt5831402', 'imdb'), ('tt5958170', 'imdb'), ('tt6392492', 'imdb'), ('tt6992850', 'imdb'), ('tt5529666', 'imdb'), ('tt6423202', 'imdb'), ('tt7176320', 'imdb'), ('tt4613254', 'imdb'), ('tt1555126', 'imdb'), ('tt0118036', 'imdb'), ('tt2066980', 'imdb'), ('tt2423914', 'imdb'), ('tt4057798', 'imdb'), ('tt3775450', 'imdb'), ('tt2442908', 'imdb'), ('tt7078710', 'imdb'), ('tt6304046', 'imdb'), ('tt5913968', 'imdb'), ('tt7008872', 'imdb'), ('tt8286894', 'imdb'), ('tt5447962', 'imdb'), ('tt4042818', 'imdb'), ('tt7925066', 'imdb'), ('tt7158430', 'imdb'), ('tt5713994', 'imdb'), ('tt5480782', 'imdb'), ('tt6169920', 'imdb'), ('tt5923026', 'imdb'), ('tt7073710', 'imdb'), ('tt5981304', 'imdb'), ('tt6265970', 'imdb'), ('tt5215656', 'imdb'), ('tt6182402', 'imdb'), ('tt5580240', 'imdb'), ('tt0425985', 'imdb'), ('tt3074328', 'imdb'), ('tt8613070', 'imdb'), ('tt7681824', 'imdb'), ('tt5770414', 'imdb'), ('tt5761504', 'imdb'), ('tt5070130', 'imdb'), ('tt8990978', 'imdb'), ('tt5643380', 'imdb'), ('tt5022872', 'imdb'), ('tt6744860', 'imdb'), ('tt1906518', 'imdb'), ('tt1727824', 'imdb'), ('tt6257174', 'imdb'), ('tt0247196', 'imdb'), ('tt8050586', 'imdb'), ('tt5639354', 'imdb'), ('tt5278598', 'imdb'), ('tt0080662', 'imdb'), ('tt8108164', 'imdb'), ('tt5935704', 'imdb'), ('tt6917290', 'imdb'), ('tt5322168', 'imdb'), ('tt5176580', 'imdb'), ('tt5215650', 'imdb'), ('tt8493776', 'imdb'), ('tt5437928', 'imdb'), ('tt6207634', 'imdb'), ('tt0166178', 'imdb'), ('tt6441072', 'imdb'), ('tt7997016', 'imdb'), ('tt7875464', 'imdb'), ('tt7241926', 'imdb'), ('tt7690022', 'imdb'), ('tt7485508', 'imdb'), ('tt1577040', 'imdb'), ('tt0384504', 'imdb'), ('tt4158624', 'imdb'), ('tt6400166', 'imdb'), ('tt6704898', 'imdb'), ('tt9011376', 'imdb'), ('tt7087260', 'imdb'), ('tt0274558', 'imdb'), ('tt9134194', 'imdb'), ('tt6958014', 'imdb'), ('tt6577814', 'imdb'), ('tt6884200', 'imdb'), ('tt5164432', 'imdb'), ('tt0118586', 'imdb'), ('tt10309906', 'imdb'), ('tt10221140', 'imdb'), ('tt5517708', 'imdb'), ('tt9683478', 'imdb'), ('tt4651466', 'imdb'), ('tt0116834', 'imdb'), ('tt0107693', 'imdb'), ('tt0359045', 'imdb'), ('tt7886936', 'imdb'), ('tt6909050', 'imdb'), ('tt6652228', 'imdb'), ('tt7901640', 'imdb'), ('tt6255500', 'imdb'), ('tt7736144', 'imdb'), ('tt6841122', 'imdb'), ('tt6386132', 'imdb'), ('tt10814438', 'imdb'), ('tt8769940', 'imdb'), ('tt10269016', 'imdb'), ('tt7713450', 'imdb'), ('tt10562574', 'imdb'), ('tt10922526', 'imdb'), ('tt9865260', 'imdb'), ('tt0042803', 'imdb'), ('tt10457128', 'imdb'), ('tt8443704', 'imdb'), ('tt5786632', 'imdb'), ('tt0108366', 'imdb'), ('tt0782867', 'imdb'), ('tt7901366', 'imdb'), ('tt7808072', 'imdb'), ('tt10166602', 'imdb'), ('tt0461694', 'imdb'), ('tt10699362', 'imdb'), ('tt5985952', 'imdb'), ('tt3318220', 'imdb'), ('tt4756312', 'imdb'), ('tt10394844', 'imdb'), ('tt12718670', 'imdb'), ('tt0629670', 'imdb'), ('tt8090564', 'imdb'), ('tt11388990', 'imdb'), ('tt0064068', 'imdb'), ('tt11745888', 'imdb'), ('tt7725422', 'imdb'), ('tt11788984', 'imdb'), ('tt7212878', 'imdb'), ('tt11695326', 'imdb'), ('tt0421994', 'imdb'), ('tt0054743', 'imdb'), ('tt10768194', 'imdb'), ('tt3394960', 'imdb'), ('tt5005862', 'imdb'), ('tt0452568', 'imdb'), ('tt3127020', 'imdb'), ('tt2312036', 'imdb'), ('tt0382189', 'imdb'), ('tt8362736', 'imdb'), ('tt1385817', 'imdb'), ('tt3741316', 'imdb'), ('tt5851928', 'imdb'), ('tt9848536', 'imdb'), ('tt4370596', 'imdb'), ('tt7820906', 'imdb'), ('tt1510686', 'imdb'), ('tt0435706', 'imdb'), ('tt0923779', 'imdb'), ('tt0492481', 'imdb'), ('tt0366527', 'imdb'), ('tt5978724', 'imdb'), ('tt5978724', 'imdb'), ('tt1268962', 'imdb'), ('tt1176686', 'imdb'), ('tt0306432', 'imdb'), ('tt0256459', 'imdb'), ('tt6426028', 'imdb'), ('tt1161444', 'imdb'), ('tt0891457', 'imdb'), ('tt0179116', 'imdb'), ('tt0496328', 'imdb'), ('tt0415234', 'imdb'), ('tt2589640', 'imdb'), ('tt4556738', 'imdb'), ('tt0116931', 'imdb'), ('tt0063683', 'imdb'), ('tt3326106', 'imdb'), ('tt0428672', 'imdb'), ('tt0206036', 'imdb'), ('tt2570858', 'imdb'), ('tt6316466', 'imdb'), ('tt2125698', 'imdb'), ('tt0470913', 'imdb'), ('tt0284229', 'imdb'), ('tt0333764', 'imdb'), ('tt4513316', 'imdb'), ('tt3973012', 'imdb'), ('tt4622512', 'imdb'), ('tt1859522', 'imdb'), ('tt4595882', 'imdb'), ('tt8425034', 'imdb'), ('tt4080768', 'imdb'), ('tt3333968', 'imdb'), ('tt0057129', 'imdb'), ('tt0045826', 'imdb'), ('tt1762248', 'imdb')] |
+[2022-09-29 07:53:05,486] [builder.py:1542]           [DEBUG]    |                                                                                                    |
+[2022-09-29 07:53:08,035] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt6405218                                             |
+[2022-09-29 07:53:10,549] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt6259890                                             |
+[2022-09-29 07:53:19,934] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt5126584                                             |
+[2022-09-29 07:53:24,409] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt4549266                                             |
+[2022-09-29 07:53:43,738] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 83788                                                 |
+[2022-09-29 07:53:44,038] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 87731                                                 |
+[2022-09-29 07:53:48,599] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt9865260                                             |
+[2022-09-29 07:53:49,648] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 136993                                                |
+[2022-09-29 07:53:52,318] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt11788984                                            |
+[2022-09-29 07:53:53,048] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt3394960                                             |
+[2022-09-29 07:53:55,319] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt5851928                                             |
+[2022-09-29 07:54:01,678] [builder.py:2064]           [INFO]     |                                                                                                    |
+[2022-09-29 07:54:01,679] [builder.py:2065]           [INFO]     |=================================== Adding to LGBTQ+ Collection ====================================|
+[2022-09-29 07:54:01,683] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-09-29 07:54:01,693] [builder.py:2080]           [INFO]     | 1/7 | LGBTQ+ Collection | + | Carol (2015)                                                         |
+[2022-09-29 07:54:02,495] [builder.py:2080]           [INFO]     | 2/7 | LGBTQ+ Collection | + | La Stratégie Ender (2013)                                            |
+[2022-09-29 07:54:03,230] [builder.py:2080]           [INFO]     | 3/7 | LGBTQ+ Collection | + | Moonlight (2016)                                                     |
+[2022-09-29 07:54:03,267] [builder.py:2080]           [INFO]     | 4/7 | LGBTQ+ Collection | + | Annihilation (2018)                                                  |
+[2022-09-29 07:54:03,302] [builder.py:2080]           [INFO]     | 5/7 | LGBTQ+ Collection | + | Mademoiselle (2016)                                                  |
+[2022-09-29 07:54:03,338] [builder.py:2080]           [INFO]     | 6/7 | LGBTQ+ Collection | + | Portrait de la jeune fille en feu (2019)                             |
+[2022-09-29 07:54:03,373] [builder.py:2080]           [INFO]     | 7/7 | LGBTQ+ Collection | + | Bohemian Rhapsody (2018)                                             |
+[2022-09-29 07:54:03,824] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-09-29 07:54:03,824] [builder.py:2102]           [INFO]     | 7 Movies Processed 7 Movies Added                                                                  |
+[2022-09-29 07:54:03,825] [builder.py:2228]           [INFO]     |                                                                                                    |
+[2022-09-29 07:54:03,825] [builder.py:2229]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-09-29 07:54:03,825] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-09-29 07:54:04,256] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Truth About Emanuel (2014) (TMDb: 157351)                              |
+[2022-09-29 07:54:04,646] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Falling (2015) (TMDb: 294741)                                          |
+[2022-09-29 07:54:05,084] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Hanna (2011) (TMDb: 50456)                                                 |
+[2022-09-29 07:54:05,515] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | When Marnie Was There (2014) (TMDb: 242828)                                |
+[2022-09-29 07:54:05,900] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Margarita with a Straw (2015) (TMDb: 287499)                               |
+[2022-09-29 07:54:06,322] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | A Single Man (2009) (TMDb: 34653)                                          |
+[2022-09-29 07:54:06,740] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Grandma (2015) (TMDb: 309304)                                              |
+[2022-09-29 07:54:07,185] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Ginger & Rosa (2012) (TMDb: 121872)                                        |
+[2022-09-29 07:54:07,632] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Neon Demon (2016) (TMDb: 301365)                                       |
+[2022-09-29 07:54:08,017] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Tomboy (2011) (TMDb: 65229)                                                |
+[2022-09-29 07:54:08,476] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | A Little Princess (1995) (TMDb: 19101)                                     |
+[2022-09-29 07:54:08,867] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Kids Are All Right (2010) (TMDb: 39781)                                |
+[2022-09-29 07:54:09,278] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Holding the Man (2015) (TMDb: 337960)                                      |
+[2022-09-29 07:54:09,412] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Rocky Horror Picture Show (1975) (TMDb: 36685)                         |
+[2022-09-29 07:54:09,801] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | First Girl I Loved (2016) (TMDb: 352498)                                   |
+[2022-09-29 07:54:10,254] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Water Lilies (2007) (TMDb: 10818)                                          |
+[2022-09-29 07:54:10,757] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Lost and Delirious (2001) (TMDb: 17612)                                    |
+[2022-09-29 07:54:11,137] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Of Girls and Horses (2014) (TMDb: 319193)                                  |
+[2022-09-29 07:54:11,551] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Show Me Love (1998) (TMDb: 11634)                                          |
+[2022-09-29 07:54:11,955] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Teenage Cocktail (2016) (TMDb: 381075)                                     |
+[2022-09-29 07:54:12,294] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Sweet, Sweet Lonely Girl (2016) (TMDb: 407757)                             |
+[2022-09-29 07:54:12,714] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Cracks (2009) (TMDb: 35052)                                                |
+[2022-09-29 07:54:13,144] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Tangerine (2015) (TMDb: 308084)                                            |
+[2022-09-29 07:54:13,493] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Boy Meets Girl (2014) (TMDb: 263105)                                       |
+[2022-09-29 07:54:13,510] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Dog Day Afternoon (1975) (TMDb: 968)                                       |
+[2022-09-29 07:54:13,960] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Laurence Anyways (2012) (TMDb: 110160)                                     |
+[2022-09-29 07:54:13,977] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | All About My Mother (1999) (TMDb: 99)                                      |
+[2022-09-29 07:54:14,353] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Esteros (2016) (TMDb: 418718)                                              |
+[2022-09-29 07:54:14,744] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Little Ashes (2008) (TMDb: 31299)                                          |
+[2022-09-29 07:54:15,146] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Personal Best (1982) (TMDb: 27609)                                         |
+[2022-09-29 07:54:15,526] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Desert Hearts (1985) (TMDb: 294)                                           |
+[2022-09-29 07:54:15,881] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Love Songs (2007) (TMDb: 14448)                                            |
+[2022-09-29 07:54:16,244] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Hours and Times (1991) (TMDb: 32881)                                   |
+[2022-09-29 07:54:16,606] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Time to Leave (2005) (TMDb: 2566)                                          |
+[2022-09-29 07:54:17,052] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Weekend (2011) (TMDb: 79120)                                               |
+[2022-09-29 07:54:17,080] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Beginners (2011) (TMDb: 55347)                                             |
+[2022-09-29 07:54:17,516] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | From Beginning to End (2009) (TMDb: 44125)                                 |
+[2022-09-29 07:54:17,886] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Beautiful Thing (1996) (TMDb: 10938)                                       |
+[2022-09-29 07:54:18,245] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Shelter (2007) (TMDb: 17483)                                               |
+[2022-09-29 07:54:18,640] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | My Beautiful Laundrette (1985) (TMDb: 11240)                               |
+[2022-09-29 07:54:19,003] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Summer of Sangaile (2015) (TMDb: 310568)                               |
+[2022-09-29 07:54:19,370] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Closet Monster (2016) (TMDb: 353728)                                       |
+[2022-09-29 07:54:19,757] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Fragments (2015) (TMDb: 435480)                                            |
+[2022-09-29 07:54:20,188] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Kissing Jessica Stein (2002) (TMDb: 15647)                                 |
+[2022-09-29 07:54:20,503] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Kings, Queens, & In-Betweens (2017) (TMDb: 444555)                         |
+[2022-09-29 07:54:20,928] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Girl on Girl: An Original Documentary (2016) (TMDb: 510486)                |
+[2022-09-29 07:54:21,228] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Seventeen (2017) (TMDb: 434504)                                            |
+[2022-09-29 07:54:21,615] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Dawn of the Deaf (2016) (TMDb: 405178)                                     |
+[2022-09-29 07:54:22,041] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Wound (2017) (TMDb: 428498)                                            |
+[2022-09-29 07:54:22,366] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Discreet (2017) (TMDb: 418927)                                             |
+[2022-09-29 07:54:22,795] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Just Like Our Parents (2017) (TMDb: 439066)                                |
+[2022-09-29 07:54:23,106] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Small Talk (2016) (TMDb: 425046)                                           |
+[2022-09-29 07:54:23,482] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Axolotl Overkill (2017) (TMDb: 427025)                                     |
+[2022-09-29 07:54:23,929] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | God's Own Country (2017) (TMDb: 428493)                                    |
+[2022-09-29 07:54:24,281] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | 1:54 (2016) (TMDb: 415665)                                                 |
+[2022-09-29 07:54:24,608] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Our Love Story (2016) (TMDb: 417758)                                       |
+[2022-09-29 07:54:24,957] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | I Love You Both (2017) (TMDb: 347627)                                      |
+[2022-09-29 07:54:25,402] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Beach Rats (2017) (TMDb: 426238)                                           |
+[2022-09-29 07:54:25,841] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Disobedience (2017) (TMDb: 419743)                                         |
+[2022-09-29 07:54:26,246] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Orphan (2017) (TMDb: 408509)                                               |
+[2022-09-29 07:54:26,549] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Two Soft Things, Two Hard Things (2016) (TMDb: 399640)                     |
+[2022-09-29 07:54:26,931] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Happy Birthday, Marsha! (2018) (TMDb: 369403)                              |
+[2022-09-29 07:54:27,365] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Political Animals (2016) (TMDb: 400933)                                    |
+[2022-09-29 07:54:27,749] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | TIDE (2017) (TMDb: 411419)                                                 |
+[2022-09-29 07:54:28,115] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Lilting (2014) (TMDb: 248212)                                              |
+[2022-09-29 07:54:28,491] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Reaching for the Moon (2013) (TMDb: 167683)                                |
+[2022-09-29 07:54:28,797] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Ice Palace (1987) (TMDb: 60477)                                            |
+[2022-09-29 07:54:29,196] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Circumstance (2011) (TMDb: 60421)                                          |
+[2022-09-29 07:54:29,590] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Fish Child (2009) (TMDb: 26864)                                        |
+[2022-09-29 07:54:29,974] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | AWOL (2017) (TMDb: 356752)                                                 |
+[2022-09-29 07:54:30,349] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Out in the Dark (2012) (TMDb: 128154)                                      |
+[2022-09-29 07:54:30,666] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Affäre zu dritt (2003) (TMDb: 345273)                                      |
+[2022-09-29 07:54:31,058] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Ashamed (2010) (TMDb: 272431)                                              |
+[2022-09-29 07:54:31,388] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Affinity (2008) (TMDb: 14766)                                              |
+[2022-09-29 07:54:31,787] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | I Can't Think Straight (2008) (TMDb: 31216)                                |
+[2022-09-29 07:54:32,196] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Stuff (2015) (TMDb: 343807)                                                |
+[2022-09-29 07:54:32,629] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Princess Cyd (2017) (TMDb: 454889)                                         |
+[2022-09-29 07:54:33,046] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Firefly (2013) (TMDb: 434552)                                          |
+[2022-09-29 07:54:33,455] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Lovesong (2017) (TMDb: 371447)                                             |
+[2022-09-29 07:54:33,814] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Fire Song (2015) (TMDb: 353730)                                            |
+[2022-09-29 07:54:34,137] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Beyond the Walls (2012) (TMDb: 136437)                                     |
+[2022-09-29 07:54:34,513] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | 4 Moons (2014) (TMDb: 258034)                                              |
+[2022-09-29 07:54:34,855] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Hidden Away (2014) (TMDb: 258755)                                          |
+[2022-09-29 07:54:35,203] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Don't Call Me Son (2016) (TMDb: 382455)                                    |
+[2022-09-29 07:54:35,531] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Air (2015) (TMDb: 418918)                                                  |
+[2022-09-29 07:54:35,721] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | An Evening (2016) (TMDb: 449576)                                           |
+[2022-09-29 07:54:36,047] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Alzheimer's: A Love Story (2015) (TMDb: 416434)                            |
+[2022-09-29 07:54:36,397] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Dance Card (2016) (TMDb: 640713)                                           |
+[2022-09-29 07:54:36,821] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Dawn (2016) (TMDb: 431224)                                                 |
+[2022-09-29 07:54:37,171] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Girl Gets Girl (2015) (TMDb: 359767)                                       |
+[2022-09-29 07:54:37,522] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Girls Lost (2015) (TMDb: 356218)                                           |
+[2022-09-29 07:54:37,888] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Heartland (2016) (TMDb: 402025)                                            |
+[2022-09-29 07:54:38,266] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | One Kiss (2016) (TMDb: 390669)                                             |
+[2022-09-29 07:54:38,554] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Monster Mash (2014) (TMDb: 656024)                                         |
+[2022-09-29 07:54:38,983] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Lazy Eye (2016) (TMDb: 399417)                                             |
+[2022-09-29 07:54:39,268] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | I Say Dust (2015) (TMDb: 646664)                                           |
+[2022-09-29 07:54:39,607] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | PYOTR495 (2016) (TMDb: 419390)                                             |
+[2022-09-29 07:54:39,910] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Pick Up (2017) (TMDb: 647108)                                              |
+[2022-09-29 07:54:40,201] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Queen's Mile (2015) (TMDb: 372470)                                         |
+[2022-09-29 07:54:40,505] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Real Boy (2016) (TMDb: 395499)                                             |
+[2022-09-29 07:54:40,839] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Pronouns (2016) (TMDb: 442871)                                             |
+[2022-09-29 07:54:41,198] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Piece of Cake (2016) (TMDb: 626195)                                        |
+[2022-09-29 07:54:41,513] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Spark (2015) (TMDb: 409273)                                                |
+[2022-09-29 07:54:41,847] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Slash (2016) (TMDb: 347870)                                                |
+[2022-09-29 07:54:42,156] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Sign (2016) (TMDb: 425358)                                                 |
+[2022-09-29 07:54:42,480] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Strike a Pose (2016) (TMDb: 381649)                                        |
+[2022-09-29 07:54:42,769] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Escape Hatch (2016) (TMDb: 984027)                                     |
+[2022-09-29 07:54:43,100] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Typist (2015) (TMDb: 463256)                                           |
+[2022-09-29 07:54:43,463] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Weigh In (2014) (TMDb: 415848)                                         |
+[2022-09-29 07:54:43,789] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Tonight It's You (2016) (TMDb: 414910)                                     |
+[2022-09-29 07:54:44,148] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | We Could Be Parents (2016) (TMDb: 572951)                                  |
+[2022-09-29 07:54:44,448] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Whittier Boulevard (2015) (TMDb: 647996)                                   |
+[2022-09-29 07:54:44,748] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Vessels (2015) (TMDb: 425362)                                              |
+[2022-09-29 07:54:45,089] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | You Deserve Everything (2016) (TMDb: 464554)                               |
+[2022-09-29 07:54:45,441] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Where Are You Going, Habibi? (2015) (TMDb: 394148)                         |
+[2022-09-29 07:54:45,833] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | A Song For Your Mixtape (2016) (TMDb: 393774)                              |
+[2022-09-29 07:54:46,283] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Pool (2016) (TMDb: 462755)                                                 |
+[2022-09-29 07:54:46,626] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | All About E (2015) (TMDb: 320639)                                          |
+[2022-09-29 07:54:46,796] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | An Afternoon (2014) (TMDb: 343878)                                         |
+[2022-09-29 07:54:47,114] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Death in Buenos Aires (2014) (TMDb: 296778)                                |
+[2022-09-29 07:54:47,450] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Samurai (2014) (TMDb: 254007)                                          |
+[2022-09-29 07:54:48,091] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Eisenstein in Guanajuato (2015) (TMDb: 121869)                             |
+[2022-09-29 07:54:48,425] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Beautiful Something (2015) (TMDb: 349087)                                  |
+[2022-09-29 07:54:48,760] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | In the Grayscale (2015) (TMDb: 330007)                                     |
+[2022-09-29 07:54:49,097] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Guidance (2014) (TMDb: 285860)                                             |
+[2022-09-29 07:54:49,398] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Game Face (2015) (TMDb: 339303)                                            |
+[2022-09-29 07:54:49,806] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Henry Gamble's Birthday Party (2015) (TMDb: 339739)                        |
+[2022-09-29 07:54:50,180] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Nasty Baby (2015) (TMDb: 308077)                                           |
+[2022-09-29 07:54:50,623] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The New Girlfriend (2014) (TMDb: 283726)                                   |
+[2022-09-29 07:54:51,024] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Portrait of a Serial Monogamist (2016) (TMDb: 332660)                      |
+[2022-09-29 07:54:51,358] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Tab Hunter Confidential (2015) (TMDb: 324314)                              |
+[2022-09-29 07:54:51,843] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Those People (2015) (TMDb: 340684)                                         |
+[2022-09-29 07:54:52,155] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | While You Weren't Looking (2015) (TMDb: 349169)                            |
+[2022-09-29 07:54:52,552] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | You're Killing Me (2015) (TMDb: 348929)                                    |
+[2022-09-29 07:54:52,857] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Year We Thought About Love (2015) (TMDb: 326273)                       |
+[2022-09-29 07:54:53,240] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Noam (2015) (TMDb: 374903)                                                 |
+[2022-09-29 07:54:53,572] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Roads (2013) (TMDb: 220722)                                                |
+[2022-09-29 07:54:53,894] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Pink Boy (2015) (TMDb: 414886)                                             |
+[2022-09-29 07:54:54,275] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Stealth (2015) (TMDb: 647631)                                              |
+[2022-09-29 07:54:54,658] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Stealth (2006) (TMDb: 79139)                                               |
+[2022-09-29 07:54:54,925] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Tomgirl (2015) (TMDb: 377561)                                              |
+[2022-09-29 07:54:55,278] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Tremulous (2015) (TMDb: 400001)                                            |
+[2022-09-29 07:54:55,590] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Vagina Is the Warmest Color (2015) (TMDb: 765159)                          |
+[2022-09-29 07:54:55,926] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Thirst (2015) (TMDb: 593785)                                               |
+[2022-09-29 07:54:56,242] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Under the Last Roof (2013) (TMDb: 259500)                                  |
+[2022-09-29 07:54:56,567] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Carina (2014) (TMDb: 290998)                                               |
+[2022-09-29 07:54:56,926] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | FUTURESTATES: Code Academy (2014) (TMDb: 340792)                           |
+[2022-09-29 07:54:57,284] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Camouflage (2014) (TMDb: 649229)                                           |
+[2022-09-29 07:54:57,594] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | BrocKINGton (2014) (TMDb: 978898)                                          |
+[2022-09-29 07:54:57,932] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Bootwmn (2015) (TMDb: 416486)                                              |
+[2022-09-29 07:54:58,301] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Float (2015) (TMDb: 675589)                                                |
+[2022-09-29 07:54:58,610] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Followers (2015) (TMDb: 369035)                                            |
+[2022-09-29 07:54:58,951] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Future Perfect (2014) (TMDb: 650136)                                   |
+[2022-09-29 07:54:59,326] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Golden (2015) (TMDb: 402705)                                               |
+[2022-09-29 07:54:59,676] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | I Do (2014) (TMDb: 469948)                                                 |
+[2022-09-29 07:54:59,986] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Hole (2014) (TMDb: 344043)                                                 |
+[2022-09-29 07:55:00,312] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Last Girl (2015) (TMDb: 646713)                                        |
+[2022-09-29 07:55:00,658] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Nancy from Eastside Clover (2014) (TMDb: 650834)                           |
+[2022-09-29 07:55:01,123] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Open Relationship (2014) (TMDb: 617860)                                    |
+[2022-09-29 07:55:01,420] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Playing with Balls (2014) (TMDb: 490148)                                   |
+[2022-09-29 07:55:01,741] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Passing (2015) (TMDb: 432411)                                              |
+[2022-09-29 07:55:02,033] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Ducks' Migration (2012) (TMDb: 340798)                                 |
+[2022-09-29 07:55:02,403] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | San Cristóbal (2015) (TMDb: 360728)                                        |
+[2022-09-29 07:55:02,850] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Tru Love (2013) (TMDb: 270696)                                             |
+[2022-09-29 07:55:03,165] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Pretty Boy (2015) (TMDb: 439976)                                           |
+[2022-09-29 07:55:03,574] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Querelle (1982) (TMDb: 42135)                                              |
+[2022-09-29 07:55:03,876] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Yeah Kowalski! (2013) (TMDb: 335624)                                       |
+[2022-09-29 07:55:04,193] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | 1448 Love Among Us (2014) (TMDb: 328662)                                   |
+[2022-09-29 07:55:04,585] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | XXY (2007) (TMDb: 11148)                                                   |
+[2022-09-29 07:55:04,998] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Daughters of Darkness (1971) (TMDb: 46175)                                 |
+[2022-09-29 07:55:05,358] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Bilitis (1977) (TMDb: 50435)                                               |
+[2022-09-29 07:55:06,001] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | You Will Be Mine (2009) (TMDb: 54865)                                      |
+[2022-09-29 07:55:06,366] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Set Me Free (1999) (TMDb: 36105)                                           |
+[2022-09-29 07:55:06,718] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | All About Them (2015) (TMDb: 299715)                                       |
+[2022-09-29 07:55:07,061] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | A Girl at My Door (2014) (TMDb: 266058)                                    |
+[2022-09-29 07:55:07,111] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Babadook (2014) (TMDb: 242224)                                         |
+[2022-09-29 07:55:07,478] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | North Sea Texas (2011) (TMDb: 100898)                                      |
+[2022-09-29 07:55:07,985] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Maurice (1987) (TMDb: 26371)                                               |
+[2022-09-29 07:55:08,385] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Way He Looks (2014) (TMDb: 237791)                                     |
+[2022-09-29 07:55:08,533] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Free Fall (2013) (TMDb: 167581)                                            |
+[2022-09-29 07:55:08,888] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | I Don't Want to Go Back Alone (2010) (TMDb: 72660)                         |
+[2022-09-29 07:55:09,369] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Summer Storm (2004) (TMDb: 342)                                            |
+[2022-09-29 07:55:09,724] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Seashore (2015) (TMDb: 322740)                                             |
+[2022-09-29 07:55:10,177] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Summer (2014) (TMDb: 295485)                                               |
+[2022-09-29 07:55:10,700] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | You, Me and Him (2008) (TMDb: 86531)                                       |
+[2022-09-29 07:55:11,146] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Eloise (2009) (TMDb: 44620)                                                |
+[2022-09-29 07:55:11,496] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Lianna (1983) (TMDb: 78177)                                                |
+[2022-09-29 07:55:11,915] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Judas Kiss (2011) (TMDb: 71208)                                            |
+[2022-09-29 07:55:12,319] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Something Like Summer (2017) (TMDb: 460437)                                |
+[2022-09-29 07:55:12,719] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Tom of Finland (2017) (TMDb: 405204)                                       |
+[2022-09-29 07:55:13,053] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Rift (2017) (TMDb: 439979)                                                 |
+[2022-09-29 07:55:13,454] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Hello Again (2017) (TMDb: 446289)                                          |
+[2022-09-29 07:55:13,833] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Paths (2017) (TMDb: 436458)                                                |
+[2022-09-29 07:55:14,159] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Seat in Shadow (2016) (TMDb: 404249)                                       |
+[2022-09-29 07:55:14,544] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | In a Heartbeat (2017) (TMDb: 455661)                                       |
+[2022-09-29 07:55:14,902] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The World Unseen (2007) (TMDb: 31031)                                      |
+[2022-09-29 07:55:15,228] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | In Bloom (2013) (TMDb: 179246)                                             |
+[2022-09-29 07:55:15,654] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Reel (2013) (TMDb: 411877)                                                 |
+[2022-09-29 07:55:15,986] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | You'll Never Be Alone (2016) (TMDb: 383526)                                |
+[2022-09-29 07:55:16,351] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Burnt Money (2000) (TMDb: 27092)                                           |
+[2022-09-29 07:55:16,696] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Cappuccino (2010) (TMDb: 99779)                                            |
+[2022-09-29 07:55:17,013] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Shower (2012) (TMDb: 474437)                                               |
+[2022-09-29 07:55:17,305] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Spring (2017) (TMDb: 446347)                                               |
+[2022-09-29 07:55:17,661] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | I Dream in Another Language (2017) (TMDb: 355196)                          |
+[2022-09-29 07:55:18,005] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Just Charlie (2017) (TMDb: 441146)                                         |
+[2022-09-29 07:55:18,471] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | A Date for Mad Mary (2016) (TMDb: 405473)                                  |
+[2022-09-29 07:55:18,796] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | A Million Happy Nows (2017) (TMDb: 459252)                                 |
+[2022-09-29 07:55:19,205] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Untamed (2016) (TMDb: 387801)                                          |
+[2022-09-29 07:55:19,545] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Feels (2017) (TMDb: 459225)                                            |
+[2022-09-29 07:55:19,914] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Devi: Goddess (2017) (TMDb: 483880)                                        |
+[2022-09-29 07:55:20,240] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | My Gay Sister (2017) (TMDb: 442721)                                        |
+[2022-09-29 07:55:20,597] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Superheroes (2017) (TMDb: 487960)                                          |
+[2022-09-29 07:55:20,893] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Creating Gender Inclusive Schools (2016) (TMDb: 466828)                    |
+[2022-09-29 07:55:21,230] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Princess (2017) (TMDb: 502723)                                             |
+[2022-09-29 07:55:21,605] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Ace (2017) (TMDb: 490232)                                                  |
+[2022-09-29 07:55:21,980] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Heartstone (2016) (TMDb: 350060)                                           |
+[2022-09-29 07:55:22,322] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Secret Diaries of Miss Anne Lister (2010) (TMDb: 42548)                |
+[2022-09-29 07:55:22,840] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | A Summer Dress (1996) (TMDb: 48782)                                        |
+[2022-09-29 07:55:23,166] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Teens Like Phil (2012) (TMDb: 326835)                                      |
+[2022-09-29 07:55:23,594] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Naturalist (2013) (TMDb: 258781)                                       |
+[2022-09-29 07:55:23,930] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Dylan (2014) (TMDb: 431113)                                                |
+[2022-09-29 07:55:24,531] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Pink Moon (2015) (TMDb: 347523)                                            |
+[2022-09-29 07:55:25,014] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Bombshell (2013) (TMDb: 325805)                                            |
+[2022-09-29 07:55:25,481] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Thelma (2017) (TMDb: 401898)                                               |
+[2022-09-29 07:55:25,814] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Porcupine Lake (2017) (TMDb: 466557)                                       |
+[2022-09-29 07:55:26,283] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Boy Erased (2018) (TMDb: 472451)                                           |
+[2022-09-29 07:55:26,649] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Rafiki (2018) (TMDb: 517987)                                               |
+[2022-09-29 07:55:27,008] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Fluidø (2017) (TMDb: 440037)                                               |
+[2022-09-29 07:55:27,431] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Death & Life of John F. Donovan (2019) (TMDb: 291984)                  |
+[2022-09-29 07:55:27,764] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Hard Paint (2018) (TMDb: 500854)                                           |
+[2022-09-29 07:55:28,158] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Hearts Beat Loud (2018) (TMDb: 470333)                                     |
+[2022-09-29 07:55:28,580] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Half the Picture (2018) (TMDb: 490071)                                     |
+[2022-09-29 07:55:28,965] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Good Manners (2017) (TMDb: 315205)                                         |
+[2022-09-29 07:55:29,373] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | L'Animale (2018) (TMDb: 466673)                                            |
+[2022-09-29 07:55:29,823] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Marlina the Murderer in Four Acts (2017) (TMDb: 453276)                    |
+[2022-09-29 07:55:30,298] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | What Keeps You Alive (2018) (TMDb: 503752)                                 |
+[2022-09-29 07:55:30,640] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Anchor and Hope (2017) (TMDb: 444288)                                      |
+[2022-09-29 07:55:30,965] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Dive (2017) (TMDb: 507560)                                                 |
+[2022-09-29 07:55:31,313] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Darkest Days of Us (2021) (TMDb: 387799)                               |
+[2022-09-29 07:55:31,641] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The City of the Future (2018) (TMDb: 401912)                               |
+[2022-09-29 07:55:32,023] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Sipping (2015) (TMDb: 647365)                                              |
+[2022-09-29 07:55:32,383] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Chinese Botanist's Daughters (2006) (TMDb: 1899)                       |
+[2022-09-29 07:55:32,742] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | In Hiding (2013) (TMDb: 226962)                                            |
+[2022-09-29 07:55:33,233] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | We the Animals (2018) (TMDb: 490000)                                       |
+[2022-09-29 07:55:33,526] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Tiger's Fight (2016) (TMDb: 489222)                                    |
+[2022-09-29 07:55:33,843] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Smuack (2015) (TMDb: 647376)                                               |
+[2022-09-29 07:55:34,166] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Rara (2016) (TMDb: 382906)                                                 |
+[2022-09-29 07:55:34,475] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Banished (2017) (TMDb: 637038)                                         |
+[2022-09-29 07:55:34,867] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Taekwondo (2016) (TMDb: 413666)                                            |
+[2022-09-29 07:55:35,376] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Blush (2015) (TMDb: 361069)                                                |
+[2022-09-29 07:55:35,708] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Take Me for a Ride (2016) (TMDb: 381094)                                   |
+[2022-09-29 07:55:35,841] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Yes or No (2010) (TMDb: 64786)                                             |
+[2022-09-29 07:55:36,283] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Miseducation of Cameron Post (2018) (TMDb: 426613)                     |
+[2022-09-29 07:55:36,682] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Before Night Falls (2000) (TMDb: 5001)                                     |
+[2022-09-29 07:55:36,710] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | A Fantastic Woman (2017) (TMDb: 429191)                                    |
+[2022-09-29 07:55:37,025] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Kiki (2017) (TMDb: 373480)                                                 |
+[2022-09-29 07:55:37,365] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | You Are Not Alone (1978) (TMDb: 39555)                                     |
+[2022-09-29 07:55:38,052] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Ek Ladki Ko Dekha Toh Aisa Laga (2019) (TMDb: 533148)                      |
+[2022-09-29 07:55:38,457] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Padmaavat (2018) (TMDb: 432527)                                            |
+[2022-09-29 07:55:38,904] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | My Big Gay Italian Wedding (2018) (TMDb: 486103)                           |
+[2022-09-29 07:55:39,226] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Snapshots (2018) (TMDb: 507697)                                            |
+[2022-09-29 07:55:39,693] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Wild Nights with Emily (2018) (TMDb: 502147)                               |
+[2022-09-29 07:55:40,059] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | For Izzy (2018) (TMDb: 523048)                                             |
+[2022-09-29 07:55:40,543] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | 2 In the Bush: A Love Story (2018) (TMDb: 567046)                          |
+[2022-09-29 07:55:41,096] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Colette (2018) (TMDb: 454652)                                              |
+[2022-09-29 07:55:41,378] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Eva + Candela (2018) (TMDb: 526028)                                        |
+[2022-09-29 07:55:41,687] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Kiss Me (1989) (TMDb: 175510)                                              |
+[2022-09-29 07:55:42,101] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Kiss Me! (2017) (TMDb: 459962)                                             |
+[2022-09-29 07:55:42,313] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Substitute (2017) (TMDb: 504704)                                       |
+[2022-09-29 07:55:42,679] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Heiresses (2018) (TMDb: 499152)                                        |
+[2022-09-29 07:55:43,103] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Tell It to the Bees (2019) (TMDb: 475888)                                  |
+[2022-09-29 07:55:43,420] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Fish Bones (2018) (TMDb: 499571)                                           |
+[2022-09-29 07:55:43,787] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Carmen & Lola (2018) (TMDb: 519091)                                        |
+[2022-09-29 07:55:44,078] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Alto (2015) (TMDb: 354382)                                                 |
+[2022-09-29 07:55:44,462] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Saving Face (2004) (TMDb: 19316)                                           |
+[2022-09-29 07:55:44,894] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | 3 Generations (2016) (TMDb: 300667)                                        |
+[2022-09-29 07:55:45,223] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | My Best Friend (2018) (TMDb: 477666)                                       |
+[2022-09-29 07:55:45,610] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Elisa & Marcela (2019) (TMDb: 535356)                                      |
+[2022-09-29 07:55:45,634] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Hours (2002) (TMDb: 590)                                               |
+[2022-09-29 07:55:46,055] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Duck Butter (2018) (TMDb: 499319)                                          |
+[2022-09-29 07:55:46,419] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Screwed (2018) (TMDb: 459243)                                              |
+[2022-09-29 07:55:46,831] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | A Kid Like Jake (2018) (TMDb: 467917)                                      |
+[2022-09-29 07:55:46,868] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Love, Simon (2018) (TMDb: 449176)                                          |
+[2022-09-29 07:55:47,293] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | All Over Me (1997) (TMDb: 12793)                                           |
+[2022-09-29 07:55:47,446] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Shubh Mangal Zyada Saavdhan (2020) (TMDb: 606535)                          |
+[2022-09-29 07:55:47,803] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Dirty (2020) (TMDb: 654959)                                                |
+[2022-09-29 07:55:48,155] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Lola Pater (2017) (TMDb: 446037)                                           |
+[2022-09-29 07:55:48,625] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Half of It (2020) (TMDb: 597219)                                       |
+[2022-09-29 07:55:49,053] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Joe Bell (2021) (TMDb: 552269)                                             |
+[2022-09-29 07:55:49,480] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Late Bloomers (1996) (TMDb: 201445)                                        |
+[2022-09-29 07:55:49,781] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Nitrate Kisses (1992) (TMDb: 162680)                                       |
+[2022-09-29 07:55:50,131] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Bear Cub (2004) (TMDb: 47549)                                              |
+[2022-09-29 07:55:50,582] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Dating Amber (2020) (TMDb: 635918)                                         |
+[2022-09-29 07:55:50,933] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Him (2019) (TMDb: 654232)                                                  |
+[2022-09-29 07:55:51,290] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Turn It Around (2017) (TMDb: 488028)                                       |
+[2022-09-29 07:55:51,665] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Just Friends (2018) (TMDb: 501902)                                         |
+[2022-09-29 07:55:51,982] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Malila: The Farewell Flower (2017) (TMDb: 488512)                          |
+[2022-09-29 07:55:52,436] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Summerland (2020) (TMDb: 523977)                                           |
+[2022-09-29 07:55:52,777] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Sisterhood (2017) (TMDb: 444973)                                           |
+[2022-09-29 07:55:53,077] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Yulia & Juliet (2018) (TMDb: 567881)                                       |
+[2022-09-29 07:55:53,415] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Are You Proud? (2019) (TMDb: 604134)                                       |
+[2022-09-29 07:55:53,775] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | See You Soon (2020) (TMDb: 674721)                                         |
+[2022-09-29 07:55:54,134] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Olivia (1951) (TMDb: 257862)                                               |
+[2022-09-29 07:55:54,567] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Summer of 85 (2020) (TMDb: 659959)                                         |
+[2022-09-29 07:55:54,967] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Dear Ex (2018) (TMDb: 524087)                                              |
+[2022-09-29 07:55:55,317] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Restless Love (2016) (TMDb: 364601)                                        |
+[2022-09-29 07:55:55,768] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Totally Fucked Up (1993) (TMDb: 33560)                                     |
+[2022-09-29 07:55:56,075] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Secrets (2007) (TMDb: 14928)                                           |
+[2022-09-29 07:55:56,453] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Eunuch and the Flute Player (2019) (TMDb: 522986)                      |
+[2022-09-29 07:55:56,859] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Four Minutes (2006) (TMDb: 1294)                                           |
+[2022-09-29 07:55:57,324] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Moffie (2020) (TMDb: 618228)                                               |
+[2022-09-29 07:55:57,668] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Air (2018) (TMDb: 502971)                                                  |
+[2022-09-29 07:55:58,059] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Boys (2014) (TMDb: 244063)                                                 |
+[2022-09-29 07:55:58,379] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Veracity (2015) (TMDb: 468926)                                             |
+[2022-09-29 07:55:58,701] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Ìfé (2020) (TMDb: 724575)                                                 |
+[2022-09-29 07:55:59,126] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Monsoon (2020) (TMDb: 605499)                                              |
+[2022-09-29 07:55:59,551] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | I Carry You with Me (2020) (TMDb: 653594)                                  |
+[2022-09-29 07:55:59,937] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Funeral Parade of Roses (1969) (TMDb: 1556)                                |
+[2022-09-29 07:56:00,310] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Always Amber (2020) (TMDb: 665756)                                         |
+[2022-09-29 07:56:00,743] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Experience (2019) (TMDb: 645302)                                       |
+[2022-09-29 07:56:01,277] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Imagine Me & You (2005) (TMDb: 1544)                                       |
+[2022-09-29 07:56:01,668] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Children's Hour (1961) (TMDb: 20139)                                   |
+[2022-09-29 07:56:02,035] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | A New York Christmas Wedding (2020) (TMDb: 739518)                         |
+[2022-09-29 07:56:02,352] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Extra Terrestres (2017) (TMDb: 397175)                                     |
+[2022-09-29 07:56:02,735] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | My Summer of Love (2005) (TMDb: 9709)                                      |
+[2022-09-29 07:56:03,095] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Make Up (2020) (TMDb: 584583)                                              |
+[2022-09-29 07:56:03,419] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Bare (2015) (TMDb: 333091)                                                 |
+[2022-09-29 07:56:03,786] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Breaking the Girls (2013) (TMDb: 136850)                                   |
+[2022-09-29 07:56:04,327] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Nina's Heavenly Delights (2006) (TMDb: 12808)                              |
+[2022-09-29 07:56:04,711] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Love My Life (2006) (TMDb: 40701)                                          |
+[2022-09-29 07:56:05,112] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Puccini for Beginners (2006) (TMDb: 20405)                                 |
+[2022-09-29 07:56:05,453] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Goldfish Memory (2003) (TMDb: 12802)                                       |
+[2022-09-29 07:56:05,911] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | My Days of Mercy (2018) (TMDb: 434714)                                     |
+[2022-09-29 07:56:06,210] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Drool (2009) (TMDb: 35065)                                                 |
+[2022-09-29 07:56:06,520] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | My Friend from Faro (2008) (TMDb: 12588)                                   |
+[2022-09-29 07:56:06,870] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | My Mother Likes Women (2002) (TMDb: 97754)                                 |
+[2022-09-29 07:56:07,195] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Truth About Jane (2000) (TMDb: 52805)                                  |
+[2022-09-29 07:56:07,611] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Knife+Heart (2018) (TMDb: 475930)                                          |
+[2022-09-29 07:56:07,928] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Drifting Flowers (2008) (TMDb: 72489)                                      |
+[2022-09-29 07:56:08,297] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Spider Lilies (2007) (TMDb: 43088)                                         |
+[2022-09-29 07:56:08,748] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | But I'm a Cheerleader (2000) (TMDb: 20770)                                 |
+[2022-09-29 07:56:09,047] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Itty Bitty Titty Committee (2007) (TMDb: 10520)                            |
+[2022-09-29 07:56:09,406] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Red Doors (2005) (TMDb: 19629)                                             |
+[2022-09-29 07:56:09,623] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Yes or No 2 (2012) (TMDb: 132518)                                          |
+[2022-09-29 07:56:09,791] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Yes or No 2.5 (2015) (TMDb: 367805)                                        |
+[2022-09-29 07:56:10,231] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Love and Other Catastrophes (1996) (TMDb: 76996)                           |
+[2022-09-29 07:56:10,590] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Therese and Isabelle (1968) (TMDb: 54221)                                  |
+[2022-09-29 07:56:10,982] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Jules of Light and Dark (2018) (TMDb: 556935)                              |
+[2022-09-29 07:56:11,356] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Unveiled (2005) (TMDb: 56823)                                              |
+[2022-09-29 07:56:11,540] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | If These Walls Could Talk 2 (2000) (TMDb: 28031)                           |
+[2022-09-29 07:56:11,966] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Duke of Burgundy (2014) (TMDb: 250225)                                 |
+[2022-09-29 07:56:12,340] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Adam (2019) (TMDb: 486233)                                                 |
+[2022-09-29 07:56:12,756] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Young and Wild (2012) (TMDb: 84354)                                        |
+[2022-09-29 07:56:13,203] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Journey (2004) (TMDb: 137308)                                          |
+[2022-09-29 07:56:13,640] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Karmen Gei (2001) (TMDb: 253624)                                           |
+[2022-09-29 07:56:14,036] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Blue Gate Crossing (2002) (TMDb: 44708)                                    |
+[2022-09-29 07:56:14,621] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Novitiate (2017) (TMDb: 411976)                                            |
+[2022-09-29 07:56:14,939] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Women Who Kill (2016) (TMDb: 385755)                                       |
+[2022-09-29 07:56:15,399] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Battle of the Sexes (2017) (TMDb: 369192)                                  |
+[2022-09-29 07:56:15,810] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Kiss Me (2011) (TMDb: 71325)                                               |
+[2022-09-29 07:56:16,241] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Can You Ever Forgive Me? (2018) (TMDb: 401847)                             |
+[2022-09-29 07:56:16,615] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Bit (2019) (TMDb: 533985)                                                  |
+[2022-09-29 07:56:17,074] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Summertime (2015) (TMDb: 273153)                                           |
+[2022-09-29 07:56:17,415] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Lyle (2014) (TMDb: 284754)                                                 |
+[2022-09-29 07:56:17,833] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | The Haunting (1963) (TMDb: 11772)                                          |
+[2022-09-29 07:56:18,224] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Glen or Glenda (1953) (TMDb: 24018)                                        |
+[2022-09-29 07:56:18,540] [builder.py:2243]           [INFO]     | LGBTQ+ Collection | ? | Codependent Lesbian Space Alien Seeks Same (2012) (TMDb: 105538)           |
+[2022-09-29 07:56:18,541] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-09-29 07:56:18,541] [builder.py:2249]           [INFO]     | 367 Movies Missing                                                                                 |
+[2022-09-29 07:56:19,009] [plex.py:711]               [DEBUG]    | Smart Collection Test: ?type=1&sort=random&label=213034                                            |
+[2022-09-29 07:56:19,061] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-09-29 07:56:19,061] [builder.py:2442]           [INFO]     |============================== Updating Details of LGBTQ+ Collection ===============================|
+[2022-09-29 07:56:19,062] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-09-29 07:56:19,219] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | LGBTQ+ film is a genre of films where the characters decpict lesbian, gay, bisexual, transgender, queer and intersex people.
+                                                                 | Sort Title | +3_LGBTQ+
+                                                                 | Label | +PMM
+[2022-09-29 07:56:19,407] [builder.py:2513]           [INFO]     | Details: have been updated
+[2022-09-29 07:56:19,407] [builder.py:2517]           [INFO]     | 
+[2022-09-29 07:56:19,408] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'LGBTQ+'
+[2022-09-29 07:56:19,440] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-09-29 07:56:19,441] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-09-29 07:56:19,441] [plex_meta_manager.py:709]  [INFO]     |                                     Finished LGBTQ+ Collection                                     |
+[2022-09-29 07:56:19,441] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:03:48                                    |
+[2022-09-29 07:56:19,441] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

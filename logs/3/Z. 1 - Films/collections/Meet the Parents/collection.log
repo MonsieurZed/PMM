@@ -1,0 +1,62 @@
+[2022-10-11 11:19:17,297] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:19:17,297] [builder.py:200]            [INFO]     |                            Meet the Parents Collection in Z. 1 - Films                             |
+[2022-10-11 11:19:17,297] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:19:17,297] [builder.py:201]            [INFO]     |                                                                                                    |
+[2022-10-11 11:19:17,297] [builder.py:206]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:19:17,298] [builder.py:222]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:17,298] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:19:17,298] [meta.py:129]               [DEBUG]    | Call: {'value': ['51509'], 'tmdb_collection': ['51509'], 'key_name': 'Meet the Parents', 'key': '51509', 'name': 'my_template'} |
+[2022-10-11 11:19:17,298] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:17,298] [meta.py:305]               [DEBUG]    | Variables: {'value': ['51509'], 'tmdb_collection': ['51509'], 'key_name': 'Meet the Parents', 'key': '51509', 'name': 'my_template', 'collection_name': 'Meet the Parents', 'mapping_name': 'Meet the Parents', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%2751509%27%5D', 'tmdb_collection_encoded': '%5B%2751509%27%5D', 'key_name_encoded': 'Meet%20the%20Parents', 'key_encoded': '51509', 'name_encoded': 'my_template', 'collection_name_encoded': 'Meet%20the%20Parents', 'mapping_name_encoded': 'Meet%20the%20Parents', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Meet the Parents'} |
+[2022-10-11 11:19:17,298] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:17,299] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:19:17,299] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:17,299] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:19:17,300] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:17,300] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['51509'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_Meet the Parents'} |
+[2022-10-11 11:19:17,300] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:17,300] [builder.py:230]            [INFO]     |============================== Validating Meet the Parents Attributes ==============================|
+[2022-10-11 11:19:17,300] [builder.py:620]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:17,301] [builder.py:621]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:19:17,301] [builder.py:622]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:19:17,301] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:17,301] [builder.py:657]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:19:17,301] [builder.py:658]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:19:17,301] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:17,301] [builder.py:657]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:19:17,301] [builder.py:658]            [DEBUG]    | Value: ['51509']                                                                                   |
+[2022-10-11 11:19:17,316] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:17,317] [builder.py:657]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:19:17,317] [builder.py:658]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:19:17,317] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:17,317] [builder.py:657]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:19:17,318] [builder.py:658]            [DEBUG]    | Value: +C1_Meet the Parents                                                                        |
+[2022-10-11 11:19:17,325] [plex.py:803]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:17,326] [plex.py:806]               [DEBUG]    | Looking for: Meet the Parents                                                                      |
+[2022-10-11 11:19:17,326] [builder.py:823]            [INFO]     |                                                                                                    |
+[2022-10-11 11:19:17,326] [builder.py:824]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:19:17,326] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:17,326] [plex_meta_manager.py:563]  [INFO]     |=============================== Running Meet the Parents Collection ================================|
+[2022-10-11 11:19:17,326] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:17,327] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:19:17,327] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:17,327] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 51509                                                                    |
+[2022-10-11 11:19:17,327] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:17,332] [tmdb.py:381]               [INFO]     | Processing TMDb Collection: (51509) Mon beau-père - Saga (3 Items)                                 |
+[2022-10-11 11:19:17,332] [builder.py:1581]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:17,332] [builder.py:1582]           [DEBUG]    | 3 IDs Found: [(693, 'tmdb'), (39451, 'tmdb'), (1597, 'tmdb')]                                      |
+[2022-10-11 11:19:17,332] [builder.py:1583]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:17,333] [builder.py:2300]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:17,333] [builder.py:2301]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-10-11 11:19:17,333] [builder.py:2302]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:17,339] [builder.py:2315]           [INFO]     | Meet the Parents Collection | ? | Little Fockers (2010) (TMDb: 39451)                              |
+[2022-10-11 11:19:17,409] [builder.py:2315]           [INFO]     | Meet the Parents Collection | ? | Meet the Parents (2000) (TMDb: 1597)                             |
+[2022-10-11 11:19:17,409] [builder.py:2320]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:17,409] [builder.py:2321]           [INFO]     | 2 Movies Missing                                                                                   |
+[2022-10-11 11:19:17,464] [plex_meta_manager.py:624]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:17,464] [plex_meta_manager.py:625]  [INFO]     | Collection Minimum: 2 not met for Meet the Parents Collection                                      |
+[2022-10-11 11:19:17,465] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:17,465] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:19:17,465] [plex_meta_manager.py:709]  [INFO]     |                                Finished Meet the Parents Collection                                |
+[2022-10-11 11:19:17,465] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 11:19:17,465] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

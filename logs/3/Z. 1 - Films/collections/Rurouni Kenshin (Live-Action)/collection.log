@@ -1,0 +1,77 @@
+[2022-10-11 11:18:58,461] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:18:58,461] [builder.py:200]            [INFO]     |                      Rurouni Kenshin (Live-Action) Collection in Z. 1 - Films                      |
+[2022-10-11 11:18:58,461] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:18:58,462] [builder.py:201]            [INFO]     |                                                                                                    |
+[2022-10-11 11:18:58,462] [builder.py:206]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:18:58,462] [builder.py:222]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:58,462] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:18:58,462] [meta.py:129]               [DEBUG]    | Call: {'value': ['247028'], 'tmdb_collection': ['247028'], 'key_name': 'Rurouni Kenshin (Live-Action)', 'key': '247028', 'name': 'my_template'} |
+[2022-10-11 11:18:58,462] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:58,463] [meta.py:305]               [DEBUG]    | Variables: {'value': ['247028'], 'tmdb_collection': ['247028'], 'key_name': 'Rurouni Kenshin (Live-Action)', 'key': '247028', 'name': 'my_template', 'collection_name': 'Rurouni Kenshin (Live-Action)', 'mapping_name': 'Rurouni Kenshin (Live-Action)', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%27247028%27%5D', 'tmdb_collection_encoded': '%5B%27247028%27%5D', 'key_name_encoded': 'Rurouni%20Kenshin%20%28Live-Action%29', 'key_encoded': '247028', 'name_encoded': 'my_template', 'collection_name_encoded': 'Rurouni%20Kenshin%20%28Live-Action%29', 'mapping_name_encoded': 'Rurouni%20Kenshin%20%28Live-Action%29', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Rurouni Kenshin (Live-Action)'} |
+[2022-10-11 11:18:58,463] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:58,463] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:18:58,463] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:58,463] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:18:58,464] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:58,464] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['247028'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_Rurouni Kenshin (Live-Action)'} |
+[2022-10-11 11:18:58,464] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:58,465] [builder.py:230]            [INFO]     |======================= Validating Rurouni Kenshin (Live-Action) Attributes ========================|
+[2022-10-11 11:18:58,465] [builder.py:620]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:58,465] [builder.py:621]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:18:58,465] [builder.py:622]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:18:58,465] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:58,465] [builder.py:657]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:18:58,465] [builder.py:658]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:18:58,466] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:58,466] [builder.py:657]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:18:58,466] [builder.py:658]            [DEBUG]    | Value: ['247028']                                                                                  |
+[2022-10-11 11:18:58,481] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:58,482] [builder.py:657]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:18:58,482] [builder.py:658]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:18:58,482] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:58,482] [builder.py:657]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:18:58,482] [builder.py:658]            [DEBUG]    | Value: +C1_Rurouni Kenshin (Live-Action)                                                           |
+[2022-10-11 11:18:58,702] [builder.py:823]            [INFO]     |                                                                                                    |
+[2022-10-11 11:18:58,703] [builder.py:824]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:18:58,703] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:58,703] [plex_meta_manager.py:563]  [INFO]     |========================= Running Rurouni Kenshin (Live-Action) Collection =========================|
+[2022-10-11 11:18:58,703] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:58,703] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:18:58,704] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:58,704] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 247028                                                                   |
+[2022-10-11 11:18:58,704] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:58,710] [tmdb.py:381]               [INFO]     | Processing TMDb Collection: (247028) Kenshin - Saga (5 Items)                                      |
+[2022-10-11 11:18:58,710] [builder.py:1581]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:58,710] [builder.py:1582]           [DEBUG]    | 5 IDs Found: [(127533, 'tmdb'), (221732, 'tmdb'), (221731, 'tmdb'), (602063, 'tmdb'), (672322, 'tmdb')] |
+[2022-10-11 11:18:58,711] [builder.py:1583]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:58,711] [builder.py:2132]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:58,711] [builder.py:2133]           [INFO]     |======================== Adding to Rurouni Kenshin (Live-Action) Collection ========================|
+[2022-10-11 11:18:58,711] [builder.py:2134]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:58,712] [builder.py:2148]           [INFO]     | 1/4 | Rurouni Kenshin (Live-Action) Collection | = | Kenshin : le vagabond (2012)                  |
+[2022-10-11 11:18:58,712] [builder.py:2148]           [INFO]     | 2/4 | Rurouni Kenshin (Live-Action) Collection | = | Kenshin : La Fin de la légende (2014)         |
+[2022-10-11 11:18:58,712] [builder.py:2148]           [INFO]     | 3/4 | Rurouni Kenshin (Live-Action) Collection | = | Kenshin : Kyoto Inferno (2014)                |
+[2022-10-11 11:18:58,712] [builder.py:2148]           [INFO]     | 4/4 | Rurouni Kenshin (Live-Action) Collection | = | Kenshin : Le Commencement (2021)              |
+[2022-10-11 11:18:58,712] [builder.py:2168]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:58,712] [builder.py:2170]           [INFO]     | 4 Movies Processed 0 Movies Added                                                                  |
+[2022-10-11 11:18:58,713] [builder.py:2300]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:58,713] [builder.py:2301]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-10-11 11:18:58,713] [builder.py:2302]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:58,726] [builder.py:2315]           [INFO]     | Rurouni Kenshin (Live-Action) Collection | ? | Rurouni Kenshin: The Final (2021) (TMDb: 602063)    |
+[2022-10-11 11:18:58,727] [builder.py:2320]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:58,727] [builder.py:2321]           [INFO]     | 1 Movie Missing                                                                                    |
+[2022-10-11 11:18:58,777] [builder.py:2521]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:58,777] [builder.py:2522]           [INFO]     |=================== Updating Details of Rurouni Kenshin (Live-Action) Collection ===================|
+[2022-10-11 11:18:58,777] [builder.py:2523]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:58,785] [builder.py:2589]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-10-11 11:18:58,785] [builder.py:2660]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Rurouni Kenshin (Live-Action)'                        |
+[2022-10-11 11:18:58,786] [util.py:171]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-10-11 11:18:58,786] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Poster: https://image.tmdb.org/t/p/original/yBYLuwZ1zbRBEKaZmwiThsEqUbC.jpg |
+[2022-10-11 11:18:58,786] [util.py:171]               [DEBUG]    | 1 background found:                                                                                |
+[2022-10-11 11:18:58,786] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Background: https://image.tmdb.org/t/p/original/jqmQLcdn3aEyc30nesZn7qixfoP.jpg |
+[2022-10-11 11:18:58,787] [library.py:173]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-10-11 11:18:58,788] [library.py:189]            [INFO]     | Detail: background update not needed                                                               |
+[2022-10-11 11:18:58,988] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:58,988] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:18:58,988] [plex_meta_manager.py:709]  [INFO]     |                         Finished Rurouni Kenshin (Live-Action) Collection                          |
+[2022-10-11 11:18:58,989] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 11:18:58,989] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

@@ -1,0 +1,63 @@
+[2022-10-11 11:19:28,227] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:19:28,227] [builder.py:200]            [INFO]     |                               Wild Things Collection in Z. 1 - Films                               |
+[2022-10-11 11:19:28,227] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:19:28,227] [builder.py:201]            [INFO]     |                                                                                                    |
+[2022-10-11 11:19:28,227] [builder.py:206]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:19:28,227] [builder.py:222]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:28,227] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:19:28,228] [meta.py:129]               [DEBUG]    | Call: {'value': ['33059'], 'tmdb_collection': ['33059'], 'key_name': 'Wild Things', 'key': '33059', 'name': 'my_template'} |
+[2022-10-11 11:19:28,228] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:28,228] [meta.py:305]               [DEBUG]    | Variables: {'value': ['33059'], 'tmdb_collection': ['33059'], 'key_name': 'Wild Things', 'key': '33059', 'name': 'my_template', 'collection_name': 'Wild Things', 'mapping_name': 'Wild Things', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%2733059%27%5D', 'tmdb_collection_encoded': '%5B%2733059%27%5D', 'key_name_encoded': 'Wild%20Things', 'key_encoded': '33059', 'name_encoded': 'my_template', 'collection_name_encoded': 'Wild%20Things', 'mapping_name_encoded': 'Wild%20Things', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Wild Things'} |
+[2022-10-11 11:19:28,228] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:28,228] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:19:28,228] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:28,229] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:19:28,230] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:28,230] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['33059'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_Wild Things'} |
+[2022-10-11 11:19:28,230] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:28,230] [builder.py:230]            [INFO]     |================================ Validating Wild Things Attributes =================================|
+[2022-10-11 11:19:28,230] [builder.py:620]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:28,230] [builder.py:621]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:19:28,230] [builder.py:622]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:19:28,230] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:28,231] [builder.py:657]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:19:28,231] [builder.py:658]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:19:28,231] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:28,231] [builder.py:657]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:19:28,231] [builder.py:658]            [DEBUG]    | Value: ['33059']                                                                                   |
+[2022-10-11 11:19:28,244] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:28,244] [builder.py:657]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:19:28,245] [builder.py:658]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:19:28,245] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:28,245] [builder.py:657]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:19:28,245] [builder.py:658]            [DEBUG]    | Value: +C1_Wild Things                                                                             |
+[2022-10-11 11:19:28,251] [plex.py:803]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:28,251] [plex.py:806]               [DEBUG]    | Looking for: Wild Things                                                                           |
+[2022-10-11 11:19:28,251] [builder.py:823]            [INFO]     |                                                                                                    |
+[2022-10-11 11:19:28,251] [builder.py:824]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:19:28,251] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:28,251] [plex_meta_manager.py:563]  [INFO]     |================================== Running Wild Things Collection ==================================|
+[2022-10-11 11:19:28,251] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:28,251] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:19:28,252] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:28,252] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 33059                                                                    |
+[2022-10-11 11:19:28,252] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:28,257] [tmdb.py:381]               [INFO]     | Processing TMDb Collection: (33059) Sexcrimes - Saga (4 Items)                                     |
+[2022-10-11 11:19:28,257] [builder.py:1581]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:28,257] [builder.py:1582]           [DEBUG]    | 4 IDs Found: [(617, 'tmdb'), (10367, 'tmdb'), (17124, 'tmdb'), (37708, 'tmdb')]                    |
+[2022-10-11 11:19:28,257] [builder.py:1583]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:28,257] [builder.py:2300]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:28,258] [builder.py:2301]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-10-11 11:19:28,258] [builder.py:2302]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:28,278] [builder.py:2315]           [INFO]     | Wild Things Collection | ? | Sexcrimes 2 (2004) (TMDb: 10367)                                      |
+[2022-10-11 11:19:28,310] [builder.py:2315]           [INFO]     | Wild Things Collection | ? | Sexcrimes - Diamants mortels (2005) (TMDb: 17124)                     |
+[2022-10-11 11:19:28,340] [builder.py:2315]           [INFO]     | Wild Things Collection | ? | Sexcrimes - Partie à 4 (2010) (TMDb: 37708)                           |
+[2022-10-11 11:19:28,340] [builder.py:2320]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:28,341] [builder.py:2321]           [INFO]     | 3 Movies Missing                                                                                   |
+[2022-10-11 11:19:28,404] [plex_meta_manager.py:624]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:28,404] [plex_meta_manager.py:625]  [INFO]     | Collection Minimum: 2 not met for Wild Things Collection                                           |
+[2022-10-11 11:19:28,404] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:28,404] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:19:28,405] [plex_meta_manager.py:709]  [INFO]     |                                  Finished Wild Things Collection                                   |
+[2022-10-11 11:19:28,405] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 11:19:28,405] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

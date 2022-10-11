@@ -1,0 +1,142 @@
+[2022-10-11 10:07:06,248] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 10:07:06,248] [builder.py:197]            [INFO]     |                             Music Collection in Z. 5 - Film Animation                              |
+[2022-10-11 10:07:06,248] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 10:07:06,248] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 10:07:06,248] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 10:07:06,249] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:07:06,249] [meta.py:128]               [DEBUG]    | Template Genre                                                                                     |
+[2022-10-11 10:07:06,249] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Genre')])                                                             |
+[2022-10-11 10:07:06,249] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:07:06,249] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Genre'), ('collection_name', 'Music'), ('mapping_name', 'Music'), ('library_type', 'movie'), ('library_name', 'Z. 5 - Film Animation'), ('name_encoded', 'Genre'), ('collection_name_encoded', 'Music'), ('mapping_name_encoded', 'Music'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%205%20-%20Film%20Animation'), ('collection_sort', 'Music')]) |
+[2022-10-11 10:07:06,250] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:07:06,250] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 10:07:06,250] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:07:06,250] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 10:07:06,250] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:07:06,251] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+3_Music', 'sync_mode': 'sync', 'smart_label': 'audience_rating.desc'} |
+[2022-10-11 10:07:06,251] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:07:06,251] [builder.py:219]            [INFO]     |=================================== Validating Music Attributes ====================================|
+[2022-10-11 10:07:06,251] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:07:06,251] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-11 10:07:06,251] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-11 10:07:06,251] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:07:06,252] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-11 10:07:06,252] [builder.py:544]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-10-11 10:07:06,270] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:07:06,270] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-11 10:07:06,270] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_MUSIC.png               |
+[2022-10-11 10:07:06,550] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:07:06,550] [builder.py:631]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-10-11 10:07:06,550] [builder.py:632]            [DEBUG]    | Value: [ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=music'), ('limit', 200)]), ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=music&sort=user_rating,desc'), ('limit', 200)])] |
+[2022-10-11 10:07:08,226] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:07:08,227] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-10-11 10:07:08,228] [builder.py:632]            [DEBUG]    | Value: Music film is genre that revolves around music being an integral part of the characters lives. |
+[2022-10-11 10:07:08,228] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:07:08,228] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 10:07:08,228] [builder.py:632]            [DEBUG]    | Value: +3_Music                                                                                    |
+[2022-10-11 10:07:08,234] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:07:08,234] [plex.py:793]               [DEBUG]    | Looking for: Music                                                                                 |
+[2022-10-11 10:07:08,234] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 10:07:08,234] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 10:07:08,234] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 10:07:08,234] [plex_meta_manager.py:563]  [INFO]     |===================================== Running Music Collection =====================================|
+[2022-10-11 10:07:08,234] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-10-11 10:07:08,235] [plex_meta_manager.py:570]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: audience_rating.desc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Music
+[2022-10-11 10:07:08,235] [plex_meta_manager.py:575]  [INFO]     | 
+[2022-10-11 10:07:08,235] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync
+[2022-10-11 10:07:08,236] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 10:07:08,236] [plex_meta_manager.py:580]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=music', 'limit': 200}
+[2022-10-11 10:07:08,236] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 10:07:08,236] [imdb.py:184]               [INFO]     | Processing IMDb List: 200 Items at https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=music
+[2022-10-11 10:07:11,844] [imdb.py:135]               [DEBUG]    | 47 IMDb IDs Found: ['tt3704428', 'tt2582802', 'tt10366460', 'tt1981677', 'tt6966692', 'tt3890160', 'tt2380307', 'tt3783958', 'tt1727824', 'tt5363618', 'tt0253474', 'tt0181875', 'tt0298203', 'tt1517451', 'tt0332379', 'tt4062536', 'tt0190590', 'tt0200550', 'tt0358273', 'tt2948372', 'tt8079248', 'tt0120888', 'tt1398426', 'tt0120855', 'tt0146882', 'tt0103855', 'tt0322330', 'tt0105793', 'tt1980929', 'tt2848292', 'tt0462590', 'tt1436562', 'tt0350258', 'tt0445922', 'tt1131729', 'tt2042568', 'tt0366548', 'tt0249462', 'tt0396555', 'tt0451079', 'tt1355630', 'tt0426931', 'tt0365830', 'tt0108394', 'tt1226229', 'tt0907657', 'tt0758766']
+[2022-10-11 10:07:11,844] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 10:07:11,845] [builder.py:1541]           [DEBUG]    | 47 IDs Found: [('tt3704428', 'imdb'), ('tt2582802', 'imdb'), ('tt10366460', 'imdb'), ('tt1981677', 'imdb'), ('tt6966692', 'imdb'), ('tt3890160', 'imdb'), ('tt2380307', 'imdb'), ('tt3783958', 'imdb'), ('tt1727824', 'imdb'), ('tt5363618', 'imdb'), ('tt0253474', 'imdb'), ('tt0181875', 'imdb'), ('tt0298203', 'imdb'), ('tt1517451', 'imdb'), ('tt0332379', 'imdb'), ('tt4062536', 'imdb'), ('tt0190590', 'imdb'), ('tt0200550', 'imdb'), ('tt0358273', 'imdb'), ('tt2948372', 'imdb'), ('tt8079248', 'imdb'), ('tt0120888', 'imdb'), ('tt1398426', 'imdb'), ('tt0120855', 'imdb'), ('tt0146882', 'imdb'), ('tt0103855', 'imdb'), ('tt0322330', 'imdb'), ('tt0105793', 'imdb'), ('tt1980929', 'imdb'), ('tt2848292', 'imdb'), ('tt0462590', 'imdb'), ('tt1436562', 'imdb'), ('tt0350258', 'imdb'), ('tt0445922', 'imdb'), ('tt1131729', 'imdb'), ('tt2042568', 'imdb'), ('tt0366548', 'imdb'), ('tt0249462', 'imdb'), ('tt0396555', 'imdb'), ('tt0451079', 'imdb'), ('tt1355630', 'imdb'), ('tt0426931', 'imdb'), ('tt0365830', 'imdb'), ('tt0108394', 'imdb'), ('tt1226229', 'imdb'), ('tt0907657', 'imdb'), ('tt0758766', 'imdb')]
+[2022-10-11 10:07:11,845] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 10:07:12,018] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 10:07:12,020] [plex_meta_manager.py:580]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=music&sort=user_rating,desc', 'limit': 200}
+[2022-10-11 10:07:12,020] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 10:07:12,020] [imdb.py:184]               [INFO]     | Processing IMDb List: 200 Items at https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=music&sort=user_rating,desc
+[2022-10-11 10:07:15,506] [imdb.py:135]               [DEBUG]    | 47 IMDb IDs Found: ['tt2582802', 'tt0253474', 'tt2380307', 'tt6966692', 'tt3783958', 'tt2948372', 'tt10366460', 'tt1727824', 'tt0181875', 'tt0108394', 'tt1398426', 'tt0907657', 'tt0358273', 'tt5363618', 'tt0350258', 'tt0249462', 'tt0190590', 'tt3890160', 'tt1517451', 'tt3704428', 'tt2042568', 'tt1980929', 'tt0426931', 'tt0146882', 'tt1131729', 'tt0445922', 'tt0120855', 'tt0332379', 'tt0298203', 'tt1981677', 'tt4062536', 'tt0105793', 'tt1436562', 'tt0120888', 'tt8079248', 'tt0451079', 'tt0396555', 'tt0365830', 'tt1355630', 'tt0758766', 'tt0462590', 'tt2848292', 'tt0366548', 'tt1226229', 'tt0322330', 'tt0103855', 'tt0200550']
+[2022-10-11 10:07:15,506] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 10:07:15,506] [builder.py:1541]           [DEBUG]    | 47 IDs Found: [('tt2582802', 'imdb'), ('tt0253474', 'imdb'), ('tt2380307', 'imdb'), ('tt6966692', 'imdb'), ('tt3783958', 'imdb'), ('tt2948372', 'imdb'), ('tt10366460', 'imdb'), ('tt1727824', 'imdb'), ('tt0181875', 'imdb'), ('tt0108394', 'imdb'), ('tt1398426', 'imdb'), ('tt0907657', 'imdb'), ('tt0358273', 'imdb'), ('tt5363618', 'imdb'), ('tt0350258', 'imdb'), ('tt0249462', 'imdb'), ('tt0190590', 'imdb'), ('tt3890160', 'imdb'), ('tt1517451', 'imdb'), ('tt3704428', 'imdb'), ('tt2042568', 'imdb'), ('tt1980929', 'imdb'), ('tt0426931', 'imdb'), ('tt0146882', 'imdb'), ('tt1131729', 'imdb'), ('tt0445922', 'imdb'), ('tt0120855', 'imdb'), ('tt0332379', 'imdb'), ('tt0298203', 'imdb'), ('tt1981677', 'imdb'), ('tt4062536', 'imdb'), ('tt0105793', 'imdb'), ('tt1436562', 'imdb'), ('tt0120888', 'imdb'), ('tt8079248', 'imdb'), ('tt0451079', 'imdb'), ('tt0396555', 'imdb'), ('tt0365830', 'imdb'), ('tt1355630', 'imdb'), ('tt0758766', 'imdb'), ('tt0462590', 'imdb'), ('tt2848292', 'imdb'), ('tt0366548', 'imdb'), ('tt1226229', 'imdb'), ('tt0322330', 'imdb'), ('tt0103855', 'imdb'), ('tt0200550', 'imdb')]
+[2022-10-11 10:07:15,507] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 10:07:15,540] [builder.py:2064]           [INFO]     | 
+[2022-10-11 10:07:15,541] [builder.py:2065]           [INFO]     |==================================== Adding to Music Collection ====================================|
+[2022-10-11 10:07:15,542] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-11 10:07:15,556] [builder.py:2080]           [INFO]     | 1/4 | Music Collection | + | Soul (2020)                                                           |
+[2022-10-11 10:07:15,579] [builder.py:2080]           [INFO]     | 2/4 | Music Collection | + | Tarzan (1999)                                                         |
+[2022-10-11 10:07:15,598] [builder.py:2080]           [INFO]     | 3/4 | Music Collection | + | Rio (2011)                                                            |
+[2022-10-11 10:07:15,664] [builder.py:2080]           [INFO]     | 4/4 | Music Collection | + | Bienvenue chez les Robinson (2007)                                    |
+[2022-10-11 10:07:16,882] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-11 10:07:16,882] [builder.py:2102]           [INFO]     | 4 Movies Processed 4 Movies Added                                                                  |
+[2022-10-11 10:07:16,882] [builder.py:2228]           [INFO]     |                                                                                                    |
+[2022-10-11 10:07:16,882] [builder.py:2229]           [INFO]     |======================== Missing Movies from Library: Z. 5 - Film Animation ========================|
+[2022-10-11 10:07:16,882] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-10-11 10:07:16,895] [builder.py:2243]           [INFO]     | Music Collection | ? | Elvis (2022) (TMDb: 614934)                                                 |
+[2022-10-11 10:07:16,937] [builder.py:2243]           [INFO]     | Music Collection | ? | Whiplash (2014) (TMDb: 244786)                                              |
+[2022-10-11 10:07:16,948] [builder.py:2243]           [INFO]     | Music Collection | ? | CODA (2021) (TMDb: 776503)                                                  |
+[2022-10-11 10:07:16,979] [builder.py:2243]           [INFO]     | Music Collection | ? | Pitch Perfect (2012) (TMDb: 114150)                                         |
+[2022-10-11 10:07:16,997] [builder.py:2243]           [INFO]     | Music Collection | ? | Green Book (2018) (TMDb: 490132)                                            |
+[2022-10-11 10:07:17,014] [builder.py:2243]           [INFO]     | Music Collection | ? | Baby Driver (2017) (TMDb: 339403)                                           |
+[2022-10-11 10:07:17,038] [builder.py:2243]           [INFO]     | Music Collection | ? | Coco (2017) (TMDb: 354912)                                                  |
+[2022-10-11 10:07:17,047] [builder.py:2243]           [INFO]     | Music Collection | ? | La La Land (2016) (TMDb: 313369)                                            |
+[2022-10-11 10:07:17,071] [builder.py:2243]           [INFO]     | Music Collection | ? | Bohemian Rhapsody (2018) (TMDb: 424694)                                     |
+[2022-10-11 10:07:17,080] [builder.py:2243]           [INFO]     | Music Collection | ? | Sound of Metal (2020) (TMDb: 502033)                                        |
+[2022-10-11 10:07:17,104] [builder.py:2243]           [INFO]     | Music Collection | ? | The Pianist (2002) (TMDb: 423)                                              |
+[2022-10-11 10:07:17,131] [builder.py:2243]           [INFO]     | Music Collection | ? | Almost Famous (2000) (TMDb: 786)                                            |
+[2022-10-11 10:07:17,147] [builder.py:2243]           [INFO]     | Music Collection | ? | 8 Mile (2002) (TMDb: 65)                                                    |
+[2022-10-11 10:07:17,189] [builder.py:2243]           [INFO]     | Music Collection | ? | A Star Is Born (2018) (TMDb: 332562)                                        |
+[2022-10-11 10:07:17,205] [builder.py:2243]           [INFO]     | Music Collection | ? | School of Rock (2003) (TMDb: 1584)                                          |
+[2022-10-11 10:07:17,223] [builder.py:2243]           [INFO]     | Music Collection | ? | Green Room (2015) (TMDb: 313922)                                            |
+[2022-10-11 10:07:17,243] [builder.py:2243]           [INFO]     | Music Collection | ? | O Brother, Where Art Thou? (2000) (TMDb: 134)                               |
+[2022-10-11 10:07:17,256] [builder.py:2243]           [INFO]     | Music Collection | ? | Coyote Ugly (2000) (TMDb: 6282)                                             |
+[2022-10-11 10:07:17,298] [builder.py:2243]           [INFO]     | Music Collection | ? | Walk the Line (2005) (TMDb: 69)                                             |
+[2022-10-11 10:07:17,314] [builder.py:2243]           [INFO]     | Music Collection | ? | Yesterday (2019) (TMDb: 515195)                                             |
+[2022-10-11 10:07:17,337] [builder.py:2243]           [INFO]     | Music Collection | ? | The Wedding Singer (1998) (TMDb: 11003)                                     |
+[2022-10-11 10:07:17,348] [builder.py:2243]           [INFO]     | Music Collection | ? | Straight Outta Compton (2015) (TMDb: 277216)                                |
+[2022-10-11 10:07:17,398] [builder.py:2243]           [INFO]     | Music Collection | ? | High Fidelity (2000) (TMDb: 243)                                            |
+[2022-10-11 10:07:17,410] [builder.py:2243]           [INFO]     | Music Collection | ? | The Bodyguard (1992) (TMDb: 619)                                            |
+[2022-10-11 10:07:17,448] [builder.py:2243]           [INFO]     | Music Collection | ? | Freaky Friday (2003) (TMDb: 10330)                                          |
+[2022-10-11 10:07:17,465] [builder.py:2243]           [INFO]     | Music Collection | ? | Wayne's World (1992) (TMDb: 8872)                                           |
+[2022-10-11 10:07:17,514] [builder.py:2243]           [INFO]     | Music Collection | ? | Begin Again (2013) (TMDb: 198277)                                           |
+[2022-10-11 10:07:17,517] [builder.py:2243]           [INFO]     | Music Collection | ? | Pitch Perfect 2 (2015) (TMDb: 254470)                                       |
+[2022-10-11 10:07:17,532] [builder.py:2243]           [INFO]     | Music Collection | ? | Step Up (2006) (TMDb: 9762)                                                 |
+[2022-10-11 10:07:17,554] [builder.py:2243]           [INFO]     | Music Collection | ? | Ray (2004) (TMDb: 1677)                                                     |
+[2022-10-11 10:07:17,582] [builder.py:2243]           [INFO]     | Music Collection | ? | Across the Universe (2007) (TMDb: 4688)                                     |
+[2022-10-11 10:07:17,598] [builder.py:2243]           [INFO]     | Music Collection | ? | The Boat That Rocked (2009) (TMDb: 18947)                                   |
+[2022-10-11 10:07:17,599] [builder.py:2243]           [INFO]     | Music Collection | ? | Inside Llewyn Davis (2013) (TMDb: 86829)                                    |
+[2022-10-11 10:07:17,637] [builder.py:2243]           [INFO]     | Music Collection | ? | Happy Feet (2006) (TMDb: 9836)                                              |
+[2022-10-11 10:07:17,664] [builder.py:2243]           [INFO]     | Music Collection | ? | Billy Elliot (2000) (TMDb: 71)                                              |
+[2022-10-11 10:07:17,696] [builder.py:2243]           [INFO]     | Music Collection | ? | Horton Hears a Who! (2008) (TMDb: 12222)                                    |
+[2022-10-11 10:07:17,722] [builder.py:2243]           [INFO]     | Music Collection | ? | If I Stay (2014) (TMDb: 249164)                                             |
+[2022-10-11 10:07:17,754] [builder.py:2243]           [INFO]     | Music Collection | ? | August Rush (2007) (TMDb: 5123)                                             |
+[2022-10-11 10:07:17,781] [builder.py:2243]           [INFO]     | Music Collection | ? | Tenacious D in The Pick of Destiny (2006) (TMDb: 2179)                      |
+[2022-10-11 10:07:17,812] [builder.py:2243]           [INFO]     | Music Collection | ? | Three Colors: Blue (1993) (TMDb: 108)                                       |
+[2022-10-11 10:07:17,839] [builder.py:2243]           [INFO]     | Music Collection | ? | American trip (2010) (TMDb: 32823)                                          |
+[2022-10-11 10:07:17,889] [builder.py:2243]           [INFO]     | Music Collection | ? | Once (2006) (TMDb: 5723)                                                    |
+[2022-10-11 10:07:17,915] [builder.py:2243]           [INFO]     | Music Collection | ? | Music and Lyrics (2007) (TMDb: 11172)                                       |
+[2022-10-11 10:07:17,915] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-10-11 10:07:17,915] [builder.py:2249]           [INFO]     | 43 Movies Missing                                                                                  |
+[2022-10-11 10:07:19,276] [plex.py:711]               [DEBUG]    | Smart Collection Test: ?type=1&sort=audienceRating%3Adesc&label=213038                             |
+[2022-10-11 10:07:19,317] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-11 10:07:19,317] [builder.py:2442]           [INFO]     |=============================== Updating Details of Music Collection ===============================|
+[2022-10-11 10:07:19,317] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-11 10:07:19,590] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Music film is genre that revolves around music being an integral part of the characters lives.
+                                                                 | Sort Title | +3_Music
+                                                                 | Label | +PMM
+[2022-10-11 10:07:19,876] [builder.py:2513]           [INFO]     | Details: have been updated
+[2022-10-11 10:07:19,876] [builder.py:2517]           [INFO]     | 
+[2022-10-11 10:07:19,876] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Music'
+[2022-10-11 10:07:19,877] [util.py:150]               [DEBUG]    | 1 poster found:
+[2022-10-11 10:07:19,877] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_MUSIC.png
+[2022-10-11 10:07:19,958] [library.py:170]            [INFO]     | Detail: url_poster updated poster to [URL] https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_MUSIC.png
+[2022-10-11 10:07:19,992] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-11 10:07:19,992] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 10:07:19,993] [plex_meta_manager.py:709]  [INFO]     |                                     Finished Music Collection                                      |
+[2022-10-11 10:07:19,993] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:13                                    |
+[2022-10-11 10:07:19,993] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

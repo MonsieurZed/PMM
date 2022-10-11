@@ -1,0 +1,82 @@
+[2022-10-11 11:18:50,610] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:18:50,610] [builder.py:200]            [INFO]     |                               Hellraiser Collection in Z. 1 - Films                                |
+[2022-10-11 11:18:50,611] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:18:50,611] [builder.py:201]            [INFO]     |                                                                                                    |
+[2022-10-11 11:18:50,611] [builder.py:206]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:18:50,611] [builder.py:222]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:50,611] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:18:50,611] [meta.py:129]               [DEBUG]    | Call: {'value': ['8917'], 'tmdb_collection': ['8917'], 'key_name': 'Hellraiser', 'key': '8917', 'name': 'my_template'} |
+[2022-10-11 11:18:50,612] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:50,612] [meta.py:305]               [DEBUG]    | Variables: {'value': ['8917'], 'tmdb_collection': ['8917'], 'key_name': 'Hellraiser', 'key': '8917', 'name': 'my_template', 'collection_name': 'Hellraiser', 'mapping_name': 'Hellraiser', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%278917%27%5D', 'tmdb_collection_encoded': '%5B%278917%27%5D', 'key_name_encoded': 'Hellraiser', 'key_encoded': '8917', 'name_encoded': 'my_template', 'collection_name_encoded': 'Hellraiser', 'mapping_name_encoded': 'Hellraiser', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Hellraiser'} |
+[2022-10-11 11:18:50,612] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:50,612] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:18:50,612] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:50,612] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:18:50,613] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:50,614] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['8917'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_Hellraiser'} |
+[2022-10-11 11:18:50,614] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:50,614] [builder.py:230]            [INFO]     |================================= Validating Hellraiser Attributes =================================|
+[2022-10-11 11:18:50,614] [builder.py:620]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:50,614] [builder.py:621]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:18:50,614] [builder.py:622]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:18:50,615] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:50,615] [builder.py:657]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:18:50,615] [builder.py:658]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:18:50,615] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:50,615] [builder.py:657]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:18:50,615] [builder.py:658]            [DEBUG]    | Value: ['8917']                                                                                    |
+[2022-10-11 11:18:50,630] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:50,630] [builder.py:657]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:18:50,631] [builder.py:658]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:18:50,631] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:50,631] [builder.py:657]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:18:50,631] [builder.py:658]            [DEBUG]    | Value: +C1_Hellraiser                                                                              |
+[2022-10-11 11:18:50,953] [builder.py:823]            [INFO]     |                                                                                                    |
+[2022-10-11 11:18:50,953] [builder.py:824]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:18:50,954] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:50,954] [plex_meta_manager.py:563]  [INFO]     |================================== Running Hellraiser Collection ===================================|
+[2022-10-11 11:18:50,954] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:50,954] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:18:50,954] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:50,955] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 8917                                                                     |
+[2022-10-11 11:18:50,955] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:50,965] [tmdb.py:381]               [INFO]     | Processing TMDb Collection: (8917) Hellraiser - Saga (10 Items)                                    |
+[2022-10-11 11:18:50,965] [builder.py:1581]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:50,965] [builder.py:1582]           [DEBUG]    | 10 IDs Found: [(8766, 'tmdb'), (9003, 'tmdb'), (11246, 'tmdb'), (11569, 'tmdb'), (12597, 'tmdb'), (12699, 'tmdb'), (17455, 'tmdb'), (9064, 'tmdb'), (70584, 'tmdb'), (444149, 'tmdb')] |
+[2022-10-11 11:18:50,965] [builder.py:1583]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:50,966] [builder.py:2132]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:50,966] [builder.py:2133]           [INFO]     |================================= Adding to Hellraiser Collection ==================================|
+[2022-10-11 11:18:50,966] [builder.py:2134]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:50,967] [builder.py:2148]           [INFO]     | 1/8 | Hellraiser Collection | = | Hellraiser : Bloodline (1996)                                    |
+[2022-10-11 11:18:50,967] [builder.py:2148]           [INFO]     | 2/8 | Hellraiser Collection | = | Hellraiser : Le Pacte (1987)                                     |
+[2022-10-11 11:18:50,967] [builder.py:2148]           [INFO]     | 3/8 | Hellraiser Collection | = | Hellraiser : Hellseeker (2002)                                   |
+[2022-10-11 11:18:50,967] [builder.py:2148]           [INFO]     | 4/8 | Hellraiser Collection | = | Hellraiser 3 : L'Enfer sur Terre (1992)                          |
+[2022-10-11 11:18:50,968] [builder.py:2148]           [INFO]     | 5/8 | Hellraiser Collection | = | Hellraiser : Inferno (2000)                                      |
+[2022-10-11 11:18:50,968] [builder.py:2148]           [INFO]     | 6/8 | Hellraiser Collection | = | Hellraiser : Hellworld (2005)                                    |
+[2022-10-11 11:18:50,968] [builder.py:2148]           [INFO]     | 7/8 | Hellraiser Collection | = | Hellraiser : Deader (2005)                                       |
+[2022-10-11 11:18:50,968] [builder.py:2148]           [INFO]     | 8/8 | Hellraiser Collection | = | Hellraiser 2 : Les Écorchés (1988)                               |
+[2022-10-11 11:18:50,968] [builder.py:2168]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:50,968] [builder.py:2170]           [INFO]     | 8 Movies Processed 0 Movies Added                                                                  |
+[2022-10-11 11:18:50,968] [builder.py:2300]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:50,969] [builder.py:2301]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-10-11 11:18:50,969] [builder.py:2302]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:50,992] [builder.py:2315]           [INFO]     | Hellraiser Collection | ? | Hellraiser : Révélations (2011) (TMDb: 70584)                          |
+[2022-10-11 11:18:51,006] [builder.py:2315]           [INFO]     | Hellraiser Collection | ? | Hellraiser : Judgment (2018) (TMDb: 444149)                            |
+[2022-10-11 11:18:51,006] [builder.py:2320]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:51,006] [builder.py:2321]           [INFO]     | 2 Movies Missing                                                                                   |
+[2022-10-11 11:18:51,071] [builder.py:2521]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:51,071] [builder.py:2522]           [INFO]     |============================ Updating Details of Hellraiser Collection =============================|
+[2022-10-11 11:18:51,072] [builder.py:2523]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:51,085] [builder.py:2589]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-10-11 11:18:51,085] [builder.py:2660]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Hellraiser'                                           |
+[2022-10-11 11:18:51,086] [util.py:171]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-10-11 11:18:51,086] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Poster: https://image.tmdb.org/t/p/original/lIK0UgJsA18Z5I1PwpucXzgyF3A.jpg |
+[2022-10-11 11:18:51,086] [util.py:171]               [DEBUG]    | 1 background found:                                                                                |
+[2022-10-11 11:18:51,086] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Background: https://image.tmdb.org/t/p/original/yegb4BlccyBq7vkDAbSCaNNu5zg.jpg |
+[2022-10-11 11:18:51,087] [library.py:173]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-10-11 11:18:51,088] [library.py:189]            [INFO]     | Detail: background update not needed                                                               |
+[2022-10-11 11:18:51,415] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:51,416] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:18:51,416] [plex_meta_manager.py:709]  [INFO]     |                                   Finished Hellraiser Collection                                   |
+[2022-10-11 11:18:51,416] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 11:18:51,416] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

@@ -1,0 +1,69 @@
+[2022-10-11 11:18:25,143] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:18:25,144] [builder.py:200]            [INFO]     |                               Babysitting Collection in Z. 1 - Films                               |
+[2022-10-11 11:18:25,144] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:18:25,144] [builder.py:201]            [INFO]     |                                                                                                    |
+[2022-10-11 11:18:25,144] [builder.py:206]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:18:25,144] [builder.py:222]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:25,145] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:18:25,145] [meta.py:129]               [DEBUG]    | Call: {'value': ['331841'], 'tmdb_collection': ['331841'], 'key_name': 'Babysitting', 'key': '331841', 'name': 'my_template'} |
+[2022-10-11 11:18:25,145] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:25,145] [meta.py:305]               [DEBUG]    | Variables: {'value': ['331841'], 'tmdb_collection': ['331841'], 'key_name': 'Babysitting', 'key': '331841', 'name': 'my_template', 'collection_name': 'Babysitting', 'mapping_name': 'Babysitting', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%27331841%27%5D', 'tmdb_collection_encoded': '%5B%27331841%27%5D', 'key_name_encoded': 'Babysitting', 'key_encoded': '331841', 'name_encoded': 'my_template', 'collection_name_encoded': 'Babysitting', 'mapping_name_encoded': 'Babysitting', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Babysitting'} |
+[2022-10-11 11:18:25,145] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:25,146] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:18:25,146] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:25,146] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:18:25,147] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:25,147] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['331841'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_Babysitting'} |
+[2022-10-11 11:18:25,147] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:25,148] [builder.py:230]            [INFO]     |================================ Validating Babysitting Attributes =================================|
+[2022-10-11 11:18:25,148] [builder.py:620]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:25,148] [builder.py:621]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:18:25,148] [builder.py:622]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:18:25,148] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:25,148] [builder.py:657]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:18:25,149] [builder.py:658]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:18:25,149] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:25,149] [builder.py:657]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:18:25,149] [builder.py:658]            [DEBUG]    | Value: ['331841']                                                                                  |
+[2022-10-11 11:18:25,163] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:25,163] [builder.py:657]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:18:25,163] [builder.py:658]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:18:25,164] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:25,164] [builder.py:657]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:18:25,164] [builder.py:658]            [DEBUG]    | Value: +C1_Babysitting                                                                             |
+[2022-10-11 11:18:25,473] [builder.py:823]            [INFO]     |                                                                                                    |
+[2022-10-11 11:18:25,473] [builder.py:824]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:18:25,473] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:25,474] [plex_meta_manager.py:563]  [INFO]     |================================== Running Babysitting Collection ==================================|
+[2022-10-11 11:18:25,474] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:25,474] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:18:25,474] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:25,474] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 331841                                                                   |
+[2022-10-11 11:18:25,474] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:25,482] [tmdb.py:381]               [INFO]     | Processing TMDb Collection: (331841) Babysitting - Saga (2 Items)                                  |
+[2022-10-11 11:18:25,482] [builder.py:1581]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:25,482] [builder.py:1582]           [DEBUG]    | 2 IDs Found: [(262551, 'tmdb'), (331836, 'tmdb')]                                                  |
+[2022-10-11 11:18:25,483] [builder.py:1583]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:25,483] [builder.py:2132]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:25,483] [builder.py:2133]           [INFO]     |================================= Adding to Babysitting Collection =================================|
+[2022-10-11 11:18:25,483] [builder.py:2134]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:25,484] [builder.py:2148]           [INFO]     | 1/2 | Babysitting Collection | = | Babysitting (2014)                                              |
+[2022-10-11 11:18:25,484] [builder.py:2148]           [INFO]     | 2/2 | Babysitting Collection | = | Babysitting 2 (2015)                                            |
+[2022-10-11 11:18:25,484] [builder.py:2168]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:25,484] [builder.py:2170]           [INFO]     | 2 Movies Processed 0 Movies Added                                                                  |
+[2022-10-11 11:18:25,493] [builder.py:2521]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:25,493] [builder.py:2522]           [INFO]     |============================ Updating Details of Babysitting Collection ============================|
+[2022-10-11 11:18:25,493] [builder.py:2523]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:25,505] [builder.py:2589]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-10-11 11:18:25,506] [builder.py:2660]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Babysitting'                                          |
+[2022-10-11 11:18:25,506] [util.py:171]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-10-11 11:18:25,506] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Poster: https://image.tmdb.org/t/p/original/83k6wF9pW0rNFDcvYuy0gt03BCC.jpg |
+[2022-10-11 11:18:25,506] [util.py:171]               [DEBUG]    | 1 background found:                                                                                |
+[2022-10-11 11:18:25,506] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Background: https://image.tmdb.org/t/p/original/46BxyVfw1mGxcCCboHJ2Ww0W2Wc.jpg |
+[2022-10-11 11:18:25,508] [library.py:173]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-10-11 11:18:25,509] [library.py:189]            [INFO]     | Detail: background update not needed                                                               |
+[2022-10-11 11:18:25,753] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:25,753] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:18:25,753] [plex_meta_manager.py:709]  [INFO]     |                                  Finished Babysitting Collection                                   |
+[2022-10-11 11:18:25,753] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 11:18:25,753] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

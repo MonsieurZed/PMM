@@ -1,0 +1,164 @@
+[2022-10-11 10:08:04,663] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 10:08:04,663] [builder.py:197]            [INFO]     |                             Sports Collection in Z. 5 - Film Animation                             |
+[2022-10-11 10:08:04,663] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 10:08:04,663] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 10:08:04,664] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 10:08:04,664] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:08:04,664] [meta.py:128]               [DEBUG]    | Template Genre                                                                                     |
+[2022-10-11 10:08:04,664] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Genre')])                                                             |
+[2022-10-11 10:08:04,664] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:08:04,664] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Genre'), ('collection_name', 'Sports'), ('mapping_name', 'Sports'), ('library_type', 'movie'), ('library_name', 'Z. 5 - Film Animation'), ('name_encoded', 'Genre'), ('collection_name_encoded', 'Sports'), ('mapping_name_encoded', 'Sports'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%205%20-%20Film%20Animation'), ('collection_sort', 'Sports')]) |
+[2022-10-11 10:08:04,664] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:08:04,665] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 10:08:04,665] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:08:04,665] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 10:08:04,665] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:08:04,666] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+3_Sports', 'sync_mode': 'sync', 'smart_label': 'audience_rating.desc'} |
+[2022-10-11 10:08:04,666] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:08:04,666] [builder.py:219]            [INFO]     |=================================== Validating Sports Attributes ===================================|
+[2022-10-11 10:08:04,666] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:08:04,666] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-11 10:08:04,666] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-11 10:08:04,666] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:08:04,666] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-11 10:08:04,667] [builder.py:544]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-10-11 10:08:04,682] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:08:04,682] [builder.py:631]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-10-11 10:08:04,682] [builder.py:632]            [DEBUG]    | Value: ordereddict([('genre', 'Sport')])                                                           |
+[2022-10-11 10:08:04,734] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:08:04,734] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-11 10:08:04,735] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_SPORTS.png              |
+[2022-10-11 10:08:04,959] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:08:04,960] [builder.py:631]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-10-11 10:08:04,960] [builder.py:632]            [DEBUG]    | Value: [ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=sport'), ('limit', 200)]), ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=sport&sort=user_rating,desc'), ('limit', 200)])] |
+[2022-10-11 10:08:06,638] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:08:06,639] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-10-11 10:08:06,639] [builder.py:632]            [DEBUG]    | Value: A Sport Film revolves around a sport setting, event, or an athlete. Often, these films will center on a single sporting event that carries significant importance. Sports films traditionally have a simple plot that builds up to the significant sporting event. This genre is known for incorporating film techniques to build anticipation and intensity. Sport films have a large range of sub-genres, from comedies to dramas, and are more likely than other genres to be based true-life events. |
+[2022-10-11 10:08:06,639] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:08:06,639] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 10:08:06,640] [builder.py:632]            [DEBUG]    | Value: +3_Sports                                                                                   |
+[2022-10-11 10:08:06,645] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:08:06,645] [plex.py:793]               [DEBUG]    | Looking for: Sports                                                                                |
+[2022-10-11 10:08:06,645] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 10:08:06,645] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 10:08:06,645] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 10:08:06,646] [plex_meta_manager.py:563]  [INFO]     |==================================== Running Sports Collection =====================================|
+[2022-10-11 10:08:06,646] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-10-11 10:08:06,646] [plex_meta_manager.py:570]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: audience_rating.desc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Sports
+[2022-10-11 10:08:06,647] [plex_meta_manager.py:575]  [INFO]     | 
+[2022-10-11 10:08:06,647] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync
+[2022-10-11 10:08:06,647] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 10:08:06,647] [plex_meta_manager.py:580]  [DEBUG]    | Builder: plex_search: (1, 'Plex Movie Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Genre is Sport', '?type=1&sort=titleSort&push=1&genre=36782&pop=1')
+[2022-10-11 10:08:06,647] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 10:08:06,647] [plex.py:819]               [INFO]     | Processing Plex Movie Search
+                                                                 | Sort By: title.asc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Match any of the following:
+                                                                 |       Genre is Sport
+[2022-10-11 10:08:06,681] [plex.py:864]               [DEBUG]    | 
+[2022-10-11 10:08:06,681] [plex.py:865]               [DEBUG]    | 7 Keys Found: [(22139, 'ratingKey'), (22292, 'ratingKey'), (88910, 'ratingKey'), (93902, 'ratingKey'), (19797, 'ratingKey'), (22393, 'ratingKey'), (22383, 'ratingKey')]
+[2022-10-11 10:08:06,682] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 10:08:06,682] [builder.py:1541]           [DEBUG]    | 7 IDs Found: [(22139, 'ratingKey'), (22292, 'ratingKey'), (88910, 'ratingKey'), (93902, 'ratingKey'), (19797, 'ratingKey'), (22393, 'ratingKey'), (22383, 'ratingKey')]
+[2022-10-11 10:08:06,682] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 10:08:06,682] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 10:08:06,682] [plex_meta_manager.py:580]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=sport', 'limit': 200}
+[2022-10-11 10:08:06,683] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 10:08:06,683] [imdb.py:184]               [INFO]     | Processing IMDb List: 200 Items at https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=sport
+[2022-10-11 10:08:10,288] [imdb.py:135]               [DEBUG]    | 47 IMDb IDs Found: ['tt1950186', 'tt8009428', 'tt0317219', 'tt0364725', 'tt1023111', 'tt0974661', 'tt1291584', 'tt0964517', 'tt1210166', 'tt9620288', 'tt0120484', 'tt0104694', 'tt4209788', 'tt0415306', 'tt0210945', 'tt5580036', 'tt0405159', 'tt0116483', 'tt0116695', 'tt0878804', 'tt1979320', 'tt1155076', 'tt1798684', 'tt1125849', 'tt1809398', 'tt0398165', 'tt0454945', 'tt3076658', 'tt1216475', 'tt0433035', 'tt0146838', 'tt0385002', 'tt0248667', 'tt0112461', 'tt0393162', 'tt6343314', 'tt1100089', 'tt1057500', 'tt0117705', 'tt0352248', 'tt0286499', 'tt0106611', 'tt0479143', 'tt0445934', 'tt5074352', 'tt0100507', 'tt0169102']
+[2022-10-11 10:08:10,289] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 10:08:10,289] [builder.py:1541]           [DEBUG]    | 47 IDs Found: [('tt1950186', 'imdb'), ('tt8009428', 'imdb'), ('tt0317219', 'imdb'), ('tt0364725', 'imdb'), ('tt1023111', 'imdb'), ('tt0974661', 'imdb'), ('tt1291584', 'imdb'), ('tt0964517', 'imdb'), ('tt1210166', 'imdb'), ('tt9620288', 'imdb'), ('tt0120484', 'imdb'), ('tt0104694', 'imdb'), ('tt4209788', 'imdb'), ('tt0415306', 'imdb'), ('tt0210945', 'imdb'), ('tt5580036', 'imdb'), ('tt0405159', 'imdb'), ('tt0116483', 'imdb'), ('tt0116695', 'imdb'), ('tt0878804', 'imdb'), ('tt1979320', 'imdb'), ('tt1155076', 'imdb'), ('tt1798684', 'imdb'), ('tt1125849', 'imdb'), ('tt1809398', 'imdb'), ('tt0398165', 'imdb'), ('tt0454945', 'imdb'), ('tt3076658', 'imdb'), ('tt1216475', 'imdb'), ('tt0433035', 'imdb'), ('tt0146838', 'imdb'), ('tt0385002', 'imdb'), ('tt0248667', 'imdb'), ('tt0112461', 'imdb'), ('tt0393162', 'imdb'), ('tt6343314', 'imdb'), ('tt1100089', 'imdb'), ('tt1057500', 'imdb'), ('tt0117705', 'imdb'), ('tt0352248', 'imdb'), ('tt0286499', 'imdb'), ('tt0106611', 'imdb'), ('tt0479143', 'imdb'), ('tt0445934', 'imdb'), ('tt5074352', 'imdb'), ('tt0100507', 'imdb'), ('tt0169102', 'imdb')]
+[2022-10-11 10:08:10,289] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 10:08:10,636] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 10:08:10,637] [plex_meta_manager.py:580]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=sport&sort=user_rating,desc', 'limit': 200}
+[2022-10-11 10:08:10,638] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 10:08:10,638] [imdb.py:184]               [INFO]     | Processing IMDb List: 200 Items at https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=sport&sort=user_rating,desc
+[2022-10-11 10:08:14,327] [imdb.py:135]               [DEBUG]    | 47 IMDb IDs Found: ['tt5074352', 'tt1291584', 'tt1979320', 'tt1950186', 'tt0405159', 'tt0169102', 'tt0352248', 'tt1125849', 'tt0964517', 'tt0210945', 'tt3076658', 'tt1210166', 'tt0878804', 'tt9620288', 'tt5580036', 'tt4209788', 'tt0385002', 'tt8009428', 'tt1798684', 'tt1057500', 'tt0393162', 'tt0116695', 'tt0112461', 'tt0104694', 'tt1809398', 'tt0317219', 'tt6343314', 'tt0479143', 'tt1100089', 'tt0433035', 'tt0116483', 'tt0106611', 'tt0146838', 'tt0364725', 'tt0286499', 'tt0248667', 'tt0415306', 'tt1023111', 'tt0117705', 'tt0974661', 'tt0398165', 'tt0454945', 'tt0445934', 'tt1216475', 'tt1155076', 'tt0120484', 'tt0100507']
+[2022-10-11 10:08:14,327] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 10:08:14,327] [builder.py:1541]           [DEBUG]    | 47 IDs Found: [('tt5074352', 'imdb'), ('tt1291584', 'imdb'), ('tt1979320', 'imdb'), ('tt1950186', 'imdb'), ('tt0405159', 'imdb'), ('tt0169102', 'imdb'), ('tt0352248', 'imdb'), ('tt1125849', 'imdb'), ('tt0964517', 'imdb'), ('tt0210945', 'imdb'), ('tt3076658', 'imdb'), ('tt1210166', 'imdb'), ('tt0878804', 'imdb'), ('tt9620288', 'imdb'), ('tt5580036', 'imdb'), ('tt4209788', 'imdb'), ('tt0385002', 'imdb'), ('tt8009428', 'imdb'), ('tt1798684', 'imdb'), ('tt1057500', 'imdb'), ('tt0393162', 'imdb'), ('tt0116695', 'imdb'), ('tt0112461', 'imdb'), ('tt0104694', 'imdb'), ('tt1809398', 'imdb'), ('tt0317219', 'imdb'), ('tt6343314', 'imdb'), ('tt0479143', 'imdb'), ('tt1100089', 'imdb'), ('tt0433035', 'imdb'), ('tt0116483', 'imdb'), ('tt0106611', 'imdb'), ('tt0146838', 'imdb'), ('tt0364725', 'imdb'), ('tt0286499', 'imdb'), ('tt0248667', 'imdb'), ('tt0415306', 'imdb'), ('tt1023111', 'imdb'), ('tt0117705', 'imdb'), ('tt0974661', 'imdb'), ('tt0398165', 'imdb'), ('tt0454945', 'imdb'), ('tt0445934', 'imdb'), ('tt1216475', 'imdb'), ('tt1155076', 'imdb'), ('tt0120484', 'imdb'), ('tt0100507', 'imdb')]
+[2022-10-11 10:08:14,328] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 10:08:14,364] [builder.py:2064]           [INFO]     | 
+[2022-10-11 10:08:14,365] [builder.py:2065]           [INFO]     |=================================== Adding to Sports Collection ====================================|
+[2022-10-11 10:08:14,365] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-11 10:08:14,380] [builder.py:2080]           [INFO]     | 1/7 | Sports Collection | + | Cars : Quatre roues (2006)                                           |
+[2022-10-11 10:08:14,399] [builder.py:2080]           [INFO]     | 2/7 | Sports Collection | + | Cars 2 (2011)                                                        |
+[2022-10-11 10:08:14,417] [builder.py:2080]           [INFO]     | 3/7 | Sports Collection | + | Détective Conan - Le Onzième Attaquant (2012)                        |
+[2022-10-11 10:08:14,434] [builder.py:2080]           [INFO]     | 4/7 | Sports Collection | + | Kuroko's Basket: Last Game (2017)                                    |
+[2022-10-11 10:08:14,450] [builder.py:2080]           [INFO]     | 5/7 | Sports Collection | + | Le sommet des dieux (2021)                                           |
+[2022-10-11 10:08:14,469] [builder.py:2080]           [INFO]     | 6/7 | Sports Collection | + | Planes (2013)                                                        |
+[2022-10-11 10:08:14,485] [builder.py:2080]           [INFO]     | 7/7 | Sports Collection | + | Planes 2 (2014)                                                      |
+[2022-10-11 10:08:16,504] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-11 10:08:16,504] [builder.py:2102]           [INFO]     | 7 Movies Processed 7 Movies Added                                                                  |
+[2022-10-11 10:08:16,504] [builder.py:2228]           [INFO]     |                                                                                                    |
+[2022-10-11 10:08:16,504] [builder.py:2229]           [INFO]     |======================== Missing Movies from Library: Z. 5 - Film Animation ========================|
+[2022-10-11 10:08:16,505] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-10-11 10:08:16,521] [builder.py:2243]           [INFO]     | Sports Collection | ? | Ford v Ferrari (2019) (TMDb: 359724)                                       |
+[2022-10-11 10:08:16,562] [builder.py:2243]           [INFO]     | Sports Collection | ? | Hustle (2022) (TMDb: 705861)                                               |
+[2022-10-11 10:08:16,576] [builder.py:2243]           [INFO]     | Sports Collection | ? | DodgeBall: A True Underdog Story (2004) (TMDb: 9472)                       |
+[2022-10-11 10:08:16,604] [builder.py:2243]           [INFO]     | Sports Collection | ? | Never Back Down (2008) (TMDb: 8456)                                        |
+[2022-10-11 10:08:16,620] [builder.py:2243]           [INFO]     | Sports Collection | ? | 17 Again (2009) (TMDb: 16996)                                              |
+[2022-10-11 10:08:16,654] [builder.py:2243]           [INFO]     | Sports Collection | ? | Warrior (2011) (TMDb: 59440)                                               |
+[2022-10-11 10:08:16,670] [builder.py:2243]           [INFO]     | Sports Collection | ? | The Fighter (2010) (TMDb: 45317)                                           |
+[2022-10-11 10:08:16,688] [builder.py:2243]           [INFO]     | Sports Collection | ? | Moneyball (2011) (TMDb: 60308)                                             |
+[2022-10-11 10:08:16,703] [builder.py:2243]           [INFO]     | Sports Collection | ? | King Richard (2021) (TMDb: 614917)                                         |
+[2022-10-11 10:08:16,720] [builder.py:2243]           [INFO]     | Sports Collection | ? | The Waterboy (1998) (TMDb: 10663)                                          |
+[2022-10-11 10:08:16,737] [builder.py:2243]           [INFO]     | Sports Collection | ? | A League of Their Own (1992) (TMDb: 11287)                                 |
+[2022-10-11 10:08:16,752] [builder.py:2243]           [INFO]     | Sports Collection | ? | Le Grand Jeu (2017) (TMDb: 396371)                                         |
+[2022-10-11 10:08:16,754] [builder.py:2243]           [INFO]     | Sports Collection | ? | Talladega Nights: The Ballad of Ricky Bobby (2006) (TMDb: 9718)            |
+[2022-10-11 10:08:16,786] [builder.py:2243]           [INFO]     | Sports Collection | ? | Remember the Titans (2000) (TMDb: 10637)                                   |
+[2022-10-11 10:08:16,844] [builder.py:2243]           [INFO]     | Sports Collection | ? | Moi, Tonya (2017) (TMDb: 389015)                                           |
+[2022-10-11 10:08:16,863] [builder.py:2243]           [INFO]     | Sports Collection | ? | Million Dollar Baby (2004) (TMDb: 70)                                      |
+[2022-10-11 10:08:16,871] [builder.py:2243]           [INFO]     | Sports Collection | ? | Happy Gilmore (1996) (TMDb: 9614)                                          |
+[2022-10-11 10:08:16,895] [builder.py:2243]           [INFO]     | Sports Collection | ? | Jerry Maguire (1996) (TMDb: 9390)                                          |
+[2022-10-11 10:08:16,937] [builder.py:2243]           [INFO]     | Sports Collection | ? | The Blind Side (2009) (TMDb: 22881)                                        |
+[2022-10-11 10:08:16,954] [builder.py:2243]           [INFO]     | Sports Collection | ? | Rush (2013) (TMDb: 96721)                                                  |
+[2022-10-11 10:08:16,971] [builder.py:2243]           [INFO]     | Sports Collection | ? | The Karate Kid (2010) (TMDb: 38575)                                        |
+[2022-10-11 10:08:16,988] [builder.py:2243]           [INFO]     | Sports Collection | ? | Southpaw (2015) (TMDb: 307081)                                             |
+[2022-10-11 10:08:17,012] [builder.py:2243]           [INFO]     | Sports Collection | ? | The Wrestler (2008) (TMDb: 12163)                                          |
+[2022-10-11 10:08:17,014] [builder.py:2243]           [INFO]     | Sports Collection | ? | Invincible (2014) (TMDb: 227306)                                           |
+[2022-10-11 10:08:17,038] [builder.py:2243]           [INFO]     | Sports Collection | ? | The Longest Yard (2005) (TMDb: 9291)                                       |
+[2022-10-11 10:08:17,055] [builder.py:2243]           [INFO]     | Sports Collection | ? | She's the Man (2006) (TMDb: 9655)                                          |
+[2022-10-11 10:08:17,088] [builder.py:2243]           [INFO]     | Sports Collection | ? | Creed (2015) (TMDb: 312221)                                                |
+[2022-10-11 10:08:17,129] [builder.py:2243]           [INFO]     | Sports Collection | ? | Real Steel (2011) (TMDb: 39254)                                            |
+[2022-10-11 10:08:17,153] [builder.py:2243]           [INFO]     | Sports Collection | ? | Any Given Sunday (1999) (TMDb: 9563)                                       |
+[2022-10-11 10:08:17,180] [builder.py:2243]           [INFO]     | Sports Collection | ? | Hooligans (2005) (TMDb: 8923)                                              |
+[2022-10-11 10:08:17,197] [builder.py:2243]           [INFO]     | Sports Collection | ? | Ali (2001) (TMDb: 8489)                                                    |
+[2022-10-11 10:08:17,237] [builder.py:2243]           [INFO]     | Sports Collection | ? | The Basketball Diaries (1995) (TMDb: 10474)                                |
+[2022-10-11 10:08:17,296] [builder.py:2243]           [INFO]     | Sports Collection | ? | Coach Carter (2005) (TMDb: 7214)                                           |
+[2022-10-11 10:08:17,322] [builder.py:2243]           [INFO]     | Sports Collection | ? | Creed II (2018) (TMDb: 480530)                                             |
+[2022-10-11 10:08:17,346] [builder.py:2243]           [INFO]     | Sports Collection | ? | Foxcatcher (2014) (TMDb: 87492)                                            |
+[2022-10-11 10:08:17,355] [builder.py:2243]           [INFO]     | Sports Collection | ? | Invictus (2009) (TMDb: 22954)                                              |
+[2022-10-11 10:08:17,396] [builder.py:2243]           [INFO]     | Sports Collection | ? | Space Jam (1996) (TMDb: 2300)                                              |
+[2022-10-11 10:08:17,437] [builder.py:2243]           [INFO]     | Sports Collection | ? | Cinderella Man (2005) (TMDb: 921)                                          |
+[2022-10-11 10:08:17,455] [builder.py:2243]           [INFO]     | Sports Collection | ? | Bend It Like Beckham (2002) (TMDb: 455)                                    |
+[2022-10-11 10:08:17,473] [builder.py:2243]           [INFO]     | Sports Collection | ? | Cool Runnings (1993) (TMDb: 864)                                           |
+[2022-10-11 10:08:17,506] [builder.py:2243]           [INFO]     | Sports Collection | ? | Rocky Balboa (2006) (TMDb: 1246)                                           |
+[2022-10-11 10:08:17,522] [builder.py:2243]           [INFO]     | Sports Collection | ? | Blades of Glory (2007) (TMDb: 9955)                                        |
+[2022-10-11 10:08:17,545] [builder.py:2243]           [INFO]     | Sports Collection | ? | Dangal (2016) (TMDb: 360814)                                               |
+[2022-10-11 10:08:17,589] [builder.py:2243]           [INFO]     | Sports Collection | ? | Rocky V (1990) (TMDb: 1375)                                                |
+[2022-10-11 10:08:17,602] [builder.py:2243]           [INFO]     | Sports Collection | ? | Lagaan: Once Upon a Time in India (2001) (TMDb: 19666)                     |
+[2022-10-11 10:08:17,602] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-10-11 10:08:17,602] [builder.py:2249]           [INFO]     | 45 Movies Missing                                                                                  |
+[2022-10-11 10:08:18,876] [plex.py:711]               [DEBUG]    | Smart Collection Test: ?type=1&sort=audienceRating%3Adesc&label=213050                             |
+[2022-10-11 10:08:18,930] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-11 10:08:18,931] [builder.py:2442]           [INFO]     |============================== Updating Details of Sports Collection ===============================|
+[2022-10-11 10:08:18,931] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-11 10:08:19,213] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | A Sport Film revolves around a sport setting, event, or an athlete. Often, these films will center on a single sporting event that carries significant importance. Sports films traditionally have a simple plot that builds up to the significant sporting event. This genre is known for incorporating film techniques to build anticipation and intensity. Sport films have a large range of sub-genres, from comedies to dramas, and are more likely than other genres to be based true-life events.
+                                                                 | Sort Title | +3_Sports
+                                                                 | Label | +PMM
+[2022-10-11 10:08:19,530] [builder.py:2513]           [INFO]     | Details: have been updated
+[2022-10-11 10:08:19,530] [builder.py:2517]           [INFO]     | 
+[2022-10-11 10:08:19,531] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Sports'
+[2022-10-11 10:08:19,531] [util.py:150]               [DEBUG]    | 1 poster found:
+[2022-10-11 10:08:19,531] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_SPORTS.png
+[2022-10-11 10:08:19,576] [library.py:170]            [INFO]     | Detail: url_poster updated poster to [URL] https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_SPORTS.png
+[2022-10-11 10:08:19,622] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-11 10:08:19,622] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 10:08:19,623] [plex_meta_manager.py:709]  [INFO]     |                                     Finished Sports Collection                                     |
+[2022-10-11 10:08:19,623] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:14                                    |
+[2022-10-11 10:08:19,623] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

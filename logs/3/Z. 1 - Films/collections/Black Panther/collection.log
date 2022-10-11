@@ -1,0 +1,61 @@
+[2022-10-11 11:18:30,908] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:18:30,908] [builder.py:200]            [INFO]     |                              Black Panther Collection in Z. 1 - Films                              |
+[2022-10-11 11:18:30,908] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:18:30,908] [builder.py:201]            [INFO]     |                                                                                                    |
+[2022-10-11 11:18:30,908] [builder.py:206]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:18:30,908] [builder.py:222]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:30,909] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:18:30,909] [meta.py:129]               [DEBUG]    | Call: {'value': ['529892'], 'tmdb_collection': ['529892'], 'key_name': 'Black Panther', 'key': '529892', 'name': 'my_template'} |
+[2022-10-11 11:18:30,909] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:30,909] [meta.py:305]               [DEBUG]    | Variables: {'value': ['529892'], 'tmdb_collection': ['529892'], 'key_name': 'Black Panther', 'key': '529892', 'name': 'my_template', 'collection_name': 'Black Panther', 'mapping_name': 'Black Panther', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%27529892%27%5D', 'tmdb_collection_encoded': '%5B%27529892%27%5D', 'key_name_encoded': 'Black%20Panther', 'key_encoded': '529892', 'name_encoded': 'my_template', 'collection_name_encoded': 'Black%20Panther', 'mapping_name_encoded': 'Black%20Panther', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Black Panther'} |
+[2022-10-11 11:18:30,909] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:30,910] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:18:30,910] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:30,910] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:18:30,911] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:30,911] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['529892'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_Black Panther'} |
+[2022-10-11 11:18:30,911] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:30,911] [builder.py:230]            [INFO]     |=============================== Validating Black Panther Attributes ================================|
+[2022-10-11 11:18:30,911] [builder.py:620]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:30,912] [builder.py:621]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:18:30,912] [builder.py:622]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:18:30,912] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:30,912] [builder.py:657]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:18:30,912] [builder.py:658]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:18:30,912] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:30,912] [builder.py:657]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:18:30,912] [builder.py:658]            [DEBUG]    | Value: ['529892']                                                                                  |
+[2022-10-11 11:18:30,926] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:30,927] [builder.py:657]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:18:30,927] [builder.py:658]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:18:30,928] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:30,928] [builder.py:657]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:18:30,928] [builder.py:658]            [DEBUG]    | Value: +C1_Black Panther                                                                           |
+[2022-10-11 11:18:30,935] [plex.py:803]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:30,935] [plex.py:806]               [DEBUG]    | Looking for: Black Panther                                                                         |
+[2022-10-11 11:18:30,935] [builder.py:823]            [INFO]     |                                                                                                    |
+[2022-10-11 11:18:30,935] [builder.py:824]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:18:30,936] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:30,936] [plex_meta_manager.py:563]  [INFO]     |================================= Running Black Panther Collection =================================|
+[2022-10-11 11:18:30,936] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:30,936] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:18:30,936] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:30,937] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 529892                                                                   |
+[2022-10-11 11:18:30,937] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:30,941] [tmdb.py:381]               [INFO]     | Processing TMDb Collection: (529892) Black Panther - Saga (2 Items)                                |
+[2022-10-11 11:18:30,942] [builder.py:1581]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:30,942] [builder.py:1582]           [DEBUG]    | 2 IDs Found: [(284054, 'tmdb'), (505642, 'tmdb')]                                                  |
+[2022-10-11 11:18:30,942] [builder.py:1583]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:30,942] [builder.py:2300]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:30,942] [builder.py:2301]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-10-11 11:18:30,943] [builder.py:2302]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:30,962] [builder.py:2315]           [INFO]     | Black Panther Collection | ? | Black Panther: Wakanda Forever (2022) (TMDb: 505642)                |
+[2022-10-11 11:18:30,962] [builder.py:2320]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:30,962] [builder.py:2321]           [INFO]     | 1 Movie Missing                                                                                    |
+[2022-10-11 11:18:30,982] [plex_meta_manager.py:624]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:30,983] [plex_meta_manager.py:625]  [INFO]     | Collection Minimum: 2 not met for Black Panther Collection                                         |
+[2022-10-11 11:18:30,983] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:30,983] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:18:30,983] [plex_meta_manager.py:709]  [INFO]     |                                 Finished Black Panther Collection                                  |
+[2022-10-11 11:18:30,983] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 11:18:30,983] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

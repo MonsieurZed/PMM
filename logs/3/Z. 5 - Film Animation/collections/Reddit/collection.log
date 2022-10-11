@@ -1,0 +1,228 @@
+[2022-10-11 09:55:58,601] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 09:55:58,602] [builder.py:197]            [INFO]     |                             Reddit Collection in Z. 5 - Film Animation                             |
+[2022-10-11 09:55:58,602] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 09:55:58,602] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 09:55:58,602] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 09:55:58,602] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:55:58,602] [meta.py:128]               [DEBUG]    | Template Chart                                                                                     |
+[2022-10-11 09:55:58,602] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Chart')])                                                             |
+[2022-10-11 09:55:58,603] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:55:58,603] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Chart'), ('collection_name', 'Reddit'), ('mapping_name', 'Reddit'), ('library_type', 'movie'), ('library_name', 'Z. 5 - Film Animation'), ('name_encoded', 'Chart'), ('collection_name_encoded', 'Reddit'), ('mapping_name_encoded', 'Reddit'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%205%20-%20Film%20Animation'), ('collection_sort', 'Reddit')]) |
+[2022-10-11 09:55:58,603] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:55:58,603] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 09:55:58,603] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:55:58,603] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 09:55:58,604] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:55:58,604] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+1_<<num>>Reddit', 'sync_mode': 'sync'}                 |
+[2022-10-11 09:55:58,604] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:55:58,604] [builder.py:219]            [INFO]     |=================================== Validating Reddit Attributes ===================================|
+[2022-10-11 09:55:58,604] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:55:58,605] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-11 09:55:58,605] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-11 09:55:58,605] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:55:58,605] [builder.py:631]            [DEBUG]    | Validating Method: visible_home                                                                    |
+[2022-10-11 09:55:58,605] [builder.py:632]            [DEBUG]    | Value: True                                                                                        |
+[2022-10-11 09:55:58,605] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:55:58,605] [builder.py:631]            [DEBUG]    | Validating Method: visible_shared                                                                  |
+[2022-10-11 09:55:58,606] [builder.py:632]            [DEBUG]    | Value: True                                                                                        |
+[2022-10-11 09:55:58,606] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:55:58,606] [builder.py:631]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-10-11 09:55:58,606] [builder.py:632]            [DEBUG]    | Value: ['https://trakt.tv/users/smatthew/lists/reddit']                                            |
+[2022-10-11 09:55:58,780] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:55:58,780] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-10-11 09:55:58,781] [builder.py:632]            [DEBUG]    | Value: This is a list based on movies found in the following subreddits  r/iwatchedanoldmovie r/flicks r/moviesclubr/MoviePosterPorn |
+[2022-10-11 09:55:58,781] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:55:58,781] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-11 09:55:58,781] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/CHART_RADAR.png               |
+[2022-10-11 09:55:58,786] [builder.py:828]            [WARNING]  | Collection Warning: No Poster Found at https://raw.githubusercontent.com/MonsieurZed/poster/main/img/CHART_RADAR.png |
+[2022-10-11 09:55:58,786] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:55:58,786] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 09:55:58,786] [builder.py:632]            [DEBUG]    | Value: +1_<<num>>Reddit                                                                            |
+[2022-10-11 09:55:58,792] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:55:58,792] [plex.py:793]               [DEBUG]    | Looking for: Reddit                                                                                |
+[2022-10-11 09:55:58,792] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 09:55:58,792] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 09:55:58,792] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 09:55:58,793] [plex_meta_manager.py:563]  [INFO]     |==================================== Running Reddit Collection =====================================|
+[2022-10-11 09:55:58,793] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 09:55:58,793] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-10-11 09:55:58,793] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 09:55:58,793] [plex_meta_manager.py:580]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/smatthew/lists/reddit                                  |
+[2022-10-11 09:55:58,793] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 09:55:58,794] [trakt.py:487]              [INFO]     | Processing Trakt List: https://trakt.tv/users/smatthew/lists/reddit                                |
+[2022-10-11 09:55:58,952] [builder.py:1540]           [DEBUG]    |                                                                                                    |
+[2022-10-11 09:55:58,953] [builder.py:1541]           [DEBUG]    | 147 IDs Found: [(453358, 'tmdb'), (426426, 'tmdb'), (284054, 'tmdb'), (454652, 'tmdb'), (24559, 'tmdb'), (437586, 'tmdb'), (16869, 'tmdb'), (2034, 'tmdb'), (600, 'tmdb'), (31152, 'tmdb'), (218, 'tmdb'), (152584, 'tmdb'), (571, 'tmdb'), (447332, 'tmdb'), (20649, 'tmdb'), (13183, 'tmdb'), (991, 'tmdb'), (6978, 'tmdb'), (120467, 'tmdb'), (85, 'tmdb'), (16441, 'tmdb'), (14160, 'tmdb'), (263115, 'tmdb'), (18502, 'tmdb'), (2085, 'tmdb'), (457136, 'tmdb'), (78, 'tmdb'), (335984, 'tmdb'), (4232, 'tmdb'), (348, 'tmdb'), (68722, 'tmdb'), (254320, 'tmdb'), (1089, 'tmdb'), (381283, 'tmdb'), (627, 'tmdb'), (5482, 'tmdb'), (593, 'tmdb'), (18, 'tmdb'), (315837, 'tmdb'), (13597, 'tmdb'), (493922, 'tmdb'), (24924, 'tmdb'), (106, 'tmdb'), (857, 'tmdb'), (17585, 'tmdb'), (1648, 'tmdb'), (324552, 'tmdb'), (460885, 'tmdb'), (769, 'tmdb'), (244786, 'tmdb'), (94329, 'tmdb'), (578, 'tmdb'), (319, 'tmdb'), (117, 'tmdb'), (565, 'tmdb'), (496743, 'tmdb'), (521, 'tmdb'), (268, 'tmdb'), (194, 'tmdb'), (550, 'tmdb'), (13333, 'tmdb'), (313369, 'tmdb'), (786, 'tmdb'), (228194, 'tmdb'), (9806, 'tmdb'), (278, 'tmdb'), (19, 'tmdb'), (315011, 'tmdb'), (9428, 'tmdb'), (83899, 'tmdb'), (173, 'tmdb'), (458737, 'tmdb'), (11284, 'tmdb'), (1103, 'tmdb'), (771, 'tmdb'), (149, 'tmdb'), (3114, 'tmdb'), (177572, 'tmdb'), (297725, 'tmdb'), (157336, 'tmdb'), (653, 'tmdb'), (345, 'tmdb'), (77, 'tmdb'), (324857, 'tmdb'), (389, 'tmdb'), (10531, 'tmdb'), (6114, 'tmdb'), (155, 'tmdb'), (4011, 'tmdb'), (525, 'tmdb'), (120, 'tmdb'), (283995, 'tmdb'), (11878, 'tmdb'), (10110, 'tmdb'), (4108, 'tmdb'), (85350, 'tmdb'), (157834, 'tmdb'), (76341, 'tmdb'), (3131, 'tmdb'), (567, 'tmdb'), (11645, 'tmdb'), (948, 'tmdb'), (377, 'tmdb'), (16859, 'tmdb'), (11868, 'tmdb'), (4960, 'tmdb'), (9552, 'tmdb'), (14069, 'tmdb'), (4923, 'tmdb'), (10315, 'tmdb'), (398173, 'tmdb'), (37247, 'tmdb'), (10215, 'tmdb'), (36679, 'tmdb'), (539, 'tmdb'), (24128, 'tmdb'), (470229, 'tmdb'), (1487, 'tmdb'), (185, 'tmdb'), (10386, 'tmdb'), (40662, 'tmdb'), (747, 'tmdb'), (4347, 'tmdb'), (63, 'tmdb'), (8337, 'tmdb'), (274, 'tmdb'), (1954, 'tmdb'), (28, 'tmdb'), (196737, 'tmdb'), (245891, 'tmdb'), (862, 'tmdb'), (238, 'tmdb'), (62211, 'tmdb'), (27205, 'tmdb'), (536115, 'tmdb'), (101, 'tmdb'), (694, 'tmdb'), (300668, 'tmdb'), (1091, 'tmdb'), (36586, 'tmdb'), (1368, 'tmdb'), (10072, 'tmdb'), (329, 'tmdb'), (9502, 'tmdb'), (1541, 'tmdb'), (9056, 'tmdb'), (24, 'tmdb')] |
+[2022-10-11 09:55:58,953] [builder.py:1542]           [DEBUG]    |                                                                                                    |
+[2022-10-11 09:55:58,954] [builder.py:2064]           [INFO]     |                                                                                                    |
+[2022-10-11 09:55:58,954] [builder.py:2065]           [INFO]     |=================================== Adding to Reddit Collection ====================================|
+[2022-10-11 09:55:58,955] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-11 09:55:58,955] [builder.py:2080]           [INFO]     |  1/11 | Reddit Collection | + | Là-haut (2009)                                                     |
+[2022-10-11 09:55:58,978] [builder.py:2080]           [INFO]     |  2/11 | Reddit Collection | + | Les Indestructibles (2004)                                         |
+[2022-10-11 09:55:58,993] [builder.py:2080]           [INFO]     |  3/11 | Reddit Collection | + | Akira (1988)                                                       |
+[2022-10-11 09:55:59,621] [builder.py:2080]           [INFO]     |  4/11 | Reddit Collection | + | Les Nouveaux Héros (2014)                                          |
+[2022-10-11 09:55:59,641] [builder.py:2080]           [INFO]     |  5/11 | Reddit Collection | + | Spider-Man : New Generation (2018)                                 |
+[2022-10-11 09:55:59,661] [builder.py:2080]           [INFO]     |  6/11 | Reddit Collection | + | Kiki la petite sorcière (1989)                                     |
+[2022-10-11 09:56:00,114] [builder.py:2080]           [INFO]     |  7/11 | Reddit Collection | + | La Traversée du temps (2006)                                       |
+[2022-10-11 09:56:00,850] [builder.py:2080]           [INFO]     |  8/11 | Reddit Collection | + | Batman et Red Hood : Sous le masque rouge (2010)                   |
+[2022-10-11 09:56:01,682] [builder.py:2080]           [INFO]     |  9/11 | Reddit Collection | + | Toy Story (1995)                                                   |
+[2022-10-11 09:56:01,701] [builder.py:2080]           [INFO]     | 10/11 | Reddit Collection | + | Monstres Academy (2013)                                            |
+[2022-10-11 09:56:02,323] [builder.py:2080]           [INFO]     | 11/11 | Reddit Collection | + | Kung Fu Panda (2008)                                               |
+[2022-10-11 09:56:03,668] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-11 09:56:03,669] [builder.py:2102]           [INFO]     | 11 Movies Processed 11 Movies Added                                                                |
+[2022-10-11 09:56:03,669] [builder.py:2228]           [INFO]     |                                                                                                    |
+[2022-10-11 09:56:03,669] [builder.py:2229]           [INFO]     |======================== Missing Movies from Library: Z. 5 - Film Animation ========================|
+[2022-10-11 09:56:03,669] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-10-11 09:56:03,680] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Makala (2017) (TMDb: 453358)                                               |
+[2022-10-11 09:56:03,696] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Roma (2018) (TMDb: 426426)                                                 |
+[2022-10-11 09:56:03,737] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Black Panther (2018) (TMDb: 284054)                                        |
+[2022-10-11 09:56:03,753] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Colette (2018) (TMDb: 454652)                                              |
+[2022-10-11 09:56:03,795] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Slaughterhouse-Five (1972) (TMDb: 24559)                                   |
+[2022-10-11 09:56:03,823] [builder.py:2243]           [INFO]     | Reddit Collection | ? | 90's (2018) (TMDb: 437586)                                                 |
+[2022-10-11 09:56:03,848] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Inglourious Basterds (2009) (TMDb: 16869)                                  |
+[2022-10-11 09:56:03,878] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Training Day (2001) (TMDb: 2034)                                           |
+[2022-10-11 09:56:03,912] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Full Metal Jacket (1987) (TMDb: 600)                                       |
+[2022-10-11 09:56:03,962] [builder.py:2243]           [INFO]     | Reddit Collection | ? | La Maison dans l'ombre (1951) (TMDb: 31152)                                |
+[2022-10-11 09:56:04,040] [builder.py:2243]           [INFO]     | Reddit Collection | ? | The Terminator (1984) (TMDb: 218)                                          |
+[2022-10-11 09:56:04,070] [builder.py:2243]           [INFO]     | Reddit Collection | ? | La Vie d'Adèle - Chapitres 1 et 2 (2013) (TMDb: 152584)                    |
+[2022-10-11 09:56:04,096] [builder.py:2243]           [INFO]     | Reddit Collection | ? | The Birds (1963) (TMDb: 571)                                               |
+[2022-10-11 09:56:04,112] [builder.py:2243]           [INFO]     | Reddit Collection | ? | A Quiet Place (2018) (TMDb: 447332)                                        |
+[2022-10-11 09:56:04,129] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Clockers (1995) (TMDb: 20649)                                              |
+[2022-10-11 09:56:04,162] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Watchmen (2009) (TMDb: 13183)                                              |
+[2022-10-11 09:56:04,198] [builder.py:2243]           [INFO]     | Reddit Collection | ? | L'Homme qui venait d'ailleurs (1976) (TMDb: 991)                           |
+[2022-10-11 09:56:04,220] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Big Trouble in Little China (1986) (TMDb: 6978)                            |
+[2022-10-11 09:56:04,254] [builder.py:2243]           [INFO]     | Reddit Collection | ? | The Grand Budapest Hotel (2014) (TMDb: 120467)                             |
+[2022-10-11 09:56:04,271] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Raiders of the Lost Ark (1981) (TMDb: 85)                                  |
+[2022-10-11 09:56:04,297] [builder.py:2243]           [INFO]     | Reddit Collection | ? | The Beastmaster (1982) (TMDb: 16441)                                       |
+[2022-10-11 09:56:04,338] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Logan (2017) (TMDb: 263115)                                                |
+[2022-10-11 09:56:04,387] [builder.py:2243]           [INFO]     | Reddit Collection | ? | The Stuff (1985) (TMDb: 18502)                                             |
+[2022-10-11 09:56:04,438] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Romeo Must Die (2000) (TMDb: 2085)                                         |
+[2022-10-11 09:56:04,473] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Marie Stuart, reine d'Écosse (2018) (TMDb: 457136)                         |
+[2022-10-11 09:56:04,513] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Blade Runner (1982) (TMDb: 78)                                             |
+[2022-10-11 09:56:04,563] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Blade Runner 2049 (2017) (TMDb: 335984)                                    |
+[2022-10-11 09:56:04,578] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Scream (1996) (TMDb: 4232)                                                 |
+[2022-10-11 09:56:04,605] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Alien (1979) (TMDb: 348)                                                   |
+[2022-10-11 09:56:04,613] [builder.py:2243]           [INFO]     | Reddit Collection | ? | The Master (2012) (TMDb: 68722)                                            |
+[2022-10-11 09:56:04,646] [builder.py:2243]           [INFO]     | Reddit Collection | ? | The Lobster (2015) (TMDb: 254320)                                          |
+[2022-10-11 09:56:04,663] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Point Break (1991) (TMDb: 1089)                                            |
+[2022-10-11 09:56:04,688] [builder.py:2243]           [INFO]     | Reddit Collection | ? | mother! (2017) (TMDb: 381283)                                              |
+[2022-10-11 09:56:04,740] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Trainspotting (1996) (TMDb: 627)                                           |
+[2022-10-11 09:56:04,754] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Les chiens enragés  (1974) (TMDb: 5482)                                    |
+[2022-10-11 09:56:05,030] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Solaris (1972) (TMDb: 593)                                                 |
+[2022-10-11 09:56:05,197] [builder.py:2243]           [INFO]     | Reddit Collection | ? | The Fifth Element (1997) (TMDb: 18)                                        |
+[2022-10-11 09:56:05,406] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Ghost in the Shell (2017) (TMDb: 315837)                                   |
+[2022-10-11 09:56:05,543] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Labyrinth (1986) (TMDb: 13597)                                             |
+[2022-10-11 09:56:05,614] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Hereditary (2018) (TMDb: 493922)                                           |
+[2022-10-11 09:56:05,697] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Night of the Demons (1988) (TMDb: 24924)                                   |
+[2022-10-11 09:56:05,713] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Predator (1987) (TMDb: 106)                                                |
+[2022-10-11 09:56:05,758] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Saving Private Ryan (1998) (TMDb: 857)                                     |
+[2022-10-11 09:56:05,770] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Que la chasse commence ! (1994) (TMDb: 17585)                              |
+[2022-10-11 09:56:05,788] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Bill & Ted's Excellent Adventure (1989) (TMDb: 1648)                       |
+[2022-10-11 09:56:05,821] [builder.py:2243]           [INFO]     | Reddit Collection | ? | John Wick: Chapter 2 (2017) (TMDb: 324552)                                 |
+[2022-10-11 09:56:05,846] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Mandy (2018) (TMDb: 460885)                                                |
+[2022-10-11 09:56:05,896] [builder.py:2243]           [INFO]     | Reddit Collection | ? | GoodFellas (1990) (TMDb: 769)                                              |
+[2022-10-11 09:56:05,929] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Whiplash (2014) (TMDb: 244786)                                             |
+[2022-10-11 09:56:05,952] [builder.py:2243]           [INFO]     | Reddit Collection | ? | The Raid (2012) (TMDb: 94329)                                              |
+[2022-10-11 09:56:05,971] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Jaws (1975) (TMDb: 578)                                                    |
+[2022-10-11 09:56:06,020] [builder.py:2243]           [INFO]     | Reddit Collection | ? | True Romance (1993) (TMDb: 319)                                            |
+[2022-10-11 09:56:06,037] [builder.py:2243]           [INFO]     | Reddit Collection | ? | The Untouchables (1987) (TMDb: 117)                                        |
+[2022-10-11 09:56:06,089] [builder.py:2243]           [INFO]     | Reddit Collection | ? | The Ring (2002) (TMDb: 565)                                                |
+[2022-10-11 09:56:06,091] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Aniara : L'Odyssée stellaire (2019) (TMDb: 496743)                         |
+[2022-10-11 09:56:06,121] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Dial M for Murder (1954) (TMDb: 521)                                       |
+[2022-10-11 09:56:06,130] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Batman (1989) (TMDb: 268)                                                  |
+[2022-10-11 09:56:06,171] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Amélie (2001) (TMDb: 194)                                                  |
+[2022-10-11 09:56:06,182] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Fight Club (1999) (TMDb: 550)                                              |
+[2022-10-11 09:56:06,213] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Le Jeu de la mort (1978) (TMDb: 13333)                                     |
+[2022-10-11 09:56:06,231] [builder.py:2243]           [INFO]     | Reddit Collection | ? | La La Land (2016) (TMDb: 313369)                                           |
+[2022-10-11 09:56:06,263] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Almost Famous (2000) (TMDb: 786)                                           |
+[2022-10-11 09:56:06,281] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Les Recettes du bonheur (2014) (TMDb: 228194)                              |
+[2022-10-11 09:56:06,313] [builder.py:2243]           [INFO]     | Reddit Collection | ? | The Shawshank Redemption (1994) (TMDb: 278)                                |
+[2022-10-11 09:56:06,348] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Metropolis (1927) (TMDb: 19)                                               |
+[2022-10-11 09:56:06,364] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Godzilla: Resurgence (2016) (TMDb: 315011)                                 |
+[2022-10-11 09:56:06,396] [builder.py:2243]           [INFO]     | Reddit Collection | ? | La Famille Tenenbaum (2001) (TMDb: 9428)                                   |
+[2022-10-11 09:56:06,414] [builder.py:2243]           [INFO]     | Reddit Collection | ? | You're Next (2011) (TMDb: 83899)                                           |
+[2022-10-11 09:56:06,453] [builder.py:2243]           [INFO]     | Reddit Collection | ? | 20,000 Leagues Under the Sea (1954) (TMDb: 173)                            |
+[2022-10-11 09:56:06,472] [builder.py:2243]           [INFO]     | Reddit Collection | ? | First Reformed (2018) (TMDb: 458737)                                       |
+[2022-10-11 09:56:06,510] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Freddy's Dead: The Final Nightmare (1991) (TMDb: 11284)                    |
+[2022-10-11 09:56:06,523] [builder.py:2243]           [INFO]     | Reddit Collection | ? | New York 1997 (1981) (TMDb: 1103)                                          |
+[2022-10-11 09:56:06,564] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Home Alone (1990) (TMDb: 771)                                              |
+[2022-10-11 09:56:06,581] [builder.py:2243]           [INFO]     | Reddit Collection | ? | The Searchers (1956) (TMDb: 3114)                                          |
+[2022-10-11 09:56:06,598] [builder.py:2243]           [INFO]     | Reddit Collection | ? | The Man Who Killed Don Quixote (2018) (TMDb: 297725)                       |
+[2022-10-11 09:56:06,632] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Interstellar (2014) (TMDb: 157336)                                         |
+[2022-10-11 09:56:06,646] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Nosferatu le vampire (1922) (TMDb: 653)                                    |
+[2022-10-11 09:56:06,657] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Eyes Wide Shut (1999) (TMDb: 345)                                          |
+[2022-10-11 09:56:06,689] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Memento (2000) (TMDb: 77)                                                  |
+[2022-10-11 09:56:06,715] [builder.py:2243]           [INFO]     | Reddit Collection | ? | 12 Angry Men (1957) (TMDb: 389)                                            |
+[2022-10-11 09:56:06,742] [builder.py:2243]           [INFO]     | Reddit Collection | ? | La jeune fille et la mort (1994) (TMDb: 10531)                             |
+[2022-10-11 09:56:06,782] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Bram Stoker's Dracula (1992) (TMDb: 6114)                                  |
+[2022-10-11 09:56:06,807] [builder.py:2243]           [INFO]     | Reddit Collection | ? | The Dark Knight (2008) (TMDb: 155)                                         |
+[2022-10-11 09:56:06,848] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Beetlejuice (1988) (TMDb: 4011)                                            |
+[2022-10-11 09:56:06,866] [builder.py:2243]           [INFO]     | Reddit Collection | ? | The Blues Brothers (1980) (TMDb: 525)                                      |
+[2022-10-11 09:56:06,915] [builder.py:2243]           [INFO]     | Reddit Collection | ? | The Lord of the Rings: The Fellowship of the Ring (2001) (TMDb: 120)       |
+[2022-10-11 09:56:06,957] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Guardians of the Galaxy Vol. 2 (2017) (TMDb: 283995)                       |
+[2022-10-11 09:56:06,973] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Yojimbo (1961) (TMDb: 11878)                                               |
+[2022-10-11 09:56:07,015] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Empire du soleil (1987) (TMDb: 10110)                                      |
+[2022-10-11 09:56:07,032] [builder.py:2243]           [INFO]     | Reddit Collection | ? | The Transporter (2002) (TMDb: 4108)                                        |
+[2022-10-11 09:56:07,058] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Boyhood (2014) (TMDb: 85350)                                               |
+[2022-10-11 09:56:07,116] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Zero Theorem (2013) (TMDb: 157834)                                         |
+[2022-10-11 09:56:07,182] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Mad Max: Fury Road (2015) (TMDb: 76341)                                    |
+[2022-10-11 09:56:07,194] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Gangs of New York (2002) (TMDb: 3131)                                      |
+[2022-10-11 09:56:07,249] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Rear Window (1954) (TMDb: 567)                                             |
+[2022-10-11 09:56:07,315] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Ran (1985) (TMDb: 11645)                                                   |
+[2022-10-11 09:56:07,571] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Halloween (1978) (TMDb: 948)                                               |
+[2022-10-11 09:56:07,624] [builder.py:2243]           [INFO]     | Reddit Collection | ? | A Nightmare on Elm Street (1984) (TMDb: 377)                               |
+[2022-10-11 09:56:07,674] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Le Cauchemar de Dracula (1958) (TMDb: 11868)                               |
+[2022-10-11 09:56:07,699] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Synecdoche, New York (2008) (TMDb: 4960)                                   |
+[2022-10-11 09:56:07,725] [builder.py:2243]           [INFO]     | Reddit Collection | ? | The Exorcist (1973) (TMDb: 9552)                                           |
+[2022-10-11 09:56:07,766] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Zardoz (1974) (TMDb: 4923)                                                 |
+[2022-10-11 09:56:07,791] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Fantastic Mr. Fox (2009) (TMDb: 10315)                                     |
+[2022-10-11 09:56:07,816] [builder.py:2243]           [INFO]     | Reddit Collection | ? | The House That Jack Built (2018) (TMDb: 398173)                            |
+[2022-10-11 09:56:07,841] [builder.py:2243]           [INFO]     | Reddit Collection | ? | The Graduate (1967) (TMDb: 37247)                                          |
+[2022-10-11 09:56:07,883] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Sliding Doors (1998) (TMDb: 10215)                                         |
+[2022-10-11 09:56:07,908] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Godzilla vs King Ghidorah (1991) (TMDb: 36679)                             |
+[2022-10-11 09:56:07,933] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Psycho (1960) (TMDb: 539)                                                  |
+[2022-10-11 09:56:07,966] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Talking Heads - Stop Making Sense (1984) (TMDb: 24128)                     |
+[2022-10-11 09:56:07,992] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Summer of 84 (2018) (TMDb: 470229)                                         |
+[2022-10-11 09:56:08,017] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Hellboy (2004) (TMDb: 1487)                                                |
+[2022-10-11 09:56:08,067] [builder.py:2243]           [INFO]     | Reddit Collection | ? | A Clockwork Orange (1971) (TMDb: 185)                                      |
+[2022-10-11 09:56:08,092] [builder.py:2243]           [INFO]     | Reddit Collection | ? | The Iron Giant (1999) (TMDb: 10386)                                        |
+[2022-10-11 09:56:08,125] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Shaun of the Dead (2004) (TMDb: 747)                                       |
+[2022-10-11 09:56:08,150] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Atonement (2007) (TMDb: 4347)                                              |
+[2022-10-11 09:56:08,175] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Twelve Monkeys (1995) (TMDb: 63)                                           |
+[2022-10-11 09:56:08,200] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Invasion Los Angeles (1988) (TMDb: 8337)                                   |
+[2022-10-11 09:56:08,225] [builder.py:2243]           [INFO]     | Reddit Collection | ? | The Silence of the Lambs (1991) (TMDb: 274)                                |
+[2022-10-11 09:56:08,250] [builder.py:2243]           [INFO]     | Reddit Collection | ? | The Butterfly Effect (2004) (TMDb: 1954)                                   |
+[2022-10-11 09:56:08,252] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Apocalypse Now (1979) (TMDb: 28)                                           |
+[2022-10-11 09:56:08,275] [builder.py:2243]           [INFO]     | Reddit Collection | ? | The Art of Stanley Kubrick: From Short Films to Strangelove (2000) (TMDb: 196737) |
+[2022-10-11 09:56:08,301] [builder.py:2243]           [INFO]     | Reddit Collection | ? | John Wick (2014) (TMDb: 245891)                                            |
+[2022-10-11 09:56:08,325] [builder.py:2243]           [INFO]     | Reddit Collection | ? | The Godfather (1972) (TMDb: 238)                                           |
+[2022-10-11 09:56:08,355] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Inception (2010) (TMDb: 27205)                                             |
+[2022-10-11 09:56:08,357] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Godzilla : Le Dévoreur de Planètes (2018) (TMDb: 536115)                   |
+[2022-10-11 09:56:08,376] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Léon: The Professional (1994) (TMDb: 101)                                  |
+[2022-10-11 09:56:08,412] [builder.py:2243]           [INFO]     | Reddit Collection | ? | The Shining (1980) (TMDb: 694)                                             |
+[2022-10-11 09:56:08,468] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Annihilation (2018) (TMDb: 300668)                                         |
+[2022-10-11 09:56:08,518] [builder.py:2243]           [INFO]     | Reddit Collection | ? | The Thing (1982) (TMDb: 1091)                                              |
+[2022-10-11 09:56:08,547] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Blade II (2002) (TMDb: 36586)                                              |
+[2022-10-11 09:56:08,588] [builder.py:2243]           [INFO]     | Reddit Collection | ? | First Blood (1982) (TMDb: 1368)                                            |
+[2022-10-11 09:56:08,617] [builder.py:2243]           [INFO]     | Reddit Collection | ? | A Nightmare on Elm Street 3: Dream Warriors (1987) (TMDb: 10072)           |
+[2022-10-11 09:56:08,676] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Jurassic Park (1993) (TMDb: 329)                                           |
+[2022-10-11 09:56:08,717] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Thelma & Louise (1991) (TMDb: 1541)                                        |
+[2022-10-11 09:56:08,759] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Police Story (1985) (TMDb: 9056)                                           |
+[2022-10-11 09:56:08,801] [builder.py:2243]           [INFO]     | Reddit Collection | ? | Kill Bill: Vol. 1 (2003) (TMDb: 24)                                        |
+[2022-10-11 09:56:08,801] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-10-11 09:56:08,801] [builder.py:2249]           [INFO]     | 136 Movies Missing                                                                                 |
+[2022-10-11 09:56:09,228] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-11 09:56:09,228] [builder.py:2442]           [INFO]     |============================== Updating Details of Reddit Collection ===============================|
+[2022-10-11 09:56:09,229] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-11 09:56:09,501] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | This is a list based on movies found in the following subreddits  r/iwatchedanoldmovie r/flicks r/moviesclubr/MoviePosterPorn
+                                                                 | Sort Title | +1_<<num>>Reddit
+                                                                 | Label | +PMM
+[2022-10-11 09:56:09,793] [builder.py:2513]           [INFO]     | Details: have been updated
+[2022-10-11 09:56:09,794] [builder.py:2517]           [INFO]     | 
+[2022-10-11 09:56:09,830] [builder.py:2561]           [INFO]     | Collection Visibility Updated
+[2022-10-11 09:56:09,831] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Reddit'
+[2022-10-11 09:56:09,940] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-11 09:56:09,941] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 09:56:09,941] [plex_meta_manager.py:709]  [INFO]     |                                     Finished Reddit Collection                                     |
+[2022-10-11 09:56:09,941] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:11                                    |
+[2022-10-11 09:56:09,941] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

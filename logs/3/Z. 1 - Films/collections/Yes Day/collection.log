@@ -1,0 +1,61 @@
+[2022-10-11 11:20:36,428] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:20:36,428] [builder.py:200]            [INFO]     |                                 Yes Day Collection in Z. 1 - Films                                 |
+[2022-10-11 11:20:36,428] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:20:36,428] [builder.py:201]            [INFO]     |                                                                                                    |
+[2022-10-11 11:20:36,428] [builder.py:206]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:20:36,428] [builder.py:222]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:36,429] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:20:36,429] [meta.py:129]               [DEBUG]    | Call: {'value': ['941693'], 'tmdb_collection': ['941693'], 'key_name': 'Yes Day', 'key': '941693', 'name': 'my_template'} |
+[2022-10-11 11:20:36,429] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:36,429] [meta.py:305]               [DEBUG]    | Variables: {'value': ['941693'], 'tmdb_collection': ['941693'], 'key_name': 'Yes Day', 'key': '941693', 'name': 'my_template', 'collection_name': 'Yes Day', 'mapping_name': 'Yes Day', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%27941693%27%5D', 'tmdb_collection_encoded': '%5B%27941693%27%5D', 'key_name_encoded': 'Yes%20Day', 'key_encoded': '941693', 'name_encoded': 'my_template', 'collection_name_encoded': 'Yes%20Day', 'mapping_name_encoded': 'Yes%20Day', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Yes Day'} |
+[2022-10-11 11:20:36,429] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:36,429] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:20:36,429] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:36,430] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:20:36,430] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:36,431] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['941693'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_Yes Day'} |
+[2022-10-11 11:20:36,431] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:36,431] [builder.py:230]            [INFO]     |================================== Validating Yes Day Attributes ===================================|
+[2022-10-11 11:20:36,431] [builder.py:620]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:36,431] [builder.py:621]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:20:36,431] [builder.py:622]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:20:36,432] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:36,432] [builder.py:657]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:20:36,432] [builder.py:658]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:20:36,432] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:36,432] [builder.py:657]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:20:36,432] [builder.py:658]            [DEBUG]    | Value: ['941693']                                                                                  |
+[2022-10-11 11:20:36,450] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:36,450] [builder.py:657]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:20:36,451] [builder.py:658]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:20:36,451] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:36,451] [builder.py:657]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:20:36,451] [builder.py:658]            [DEBUG]    | Value: +C1_Yes Day                                                                                 |
+[2022-10-11 11:20:36,457] [plex.py:803]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:36,457] [plex.py:806]               [DEBUG]    | Looking for: Yes Day                                                                               |
+[2022-10-11 11:20:36,457] [builder.py:823]            [INFO]     |                                                                                                    |
+[2022-10-11 11:20:36,458] [builder.py:824]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:20:36,458] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:20:36,458] [plex_meta_manager.py:563]  [INFO]     |==================================== Running Yes Day Collection ====================================|
+[2022-10-11 11:20:36,458] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:20:36,458] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:20:36,458] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:36,458] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 941693                                                                   |
+[2022-10-11 11:20:36,459] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:20:36,463] [tmdb.py:381]               [INFO]     | Processing TMDb Collection: (941693) Yes Day Collection (2 Items)                                  |
+[2022-10-11 11:20:36,463] [builder.py:1581]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:36,463] [builder.py:1582]           [DEBUG]    | 2 IDs Found: [(638597, 'tmdb'), (855266, 'tmdb')]                                                  |
+[2022-10-11 11:20:36,463] [builder.py:1583]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:36,464] [builder.py:2300]           [INFO]     |                                                                                                    |
+[2022-10-11 11:20:36,464] [builder.py:2301]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-10-11 11:20:36,464] [builder.py:2302]           [INFO]     |                                                                                                    |
+[2022-10-11 11:20:36,473] [builder.py:2315]           [INFO]     | Yes Day Collection | ? | Yes Day 2 (TMDb: 855266)                                                  |
+[2022-10-11 11:20:36,473] [builder.py:2320]           [INFO]     |                                                                                                    |
+[2022-10-11 11:20:36,473] [builder.py:2321]           [INFO]     | 1 Movie Missing                                                                                    |
+[2022-10-11 11:20:36,562] [plex_meta_manager.py:624]  [INFO]     |                                                                                                    |
+[2022-10-11 11:20:36,562] [plex_meta_manager.py:625]  [INFO]     | Collection Minimum: 2 not met for Yes Day Collection                                               |
+[2022-10-11 11:20:36,563] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:20:36,563] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:20:36,563] [plex_meta_manager.py:709]  [INFO]     |                                    Finished Yes Day Collection                                     |
+[2022-10-11 11:20:36,563] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 11:20:36,563] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

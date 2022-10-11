@@ -1,0 +1,72 @@
+[2022-10-11 11:20:30,457] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:20:30,457] [builder.py:200]            [INFO]     |                                Twilight Collection in Z. 1 - Films                                 |
+[2022-10-11 11:20:30,457] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:20:30,457] [builder.py:201]            [INFO]     |                                                                                                    |
+[2022-10-11 11:20:30,458] [builder.py:206]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:20:30,458] [builder.py:222]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:30,458] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:20:30,458] [meta.py:129]               [DEBUG]    | Call: {'value': ['33514'], 'tmdb_collection': ['33514'], 'key_name': 'Twilight', 'key': '33514', 'name': 'my_template'} |
+[2022-10-11 11:20:30,458] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:30,459] [meta.py:305]               [DEBUG]    | Variables: {'value': ['33514'], 'tmdb_collection': ['33514'], 'key_name': 'Twilight', 'key': '33514', 'name': 'my_template', 'collection_name': 'Twilight', 'mapping_name': 'Twilight', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%2733514%27%5D', 'tmdb_collection_encoded': '%5B%2733514%27%5D', 'key_name_encoded': 'Twilight', 'key_encoded': '33514', 'name_encoded': 'my_template', 'collection_name_encoded': 'Twilight', 'mapping_name_encoded': 'Twilight', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Twilight'} |
+[2022-10-11 11:20:30,459] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:30,459] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:20:30,459] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:30,459] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:20:30,460] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:30,460] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['33514'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_Twilight'} |
+[2022-10-11 11:20:30,461] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:30,461] [builder.py:230]            [INFO]     |================================== Validating Twilight Attributes ==================================|
+[2022-10-11 11:20:30,461] [builder.py:620]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:30,461] [builder.py:621]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:20:30,461] [builder.py:622]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:20:30,461] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:30,462] [builder.py:657]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:20:30,462] [builder.py:658]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:20:30,462] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:30,462] [builder.py:657]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:20:30,462] [builder.py:658]            [DEBUG]    | Value: ['33514']                                                                                   |
+[2022-10-11 11:20:30,478] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:30,478] [builder.py:657]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:20:30,478] [builder.py:658]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:20:30,479] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:30,479] [builder.py:657]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:20:30,479] [builder.py:658]            [DEBUG]    | Value: +C1_Twilight                                                                                |
+[2022-10-11 11:20:30,769] [builder.py:823]            [INFO]     |                                                                                                    |
+[2022-10-11 11:20:30,770] [builder.py:824]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:20:30,770] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:20:30,770] [plex_meta_manager.py:563]  [INFO]     |=================================== Running Twilight Collection ====================================|
+[2022-10-11 11:20:30,770] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:20:30,770] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:20:30,771] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:30,771] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 33514                                                                    |
+[2022-10-11 11:20:30,771] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:20:30,779] [tmdb.py:381]               [INFO]     | Processing TMDb Collection: (33514) Twilight - Saga (5 Items)                                      |
+[2022-10-11 11:20:30,779] [builder.py:1581]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:30,780] [builder.py:1582]           [DEBUG]    | 5 IDs Found: [(8966, 'tmdb'), (18239, 'tmdb'), (50619, 'tmdb'), (50620, 'tmdb'), (24021, 'tmdb')]  |
+[2022-10-11 11:20:30,780] [builder.py:1583]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:20:30,780] [builder.py:2132]           [INFO]     |                                                                                                    |
+[2022-10-11 11:20:30,781] [builder.py:2133]           [INFO]     |================================== Adding to Twilight Collection ===================================|
+[2022-10-11 11:20:30,781] [builder.py:2134]           [INFO]     |                                                                                                    |
+[2022-10-11 11:20:30,781] [builder.py:2148]           [INFO]     | 1/5 | Twilight Collection | = | Twilight, chapitre 1 : Fascination (2008)                          |
+[2022-10-11 11:20:30,781] [builder.py:2148]           [INFO]     | 2/5 | Twilight Collection | = | Twilight, chapitre 2 : Tentation (2009)                            |
+[2022-10-11 11:20:30,782] [builder.py:2148]           [INFO]     | 3/5 | Twilight Collection | = | Twilight, chapitre 4 : Révélation, 1re partie (2011)               |
+[2022-10-11 11:20:30,782] [builder.py:2148]           [INFO]     | 4/5 | Twilight Collection | = | Twilight, chapitre 5 : Révélation, 2e partie (2012)                |
+[2022-10-11 11:20:30,782] [builder.py:2148]           [INFO]     | 5/5 | Twilight Collection | = | Twilight, chapitre 3 : Hésitation (2010)                           |
+[2022-10-11 11:20:30,782] [builder.py:2168]           [INFO]     |                                                                                                    |
+[2022-10-11 11:20:30,783] [builder.py:2170]           [INFO]     | 5 Movies Processed 0 Movies Added                                                                  |
+[2022-10-11 11:20:30,792] [builder.py:2521]           [INFO]     |                                                                                                    |
+[2022-10-11 11:20:30,793] [builder.py:2522]           [INFO]     |============================= Updating Details of Twilight Collection ==============================|
+[2022-10-11 11:20:30,793] [builder.py:2523]           [INFO]     |                                                                                                    |
+[2022-10-11 11:20:30,805] [builder.py:2589]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-10-11 11:20:30,806] [builder.py:2660]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Twilight'                                             |
+[2022-10-11 11:20:30,806] [util.py:171]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-10-11 11:20:30,806] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Poster: https://image.tmdb.org/t/p/original/6CHDKc7vcxKUFZWLehZzriIABMS.jpg |
+[2022-10-11 11:20:30,806] [util.py:171]               [DEBUG]    | 1 background found:                                                                                |
+[2022-10-11 11:20:30,807] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Background: https://image.tmdb.org/t/p/original/kriNR9A8Lhk2tFzbVQkhepXymEr.jpg |
+[2022-10-11 11:20:30,808] [library.py:173]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-10-11 11:20:30,809] [library.py:189]            [INFO]     | Detail: background update not needed                                                               |
+[2022-10-11 11:20:31,122] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:20:31,122] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:20:31,122] [plex_meta_manager.py:709]  [INFO]     |                                    Finished Twilight Collection                                    |
+[2022-10-11 11:20:31,123] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 11:20:31,123] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

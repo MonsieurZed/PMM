@@ -1,0 +1,52 @@
+[2022-10-11 08:37:02,701] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 08:37:02,701] [builder.py:197]            [INFO]     |                                   Sea Collection in Z. 1 - Films                                   |
+[2022-10-11 08:37:02,701] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 08:37:02,701] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 08:37:02,701] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 08:37:02,701] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:37:02,701] [meta.py:128]               [DEBUG]    | Template Genre                                                                                     |
+[2022-10-11 08:37:02,702] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Genre')])                                                             |
+[2022-10-11 08:37:02,702] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:37:02,702] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Genre'), ('collection_name', 'Sea'), ('mapping_name', 'Sea'), ('library_type', 'movie'), ('library_name', 'Z. 1 - Films'), ('name_encoded', 'Genre'), ('collection_name_encoded', 'Sea'), ('mapping_name_encoded', 'Sea'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%201%20-%20Films'), ('collection_sort', 'Sea')]) |
+[2022-10-11 08:37:02,702] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:37:02,702] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 08:37:02,702] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:37:02,702] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 08:37:02,703] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:37:02,703] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+3_Sea', 'sync_mode': 'sync', 'smart_label': 'audience_rating.desc'} |
+[2022-10-11 08:37:02,703] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:37:02,703] [builder.py:219]            [INFO]     |==================================== Validating Sea Attributes =====================================|
+[2022-10-11 08:37:02,703] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:37:02,704] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-11 08:37:02,704] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-11 08:37:02,704] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:37:02,704] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-11 08:37:02,704] [builder.py:544]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-10-11 08:37:02,711] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:37:02,712] [builder.py:631]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-10-11 08:37:02,712] [builder.py:632]            [DEBUG]    | Value: ['https://www.imdb.com/list/ls021459420/', 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj6v9nMqtb6AhUMQ_EDHTIdDRwQFnoECB8QAQ&url=https%3A%2F%2Fwww.imdb.com%2Flist%2Fls063527186%2F&usg=AOvVaw0zUunpqZbV3XrELrFkmnkk'] |
+[2022-10-11 08:37:05,332] [plex_meta_manager.py:696]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 559, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str)
+                                                                 |   File "/modules/builder.py", line 705, in __init__
+                                                                 |     self._imdb(method_name, method_data)
+                                                                 |   File "/modules/builder.py", line 1135, in _imdb
+                                                                 |     for imdb_dict in self.config.IMDb.validate_imdb_lists(self.Type, method_data, self.language):
+                                                                 |   File "/modules/imdb.py", line 51, in validate_imdb_lists
+                                                                 |     raise Failed(f"IMDb Error: {imdb_url} must begin with either:{fails}")
+                                                                 | modules.util.Failed: IMDb Error: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj6v9nMqtb6AhUMQ_EDHTIdDRwQFnoECB8QAQ&url=https%3A%2F%2Fwww.imdb.com%2Flist%2Fls063527186%2F&usg=AOvVaw0zUunpqZbV3XrELrFkmnkk must begin with either:https://www.imdb.com/list/ls (For Lists)
+                                                                 | https://www.imdb.com/search/title/ (For Searches)
+                                                                 | https://www.imdb.com/search/title-text/ (For Title Text Searches)
+                                                                 | https://www.imdb.com/search/keyword/ (For Keyword Searches)
+                                                                 | https://www.imdb.com/filmosearch/ (For Filmography Searches)
+                                                                 | 
+[2022-10-11 08:37:05,335] [plex_meta_manager.py:697]  [ERROR]    | IMDb Error: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj6v9nMqtb6AhUMQ_EDHTIdDRwQFnoECB8QAQ&url=https%3A%2F%2Fwww.imdb.com%2Flist%2Fls063527186%2F&usg=AOvVaw0zUunpqZbV3XrELrFkmnkk must begin with either:https://www.imdb.com/list/ls (For Lists)
+                                                                 | https://www.imdb.com/search/title/ (For Searches)
+                                                                 | https://www.imdb.com/search/title-text/ (For Title Text Searches)
+                                                                 | https://www.imdb.com/search/keyword/ (For Keyword Searches)
+                                                                 | https://www.imdb.com/filmosearch/ (For Filmography Searches)
+[2022-10-11 08:37:05,336] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-11 08:37:05,336] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 08:37:05,336] [plex_meta_manager.py:709]  [INFO]     |                                      Finished Sea Collection                                       |
+[2022-10-11 08:37:05,336] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-10-11 08:37:05,336] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

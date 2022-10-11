@@ -1,0 +1,72 @@
+[2022-10-11 11:18:39,903] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:18:39,903] [builder.py:200]            [INFO]     |                                Die Hard Collection in Z. 1 - Films                                 |
+[2022-10-11 11:18:39,904] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:18:39,904] [builder.py:201]            [INFO]     |                                                                                                    |
+[2022-10-11 11:18:39,904] [builder.py:206]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:18:39,904] [builder.py:222]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:39,904] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:18:39,904] [meta.py:129]               [DEBUG]    | Call: {'value': ['1570'], 'tmdb_collection': ['1570'], 'key_name': 'Die Hard', 'key': '1570', 'name': 'my_template'} |
+[2022-10-11 11:18:39,905] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:39,905] [meta.py:305]               [DEBUG]    | Variables: {'value': ['1570'], 'tmdb_collection': ['1570'], 'key_name': 'Die Hard', 'key': '1570', 'name': 'my_template', 'collection_name': 'Die Hard', 'mapping_name': 'Die Hard', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%271570%27%5D', 'tmdb_collection_encoded': '%5B%271570%27%5D', 'key_name_encoded': 'Die%20Hard', 'key_encoded': '1570', 'name_encoded': 'my_template', 'collection_name_encoded': 'Die%20Hard', 'mapping_name_encoded': 'Die%20Hard', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Die Hard'} |
+[2022-10-11 11:18:39,905] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:39,905] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:18:39,905] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:39,905] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:18:39,906] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:39,906] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['1570'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_Die Hard'} |
+[2022-10-11 11:18:39,906] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:39,907] [builder.py:230]            [INFO]     |================================== Validating Die Hard Attributes ==================================|
+[2022-10-11 11:18:39,907] [builder.py:620]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:39,907] [builder.py:621]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:18:39,907] [builder.py:622]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:18:39,907] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:39,907] [builder.py:657]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:18:39,907] [builder.py:658]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:18:39,908] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:39,908] [builder.py:657]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:18:39,908] [builder.py:658]            [DEBUG]    | Value: ['1570']                                                                                    |
+[2022-10-11 11:18:39,921] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:39,921] [builder.py:657]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:18:39,922] [builder.py:658]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:18:39,922] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:39,922] [builder.py:657]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:18:39,922] [builder.py:658]            [DEBUG]    | Value: +C1_Die Hard                                                                                |
+[2022-10-11 11:18:40,142] [builder.py:823]            [INFO]     |                                                                                                    |
+[2022-10-11 11:18:40,142] [builder.py:824]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:18:40,142] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:40,142] [plex_meta_manager.py:563]  [INFO]     |=================================== Running Die Hard Collection ====================================|
+[2022-10-11 11:18:40,143] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:40,143] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:18:40,143] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:40,143] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 1570                                                                     |
+[2022-10-11 11:18:40,143] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:40,148] [tmdb.py:381]               [INFO]     | Processing TMDb Collection: (1570) Die Hard - Saga (5 Items)                                       |
+[2022-10-11 11:18:40,149] [builder.py:1581]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:40,149] [builder.py:1582]           [DEBUG]    | 5 IDs Found: [(562, 'tmdb'), (1571, 'tmdb'), (1572, 'tmdb'), (1573, 'tmdb'), (47964, 'tmdb')]      |
+[2022-10-11 11:18:40,149] [builder.py:1583]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:40,149] [builder.py:2132]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:40,149] [builder.py:2133]           [INFO]     |================================== Adding to Die Hard Collection ===================================|
+[2022-10-11 11:18:40,149] [builder.py:2134]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:40,150] [builder.py:2148]           [INFO]     | 1/5 | Die Hard Collection | = | Die Hard : Piège de cristal (1988)                                 |
+[2022-10-11 11:18:40,150] [builder.py:2148]           [INFO]     | 2/5 | Die Hard Collection | = | Die Hard 4 : Retour en enfer (2007)                                |
+[2022-10-11 11:18:40,150] [builder.py:2148]           [INFO]     | 3/5 | Die Hard Collection | = | DIe Hard : Une Journée en enfer (1995)                             |
+[2022-10-11 11:18:40,150] [builder.py:2148]           [INFO]     | 4/5 | Die Hard Collection | = | Die Hard 2 : 58 minutes pour vivre (1990)                          |
+[2022-10-11 11:18:40,150] [builder.py:2148]           [INFO]     | 5/5 | Die Hard Collection | = | Die Hard : Belle journée pour mourir (2013)                        |
+[2022-10-11 11:18:40,150] [builder.py:2168]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:40,151] [builder.py:2170]           [INFO]     | 5 Movies Processed 0 Movies Added                                                                  |
+[2022-10-11 11:18:40,158] [builder.py:2521]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:40,158] [builder.py:2522]           [INFO]     |============================= Updating Details of Die Hard Collection ==============================|
+[2022-10-11 11:18:40,158] [builder.py:2523]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:40,166] [builder.py:2589]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-10-11 11:18:40,167] [builder.py:2660]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Die Hard'                                             |
+[2022-10-11 11:18:40,167] [util.py:171]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-10-11 11:18:40,167] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Poster: https://image.tmdb.org/t/p/original/bFZRGXeLLUjnp3F8zzwkvrvPHWD.jpg |
+[2022-10-11 11:18:40,167] [util.py:171]               [DEBUG]    | 1 background found:                                                                                |
+[2022-10-11 11:18:40,168] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Background: https://image.tmdb.org/t/p/original/5kHVblr87FUScuab1PVSsK692IL.jpg |
+[2022-10-11 11:18:40,169] [library.py:173]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-10-11 11:18:40,169] [library.py:189]            [INFO]     | Detail: background update not needed                                                               |
+[2022-10-11 11:18:40,368] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:40,369] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:18:40,369] [plex_meta_manager.py:709]  [INFO]     |                                    Finished Die Hard Collection                                    |
+[2022-10-11 11:18:40,369] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 11:18:40,369] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

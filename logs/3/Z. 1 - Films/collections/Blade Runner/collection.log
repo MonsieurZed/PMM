@@ -1,0 +1,69 @@
+[2022-10-11 11:18:31,427] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:18:31,428] [builder.py:200]            [INFO]     |                              Blade Runner Collection in Z. 1 - Films                               |
+[2022-10-11 11:18:31,428] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:18:31,428] [builder.py:201]            [INFO]     |                                                                                                    |
+[2022-10-11 11:18:31,428] [builder.py:206]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:18:31,428] [builder.py:222]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:31,428] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:18:31,429] [meta.py:129]               [DEBUG]    | Call: {'value': ['422837'], 'tmdb_collection': ['422837'], 'key_name': 'Blade Runner', 'key': '422837', 'name': 'my_template'} |
+[2022-10-11 11:18:31,429] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:31,429] [meta.py:305]               [DEBUG]    | Variables: {'value': ['422837'], 'tmdb_collection': ['422837'], 'key_name': 'Blade Runner', 'key': '422837', 'name': 'my_template', 'collection_name': 'Blade Runner', 'mapping_name': 'Blade Runner', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%27422837%27%5D', 'tmdb_collection_encoded': '%5B%27422837%27%5D', 'key_name_encoded': 'Blade%20Runner', 'key_encoded': '422837', 'name_encoded': 'my_template', 'collection_name_encoded': 'Blade%20Runner', 'mapping_name_encoded': 'Blade%20Runner', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Blade Runner'} |
+[2022-10-11 11:18:31,429] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:31,429] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:18:31,429] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:31,429] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:18:31,430] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:31,430] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['422837'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_Blade Runner'} |
+[2022-10-11 11:18:31,431] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:31,431] [builder.py:230]            [INFO]     |================================ Validating Blade Runner Attributes ================================|
+[2022-10-11 11:18:31,431] [builder.py:620]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:31,431] [builder.py:621]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:18:31,431] [builder.py:622]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:18:31,431] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:31,431] [builder.py:657]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:18:31,431] [builder.py:658]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:18:31,432] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:31,432] [builder.py:657]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:18:31,432] [builder.py:658]            [DEBUG]    | Value: ['422837']                                                                                  |
+[2022-10-11 11:18:31,443] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:31,443] [builder.py:657]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:18:31,444] [builder.py:658]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:18:31,444] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:31,444] [builder.py:657]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:18:31,444] [builder.py:658]            [DEBUG]    | Value: +C1_Blade Runner                                                                            |
+[2022-10-11 11:18:31,640] [builder.py:823]            [INFO]     |                                                                                                    |
+[2022-10-11 11:18:31,641] [builder.py:824]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:18:31,641] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:31,641] [plex_meta_manager.py:563]  [INFO]     |================================= Running Blade Runner Collection ==================================|
+[2022-10-11 11:18:31,641] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:31,641] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:18:31,641] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:31,642] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 422837                                                                   |
+[2022-10-11 11:18:31,642] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:31,647] [tmdb.py:381]               [INFO]     | Processing TMDb Collection: (422837) Blade Runner - Saga (2 Items)                                 |
+[2022-10-11 11:18:31,647] [builder.py:1581]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:31,647] [builder.py:1582]           [DEBUG]    | 2 IDs Found: [(78, 'tmdb'), (335984, 'tmdb')]                                                      |
+[2022-10-11 11:18:31,648] [builder.py:1583]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:31,648] [builder.py:2132]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:31,648] [builder.py:2133]           [INFO]     |================================ Adding to Blade Runner Collection =================================|
+[2022-10-11 11:18:31,648] [builder.py:2134]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:31,648] [builder.py:2148]           [INFO]     | 1/2 | Blade Runner Collection | = | Blade Runner (1982)                                            |
+[2022-10-11 11:18:31,649] [builder.py:2148]           [INFO]     | 2/2 | Blade Runner Collection | = | Blade Runner 2049 (2017)                                       |
+[2022-10-11 11:18:31,649] [builder.py:2168]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:31,649] [builder.py:2170]           [INFO]     | 2 Movies Processed 0 Movies Added                                                                  |
+[2022-10-11 11:18:31,657] [builder.py:2521]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:31,657] [builder.py:2522]           [INFO]     |=========================== Updating Details of Blade Runner Collection ============================|
+[2022-10-11 11:18:31,657] [builder.py:2523]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:31,665] [builder.py:2589]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-10-11 11:18:31,666] [builder.py:2660]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Blade Runner'                                         |
+[2022-10-11 11:18:31,666] [util.py:171]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-10-11 11:18:31,666] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Poster: https://image.tmdb.org/t/p/original/qTcATCpiFDcgY8snQIfS2j0bFP7.jpg |
+[2022-10-11 11:18:31,666] [util.py:171]               [DEBUG]    | 1 background found:                                                                                |
+[2022-10-11 11:18:31,666] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Background: https://image.tmdb.org/t/p/original/bSHZIvLoPBWyGLeiAudN1mXdvQX.jpg |
+[2022-10-11 11:18:31,667] [library.py:173]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-10-11 11:18:31,668] [library.py:189]            [INFO]     | Detail: background update not needed                                                               |
+[2022-10-11 11:18:31,861] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:31,862] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:18:31,862] [plex_meta_manager.py:709]  [INFO]     |                                  Finished Blade Runner Collection                                  |
+[2022-10-11 11:18:31,862] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 11:18:31,863] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

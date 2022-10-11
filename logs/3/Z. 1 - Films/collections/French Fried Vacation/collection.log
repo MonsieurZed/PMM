@@ -1,0 +1,70 @@
+[2022-10-11 11:19:08,397] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:19:08,397] [builder.py:200]            [INFO]     |                          French Fried Vacation Collection in Z. 1 - Films                          |
+[2022-10-11 11:19:08,397] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:19:08,397] [builder.py:201]            [INFO]     |                                                                                                    |
+[2022-10-11 11:19:08,397] [builder.py:206]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:19:08,398] [builder.py:222]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:08,398] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:19:08,398] [meta.py:129]               [DEBUG]    | Call: {'value': ['52835'], 'tmdb_collection': ['52835'], 'key_name': 'French Fried Vacation', 'key': '52835', 'name': 'my_template'} |
+[2022-10-11 11:19:08,398] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:08,398] [meta.py:305]               [DEBUG]    | Variables: {'value': ['52835'], 'tmdb_collection': ['52835'], 'key_name': 'French Fried Vacation', 'key': '52835', 'name': 'my_template', 'collection_name': 'French Fried Vacation', 'mapping_name': 'French Fried Vacation', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%2752835%27%5D', 'tmdb_collection_encoded': '%5B%2752835%27%5D', 'key_name_encoded': 'French%20Fried%20Vacation', 'key_encoded': '52835', 'name_encoded': 'my_template', 'collection_name_encoded': 'French%20Fried%20Vacation', 'mapping_name_encoded': 'French%20Fried%20Vacation', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'French Fried Vacation'} |
+[2022-10-11 11:19:08,398] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:08,399] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:19:08,399] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:08,399] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:19:08,400] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:08,400] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['52835'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_French Fried Vacation'} |
+[2022-10-11 11:19:08,400] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:08,400] [builder.py:230]            [INFO]     |=========================== Validating French Fried Vacation Attributes ============================|
+[2022-10-11 11:19:08,400] [builder.py:620]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:08,400] [builder.py:621]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:19:08,401] [builder.py:622]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:19:08,401] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:08,401] [builder.py:657]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:19:08,401] [builder.py:658]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:19:08,401] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:08,401] [builder.py:657]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:19:08,401] [builder.py:658]            [DEBUG]    | Value: ['52835']                                                                                   |
+[2022-10-11 11:19:08,414] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:08,415] [builder.py:657]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:19:08,415] [builder.py:658]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:19:08,415] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:08,415] [builder.py:657]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:19:08,416] [builder.py:658]            [DEBUG]    | Value: +C1_French Fried Vacation                                                                   |
+[2022-10-11 11:19:08,612] [builder.py:823]            [INFO]     |                                                                                                    |
+[2022-10-11 11:19:08,612] [builder.py:824]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:19:08,613] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:08,613] [plex_meta_manager.py:563]  [INFO]     |============================= Running French Fried Vacation Collection =============================|
+[2022-10-11 11:19:08,613] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:08,613] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:19:08,613] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:08,613] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 52835                                                                    |
+[2022-10-11 11:19:08,614] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:08,618] [tmdb.py:381]               [INFO]     | Processing TMDb Collection: (52835) Les Bronzés - Saga (3 Items)                                   |
+[2022-10-11 11:19:08,618] [builder.py:1581]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:08,619] [builder.py:1582]           [DEBUG]    | 3 IDs Found: [(11183, 'tmdb'), (33701, 'tmdb'), (21435, 'tmdb')]                                   |
+[2022-10-11 11:19:08,619] [builder.py:1583]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:08,619] [builder.py:2132]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:08,619] [builder.py:2133]           [INFO]     |============================ Adding to French Fried Vacation Collection ============================|
+[2022-10-11 11:19:08,619] [builder.py:2134]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:08,619] [builder.py:2148]           [INFO]     | 1/3 | French Fried Vacation Collection | = | Les bronzés (1978)                                    |
+[2022-10-11 11:19:08,620] [builder.py:2148]           [INFO]     | 2/3 | French Fried Vacation Collection | = | Les bronzés font du ski (1979)                        |
+[2022-10-11 11:19:08,620] [builder.py:2148]           [INFO]     | 3/3 | French Fried Vacation Collection | = | Les bronzés 3: amis pour la vie (2006)                |
+[2022-10-11 11:19:08,620] [builder.py:2168]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:08,620] [builder.py:2170]           [INFO]     | 3 Movies Processed 0 Movies Added                                                                  |
+[2022-10-11 11:19:08,626] [builder.py:2521]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:08,627] [builder.py:2522]           [INFO]     |======================= Updating Details of French Fried Vacation Collection =======================|
+[2022-10-11 11:19:08,627] [builder.py:2523]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:08,636] [builder.py:2589]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-10-11 11:19:08,637] [builder.py:2660]           [WARNING]  | Asset Warning: Unable to find asset folder: 'French Fried Vacation'                                |
+[2022-10-11 11:19:08,637] [util.py:171]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-10-11 11:19:08,637] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Poster: https://image.tmdb.org/t/p/original/fQpzsDozHL6hcQdmPisU0cLSbfC.jpg |
+[2022-10-11 11:19:08,638] [util.py:171]               [DEBUG]    | 1 background found:                                                                                |
+[2022-10-11 11:19:08,638] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Background: https://image.tmdb.org/t/p/original/hjk94JWHQcYEWftJAssFsNhSr9L.jpg |
+[2022-10-11 11:19:08,639] [library.py:173]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-10-11 11:19:08,640] [library.py:189]            [INFO]     | Detail: background update not needed                                                               |
+[2022-10-11 11:19:08,832] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:08,833] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:19:08,833] [plex_meta_manager.py:709]  [INFO]     |                             Finished French Fried Vacation Collection                              |
+[2022-10-11 11:19:08,833] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 11:19:08,833] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

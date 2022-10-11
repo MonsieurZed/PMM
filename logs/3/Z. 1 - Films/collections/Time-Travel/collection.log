@@ -1,0 +1,278 @@
+[2022-10-11 09:04:39,561] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 09:04:39,561] [builder.py:197]            [INFO]     |                               Time-Travel Collection in Z. 1 - Films                               |
+[2022-10-11 09:04:39,561] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 09:04:39,562] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 09:04:39,562] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 09:04:39,562] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:04:39,562] [meta.py:128]               [DEBUG]    | Template Genre                                                                                     |
+[2022-10-11 09:04:39,562] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Genre')])                                                             |
+[2022-10-11 09:04:39,562] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:04:39,563] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Genre'), ('collection_name', 'Time-Travel'), ('mapping_name', 'Time-Travel'), ('library_type', 'movie'), ('library_name', 'Z. 1 - Films'), ('name_encoded', 'Genre'), ('collection_name_encoded', 'Time-Travel'), ('mapping_name_encoded', 'Time-Travel'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%201%20-%20Films'), ('collection_sort', 'Time-Travel')]) |
+[2022-10-11 09:04:39,563] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:04:39,563] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 09:04:39,563] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:04:39,563] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 09:04:39,564] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:04:39,564] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+3_Time-Travel', 'sync_mode': 'sync', 'smart_label': 'audience_rating.desc'} |
+[2022-10-11 09:04:39,564] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:04:39,564] [builder.py:219]            [INFO]     |================================ Validating Time-Travel Attributes =================================|
+[2022-10-11 09:04:39,564] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:04:39,564] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-11 09:04:39,564] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-11 09:04:39,565] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:04:39,565] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-11 09:04:39,565] [builder.py:544]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-10-11 09:04:39,579] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:04:39,579] [builder.py:631]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-10-11 09:04:39,579] [builder.py:632]            [DEBUG]    | Value: ['https://trakt.tv/users/vagnerr/lists/time-travel', 'https://trakt.tv/users/rizreflects/lists/time-travel', 'https://trakt.tv/users/peeps_/lists/time-travel'] |
+[2022-10-11 09:04:40,101] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:04:40,101] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-10-11 09:04:40,101] [builder.py:632]            [DEBUG]    | Value: Film/show contains time-travel. In any form. Be it time-loop, full on relocation in time, consciousness transfer... |
+[2022-10-11 09:04:40,102] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:04:40,102] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-11 09:04:40,102] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_TIME.png                |
+[2022-10-11 09:04:40,338] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:04:40,338] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 09:04:40,339] [builder.py:632]            [DEBUG]    | Value: +3_Time-Travel                                                                              |
+[2022-10-11 09:04:41,081] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 09:04:41,081] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 09:04:41,082] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 09:04:41,082] [plex_meta_manager.py:563]  [INFO]     |================================== Running Time-Travel Collection ==================================|
+[2022-10-11 09:04:41,082] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-10-11 09:04:41,082] [plex_meta_manager.py:570]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: audience_rating.desc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Time-Travel
+[2022-10-11 09:04:41,083] [plex_meta_manager.py:575]  [INFO]     | 
+[2022-10-11 09:04:41,083] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync
+[2022-10-11 09:04:41,083] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 09:04:41,083] [plex_meta_manager.py:580]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/vagnerr/lists/time-travel
+[2022-10-11 09:04:41,083] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 09:04:41,083] [trakt.py:487]              [INFO]     | Processing Trakt List: https://trakt.tv/users/vagnerr/lists/time-travel
+[2022-10-11 09:04:41,285] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 09:04:41,286] [builder.py:1541]           [DEBUG]    | 230 IDs Found: [(22494, 'tmdb'), (105, 'tmdb'), (165, 'tmdb'), (196, 'tmdb'), (59967, 'tmdb'), (137, 'tmdb'), (460024, 'tmdb'), (314544, 'tvdb'), (71326, 'tvdb'), (78804, 'tvdb'), (76107, 'tvdb'), (15691, 'tmdb'), (272644, 'tvdb'), (63, 'tmdb'), (87101, 'tmdb'), (218, 'tmdb'), (534, 'tmdb'), (280, 'tmdb'), (296, 'tmdb'), (80344, 'tvdb'), (49160, 'tmdb'), (311713, 'tvdb'), (1649, 'tmdb'), (77526, 'tvdb'), (1648, 'tmdb'), (73893, 'tvdb'), (673, 'tmdb'), (311958, 'tvdb'), (376292, 'tmdb'), (347945, 'tmdb'), (74550, 'tvdb'), (410199, 'tmdb'), (227719, 'tmdb'), (284052, 'tmdb'), (258171, 'tvdb'), (164091, 'tvdb'), (79501, 'tvdb'), (84024, 'tvdb'), (72233, 'tvdb'), (70851, 'tvdb'), (79334, 'tvdb'), (79177, 'tvdb'), (81253, 'tvdb'), (127585, 'tmdb'), (293970, 'tmdb'), (13475, 'tmdb'), (168, 'tmdb'), (397837, 'tmdb'), (137113, 'tmdb'), (141, 'tmdb'), (766, 'tmdb'), (72248, 'tvdb'), (8831, 'tmdb'), ('71470_3_15', 'tvdb_episode'), ('71470_5_9', 'tvdb_episode'), ('71470_5_18', 'tvdb_episode'), ('71470_2_13', 'tvdb_episode'), ('292174_3_9', 'tvdb_episode'), ('71470_5_26', 'tvdb_episode'), ('71470_6_1', 'tvdb_episode'), ('71470_6_15', 'tvdb_episode'), ('71470_6_25', 'tvdb_episode'), ('71470_7_21', 'tvdb_episode'), ('71470_7_25', 'tvdb_episode'), ('71470_7_26', 'tvdb_episode'), (433251, 'tmdb'), (157336, 'tmdb'), (72401, 'tvdb'), (30647, 'tmdb'), (17803, 'tmdb'), (2134, 'tmdb'), (273271, 'tmdb'), (36819, 'tmdb'), (243938, 'tmdb'), (23048, 'tmdb'), (244061, 'tvdb'), (41154, 'tmdb'), (206487, 'tmdb'), (1954, 'tmdb'), (9278, 'tmdb'), (4296, 'tmdb'), ('292174_3_4', 'tvdb_episode'), ('72073_3_11', 'tvdb_episode'), ('72073_3_12', 'tvdb_episode'), (1687, 'tmdb'), (437, 'tmdb'), (79809, 'tvdb'), (269795, 'tmdb'), (28762, 'tmdb'), (10606, 'tmdb'), (8738, 'tmdb'), ('76366_1_16', 'tvdb_episode'), ('76366_2_3', 'tvdb_episode'), ('72073_3_17', 'tvdb_episode'), (330997, 'tvdb'), ('72073_4_8', 'tvdb_episode'), ('72073_4_17', 'tvdb_episode'), ('72073_5_6', 'tvdb_episode'), (9339, 'tmdb'), (2135, 'tmdb'), (14069, 'tmdb'), (2157, 'tmdb'), ('79256_1_3', 'tvdb_episode'), (14337, 'tmdb'), (336004, 'tvdb'), ('328711_1_7', 'tvdb_episode'), ('71326_11_1', 'tvdb_episode'), ('72073_5_22', 'tvdb_episode'), ('71326_11_3', 'tvdb_episode'), (54427, 'tmdb'), ('77799_3_2', 'tvdb_episode'), (329865, 'tmdb'), ('72073_6_17', 'tvdb_episode'), ('72073_6_24', 'tvdb_episode'), ('72073_6_25', 'tvdb_episode'), (303071, 'tvdb'), (337206, 'tvdb'), (10122, 'tmdb'), (285943, 'tvdb'), (77268, 'tvdb'), ('263365_5_1', 'tvdb_episode'), (199, 'tmdb'), (253310, 'tmdb'), (148948, 'tmdb'), (24420, 'tmdb'), (122906, 'tmdb'), (7551, 'tmdb'), (14620, 'tmdb'), (16258, 'tmdb'), (9667, 'tmdb'), (71700, 'tmdb'), (220289, 'tmdb'), (98568, 'tmdb'), (26466, 'tmdb'), (14139, 'tmdb'), (126323, 'tmdb'), (257117, 'tmdb'), (459073, 'tmdb'), (440021, 'tmdb'), (301824, 'tvdb'), (347423, 'tvdb'), (75885, 'tvdb'), (80494, 'tvdb'), (77983, 'tvdb'), (75880, 'tvdb'), (24559, 'tmdb'), (449078, 'tmdb'), (352481, 'tmdb'), ('328487_1_5', 'tvdb_episode'), (353764, 'tvdb'), (529216, 'tmdb'), (292262, 'tvdb'), ('328711_2_10', 'tvdb_episode'), ('328711_2_11', 'tvdb_episode'), ('328711_2_12', 'tvdb_episode'), ('328711_2_14', 'tvdb_episode'), (582607, 'tmdb'), (299534, 'tmdb'), ('70626_1_8', 'tvdb_episode'), ('70626_2_2', 'tvdb_episode'), ('299139_3_5', 'tvdb_episode'), ('70626_2_14', 'tvdb_episode'), ('70626_3_4', 'tvdb_episode'), (540970, 'tmdb'), ('78901_4_3', 'tvdb_episode'), ('70626_4_10', 'tvdb_episode'), (530382, 'tmdb'), ('74550_1_3', 'tvdb_episode'), ('74550_1_4', 'tvdb_episode'), ('78901_5_4', 'tvdb_episode'), ('78901_5_13', 'tvdb_episode'), ('78901_5_14', 'tvdb_episode'), ('74550_1_7', 'tvdb_episode'), ('78901_6_18', 'tvdb_episode'), (10559, 'tmdb'), (74540, 'tvdb'), ('78901_7_12', 'tvdb_episode'), ('73871_5_8', 'tvdb_episode'), ('78901_8_12', 'tvdb_episode'), (7249, 'tmdb'), ('73871_6_7', 'tvdb_episode'), ('338947_2_8', 'tvdb_episode'), ('70626_5_8', 'tvdb_episode'), ('73871_6_20', 'tvdb_episode'), ('70626_5_12', 'tvdb_episode'), ('73871_7_3', 'tvdb_episode'), (73871, 'tvdb'), ('70626_5_18', 'tvdb_episode'), ('70626_6_10', 'tvdb_episode'), ('70626_6_11', 'tvdb_episode'), ('78901_11_14', 'tvdb_episode'), (455839, 'tmdb'), ('334824_1_3', 'tvdb_episode'), ('334824_1', 'tvdb_season'), ('334824_2', 'tvdb_season'), ('334824_3', 'tvdb_season'), (334824, 'tvdb'), (24750, 'tmdb'), (45612, 'tmdb'), (577922, 'tmdb'), (528085, 'tmdb'), ('328711_3_1', 'tvdb_episode'), (451925, 'tmdb'), (346385, 'tmdb'), ('74550_3_8', 'tvdb_episode'), ('74550_3_9', 'tvdb_episode'), ('74550_3_21', 'tvdb_episode'), (391199, 'tmdb'), (383498, 'tmdb'), ('74550_4_8', 'tvdb_episode'), ('74550_4_9', 'tvdb_episode'), (588228, 'tmdb'), (86812, 'tmdb'), (84332, 'tmdb'), (362472, 'tvdb'), ('74550_5_6', 'tvdb_episode'), ('74550_5_24', 'tvdb_episode'), ('367147_1_4', 'tvdb_episode'), ('74550_6_23', 'tvdb_episode'), ('74550_7_25', 'tvdb_episode'), ('78901_14_13', 'tvdb_episode'), ('73893_3_11', 'tvdb_episode'), (837921, 'tmdb'), (696806, 'tmdb'), (356640, 'tvdb'), ('356640_2', 'tvdb_season'), (433310, 'tmdb'), ('382389_1_10', 'tvdb_episode'), ('328487_3_6', 'tvdb_episode'), (501979, 'tmdb')]
+[2022-10-11 09:04:41,286] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 09:04:41,293] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 09:04:41,293] [plex_meta_manager.py:580]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/rizreflects/lists/time-travel
+[2022-10-11 09:04:41,293] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 09:04:41,294] [trakt.py:487]              [INFO]     | Processing Trakt List: https://trakt.tv/users/rizreflects/lists/time-travel
+[2022-10-11 09:04:41,492] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 09:04:41,492] [builder.py:1541]           [DEBUG]    | 128 IDs Found: [(718789, 'tmdb'), (696806, 'tmdb'), (576845, 'tmdb'), (588228, 'tmdb'), (791373, 'tmdb'), (513310, 'tmdb'), (763532, 'tmdb'), (746039, 'tmdb'), (549294, 'tmdb'), (577922, 'tmdb'), (587792, 'tmdb'), (290859, 'tmdb'), (530382, 'tmdb'), (539651, 'tmdb'), (417384, 'tmdb'), (299534, 'tmdb'), (512196, 'tmdb'), (280217, 'tmdb'), (570131, 'tmdb'), (383498, 'tmdb'), (433310, 'tmdb'), (440021, 'tmdb'), (339964, 'tmdb'), (455839, 'tmdb'), (397837, 'tmdb'), (421758, 'tmdb'), (329865, 'tmdb'), (283366, 'tmdb'), (410199, 'tmdb'), (241259, 'tmdb'), (87101, 'tmdb'), (227719, 'tmdb'), (157336, 'tmdb'), (206487, 'tmdb'), (240832, 'tmdb'), (137113, 'tmdb'), (273271, 'tmdb'), (127585, 'tmdb'), (253307, 'tmdb'), (82703, 'tmdb'), (122906, 'tmdb'), (273404, 'tmdb'), (75761, 'tmdb'), (59967, 'tmdb'), (84332, 'tmdb'), (41154, 'tmdb'), (81393, 'tmdb'), (98568, 'tmdb'), (59436, 'tmdb'), (45612, 'tmdb'), (86812, 'tmdb'), (49391, 'tmdb'), (9543, 'tmdb'), (23048, 'tmdb'), (31011, 'tmdb'), (17979, 'tmdb'), (26466, 'tmdb'), (24420, 'tmdb'), (534, 'tmdb'), (13475, 'tmdb'), (22494, 'tmdb'), (12914, 'tmdb'), (1729, 'tmdb'), (7249, 'tmdb'), (11910, 'tmdb'), (1738, 'tmdb'), (1267, 'tmdb'), (2267, 'tmdb'), (7551, 'tmdb'), (2286, 'tmdb'), (7512, 'tmdb'), (9339, 'tmdb'), (2044, 'tmdb'), (300, 'tmdb'), (6795, 'tmdb'), (65215, 'tmdb'), (9667, 'tmdb'), (12580, 'tmdb'), (673, 'tmdb'), (10096, 'tmdb'), (15775, 'tmdb'), (1954, 'tmdb'), (11588, 'tmdb'), (9620, 'tmdb'), (11427, 'tmdb'), (296, 'tmdb'), (5493, 'tmdb'), (12093, 'tmdb'), (818, 'tmdb'), (180, 'tmdb'), (2637, 'tmdb'), (11232, 'tmdb'), (141, 'tmdb'), (34205, 'tmdb'), (5994, 'tmdb'), (4244, 'tmdb'), (10559, 'tmdb'), (22230, 'tmdb'), (926, 'tmdb'), (16716, 'tmdb'), (817, 'tmdb'), (1090, 'tmdb'), (22509, 'tmdb'), (30145, 'tmdb'), (2657, 'tmdb'), (10215, 'tmdb'), (104, 'tmdb'), (10153, 'tmdb'), (686, 'tmdb'), (70687, 'tmdb'), (638, 'tmdb'), (26689, 'tmdb'), (199, 'tmdb'), (15691, 'tmdb'), (63, 'tmdb'), (8844, 'tmdb'), (193, 'tmdb'), (9739, 'tmdb'), (10439, 'tmdb'), (17803, 'tmdb'), (137, 'tmdb'), (10326, 'tmdb'), (10437, 'tmdb'), (766, 'tmdb'), (1649, 'tmdb'), (280, 'tmdb'), (2612, 'tmdb'), (196, 'tmdb')]
+[2022-10-11 09:04:41,492] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 09:04:41,507] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 09:04:41,507] [plex_meta_manager.py:580]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/peeps_/lists/time-travel
+[2022-10-11 09:04:41,508] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 09:04:41,508] [trakt.py:487]              [INFO]     | Processing Trakt List: https://trakt.tv/users/peeps_/lists/time-travel
+[2022-10-11 09:04:41,668] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 09:04:41,669] [builder.py:1541]           [DEBUG]    | 56 IDs Found: [(1954, 'tmdb'), (45612, 'tmdb'), (206487, 'tmdb'), (26466, 'tmdb'), (227719, 'tmdb'), (273271, 'tmdb'), (14337, 'tmdb'), (59967, 'tmdb'), (137113, 'tmdb'), (180, 'tmdb'), (328595, 'tmdb'), (63, 'tmdb'), (137, 'tmdb'), (127585, 'tmdb'), (13475, 'tmdb'), (397837, 'tmdb'), (157336, 'tmdb'), (9339, 'tmdb'), (440021, 'tmdb'), (330997, 'tvdb'), (334824, 'tvdb'), (7551, 'tmdb'), (433310, 'tmdb'), (314544, 'tvdb'), (122906, 'tmdb'), (10559, 'tmdb'), (9667, 'tmdb'), (220289, 'tmdb'), (410199, 'tmdb'), (459073, 'tmdb'), (105, 'tmdb'), (272644, 'tvdb'), (218, 'tmdb'), (673, 'tmdb'), (284052, 'tmdb'), (41154, 'tmdb'), (299534, 'tmdb'), (455839, 'tmdb'), (451925, 'tmdb'), (529216, 'tmdb'), (587792, 'tmdb'), (59436, 'tmdb'), (426793, 'tmdb'), (84332, 'tmdb'), (2044, 'tmdb'), (2135, 'tmdb'), (8831, 'tmdb'), (582607, 'tmdb'), (513310, 'tmdb'), (549294, 'tmdb'), (588228, 'tmdb'), (755135, 'tmdb'), (303071, 'tvdb'), ('73739_4_5', 'tvdb_episode'), (672647, 'tmdb'), (696806, 'tmdb')]
+[2022-10-11 09:04:41,669] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 09:04:41,676] [builder.py:2064]           [INFO]     | 
+[2022-10-11 09:04:41,676] [builder.py:2065]           [INFO]     |================================= Adding to Time-Travel Collection =================================|
+[2022-10-11 09:04:41,677] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-11 09:04:42,103] [builder.py:2080]           [INFO]     |  1/91 | Time-Travel Collection | = | Retour vers le futur (1985)                                   |
+[2022-10-11 09:04:42,103] [builder.py:2080]           [INFO]     |  2/91 | Time-Travel Collection | = | Retour vers le futur II (1989)                                |
+[2022-10-11 09:04:42,104] [builder.py:2080]           [INFO]     |  3/91 | Time-Travel Collection | = | Retour vers le futur III (1990)                               |
+[2022-10-11 09:04:42,105] [builder.py:2080]           [INFO]     |  4/91 | Time-Travel Collection | = | Looper (2012)                                                 |
+[2022-10-11 09:04:42,105] [builder.py:2080]           [INFO]     |  5/91 | Time-Travel Collection | = | Un jour sans fin (1993)                                       |
+[2022-10-11 09:04:42,106] [builder.py:2080]           [INFO]     |  6/91 | Time-Travel Collection | = | L'Armée des 12 singes (1995)                                  |
+[2022-10-11 09:04:42,106] [builder.py:2080]           [INFO]     |  7/91 | Time-Travel Collection | = | Terminator Genisys (2015)                                     |
+[2022-10-11 09:04:42,107] [builder.py:2080]           [INFO]     |  8/91 | Time-Travel Collection | = | Terminator (1984)                                             |
+[2022-10-11 09:04:42,108] [builder.py:2080]           [INFO]     |  9/91 | Time-Travel Collection | = | Terminator Renaissance (2009)                                 |
+[2022-10-11 09:04:42,108] [builder.py:2080]           [INFO]     | 10/91 | Time-Travel Collection | = | Terminator 2 : Le Jugement dernier (1991)                     |
+[2022-10-11 09:04:42,109] [builder.py:2080]           [INFO]     | 11/91 | Time-Travel Collection | = | Terminator 3 : Le Soulèvement des machines (2003)             |
+[2022-10-11 09:04:42,109] [builder.py:2080]           [INFO]     | 12/91 | Time-Travel Collection | = | Harry Potter III : Le Prisonnier d'Azkaban (2004)             |
+[2022-10-11 09:04:42,110] [builder.py:2080]           [INFO]     | 13/91 | Time-Travel Collection | = | Synchronicity (2016)                                          |
+[2022-10-11 09:04:42,110] [builder.py:2080]           [INFO]     | 14/91 | Time-Travel Collection | = | ARQ (2016)                                                    |
+[2022-10-11 09:04:42,111] [builder.py:2080]           [INFO]     | 15/91 | Time-Travel Collection | = | Doctor Strange (2016)                                         |
+[2022-10-11 09:04:42,111] [builder.py:2080]           [INFO]     | 16/91 | Time-Travel Collection | = | X-Men : Days of Future Past (2014)                            |
+[2022-10-11 09:04:42,112] [builder.py:2080]           [INFO]     | 17/91 | Time-Travel Collection | = | Star Trek (2009)                                              |
+[2022-10-11 09:04:42,112] [builder.py:2080]           [INFO]     | 18/91 | Time-Travel Collection | = | Star Trek IV : Retour sur Terre (1986)                        |
+[2022-10-11 09:04:42,113] [builder.py:2080]           [INFO]     | 19/91 | Time-Travel Collection | = | Edge of Tomorrow (2014)                                       |
+[2022-10-11 09:04:42,113] [builder.py:2080]           [INFO]     | 20/91 | Time-Travel Collection | = | Donnie Darko (2001)                                           |
+[2022-10-11 09:04:42,113] [builder.py:2080]           [INFO]     | 21/91 | Time-Travel Collection | = | Interstellar (2014)                                           |
+[2022-10-11 09:04:42,114] [builder.py:2080]           [INFO]     | 22/91 | Time-Travel Collection | = | Time Lapse (2015)                                             |
+[2022-10-11 09:04:42,115] [builder.py:2080]           [INFO]     | 23/91 | Time-Travel Collection | = | Men in Black III (2012)                                       |
+[2022-10-11 09:04:42,115] [builder.py:2080]           [INFO]     | 24/91 | Time-Travel Collection | = | Prédestination (2014)                                         |
+[2022-10-11 09:04:42,116] [builder.py:2080]           [INFO]     | 25/91 | Time-Travel Collection | = | L'Effet papillon (2004)                                       |
+[2022-10-11 09:04:42,116] [builder.py:2080]           [INFO]     | 26/91 | Time-Travel Collection | = | La Planète des singes III : Les Évadés de la planète des singes (1971) |
+[2022-10-11 09:04:42,116] [builder.py:2080]           [INFO]     | 27/91 | Time-Travel Collection | = | 2:22 (2017)                                                   |
+[2022-10-11 09:04:42,116] [builder.py:2080]           [INFO]     | 28/91 | Time-Travel Collection | = | Click : Télécommandez votre vie (2006)                        |
+[2022-10-11 09:04:42,117] [builder.py:2080]           [INFO]     | 29/91 | Time-Travel Collection | = | La Machine à explorer le temps (2002)                        |
+[2022-10-11 09:04:42,117] [builder.py:2080]           [INFO]     | 30/91 | Time-Travel Collection | = | Perdus dans l'Espace (1998)                                   |
+[2022-10-11 09:04:42,118] [builder.py:2080]           [INFO]     | 31/91 | Time-Travel Collection | = | Premier Contact (2016)                                        |
+[2022-10-11 09:04:42,118] [builder.py:2080]           [INFO]     | 32/91 | Time-Travel Collection | = | Star Trek : Premier Contact (1996)                            |
+[2022-10-11 09:04:42,119] [builder.py:2080]           [INFO]     | 33/91 | Time-Travel Collection | = | Hors du temps (2009)                                          |
+[2022-10-11 09:04:42,119] [builder.py:2080]           [INFO]     | 34/91 | Time-Travel Collection | = | Il était Temps (2013)                                         |
+[2022-10-11 09:04:42,119] [builder.py:2080]           [INFO]     | 35/91 | Time-Travel Collection | = | Déjà vu (2006)                                                |
+[2022-10-11 09:04:42,120] [builder.py:2080]           [INFO]     | 36/91 | Time-Travel Collection | = | L'Effet Papillon 2 (2006)                                     |
+[2022-10-11 09:04:42,120] [builder.py:2080]           [INFO]     | 37/91 | Time-Travel Collection | = | L'Effet Papillon 3 (2009)                                     |
+[2022-10-11 09:04:42,121] [builder.py:2080]           [INFO]     | 38/91 | Time-Travel Collection | = | The Jacket (2005)                                             |
+[2022-10-11 09:04:42,121] [builder.py:2080]           [INFO]     | 39/91 | Time-Travel Collection | = | Triangle (2009)                                               |
+[2022-10-11 09:04:42,122] [builder.py:2080]           [INFO]     | 40/91 | Time-Travel Collection | = | Happy Birthdead (2017)                                        |
+[2022-10-11 09:04:42,122] [builder.py:2080]           [INFO]     | 41/91 | Time-Travel Collection | = | Mirage (2018)                                                 |
+[2022-10-11 09:04:42,122] [builder.py:2080]           [INFO]     | 42/91 | Time-Travel Collection | = | See You Yesterday (2019)                                      |
+[2022-10-11 09:04:42,123] [builder.py:2080]           [INFO]     | 43/91 | Time-Travel Collection | = | Avengers : Endgame (2019)                                     |
+[2022-10-11 09:04:42,123] [builder.py:2080]           [INFO]     | 44/91 | Time-Travel Collection | = | In the Shadow of the Moon (2019)                              |
+[2022-10-11 09:04:42,123] [builder.py:2080]           [INFO]     | 45/91 | Time-Travel Collection | = | Fréquence Interdite (2000)                                    |
+[2022-10-11 09:04:42,124] [builder.py:2080]           [INFO]     | 46/91 | Time-Travel Collection | = | TIME TRAP (2018)                                              |
+[2022-10-11 09:04:42,125] [builder.py:2080]           [INFO]     | 47/91 | Time-Travel Collection | = | Source Code (2011)                                            |
+[2022-10-11 09:04:42,125] [builder.py:2080]           [INFO]     | 48/91 | Time-Travel Collection | = | Tenet (2020)                                                  |
+[2022-10-11 09:04:42,126] [builder.py:2080]           [INFO]     | 49/91 | Time-Travel Collection | = | 2067 (2020)                                                   |
+[2022-10-11 09:04:42,126] [builder.py:2080]           [INFO]     | 50/91 | Time-Travel Collection | = | Time Lovers (2018)                                            |
+[2022-10-11 09:04:42,127] [builder.py:2080]           [INFO]     | 51/91 | Time-Travel Collection | = | Deadpool 2 (2018)                                             |
+[2022-10-11 09:04:42,127] [builder.py:2080]           [INFO]     | 52/91 | Time-Travel Collection | = | The Tomorrow War (2021)                                       |
+[2022-10-11 09:04:42,128] [builder.py:2080]           [INFO]     | 53/91 | Time-Travel Collection | = | Adam à travers le temps (2022)                                |
+[2022-10-11 09:04:42,128] [builder.py:2080]           [INFO]     | 54/91 | Time-Travel Collection | = | When We First Met (2018)                                      |
+[2022-10-11 09:04:42,129] [builder.py:2080]           [INFO]     | 55/91 | Time-Travel Collection | = | Last Night in Soho (2021)                                     |
+[2022-10-11 09:04:42,129] [builder.py:2080]           [INFO]     | 56/91 | Time-Travel Collection | = | Zack Snyder's Justice League (2021)                           |
+[2022-10-11 09:04:42,129] [builder.py:2080]           [INFO]     | 57/91 | Time-Travel Collection | = | Boss Level (2021)                                             |
+[2022-10-11 09:04:42,130] [builder.py:2080]           [INFO]     | 58/91 | Time-Travel Collection | = | Synchronic (2020)                                             |
+[2022-10-11 09:04:42,130] [builder.py:2080]           [INFO]     | 59/91 | Time-Travel Collection | = | Palm Springs (2020)                                           |
+[2022-10-11 09:04:42,131] [builder.py:2080]           [INFO]     | 60/91 | Time-Travel Collection | = | Terminator : Dark Fate (2019)                                 |
+[2022-10-11 09:04:42,132] [builder.py:2080]           [INFO]     | 61/91 | Time-Travel Collection | = | Scary Stories (2019)                                          |
+[2022-10-11 09:04:42,132] [builder.py:2080]           [INFO]     | 62/91 | Time-Travel Collection | = | Happy Birthdead 2 You (2019)                                  |
+[2022-10-11 09:04:42,133] [builder.py:2080]           [INFO]     | 63/91 | Time-Travel Collection | = | Valérian et la Cité des Mille Planètes (2017)                 |
+[2022-10-11 09:04:42,133] [builder.py:2080]           [INFO]     | 64/91 | Time-Travel Collection | = | Miss Peregrine et les enfants particuliers (2016)             |
+[2022-10-11 09:04:42,134] [builder.py:2080]           [INFO]     | 65/91 | Time-Travel Collection | = | Alice de l'autre côté du miroir (2016)                        |
+[2022-10-11 09:04:42,134] [builder.py:2080]           [INFO]     | 66/91 | Time-Travel Collection | = | Lucy (2014)                                                   |
+[2022-10-11 09:04:42,134] [builder.py:2080]           [INFO]     | 67/91 | Time-Travel Collection | = | Minuit à Paris (2011)                                         |
+[2022-10-11 09:04:42,135] [builder.py:2080]           [INFO]     | 68/91 | Time-Travel Collection | = | Prince of Persia : Les Sables du temps (2010)                 |
+[2022-10-11 09:04:42,135] [builder.py:2080]           [INFO]     | 69/91 | Time-Travel Collection | = | Mr. Nobody (2009)                                             |
+[2022-10-11 09:04:42,136] [builder.py:2080]           [INFO]     | 70/91 | Time-Travel Collection | = | Stargate : Continuum (2008)                                   |
+[2022-10-11 09:04:42,137] [builder.py:2080]           [INFO]     | 71/91 | Time-Travel Collection | = | Le Royaume Interdit (2008)                                    |
+[2022-10-11 09:04:42,137] [builder.py:2080]           [INFO]     | 72/91 | Time-Travel Collection | = | Idiocracy (2007)                                              |
+[2022-10-11 09:04:42,137] [builder.py:2080]           [INFO]     | 73/91 | Time-Travel Collection | = | Entre deux rives (2006)                                       |
+[2022-10-11 09:04:42,138] [builder.py:2080]           [INFO]     | 74/91 | Time-Travel Collection | = | Zathura : Une aventure spatiale (2005)                        |
+[2022-10-11 09:04:42,138] [builder.py:2080]           [INFO]     | 75/91 | Time-Travel Collection | = | Paycheck (2003)                                               |
+[2022-10-11 09:04:42,139] [builder.py:2080]           [INFO]     | 76/91 | Time-Travel Collection | = | Austin Powers dans Goldmember (2002)                          |
+[2022-10-11 09:04:42,139] [builder.py:2080]           [INFO]     | 77/91 | Time-Travel Collection | = | Minority Report (2002)                                        |
+[2022-10-11 09:04:42,139] [builder.py:2080]           [INFO]     | 78/91 | Time-Travel Collection | = | Family Man (2000)                                             |
+[2022-10-11 09:04:42,140] [builder.py:2080]           [INFO]     | 79/91 | Time-Travel Collection | = | Sale môme (2000)                                              |
+[2022-10-11 09:04:42,140] [builder.py:2080]           [INFO]     | 80/91 | Time-Travel Collection | = | Galaxy Quest (1999)                                           |
+[2022-10-11 09:04:42,141] [builder.py:2080]           [INFO]     | 81/91 | Time-Travel Collection | = | Austin Powers : L’Espion qui m'a tirée (1999)                 |
+[2022-10-11 09:04:42,141] [builder.py:2080]           [INFO]     | 82/91 | Time-Travel Collection | = | Passé virtuel (1999)                                          |
+[2022-10-11 09:04:42,142] [builder.py:2080]           [INFO]     | 83/91 | Time-Travel Collection | = | Pleasantville (1998)                                          |
+[2022-10-11 09:04:42,142] [builder.py:2080]           [INFO]     | 84/91 | Time-Travel Collection | = | Sphère (1998)                                                 |
+[2022-10-11 09:04:42,143] [builder.py:2080]           [INFO]     | 85/91 | Time-Travel Collection | = | Contact (1997)                                                |
+[2022-10-11 09:04:42,143] [builder.py:2080]           [INFO]     | 86/91 | Time-Travel Collection | = | Lost Highway (1997)                                           |
+[2022-10-11 09:04:42,143] [builder.py:2080]           [INFO]     | 87/91 | Time-Travel Collection | = | Jumanji (1995)                                                |
+[2022-10-11 09:04:42,144] [builder.py:2080]           [INFO]     | 88/91 | Time-Travel Collection | = | Star Trek : Générations (1994)                                |
+[2022-10-11 09:04:42,144] [builder.py:2080]           [INFO]     | 89/91 | Time-Travel Collection | = | Demolition Man (1993)                                         |
+[2022-10-11 09:04:42,145] [builder.py:2080]           [INFO]     | 90/91 | Time-Travel Collection | = | Parallel (2020)                                               |
+[2022-10-11 09:04:42,145] [builder.py:2080]           [INFO]     | 91/91 | Time-Travel Collection | = | The Map of Tiny Perfect Things (2021)                         |
+[2022-10-11 09:04:42,145] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-11 09:04:42,146] [builder.py:2102]           [INFO]     | 91 Movies Processed 0 Movies Added                                                                 |
+[2022-10-11 09:04:42,147] [builder.py:2228]           [INFO]     |                                                                                                    |
+[2022-10-11 09:04:42,147] [builder.py:2229]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-10-11 09:04:42,147] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-10-11 09:04:42,159] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Frequently Asked Questions About Time Travel (2009) (TMDb: 22494)     |
+[2022-10-11 09:04:42,176] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Stasis (2017) (TMDb: 460024)                                          |
+[2022-10-11 09:04:42,234] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Doctor Who (1996) (TMDb: 15691)                                       |
+[2022-10-11 09:04:42,259] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | The Time Travelers (1964) (TMDb: 49160)                               |
+[2022-10-11 09:04:42,284] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Bill & Ted's Bogus Journey (1991) (TMDb: 1649)                        |
+[2022-10-11 09:04:42,309] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Bill & Ted's Excellent Adventure (1989) (TMDb: 1648)                  |
+[2022-10-11 09:04:42,334] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Paradox (2016) (TMDb: 376292)                                         |
+[2022-10-11 09:04:42,359] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Project Almanac (2015) (TMDb: 227719)                                 |
+[2022-10-11 09:04:42,384] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | The Final Girls (2015) (TMDb: 293970)                                 |
+[2022-10-11 09:04:42,409] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Before I Fall (2017) (TMDb: 397837)                                   |
+[2022-10-11 09:04:42,434] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Evil Dead 3 : L'Armée des ténèbres (1992) (TMDb: 766)                 |
+[2022-10-11 09:04:42,459] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Timecop (1994) (TMDb: 8831)                                           |
+[2022-10-11 09:04:42,484] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Naked (2017) (TMDb: 433251)                                           |
+[2022-10-11 09:04:42,509] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | 12:01 PM (1990) (TMDb: 30647)                                         |
+[2022-10-11 09:04:42,534] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | 12:01 (1993) (TMDb: 17803)                                            |
+[2022-10-11 09:04:42,559] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | The Time Machine (1960) (TMDb: 2134)                                  |
+[2022-10-11 09:04:42,584] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Time Bandits (1981) (TMDb: 36819)                                     |
+[2022-10-11 09:04:42,609] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Hot Tub Time Machine 2 (2015) (TMDb: 243938)                          |
+[2022-10-11 09:04:42,634] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Hot Tub Time Machine (2010) (TMDb: 23048)                             |
+[2022-10-11 09:04:42,659] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Freejack (1992) (TMDb: 9278)                                          |
+[2022-10-11 09:04:42,684] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Millennium (1989) (TMDb: 4296)                                        |
+[2022-10-11 09:04:42,709] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Cube² : Hypercube (2002) (TMDb: 437)                                  |
+[2022-10-11 09:04:42,734] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Waxwork II: Lost in Time (1992) (TMDb: 28762)                         |
+[2022-10-11 09:04:42,759] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | The Philadelphia Experiment (1984) (TMDb: 10606)                      |
+[2022-10-11 09:04:42,801] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | The Final Countdown (1980) (TMDb: 8738)                               |
+[2022-10-11 09:04:42,851] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | The Girl Who Leapt Through Time (2006) (TMDb: 14069)                  |
+[2022-10-11 09:04:42,876] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Primer (2004) (TMDb: 14337)                                           |
+[2022-10-11 09:04:42,901] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Stork Day (2004) (TMDb: 54427)                                        |
+[2022-10-11 09:04:42,926] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Le Vol du Navigateur (1986) (TMDb: 10122)                             |
+[2022-10-11 09:04:42,951] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Premature (2014) (TMDb: 253310)                                       |
+[2022-10-11 09:04:42,975] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | The Time Machine (1978) (TMDb: 148948)                                |
+[2022-10-11 09:04:43,002] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Repeaters (2010) (TMDb: 71700)                                        |
+[2022-10-11 09:04:43,026] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Coherence (2013) (TMDb: 220289)                                       |
+[2022-10-11 09:04:43,059] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Enter Nowhere (2011) (TMDb: 98568)                                    |
+[2022-10-11 09:04:43,076] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Timecrimes (2007) (TMDb: 14139)                                       |
+[2022-10-11 09:04:43,117] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Mine Games (2012) (TMDb: 126323)                                      |
+[2022-10-11 09:04:43,143] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Blood Punch (2014) (TMDb: 257117)                                     |
+[2022-10-11 09:04:43,177] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | A Day (2017) (TMDb: 459073)                                           |
+[2022-10-11 09:04:43,210] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Slaughterhouse-Five (1972) (TMDb: 24559)                              |
+[2022-10-11 09:04:43,252] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Time Sweep (2016) (TMDb: 449078)                                      |
+[2022-10-11 09:04:43,285] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Stealing Time (2015) (TMDb: 352481)                                   |
+[2022-10-11 09:04:43,286] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Collider (2018) (TMDb: 540970)                                        |
+[2022-10-11 09:04:43,309] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Futurama: Bender's Big Score (2007) (TMDb: 7249)                      |
+[2022-10-11 09:04:43,351] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Time After Time (1979) (TMDb: 24750)                                  |
+[2022-10-11 09:04:43,368] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | The History of Time Travel (2014) (TMDb: 346385)                      |
+[2022-10-11 09:04:43,409] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Displacement (2016) (TMDb: 391199)                                    |
+[2022-10-11 09:04:43,435] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Sound of My Voice (2011) (TMDb: 86812)                                |
+[2022-10-11 09:04:43,465] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Safety Not Guaranteed (2012) (TMDb: 84332)                            |
+[2022-10-11 09:04:43,493] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | 10 Minute Time Machine (2017) (TMDb: 837921)                          |
+[2022-10-11 09:04:43,510] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Bill & Ted Face the Music (2020) (TMDb: 501979)                       |
+[2022-10-11 09:04:43,543] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Lightyear (2022) (TMDb: 718789)                                       |
+[2022-10-11 09:04:43,560] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Long Story Short (2021) (TMDb: 763532)                                |
+[2022-10-11 09:04:43,618] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | A Timeless Christmas (2020) (TMDb: 746039)                            |
+[2022-10-11 09:04:43,660] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Don't Let Go (2019) (TMDb: 539651)                                    |
+[2022-10-11 09:04:43,710] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | The Lego Movie 2: The Second Part (2019) (TMDb: 280217)               |
+[2022-10-11 09:04:43,735] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Love at Second Sight (2019) (TMDb: 570131)                            |
+[2022-10-11 09:04:43,793] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Journey Back to Christmas (2016) (TMDb: 421758)                       |
+[2022-10-11 09:04:43,835] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | The Infinite Man (2014) (TMDb: 253307)                                |
+[2022-10-11 09:04:43,860] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Mr. Peabody & Sherman (2014) (TMDb: 82703)                            |
+[2022-10-11 09:04:43,918] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | I'll Follow You Down (2013) (TMDb: 273404)                            |
+[2022-10-11 09:04:43,952] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | John Dies at the End (2013) (TMDb: 75761)                             |
+[2022-10-11 09:04:43,994] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | 12 Dates of Christmas (2011) (TMDb: 81393)                            |
+[2022-10-11 09:04:44,027] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | From Time to Time (2010) (TMDb: 49391)                                |
+[2022-10-11 09:04:44,052] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | A Christmas Carol (2009) (TMDb: 17979)                                |
+[2022-10-11 09:04:44,094] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Hogfather (2007) (TMDb: 11910)                                        |
+[2022-10-11 09:04:44,135] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Next (2007) (TMDb: 1738)                                              |
+[2022-10-11 09:04:44,169] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Meet the Robinsons (2007) (TMDb: 1267)                                |
+[2022-10-11 09:04:44,211] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | The Last Mimzy (2007) (TMDb: 2267)                                    |
+[2022-10-11 09:04:44,243] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Crusade in Jeans (2006) (TMDb: 2286)                                  |
+[2022-10-11 09:04:44,269] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | The Science of Sleep (2006) (TMDb: 300)                               |
+[2022-10-11 09:04:44,311] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Family Guy Presents: Stewie Griffin: The Untold Story (2005) (TMDb: 65215) |
+[2022-10-11 09:04:44,327] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Izo (2004) (TMDb: 12580)                                              |
+[2022-10-11 09:04:44,377] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | 13 Going on 30 (2004) (TMDb: 10096)                                   |
+[2022-10-11 09:04:44,394] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | If Only (2004) (TMDb: 15775)                                          |
+[2022-10-11 09:04:44,436] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | The I Inside (2004) (TMDb: 11588)                                     |
+[2022-10-11 09:04:44,447] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Dead End (2003) (TMDb: 11427)                                         |
+[2022-10-11 09:04:44,486] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Returner (2002) (TMDb: 5493)                                          |
+[2022-10-11 09:04:44,510] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Lilya 4-ever (2002) (TMDb: 12093)                                     |
+[2022-10-11 09:04:44,516] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | The Mothman Prophecies (2002) (TMDb: 2637)                            |
+[2022-10-11 09:04:44,532] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Kate & Leopold (2001) (TMDb: 11232)                                   |
+[2022-10-11 09:04:44,559] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Halloweentown II: Kalabar's Revenge (2001) (TMDb: 34205)              |
+[2022-10-11 09:04:44,570] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Happy Accidents (2000) (TMDb: 22230)                                  |
+[2022-10-11 09:04:44,617] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | A Christmas Carol (1999) (TMDb: 16716)                                |
+[2022-10-11 09:04:44,629] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | The Devil's Arithmetic (1999) (TMDb: 22509)                           |
+[2022-10-11 09:04:44,659] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | The Miracle of P. Tinto (1998) (TMDb: 30145)                          |
+[2022-10-11 09:04:44,677] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Sliding Doors (1998) (TMDb: 10215)                                    |
+[2022-10-11 09:04:44,701] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Run Lola Run (1998) (TMDb: 104)                                       |
+[2022-10-11 09:04:44,711] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | The Sticky Fingers of Time (1997) (TMDb: 70687)                       |
+[2022-10-11 09:04:44,751] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Retroactive (1997) (TMDb: 26689)                                      |
+[2022-10-11 09:04:44,761] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Hocus Pocus (1993) (TMDb: 10439)                                      |
+[2022-10-11 09:04:44,792] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Forever Young (1992) (TMDb: 10326)                                    |
+[2022-10-11 09:04:44,801] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | The Muppet Christmas Carol (1992) (TMDb: 10437)                       |
+[2022-10-11 09:04:44,818] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Mr. Destiny (1990) (TMDb: 2612)                                       |
+[2022-10-11 09:04:44,842] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | Parallels (2015) (TMDb: 328595)                                       |
+[2022-10-11 09:04:44,853] [builder.py:2243]           [INFO]     | Time-Travel Collection | ? | 6:45 (2021) (TMDb: 755135)                                            |
+[2022-10-11 09:04:44,853] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-10-11 09:04:44,854] [builder.py:2249]           [INFO]     | 95 Movies Missing                                                                                  |
+[2022-10-11 09:04:45,874] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-11 09:04:45,874] [builder.py:2442]           [INFO]     |============================ Updating Details of Time-Travel Collection ============================|
+[2022-10-11 09:04:45,875] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-11 09:04:45,884] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-10-11 09:04:45,884] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Time-Travel'                                          |
+[2022-10-11 09:04:45,885] [util.py:150]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-10-11 09:04:45,885] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_TIME.png |
+[2022-10-11 09:04:45,922] [library.py:170]            [INFO]     | Detail: url_poster updated poster to [URL] https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_TIME.png |
+[2022-10-11 09:04:46,268] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 09:04:46,269] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 09:04:46,269] [plex_meta_manager.py:709]  [INFO]     |                                  Finished Time-Travel Collection                                   |
+[2022-10-11 09:04:46,269] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:06                                    |
+[2022-10-11 09:04:46,269] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

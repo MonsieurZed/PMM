@@ -1,0 +1,63 @@
+[2022-10-11 11:19:12,243] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:19:12,243] [builder.py:200]            [INFO]     |                              Tuche Family Collection in Z. 1 - Films                               |
+[2022-10-11 11:19:12,243] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:19:12,244] [builder.py:201]            [INFO]     |                                                                                                    |
+[2022-10-11 11:19:12,244] [builder.py:206]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:19:12,244] [builder.py:222]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:12,244] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:19:12,244] [meta.py:129]               [DEBUG]    | Call: {'value': ['389544'], 'tmdb_collection': ['389544'], 'key_name': 'Tuche Family', 'key': '389544', 'name': 'my_template'} |
+[2022-10-11 11:19:12,244] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:12,245] [meta.py:305]               [DEBUG]    | Variables: {'value': ['389544'], 'tmdb_collection': ['389544'], 'key_name': 'Tuche Family', 'key': '389544', 'name': 'my_template', 'collection_name': 'Tuche Family', 'mapping_name': 'Tuche Family', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%27389544%27%5D', 'tmdb_collection_encoded': '%5B%27389544%27%5D', 'key_name_encoded': 'Tuche%20Family', 'key_encoded': '389544', 'name_encoded': 'my_template', 'collection_name_encoded': 'Tuche%20Family', 'mapping_name_encoded': 'Tuche%20Family', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Tuche Family'} |
+[2022-10-11 11:19:12,245] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:12,245] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:19:12,245] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:12,245] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:19:12,246] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:12,246] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['389544'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_Tuche Family'} |
+[2022-10-11 11:19:12,246] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:12,246] [builder.py:230]            [INFO]     |================================ Validating Tuche Family Attributes ================================|
+[2022-10-11 11:19:12,247] [builder.py:620]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:12,247] [builder.py:621]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:19:12,247] [builder.py:622]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:19:12,247] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:12,247] [builder.py:657]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:19:12,247] [builder.py:658]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:19:12,247] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:12,247] [builder.py:657]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:19:12,248] [builder.py:658]            [DEBUG]    | Value: ['389544']                                                                                  |
+[2022-10-11 11:19:12,260] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:12,260] [builder.py:657]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:19:12,260] [builder.py:658]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:19:12,261] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:12,261] [builder.py:657]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:19:12,261] [builder.py:658]            [DEBUG]    | Value: +C1_Tuche Family                                                                            |
+[2022-10-11 11:19:12,267] [plex.py:803]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:12,267] [plex.py:806]               [DEBUG]    | Looking for: Tuche Family                                                                          |
+[2022-10-11 11:19:12,267] [builder.py:823]            [INFO]     |                                                                                                    |
+[2022-10-11 11:19:12,267] [builder.py:824]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:19:12,268] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:12,268] [plex_meta_manager.py:563]  [INFO]     |================================= Running Tuche Family Collection ==================================|
+[2022-10-11 11:19:12,268] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:12,268] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:19:12,268] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:12,268] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 389544                                                                   |
+[2022-10-11 11:19:12,268] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:12,273] [tmdb.py:381]               [INFO]     | Processing TMDb Collection: (389544) Les Tuche - Saga (4 Items)                                    |
+[2022-10-11 11:19:12,273] [builder.py:1581]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:12,273] [builder.py:1582]           [DEBUG]    | 4 IDs Found: [(66129, 'tmdb'), (369776, 'tmdb'), (424619, 'tmdb'), (613335, 'tmdb')]               |
+[2022-10-11 11:19:12,273] [builder.py:1583]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:12,274] [builder.py:2300]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:12,274] [builder.py:2301]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-10-11 11:19:12,274] [builder.py:2302]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:12,285] [builder.py:2315]           [INFO]     | Tuche Family Collection | ? | The Tuche Family (2011) (TMDb: 66129)                                |
+[2022-10-11 11:19:12,335] [builder.py:2315]           [INFO]     | Tuche Family Collection | ? | The Tuche Family: The American Dream (2016) (TMDb: 369776)           |
+[2022-10-11 11:19:12,348] [builder.py:2315]           [INFO]     | Tuche Family Collection | ? | Les Tuche 3 (2018) (TMDb: 424619)                                    |
+[2022-10-11 11:19:12,348] [builder.py:2320]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:12,348] [builder.py:2321]           [INFO]     | 3 Movies Missing                                                                                   |
+[2022-10-11 11:19:12,396] [plex_meta_manager.py:624]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:12,397] [plex_meta_manager.py:625]  [INFO]     | Collection Minimum: 2 not met for Tuche Family Collection                                          |
+[2022-10-11 11:19:12,397] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:12,397] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:19:12,397] [plex_meta_manager.py:709]  [INFO]     |                                  Finished Tuche Family Collection                                  |
+[2022-10-11 11:19:12,398] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 11:19:12,398] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

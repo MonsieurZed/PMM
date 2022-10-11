@@ -1,0 +1,70 @@
+[2022-10-11 11:19:02,613] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:19:02,614] [builder.py:200]            [INFO]     |                           Le Cœur des Hommes Collection in Z. 1 - Films                            |
+[2022-10-11 11:19:02,614] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:19:02,614] [builder.py:201]            [INFO]     |                                                                                                    |
+[2022-10-11 11:19:02,614] [builder.py:206]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:19:02,614] [builder.py:222]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:02,614] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:19:02,614] [meta.py:129]               [DEBUG]    | Call: {'value': ['260586'], 'tmdb_collection': ['260586'], 'key_name': 'Le Cœur des Hommes', 'key': '260586', 'name': 'my_template'} |
+[2022-10-11 11:19:02,615] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:02,615] [meta.py:305]               [DEBUG]    | Variables: {'value': ['260586'], 'tmdb_collection': ['260586'], 'key_name': 'Le Cœur des Hommes', 'key': '260586', 'name': 'my_template', 'collection_name': 'Le Cœur des Hommes', 'mapping_name': 'Le Cœur des Hommes', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%27260586%27%5D', 'tmdb_collection_encoded': '%5B%27260586%27%5D', 'key_name_encoded': 'Le%20C%C5%93ur%20des%20Hommes', 'key_encoded': '260586', 'name_encoded': 'my_template', 'collection_name_encoded': 'Le%20C%C5%93ur%20des%20Hommes', 'mapping_name_encoded': 'Le%20C%C5%93ur%20des%20Hommes', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Le Cœur des Hommes'} |
+[2022-10-11 11:19:02,615] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:02,615] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:19:02,615] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:02,615] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:19:02,616] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:02,616] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['260586'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_Le Cœur des Hommes'} |
+[2022-10-11 11:19:02,617] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:02,617] [builder.py:230]            [INFO]     |============================= Validating Le Cœur des Hommes Attributes =============================|
+[2022-10-11 11:19:02,617] [builder.py:620]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:02,617] [builder.py:621]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:19:02,617] [builder.py:622]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:19:02,617] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:02,617] [builder.py:657]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:19:02,618] [builder.py:658]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:19:02,618] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:02,618] [builder.py:657]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:19:02,618] [builder.py:658]            [DEBUG]    | Value: ['260586']                                                                                  |
+[2022-10-11 11:19:02,630] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:02,630] [builder.py:657]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:19:02,630] [builder.py:658]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:19:02,631] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:02,631] [builder.py:657]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:19:02,631] [builder.py:658]            [DEBUG]    | Value: +C1_Le Cœur des Hommes                                                                      |
+[2022-10-11 11:19:02,833] [builder.py:823]            [INFO]     |                                                                                                    |
+[2022-10-11 11:19:02,833] [builder.py:824]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:19:02,833] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:02,834] [plex_meta_manager.py:563]  [INFO]     |============================== Running Le Cœur des Hommes Collection ===============================|
+[2022-10-11 11:19:02,834] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:02,834] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:19:02,834] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:02,834] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 260586                                                                   |
+[2022-10-11 11:19:02,835] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:02,841] [tmdb.py:381]               [INFO]     | Processing TMDb Collection: (260586) Le Cœur des Hommes - Saga (3 Items)                           |
+[2022-10-11 11:19:02,841] [builder.py:1581]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:02,841] [builder.py:1582]           [DEBUG]    | 3 IDs Found: [(215303, 'tmdb'), (19099, 'tmdb'), (13734, 'tmdb')]                                  |
+[2022-10-11 11:19:02,841] [builder.py:1583]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:02,841] [builder.py:2132]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:02,841] [builder.py:2133]           [INFO]     |============================= Adding to Le Cœur des Hommes Collection ==============================|
+[2022-10-11 11:19:02,842] [builder.py:2134]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:02,842] [builder.py:2148]           [INFO]     | 1/3 | Le Cœur des Hommes Collection | = | Le coeur des hommes 3 (2013)                             |
+[2022-10-11 11:19:02,842] [builder.py:2148]           [INFO]     | 2/3 | Le Cœur des Hommes Collection | = | Le coeur des hommes (2003)                               |
+[2022-10-11 11:19:02,843] [builder.py:2148]           [INFO]     | 3/3 | Le Cœur des Hommes Collection | = | Le coeur des hommes 2 (2007)                             |
+[2022-10-11 11:19:02,843] [builder.py:2168]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:02,843] [builder.py:2170]           [INFO]     | 3 Movies Processed 0 Movies Added                                                                  |
+[2022-10-11 11:19:02,851] [builder.py:2521]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:02,852] [builder.py:2522]           [INFO]     |======================== Updating Details of Le Cœur des Hommes Collection =========================|
+[2022-10-11 11:19:02,852] [builder.py:2523]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:02,860] [builder.py:2589]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-10-11 11:19:02,860] [builder.py:2660]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Le Cœur des Hommes'                                   |
+[2022-10-11 11:19:02,861] [util.py:171]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-10-11 11:19:02,861] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Poster: https://image.tmdb.org/t/p/original/qsVnXNgjiVEtPhfVR4AHfaZ5cbH.jpg |
+[2022-10-11 11:19:02,861] [util.py:171]               [DEBUG]    | 1 background found:                                                                                |
+[2022-10-11 11:19:02,861] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Background: https://image.tmdb.org/t/p/original/fNWH0gUaSKQ4ONsFfZTArR14KXc.jpg |
+[2022-10-11 11:19:02,862] [library.py:173]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-10-11 11:19:02,863] [library.py:189]            [INFO]     | Detail: background update not needed                                                               |
+[2022-10-11 11:19:03,063] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:03,063] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:19:03,063] [plex_meta_manager.py:709]  [INFO]     |                               Finished Le Cœur des Hommes Collection                               |
+[2022-10-11 11:19:03,063] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 11:19:03,063] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

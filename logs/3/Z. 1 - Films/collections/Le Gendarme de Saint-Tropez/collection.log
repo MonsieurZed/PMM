@@ -1,0 +1,73 @@
+[2022-10-11 11:19:03,064] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:19:03,064] [builder.py:200]            [INFO]     |                       Le Gendarme de Saint-Tropez Collection in Z. 1 - Films                       |
+[2022-10-11 11:19:03,064] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:19:03,065] [builder.py:201]            [INFO]     |                                                                                                    |
+[2022-10-11 11:19:03,065] [builder.py:206]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:19:03,065] [builder.py:222]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:03,065] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:19:03,065] [meta.py:129]               [DEBUG]    | Call: {'value': ['10517'], 'tmdb_collection': ['10517'], 'key_name': 'Le Gendarme de Saint-Tropez', 'key': '10517', 'name': 'my_template'} |
+[2022-10-11 11:19:03,065] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:03,066] [meta.py:305]               [DEBUG]    | Variables: {'value': ['10517'], 'tmdb_collection': ['10517'], 'key_name': 'Le Gendarme de Saint-Tropez', 'key': '10517', 'name': 'my_template', 'collection_name': 'Le Gendarme de Saint-Tropez', 'mapping_name': 'Le Gendarme de Saint-Tropez', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%2710517%27%5D', 'tmdb_collection_encoded': '%5B%2710517%27%5D', 'key_name_encoded': 'Le%20Gendarme%20de%20Saint-Tropez', 'key_encoded': '10517', 'name_encoded': 'my_template', 'collection_name_encoded': 'Le%20Gendarme%20de%20Saint-Tropez', 'mapping_name_encoded': 'Le%20Gendarme%20de%20Saint-Tropez', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Le Gendarme de Saint-Tropez'} |
+[2022-10-11 11:19:03,066] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:03,066] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:19:03,066] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:03,066] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:19:03,067] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:03,067] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['10517'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_Le Gendarme de Saint-Tropez'} |
+[2022-10-11 11:19:03,067] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:03,068] [builder.py:230]            [INFO]     |======================== Validating Le Gendarme de Saint-Tropez Attributes =========================|
+[2022-10-11 11:19:03,068] [builder.py:620]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:03,068] [builder.py:621]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:19:03,068] [builder.py:622]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:19:03,068] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:03,068] [builder.py:657]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:19:03,068] [builder.py:658]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:19:03,069] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:03,069] [builder.py:657]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:19:03,069] [builder.py:658]            [DEBUG]    | Value: ['10517']                                                                                   |
+[2022-10-11 11:19:03,083] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:03,083] [builder.py:657]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:19:03,083] [builder.py:658]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:19:03,084] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:03,084] [builder.py:657]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:19:03,084] [builder.py:658]            [DEBUG]    | Value: +C1_Le Gendarme de Saint-Tropez                                                             |
+[2022-10-11 11:19:03,291] [builder.py:823]            [INFO]     |                                                                                                    |
+[2022-10-11 11:19:03,291] [builder.py:824]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:19:03,292] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:03,292] [plex_meta_manager.py:563]  [INFO]     |========================== Running Le Gendarme de Saint-Tropez Collection ==========================|
+[2022-10-11 11:19:03,292] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:03,292] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:19:03,292] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:03,292] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 10517                                                                    |
+[2022-10-11 11:19:03,293] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:03,299] [tmdb.py:381]               [INFO]     | Processing TMDb Collection: (10517) Le Gendarme - Saga (6 Items)                                   |
+[2022-10-11 11:19:03,299] [builder.py:1581]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:03,299] [builder.py:1582]           [DEBUG]    | 6 IDs Found: [(4727, 'tmdb'), (4728, 'tmdb'), (4729, 'tmdb'), (11913, 'tmdb'), (10516, 'tmdb'), (11915, 'tmdb')] |
+[2022-10-11 11:19:03,299] [builder.py:1583]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:19:03,300] [builder.py:2132]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:03,300] [builder.py:2133]           [INFO]     |========================= Adding to Le Gendarme de Saint-Tropez Collection =========================|
+[2022-10-11 11:19:03,300] [builder.py:2134]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:03,300] [builder.py:2148]           [INFO]     | 1/6 | Le Gendarme de Saint-Tropez Collection | = | Le gendarme de Saint-Tropez (1964)              |
+[2022-10-11 11:19:03,300] [builder.py:2148]           [INFO]     | 2/6 | Le Gendarme de Saint-Tropez Collection | = | Le gendarme à New York (1965)                   |
+[2022-10-11 11:19:03,301] [builder.py:2148]           [INFO]     | 3/6 | Le Gendarme de Saint-Tropez Collection | = | Le Gendarme se marie (1968)                     |
+[2022-10-11 11:19:03,301] [builder.py:2148]           [INFO]     | 4/6 | Le Gendarme de Saint-Tropez Collection | = | Le gendarme en balade (1970)                    |
+[2022-10-11 11:19:03,301] [builder.py:2148]           [INFO]     | 5/6 | Le Gendarme de Saint-Tropez Collection | = | Le Gendarme et les Extra-terrestres (1979)      |
+[2022-10-11 11:19:03,301] [builder.py:2148]           [INFO]     | 6/6 | Le Gendarme de Saint-Tropez Collection | = | Le Gendarme et les Gendarmettes (1982)          |
+[2022-10-11 11:19:03,301] [builder.py:2168]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:03,301] [builder.py:2170]           [INFO]     | 6 Movies Processed 0 Movies Added                                                                  |
+[2022-10-11 11:19:03,309] [builder.py:2521]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:03,309] [builder.py:2522]           [INFO]     |==================== Updating Details of Le Gendarme de Saint-Tropez Collection ====================|
+[2022-10-11 11:19:03,309] [builder.py:2523]           [INFO]     |                                                                                                    |
+[2022-10-11 11:19:03,318] [builder.py:2589]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-10-11 11:19:03,319] [builder.py:2660]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Le Gendarme de Saint-Tropez'                          |
+[2022-10-11 11:19:03,319] [util.py:171]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-10-11 11:19:03,319] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Poster: https://image.tmdb.org/t/p/original/vMTowyQ9LJLgomszilptQbQeruT.jpg |
+[2022-10-11 11:19:03,320] [util.py:171]               [DEBUG]    | 1 background found:                                                                                |
+[2022-10-11 11:19:03,320] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Background: https://image.tmdb.org/t/p/original/oSX3Aw5sRxPju4yMR14Hqaz86uR.jpg |
+[2022-10-11 11:19:03,321] [library.py:173]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-10-11 11:19:03,322] [library.py:189]            [INFO]     | Detail: background update not needed                                                               |
+[2022-10-11 11:19:03,523] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:19:03,524] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:19:03,524] [plex_meta_manager.py:709]  [INFO]     |                          Finished Le Gendarme de Saint-Tropez Collection                           |
+[2022-10-11 11:19:03,524] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 11:19:03,524] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

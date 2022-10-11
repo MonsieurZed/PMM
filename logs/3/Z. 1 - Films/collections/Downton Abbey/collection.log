@@ -1,0 +1,69 @@
+[2022-10-11 11:18:41,708] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:18:41,708] [builder.py:200]            [INFO]     |                              Downton Abbey Collection in Z. 1 - Films                              |
+[2022-10-11 11:18:41,708] [builder.py:200]            [INFO]     |====================================================================================================|
+[2022-10-11 11:18:41,708] [builder.py:201]            [INFO]     |                                                                                                    |
+[2022-10-11 11:18:41,708] [builder.py:206]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:18:41,709] [builder.py:222]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:41,709] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:18:41,709] [meta.py:129]               [DEBUG]    | Call: {'value': ['925006'], 'tmdb_collection': ['925006'], 'key_name': 'Downton Abbey', 'key': '925006', 'name': 'my_template'} |
+[2022-10-11 11:18:41,709] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:41,709] [meta.py:305]               [DEBUG]    | Variables: {'value': ['925006'], 'tmdb_collection': ['925006'], 'key_name': 'Downton Abbey', 'key': '925006', 'name': 'my_template', 'collection_name': 'Downton Abbey', 'mapping_name': 'Downton Abbey', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%27925006%27%5D', 'tmdb_collection_encoded': '%5B%27925006%27%5D', 'key_name_encoded': 'Downton%20Abbey', 'key_encoded': '925006', 'name_encoded': 'my_template', 'collection_name_encoded': 'Downton%20Abbey', 'mapping_name_encoded': 'Downton%20Abbey', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Downton Abbey'} |
+[2022-10-11 11:18:41,710] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:41,710] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:18:41,710] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:41,710] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:18:41,711] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:41,711] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['925006'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_Downton Abbey'} |
+[2022-10-11 11:18:41,712] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:41,712] [builder.py:230]            [INFO]     |=============================== Validating Downton Abbey Attributes ================================|
+[2022-10-11 11:18:41,712] [builder.py:620]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:41,712] [builder.py:621]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:18:41,712] [builder.py:622]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:18:41,712] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:41,713] [builder.py:657]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:18:41,713] [builder.py:658]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:18:41,713] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:41,713] [builder.py:657]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:18:41,713] [builder.py:658]            [DEBUG]    | Value: ['925006']                                                                                  |
+[2022-10-11 11:18:41,727] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:41,727] [builder.py:657]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:18:41,727] [builder.py:658]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:18:41,727] [builder.py:653]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:41,728] [builder.py:657]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:18:41,728] [builder.py:658]            [DEBUG]    | Value: +C1_Downton Abbey                                                                           |
+[2022-10-11 11:18:41,917] [builder.py:823]            [INFO]     |                                                                                                    |
+[2022-10-11 11:18:41,918] [builder.py:824]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:18:41,918] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:41,918] [plex_meta_manager.py:563]  [INFO]     |================================= Running Downton Abbey Collection =================================|
+[2022-10-11 11:18:41,918] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:41,918] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:18:41,919] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:41,919] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 925006                                                                   |
+[2022-10-11 11:18:41,919] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:41,924] [tmdb.py:381]               [INFO]     | Processing TMDb Collection: (925006) Downton Abbey - Saga (2 Items)                                |
+[2022-10-11 11:18:41,924] [builder.py:1581]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:41,924] [builder.py:1582]           [DEBUG]    | 2 IDs Found: [(535544, 'tmdb'), (820446, 'tmdb')]                                                  |
+[2022-10-11 11:18:41,924] [builder.py:1583]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:18:41,924] [builder.py:2132]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:41,925] [builder.py:2133]           [INFO]     |================================ Adding to Downton Abbey Collection ================================|
+[2022-10-11 11:18:41,925] [builder.py:2134]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:41,925] [builder.py:2148]           [INFO]     | 1/2 | Downton Abbey Collection | = | Downton Abbey (2019)                                          |
+[2022-10-11 11:18:41,925] [builder.py:2148]           [INFO]     | 2/2 | Downton Abbey Collection | = | Downton Abbey II : Une nouvelle ère (2022)                    |
+[2022-10-11 11:18:41,925] [builder.py:2168]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:41,925] [builder.py:2170]           [INFO]     | 2 Movies Processed 0 Movies Added                                                                  |
+[2022-10-11 11:18:41,933] [builder.py:2521]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:41,933] [builder.py:2522]           [INFO]     |=========================== Updating Details of Downton Abbey Collection ===========================|
+[2022-10-11 11:18:41,933] [builder.py:2523]           [INFO]     |                                                                                                    |
+[2022-10-11 11:18:41,942] [builder.py:2589]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-10-11 11:18:41,942] [builder.py:2660]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Downton Abbey'                                        |
+[2022-10-11 11:18:41,943] [util.py:171]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-10-11 11:18:41,943] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Poster: https://image.tmdb.org/t/p/original/d7WcrOsGWkJYAgaZWy00luZBcjf.jpg |
+[2022-10-11 11:18:41,943] [util.py:171]               [DEBUG]    | 1 background found:                                                                                |
+[2022-10-11 11:18:41,944] [util.py:173]               [DEBUG]    | Method: tmdb_collection_details Background: https://image.tmdb.org/t/p/original/ibqyhoVh0RD5DI2jgnvvFcrJYV7.jpg |
+[2022-10-11 11:18:41,945] [library.py:173]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-10-11 11:18:41,945] [library.py:189]            [INFO]     | Detail: background update not needed                                                               |
+[2022-10-11 11:18:42,208] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:18:42,209] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:18:42,209] [plex_meta_manager.py:709]  [INFO]     |                                 Finished Downton Abbey Collection                                  |
+[2022-10-11 11:18:42,209] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 11:18:42,209] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

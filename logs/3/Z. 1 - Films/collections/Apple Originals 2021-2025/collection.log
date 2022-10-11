@@ -1,0 +1,116 @@
+[2022-09-29 21:50:40,306] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-09-29 21:50:40,306] [builder.py:197]            [INFO]     |                        Apple Originals 2021-2025 Collection in Z. 1 - Films                        |
+[2022-09-29 21:50:40,306] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-09-29 21:50:40,306] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-09-29 21:50:40,307] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-09-29 21:50:40,307] [builder.py:219]            [INFO]     |========================= Validating Apple Originals 2021-2025 Attributes ==========================|
+[2022-09-29 21:50:40,307] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-09-29 21:50:40,308] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-09-29 21:50:40,308] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-09-29 21:50:40,308] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-09-29 21:50:40,308] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-09-29 21:50:40,308] [builder.py:544]            [DEBUG]    | Value: originally_available.desc                                                                   |
+[2022-09-29 21:50:40,442] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 21:50:40,443] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-09-29 21:50:40,443] [builder.py:632]            [DEBUG]    | Value: +4_APPLE                                                                                    |
+[2022-09-29 21:50:40,443] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 21:50:40,443] [builder.py:631]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-09-29 21:50:40,444] [builder.py:632]            [DEBUG]    | Value: ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2021-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=250&companies=co0546168')]) |
+[2022-09-29 21:50:42,453] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 21:50:42,454] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-09-29 21:50:42,454] [builder.py:632]            [DEBUG]    | Value: All Apple TV Originals From 2021-2025                                                       |
+[2022-09-29 21:50:42,454] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 21:50:42,454] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-09-29 21:50:42,455] [builder.py:632]            [DEBUG]    | Value: https://i.imgur.com/O9iWork.png                                                             |
+[2022-09-29 21:50:42,505] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 21:50:42,505] [builder.py:631]            [DEBUG]    | Validating Method: url_background                                                                  |
+[2022-09-29 21:50:42,505] [builder.py:632]            [DEBUG]    | Value: https://wallpaper-house.com/data/out/8/wallpaper2you_228774.png                             |
+[2022-09-29 21:50:42,586] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-09-29 21:50:42,586] [plex.py:793]               [DEBUG]    | Looking for: Apple Originals 2021-2025                                                             |
+[2022-09-29 21:50:42,586] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-09-29 21:50:42,586] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-09-29 21:50:42,587] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-09-29 21:50:42,587] [plex_meta_manager.py:563]  [INFO]     |=========================== Running Apple Originals 2021-2025 Collection ===========================|
+[2022-09-29 21:50:42,587] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-09-29 21:50:42,587] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-09-29 21:50:42,588] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-09-29 21:50:42,588] [plex_meta_manager.py:580]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2021-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=250&companies=co0546168', 'limit': 0} |
+[2022-09-29 21:50:42,588] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-09-29 21:50:42,588] [imdb.py:184]               [INFO]     | Processing IMDb List: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2021-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=250&companies=co0546168 |
+[2022-09-29 21:50:46,527] [imdb.py:135]               [DEBUG]    | 84 IMDb IDs Found: ['tt18257378', 'tt21622048', 'tt21088136', 'tt17543896', 'tt12573454', 'tt12530246', 'tt5537002', 'tt15677150', 'tt14964772', 'tt14417718', 'tt13745850', 'tt12758060', 'tt10999120', 'tt0429087', 'tt14447458', 'tt10268488', 'tt15334032', 'tt16977750', 'tt10192406', 'tt20230770', 'tt15469618', 'tt3283594', 'tt21481106', 'tt13694702', 'tt20414738', 'tt4301160', 'tt14271498', 'tt14509156', 'tt19896142', 'tt13773908', 'tt14588348', 'tt19357122', 'tt14161704', 'tt19298532', 'tt14153448', 'tt5875444', 'tt8888462', 'tt18265020', 'tt2953250', 'tt17736322', 'tt12005128', 'tt13820498', 'tt19888862', 'tt17043406', 'tt11280740', 'tt2201261', 'tt12026710', 'tt12614214', 'tt19719870', 'tt14376344', 'tt12397680', 'tt15829598', 'tt13432848', 'tt20056754', 'tt15353214', 'tt14475988', 'tt13207508', 'tt11947248', 'tt3420504', 'tt8005626', 'tt9737326', 'tt15389998', 'tt13567344', 'tt15084142', 'tt10095582', 'tt0804484', 'tt7638556', 'tt15010478', 'tt10971064', 'tt11808942', 'tt7230750', 'tt11828492', 'tt13622130', 'tt3319460', 'tt14584186', 'tt11041132', 'tt14482570', 'tt21193624', 'tt22186400', 'tt9130508', 'tt11459366', 'tt14207226', 'tt6857376', 'tt10366460'] |
+[2022-09-29 21:50:46,528] [builder.py:1540]           [DEBUG]    |                                                                                                    |
+[2022-09-29 21:50:46,528] [builder.py:1541]           [DEBUG]    | 84 IDs Found: [('tt18257378', 'imdb'), ('tt21622048', 'imdb'), ('tt21088136', 'imdb'), ('tt17543896', 'imdb'), ('tt12573454', 'imdb'), ('tt12530246', 'imdb'), ('tt5537002', 'imdb'), ('tt15677150', 'imdb'), ('tt14964772', 'imdb'), ('tt14417718', 'imdb'), ('tt13745850', 'imdb'), ('tt12758060', 'imdb'), ('tt10999120', 'imdb'), ('tt0429087', 'imdb'), ('tt14447458', 'imdb'), ('tt10268488', 'imdb'), ('tt15334032', 'imdb'), ('tt16977750', 'imdb'), ('tt10192406', 'imdb'), ('tt20230770', 'imdb'), ('tt15469618', 'imdb'), ('tt3283594', 'imdb'), ('tt21481106', 'imdb'), ('tt13694702', 'imdb'), ('tt20414738', 'imdb'), ('tt4301160', 'imdb'), ('tt14271498', 'imdb'), ('tt14509156', 'imdb'), ('tt19896142', 'imdb'), ('tt13773908', 'imdb'), ('tt14588348', 'imdb'), ('tt19357122', 'imdb'), ('tt14161704', 'imdb'), ('tt19298532', 'imdb'), ('tt14153448', 'imdb'), ('tt5875444', 'imdb'), ('tt8888462', 'imdb'), ('tt18265020', 'imdb'), ('tt2953250', 'imdb'), ('tt17736322', 'imdb'), ('tt12005128', 'imdb'), ('tt13820498', 'imdb'), ('tt19888862', 'imdb'), ('tt17043406', 'imdb'), ('tt11280740', 'imdb'), ('tt2201261', 'imdb'), ('tt12026710', 'imdb'), ('tt12614214', 'imdb'), ('tt19719870', 'imdb'), ('tt14376344', 'imdb'), ('tt12397680', 'imdb'), ('tt15829598', 'imdb'), ('tt13432848', 'imdb'), ('tt20056754', 'imdb'), ('tt15353214', 'imdb'), ('tt14475988', 'imdb'), ('tt13207508', 'imdb'), ('tt11947248', 'imdb'), ('tt3420504', 'imdb'), ('tt8005626', 'imdb'), ('tt9737326', 'imdb'), ('tt15389998', 'imdb'), ('tt13567344', 'imdb'), ('tt15084142', 'imdb'), ('tt10095582', 'imdb'), ('tt0804484', 'imdb'), ('tt7638556', 'imdb'), ('tt15010478', 'imdb'), ('tt10971064', 'imdb'), ('tt11808942', 'imdb'), ('tt7230750', 'imdb'), ('tt11828492', 'imdb'), ('tt13622130', 'imdb'), ('tt3319460', 'imdb'), ('tt14584186', 'imdb'), ('tt11041132', 'imdb'), ('tt14482570', 'imdb'), ('tt21193624', 'imdb'), ('tt22186400', 'imdb'), ('tt9130508', 'imdb'), ('tt11459366', 'imdb'), ('tt14207226', 'imdb'), ('tt6857376', 'imdb'), ('tt10366460', 'imdb')] |
+[2022-09-29 21:50:46,528] [builder.py:1542]           [DEBUG]    |                                                                                                    |
+[2022-09-29 21:50:46,707] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt18257378                                            |
+[2022-09-29 21:50:46,825] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21622048                                            |
+[2022-09-29 21:50:50,644] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 201289                                                |
+[2022-09-29 21:50:52,016] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt16977750                                            |
+[2022-09-29 21:50:53,153] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21481106                                            |
+[2022-09-29 21:50:55,144] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt19896142                                            |
+[2022-09-29 21:50:55,585] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt14588348                                            |
+[2022-09-29 21:50:56,128] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt19298532                                            |
+[2022-09-29 21:50:58,530] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt19888862                                            |
+[2022-09-29 21:50:59,734] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt19719870                                            |
+[2022-09-29 21:51:00,540] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt13432848                                            |
+[2022-09-29 21:51:00,682] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt20056754                                            |
+[2022-09-29 21:51:05,178] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21193624                                            |
+[2022-09-29 21:51:05,307] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt22186400                                            |
+[2022-09-29 21:51:05,719] [builder.py:2064]           [INFO]     |                                                                                                    |
+[2022-09-29 21:51:05,720] [builder.py:2065]           [INFO]     |========================== Adding to Apple Originals 2021-2025 Collection ==========================|
+[2022-09-29 21:51:05,720] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-09-29 21:51:05,739] [builder.py:2080]           [INFO]     | 1/5 | Apple Originals 2021-2025 Collection | + | Swan Song (2021)                                  |
+[2022-09-29 21:51:07,047] [builder.py:2080]           [INFO]     | 2/5 | Apple Originals 2021-2025 Collection | + | Finch (2021)                                      |
+[2022-09-29 21:51:08,510] [builder.py:2080]           [INFO]     | 3/5 | Apple Originals 2021-2025 Collection | + | Macbeth (2021)                                    |
+[2022-09-29 21:51:09,708] [builder.py:2080]           [INFO]     | 4/5 | Apple Originals 2021-2025 Collection | + | Cherry (2021)                                     |
+[2022-09-29 21:51:11,428] [builder.py:2080]           [INFO]     | 5/5 | Apple Originals 2021-2025 Collection | + | CODA (2021)                                       |
+[2022-09-29 21:51:12,669] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-09-29 21:51:12,669] [builder.py:2102]           [INFO]     | 5 Movies Processed 5 Movies Added                                                                  |
+[2022-09-29 21:51:12,670] [builder.py:2228]           [INFO]     |                                                                                                    |
+[2022-09-29 21:51:12,670] [builder.py:2229]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-09-29 21:51:12,671] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-09-29 21:51:13,016] [builder.py:2243]           [INFO]     | Apple Originals 2021-2025 Collection | ? | Sharper (TMDb: 717980)                                  |
+[2022-09-29 21:51:13,396] [builder.py:2243]           [INFO]     | Apple Originals 2021-2025 Collection | ? | Emancipation (TMDb: 715931)                             |
+[2022-09-29 21:51:13,805] [builder.py:2243]           [INFO]     | Apple Originals 2021-2025 Collection | ? | Killers of the Flower Moon (TMDb: 466420)               |
+[2022-09-29 21:51:14,186] [builder.py:2243]           [INFO]     | Apple Originals 2021-2025 Collection | ? | Tetris (TMDb: 726759)                                   |
+[2022-09-29 21:51:14,540] [builder.py:2243]           [INFO]     | Apple Originals 2021-2025 Collection | ? | Spirited (2022) (TMDb: 632856)                          |
+[2022-09-29 21:51:15,019] [builder.py:2243]           [INFO]     | Apple Originals 2021-2025 Collection | ? | Louis Armstrong's Black & Blues (2022) (TMDb: 1014890)  |
+[2022-09-29 21:51:15,033] [builder.py:2243]           [INFO]     | Apple Originals 2021-2025 Collection | ? | The Greatest Beer Run Ever (2022) (TMDb: 597922)        |
+[2022-09-29 21:51:15,436] [builder.py:2243]           [INFO]     | Apple Originals 2021-2025 Collection | ? | Raymond & Ray (2022) (TMDb: 869025)                     |
+[2022-09-29 21:51:15,928] [builder.py:2243]           [INFO]     | Apple Originals 2021-2025 Collection | ? | Causeway (2022) (TMDb: 595586)                          |
+[2022-09-29 21:51:16,296] [builder.py:2243]           [INFO]     | Apple Originals 2021-2025 Collection | ? | Kaepernick & America (2022) (TMDb: 960583)              |
+[2022-09-29 21:51:16,667] [builder.py:2243]           [INFO]     | Apple Originals 2021-2025 Collection | ? | ¡Viva Maestro! (2022) (TMDb: 801690)                    |
+[2022-09-29 21:51:17,206] [builder.py:2243]           [INFO]     | Apple Originals 2021-2025 Collection | ? | The Sky Is Everywhere (2022) (TMDb: 640265)             |
+[2022-09-29 21:51:17,718] [builder.py:2243]           [INFO]     | Apple Originals 2021-2025 Collection | ? | Cha Cha Real Smooth (2022) (TMDb: 814340)               |
+[2022-09-29 21:51:18,165] [builder.py:2243]           [INFO]     | Apple Originals 2021-2025 Collection | ? | Mariah's Christmas: The Magic Continues (2021) (TMDb: 893702) |
+[2022-09-29 21:51:18,599] [builder.py:2243]           [INFO]     | Apple Originals 2021-2025 Collection | ? | 'Twas the Fight Before Christmas (2021) (TMDb: 888652)  |
+[2022-09-29 21:51:19,050] [builder.py:2243]           [INFO]     | Apple Originals 2021-2025 Collection | ? | Come from Away (2021) (TMDb: 727333)                    |
+[2022-09-29 21:51:19,478] [builder.py:2243]           [INFO]     | Apple Originals 2021-2025 Collection | ? | 9/11: Inside the President's War Room (2021) (TMDb: 848981) |
+[2022-09-29 21:51:19,924] [builder.py:2243]           [INFO]     | Apple Originals 2021-2025 Collection | ? | The Velvet Underground (2021) (TMDb: 543836)            |
+[2022-09-29 21:51:20,398] [builder.py:2243]           [INFO]     | Apple Originals 2021-2025 Collection | ? | Fathom (2021) (TMDb: 819024)                            |
+[2022-09-29 21:51:20,870] [builder.py:2243]           [INFO]     | Apple Originals 2021-2025 Collection | ? | Billie Eilish: The World's a Little Blurry (2021) (TMDb: 654754) |
+[2022-09-29 21:51:21,300] [builder.py:2243]           [INFO]     | Apple Originals 2021-2025 Collection | ? | Billie Eilish: "The World’s A Little Blurry" Live Premiere Event (2021) (TMDb: 1000703) |
+[2022-09-29 21:51:21,737] [builder.py:2243]           [INFO]     | Apple Originals 2021-2025 Collection | ? | Palmer (2021) (TMDb: 458220)                            |
+[2022-09-29 21:51:21,737] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-09-29 21:51:21,738] [builder.py:2249]           [INFO]     | 22 Movies Missing                                                                                  |
+[2022-09-29 21:51:21,769] [plex.py:711]               [DEBUG]    | Smart Collection Test: ?type=1&sort=originallyAvailableAt%3Adesc&label=213506                      |
+[2022-09-29 21:51:21,864] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-09-29 21:51:21,865] [builder.py:2442]           [INFO]     |===================== Updating Details of Apple Originals 2021-2025 Collection =====================|
+[2022-09-29 21:51:21,865] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-09-29 21:51:22,288] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | All Apple TV Originals From 2021-2025
+                                                                 | Sort Title | +4_APPLE
+                                                                 | Label | +PMM
+[2022-09-29 21:51:22,711] [builder.py:2513]           [INFO]     | Details: have been updated
+[2022-09-29 21:51:22,711] [builder.py:2517]           [INFO]     | 
+[2022-09-29 21:51:22,712] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Apple Originals 2021-2025'
+[2022-09-29 21:51:22,712] [util.py:150]               [DEBUG]    | 1 poster found:
+[2022-09-29 21:51:22,712] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://i.imgur.com/O9iWork.png
+[2022-09-29 21:51:22,712] [util.py:150]               [DEBUG]    | 1 background found:
+[2022-09-29 21:51:22,712] [util.py:152]               [DEBUG]    | Method: url_background Background: https://wallpaper-house.com/data/out/8/wallpaper2you_228774.png
+[2022-09-29 21:51:23,832] [library.py:170]            [INFO]     | Detail: url_poster updated poster to [URL] https://i.imgur.com/O9iWork.png
+[2022-09-29 21:51:24,033] [library.py:186]            [INFO]     | Detail: url_background updated background to [URL] https://wallpaper-house.com/data/out/8/wallpaper2you_228774.png
+[2022-09-29 21:51:24,125] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-09-29 21:51:24,125] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-09-29 21:51:24,126] [plex_meta_manager.py:709]  [INFO]     |                           Finished Apple Originals 2021-2025 Collection                            |
+[2022-09-29 21:51:24,126] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:43                                    |
+[2022-09-29 21:51:24,126] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
