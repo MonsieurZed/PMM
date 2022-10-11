@@ -1,0 +1,94 @@
+[2022-10-11 10:02:53,349] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 10:02:53,349] [builder.py:197]            [INFO]     |                            History Collection in Z. 5 - Film Animation                             |
+[2022-10-11 10:02:53,349] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 10:02:53,349] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 10:02:53,349] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 10:02:53,349] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:02:53,350] [meta.py:128]               [DEBUG]    | Template Genre                                                                                     |
+[2022-10-11 10:02:53,350] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Genre')])                                                             |
+[2022-10-11 10:02:53,350] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:02:53,350] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Genre'), ('collection_name', 'History'), ('mapping_name', 'History'), ('library_type', 'movie'), ('library_name', 'Z. 5 - Film Animation'), ('name_encoded', 'Genre'), ('collection_name_encoded', 'History'), ('mapping_name_encoded', 'History'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%205%20-%20Film%20Animation'), ('collection_sort', 'History')]) |
+[2022-10-11 10:02:53,350] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:02:53,350] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 10:02:53,350] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:02:53,351] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 10:02:53,351] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:02:53,351] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+3_History', 'sync_mode': 'sync', 'smart_label': 'audience_rating.desc'} |
+[2022-10-11 10:02:53,351] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:02:53,351] [builder.py:219]            [INFO]     |================================== Validating History Attributes ===================================|
+[2022-10-11 10:02:53,352] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:02:53,352] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-11 10:02:53,352] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-11 10:02:53,352] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:02:53,352] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-11 10:02:53,352] [builder.py:544]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-10-11 10:02:53,370] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:02:53,370] [builder.py:631]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-10-11 10:02:53,370] [builder.py:632]            [DEBUG]    | Value: ordereddict([('genre', 'Histoire')])                                                        |
+[2022-10-11 10:02:53,425] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:02:53,425] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-11 10:02:53,425] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_HISTORY.png             |
+[2022-10-11 10:02:53,622] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:02:53,622] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-10-11 10:02:53,623] [builder.py:632]            [DEBUG]    | Value: History film is a genre that takes historical events and people and interprets them in a larger scale. Historical accuracy is not the main focus, but rather the telling of a grandiose story. The drama of an History film is often accentuated by a sweeping musical score, lavish costumes, and high production value. |
+[2022-10-11 10:02:53,623] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:02:53,623] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 10:02:53,623] [builder.py:632]            [DEBUG]    | Value: +3_History                                                                                  |
+[2022-10-11 10:02:53,628] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:02:53,629] [plex.py:793]               [DEBUG]    | Looking for: History                                                                               |
+[2022-10-11 10:02:53,629] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 10:02:53,629] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 10:02:53,629] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 10:02:53,629] [plex_meta_manager.py:563]  [INFO]     |==================================== Running History Collection ====================================|
+[2022-10-11 10:02:53,629] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-10-11 10:02:53,630] [plex_meta_manager.py:570]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: audience_rating.desc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is History
+[2022-10-11 10:02:53,630] [plex_meta_manager.py:575]  [INFO]     | 
+[2022-10-11 10:02:53,630] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync
+[2022-10-11 10:02:53,630] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 10:02:53,631] [plex_meta_manager.py:580]  [DEBUG]    | Builder: plex_search: (1, 'Plex Movie Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Genre is Histoire', '?type=1&sort=titleSort&push=1&genre=27938&pop=1')
+[2022-10-11 10:02:53,631] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 10:02:53,631] [plex.py:819]               [INFO]     | Processing Plex Movie Search
+                                                                 | Sort By: title.asc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Match any of the following:
+                                                                 |       Genre is Histoire
+[2022-10-11 10:02:53,665] [plex.py:864]               [DEBUG]    | 
+[2022-10-11 10:02:53,665] [plex.py:865]               [DEBUG]    | 6 Keys Found: [(19796, 'ratingKey'), (7431, 'ratingKey'), (21760, 'ratingKey'), (34244, 'ratingKey'), (83125, 'ratingKey'), (21722, 'ratingKey')]
+[2022-10-11 10:02:53,665] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 10:02:53,665] [builder.py:1541]           [DEBUG]    | 6 IDs Found: [(19796, 'ratingKey'), (7431, 'ratingKey'), (21760, 'ratingKey'), (34244, 'ratingKey'), (83125, 'ratingKey'), (21722, 'ratingKey')]
+[2022-10-11 10:02:53,666] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 10:02:53,666] [builder.py:2064]           [INFO]     | 
+[2022-10-11 10:02:53,666] [builder.py:2065]           [INFO]     |=================================== Adding to History Collection ===================================|
+[2022-10-11 10:02:53,666] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-11 10:02:53,680] [builder.py:2080]           [INFO]     | 1/6 | History Collection | + | Le peuple loup (2020)                                               |
+[2022-10-11 10:02:53,702] [builder.py:2080]           [INFO]     | 2/6 | History Collection | + | Le vent se lève (2013)                                              |
+[2022-10-11 10:02:53,720] [builder.py:2080]           [INFO]     | 3/6 | History Collection | + | Mulan (1998)                                                        |
+[2022-10-11 10:02:53,737] [builder.py:2080]           [INFO]     | 4/6 | History Collection | + | Persepolis (2007)                                                   |
+[2022-10-11 10:02:53,755] [builder.py:2080]           [INFO]     | 5/6 | History Collection | + | Pil (2021)                                                          |
+[2022-10-11 10:02:53,772] [builder.py:2080]           [INFO]     | 6/6 | History Collection | + | Pocahontas : Une légende indienne (1995)                            |
+[2022-10-11 10:02:54,540] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-11 10:02:54,540] [builder.py:2102]           [INFO]     | 6 Movies Processed 6 Movies Added                                                                  |
+[2022-10-11 10:02:54,556] [plex.py:711]               [DEBUG]    | Smart Collection Test: ?type=1&sort=audienceRating%3Adesc&label=213030                             |
+[2022-10-11 10:02:54,609] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-11 10:02:54,610] [builder.py:2442]           [INFO]     |============================== Updating Details of History Collection ==============================|
+[2022-10-11 10:02:54,610] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-11 10:02:54,877] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | History film is a genre that takes historical events and people and interprets them in a larger scale. Historical accuracy is not the main focus, but rather the telling of a grandiose story. The drama of an History film is often accentuated by a sweeping musical score, lavish costumes, and high production value.
+                                                                 | Sort Title | +3_History
+                                                                 | Label | +PMM
+[2022-10-11 10:02:55,159] [builder.py:2513]           [INFO]     | Details: have been updated
+[2022-10-11 10:02:55,159] [builder.py:2517]           [INFO]     | 
+[2022-10-11 10:02:55,159] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'History'
+[2022-10-11 10:02:55,160] [util.py:150]               [DEBUG]    | 1 poster found:
+[2022-10-11 10:02:55,160] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_HISTORY.png
+[2022-10-11 10:02:55,191] [library.py:170]            [INFO]     | Detail: url_poster updated poster to [URL] https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_HISTORY.png
+[2022-10-11 10:02:55,243] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-11 10:02:55,244] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 10:02:55,244] [plex_meta_manager.py:709]  [INFO]     |                                    Finished History Collection                                     |
+[2022-10-11 10:02:55,244] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:01                                    |
+[2022-10-11 10:02:55,244] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

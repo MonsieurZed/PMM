@@ -1,0 +1,446 @@
+[2022-10-11 09:00:02,004] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 09:00:02,004] [builder.py:197]            [INFO]     |                                Gangster Collection in Z. 1 - Films                                 |
+[2022-10-11 09:00:02,004] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 09:00:02,005] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 09:00:02,005] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 09:00:02,005] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:00:02,005] [meta.py:128]               [DEBUG]    | Template Genre                                                                                     |
+[2022-10-11 09:00:02,005] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Genre')])                                                             |
+[2022-10-11 09:00:02,005] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:00:02,005] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Genre'), ('collection_name', 'Gangster'), ('mapping_name', 'Gangster'), ('library_type', 'movie'), ('library_name', 'Z. 1 - Films'), ('name_encoded', 'Genre'), ('collection_name_encoded', 'Gangster'), ('mapping_name_encoded', 'Gangster'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%201%20-%20Films'), ('collection_sort', 'Gangster')]) |
+[2022-10-11 09:00:02,006] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:00:02,006] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 09:00:02,006] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:00:02,006] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 09:00:02,006] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:00:02,007] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+3_Gangster', 'sync_mode': 'sync', 'smart_label': 'audience_rating.desc'} |
+[2022-10-11 09:00:02,007] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:00:02,007] [builder.py:219]            [INFO]     |================================== Validating Gangster Attributes ==================================|
+[2022-10-11 09:00:02,007] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:00:02,008] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-11 09:00:02,008] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-11 09:00:02,008] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:00:02,008] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-11 09:00:02,009] [builder.py:544]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-10-11 09:00:02,029] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:00:02,029] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-11 09:00:02,029] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_GANGSTER.png            |
+[2022-10-11 09:00:02,264] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:00:02,264] [builder.py:631]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-10-11 09:00:02,264] [builder.py:632]            [DEBUG]    | Value: ['https://www.imdb.com/list/ls026270180/', 'https://www.imdb.com/list/ls000093502/']        |
+[2022-10-11 09:00:10,945] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:00:10,946] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-10-11 09:00:10,946] [builder.py:632]            [DEBUG]    | Value: Gangster film is a sub-genre of crime films that center on organized crime or the mafia. Often the plot revolves around the rise and fall of an organized crime leader. Many Gangster films explore the destructive nature of organized crime, while others attempt to show the humanity of the individual characters. |
+[2022-10-11 09:00:10,946] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:00:10,947] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 09:00:10,947] [builder.py:632]            [DEBUG]    | Value: +3_Gangster                                                                                 |
+[2022-10-11 09:00:11,378] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 09:00:11,378] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 09:00:11,378] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 09:00:11,378] [plex_meta_manager.py:563]  [INFO]     |=================================== Running Gangster Collection ====================================|
+[2022-10-11 09:00:11,379] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-10-11 09:00:11,379] [plex_meta_manager.py:570]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: audience_rating.desc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Gangster
+[2022-10-11 09:00:11,379] [plex_meta_manager.py:575]  [INFO]     | 
+[2022-10-11 09:00:11,379] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync
+[2022-10-11 09:00:11,380] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 09:00:11,380] [plex_meta_manager.py:580]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls026270180/', 'limit': 0}
+[2022-10-11 09:00:11,380] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 09:00:11,380] [imdb.py:184]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls026270180/
+[2022-10-11 09:00:23,076] [imdb.py:135]               [DEBUG]    | 188 IMDb IDs Found: ['tt0086250', 'tt0068646', 'tt0071562', 'tt0099674', 'tt0094226', 'tt0106519', 'tt0099685', 'tt0106489', 'tt0112641', 'tt0765429', 'tt0217505', 'tt1416801', 'tt0407887', 'tt1355683', 'tt1355631', 'tt0119008', 'tt0257044', 'tt0087843', 'tt1152836', 'tt1491044', 'tt1321870', 'tt0427038', 'tt0119311', 'tt0120735', 'tt0205782', 'tt0208092', 'tt0102460', 'tt0070379', 'tt0040506', 'tt0061418', 'tt6246232', 'tt0120241', 'tt0047296', 'tt1526932', 'tt3893456', 'tt2361317', 'tt4025514', 'tt0804517', 'tt1031952', 'tt0100685', 'tt2515030', 'tt0100150', 'tt2782548', 'tt0411233', 'tt0393054', 'tt5344086', 'tt0924165', 'tt3569230', 'tt0210065', 'tt7241654', 'tt1212450', 'tt0082434', 'tt1389096', 'tt1167638', 'tt5657856', 'tt4633690', 'tt0088879', 'tt0074952', 'tt0090871', 'tt0064169', 'tt0068331', 'tt0093966', 'tt0068566', 'tt0099615', 'tt0087932', 'tt4893812', 'tt1032755', 'tt1329232', 'tt7983794', 'tt1085492', 'tt4594836', 'tt2101341', 'tt1524137', 'tt1465499', 'tt1656190', 'tt0283503', 'tt1893256', 'tt0282515', 'tt1741542', 'tt1291652', 'tt2427502', 'tt1588342', 'tt0976246', 'tt1737255', 'tt7056864', 'tt0233808', 'tt3845960', 'tt1176726', 'tt0072761', 'tt0100057', 'tt0268130', 'tt0052543', 'tt6494576', 'tt0056449', 'tt0098198', 'tt1709654', 'tt0060337', 'tt0069713', 'tt1584131', 'tt1041245', 'tt0179804', 'tt0122933', 'tt0120741', 'tt1730294', 'tt1886493', 'tt1760967', 'tt2481480', 'tt2088869', 'tt1849810', 'tt0151734', 'tt5294550', 'tt3229488', 'tt3894190', 'tt1229773', 'tt5373518', 'tt0087089', 'tt0068341', 'tt0061521', 'tt0110313', 'tt0165185', 'tt7156720', 'tt0799911', 'tt2314038', 'tt0883368', 'tt0126320', 'tt1104688', 'tt0043281', 'tt1801552', 'tt0116441', 'tt0123025', 'tt0075879', 'tt0433614', 'tt2158526', 'tt0330316', 'tt0891485', 'tt0479669', 'tt0095593', 'tt1289816', 'tt0811066', 'tt1954470', 'tt0195231', 'tt1899353', 'tt2265171', 'tt6422258', 'tt7984746', 'tt0460902', 'tt0087414', 'tt0070334', 'tt0119396', 'tt0064169', 'tt0029870', 'tt0023427', 'tt1259014', 'tt0411272', 'tt0087712', 'tt0202677', 'tt0071517', 'tt0071241', 'tt0065486', 'tt1945084', 'tt0118177', 'tt1302006', 'tt0110912', 'tt0058529', 'tt0102818', 'tt4218572', 'tt0042176', 'tt0044476', 'tt0264836', 'tt5705650', 'tt2091366', 'tt5192738', 'tt0104971', 'tt0072855', 'tt0070189', 'tt0097898', 'tt4998676', 'tt0425210', 'tt0203119', 'tt5156274', 'tt2404311', 'tt2011311', 'tt4682788', 'tt0067128', 'tt2937898', 'tt10208198', 'tt10095336', 'tt2363200']
+[2022-10-11 09:00:23,076] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 09:00:23,077] [builder.py:1541]           [DEBUG]    | 188 IDs Found: [('tt0086250', 'imdb'), ('tt0068646', 'imdb'), ('tt0071562', 'imdb'), ('tt0099674', 'imdb'), ('tt0094226', 'imdb'), ('tt0106519', 'imdb'), ('tt0099685', 'imdb'), ('tt0106489', 'imdb'), ('tt0112641', 'imdb'), ('tt0765429', 'imdb'), ('tt0217505', 'imdb'), ('tt1416801', 'imdb'), ('tt0407887', 'imdb'), ('tt1355683', 'imdb'), ('tt1355631', 'imdb'), ('tt0119008', 'imdb'), ('tt0257044', 'imdb'), ('tt0087843', 'imdb'), ('tt1152836', 'imdb'), ('tt1491044', 'imdb'), ('tt1321870', 'imdb'), ('tt0427038', 'imdb'), ('tt0119311', 'imdb'), ('tt0120735', 'imdb'), ('tt0205782', 'imdb'), ('tt0208092', 'imdb'), ('tt0102460', 'imdb'), ('tt0070379', 'imdb'), ('tt0040506', 'imdb'), ('tt0061418', 'imdb'), ('tt6246232', 'imdb'), ('tt0120241', 'imdb'), ('tt0047296', 'imdb'), ('tt1526932', 'imdb'), ('tt3893456', 'imdb'), ('tt2361317', 'imdb'), ('tt4025514', 'imdb'), ('tt0804517', 'imdb'), ('tt1031952', 'imdb'), ('tt0100685', 'imdb'), ('tt2515030', 'imdb'), ('tt0100150', 'imdb'), ('tt2782548', 'imdb'), ('tt0411233', 'imdb'), ('tt0393054', 'imdb'), ('tt5344086', 'imdb'), ('tt0924165', 'imdb'), ('tt3569230', 'imdb'), ('tt0210065', 'imdb'), ('tt7241654', 'imdb'), ('tt1212450', 'imdb'), ('tt0082434', 'imdb'), ('tt1389096', 'imdb'), ('tt1167638', 'imdb'), ('tt5657856', 'imdb'), ('tt4633690', 'imdb'), ('tt0088879', 'imdb'), ('tt0074952', 'imdb'), ('tt0090871', 'imdb'), ('tt0064169', 'imdb'), ('tt0068331', 'imdb'), ('tt0093966', 'imdb'), ('tt0068566', 'imdb'), ('tt0099615', 'imdb'), ('tt0087932', 'imdb'), ('tt4893812', 'imdb'), ('tt1032755', 'imdb'), ('tt1329232', 'imdb'), ('tt7983794', 'imdb'), ('tt1085492', 'imdb'), ('tt4594836', 'imdb'), ('tt2101341', 'imdb'), ('tt1524137', 'imdb'), ('tt1465499', 'imdb'), ('tt1656190', 'imdb'), ('tt0283503', 'imdb'), ('tt1893256', 'imdb'), ('tt0282515', 'imdb'), ('tt1741542', 'imdb'), ('tt1291652', 'imdb'), ('tt2427502', 'imdb'), ('tt1588342', 'imdb'), ('tt0976246', 'imdb'), ('tt1737255', 'imdb'), ('tt7056864', 'imdb'), ('tt0233808', 'imdb'), ('tt3845960', 'imdb'), ('tt1176726', 'imdb'), ('tt0072761', 'imdb'), ('tt0100057', 'imdb'), ('tt0268130', 'imdb'), ('tt0052543', 'imdb'), ('tt6494576', 'imdb'), ('tt0056449', 'imdb'), ('tt0098198', 'imdb'), ('tt1709654', 'imdb'), ('tt0060337', 'imdb'), ('tt0069713', 'imdb'), ('tt1584131', 'imdb'), ('tt1041245', 'imdb'), ('tt0179804', 'imdb'), ('tt0122933', 'imdb'), ('tt0120741', 'imdb'), ('tt1730294', 'imdb'), ('tt1886493', 'imdb'), ('tt1760967', 'imdb'), ('tt2481480', 'imdb'), ('tt2088869', 'imdb'), ('tt1849810', 'imdb'), ('tt0151734', 'imdb'), ('tt5294550', 'imdb'), ('tt3229488', 'imdb'), ('tt3894190', 'imdb'), ('tt1229773', 'imdb'), ('tt5373518', 'imdb'), ('tt0087089', 'imdb'), ('tt0068341', 'imdb'), ('tt0061521', 'imdb'), ('tt0110313', 'imdb'), ('tt0165185', 'imdb'), ('tt7156720', 'imdb'), ('tt0799911', 'imdb'), ('tt2314038', 'imdb'), ('tt0883368', 'imdb'), ('tt0126320', 'imdb'), ('tt1104688', 'imdb'), ('tt0043281', 'imdb'), ('tt1801552', 'imdb'), ('tt0116441', 'imdb'), ('tt0123025', 'imdb'), ('tt0075879', 'imdb'), ('tt0433614', 'imdb'), ('tt2158526', 'imdb'), ('tt0330316', 'imdb'), ('tt0891485', 'imdb'), ('tt0479669', 'imdb'), ('tt0095593', 'imdb'), ('tt1289816', 'imdb'), ('tt0811066', 'imdb'), ('tt1954470', 'imdb'), ('tt0195231', 'imdb'), ('tt1899353', 'imdb'), ('tt2265171', 'imdb'), ('tt6422258', 'imdb'), ('tt7984746', 'imdb'), ('tt0460902', 'imdb'), ('tt0087414', 'imdb'), ('tt0070334', 'imdb'), ('tt0119396', 'imdb'), ('tt0064169', 'imdb'), ('tt0029870', 'imdb'), ('tt0023427', 'imdb'), ('tt1259014', 'imdb'), ('tt0411272', 'imdb'), ('tt0087712', 'imdb'), ('tt0202677', 'imdb'), ('tt0071517', 'imdb'), ('tt0071241', 'imdb'), ('tt0065486', 'imdb'), ('tt1945084', 'imdb'), ('tt0118177', 'imdb'), ('tt1302006', 'imdb'), ('tt0110912', 'imdb'), ('tt0058529', 'imdb'), ('tt0102818', 'imdb'), ('tt4218572', 'imdb'), ('tt0042176', 'imdb'), ('tt0044476', 'imdb'), ('tt0264836', 'imdb'), ('tt5705650', 'imdb'), ('tt2091366', 'imdb'), ('tt5192738', 'imdb'), ('tt0104971', 'imdb'), ('tt0072855', 'imdb'), ('tt0070189', 'imdb'), ('tt0097898', 'imdb'), ('tt4998676', 'imdb'), ('tt0425210', 'imdb'), ('tt0203119', 'imdb'), ('tt5156274', 'imdb'), ('tt2404311', 'imdb'), ('tt2011311', 'imdb'), ('tt4682788', 'imdb'), ('tt0067128', 'imdb'), ('tt2937898', 'imdb'), ('tt10208198', 'imdb'), ('tt10095336', 'imdb'), ('tt2363200', 'imdb')]
+[2022-10-11 09:00:23,077] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 09:00:23,118] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt4893812
+[2022-10-11 09:00:23,139] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt6494576
+[2022-10-11 09:00:23,156] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt1229773
+[2022-10-11 09:00:23,161] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt5373518
+[2022-10-11 09:00:23,182] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt1289816
+[2022-10-11 09:00:23,191] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt7984746
+[2022-10-11 09:00:23,209] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt2091366
+[2022-10-11 09:00:23,214] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt5192738
+[2022-10-11 09:00:23,221] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt4998676
+[2022-10-11 09:00:23,233] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt2363200
+[2022-10-11 09:00:23,235] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 09:00:23,235] [plex_meta_manager.py:580]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls000093502/', 'limit': 0}
+[2022-10-11 09:00:23,236] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 09:00:23,236] [imdb.py:184]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls000093502/
+[2022-10-11 09:00:42,827] [imdb.py:135]               [DEBUG]    | 247 IMDb IDs Found: ['tt0068646', 'tt0071562', 'tt0099685', 'tt0086250', 'tt0110912', 'tt0903747', 'tt0087843', 'tt1302006', 'tt0141842', 'tt0317248', 'tt0338564', 'tt0407887', 'tt2707408', 'tt0105236', 'tt0108188', 'tt0979432', 'tt0112641', 'tt0106519', 'tt0491244', 'tt0113277', 'tt0222851', 'tt0306414', 'tt0070246', 'tt0106489', 'tt0119008', 'tt1462667', 'tt0110413', 'tt0456912', 'tt0070379', 'tt0119488', 'tt0042041', 'tt0217505', 'tt0094226', 'tt0061418', 'tt0275066', 'tt1355683', 'tt2082221', 'tt0122933', 'tt1124373', 'tt1527788', 'tt0468569', 'tt0022286', 'tt0119250', 'tt0765429', 'tt2361317', 'tt0266697', 'tt0023427', 'tt0120735', 'tt0434008', 'tt2404311', 'tt0073207', 'tt0107554', 'tt0093435', 'tt0029870', 'tt0066806', 'tt0380268', 'tt0468565', 'tt0142316', 'tt0780504', 'tt0097202', 'tt0840361', 'tt1259014', 'tt0411272', 'tt0100150', 'tt1205489', 'tt0021079', 'tt0108399', 'tt0993846', 'tt1800241', 'tt0099674', 'tt0106469', 'tt0114814', 'tt0139654', 'tt0221027', 'tt1127715', 'tt0257044', 'tt1152836', 'tt0765443', 'tt0861739', 'tt0067128', 'tt0073918', 'tt0796212', 'tt1212450', 'tt0783532', 'tt0099939', 'tt1416801', 'tt0821442', 'tt0455275', 'tt0081070', 'tt0120586', 'tt0101507', 'tt0316599', 'tt0104573', 'tt0116441', 'tt0061882', 'tt0091538', 'tt1321870', 'tt0123092', 'tt0100685', 'tt0103671', 'tt3569230', 'tt0870090', 'tt0203119', 'tt0068629', 'tt0258766', 'tt0208092', 'tt0102526', 'tt0092263', 'tt0419749', 'tt0144117', 'tt0031867', 'tt0101516', 'tt0040506', 'tt0296042', 'tt0929425', 'tt0113194', 'tt0404390', 'tt0375912', 'tt1313092', 'tt0418110', 'tt0113118', 'tt0220644', 'tt0114660', 'tt0210065', 'tt0361668', 'tt0120784', 'tt0923714', 'tt0054687', 'tt0399146', 'tt0075441', 'tt0880249', 'tt0119396', 'tt0029118', 'tt1389096', 'tt0289848', 'tt1491044', 'tt1016290', 'tt1764234', 'tt1235166', 'tt0369060', 'tt0326208', 'tt0073234', 'tt0399295', 'tt0120241', 'tt0376706', 'tt0236027', 'tt1213926', 'tt0145547', 'tt0221073', 'tt0057219', 'tt0098967', 'tt0289181', 'tt0112688', 'tt1032755', 'tt1075419', 'tt1434443', 'tt0303990', 'tt0105275', 'tt0425210', 'tt0059320', 'tt0841150', 'tt0498399', 'tt0190138', 'tt0165998', 'tt0479044', 'tt1604900', 'tt0805661', 'tt0112819', 'tt0362329', 'tt0068341', 'tt0288861', 'tt0281718', 'tt0499556', 'tt0099615', 'tt0104511', 'tt0165929', 'tt0118887', 'tt0096933', 'tt0099422', 'tt0258960', 'tt0153882', 'tt0221111', 'tt0069976', 'tt0370477', 'tt0324865', 'tt0087414', 'tt0051887', 'tt0072855', 'tt0089841', 'tt0099951', 'tt0101453', 'tt0104427', 'tt0360323', 'tt0108059', 'tt0211465', 'tt0118381', 'tt0365686', 'tt1133991', 'tt0118531', 'tt0283503', 'tt0168264', 'tt0151734', 'tt0090350', 'tt0109842', 'tt0203031', 'tt0205782', 'tt0105450', 'tt1554091', 'tt0116830', 'tt0283952', 'tt0179804', 'tt1291652', 'tt0255819', 'tt0299910', 'tt0130121', 'tt0259484', 'tt0094894', 'tt0100212', 'tt0901507', 'tt0087089', 'tt0095593', 'tt0109035', 'tt0119311', 'tt0109099', 'tt0097481', 'tt0142192', 'tt0107079', 'tt0102460', 'tt0102432', 'tt0092751', 'tt0427038', 'tt0338497', 'tt1105745', 'tt1540400', 'tt0429715', 'tt0262396', 'tt1071880', 'tt0116378', 'tt1085382', 'tt0093966', 'tt0490824', 'tt2176609', 'tt1669604', 'tt0074256', 'tt1724596', 'tt1122583', 'tt0425602']
+[2022-10-11 09:00:42,827] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 09:00:42,827] [builder.py:1541]           [DEBUG]    | 247 IDs Found: [('tt0068646', 'imdb'), ('tt0071562', 'imdb'), ('tt0099685', 'imdb'), ('tt0086250', 'imdb'), ('tt0110912', 'imdb'), ('tt0903747', 'imdb'), ('tt0087843', 'imdb'), ('tt1302006', 'imdb'), ('tt0141842', 'imdb'), ('tt0317248', 'imdb'), ('tt0338564', 'imdb'), ('tt0407887', 'imdb'), ('tt2707408', 'imdb'), ('tt0105236', 'imdb'), ('tt0108188', 'imdb'), ('tt0979432', 'imdb'), ('tt0112641', 'imdb'), ('tt0106519', 'imdb'), ('tt0491244', 'imdb'), ('tt0113277', 'imdb'), ('tt0222851', 'imdb'), ('tt0306414', 'imdb'), ('tt0070246', 'imdb'), ('tt0106489', 'imdb'), ('tt0119008', 'imdb'), ('tt1462667', 'imdb'), ('tt0110413', 'imdb'), ('tt0456912', 'imdb'), ('tt0070379', 'imdb'), ('tt0119488', 'imdb'), ('tt0042041', 'imdb'), ('tt0217505', 'imdb'), ('tt0094226', 'imdb'), ('tt0061418', 'imdb'), ('tt0275066', 'imdb'), ('tt1355683', 'imdb'), ('tt2082221', 'imdb'), ('tt0122933', 'imdb'), ('tt1124373', 'imdb'), ('tt1527788', 'imdb'), ('tt0468569', 'imdb'), ('tt0022286', 'imdb'), ('tt0119250', 'imdb'), ('tt0765429', 'imdb'), ('tt2361317', 'imdb'), ('tt0266697', 'imdb'), ('tt0023427', 'imdb'), ('tt0120735', 'imdb'), ('tt0434008', 'imdb'), ('tt2404311', 'imdb'), ('tt0073207', 'imdb'), ('tt0107554', 'imdb'), ('tt0093435', 'imdb'), ('tt0029870', 'imdb'), ('tt0066806', 'imdb'), ('tt0380268', 'imdb'), ('tt0468565', 'imdb'), ('tt0142316', 'imdb'), ('tt0780504', 'imdb'), ('tt0097202', 'imdb'), ('tt0840361', 'imdb'), ('tt1259014', 'imdb'), ('tt0411272', 'imdb'), ('tt0100150', 'imdb'), ('tt1205489', 'imdb'), ('tt0021079', 'imdb'), ('tt0108399', 'imdb'), ('tt0993846', 'imdb'), ('tt1800241', 'imdb'), ('tt0099674', 'imdb'), ('tt0106469', 'imdb'), ('tt0114814', 'imdb'), ('tt0139654', 'imdb'), ('tt0221027', 'imdb'), ('tt1127715', 'imdb'), ('tt0257044', 'imdb'), ('tt1152836', 'imdb'), ('tt0765443', 'imdb'), ('tt0861739', 'imdb'), ('tt0067128', 'imdb'), ('tt0073918', 'imdb'), ('tt0796212', 'imdb'), ('tt1212450', 'imdb'), ('tt0783532', 'imdb'), ('tt0099939', 'imdb'), ('tt1416801', 'imdb'), ('tt0821442', 'imdb'), ('tt0455275', 'imdb'), ('tt0081070', 'imdb'), ('tt0120586', 'imdb'), ('tt0101507', 'imdb'), ('tt0316599', 'imdb'), ('tt0104573', 'imdb'), ('tt0116441', 'imdb'), ('tt0061882', 'imdb'), ('tt0091538', 'imdb'), ('tt1321870', 'imdb'), ('tt0123092', 'imdb'), ('tt0100685', 'imdb'), ('tt0103671', 'imdb'), ('tt3569230', 'imdb'), ('tt0870090', 'imdb'), ('tt0203119', 'imdb'), ('tt0068629', 'imdb'), ('tt0258766', 'imdb'), ('tt0208092', 'imdb'), ('tt0102526', 'imdb'), ('tt0092263', 'imdb'), ('tt0419749', 'imdb'), ('tt0144117', 'imdb'), ('tt0031867', 'imdb'), ('tt0101516', 'imdb'), ('tt0040506', 'imdb'), ('tt0296042', 'imdb'), ('tt0929425', 'imdb'), ('tt0113194', 'imdb'), ('tt0404390', 'imdb'), ('tt0375912', 'imdb'), ('tt1313092', 'imdb'), ('tt0418110', 'imdb'), ('tt0113118', 'imdb'), ('tt0220644', 'imdb'), ('tt0114660', 'imdb'), ('tt0210065', 'imdb'), ('tt0361668', 'imdb'), ('tt0120784', 'imdb'), ('tt0923714', 'imdb'), ('tt0054687', 'imdb'), ('tt0399146', 'imdb'), ('tt0075441', 'imdb'), ('tt0880249', 'imdb'), ('tt0119396', 'imdb'), ('tt0029118', 'imdb'), ('tt1389096', 'imdb'), ('tt0289848', 'imdb'), ('tt1491044', 'imdb'), ('tt1016290', 'imdb'), ('tt1764234', 'imdb'), ('tt1235166', 'imdb'), ('tt0369060', 'imdb'), ('tt0326208', 'imdb'), ('tt0073234', 'imdb'), ('tt0399295', 'imdb'), ('tt0120241', 'imdb'), ('tt0376706', 'imdb'), ('tt0236027', 'imdb'), ('tt1213926', 'imdb'), ('tt0145547', 'imdb'), ('tt0221073', 'imdb'), ('tt0057219', 'imdb'), ('tt0098967', 'imdb'), ('tt0289181', 'imdb'), ('tt0112688', 'imdb'), ('tt1032755', 'imdb'), ('tt1075419', 'imdb'), ('tt1434443', 'imdb'), ('tt0303990', 'imdb'), ('tt0105275', 'imdb'), ('tt0425210', 'imdb'), ('tt0059320', 'imdb'), ('tt0841150', 'imdb'), ('tt0498399', 'imdb'), ('tt0190138', 'imdb'), ('tt0165998', 'imdb'), ('tt0479044', 'imdb'), ('tt1604900', 'imdb'), ('tt0805661', 'imdb'), ('tt0112819', 'imdb'), ('tt0362329', 'imdb'), ('tt0068341', 'imdb'), ('tt0288861', 'imdb'), ('tt0281718', 'imdb'), ('tt0499556', 'imdb'), ('tt0099615', 'imdb'), ('tt0104511', 'imdb'), ('tt0165929', 'imdb'), ('tt0118887', 'imdb'), ('tt0096933', 'imdb'), ('tt0099422', 'imdb'), ('tt0258960', 'imdb'), ('tt0153882', 'imdb'), ('tt0221111', 'imdb'), ('tt0069976', 'imdb'), ('tt0370477', 'imdb'), ('tt0324865', 'imdb'), ('tt0087414', 'imdb'), ('tt0051887', 'imdb'), ('tt0072855', 'imdb'), ('tt0089841', 'imdb'), ('tt0099951', 'imdb'), ('tt0101453', 'imdb'), ('tt0104427', 'imdb'), ('tt0360323', 'imdb'), ('tt0108059', 'imdb'), ('tt0211465', 'imdb'), ('tt0118381', 'imdb'), ('tt0365686', 'imdb'), ('tt1133991', 'imdb'), ('tt0118531', 'imdb'), ('tt0283503', 'imdb'), ('tt0168264', 'imdb'), ('tt0151734', 'imdb'), ('tt0090350', 'imdb'), ('tt0109842', 'imdb'), ('tt0203031', 'imdb'), ('tt0205782', 'imdb'), ('tt0105450', 'imdb'), ('tt1554091', 'imdb'), ('tt0116830', 'imdb'), ('tt0283952', 'imdb'), ('tt0179804', 'imdb'), ('tt1291652', 'imdb'), ('tt0255819', 'imdb'), ('tt0299910', 'imdb'), ('tt0130121', 'imdb'), ('tt0259484', 'imdb'), ('tt0094894', 'imdb'), ('tt0100212', 'imdb'), ('tt0901507', 'imdb'), ('tt0087089', 'imdb'), ('tt0095593', 'imdb'), ('tt0109035', 'imdb'), ('tt0119311', 'imdb'), ('tt0109099', 'imdb'), ('tt0097481', 'imdb'), ('tt0142192', 'imdb'), ('tt0107079', 'imdb'), ('tt0102460', 'imdb'), ('tt0102432', 'imdb'), ('tt0092751', 'imdb'), ('tt0427038', 'imdb'), ('tt0338497', 'imdb'), ('tt1105745', 'imdb'), ('tt1540400', 'imdb'), ('tt0429715', 'imdb'), ('tt0262396', 'imdb'), ('tt1071880', 'imdb'), ('tt0116378', 'imdb'), ('tt1085382', 'imdb'), ('tt0093966', 'imdb'), ('tt0490824', 'imdb'), ('tt2176609', 'imdb'), ('tt1669604', 'imdb'), ('tt0074256', 'imdb'), ('tt1724596', 'imdb'), ('tt1122583', 'imdb'), ('tt0425602', 'imdb')]
+[2022-10-11 09:00:42,828] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 09:00:43,024] [builder.py:2064]           [INFO]     | 
+[2022-10-11 09:00:43,027] [builder.py:2065]           [INFO]     |================================== Adding to Gangster Collection ===================================|
+[2022-10-11 09:00:43,028] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-11 09:00:43,292] [builder.py:2080]           [INFO]     |  1/50 | Gangster Collection | = | Scarface (1983)                                                  |
+[2022-10-11 09:00:43,293] [builder.py:2080]           [INFO]     |  2/50 | Gangster Collection | = | Le Parrain (1972)                                                |
+[2022-10-11 09:00:43,293] [builder.py:2080]           [INFO]     |  3/50 | Gangster Collection | = | Le Parrain, 2e partie (1974)                                     |
+[2022-10-11 09:00:43,294] [builder.py:2080]           [INFO]     |  4/50 | Gangster Collection | = | Le Parrain, 3e partie (1990)                                     |
+[2022-10-11 09:00:43,294] [builder.py:2080]           [INFO]     |  5/50 | Gangster Collection | = | Les Incorruptibles (1987)                                        |
+[2022-10-11 09:00:43,294] [builder.py:2080]           [INFO]     |  6/50 | Gangster Collection | = | Il était une fois le Bronx (1993)                                |
+[2022-10-11 09:00:43,295] [builder.py:2080]           [INFO]     |  7/50 | Gangster Collection | = | American Gangster (2007)                                         |
+[2022-10-11 09:00:43,295] [builder.py:2080]           [INFO]     |  8/50 | Gangster Collection | = | Les Infiltrés (2006)                                             |
+[2022-10-11 09:00:43,295] [builder.py:2080]           [INFO]     |  9/50 | Gangster Collection | = | Strictly Criminal (2015)                                         |
+[2022-10-11 09:00:43,296] [builder.py:2080]           [INFO]     | 10/50 | Gangster Collection | = | Il était une fois en Amérique (1984)                             |
+[2022-10-11 09:00:43,296] [builder.py:2080]           [INFO]     | 11/50 | Gangster Collection | = | Public Enemies (2009)                                            |
+[2022-10-11 09:00:43,296] [builder.py:2080]           [INFO]     | 12/50 | Gangster Collection | = | Arnaques, crimes et botanique (1998)                             |
+[2022-10-11 09:00:43,297] [builder.py:2080]           [INFO]     | 13/50 | Gangster Collection | = | Snatch, tu braques ou tu raques (2000)                           |
+[2022-10-11 09:00:43,297] [builder.py:2080]           [INFO]     | 14/50 | Gangster Collection | = | Le clan des Siciliens (1969)                                     |
+[2022-10-11 09:00:43,298] [builder.py:2080]           [INFO]     | 15/50 | Gangster Collection | = | RockNRolla (2008)                                                |
+[2022-10-11 09:00:43,298] [builder.py:2080]           [INFO]     | 16/50 | Gangster Collection | = | Mafia Blues (1999)                                               |
+[2022-10-11 09:00:43,298] [builder.py:2080]           [INFO]     | 17/50 | Gangster Collection | = | Cosa Nostra (1972)                                               |
+[2022-10-11 09:00:43,299] [builder.py:2080]           [INFO]     | 18/50 | Gangster Collection | = | Jackie Brown (1997)                                              |
+[2022-10-11 09:00:43,299] [builder.py:2080]           [INFO]     | 19/50 | Gangster Collection | = | Mesrine : L'Instinct de mort (2008)                              |
+[2022-10-11 09:00:43,300] [builder.py:2080]           [INFO]     | 20/50 | Gangster Collection | = | Mesrine : L'Ennemi public n°1 (2008)                             |
+[2022-10-11 09:00:43,300] [builder.py:2080]           [INFO]     | 21/50 | Gangster Collection | = | The Irishman (2019)                                              |
+[2022-10-11 09:00:43,300] [builder.py:2080]           [INFO]     | 22/50 | Gangster Collection | = | Pulp Fiction (1994)                                              |
+[2022-10-11 09:00:43,301] [builder.py:2080]           [INFO]     | 23/50 | Gangster Collection | = | Slevin (2006)                                                    |
+[2022-10-11 09:00:43,301] [builder.py:2080]           [INFO]     | 24/50 | Gangster Collection | = | Malavita (2013)                                                  |
+[2022-10-11 09:00:43,302] [builder.py:2080]           [INFO]     | 25/50 | Gangster Collection | = | La Cité de Dieu (2002)                                           |
+[2022-10-11 09:00:43,302] [builder.py:2080]           [INFO]     | 26/50 | Gangster Collection | = | Reservoir Dogs (1992)                                            |
+[2022-10-11 09:00:43,302] [builder.py:2080]           [INFO]     | 27/50 | Gangster Collection | = | Heat (1995)                                                      |
+[2022-10-11 09:00:43,303] [builder.py:2080]           [INFO]     | 28/50 | Gangster Collection | = | Léon (1994)                                                      |
+[2022-10-11 09:00:43,303] [builder.py:2080]           [INFO]     | 29/50 | Gangster Collection | = | A Bittersweet Life (2005)                                        |
+[2022-10-11 09:00:43,303] [builder.py:2080]           [INFO]     | 30/50 | Gangster Collection | = | L.A. Confidential (1997)                                         |
+[2022-10-11 09:00:43,303] [builder.py:2080]           [INFO]     | 31/50 | Gangster Collection | = | The Dark Knight : Le Chevalier noir (2008)                       |
+[2022-10-11 09:00:43,304] [builder.py:2080]           [INFO]     | 32/50 | Gangster Collection | = | Kill Bill : Volume 1 (2003)                                      |
+[2022-10-11 09:00:43,304] [builder.py:2080]           [INFO]     | 33/50 | Gangster Collection | = | Drive (2011)                                                     |
+[2022-10-11 09:00:43,304] [builder.py:2080]           [INFO]     | 34/50 | Gangster Collection | = | The Town (2010)                                                  |
+[2022-10-11 09:00:43,305] [builder.py:2080]           [INFO]     | 35/50 | Gangster Collection | = | Gran Torino (2009)                                               |
+[2022-10-11 09:00:43,305] [builder.py:2080]           [INFO]     | 36/50 | Gangster Collection | = | Le Loup de Wall Street (2013)                                    |
+[2022-10-11 09:00:43,305] [builder.py:2080]           [INFO]     | 37/50 | Gangster Collection | = | American Bluff (2013)                                            |
+[2022-10-11 09:00:43,306] [builder.py:2080]           [INFO]     | 38/50 | Gangster Collection | = | Usual Suspects (1995)                                            |
+[2022-10-11 09:00:43,306] [builder.py:2080]           [INFO]     | 39/50 | Gangster Collection | = | Les Promesses de l'ombre (2007)                                  |
+[2022-10-11 09:00:43,306] [builder.py:2080]           [INFO]     | 40/50 | Gangster Collection | = | American History X (1998)                                        |
+[2022-10-11 09:00:43,307] [builder.py:2080]           [INFO]     | 41/50 | Gangster Collection | = | La Peur au ventre (2006)                                         |
+[2022-10-11 09:00:43,307] [builder.py:2080]           [INFO]     | 42/50 | Gangster Collection | = | Layer Cake (2004)                                                |
+[2022-10-11 09:00:43,307] [builder.py:2080]           [INFO]     | 43/50 | Gangster Collection | = | Payback (1999)                                                   |
+[2022-10-11 09:00:43,308] [builder.py:2080]           [INFO]     | 44/50 | Gangster Collection | = | A History of Violence (2005)                                     |
+[2022-10-11 09:00:43,308] [builder.py:2080]           [INFO]     | 45/50 | Gangster Collection | = | Mafia Blues 2 : La Rechute (2002)                                |
+[2022-10-11 09:00:43,309] [builder.py:2080]           [INFO]     | 46/50 | Gangster Collection | = | Crows Zero (2007)                                                |
+[2022-10-11 09:00:43,309] [builder.py:2080]           [INFO]     | 47/50 | Gangster Collection | = | Lord of War (2005)                                               |
+[2022-10-11 09:00:43,310] [builder.py:2080]           [INFO]     | 48/50 | Gangster Collection | = | Mon voisin le tueur (2000)                                       |
+[2022-10-11 09:00:43,310] [builder.py:2080]           [INFO]     | 49/50 | Gangster Collection | = | Copland (1997)                                                   |
+[2022-10-11 09:00:43,310] [builder.py:2080]           [INFO]     | 50/50 | Gangster Collection | = | Revolver (2005)                                                  |
+[2022-10-11 09:00:43,311] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-11 09:00:43,311] [builder.py:2102]           [INFO]     | 50 Movies Processed 0 Movies Added                                                                 |
+[2022-10-11 09:00:43,312] [builder.py:2228]           [INFO]     |                                                                                                    |
+[2022-10-11 09:00:43,312] [builder.py:2229]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-10-11 09:00:43,312] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-10-11 09:00:43,343] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Carlito's Way (1993) (TMDb: 6075)                                        |
+[2022-10-11 09:00:43,385] [builder.py:2243]           [INFO]     | Gangster Collection | ? | GoodFellas (1990) (TMDb: 769)                                            |
+[2022-10-11 09:00:43,402] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Casino (1995) (TMDb: 524)                                                |
+[2022-10-11 09:00:43,426] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Gangs of New York (2002) (TMDb: 3131)                                    |
+[2022-10-11 09:00:43,466] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Kill the Irishman (2011) (TMDb: 51209)                                   |
+[2022-10-11 09:00:43,491] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Infiltrator (2016) (TMDb: 325789)                                    |
+[2022-10-11 09:00:43,526] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Donnie Brasco (1997) (TMDb: 9366)                                        |
+[2022-10-11 09:00:43,550] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Road to Perdition (2002) (TMDb: 4147)                                    |
+[2022-10-11 09:00:43,603] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Iceman (2012) (TMDb: 68812)                                          |
+[2022-10-11 09:00:43,627] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Gangster Squad (2013) (TMDb: 82682)                                      |
+[2022-10-11 09:00:43,661] [builder.py:2243]           [INFO]     | Gangster Collection | ? | L'Impasse : De la rue au pouvoir (2005) (TMDb: 12261)                    |
+[2022-10-11 09:00:43,686] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Hoodlum (1997) (TMDb: 22073)                                             |
+[2022-10-11 09:00:43,720] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Boss of Bosses (2001) (TMDb: 61899)                                      |
+[2022-10-11 09:00:43,745] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Mobsters (1991) (TMDb: 21219)                                            |
+[2022-10-11 09:00:43,782] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Mean Streets (1973) (TMDb: 203)                                          |
+[2022-10-11 09:00:43,826] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Key Largo (1948) (TMDb: 11016)                                           |
+[2022-10-11 09:00:43,845] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Bonnie and Clyde (1967) (TMDb: 475)                                      |
+[2022-10-11 09:00:43,862] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Suicide Kings (1998) (TMDb: 10668)                                       |
+[2022-10-11 09:00:43,893] [builder.py:2243]           [INFO]     | Gangster Collection | ? | On the Waterfront (1954) (TMDb: 654)                                     |
+[2022-10-11 09:00:43,905] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Cowboys Come Riding (2008) (TMDb: 148262)                                |
+[2022-10-11 09:00:43,943] [builder.py:2243]           [INFO]     | Gangster Collection | ? | La trattativa (2014) (TMDb: 288694)                                      |
+[2022-10-11 09:00:43,955] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Live by Night (2016) (TMDb: 259695)                                      |
+[2022-10-11 09:00:43,993] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Suburra (2015) (TMDb: 356296)                                            |
+[2022-10-11 09:00:44,007] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Pablo Escobar: King of Cocaine (1998) (TMDb: 248513)                     |
+[2022-10-11 09:00:44,009] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Pablo Escobar: Angel or Demon? (2008) (TMDb: 257909)                     |
+[2022-10-11 09:00:44,059] [builder.py:2243]           [INFO]     | Gangster Collection | ? | State of Grace (1990) (TMDb: 1662)                                       |
+[2022-10-11 09:00:44,102] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Escobar: Paradise Lost (2014) (TMDb: 255343)                             |
+[2022-10-11 09:00:44,112] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Miller's Crossing (1990) (TMDb: 379)                                     |
+[2022-10-11 09:00:44,143] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Los Tiempos de Pablo Escobar (2012) (TMDb: 912640)                       |
+[2022-10-11 09:00:44,177] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Ciudadano Escobar (TMDb: 942661)                                         |
+[2022-10-11 09:00:44,210] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Los Archivos Privados de Pablo Escobar (2004) (TMDb: 281645)             |
+[2022-10-11 09:00:44,244] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Chapo: El Escape Del Siglo (2016) (TMDb: 377670)                         |
+[2022-10-11 09:00:44,277] [builder.py:2243]           [INFO]     | Gangster Collection | ? | A Very British Gangster (2007) (TMDb: 13137)                             |
+[2022-10-11 09:00:44,296] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Legend (2015) (TMDb: 276907)                                             |
+[2022-10-11 09:00:44,330] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Gangster No. 1 (2000) (TMDb: 10394)                                      |
+[2022-10-11 09:00:44,360] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Gangster Land (2017) (TMDb: 485337)                                      |
+[2022-10-11 09:00:44,394] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Lawless (2012) (TMDb: 82633)                                             |
+[2022-10-11 09:00:44,435] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Gangster Wars (1981) (TMDb: 340932)                                      |
+[2022-10-11 09:00:44,469] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Les Derniers Affranchis (2012) (TMDb: 121824)                            |
+[2022-10-11 09:00:44,488] [builder.py:2243]           [INFO]     | Gangster Collection | ? | 22 Bullets (2010) (TMDb: 37645)                                          |
+[2022-10-11 09:00:44,539] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Brawl in Cell Block 99 (2017) (TMDb: 398175)                             |
+[2022-10-11 09:00:44,593] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Shot Caller (2017) (TMDb: 339692)                                        |
+[2022-10-11 09:00:44,644] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Professor (1986) (TMDb: 54953)                                       |
+[2022-10-11 09:00:44,663] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Violent Naples (1976) (TMDb: 94809)                                      |
+[2022-10-11 09:00:44,696] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Camorra (A Story of Streets, Women and Crime) (1985) (TMDb: 97755)       |
+[2022-10-11 09:00:44,713] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Camorra (1972) (TMDb: 274409)                                            |
+[2022-10-11 09:00:44,744] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Sicilian (1987) (TMDb: 31945)                                        |
+[2022-10-11 09:00:44,803] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Crime Boss (1972) (TMDb: 79426)                                          |
+[2022-10-11 09:00:44,852] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Freshman (1990) (TMDb: 10168)                                        |
+[2022-10-11 09:00:44,893] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Pope of Greenwich Village (1984) (TMDb: 32081)                       |
+[2022-10-11 09:00:44,937] [builder.py:2243]           [INFO]     | Gangster Collection | ? | St George's Day (2012) (TMDb: 131737)                                    |
+[2022-10-11 09:00:44,980] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Operation Odessa (2018) (TMDb: 502164)                                   |
+[2022-10-11 09:00:45,019] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Prince (2014) (TMDb: 241254)                                         |
+[2022-10-11 09:00:45,061] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Darc (2018) (TMDb: 521647)                                               |
+[2022-10-11 09:00:45,094] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Dead Man Down (2013) (TMDb: 102362)                                      |
+[2022-10-11 09:00:45,135] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Contraband (2012) (TMDb: 77866)                                          |
+[2022-10-11 09:00:45,156] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Bad Blood (2010) (TMDb: 34777)                                           |
+[2022-10-11 09:00:45,172] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Safe (2012) (TMDb: 72387)                                                |
+[2022-10-11 09:00:45,214] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Brooklyn Rules (2007) (TMDb: 13072)                                      |
+[2022-10-11 09:00:45,261] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Hummingbird (2013) (TMDb: 136418)                                        |
+[2022-10-11 09:00:45,311] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Gangsters (2002) (TMDb: 40417)                                           |
+[2022-10-11 09:00:45,386] [builder.py:2243]           [INFO]     | Gangster Collection | ? | A Gang Story (2011) (TMDb: 56415)                                        |
+[2022-10-11 09:00:45,416] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Easy Money (2010) (TMDb: 29920)                                          |
+[2022-10-11 09:00:45,438] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Easy Money III: Life Deluxe (2013) (TMDb: 196032)                        |
+[2022-10-11 09:00:45,514] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Easy Money : La cité des égarés (2012) (TMDb: 92647)                     |
+[2022-10-11 09:00:45,569] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Staten Island (2009) (TMDb: 25927)                                       |
+[2022-10-11 09:00:45,623] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Godmother (2011) (TMDb: 79575)                                       |
+[2022-10-11 09:00:45,652] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Cocaine Godmother (2017) (TMDb: 492258)                                  |
+[2022-10-11 09:00:45,709] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Godmother (1999) (TMDb: 395026)                                          |
+[2022-10-11 09:00:45,732] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Cocaine Cowboys: Reloaded (2014) (TMDb: 314407)                          |
+[2022-10-11 09:00:45,768] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Cocaine Cowboys II: Hustlin' with the Godmother (2008) (TMDb: 26769)     |
+[2022-10-11 09:00:45,810] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Capone (1975) (TMDb: 18710)                                              |
+[2022-10-11 09:00:45,889] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Lost Capone (1990) (TMDb: 215108)                                    |
+[2022-10-11 09:00:45,936] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Al's Lads (2002) (TMDb: 30320)                                           |
+[2022-10-11 09:00:45,958] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Al Capone (1959) (TMDb: 43051)                                           |
+[2022-10-11 09:00:46,001] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Scarface Mob (1959) (TMDb: 168513)                                   |
+[2022-10-11 09:00:46,049] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Revenge of Al Capone (1989) (TMDb: 220175)                           |
+[2022-10-11 09:00:46,068] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Edwin Boyd: Citizen Gangster (2011) (TMDb: 92493)                        |
+[2022-10-11 09:00:46,103] [builder.py:2243]           [INFO]     | Gangster Collection | ? | 2 Mobsters Against Al Capone (1966) (TMDb: 121315)                       |
+[2022-10-11 09:00:46,147] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Even Angels Eat Beans (1973) (TMDb: 11612)                               |
+[2022-10-11 09:00:46,180] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Last Godfather (2010) (TMDb: 70829)                                  |
+[2022-10-11 09:00:46,210] [builder.py:2243]           [INFO]     | Gangster Collection | ? | L'ultimo padrino (2008) (TMDb: 117875)                                   |
+[2022-10-11 09:00:46,252] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Bonanno: A Godfather's Story (1999) (TMDb: 61898)                        |
+[2022-10-11 09:00:46,286] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Le Prince de Sicile (1998) (TMDb: 9835)                                  |
+[2022-10-11 09:00:46,319] [builder.py:2243]           [INFO]     | Gangster Collection | ? | For the Love of Money (2012) (TMDb: 112130)                              |
+[2022-10-11 09:00:46,369] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Catch.44 (2011) (TMDb: 75736)                                            |
+[2022-10-11 09:00:46,393] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Ill Manors (2012) (TMDb: 109843)                                         |
+[2022-10-11 09:00:46,430] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Rob the Mob (2014) (TMDb: 243935)                                        |
+[2022-10-11 09:00:46,459] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Percentage (2013) (TMDb: 203264)                                         |
+[2022-10-11 09:00:46,488] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Mafia (2011) (TMDb: 157107)                                              |
+[2022-10-11 09:00:46,526] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Excellent Cadavers (1999) (TMDb: 19189)                                  |
+[2022-10-11 09:00:46,584] [builder.py:2243]           [INFO]     | Gangster Collection | ? | All the Money in the World (2017) (TMDb: 446791)                         |
+[2022-10-11 09:00:46,601] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Boone: The Bounty Hunter (2017) (TMDb: 456781)                           |
+[2022-10-11 09:00:46,736] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Black Souls (2014) (TMDb: 283707)                                        |
+[2022-10-11 09:00:46,781] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Cotton Club (1984) (TMDb: 2148)                                      |
+[2022-10-11 09:00:46,810] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Cosa Nostra, Arch Enemy of the FBI (1967) (TMDb: 549581)                 |
+[2022-10-11 09:00:46,836] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Last Word (1995) (TMDb: 63242)                                       |
+[2022-10-11 09:00:46,880] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Cosa Nostra Asia (1974) (TMDb: 401879)                                   |
+[2022-10-11 09:00:46,928] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Cornbread Cosa Nostra (2018) (TMDb: 524388)                              |
+[2022-10-11 09:00:46,960] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Our Country (2006) (TMDb: 58771)                                         |
+[2022-10-11 09:00:46,981] [builder.py:2243]           [INFO]     | Gangster Collection | ? | La Cosa Nostra: The History of NY Mafia (TMDb: 310173)                   |
+[2022-10-11 09:00:47,002] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Giovanni Falcone - L'uomo che sfidò Cosa Nostra (2006) (TMDb: 149959)    |
+[2022-10-11 09:00:47,082] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Giovanni Falcone (1992) (TMDb: 145635)                                   |
+[2022-10-11 09:00:47,143] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Vendetta Romana (2007) (TMDb: 53805)                                     |
+[2022-10-11 09:00:47,193] [builder.py:2243]           [INFO]     | Gangster Collection | ? | City of Violence (1951) (TMDb: 675451)                                   |
+[2022-10-11 09:00:47,251] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Gotti (2018) (TMDb: 339103)                                              |
+[2022-10-11 09:00:47,318] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Gotti (1996) (TMDb: 14786)                                               |
+[2022-10-11 09:00:47,347] [builder.py:2243]           [INFO]     | Gangster Collection | ? | From Corleone to Brooklyn (1979) (TMDb: 105837)                          |
+[2022-10-11 09:00:47,384] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Corleone (1978) (TMDb: 167583)                                           |
+[2022-10-11 09:00:47,396] [builder.py:2243]           [INFO]     | Gangster Collection | ? | A Judge of Honor (2004) (TMDb: 101280)                                   |
+[2022-10-11 09:00:47,451] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Paolo Borsellino - The 57 Days (2012) (TMDb: 112586)                     |
+[2022-10-11 09:00:47,501] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Marrying the Mafia (2002) (TMDb: 49202)                                  |
+[2022-10-11 09:00:47,513] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Marrying The Mafia 3: Family Hustle (2006) (TMDb: 49204)                 |
+[2022-10-11 09:00:47,560] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Marrying the Mafia 2: Enemy-in-Law (2005) (TMDb: 49203)                  |
+[2022-10-11 09:00:47,585] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Married to the Mob (1988) (TMDb: 2321)                                   |
+[2022-10-11 09:00:47,618] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Shootout at Lokhandwala (2007) (TMDb: 20742)                             |
+[2022-10-11 09:00:47,652] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Gangs of Wasseypur - Part 1 (2012) (TMDb: 117691)                        |
+[2022-10-11 09:00:47,684] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Satya (1998) (TMDb: 21502)                                               |
+[2022-10-11 09:00:47,701] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Raid (2012) (TMDb: 94329)                                            |
+[2022-10-11 09:00:47,710] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Raid 2 (2014) (TMDb: 180299)                                         |
+[2022-10-11 09:00:47,725] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Albanian Gangster (2018) (TMDb: 631834)                                  |
+[2022-10-11 09:00:47,760] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Played (2006) (TMDb: 31979)                                              |
+[2022-10-11 09:00:47,785] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Hit (1984) (TMDb: 19621)                                             |
+[2022-10-11 09:00:47,803] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Long Goodbye (1973) (TMDb: 1847)                                     |
+[2022-10-11 09:00:47,842] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Angels with Dirty Faces (1938) (TMDb: 13696)                             |
+[2022-10-11 09:00:47,892] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Scarface (1932) (TMDb: 877)                                              |
+[2022-10-11 09:00:47,926] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Mesrine (1984) (TMDb: 59385)                                             |
+[2022-10-11 09:00:47,976] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Way of the Gun (2000) (TMDb: 1619)                                   |
+[2022-10-11 09:00:48,013] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Foxy Brown (1974) (TMDb: 22048)                                          |
+[2022-10-11 09:00:48,056] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Borsalino and Co. (1974) (TMDb: 60181)                                   |
+[2022-10-11 09:00:48,076] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Borsalino (1970) (TMDb: 25251)                                           |
+[2022-10-11 09:00:48,094] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Everly (2015) (TMDb: 277355)                                             |
+[2022-10-11 09:00:48,151] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Wiseguy (1996) (TMDb: 210691)                                            |
+[2022-10-11 09:00:48,232] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Robin and the 7 Hoods (1964) (TMDb: 17696)                               |
+[2022-10-11 09:00:48,251] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Run (1991) (TMDb: 48129)                                                 |
+[2022-10-11 09:00:48,284] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Widows (2018) (TMDb: 401469)                                             |
+[2022-10-11 09:00:48,337] [builder.py:2243]           [INFO]     | Gangster Collection | ? | 711 Ocean Drive (1950) (TMDb: 37087)                                     |
+[2022-10-11 09:00:48,445] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Captive City (1952) (TMDb: 62006)                                    |
+[2022-10-11 09:00:48,478] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Manos de seda (1951) (TMDb: 675185)                                      |
+[2022-10-11 09:00:48,528] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Medellin: A Journey Inside (2016) (TMDb: 629079)                         |
+[2022-10-11 09:00:48,552] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Narcos (1992) (TMDb: 341087)                                             |
+[2022-10-11 09:00:48,575] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Family Enforcer (1976) (TMDb: 38394)                                     |
+[2022-10-11 09:00:48,632] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Honor Thy Father (1973) (TMDb: 95892)                                    |
+[2022-10-11 09:00:48,660] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Mob War (1989) (TMDb: 95887)                                             |
+[2022-10-11 09:00:48,720] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Sexy Beast (2000) (TMDb: 11826)                                          |
+[2022-10-11 09:00:48,762] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Cardboard Gangsters (2017) (TMDb: 462445)                                |
+[2022-10-11 09:00:48,778] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Outsider (2018) (TMDb: 199928)                                       |
+[2022-10-11 09:00:48,820] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Loving Pablo (2017) (TMDb: 425336)                                       |
+[2022-10-11 09:00:48,837] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Get Carter (1971) (TMDb: 1485)                                           |
+[2022-10-11 09:00:48,878] [builder.py:2243]           [INFO]     | Gangster Collection | ? | A Most Violent Year (2014) (TMDb: 241239)                                |
+[2022-10-11 09:00:48,903] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Gangster, the Cop, the Devil (2019) (TMDb: 581528)                   |
+[2022-10-11 09:00:48,935] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Our Godfather (2019) (TMDb: 598065)                                      |
+[2022-10-11 09:00:48,960] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Infernal Affairs (2002) (TMDb: 10775)                                    |
+[2022-10-11 09:00:48,990] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Sonatine (1993) (TMDb: 7500)                                             |
+[2022-10-11 09:00:49,009] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Election 2 (2006) (TMDb: 15077)                                          |
+[2022-10-11 09:00:49,043] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Brother (2000) (TMDb: 327)                                               |
+[2022-10-11 09:00:49,110] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Battles Without Honor and Humanity (1973) (TMDb: 34326)                  |
+[2022-10-11 09:00:49,154] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Outrage (2010) (TMDb: 45284)                                             |
+[2022-10-11 09:00:49,194] [builder.py:2243]           [INFO]     | Gangster Collection | ? | White Heat (1949) (TMDb: 15794)                                          |
+[2022-10-11 09:00:49,255] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Welcome to Death Row (2001) (TMDb: 49039)                                |
+[2022-10-11 09:00:49,273] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Nameless Gangster (2012) (TMDb: 89501)                                   |
+[2022-10-11 09:00:49,310] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Man from Nowhere (2010) (TMDb: 51608)                                |
+[2022-10-11 09:00:49,332] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Public Enemy (1931) (TMDb: 17687)                                    |
+[2022-10-11 09:00:49,374] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Fireworks (1997) (TMDb: 5910)                                            |
+[2022-10-11 09:00:49,396] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Election (2005) (TMDb: 18747)                                            |
+[2022-10-11 09:00:49,429] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Graveyard of Honor (1975) (TMDb: 71851)                                  |
+[2022-10-11 09:00:49,460] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Menace II Society (1993) (TMDb: 9516)                                    |
+[2022-10-11 09:00:49,512] [builder.py:2243]           [INFO]     | Gangster Collection | ? | City on Fire (1987) (TMDb: 42120)                                        |
+[2022-10-11 09:00:49,578] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Sympathy for the Underdog (1971) (TMDb: 90351)                           |
+[2022-10-11 09:00:49,620] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Cocaine Cowboys (2006) (TMDb: 14761)                                     |
+[2022-10-11 09:00:49,651] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Tsotsi (2005) (TMDb: 868)                                                |
+[2022-10-11 09:00:49,699] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Rainy Dog (1997) (TMDb: 36244)                                           |
+[2022-10-11 09:00:49,768] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Killer (1989) (TMDb: 10835)                                          |
+[2022-10-11 09:00:49,818] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Little Caesar (1931) (TMDb: 27899)                                       |
+[2022-10-11 09:00:49,880] [builder.py:2243]           [INFO]     | Gangster Collection | ? | True Romance (1993) (TMDb: 319)                                          |
+[2022-10-11 09:00:49,902] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Bound by Honor (1993) (TMDb: 9702)                                       |
+[2022-10-11 09:00:49,926] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Training Day (2001) (TMDb: 2034)                                         |
+[2022-10-11 09:00:49,961] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Blow (2001) (TMDb: 4133)                                                 |
+[2022-10-11 09:00:49,979] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Sin Nombre (2009) (TMDb: 21191)                                          |
+[2022-10-11 09:00:50,001] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Elite Squad (2007) (TMDb: 7347)                                          |
+[2022-10-11 09:00:50,042] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Yakuza (1974) (TMDb: 28415)                                              |
+[2022-10-11 09:00:50,068] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Exiled (2006) (TMDb: 13807)                                              |
+[2022-10-11 09:00:50,086] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Gangster's Paradise: Jerusalema (2008) (TMDb: 22600)                     |
+[2022-10-11 09:00:50,138] [builder.py:2243]           [INFO]     | Gangster Collection | ? | King of New York (1990) (TMDb: 9558)                                     |
+[2022-10-11 09:00:50,168] [builder.py:2243]           [INFO]     | Gangster Collection | ? | A Dirty Carnival (2006) (TMDb: 23538)                                    |
+[2022-10-11 09:00:50,186] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Long Good Friday (1980) (TMDb: 14807)                                |
+[2022-10-11 09:00:50,209] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Boyz n the Hood (1991) (TMDb: 650)                                       |
+[2022-10-11 09:00:50,238] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Graveyard of Honor (2002) (TMDb: 20646)                                  |
+[2022-10-11 09:00:50,278] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Juice (1992) (TMDb: 16136)                                               |
+[2022-10-11 09:00:50,321] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Branded to Kill (1967) (TMDb: 17905)                                     |
+[2022-10-11 09:00:50,352] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Mona Lisa (1986) (TMDb: 10002)                                           |
+[2022-10-11 09:00:50,372] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Fudoh: The New Generation (1996) (TMDb: 36282)                           |
+[2022-10-11 09:00:50,422] [builder.py:2243]           [INFO]     | Gangster Collection | ? | American Me (1992) (TMDb: 13199)                                         |
+[2022-10-11 09:00:50,442] [builder.py:2243]           [INFO]     | Gangster Collection | ? | City of Men (2007) (TMDb: 7343)                                          |
+[2022-10-11 09:00:50,480] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Street Mobster (1972) (TMDb: 21613)                                      |
+[2022-10-11 09:00:50,513] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Ley Lines (1999) (TMDb: 19337)                                           |
+[2022-10-11 09:00:50,559] [builder.py:2243]           [INFO]     | Gangster Collection | ? | New Jack City (1991) (TMDb: 10952)                                       |
+[2022-10-11 09:00:50,581] [builder.py:2243]           [INFO]     | Gangster Collection | ? | A Better Tomorrow (1986) (TMDb: 11471)                                   |
+[2022-10-11 09:00:50,611] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Find Me Guilty (2006) (TMDb: 9950)                                       |
+[2022-10-11 09:00:50,655] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Boondock Saints (1999) (TMDb: 8374)                                  |
+[2022-10-11 09:00:50,680] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Roaring Twenties (1939) (TMDb: 37698)                                |
+[2022-10-11 09:00:50,697] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Bugsy (1991) (TMDb: 10337)                                               |
+[2022-10-11 09:00:50,714] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Ichi the Killer (2001) (TMDb: 9696)                                      |
+[2022-10-11 09:00:50,747] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Gomorrah (2008) (TMDb: 8882)                                             |
+[2022-10-11 09:00:50,768] [builder.py:2243]           [INFO]     | Gangster Collection | ? | GONIN (1995) (TMDb: 26830)                                               |
+[2022-10-11 09:00:50,786] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Animal Kingdom (2010) (TMDb: 44629)                                      |
+[2022-10-11 09:00:50,827] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Romanzo Criminale (2005) (TMDb: 14375)                                   |
+[2022-10-11 09:00:50,851] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Friday (1995) (TMDb: 10634)                                              |
+[2022-10-11 09:00:50,868] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Mission (1999) (TMDb: 45871)                                         |
+[2022-10-11 09:00:50,906] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Things to Do in Denver When You're Dead (1995) (TMDb: 400)               |
+[2022-10-11 09:00:50,943] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Gozu (2003) (TMDb: 12487)                                                |
+[2022-10-11 09:00:50,976] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Sunflower (2006) (TMDb: 49283)                                           |
+[2022-10-11 09:00:51,001] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Blast of Silence (1961) (TMDb: 32008)                                    |
+[2022-10-11 09:00:51,036] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Yakuza Graveyard (1976) (TMDb: 64578)                                    |
+[2022-10-11 09:00:51,076] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Last Gangster (1937) (TMDb: 28712)                                   |
+[2022-10-11 09:00:51,110] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Killing Them Softly (2012) (TMDb: 64689)                                 |
+[2022-10-11 09:00:51,168] [builder.py:2243]           [INFO]     | Gangster Collection | ? | A Prophet (2009) (TMDb: 21575)                                           |
+[2022-10-11 09:00:51,219] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Infernal Affairs II (2003) (TMDb: 11647)                                 |
+[2022-10-11 09:00:51,252] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Stander (2003) (TMDb: 18927)                                             |
+[2022-10-11 09:00:51,276] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Cops vs. Thugs (1975) (TMDb: 91872)                                      |
+[2022-10-11 09:00:51,278] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Yakuza Demon (2003) (TMDb: 64579)                                        |
+[2022-10-11 09:00:51,310] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Flickering Lights (2000) (TMDb: 10180)                                   |
+[2022-10-11 09:00:51,336] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Sicilian Girl (2008) (TMDb: 31111)                                   |
+[2022-10-11 09:00:51,370] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Two Hands (1999) (TMDb: 13428)                                           |
+[2022-10-11 09:00:51,410] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Chopper (2000) (TMDb: 9519)                                              |
+[2022-10-11 09:00:51,445] [builder.py:2243]           [INFO]     | Gangster Collection | ? | 関東無宿 (1963) (TMDb: 42809)                                                |
+[2022-10-11 09:00:51,602] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Boiling Point (1990) (TMDb: 26936)                                       |
+[2022-10-11 09:00:51,635] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Failan (2001) (TMDb: 18704)                                              |
+[2022-10-11 09:00:51,695] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Clockers (1995) (TMDb: 20649)                                            |
+[2022-10-11 09:00:51,727] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Shinjuku Incident (2009) (TMDb: 20083)                                   |
+[2022-10-11 09:00:51,777] [builder.py:2243]           [INFO]     | Gangster Collection | ? | R (2010) (TMDb: 49207)                                                   |
+[2022-10-11 09:00:51,809] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Family (2001) (TMDb: 115213)                                             |
+[2022-10-11 09:00:51,844] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Romper Stomper (1992) (TMDb: 10412)                                      |
+[2022-10-11 09:00:51,868] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Tattooed Life (1965) (TMDb: 88435)                                       |
+[2022-10-11 09:00:51,894] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Protégé (2007) (TMDb: 16657)                                             |
+[2022-10-11 09:00:51,918] [builder.py:2243]           [INFO]     | Gangster Collection | ? | We Own the Night (2007) (TMDb: 2001)                                     |
+[2022-10-11 09:00:51,936] [builder.py:2243]           [INFO]     | Gangster Collection | ? | A True Mob Story (1998) (TMDb: 58414)                                    |
+[2022-10-11 09:00:51,968] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Crips and Bloods: Made in America (2008) (TMDb: 18529)                   |
+[2022-10-11 09:00:52,009] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Monga (2010) (TMDb: 40911)                                               |
+[2022-10-11 09:00:52,022] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Dead Presidents (1995) (TMDb: 11443)                                     |
+[2022-10-11 09:00:52,060] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Man in White (2003) (TMDb: 36255)                                    |
+[2022-10-11 09:00:52,119] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Godforsaken! (2003) (TMDb: 15525)                                        |
+[2022-10-11 09:00:52,176] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Friend (2001) (TMDb: 19635)                                              |
+[2022-10-11 09:00:52,202] [builder.py:2243]           [INFO]     | Gangster Collection | ? | War (2007) (TMDb: 10431)                                                 |
+[2022-10-11 09:00:52,261] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Innocent Blood (1992) (TMDb: 27381)                                      |
+[2022-10-11 09:00:52,286] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Romeo Must Die (2000) (TMDb: 2085)                                       |
+[2022-10-11 09:00:52,336] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Black Rain (1989) (TMDb: 4105)                                           |
+[2022-10-11 09:00:52,361] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Dick Tracy (1990) (TMDb: 8592)                                           |
+[2022-10-11 09:00:52,419] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Shinjuku Triad Society (1995) (TMDb: 36250)                              |
+[2022-10-11 09:00:52,478] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Witness to the Mob (1998) (TMDb: 64920)                                  |
+[2022-10-11 09:00:52,511] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Dead or Alive (1999) (TMDb: 11315)                                       |
+[2022-10-11 09:00:52,561] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Dillinger (1973) (TMDb: 28110)                                           |
+[2022-10-11 09:00:52,619] [builder.py:2243]           [INFO]     | Gangster Collection | ? | De Dominee (2004) (TMDb: 5473)                                           |
+[2022-10-11 09:00:52,695] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Mitraillette Kelly (1958) (TMDb: 43119)                                  |
+[2022-10-11 09:00:52,746] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Prizzi's Honor (1985) (TMDb: 2075)                                       |
+[2022-10-11 09:00:52,795] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Krays (1990) (TMDb: 21344)                                           |
+[2022-10-11 09:00:52,853] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Billy Bathgate (1991) (TMDb: 12647)                                      |
+[2022-10-11 09:00:52,877] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Hoffa (1992) (TMDb: 10410)                                               |
+[2022-10-11 09:00:52,911] [builder.py:2243]           [INFO]     | Gangster Collection | ? | 10th & Wolf (2006) (TMDb: 13197)                                         |
+[2022-10-11 09:00:52,961] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Escort (1993) (TMDb: 68806)                                          |
+[2022-10-11 09:00:53,012] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Knockaround Guys (2001) (TMDb: 7501)                                     |
+[2022-10-11 09:00:53,077] [builder.py:2243]           [INFO]     | Gangster Collection | ? | What Doesn't Kill You (2008) (TMDb: 15801)                               |
+[2022-10-11 09:00:53,198] [builder.py:2243]           [INFO]     | Gangster Collection | ? | One Eight Seven (1997) (TMDb: 6072)                                      |
+[2022-10-11 09:00:53,237] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Young and Dangerous: The Prequel (1998) (TMDb: 48963)                    |
+[2022-10-11 09:00:53,278] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Year of the Dragon (1985) (TMDb: 11018)                                  |
+[2022-10-11 09:00:53,328] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Fresh (1994) (TMDb: 13815)                                               |
+[2022-10-11 09:00:53,378] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Noriega: God's Favorite (2000) (TMDb: 339441)                            |
+[2022-10-11 09:00:53,428] [builder.py:2243]           [INFO]     | Gangster Collection | ? | South Central (1992) (TMDb: 23196)                                       |
+[2022-10-11 09:00:53,479] [builder.py:2243]           [INFO]     | Gangster Collection | ? | A Better Life (2011) (TMDb: 55720)                                       |
+[2022-10-11 09:00:53,639] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Dernier recours (1996) (TMDb: 9333)                                      |
+[2022-10-11 09:00:53,670] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Blue Hill Avenue (2001) (TMDb: 17584)                                    |
+[2022-10-11 09:00:53,694] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Baby Boy (2001) (TMDb: 16161)                                            |
+[2022-10-11 09:00:53,740] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Full Metal Yakuza (1997) (TMDb: 42099)                                   |
+[2022-10-11 09:00:53,832] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Mickey Blue Eyes (1999) (TMDb: 10154)                                    |
+[2022-10-11 09:00:53,860] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Paid in Full (2002) (TMDb: 13098)                                        |
+[2022-10-11 09:00:53,882] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Colors (1988) (TMDb: 10126)                                              |
+[2022-10-11 09:00:53,907] [builder.py:2243]           [INFO]     | Gangster Collection | ? | My Blue Heaven (1990) (TMDb: 16384)                                      |
+[2022-10-11 09:00:53,932] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Rise of the Footsoldier (2007) (TMDb: 13054)                             |
+[2022-10-11 09:00:53,957] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Above the Rim (1994) (TMDb: 19092)                                       |
+[2022-10-11 09:00:53,999] [builder.py:2243]           [INFO]     | Gangster Collection | ? | American Yakuza (1993) (TMDb: 36909)                                     |
+[2022-10-11 09:00:54,024] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Harlem Nights (1989) (TMDb: 9085)                                        |
+[2022-10-11 09:00:54,066] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Le Corrupteur (1999) (TMDb: 9455)                                        |
+[2022-10-11 09:00:54,090] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Sugar Hill (1994) (TMDb: 39349)                                          |
+[2022-10-11 09:00:54,111] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Men of Respect (1990) (TMDb: 96171)                                      |
+[2022-10-11 09:00:54,166] [builder.py:2243]           [INFO]     | Gangster Collection | ? | China Girl (1987) (TMDb: 47212)                                          |
+[2022-10-11 09:00:54,190] [builder.py:2243]           [INFO]     | Gangster Collection | ? | This Thing of Ours (2005) (TMDb: 67373)                                  |
+[2022-10-11 09:00:54,218] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Wisegal (2008) (TMDb: 19402)                                             |
+[2022-10-11 09:00:54,251] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Bonded by Blood (2010) (TMDb: 43944)                                     |
+[2022-10-11 09:00:54,285] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Business (2005) (TMDb: 5145)                                         |
+[2022-10-11 09:00:54,318] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Empire (2002) (TMDb: 13369)                                              |
+[2022-10-11 09:00:54,351] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Crew (2008) (TMDb: 14575)                                            |
+[2022-10-11 09:00:54,392] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Funeral (1996) (TMDb: 21612)                                         |
+[2022-10-11 09:00:54,412] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Chicago Overcoat (2009) (TMDb: 43213)                                    |
+[2022-10-11 09:00:54,451] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Gangland: Bullets over Hollywood (2005) (TMDb: 248515)                   |
+[2022-10-11 09:00:54,510] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Yakuza Weapon (2011) (TMDb: 83192)                                       |
+[2022-10-11 09:00:54,535] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Bugsy Malone (1976) (TMDb: 8446)                                         |
+[2022-10-11 09:00:54,588] [builder.py:2243]           [INFO]     | Gangster Collection | ? | Ice Man: Confessions of a Mafia Contract Killer (TMDb: 942663)           |
+[2022-10-11 09:00:54,649] [builder.py:2243]           [INFO]     | Gangster Collection | ? | El Patron (TMDb: 942664)                                                 |
+[2022-10-11 09:00:54,676] [builder.py:2243]           [INFO]     | Gangster Collection | ? | The Untouchables: Capone Rising (TMDb: 942665)                           |
+[2022-10-11 09:00:54,677] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-10-11 09:00:54,677] [builder.py:2249]           [INFO]     | 299 Movies Missing                                                                                 |
+[2022-10-11 09:00:55,388] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-11 09:00:55,388] [builder.py:2442]           [INFO]     |============================= Updating Details of Gangster Collection ==============================|
+[2022-10-11 09:00:55,388] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-11 09:00:55,397] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-10-11 09:00:55,397] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Gangster'                                             |
+[2022-10-11 09:00:55,397] [util.py:150]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-10-11 09:00:55,397] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_GANGSTER.png |
+[2022-10-11 09:00:55,560] [library.py:170]            [INFO]     | Detail: url_poster updated poster to [URL] https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_GANGSTER.png |
+[2022-10-11 09:00:55,928] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 09:00:55,929] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 09:00:55,929] [plex_meta_manager.py:709]  [INFO]     |                                    Finished Gangster Collection                                    |
+[2022-10-11 09:00:55,929] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:53                                    |
+[2022-10-11 09:00:55,929] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

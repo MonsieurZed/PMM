@@ -1,0 +1,90 @@
+[2022-10-11 09:28:42,956] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 09:28:42,956] [builder.py:197]            [INFO]     |                         Sony Pictures Animation Collection in Z. 1 - Films                         |
+[2022-10-11 09:28:42,956] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 09:28:42,956] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 09:28:42,957] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 09:28:42,957] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:28:42,957] [meta.py:128]               [DEBUG]    | Template Studio                                                                                    |
+[2022-10-11 09:28:42,957] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Studio'), ('studio', 'Sony Pictures, Sony Pictures Television')])     |
+[2022-10-11 09:28:42,958] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:28:42,958] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Studio'), ('studio', 'Sony Pictures, Sony Pictures Television'), ('collection_name', 'Sony Pictures Animation'), ('mapping_name', 'Sony Pictures Animation'), ('library_type', 'movie'), ('library_name', 'Z. 1 - Films'), ('name_encoded', 'Studio'), ('studio_encoded', 'Sony%20Pictures%2C%20Sony%20Pictures%20Television'), ('collection_name_encoded', 'Sony%20Pictures%20Animation'), ('mapping_name_encoded', 'Sony%20Pictures%20Animation'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%201%20-%20Films'), ('collection_sort', 'Sony Pictures Animation')]) |
+[2022-10-11 09:28:42,958] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:28:42,958] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 09:28:42,958] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:28:42,959] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 09:28:42,960] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:28:42,960] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'plex_search': {'studio': 'Sony Pictures, Sony Pictures Television'}, 'sort_title': '+12_Sony Pictures Animation', 'collection_order': 'alpha'} |
+[2022-10-11 09:28:42,960] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:28:42,960] [builder.py:219]            [INFO]     |========================== Validating Sony Pictures Animation Attributes ===========================|
+[2022-10-11 09:28:42,961] [builder.py:609]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:28:42,961] [builder.py:610]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 09:28:42,961] [builder.py:611]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-10-11 09:28:42,961] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:28:42,961] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-11 09:28:42,961] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/STUDIO_SPA.png                |
+[2022-10-11 09:28:43,173] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:28:43,173] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-10-11 09:28:43,174] [builder.py:632]            [DEBUG]    | Value: Sony Pictures Animation Inc. is an American animation studio owned by Sony Entertainment's Sony Pictures Entertainment through their Motion Picture Group division and founded on May 9, 2002. The studio's films are distributed worldwide by Sony Pictures Releasing under their Columbia Pictures label, while all direct-to-video releases are released by Sony Pictures Home Entertainment. |
+[2022-10-11 09:28:43,174] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:28:43,174] [builder.py:631]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-10-11 09:28:43,174] [builder.py:632]            [DEBUG]    | Value: {'studio': 'Sony Pictures, Sony Pictures Television'}                                       |
+[2022-10-11 09:28:43,175] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 09:28:43,175] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 09:28:43,175] [builder.py:632]            [DEBUG]    | Value: +12_Sony Pictures Animation                                                                 |
+[2022-10-11 09:28:43,182] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-10-11 09:28:43,183] [plex.py:793]               [DEBUG]    | Looking for: Sony Pictures Animation                                                               |
+[2022-10-11 09:28:43,183] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 09:28:43,183] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 09:28:43,183] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 09:28:43,183] [plex_meta_manager.py:563]  [INFO]     |============================ Running Sony Pictures Animation Collection ============================|
+[2022-10-11 09:28:43,184] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 09:28:43,184] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 09:28:43,184] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 09:28:43,184] [plex_meta_manager.py:580]  [DEBUG]    | Builder: plex_search: (1, 'Plex Movie Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Studio contains Sony Pictures, Sony Pictures Television', '?type=1&sort=titleSort&push=1&studio=Sony%20Pictures%2C%20Sony%20Pictures%20Television&pop=1') |
+[2022-10-11 09:28:43,184] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 09:28:43,184] [plex.py:819]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: title.asc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Match any of the following:
+                                                                 |       Studio contains Sony Pictures, Sony Pictures Television
+[2022-10-11 09:28:43,246] [plex.py:864]               [DEBUG]    | 
+[2022-10-11 09:28:43,247] [plex.py:865]               [DEBUG]    | 11 Keys Found: [(40776, 'ratingKey'), (94159, 'ratingKey'), (41705, 'ratingKey'), (45517, 'ratingKey'), (41958, 'ratingKey'), (42446, 'ratingKey'), (94252, 'ratingKey'), (92261, 'ratingKey'), (43788, 'ratingKey'), (94937, 'ratingKey'), (43025, 'ratingKey')]
+[2022-10-11 09:28:43,247] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 09:28:43,247] [builder.py:1541]           [DEBUG]    | 11 IDs Found: [(40776, 'ratingKey'), (94159, 'ratingKey'), (41705, 'ratingKey'), (45517, 'ratingKey'), (41958, 'ratingKey'), (42446, 'ratingKey'), (94252, 'ratingKey'), (92261, 'ratingKey'), (43788, 'ratingKey'), (94937, 'ratingKey'), (43025, 'ratingKey')]
+[2022-10-11 09:28:43,247] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 09:28:43,248] [builder.py:2064]           [INFO]     | 
+[2022-10-11 09:28:43,248] [builder.py:2065]           [INFO]     |=========================== Adding to Sony Pictures Animation Collection ===========================|
+[2022-10-11 09:28:43,248] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-11 09:28:43,248] [builder.py:2080]           [INFO]     |  1/11 | Sony Pictures Animation Collection | + | Amoureux de ma femme (2018)                       |
+[2022-10-11 09:28:43,495] [builder.py:2080]           [INFO]     |  2/11 | Sony Pictures Animation Collection | + | Art of Steal (2014)                               |
+[2022-10-11 09:28:43,779] [builder.py:2080]           [INFO]     |  3/11 | Sony Pictures Animation Collection | + | Elysium (2013)                                    |
+[2022-10-11 09:28:44,070] [builder.py:2080]           [INFO]     |  4/11 | Sony Pictures Animation Collection | + | The Father (2020)                                 |
+[2022-10-11 09:28:44,340] [builder.py:2080]           [INFO]     |  5/11 | Sony Pictures Animation Collection | + | French Exit (2021)                                |
+[2022-10-11 09:28:44,620] [builder.py:2080]           [INFO]     |  6/11 | Sony Pictures Animation Collection | + | Innocence (2020)                                  |
+[2022-10-11 09:28:44,846] [builder.py:2080]           [INFO]     |  7/11 | Sony Pictures Animation Collection | + | L'Imaginarium du Docteur Parnassus (2009)         |
+[2022-10-11 09:28:45,146] [builder.py:2080]           [INFO]     |  8/11 | Sony Pictures Animation Collection | + | The Man from Toronto (2022)                       |
+[2022-10-11 09:28:46,071] [builder.py:2080]           [INFO]     |  9/11 | Sony Pictures Animation Collection | + | Monster Hunter (2020)                             |
+[2022-10-11 09:28:46,559] [builder.py:2080]           [INFO]     | 10/11 | Sony Pictures Animation Collection | + | Sept ans au Tibet (1997)                          |
+[2022-10-11 09:28:46,962] [builder.py:2080]           [INFO]     | 11/11 | Sony Pictures Animation Collection | + | La Vie des autres (2006)                          |
+[2022-10-11 09:28:49,874] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-11 09:28:49,874] [builder.py:2102]           [INFO]     | 11 Movies Processed 11 Movies Added                                                                |
+[2022-10-11 09:28:49,881] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-11 09:28:49,881] [builder.py:2442]           [INFO]     |====================== Updating Details of Sony Pictures Animation Collection ======================|
+[2022-10-11 09:28:49,881] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-11 09:28:50,057] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Sony Pictures Animation Inc. is an American animation studio owned by Sony Entertainment's Sony Pictures Entertainment through their Motion Picture Group division and founded on May 9, 2002. The studio's films are distributed worldwide by Sony Pictures Releasing under their Columbia Pictures label, while all direct-to-video releases are released by Sony Pictures Home Entertainment.
+                                                                 | Sort Title | +12_Sony Pictures Animation
+                                                                 | Label | +PMM
+[2022-10-11 09:28:50,286] [builder.py:2513]           [INFO]     | Details: have been updated
+[2022-10-11 09:28:50,287] [builder.py:2517]           [INFO]     | 
+[2022-10-11 09:28:50,480] [builder.py:2540]           [INFO]     | Collection Order | alpha
+[2022-10-11 09:28:50,480] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Sony Pictures Animation'
+[2022-10-11 09:28:50,480] [util.py:150]               [DEBUG]    | 1 poster found:
+[2022-10-11 09:28:50,481] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/STUDIO_SPA.png
+[2022-10-11 09:28:50,532] [library.py:170]            [INFO]     | Detail: url_poster updated poster to [URL] https://raw.githubusercontent.com/MonsieurZed/poster/main/img/STUDIO_SPA.png
+[2022-10-11 09:28:50,777] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-11 09:28:50,777] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 09:28:50,777] [plex_meta_manager.py:709]  [INFO]     |                            Finished Sony Pictures Animation Collection                             |
+[2022-10-11 09:28:50,777] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:07                                    |
+[2022-10-11 09:28:50,778] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

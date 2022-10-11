@@ -1,0 +1,64 @@
+[2022-10-11 11:00:09,220] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 11:00:09,221] [builder.py:197]            [INFO]     |                           28 Days/Weeks Later Collection in Z. 1 - Films                           |
+[2022-10-11 11:00:09,221] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 11:00:09,221] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 11:00:09,222] [builder.py:200]            [INFO]     | Log Folder Name: 28 Days/Weeks Later is invalid using 28 DaysWeeks Later                           |
+[2022-10-11 11:00:09,222] [builder.py:201]            [INFO]     |                                                                                                    |
+[2022-10-11 11:00:09,222] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:00:09,222] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:00:09,222] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:00:09,223] [meta.py:129]               [DEBUG]    | Call: {'value': ['1565'], 'tmdb_collection': ['1565'], 'key_name': '28 Days/Weeks Later', 'key': '1565', 'name': 'my_template'} |
+[2022-10-11 11:00:09,223] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:00:09,223] [meta.py:305]               [DEBUG]    | Variables: {'value': ['1565'], 'tmdb_collection': ['1565'], 'key_name': '28 Days/Weeks Later', 'key': '1565', 'name': 'my_template', 'collection_name': '28 Days/Weeks Later', 'mapping_name': '28 Days/Weeks Later', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%271565%27%5D', 'tmdb_collection_encoded': '%5B%271565%27%5D', 'key_name_encoded': '28%20Days/Weeks%20Later', 'key_encoded': '1565', 'name_encoded': 'my_template', 'collection_name_encoded': '28%20Days/Weeks%20Later', 'mapping_name_encoded': '28%20Days/Weeks%20Later', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': '28 Days/Weeks Later'} |
+[2022-10-11 11:00:09,223] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:00:09,224] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:00:09,224] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:00:09,224] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:00:09,225] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:00:09,226] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['1565'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_28 Days/Weeks Later'} |
+[2022-10-11 11:00:09,226] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:00:09,226] [builder.py:219]            [INFO]     |============================ Validating 28 Days/Weeks Later Attributes =============================|
+[2022-10-11 11:00:09,226] [builder.py:609]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:00:09,227] [builder.py:610]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:00:09,227] [builder.py:611]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:00:09,227] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:00:09,227] [builder.py:631]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:00:09,227] [builder.py:632]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:00:09,228] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:00:09,228] [builder.py:631]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:00:09,228] [builder.py:632]            [DEBUG]    | Value: ['1565']                                                                                    |
+[2022-10-11 11:00:09,246] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:00:09,247] [builder.py:631]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:00:09,247] [builder.py:632]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:00:09,248] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:00:09,248] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:00:09,248] [builder.py:632]            [DEBUG]    | Value: +C1_28 Days/Weeks Later                                                                     |
+[2022-10-11 11:00:09,256] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:00:09,257] [plex.py:793]               [DEBUG]    | Looking for: 28 Days/Weeks Later                                                                   |
+[2022-10-11 11:00:09,257] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 11:00:09,257] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:00:09,257] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:00:09,258] [plex_meta_manager.py:563]  [INFO]     |============================== Running 28 Days/Weeks Later Collection ==============================|
+[2022-10-11 11:00:09,258] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:00:09,258] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:00:09,258] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:00:09,258] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 1565                                                                     |
+[2022-10-11 11:00:09,259] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:00:09,265] [tmdb.py:382]               [INFO]     | Processing TMDb Collection: (1565) 28 … Plus Tard - Saga (3 Items)                                 |
+[2022-10-11 11:00:09,265] [builder.py:1540]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:00:09,265] [builder.py:1541]           [DEBUG]    | 3 IDs Found: [(170, 'tmdb'), (1562, 'tmdb'), (611430, 'tmdb')]                                     |
+[2022-10-11 11:00:09,265] [builder.py:1542]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:00:09,266] [builder.py:2228]           [INFO]     |                                                                                                    |
+[2022-10-11 11:00:09,266] [builder.py:2229]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-10-11 11:00:09,266] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-10-11 11:00:09,280] [builder.py:2243]           [INFO]     | 28 Days/Weeks Later Collection | ? | 28 Weeks Later (2007) (TMDb: 1562)                            |
+[2022-10-11 11:00:09,316] [builder.py:2243]           [INFO]     | 28 Days/Weeks Later Collection | ? | 28 Months Later (TMDb: 611430)                                |
+[2022-10-11 11:00:09,316] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-10-11 11:00:09,317] [builder.py:2249]           [INFO]     | 2 Movies Missing                                                                                   |
+[2022-10-11 11:00:09,329] [plex_meta_manager.py:624]  [INFO]     |                                                                                                    |
+[2022-10-11 11:00:09,329] [plex_meta_manager.py:625]  [INFO]     | Collection Minimum: 2 not met for 28 Days/Weeks Later Collection                                   |
+[2022-10-11 11:00:09,330] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:00:09,330] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:00:09,330] [plex_meta_manager.py:709]  [INFO]     |                              Finished 28 Days/Weeks Later Collection                               |
+[2022-10-11 11:00:09,330] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 11:00:09,330] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

@@ -1,0 +1,224 @@
+[2022-10-11 08:59:14,731] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 08:59:14,731] [builder.py:197]            [INFO]     |                                 History Collection in Z. 1 - Films                                 |
+[2022-10-11 08:59:14,731] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 08:59:14,731] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 08:59:14,732] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 08:59:14,732] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:59:14,732] [meta.py:128]               [DEBUG]    | Template Genre                                                                                     |
+[2022-10-11 08:59:14,732] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Genre')])                                                             |
+[2022-10-11 08:59:14,732] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:59:14,732] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Genre'), ('collection_name', 'History'), ('mapping_name', 'History'), ('library_type', 'movie'), ('library_name', 'Z. 1 - Films'), ('name_encoded', 'Genre'), ('collection_name_encoded', 'History'), ('mapping_name_encoded', 'History'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%201%20-%20Films'), ('collection_sort', 'History')]) |
+[2022-10-11 08:59:14,733] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:59:14,733] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 08:59:14,733] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:59:14,733] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 08:59:14,734] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:59:14,734] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+3_History', 'sync_mode': 'sync', 'smart_label': 'audience_rating.desc'} |
+[2022-10-11 08:59:14,734] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:59:14,734] [builder.py:219]            [INFO]     |================================== Validating History Attributes ===================================|
+[2022-10-11 08:59:14,734] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:59:14,734] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-11 08:59:14,734] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-11 08:59:14,735] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:59:14,735] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-11 08:59:14,735] [builder.py:544]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-10-11 08:59:14,752] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:59:14,752] [builder.py:631]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-10-11 08:59:14,752] [builder.py:632]            [DEBUG]    | Value: ordereddict([('genre', 'Histoire')])                                                        |
+[2022-10-11 08:59:14,835] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:59:14,835] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-11 08:59:14,835] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_HISTORY.png             |
+[2022-10-11 08:59:15,054] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:59:15,055] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-10-11 08:59:15,055] [builder.py:632]            [DEBUG]    | Value: History film is a genre that takes historical events and people and interprets them in a larger scale. Historical accuracy is not the main focus, but rather the telling of a grandiose story. The drama of an History film is often accentuated by a sweeping musical score, lavish costumes, and high production value. |
+[2022-10-11 08:59:15,055] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:59:15,056] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 08:59:15,056] [builder.py:632]            [DEBUG]    | Value: +3_History                                                                                  |
+[2022-10-11 08:59:16,236] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 08:59:16,236] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 08:59:16,237] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 08:59:16,237] [plex_meta_manager.py:563]  [INFO]     |==================================== Running History Collection ====================================|
+[2022-10-11 08:59:16,237] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-10-11 08:59:16,237] [plex_meta_manager.py:570]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: audience_rating.desc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is History
+[2022-10-11 08:59:16,238] [plex_meta_manager.py:575]  [INFO]     | 
+[2022-10-11 08:59:16,238] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync
+[2022-10-11 08:59:16,238] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 08:59:16,238] [plex_meta_manager.py:580]  [DEBUG]    | Builder: plex_search: (1, 'Plex Movie Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Genre is Histoire', '?type=1&sort=titleSort&push=1&genre=27938&pop=1')
+[2022-10-11 08:59:16,238] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 08:59:16,238] [plex.py:819]               [INFO]     | Processing Plex Movie Search
+                                                                 | Sort By: title.asc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Match any of the following:
+                                                                 |       Genre is Histoire
+[2022-10-11 08:59:16,793] [plex.py:864]               [DEBUG]    | 
+[2022-10-11 08:59:16,794] [plex.py:865]               [DEBUG]    | 144 Keys Found: [(40396, 'ratingKey'), (40497, 'ratingKey'), (40444, 'ratingKey'), (53015, 'ratingKey'), (40740, 'ratingKey'), (93924, 'ratingKey'), (40779, 'ratingKey'), (43893, 'ratingKey'), (40806, 'ratingKey'), (40934, 'ratingKey'), (40983, 'ratingKey'), (40999, 'ratingKey'), (45369, 'ratingKey'), (41029, 'ratingKey'), (41060, 'ratingKey'), (41116, 'ratingKey'), (41289, 'ratingKey'), (41294, 'ratingKey'), (41322, 'ratingKey'), (91639, 'ratingKey'), (93956, 'ratingKey'), (41447, 'ratingKey'), (41456, 'ratingKey'), (84754, 'ratingKey'), (41655, 'ratingKey'), (41611, 'ratingKey'), (82915, 'ratingKey'), (41654, 'ratingKey'), (41685, 'ratingKey'), (41691, 'ratingKey'), (84759, 'ratingKey'), (45518, 'ratingKey'), (94772, 'ratingKey'), (41944, 'ratingKey'), (82174, 'ratingKey'), (45178, 'ratingKey'), (41962, 'ratingKey'), (41979, 'ratingKey'), (94186, 'ratingKey'), (42043, 'ratingKey'), (94349, 'ratingKey'), (42179, 'ratingKey'), (82158, 'ratingKey'), (42339, 'ratingKey'), (42375, 'ratingKey'), (94340, 'ratingKey'), (42406, 'ratingKey'), (45616, 'ratingKey'), (45619, 'ratingKey'), (42502, 'ratingKey'), (42512, 'ratingKey'), (42520, 'ratingKey'), (42521, 'ratingKey'), (42531, 'ratingKey'), (94670, 'ratingKey'), (87481, 'ratingKey'), (42532, 'ratingKey'), (42659, 'ratingKey'), (42744, 'ratingKey'), (93615, 'ratingKey'), (45627, 'ratingKey'), (42811, 'ratingKey'), (93907, 'ratingKey'), (47023, 'ratingKey'), (94838, 'ratingKey'), (43858, 'ratingKey'), (43091, 'ratingKey'), (46054, 'ratingKey'), (43092, 'ratingKey'), (43122, 'ratingKey'), (43254, 'ratingKey'), (43205, 'ratingKey'), (43125, 'ratingKey'), (94820, 'ratingKey'), (43147, 'ratingKey'), (94829, 'ratingKey'), (43312, 'ratingKey'), (94384, 'ratingKey'), (43316, 'ratingKey'), (43162, 'ratingKey'), (94660, 'ratingKey'), (42247, 'ratingKey'), (41453, 'ratingKey'), (43394, 'ratingKey'), (46251, 'ratingKey'), (43429, 'ratingKey'), (43439, 'ratingKey'), (42931, 'ratingKey'), (46250, 'ratingKey'), (94573, 'ratingKey'), (43608, 'ratingKey'), (94182, 'ratingKey'), (92867, 'ratingKey'), (42791, 'ratingKey'), (94878, 'ratingKey'), (94725, 'ratingKey'), (45813, 'ratingKey'), (43844, 'ratingKey'), (43892, 'ratingKey'), (45105, 'ratingKey'), (45370, 'ratingKey'), (82958, 'ratingKey'), (44104, 'ratingKey'), (44143, 'ratingKey'), (82394, 'ratingKey'), (94887, 'ratingKey'), (44186, 'ratingKey'), (44188, 'ratingKey'), (44202, 'ratingKey'), (46208, 'ratingKey'), (44289, 'ratingKey'), (44385, 'ratingKey'), (44760, 'ratingKey'), (42381, 'ratingKey'), (44400, 'ratingKey'), (44401, 'ratingKey'), (44448, 'ratingKey'), (87490, 'ratingKey'), (44505, 'ratingKey'), (45681, 'ratingKey'), (44586, 'ratingKey'), (40643, 'ratingKey'), (82863, 'ratingKey'), (92259, 'ratingKey'), (44708, 'ratingKey'), (44806, 'ratingKey'), (94937, 'ratingKey'), (44837, 'ratingKey'), (44879, 'ratingKey'), (44952, 'ratingKey'), (44994, 'ratingKey'), (45075, 'ratingKey'), (41032, 'ratingKey'), (45127, 'ratingKey'), (46368, 'ratingKey'), (45180, 'ratingKey'), (41209, 'ratingKey'), (46498, 'ratingKey'), (45487, 'ratingKey'), (46557, 'ratingKey'), (94756, 'ratingKey'), (46551, 'ratingKey'), (45930, 'ratingKey'), (92138, 'ratingKey')]
+[2022-10-11 08:59:16,795] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 08:59:16,796] [builder.py:1541]           [DEBUG]    | 144 IDs Found: [(40396, 'ratingKey'), (40497, 'ratingKey'), (40444, 'ratingKey'), (53015, 'ratingKey'), (40740, 'ratingKey'), (93924, 'ratingKey'), (40779, 'ratingKey'), (43893, 'ratingKey'), (40806, 'ratingKey'), (40934, 'ratingKey'), (40983, 'ratingKey'), (40999, 'ratingKey'), (45369, 'ratingKey'), (41029, 'ratingKey'), (41060, 'ratingKey'), (41116, 'ratingKey'), (41289, 'ratingKey'), (41294, 'ratingKey'), (41322, 'ratingKey'), (91639, 'ratingKey'), (93956, 'ratingKey'), (41447, 'ratingKey'), (41456, 'ratingKey'), (84754, 'ratingKey'), (41655, 'ratingKey'), (41611, 'ratingKey'), (82915, 'ratingKey'), (41654, 'ratingKey'), (41685, 'ratingKey'), (41691, 'ratingKey'), (84759, 'ratingKey'), (45518, 'ratingKey'), (94772, 'ratingKey'), (41944, 'ratingKey'), (82174, 'ratingKey'), (45178, 'ratingKey'), (41962, 'ratingKey'), (41979, 'ratingKey'), (94186, 'ratingKey'), (42043, 'ratingKey'), (94349, 'ratingKey'), (42179, 'ratingKey'), (82158, 'ratingKey'), (42339, 'ratingKey'), (42375, 'ratingKey'), (94340, 'ratingKey'), (42406, 'ratingKey'), (45616, 'ratingKey'), (45619, 'ratingKey'), (42502, 'ratingKey'), (42512, 'ratingKey'), (42520, 'ratingKey'), (42521, 'ratingKey'), (42531, 'ratingKey'), (94670, 'ratingKey'), (87481, 'ratingKey'), (42532, 'ratingKey'), (42659, 'ratingKey'), (42744, 'ratingKey'), (93615, 'ratingKey'), (45627, 'ratingKey'), (42811, 'ratingKey'), (93907, 'ratingKey'), (47023, 'ratingKey'), (94838, 'ratingKey'), (43858, 'ratingKey'), (43091, 'ratingKey'), (46054, 'ratingKey'), (43092, 'ratingKey'), (43122, 'ratingKey'), (43254, 'ratingKey'), (43205, 'ratingKey'), (43125, 'ratingKey'), (94820, 'ratingKey'), (43147, 'ratingKey'), (94829, 'ratingKey'), (43312, 'ratingKey'), (94384, 'ratingKey'), (43316, 'ratingKey'), (43162, 'ratingKey'), (94660, 'ratingKey'), (42247, 'ratingKey'), (41453, 'ratingKey'), (43394, 'ratingKey'), (46251, 'ratingKey'), (43429, 'ratingKey'), (43439, 'ratingKey'), (42931, 'ratingKey'), (46250, 'ratingKey'), (94573, 'ratingKey'), (43608, 'ratingKey'), (94182, 'ratingKey'), (92867, 'ratingKey'), (42791, 'ratingKey'), (94878, 'ratingKey'), (94725, 'ratingKey'), (45813, 'ratingKey'), (43844, 'ratingKey'), (43892, 'ratingKey'), (45105, 'ratingKey'), (45370, 'ratingKey'), (82958, 'ratingKey'), (44104, 'ratingKey'), (44143, 'ratingKey'), (82394, 'ratingKey'), (94887, 'ratingKey'), (44186, 'ratingKey'), (44188, 'ratingKey'), (44202, 'ratingKey'), (46208, 'ratingKey'), (44289, 'ratingKey'), (44385, 'ratingKey'), (44760, 'ratingKey'), (42381, 'ratingKey'), (44400, 'ratingKey'), (44401, 'ratingKey'), (44448, 'ratingKey'), (87490, 'ratingKey'), (44505, 'ratingKey'), (45681, 'ratingKey'), (44586, 'ratingKey'), (40643, 'ratingKey'), (82863, 'ratingKey'), (92259, 'ratingKey'), (44708, 'ratingKey'), (44806, 'ratingKey'), (94937, 'ratingKey'), (44837, 'ratingKey'), (44879, 'ratingKey'), (44952, 'ratingKey'), (44994, 'ratingKey'), (45075, 'ratingKey'), (41032, 'ratingKey'), (45127, 'ratingKey'), (46368, 'ratingKey'), (45180, 'ratingKey'), (41209, 'ratingKey'), (46498, 'ratingKey'), (45487, 'ratingKey'), (46557, 'ratingKey'), (94756, 'ratingKey'), (46551, 'ratingKey'), (45930, 'ratingKey'), (92138, 'ratingKey')]
+[2022-10-11 08:59:16,796] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 08:59:16,832] [builder.py:2064]           [INFO]     | 
+[2022-10-11 08:59:16,832] [builder.py:2065]           [INFO]     |=================================== Adding to History Collection ===================================|
+[2022-10-11 08:59:16,832] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-11 08:59:17,558] [builder.py:2080]           [INFO]     |   1/144 | History Collection | = | 12 Years a Slave (2013)                                         |
+[2022-10-11 08:59:17,558] [builder.py:2080]           [INFO]     |   2/144 | History Collection | = | 300 (2007)                                                      |
+[2022-10-11 08:59:17,558] [builder.py:2080]           [INFO]     |   3/144 | History Collection | = | 1917 (2020)                                                     |
+[2022-10-11 08:59:17,559] [builder.py:2080]           [INFO]     |   4/144 | History Collection | = | Adieu Monsieur Haffmann (2022)                                  |
+[2022-10-11 08:59:17,559] [builder.py:2080]           [INFO]     |   5/144 | History Collection | = | Amadeus (1984)                                                  |
+[2022-10-11 08:59:17,559] [builder.py:2080]           [INFO]     |   6/144 | History Collection | = | Ammonite (2020)                                                 |
+[2022-10-11 08:59:17,559] [builder.py:2080]           [INFO]     |   7/144 | History Collection | = | Anarchist from Colony (2017)                                    |
+[2022-10-11 08:59:17,560] [builder.py:2080]           [INFO]     |   8/144 | History Collection | = | Anne Frank, ma meilleure amie (2021)                            |
+[2022-10-11 08:59:17,560] [builder.py:2080]           [INFO]     |   9/144 | History Collection | = | Apollo 11 (2019)                                                |
+[2022-10-11 08:59:17,560] [builder.py:2080]           [INFO]     |  10/144 | History Collection | = | Bad Education (2020)                                            |
+[2022-10-11 08:59:17,560] [builder.py:2080]           [INFO]     |  11/144 | History Collection | = | Being the Ricardos (2021)                                       |
+[2022-10-11 08:59:17,560] [builder.py:2080]           [INFO]     |  12/144 | History Collection | = | Ben-Hur (1959)                                                  |
+[2022-10-11 08:59:17,561] [builder.py:2080]           [INFO]     |  13/144 | History Collection | = | The Big Short : Le Casse du Siècle (2015)                       |
+[2022-10-11 08:59:17,561] [builder.py:2080]           [INFO]     |  14/144 | History Collection | = | BlacKkKlansman : J'ai infiltré le Ku Klux Klan (2018)           |
+[2022-10-11 08:59:17,561] [builder.py:2080]           [INFO]     |  15/144 | History Collection | = | Bohemian Rhapsody (2018)                                        |
+[2022-10-11 08:59:17,561] [builder.py:2080]           [INFO]     |  16/144 | History Collection | = | Braveheart (1995)                                               |
+[2022-10-11 08:59:17,562] [builder.py:2080]           [INFO]     |  17/144 | History Collection | = | Chernobyl : Under Fire (2021)                                   |
+[2022-10-11 08:59:17,562] [builder.py:2080]           [INFO]     |  18/144 | History Collection | = | Citizenfour (2014)                                              |
+[2022-10-11 08:59:17,562] [builder.py:2080]           [INFO]     |  19/144 | History Collection | = | Coco avant Chanel (2009)                                        |
+[2022-10-11 08:59:17,563] [builder.py:2080]           [INFO]     |  20/144 | History Collection | = | Coeurs vaillants (2022)                                         |
+[2022-10-11 08:59:17,563] [builder.py:2080]           [INFO]     |  21/144 | History Collection | = | Colette (2018)                                                  |
+[2022-10-11 08:59:17,563] [builder.py:2080]           [INFO]     |  22/144 | History Collection | = | Dark Waters (2019)                                              |
+[2022-10-11 08:59:17,564] [builder.py:2080]           [INFO]     |  23/144 | History Collection | = | De Gaulle (2020)                                                |
+[2022-10-11 08:59:17,564] [builder.py:2080]           [INFO]     |  24/144 | History Collection | = | De nos frères blessés (2021)                                    |
+[2022-10-11 08:59:17,564] [builder.py:2080]           [INFO]     |  25/144 | History Collection | = | Délicieux (2021)                                                |
+[2022-10-11 08:59:17,565] [builder.py:2080]           [INFO]     |  26/144 | History Collection | = | Downton Abbey (2019)                                            |
+[2022-10-11 08:59:17,565] [builder.py:2080]           [INFO]     |  27/144 | History Collection | = | Downton Abbey II : Une nouvelle ère (2022)                      |
+[2022-10-11 08:59:17,565] [builder.py:2080]           [INFO]     |  28/144 | History Collection | = | Dunkerque (2017)                                                |
+[2022-10-11 08:59:17,566] [builder.py:2080]           [INFO]     |  29/144 | History Collection | = | Edge of the World (2021)                                        |
+[2022-10-11 08:59:17,566] [builder.py:2080]           [INFO]     |  30/144 | History Collection | = | Eiffel (2021)                                                   |
+[2022-10-11 08:59:17,566] [builder.py:2080]           [INFO]     |  31/144 | History Collection | = | Elvis (2022)                                                    |
+[2022-10-11 08:59:17,567] [builder.py:2080]           [INFO]     |  32/144 | History Collection | = | La Favorite (2018)                                              |
+[2022-10-11 08:59:17,567] [builder.py:2080]           [INFO]     |  33/144 | History Collection | = | La Folie des Grandeurs (1971)                                   |
+[2022-10-11 08:59:17,568] [builder.py:2080]           [INFO]     |  34/144 | History Collection | = | Foxcatcher (2014)                                               |
+[2022-10-11 08:59:17,568] [builder.py:2080]           [INFO]     |  35/144 | History Collection | = | Freaks Out (2021)                                               |
+[2022-10-11 08:59:17,569] [builder.py:2080]           [INFO]     |  36/144 | History Collection | = | The French Dispatch (2021)                                      |
+[2022-10-11 08:59:17,569] [builder.py:2080]           [INFO]     |  37/144 | History Collection | = | Frères de sang (2004)                                           |
+[2022-10-11 08:59:17,570] [builder.py:2080]           [INFO]     |  38/144 | History Collection | = | Gandhi (1982)                                                   |
+[2022-10-11 08:59:17,570] [builder.py:2080]           [INFO]     |  39/144 | History Collection | = | Gentlemen Cambrioleurs (2018)                                   |
+[2022-10-11 08:59:17,570] [builder.py:2080]           [INFO]     |  40/144 | History Collection | = | Gladiator (2000)                                                |
+[2022-10-11 08:59:17,571] [builder.py:2080]           [INFO]     |  41/144 | History Collection | = | Hamilton (2020)                                                 |
+[2022-10-11 08:59:17,571] [builder.py:2080]           [INFO]     |  42/144 | History Collection | = | Harvey Milk (2008)                                              |
+[2022-10-11 08:59:17,572] [builder.py:2080]           [INFO]     |  43/144 | History Collection | = | Heroes : La bataille du lac Changjin (2021)                     |
+[2022-10-11 08:59:17,572] [builder.py:2080]           [INFO]     |  44/144 | History Collection | = | Hôtel Rwanda (2005)                                             |
+[2022-10-11 08:59:17,573] [builder.py:2080]           [INFO]     |  45/144 | History Collection | = | House of Gucci (2021)                                           |
+[2022-10-11 08:59:17,573] [builder.py:2080]           [INFO]     |  46/144 | History Collection | = | Il faut sauver le soldat Ryan (1998)                            |
+[2022-10-11 08:59:17,574] [builder.py:2080]           [INFO]     |  47/144 | History Collection | = | Illusions perdues (2021)                                        |
+[2022-10-11 08:59:17,574] [builder.py:2080]           [INFO]     |  48/144 | History Collection | = | Imitation Game (2014)                                           |
+[2022-10-11 08:59:17,575] [builder.py:2080]           [INFO]     |  49/144 | History Collection | = | The Impossible (2012)                                           |
+[2022-10-11 08:59:17,575] [builder.py:2080]           [INFO]     |  50/144 | History Collection | = | Ip Man (2008)                                                   |
+[2022-10-11 08:59:17,576] [builder.py:2080]           [INFO]     |  51/144 | History Collection | = | Ip Man 2 (2010)                                                 |
+[2022-10-11 08:59:17,576] [builder.py:2080]           [INFO]     |  52/144 | History Collection | = | Ip Man 3 (2015)                                                 |
+[2022-10-11 08:59:17,577] [builder.py:2080]           [INFO]     |  53/144 | History Collection | = | Ip Man 4 : Le Dernier Combat (2019)                             |
+[2022-10-11 08:59:17,577] [builder.py:2080]           [INFO]     |  54/144 | History Collection | = | J. Edgar (2011)                                                 |
+[2022-10-11 08:59:17,578] [builder.py:2080]           [INFO]     |  55/144 | History Collection | = | J'accuse (1919)                                                 |
+[2022-10-11 08:59:17,578] [builder.py:2080]           [INFO]     |  56/144 | History Collection | = | Jakob le menteur (1999)                                         |
+[2022-10-11 08:59:17,579] [builder.py:2080]           [INFO]     |  57/144 | History Collection | = | JFK (1991)                                                      |
+[2022-10-11 08:59:17,579] [builder.py:2080]           [INFO]     |  58/144 | History Collection | = | Judas and the Black Messiah (2021)                              |
+[2022-10-11 08:59:17,580] [builder.py:2080]           [INFO]     |  59/144 | History Collection | = | Kenshin : Le Commencement (2021)                                |
+[2022-10-11 08:59:17,581] [builder.py:2080]           [INFO]     |  60/144 | History Collection | = | Kenshin : le vagabond (2012)                                    |
+[2022-10-11 08:59:17,581] [builder.py:2080]           [INFO]     |  61/144 | History Collection | = | The King’s Man : Première Mission (2021)                        |
+[2022-10-11 08:59:17,582] [builder.py:2080]           [INFO]     |  62/144 | History Collection | = | Kursk (2018)                                                    |
+[2022-10-11 08:59:17,582] [builder.py:2080]           [INFO]     |  63/144 | History Collection | = | L'échange (2008)                                                |
+[2022-10-11 08:59:17,583] [builder.py:2080]           [INFO]     |  64/144 | History Collection | = | L'étau de Munich (2022)                                         |
+[2022-10-11 08:59:17,584] [builder.py:2080]           [INFO]     |  65/144 | History Collection | = | L'Homme qui voulut être roi (1975)                              |
+[2022-10-11 08:59:17,584] [builder.py:2080]           [INFO]     |  66/144 | History Collection | = | L'Ombre de Staline (2019)                                       |
+[2022-10-11 08:59:17,585] [builder.py:2080]           [INFO]     |  67/144 | History Collection | = | Lansky (2021)                                                   |
+[2022-10-11 08:59:17,586] [builder.py:2080]           [INFO]     |  68/144 | History Collection | = | The Last Son (2021)                                             |
+[2022-10-11 08:59:17,586] [builder.py:2080]           [INFO]     |  69/144 | History Collection | = | Lawrence d’Arabie (1962)                                        |
+[2022-10-11 08:59:17,587] [builder.py:2080]           [INFO]     |  70/144 | History Collection | = | Le Dernier Duel (2021)                                          |
+[2022-10-11 08:59:17,588] [builder.py:2080]           [INFO]     |  71/144 | History Collection | = | Le Dernier Empereur (1987)                                      |
+[2022-10-11 08:59:17,588] [builder.py:2080]           [INFO]     |  72/144 | History Collection | = | Le Dernier Roi d'Écosse (2007)                                  |
+[2022-10-11 08:59:17,589] [builder.py:2080]           [INFO]     |  73/144 | History Collection | = | Le Discours d'un Roi (2010)                                     |
+[2022-10-11 08:59:17,590] [builder.py:2080]           [INFO]     |  74/144 | History Collection | = | Le Guépard (1963)                                               |
+[2022-10-11 08:59:17,590] [builder.py:2080]           [INFO]     |  75/144 | History Collection | = | Le Mans 66 (2019)                                               |
+[2022-10-11 08:59:17,591] [builder.py:2080]           [INFO]     |  76/144 | History Collection | = | Le Nom de la rose (1986)                                        |
+[2022-10-11 08:59:17,592] [builder.py:2080]           [INFO]     |  77/144 | History Collection | = | Le pacte des loups (2001)                                       |
+[2022-10-11 08:59:17,593] [builder.py:2080]           [INFO]     |  78/144 | History Collection | = | Le Pianiste (2002)                                              |
+[2022-10-11 08:59:17,593] [builder.py:2080]           [INFO]     |  79/144 | History Collection | = | Le Pont de la rivière Kwaï (1957)                               |
+[2022-10-11 08:59:17,594] [builder.py:2080]           [INFO]     |  80/144 | History Collection | = | Le pont des espions (2015)                                      |
+[2022-10-11 08:59:17,595] [builder.py:2080]           [INFO]     |  81/144 | History Collection | = | Le retour du héros (2018)                                       |
+[2022-10-11 08:59:17,596] [builder.py:2080]           [INFO]     |  82/144 | History Collection | = | Les Figures de l'ombre (2017)                                   |
+[2022-10-11 08:59:17,596] [builder.py:2080]           [INFO]     |  83/144 | History Collection | = | Les heures sombres (2017)                                       |
+[2022-10-11 08:59:17,597] [builder.py:2080]           [INFO]     |  84/144 | History Collection | = | Les Incorruptibles (1987)                                       |
+[2022-10-11 08:59:17,598] [builder.py:2080]           [INFO]     |  85/144 | History Collection | = | Les Sept de Chicago (2020)                                      |
+[2022-10-11 08:59:17,598] [builder.py:2080]           [INFO]     |  86/144 | History Collection | = | Lettres d'Iwo Jima (2006)                                       |
+[2022-10-11 08:59:17,599] [builder.py:2080]           [INFO]     |  87/144 | History Collection | = | Lincoln (2012)                                                  |
+[2022-10-11 08:59:17,600] [builder.py:2080]           [INFO]     |  88/144 | History Collection | = | La Liste de Schindler (1993)                                    |
+[2022-10-11 08:59:17,601] [builder.py:2080]           [INFO]     |  89/144 | History Collection | = | Macbeth (2021)                                                  |
+[2022-10-11 08:59:17,601] [builder.py:2080]           [INFO]     |  90/144 | History Collection | = | Man on the Moon (1999)                                          |
+[2022-10-11 08:59:17,602] [builder.py:2080]           [INFO]     |  91/144 | History Collection | = | Mank (2020)                                                     |
+[2022-10-11 08:59:17,603] [builder.py:2080]           [INFO]     |  92/144 | History Collection | = | Mapplethorpe (2019)                                             |
+[2022-10-11 08:59:17,604] [builder.py:2080]           [INFO]     |  93/144 | History Collection | = | Mémoires de nos pères (2006)                                    |
+[2022-10-11 08:59:17,605] [builder.py:2080]           [INFO]     |  94/144 | History Collection | = | La Méthode Williams (2021)                                      |
+[2022-10-11 08:59:17,605] [builder.py:2080]           [INFO]     |  95/144 | History Collection | = | Mission (1986)                                                  |
+[2022-10-11 08:59:17,606] [builder.py:2080]           [INFO]     |  96/144 | History Collection | = | Monuments Men (2014)                                            |
+[2022-10-11 08:59:17,607] [builder.py:2080]           [INFO]     |  97/144 | History Collection | = | La Mort de Staline (2017)                                       |
+[2022-10-11 08:59:17,608] [builder.py:2080]           [INFO]     |  98/144 | History Collection | = | Mr. Turner (2014)                                               |
+[2022-10-11 08:59:17,609] [builder.py:2080]           [INFO]     |  99/144 | History Collection | = | Munich (2006)                                                   |
+[2022-10-11 08:59:17,610] [builder.py:2080]           [INFO]     | 100/144 | History Collection | = | N.W.A : Straight Outta Compton (2015)                           |
+[2022-10-11 08:59:17,610] [builder.py:2080]           [INFO]     | 101/144 | History Collection | = | Naissance d'une nation (2016)                                   |
+[2022-10-11 08:59:17,611] [builder.py:2080]           [INFO]     | 102/144 | History Collection | = | The Northman (2022)                                             |
+[2022-10-11 08:59:17,612] [builder.py:2080]           [INFO]     | 103/144 | History Collection | = | Onoda, 10 000 nuits dans la jungle (2021)                       |
+[2022-10-11 08:59:17,613] [builder.py:2080]           [INFO]     | 104/144 | History Collection | = | Out of Africa : Souvenirs d'Afrique (1985)                      |
+[2022-10-11 08:59:17,614] [builder.py:2080]           [INFO]     | 105/144 | History Collection | = | Pasolini (2014)                                                 |
+[2022-10-11 08:59:17,615] [builder.py:2080]           [INFO]     | 106/144 | History Collection | = | The Patriot : Le Chemin de la Liberté (2000)                    |
+[2022-10-11 08:59:17,615] [builder.py:2080]           [INFO]     | 107/144 | History Collection | = | Patton (1970)                                                   |
+[2022-10-11 08:59:17,616] [builder.py:2080]           [INFO]     | 108/144 | History Collection | = | Pearl Harbor (2001)                                             |
+[2022-10-11 08:59:17,617] [builder.py:2080]           [INFO]     | 109/144 | History Collection | = | Pentagon Papers (2018)                                          |
+[2022-10-11 08:59:17,618] [builder.py:2080]           [INFO]     | 110/144 | History Collection | = | The Pirates : À nous le trésor royal ! (2022)                   |
+[2022-10-11 08:59:17,619] [builder.py:2080]           [INFO]     | 111/144 | History Collection | = | Portrait de la jeune fille en feu (2019)                        |
+[2022-10-11 08:59:17,620] [builder.py:2080]           [INFO]     | 112/144 | History Collection | = | Public Enemies (2009)                                           |
+[2022-10-11 08:59:17,621] [builder.py:2080]           [INFO]     | 113/144 | History Collection | = | Pur Sang, la légende de Seabiscuit (2003)                       |
+[2022-10-11 08:59:17,622] [builder.py:2080]           [INFO]     | 114/144 | History Collection | = | Qu'elle était verte ma vallée (1942)                            |
+[2022-10-11 08:59:17,623] [builder.py:2080]           [INFO]     | 115/144 | History Collection | = | Radioactive (2020)                                              |
+[2022-10-11 08:59:17,624] [builder.py:2080]           [INFO]     | 116/144 | History Collection | = | Raging Bull (1980)                                              |
+[2022-10-11 08:59:17,625] [builder.py:2080]           [INFO]     | 117/144 | History Collection | = | Red Ghost (2021)                                                |
+[2022-10-11 08:59:17,626] [builder.py:2080]           [INFO]     | 118/144 | History Collection | = | La Reine Margot (1994)                                          |
+[2022-10-11 08:59:17,627] [builder.py:2080]           [INFO]     | 119/144 | History Collection | = | Respect (2021)                                                  |
+[2022-10-11 08:59:17,628] [builder.py:2080]           [INFO]     | 120/144 | History Collection | = | The Revenant (2016)                                             |
+[2022-10-11 08:59:17,629] [builder.py:2080]           [INFO]     | 121/144 | History Collection | = | Rocketman (2019)                                                |
+[2022-10-11 08:59:17,630] [builder.py:2080]           [INFO]     | 122/144 | History Collection | = | Royal Affair (2012)                                             |
+[2022-10-11 08:59:17,631] [builder.py:2080]           [INFO]     | 123/144 | History Collection | = | La Ruse (2022)                                                  |
+[2022-10-11 08:59:17,632] [builder.py:2080]           [INFO]     | 124/144 | History Collection | = | Sacco et Vanzetti (1971)                                        |
+[2022-10-11 08:59:17,633] [builder.py:2080]           [INFO]     | 125/144 | History Collection | = | Salyut-7 (2017)                                                 |
+[2022-10-11 08:59:17,634] [builder.py:2080]           [INFO]     | 126/144 | History Collection | = | Selma (2015)                                                    |
+[2022-10-11 08:59:17,635] [builder.py:2080]           [INFO]     | 127/144 | History Collection | = | Sept ans au Tibet (1997)                                        |
+[2022-10-11 08:59:17,636] [builder.py:2080]           [INFO]     | 128/144 | History Collection | = | Shakespeare In Love (1998)                                      |
+[2022-10-11 08:59:17,637] [builder.py:2080]           [INFO]     | 129/144 | History Collection | = | Silence (2017)                                                  |
+[2022-10-11 08:59:17,638] [builder.py:2080]           [INFO]     | 130/144 | History Collection | = | Spencer (2021)                                                  |
+[2022-10-11 08:59:17,639] [builder.py:2080]           [INFO]     | 131/144 | History Collection | = | Spotlight (2015)                                                |
+[2022-10-11 08:59:17,640] [builder.py:2080]           [INFO]     | 132/144 | History Collection | = | Steve Jobs (2015)                                               |
+[2022-10-11 08:59:17,641] [builder.py:2080]           [INFO]     | 133/144 | History Collection | = | Strictly Criminal (2015)                                        |
+[2022-10-11 08:59:17,642] [builder.py:2080]           [INFO]     | 134/144 | History Collection | = | Sully (2016)                                                    |
+[2022-10-11 08:59:17,643] [builder.py:2080]           [INFO]     | 135/144 | History Collection | = | Tom Jones : Entre l'alcôve et la potence (1963)                 |
+[2022-10-11 08:59:17,644] [builder.py:2080]           [INFO]     | 136/144 | History Collection | = | Troie (2004)                                                    |
+[2022-10-11 08:59:17,645] [builder.py:2080]           [INFO]     | 137/144 | History Collection | = | Truman Capote (2006)                                            |
+[2022-10-11 08:59:17,646] [builder.py:2080]           [INFO]     | 138/144 | History Collection | = | Tu ne tueras point (2016)                                       |
+[2022-10-11 08:59:17,647] [builder.py:2080]           [INFO]     | 139/144 | History Collection | = | Un espion ordinaire (2020)                                      |
+[2022-10-11 08:59:17,648] [builder.py:2080]           [INFO]     | 140/144 | History Collection | = | Un Homme pour l'éternité (1966)                                 |
+[2022-10-11 08:59:17,649] [builder.py:2080]           [INFO]     | 141/144 | History Collection | = | Un taxi pour Tobrouk (1961)                                     |
+[2022-10-11 08:59:17,650] [builder.py:2080]           [INFO]     | 142/144 | History Collection | = | USS Greyhound : La Bataille de l'Atlantique (2020)              |
+[2022-10-11 08:59:17,651] [builder.py:2080]           [INFO]     | 143/144 | History Collection | = | La vie extraordinaire de Louis Wain (2021)                      |
+[2022-10-11 08:59:17,652] [builder.py:2080]           [INFO]     | 144/144 | History Collection | = | You Won't Be Alone (2022)                                       |
+[2022-10-11 08:59:17,653] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-11 08:59:17,653] [builder.py:2102]           [INFO]     | 144 Movies Processed 0 Movies Added                                                                |
+[2022-10-11 08:59:17,680] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-11 08:59:17,680] [builder.py:2442]           [INFO]     |============================== Updating Details of History Collection ==============================|
+[2022-10-11 08:59:17,680] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-11 08:59:17,690] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-10-11 08:59:17,691] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'History'                                              |
+[2022-10-11 08:59:17,691] [util.py:150]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-10-11 08:59:17,691] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_HISTORY.png |
+[2022-10-11 08:59:17,723] [library.py:170]            [INFO]     | Detail: url_poster updated poster to [URL] https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_HISTORY.png |
+[2022-10-11 08:59:18,284] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 08:59:18,285] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 08:59:18,285] [plex_meta_manager.py:709]  [INFO]     |                                    Finished History Collection                                     |
+[2022-10-11 08:59:18,285] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:03                                    |
+[2022-10-11 08:59:18,285] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

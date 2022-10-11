@@ -1,0 +1,76 @@
+[2022-10-11 11:02:01,067] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 11:02:01,068] [builder.py:197]            [INFO]     |                               Terminator Collection in Z. 1 - Films                                |
+[2022-10-11 11:02:01,068] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 11:02:01,068] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 11:02:01,068] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:02:01,068] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:02:01,068] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:02:01,069] [meta.py:129]               [DEBUG]    | Call: {'value': ['528'], 'tmdb_collection': ['528'], 'key_name': 'Terminator', 'key': '528', 'name': 'my_template'} |
+[2022-10-11 11:02:01,069] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:02:01,069] [meta.py:305]               [DEBUG]    | Variables: {'value': ['528'], 'tmdb_collection': ['528'], 'key_name': 'Terminator', 'key': '528', 'name': 'my_template', 'collection_name': 'Terminator', 'mapping_name': 'Terminator', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%27528%27%5D', 'tmdb_collection_encoded': '%5B%27528%27%5D', 'key_name_encoded': 'Terminator', 'key_encoded': '528', 'name_encoded': 'my_template', 'collection_name_encoded': 'Terminator', 'mapping_name_encoded': 'Terminator', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Terminator'} |
+[2022-10-11 11:02:01,069] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:02:01,069] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:02:01,069] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:02:01,069] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:02:01,070] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:02:01,070] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['528'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_Terminator'} |
+[2022-10-11 11:02:01,071] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:02:01,071] [builder.py:219]            [INFO]     |================================= Validating Terminator Attributes =================================|
+[2022-10-11 11:02:01,071] [builder.py:609]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:02:01,071] [builder.py:610]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:02:01,071] [builder.py:611]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:02:01,071] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:02:01,072] [builder.py:631]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:02:01,072] [builder.py:632]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:02:01,072] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:02:01,072] [builder.py:631]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:02:01,072] [builder.py:632]            [DEBUG]    | Value: ['528']                                                                                     |
+[2022-10-11 11:02:01,091] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:02:01,091] [builder.py:631]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:02:01,091] [builder.py:632]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:02:01,091] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:02:01,092] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:02:01,092] [builder.py:632]            [DEBUG]    | Value: +C1_Terminator                                                                              |
+[2022-10-11 11:02:01,329] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 11:02:01,330] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:02:01,330] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:02:01,330] [plex_meta_manager.py:563]  [INFO]     |================================== Running Terminator Collection ===================================|
+[2022-10-11 11:02:01,330] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:02:01,330] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:02:01,330] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:02:01,331] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 528                                                                      |
+[2022-10-11 11:02:01,331] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:02:01,336] [tmdb.py:382]               [INFO]     | Processing TMDb Collection: (528) Terminator - Saga (6 Items)                                      |
+[2022-10-11 11:02:01,336] [builder.py:1540]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:02:01,336] [builder.py:1541]           [DEBUG]    | 6 IDs Found: [(218, 'tmdb'), (280, 'tmdb'), (296, 'tmdb'), (534, 'tmdb'), (87101, 'tmdb'), (290859, 'tmdb')] |
+[2022-10-11 11:02:01,337] [builder.py:1542]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:02:01,337] [builder.py:2064]           [INFO]     |                                                                                                    |
+[2022-10-11 11:02:01,337] [builder.py:2065]           [INFO]     |================================= Adding to Terminator Collection ==================================|
+[2022-10-11 11:02:01,337] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-11 11:02:01,337] [builder.py:2080]           [INFO]     | 1/6 | Terminator Collection | = | Terminator (1984)                                                |
+[2022-10-11 11:02:01,338] [builder.py:2080]           [INFO]     | 2/6 | Terminator Collection | = | Terminator 2 : Le Jugement dernier (1991)                        |
+[2022-10-11 11:02:01,338] [builder.py:2080]           [INFO]     | 3/6 | Terminator Collection | = | Terminator 3 : Le Soulèvement des machines (2003)                |
+[2022-10-11 11:02:01,338] [builder.py:2080]           [INFO]     | 4/6 | Terminator Collection | = | Terminator Renaissance (2009)                                    |
+[2022-10-11 11:02:01,338] [builder.py:2080]           [INFO]     | 5/6 | Terminator Collection | = | Terminator Genisys (2015)                                        |
+[2022-10-11 11:02:01,338] [builder.py:2080]           [INFO]     | 6/6 | Terminator Collection | = | Terminator : Dark Fate (2019)                                    |
+[2022-10-11 11:02:01,339] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-11 11:02:01,339] [builder.py:2102]           [INFO]     | 6 Movies Processed 0 Movies Added                                                                  |
+[2022-10-11 11:02:01,346] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-11 11:02:01,346] [builder.py:2442]           [INFO]     |============================ Updating Details of Terminator Collection =============================|
+[2022-10-11 11:02:01,346] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-11 11:02:01,355] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Sort Title | +C1_Terminator
+[2022-10-11 11:02:01,538] [builder.py:2513]           [INFO]     | Details: have been updated
+[2022-10-11 11:02:01,538] [builder.py:2517]           [INFO]     | 
+[2022-10-11 11:02:01,539] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Terminator'
+[2022-10-11 11:02:01,539] [util.py:150]               [DEBUG]    | 1 poster found:
+[2022-10-11 11:02:01,539] [util.py:152]               [DEBUG]    | Method: tmdb_collection_details Poster: https://image.tmdb.org/t/p/original/kpZxdNsAV7qTdTLwKM5NLqa7GEo.jpg
+[2022-10-11 11:02:01,539] [util.py:150]               [DEBUG]    | 1 background found:
+[2022-10-11 11:02:01,540] [util.py:152]               [DEBUG]    | Method: tmdb_collection_details Background: https://image.tmdb.org/t/p/original/cpmbkwSxZnKO69V82A9a34tvk2E.jpg
+[2022-10-11 11:02:01,541] [library.py:172]            [INFO]     | Detail: poster update not needed
+[2022-10-11 11:02:01,541] [library.py:188]            [INFO]     | Detail: background update not needed
+[2022-10-11 11:02:01,750] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-11 11:02:01,750] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:02:01,750] [plex_meta_manager.py:709]  [INFO]     |                                   Finished Terminator Collection                                   |
+[2022-10-11 11:02:01,750] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 11:02:01,750] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

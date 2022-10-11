@@ -1,0 +1,202 @@
+[2022-10-11 10:04:29,083] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 10:04:29,084] [builder.py:197]            [INFO]     |                             Heist Collection in Z. 5 - Film Animation                              |
+[2022-10-11 10:04:29,084] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 10:04:29,084] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 10:04:29,084] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 10:04:29,084] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:04:29,084] [meta.py:128]               [DEBUG]    | Template Genre                                                                                     |
+[2022-10-11 10:04:29,084] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Genre')])                                                             |
+[2022-10-11 10:04:29,085] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:04:29,085] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Genre'), ('collection_name', 'Heist'), ('mapping_name', 'Heist'), ('library_type', 'movie'), ('library_name', 'Z. 5 - Film Animation'), ('name_encoded', 'Genre'), ('collection_name_encoded', 'Heist'), ('mapping_name_encoded', 'Heist'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%205%20-%20Film%20Animation'), ('collection_sort', 'Heist')]) |
+[2022-10-11 10:04:29,085] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:04:29,085] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 10:04:29,085] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:04:29,085] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 10:04:29,086] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:04:29,086] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+3_Heist', 'sync_mode': 'sync', 'smart_label': 'audience_rating.desc'} |
+[2022-10-11 10:04:29,086] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:04:29,086] [builder.py:219]            [INFO]     |=================================== Validating Heist Attributes ====================================|
+[2022-10-11 10:04:29,086] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:04:29,087] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-11 10:04:29,087] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-11 10:04:29,087] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:04:29,087] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-11 10:04:29,087] [builder.py:544]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-10-11 10:04:29,101] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:04:29,102] [builder.py:631]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-10-11 10:04:29,102] [builder.py:632]            [DEBUG]    | Value: ['https://www.imdb.com/list/ls068224634/', 'https://www.imdb.com/list/ls009794682/']        |
+[2022-10-11 10:04:32,856] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:04:32,857] [builder.py:631]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-10-11 10:04:32,859] [builder.py:632]            [DEBUG]    | Value: ['https://trakt.tv/users/flekz22/lists/heists', 'https://trakt.tv/users/arclight/lists/heist'] |
+[2022-10-11 10:04:33,174] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:04:33,174] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-10-11 10:04:33,174] [builder.py:632]            [DEBUG]    | Value: Movies detailing the preparation for, execution of and aftermath of a (well-)planned and often daring heist. |
+[2022-10-11 10:04:33,175] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:04:33,175] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-11 10:04:33,175] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_HEIST.png               |
+[2022-10-11 10:04:33,410] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:04:33,410] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 10:04:33,410] [builder.py:632]            [DEBUG]    | Value: +3_Heist                                                                                    |
+[2022-10-11 10:04:33,415] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:04:33,416] [plex.py:793]               [DEBUG]    | Looking for: Heist                                                                                 |
+[2022-10-11 10:04:33,416] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 10:04:33,416] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 10:04:33,416] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 10:04:33,416] [plex_meta_manager.py:563]  [INFO]     |===================================== Running Heist Collection =====================================|
+[2022-10-11 10:04:33,416] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-10-11 10:04:33,416] [plex_meta_manager.py:570]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: audience_rating.desc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Heist
+[2022-10-11 10:04:33,417] [plex_meta_manager.py:575]  [INFO]     | 
+[2022-10-11 10:04:33,417] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync
+[2022-10-11 10:04:33,417] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 10:04:33,417] [plex_meta_manager.py:580]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls068224634/', 'limit': 0}
+[2022-10-11 10:04:33,417] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 10:04:33,418] [imdb.py:184]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls068224634/
+[2022-10-11 10:04:39,897] [imdb.py:135]               [DEBUG]    | 50 IMDb IDs Found: ['tt0317740', 'tt0471042', 'tt0454848', 'tt0105236', 'tt0240772', 'tt0349903', 'tt0496806', 'tt5164214', 'tt0840361', 'tt0114814', 'tt0200465', 'tt0102685', 'tt2058673', 'tt0208092', 'tt0120735', 'tt1712261', 'tt1596343', 'tt0478970', 'tt1375666', 'tt0113277', 'tt0072890', 'tt0049406', 'tt0070735', 'tt1152836', 'tt0095159', 'tt0117060', 'tt0468569', 'tt0122690', 'tt0119396', 'tt0048021', 'tt1800241', 'tt0325805', 'tt1568338', 'tt0095016', 'tt0227445', 'tt1670345', 'tt3110958', 'tt4712810', 'tt2568862', 'tt3890160', 'tt5439796', 'tt1259528', 'tt5789976', 'tt6468322', 'tt2381941', 'tt7991608', 'tt2531336', 'tt11083552', 'tt13024674', 'tt4257772']
+[2022-10-11 10:04:39,897] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 10:04:39,897] [builder.py:1541]           [DEBUG]    | 50 IDs Found: [('tt0317740', 'imdb'), ('tt0471042', 'imdb'), ('tt0454848', 'imdb'), ('tt0105236', 'imdb'), ('tt0240772', 'imdb'), ('tt0349903', 'imdb'), ('tt0496806', 'imdb'), ('tt5164214', 'imdb'), ('tt0840361', 'imdb'), ('tt0114814', 'imdb'), ('tt0200465', 'imdb'), ('tt0102685', 'imdb'), ('tt2058673', 'imdb'), ('tt0208092', 'imdb'), ('tt0120735', 'imdb'), ('tt1712261', 'imdb'), ('tt1596343', 'imdb'), ('tt0478970', 'imdb'), ('tt1375666', 'imdb'), ('tt0113277', 'imdb'), ('tt0072890', 'imdb'), ('tt0049406', 'imdb'), ('tt0070735', 'imdb'), ('tt1152836', 'imdb'), ('tt0095159', 'imdb'), ('tt0117060', 'imdb'), ('tt0468569', 'imdb'), ('tt0122690', 'imdb'), ('tt0119396', 'imdb'), ('tt0048021', 'imdb'), ('tt1800241', 'imdb'), ('tt0325805', 'imdb'), ('tt1568338', 'imdb'), ('tt0095016', 'imdb'), ('tt0227445', 'imdb'), ('tt1670345', 'imdb'), ('tt3110958', 'imdb'), ('tt4712810', 'imdb'), ('tt2568862', 'imdb'), ('tt3890160', 'imdb'), ('tt5439796', 'imdb'), ('tt1259528', 'imdb'), ('tt5789976', 'imdb'), ('tt6468322', 'imdb'), ('tt2381941', 'imdb'), ('tt7991608', 'imdb'), ('tt2531336', 'imdb'), ('tt11083552', 'imdb'), ('tt13024674', 'imdb'), ('tt4257772', 'imdb')]
+[2022-10-11 10:04:39,897] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 10:04:40,576] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt4257772
+[2022-10-11 10:04:40,576] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 10:04:40,576] [plex_meta_manager.py:580]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls009794682/', 'limit': 0}
+[2022-10-11 10:04:40,576] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 10:04:40,576] [imdb.py:184]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls009794682/
+[2022-10-11 10:04:46,735] [imdb.py:135]               [DEBUG]    | 55 IMDb IDs Found: ['tt0097211', 'tt0105236', 'tt0070735', 'tt0208092', 'tt0034965', 'tt0120735', 'tt0093223', 'tt0114814', 'tt0065938', 'tt0400525', 'tt0069865', 'tt0108399', 'tt0120176', 'tt0083190', 'tt0093145', 'tt0240772', 'tt0159382', 'tt0454848', 'tt0072251', 'tt0252503', 'tt0375912', 'tt0077275', 'tt0113277', 'tt0068638', 'tt0072890', 'tt0069815', 'tt0100449', 'tt0120784', 'tt0292963', 'tt0072288', 'tt0048021', 'tt0062490', 'tt0119396', 'tt0200465', 'tt0062138', 'tt0061669', 'tt0079240', 'tt0099703', 'tt0840361', 'tt0113161', 'tt0120890', 'tt0115736', 'tt0060287', 'tt0060165', 'tt0115438', 'tt0068718', 'tt0171356', 'tt0496806', 'tt0054135', 'tt0078269', 'tt0227445', 'tt0404390', 'tt0063688', 'tt0102685', 'tt0095159']
+[2022-10-11 10:04:46,736] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 10:04:46,736] [builder.py:1541]           [DEBUG]    | 55 IDs Found: [('tt0097211', 'imdb'), ('tt0105236', 'imdb'), ('tt0070735', 'imdb'), ('tt0208092', 'imdb'), ('tt0034965', 'imdb'), ('tt0120735', 'imdb'), ('tt0093223', 'imdb'), ('tt0114814', 'imdb'), ('tt0065938', 'imdb'), ('tt0400525', 'imdb'), ('tt0069865', 'imdb'), ('tt0108399', 'imdb'), ('tt0120176', 'imdb'), ('tt0083190', 'imdb'), ('tt0093145', 'imdb'), ('tt0240772', 'imdb'), ('tt0159382', 'imdb'), ('tt0454848', 'imdb'), ('tt0072251', 'imdb'), ('tt0252503', 'imdb'), ('tt0375912', 'imdb'), ('tt0077275', 'imdb'), ('tt0113277', 'imdb'), ('tt0068638', 'imdb'), ('tt0072890', 'imdb'), ('tt0069815', 'imdb'), ('tt0100449', 'imdb'), ('tt0120784', 'imdb'), ('tt0292963', 'imdb'), ('tt0072288', 'imdb'), ('tt0048021', 'imdb'), ('tt0062490', 'imdb'), ('tt0119396', 'imdb'), ('tt0200465', 'imdb'), ('tt0062138', 'imdb'), ('tt0061669', 'imdb'), ('tt0079240', 'imdb'), ('tt0099703', 'imdb'), ('tt0840361', 'imdb'), ('tt0113161', 'imdb'), ('tt0120890', 'imdb'), ('tt0115736', 'imdb'), ('tt0060287', 'imdb'), ('tt0060165', 'imdb'), ('tt0115438', 'imdb'), ('tt0068718', 'imdb'), ('tt0171356', 'imdb'), ('tt0496806', 'imdb'), ('tt0054135', 'imdb'), ('tt0078269', 'imdb'), ('tt0227445', 'imdb'), ('tt0404390', 'imdb'), ('tt0063688', 'imdb'), ('tt0102685', 'imdb'), ('tt0095159', 'imdb')]
+[2022-10-11 10:04:46,736] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 10:04:46,789] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 10:04:46,792] [plex_meta_manager.py:580]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/flekz22/lists/heists
+[2022-10-11 10:04:46,793] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 10:04:46,793] [trakt.py:487]              [INFO]     | Processing Trakt List: https://trakt.tv/users/flekz22/lists/heists
+[2022-10-11 10:04:46,936] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 10:04:46,936] [builder.py:1541]           [DEBUG]    | 37 IDs Found: [(949, 'tmdb'), (23168, 'tmdb'), (8848, 'tmdb'), (336004, 'tmdb'), (11088, 'tmdb'), (9654, 'tmdb'), (388, 'tmdb'), (161, 'tmdb'), (163, 'tmdb'), (298, 'tmdb'), (1089, 'tmdb'), (51497, 'tmdb'), (1844, 'tmdb'), (22907, 'tmdb'), (59108, 'tmdb'), (250066, 'tmdb'), (209247, 'tmdb'), (11443, 'tmdb'), (507, 'tmdb'), (968, 'tmdb'), (26124, 'tmdb'), (21106, 'tmdb'), (25964, 'tmdb'), (8270, 'tmdb'), (11517, 'tmdb'), (12490, 'tmdb'), (2155, 'tmdb'), (500, 'tmdb'), (184, 'tmdb'), (11371, 'tmdb'), (70586, 'tmdb'), (107, 'tmdb'), (9705, 'tmdb'), (100, 'tmdb'), (4836, 'tmdb'), (913, 'tmdb'), (6415, 'tmdb')]
+[2022-10-11 10:04:46,936] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 10:04:46,937] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 10:04:46,937] [plex_meta_manager.py:580]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/arclight/lists/heist
+[2022-10-11 10:04:46,937] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 10:04:46,937] [trakt.py:487]              [INFO]     | Processing Trakt List: https://trakt.tv/users/arclight/lists/heist
+[2022-10-11 10:04:47,079] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 10:04:47,079] [builder.py:1541]           [DEBUG]    | 16 IDs Found: [(161, 'tmdb'), (163, 'tmdb'), (298, 'tmdb'), (9654, 'tmdb'), (22907, 'tmdb'), (49527, 'tmdb'), (37710, 'tmdb'), (9679, 'tmdb'), (59108, 'tmdb'), (8848, 'tmdb'), (11371, 'tmdb'), (8195, 'tmdb'), (949, 'tmdb'), (388, 'tmdb'), (14979, 'tmdb'), (353070, 'tmdb')]
+[2022-10-11 10:04:47,080] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 10:04:47,080] [builder.py:2228]           [INFO]     | 
+[2022-10-11 10:04:47,080] [builder.py:2229]           [INFO]     |======================== Missing Movies from Library: Z. 5 - Film Animation ========================|
+[2022-10-11 10:04:47,080] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-10-11 10:04:47,120] [builder.py:2243]           [INFO]     | Heist Collection | ? | The Italian Job (2003) (TMDb: 9654)                                         |
+[2022-10-11 10:04:47,138] [builder.py:2243]           [INFO]     | Heist Collection | ? | Tower Heist (2011) (TMDb: 59108)                                            |
+[2022-10-11 10:04:47,179] [builder.py:2243]           [INFO]     | Heist Collection | ? | Inside Man (2006) (TMDb: 388)                                               |
+[2022-10-11 10:04:47,190] [builder.py:2243]           [INFO]     | Heist Collection | ? | Reservoir Dogs (1992) (TMDb: 500)                                           |
+[2022-10-11 10:04:47,221] [builder.py:2243]           [INFO]     | Heist Collection | ? | Ocean's Eleven (2001) (TMDb: 161)                                           |
+[2022-10-11 10:04:47,262] [builder.py:2243]           [INFO]     | Heist Collection | ? | Ocean's Twelve (2004) (TMDb: 163)                                           |
+[2022-10-11 10:04:47,274] [builder.py:2243]           [INFO]     | Heist Collection | ? | Ocean's Thirteen (2007) (TMDb: 298)                                         |
+[2022-10-11 10:04:47,321] [builder.py:2243]           [INFO]     | Heist Collection | ? | Ocean's Eight (2018) (TMDb: 402900)                                         |
+[2022-10-11 10:04:47,332] [builder.py:2243]           [INFO]     | Heist Collection | ? | The Town (2010) (TMDb: 23168)                                               |
+[2022-10-11 10:04:47,379] [builder.py:2243]           [INFO]     | Heist Collection | ? | The Usual Suspects (1995) (TMDb: 629)                                       |
+[2022-10-11 10:04:47,390] [builder.py:2243]           [INFO]     | Heist Collection | ? | The Bank Job (2008) (TMDb: 8848)                                            |
+[2022-10-11 10:04:47,425] [builder.py:2243]           [INFO]     | Heist Collection | ? | Point Break (1991) (TMDb: 1089)                                             |
+[2022-10-11 10:04:47,442] [builder.py:2243]           [INFO]     | Heist Collection | ? | Point Break (2015) (TMDb: 257088)                                           |
+[2022-10-11 10:04:47,484] [builder.py:2243]           [INFO]     | Heist Collection | ? | Snatch (2000) (TMDb: 107)                                                   |
+[2022-10-11 10:04:47,501] [builder.py:2243]           [INFO]     | Heist Collection | ? | Lock, Stock and Two Smoking Barrels (1998) (TMDb: 100)                      |
+[2022-10-11 10:04:47,551] [builder.py:2243]           [INFO]     | Heist Collection | ? | Triple 9 (2016) (TMDb: 146198)                                              |
+[2022-10-11 10:04:47,568] [builder.py:2243]           [INFO]     | Heist Collection | ? | Fast Five (2011) (TMDb: 51497)                                              |
+[2022-10-11 10:04:47,609] [builder.py:2243]           [INFO]     | Heist Collection | ? | Ant-Man (2015) (TMDb: 102899)                                               |
+[2022-10-11 10:04:47,643] [builder.py:2243]           [INFO]     | Heist Collection | ? | Inception (2010) (TMDb: 27205)                                              |
+[2022-10-11 10:04:47,685] [builder.py:2243]           [INFO]     | Heist Collection | ? | Heat (1995) (TMDb: 949)                                                     |
+[2022-10-11 10:04:47,701] [builder.py:2243]           [INFO]     | Heist Collection | ? | Dog Day Afternoon (1975) (TMDb: 968)                                        |
+[2022-10-11 10:04:47,730] [builder.py:2243]           [INFO]     | Heist Collection | ? | The Killing (1956) (TMDb: 247)                                              |
+[2022-10-11 10:04:47,742] [builder.py:2243]           [INFO]     | Heist Collection | ? | The Sting (1973) (TMDb: 9277)                                               |
+[2022-10-11 10:04:47,771] [builder.py:2243]           [INFO]     | Heist Collection | ? | Public Enemies (2009) (TMDb: 11322)                                         |
+[2022-10-11 10:04:47,779] [builder.py:2243]           [INFO]     | Heist Collection | ? | A Fish Called Wanda (1988) (TMDb: 623)                                      |
+[2022-10-11 10:04:47,793] [builder.py:2243]           [INFO]     | Heist Collection | ? | Mission : Impossible (1996) (TMDb: 954)                                     |
+[2022-10-11 10:04:47,810] [builder.py:2243]           [INFO]     | Heist Collection | ? | The Dark Knight (2008) (TMDb: 155)                                          |
+[2022-10-11 10:04:47,843] [builder.py:2243]           [INFO]     | Heist Collection | ? | Ronin (1998) (TMDb: 8195)                                                   |
+[2022-10-11 10:04:47,860] [builder.py:2243]           [INFO]     | Heist Collection | ? | Jackie Brown (1997) (TMDb: 184)                                             |
+[2022-10-11 10:04:47,899] [builder.py:2243]           [INFO]     | Heist Collection | ? | Rififi (1955) (TMDb: 934)                                                   |
+[2022-10-11 10:04:47,927] [builder.py:2243]           [INFO]     | Heist Collection | ? | American Hustle (2013) (TMDb: 168672)                                       |
+[2022-10-11 10:04:47,943] [builder.py:2243]           [INFO]     | Heist Collection | ? | Matchstick Men (2003) (TMDb: 7270)                                          |
+[2022-10-11 10:04:47,971] [builder.py:2243]           [INFO]     | Heist Collection | ? | Man on a Ledge (2012) (TMDb: 49527)                                         |
+[2022-10-11 10:04:47,979] [builder.py:2243]           [INFO]     | Heist Collection | ? | Die Hard (1988) (TMDb: 562)                                                 |
+[2022-10-11 10:04:47,994] [builder.py:2243]           [INFO]     | Heist Collection | ? | The Score (2001) (TMDb: 11371)                                              |
+[2022-10-11 10:04:48,021] [builder.py:2243]           [INFO]     | Heist Collection | ? | Now You See Me (2013) (TMDb: 75656)                                         |
+[2022-10-11 10:04:48,044] [builder.py:2243]           [INFO]     | Heist Collection | ? | Now You See Me 2 (2016) (TMDb: 291805)                                      |
+[2022-10-11 10:04:48,061] [builder.py:2243]           [INFO]     | Heist Collection | ? | Now You See Me 3 (TMDb: 425274)                                             |
+[2022-10-11 10:04:48,094] [builder.py:2243]           [INFO]     | Heist Collection | ? | Going in Style (2017) (TMDb: 353070)                                        |
+[2022-10-11 10:04:48,096] [builder.py:2243]           [INFO]     | Heist Collection | ? | Baby Driver (2017) (TMDb: 339403)                                           |
+[2022-10-11 10:04:48,106] [builder.py:2243]           [INFO]     | Heist Collection | ? | Logan Lucky (2017) (TMDb: 399170)                                           |
+[2022-10-11 10:04:48,138] [builder.py:2243]           [INFO]     | Heist Collection | ? | Den of Thieves (2018) (TMDb: 449443)                                        |
+[2022-10-11 10:04:48,159] [builder.py:2243]           [INFO]     | Heist Collection | ? | King of Thieves (2018) (TMDb: 520360)                                       |
+[2022-10-11 10:04:48,196] [builder.py:2243]           [INFO]     | Heist Collection | ? | Focus (2015) (TMDb: 256591)                                                 |
+[2022-10-11 10:04:48,229] [builder.py:2243]           [INFO]     | Heist Collection | ? | Red Notice (2021) (TMDb: 512195)                                            |
+[2022-10-11 10:04:48,246] [builder.py:2243]           [INFO]     | Heist Collection | ? | Wrath of Man (2021) (TMDb: 637649)                                          |
+[2022-10-11 10:04:48,279] [builder.py:2243]           [INFO]     | Heist Collection | ? | Army of Thieves (2021) (TMDb: 796499)                                       |
+[2022-10-11 10:04:48,297] [builder.py:2243]           [INFO]     | Heist Collection | ? | Disorganized Crime (1989) (TMDb: 30352)                                     |
+[2022-10-11 10:04:48,321] [builder.py:2243]           [INFO]     | Heist Collection | ? | Larceny, Inc. (1942) (TMDb: 69119)                                          |
+[2022-10-11 10:04:48,338] [builder.py:2243]           [INFO]     | Heist Collection | ? | House of Games (1987) (TMDb: 26719)                                         |
+[2022-10-11 10:04:48,346] [builder.py:2243]           [INFO]     | Heist Collection | ? | Kelly's Heroes (1970) (TMDb: 11589)                                         |
+[2022-10-11 10:04:48,380] [builder.py:2243]           [INFO]     | Heist Collection | ? | The Ice Harvest (2005) (TMDb: 9005)                                         |
+[2022-10-11 10:04:48,392] [builder.py:2243]           [INFO]     | Heist Collection | ? | Charley Varrick (1973) (TMDb: 27331)                                        |
+[2022-10-11 10:04:48,404] [builder.py:2243]           [INFO]     | Heist Collection | ? | True Romance (1993) (TMDb: 319)                                             |
+[2022-10-11 10:04:48,422] [builder.py:2243]           [INFO]     | Heist Collection | ? | The Spanish Prisoner (1997) (TMDb: 29193)                                   |
+[2022-10-11 10:04:48,456] [builder.py:2243]           [INFO]     | Heist Collection | ? | Thief (1981) (TMDb: 11524)                                                  |
+[2022-10-11 10:04:48,512] [builder.py:2243]           [INFO]     | Heist Collection | ? | Happy New Year (1987) (TMDb: 133781)                                        |
+[2022-10-11 10:04:48,525] [builder.py:2243]           [INFO]     | Heist Collection | ? | Croupier (1998) (TMDb: 12706)                                               |
+[2022-10-11 10:04:48,539] [builder.py:2243]           [INFO]     | Heist Collection | ? | The Taking of Pelham One Two Three (1974) (TMDb: 8333)                      |
+[2022-10-11 10:04:48,557] [builder.py:2243]           [INFO]     | Heist Collection | ? | Heist (2001) (TMDb: 11088)                                                  |
+[2022-10-11 10:04:48,558] [builder.py:2243]           [INFO]     | Heist Collection | ? | Layer Cake (2004) (TMDb: 4836)                                              |
+[2022-10-11 10:04:48,574] [builder.py:2243]           [INFO]     | Heist Collection | ? | The Brink's Job (1978) (TMDb: 24429)                                        |
+[2022-10-11 10:04:48,590] [builder.py:2243]           [INFO]     | Heist Collection | ? | The Getaway (1972) (TMDb: 5916)                                             |
+[2022-10-11 10:04:48,607] [builder.py:2243]           [INFO]     | Heist Collection | ? | Happy New Year (1973) (TMDb: 76329)                                         |
+[2022-10-11 10:04:48,609] [builder.py:2243]           [INFO]     | Heist Collection | ? | Quick Change (1990) (TMDb: 10729)                                           |
+[2022-10-11 10:04:48,624] [builder.py:2243]           [INFO]     | Heist Collection | ? | Payback (1999) (TMDb: 2112)                                                 |
+[2022-10-11 10:04:48,655] [builder.py:2243]           [INFO]     | Heist Collection | ? | Before the Devil Knows You're Dead (2007) (TMDb: 7972)                      |
+[2022-10-11 10:04:48,674] [builder.py:2243]           [INFO]     | Heist Collection | ? | Thunderbolt and Lightfoot (1974) (TMDb: 8348)                               |
+[2022-10-11 10:04:48,724] [builder.py:2243]           [INFO]     | Heist Collection | ? | Who's Minding the Mint? (1967) (TMDb: 43710)                                |
+[2022-10-11 10:04:48,741] [builder.py:2243]           [INFO]     | Heist Collection | ? | Point Blank (1967) (TMDb: 26039)                                            |
+[2022-10-11 10:04:48,791] [builder.py:2243]           [INFO]     | Heist Collection | ? | Fitzwilly (1967) (TMDb: 33730)                                              |
+[2022-10-11 10:04:48,808] [builder.py:2243]           [INFO]     | Heist Collection | ? | The First Great Train Robbery (1978) (TMDb: 11583)                          |
+[2022-10-11 10:04:48,858] [builder.py:2243]           [INFO]     | Heist Collection | ? | The Grifters (1990) (TMDb: 18129)                                           |
+[2022-10-11 10:04:48,871] [builder.py:2243]           [INFO]     | Heist Collection | ? | Get Shorty (1995) (TMDb: 8012)                                              |
+[2022-10-11 10:04:48,916] [builder.py:2243]           [INFO]     | Heist Collection | ? | Wild Things (1998) (TMDb: 617)                                              |
+[2022-10-11 10:04:48,929] [builder.py:2243]           [INFO]     | Heist Collection | ? | Bound (1996) (TMDb: 9303)                                                   |
+[2022-10-11 10:04:48,971] [builder.py:2243]           [INFO]     | Heist Collection | ? | Dead Heat on a Merry-Go-Round (1966) (TMDb: 68979)                          |
+[2022-10-11 10:04:48,984] [builder.py:2243]           [INFO]     | Heist Collection | ? | A Big Hand for the Little Lady (1966) (TMDb: 37301)                         |
+[2022-10-11 10:04:49,030] [builder.py:2243]           [INFO]     | Heist Collection | ? | 2 Days in the Valley (1996) (TMDb: 9401)                                    |
+[2022-10-11 10:04:49,042] [builder.py:2243]           [INFO]     | Heist Collection | ? | The Hot Rock (1972) (TMDb: 46059)                                           |
+[2022-10-11 10:04:49,088] [builder.py:2243]           [INFO]     | Heist Collection | ? | Gun Shy (2000) (TMDb: 29076)                                                |
+[2022-10-11 10:04:49,133] [builder.py:2243]           [INFO]     | Heist Collection | ? | Ocean's Eleven (1960) (TMDb: 299)                                           |
+[2022-10-11 10:04:49,154] [builder.py:2243]           [INFO]     | Heist Collection | ? | The Silent Partner (1978) (TMDb: 25338)                                     |
+[2022-10-11 10:04:49,204] [builder.py:2243]           [INFO]     | Heist Collection | ? | Running Scared (2006) (TMDb: 7304)                                          |
+[2022-10-11 10:04:49,246] [builder.py:2243]           [INFO]     | Heist Collection | ? | The Thomas Crown Affair (1968) (TMDb: 912)                                  |
+[2022-10-11 10:04:49,263] [builder.py:2243]           [INFO]     | Heist Collection | ? | Heist (2015) (TMDb: 336004)                                                 |
+[2022-10-11 10:04:49,280] [builder.py:2243]           [INFO]     | Heist Collection | ? | Entrapment (1999) (TMDb: 1844)                                              |
+[2022-10-11 10:04:49,304] [builder.py:2243]           [INFO]     | Heist Collection | ? | Takers (2010) (TMDb: 22907)                                                 |
+[2022-10-11 10:04:49,330] [builder.py:2243]           [INFO]     | Heist Collection | ? | American Heist (2014) (TMDb: 250066)                                        |
+[2022-10-11 10:04:49,354] [builder.py:2243]           [INFO]     | Heist Collection | ? | The Art of the Steal (2013) (TMDb: 209247)                                  |
+[2022-10-11 10:04:49,380] [builder.py:2243]           [INFO]     | Heist Collection | ? | Dead Presidents (1995) (TMDb: 11443)                                        |
+[2022-10-11 10:04:49,421] [builder.py:2243]           [INFO]     | Heist Collection | ? | Killing Zoe (1993) (TMDb: 507)                                              |
+[2022-10-11 10:04:49,464] [builder.py:2243]           [INFO]     | Heist Collection | ? | Face (1997) (TMDb: 26124)                                                   |
+[2022-10-11 10:04:49,488] [builder.py:2243]           [INFO]     | Heist Collection | ? | Hard Cash (2002) (TMDb: 21106)                                              |
+[2022-10-11 10:04:49,525] [builder.py:2243]           [INFO]     | Heist Collection | ? | L.A. Takedown (1989) (TMDb: 25964)                                          |
+[2022-10-11 10:04:49,537] [builder.py:2243]           [INFO]     | Heist Collection | ? | The Lookout (2007) (TMDb: 8270)                                             |
+[2022-10-11 10:04:49,588] [builder.py:2243]           [INFO]     | Heist Collection | ? | Money Train (1995) (TMDb: 11517)                                            |
+[2022-10-11 10:04:49,613] [builder.py:2243]           [INFO]     | Heist Collection | ? | Ordinary Decent Criminal (2000) (TMDb: 12490)                               |
+[2022-10-11 10:04:49,644] [builder.py:2243]           [INFO]     | Heist Collection | ? | Reindeer Games (2000) (TMDb: 2155)                                          |
+[2022-10-11 10:04:49,661] [builder.py:2243]           [INFO]     | Heist Collection | ? | Setup (2011) (TMDb: 70586)                                                  |
+[2022-10-11 10:04:49,710] [builder.py:2243]           [INFO]     | Heist Collection | ? | Swordfish (2001) (TMDb: 9705)                                               |
+[2022-10-11 10:04:49,712] [builder.py:2243]           [INFO]     | Heist Collection | ? | The Thomas Crown Affair (1999) (TMDb: 913)                                  |
+[2022-10-11 10:04:49,728] [builder.py:2243]           [INFO]     | Heist Collection | ? | Three Kings (1999) (TMDb: 6415)                                             |
+[2022-10-11 10:04:49,778] [builder.py:2243]           [INFO]     | Heist Collection | ? | The Tourist (2010) (TMDb: 37710)                                            |
+[2022-10-11 10:04:49,794] [builder.py:2243]           [INFO]     | Heist Collection | ? | Gone in Sixty Seconds (2000) (TMDb: 9679)                                   |
+[2022-10-11 10:04:49,819] [builder.py:2243]           [INFO]     | Heist Collection | ? | Thick as Thieves (2009) (TMDb: 14979)                                       |
+[2022-10-11 10:04:49,820] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-10-11 10:04:49,820] [builder.py:2249]           [INFO]     | 106 Movies Missing                                                                                 |
+[2022-10-11 10:04:50,741] [plex_meta_manager.py:624]  [INFO]     |                                                                                                    |
+[2022-10-11 10:04:50,742] [plex_meta_manager.py:625]  [INFO]     | Collection Minimum: 2 not met for Heist Collection                                                 |
+[2022-10-11 10:04:50,742] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 10:04:50,742] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 10:04:50,742] [plex_meta_manager.py:709]  [INFO]     |                                     Finished Heist Collection                                      |
+[2022-10-11 10:04:50,742] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:21                                    |
+[2022-10-11 10:04:50,743] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

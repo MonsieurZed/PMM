@@ -1,0 +1,48 @@
+[2022-10-11 08:43:12,412] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 08:43:12,412] [builder.py:197]            [INFO]     |                                 Italia Collection in Z. 1 - Films                                  |
+[2022-10-11 08:43:12,412] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 08:43:12,412] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 08:43:12,412] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 08:43:12,412] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:43:12,413] [meta.py:128]               [DEBUG]    | Template Country                                                                                   |
+[2022-10-11 08:43:12,413] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Country')])                                                           |
+[2022-10-11 08:43:12,413] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:43:12,413] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Country'), ('collection_name', 'Italia'), ('mapping_name', 'Italia'), ('library_type', 'movie'), ('library_name', 'Z. 1 - Films'), ('name_encoded', 'Country'), ('collection_name_encoded', 'Italia'), ('mapping_name_encoded', 'Italia'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%201%20-%20Films'), ('collection_sort', 'Italia')]) |
+[2022-10-11 08:43:12,413] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:43:12,413] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 08:43:12,413] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:43:12,414] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 08:43:12,414] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:43:12,414] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+5_Italia', 'sync_mode': 'sync', 'smart_label': 'audience_rating.desc', 'plex_all': True} |
+[2022-10-11 08:43:12,414] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:43:12,415] [builder.py:219]            [INFO]     |=================================== Validating Italia Attributes ===================================|
+[2022-10-11 08:43:12,415] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:43:12,415] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-11 08:43:12,415] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-11 08:43:12,415] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:43:12,415] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-11 08:43:12,416] [builder.py:544]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-10-11 08:43:12,423] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:43:12,424] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-11 08:43:12,424] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/COUNTRY_ITALY.png             |
+[2022-10-11 08:43:12,712] [builder.py:828]            [WARNING]  | Collection Warning: No Poster Found at https://raw.githubusercontent.com/MonsieurZed/poster/main/img/COUNTRY_ITALY.png |
+[2022-10-11 08:43:12,712] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:43:12,712] [builder.py:631]            [DEBUG]    | Validating Method: filters                                                                         |
+[2022-10-11 08:43:12,713] [builder.py:632]            [DEBUG]    | Value: ordereddict([('country', 'Italia')])                                                        |
+[2022-10-11 08:43:12,751] [plex_meta_manager.py:696]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 559, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str)
+                                                                 |   File "/modules/builder.py", line 723, in __init__
+                                                                 |     self._filters(method_name, method_data)
+                                                                 |   File "/modules/builder.py", line 1470, in _filters
+                                                                 |     final_data = self.validate_attribute(filter_attr, modifier, f"{filter_final} filter", filter_data, validate)
+                                                                 |   File "/modules/builder.py", line 1977, in validate_attribute
+                                                                 |     raise Failed(error)
+                                                                 | modules.util.Failed: Plex Error: country: Italia not found
+                                                                 | 
+[2022-10-11 08:43:12,754] [plex_meta_manager.py:697]  [ERROR]    | Plex Error: country: Italia not found
+[2022-10-11 08:43:12,754] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-11 08:43:12,754] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 08:43:12,754] [plex_meta_manager.py:709]  [INFO]     |                                     Finished Italia Collection                                     |
+[2022-10-11 08:43:12,755] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 08:43:12,755] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

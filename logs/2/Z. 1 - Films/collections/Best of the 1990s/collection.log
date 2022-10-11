@@ -1,0 +1,184 @@
+[2022-09-29 16:31:57,126] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-09-29 16:31:57,126] [builder.py:197]            [INFO]     |                            Best of the 1990s Collection in Z. 1 - Films                            |
+[2022-09-29 16:31:57,127] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-09-29 16:31:57,127] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-09-29 16:31:57,127] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-09-29 16:31:57,127] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-09-29 16:31:57,127] [meta.py:128]               [DEBUG]    | Template Chart                                                                                     |
+[2022-09-29 16:31:57,127] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Chart'), ('num', 7)])                                                 |
+[2022-09-29 16:31:57,128] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-09-29 16:31:57,128] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Chart'), ('num', 7), ('collection_name', 'Best of the 1990s'), ('mapping_name', 'Best of the 1990s'), ('library_type', 'movie'), ('library_name', 'Z. 1 - Films'), ('name_encoded', 'Chart'), ('num_encoded', '7'), ('collection_name_encoded', 'Best%20of%20the%201990s'), ('mapping_name_encoded', 'Best%20of%20the%201990s'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%201%20-%20Films'), ('collection_sort', 'Best of the 1990s')]) |
+[2022-09-29 16:31:57,128] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-09-29 16:31:57,128] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-09-29 16:31:57,128] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-09-29 16:31:57,128] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-09-29 16:31:57,129] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-09-29 16:31:57,129] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+1_7Best of the 1990s', 'sync_mode': 'sync', 'smart_label': 'random'} |
+[2022-09-29 16:31:57,129] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-09-29 16:31:57,129] [builder.py:219]            [INFO]     |============================= Validating Best of the 1990s Attributes ==============================|
+[2022-09-29 16:31:57,129] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-09-29 16:31:57,130] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-09-29 16:31:57,130] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-09-29 16:31:57,130] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-09-29 16:31:57,130] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-09-29 16:31:57,130] [builder.py:544]            [DEBUG]    | Value: random                                                                                      |
+[2022-09-29 16:31:57,141] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 16:31:57,142] [builder.py:631]            [DEBUG]    | Validating Method: tmdb_discover                                                                   |
+[2022-09-29 16:31:57,142] [builder.py:632]            [DEBUG]    | Value: ordereddict([('primary_release_date.gte', '01/01/1990'), ('primary_release_date.lte', '12/31/1999'), ('with_original_language', 'fr'), ('sort_by', 'popularity.desc'), ('limit', 100)]) |
+[2022-09-29 16:31:57,142] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 16:31:57,143] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-09-29 16:31:57,143] [builder.py:632]            [DEBUG]    | Value: Le meilleurs des années 1990                                                                |
+[2022-09-29 16:31:57,143] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 16:31:57,143] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-09-29 16:31:57,143] [builder.py:632]            [DEBUG]    | Value: +1_7Best of the 1990s                                                                       |
+[2022-09-29 16:31:57,149] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-09-29 16:31:57,149] [plex.py:793]               [DEBUG]    | Looking for: Best of the 1990s                                                                     |
+[2022-09-29 16:31:57,149] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-09-29 16:31:57,149] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-09-29 16:31:57,150] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-09-29 16:31:57,150] [plex_meta_manager.py:563]  [INFO]     |=============================== Running Best of the 1990s Collection ===============================|
+[2022-09-29 16:31:57,150] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-09-29 16:31:57,150] [plex_meta_manager.py:570]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: random
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Best of the 1990s
+[2022-09-29 16:31:57,151] [plex_meta_manager.py:575]  [INFO]     | 
+[2022-09-29 16:31:57,151] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync
+[2022-09-29 16:31:57,151] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-09-29 16:31:57,151] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_discover: {'limit': 100, 'primary_release_date.gte': '01/01/1990', 'primary_release_date.lte': '12/31/1999', 'with_original_language': 'fr', 'sort_by': 'popularity.desc'}
+[2022-09-29 16:31:57,151] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-09-29 16:31:57,915] [tmdb.py:339]               [INFO]     | Processing TMDb Discover: 100 Movies
+[2022-09-29 16:31:57,915] [tmdb.py:341]               [INFO]     |            primary_release_date.gte: 1990-01-01
+[2022-09-29 16:31:57,915] [tmdb.py:341]               [INFO]     |            primary_release_date.lte: 1999-12-31
+[2022-09-29 16:31:57,916] [tmdb.py:341]               [INFO]     |            with_original_language: fr
+[2022-09-29 16:31:57,916] [tmdb.py:341]               [INFO]     |            sort_by: popularity.desc
+[2022-09-29 16:31:57,916] [builder.py:1540]           [DEBUG]    | 
+[2022-09-29 16:31:57,916] [builder.py:1541]           [DEBUG]    | 100 IDs Found: [(26338, 'tmdb'), (2330, 'tmdb'), (9322, 'tmdb'), (10995, 'tmdb'), (406, 'tmdb'), (110, 'tmdb'), (9564, 'tmdb'), (25518, 'tmdb'), (12627, 'tmdb'), (12531, 'tmdb'), (108, 'tmdb'), (902, 'tmdb'), (11687, 'tmdb'), (10353, 'tmdb'), (1600, 'tmdb'), (9369, 'tmdb'), (21348, 'tmdb'), (17961, 'tmdb'), (1567, 'tmdb'), (892, 'tmdb'), (14283, 'tmdb'), (10347, 'tmdb'), (46991, 'tmdb'), (2767, 'tmdb'), (109, 'tmdb'), (10452, 'tmdb'), (116636, 'tmdb'), (35717, 'tmdb'), (11479, 'tmdb'), (10086, 'tmdb'), (12709, 'tmdb'), (11796, 'tmdb'), (11876, 'tmdb'), (11673, 'tmdb'), (14626, 'tmdb'), (4482, 'tmdb'), (9305, 'tmdb'), (2528, 'tmdb'), (2731, 'tmdb'), (9421, 'tmdb'), (4734, 'tmdb'), (25355, 'tmdb'), (51980, 'tmdb'), (12717, 'tmdb'), (1568, 'tmdb'), (24183, 'tmdb'), (33828, 'tmdb'), (10732, 'tmdb'), (20978, 'tmdb'), (33517, 'tmdb'), (19223, 'tmdb'), (8056, 'tmdb'), (37563, 'tmdb'), (46761, 'tmdb'), (10401, 'tmdb'), (11489, 'tmdb'), (46959, 'tmdb'), (37652, 'tmdb'), (20220, 'tmdb'), (11139, 'tmdb'), (1802, 'tmdb'), (40815, 'tmdb'), (36998, 'tmdb'), (40089, 'tmdb'), (40223, 'tmdb'), (19963, 'tmdb'), (10241, 'tmdb'), (22240, 'tmdb'), (15097, 'tmdb'), (39967, 'tmdb'), (10954, 'tmdb'), (55107, 'tmdb'), (51191, 'tmdb'), (12716, 'tmdb'), (64567, 'tmdb'), (12652, 'tmdb'), (39385, 'tmdb'), (10239, 'tmdb'), (26933, 'tmdb'), (6444, 'tmdb'), (31789, 'tmdb'), (54471, 'tmdb'), (40627, 'tmdb'), (76205, 'tmdb'), (33491, 'tmdb'), (38012, 'tmdb'), (65296, 'tmdb'), (16130, 'tmdb'), (74038, 'tmdb'), (14646, 'tmdb'), (56321, 'tmdb'), (48580, 'tmdb'), (28213, 'tmdb'), (46334, 'tmdb'), (2817, 'tmdb'), (49938, 'tmdb'), (50213, 'tmdb'), (44706, 'tmdb'), (64724, 'tmdb'), (51195, 'tmdb')]
+[2022-09-29 16:31:57,916] [builder.py:1542]           [DEBUG]    | 
+[2022-09-29 16:31:57,919] [builder.py:2064]           [INFO]     | 
+[2022-09-29 16:31:57,919] [builder.py:2065]           [INFO]     |============================== Adding to Best of the 1990s Collection ==============================|
+[2022-09-29 16:31:57,919] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-09-29 16:31:58,003] [builder.py:2080]           [INFO]     |  1/17 | Best of the 1990s Collection | = | Taxi (1998)                                             |
+[2022-09-29 16:31:58,004] [builder.py:2080]           [INFO]     |  2/17 | Best of the 1990s Collection | = | Nikita (1990)                                           |
+[2022-09-29 16:31:58,004] [builder.py:2080]           [INFO]     |  3/17 | Best of the 1990s Collection | = | La Haine (1995)                                         |
+[2022-09-29 16:31:58,005] [builder.py:2080]           [INFO]     |  4/17 | Best of the 1990s Collection | = | Asterix & Obelix : Contre Cesar (1999)                  |
+[2022-09-29 16:31:58,005] [builder.py:2080]           [INFO]     |  5/17 | Best of the 1990s Collection | = | La Reine Margot (1994)                                  |
+[2022-09-29 16:31:58,005] [builder.py:2080]           [INFO]     |  6/17 | Best of the 1990s Collection | = | Un indien dans la ville (1994)                          |
+[2022-09-29 16:31:58,005] [builder.py:2080]           [INFO]     |  7/17 | Best of the 1990s Collection | = | Le Dîner de Cons (1998)                                 |
+[2022-09-29 16:31:58,005] [builder.py:2080]           [INFO]     |  8/17 | Best of the 1990s Collection | = | Didier (1997)                                           |
+[2022-09-29 16:31:58,006] [builder.py:2080]           [INFO]     |  9/17 | Best of the 1990s Collection | = | L'Opération Corned Beef (1991)                          |
+[2022-09-29 16:31:58,006] [builder.py:2080]           [INFO]     | 10/17 | Best of the 1990s Collection | = | Bernie (1996)                                           |
+[2022-09-29 16:31:58,006] [builder.py:2080]           [INFO]     | 11/17 | Best of the 1990s Collection | = | La vérité si je mens! (1997)                            |
+[2022-09-29 16:31:58,006] [builder.py:2080]           [INFO]     | 12/17 | Best of the 1990s Collection | = | Pédale douce (1996)                                     |
+[2022-09-29 16:31:58,006] [builder.py:2080]           [INFO]     | 13/17 | Best of the 1990s Collection | = | Le Jaguar (1996)                                        |
+[2022-09-29 16:31:58,007] [builder.py:2080]           [INFO]     | 14/17 | Best of the 1990s Collection | = | Cuisine et dépendances (1993)                           |
+[2022-09-29 16:31:58,007] [builder.py:2080]           [INFO]     | 15/17 | Best of the 1990s Collection | + | Un air de famille (1996)                                |
+[2022-09-29 16:31:58,191] [builder.py:2080]           [INFO]     | 16/17 | Best of the 1990s Collection | + | On connaît la chanson (1997)                            |
+[2022-09-29 16:31:58,366] [builder.py:2080]           [INFO]     | 17/17 | Best of the 1990s Collection | = | Le Pari (1997)                                          |
+[2022-09-29 16:31:58,595] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-09-29 16:31:58,595] [builder.py:2102]           [INFO]     | 17 Movies Processed 2 Movies Added                                                                 |
+[2022-09-29 16:31:58,596] [builder.py:2228]           [INFO]     |                                                                                                    |
+[2022-09-29 16:31:58,596] [builder.py:2229]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-09-29 16:31:58,596] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-09-29 16:31:58,611] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Romance (1999) (TMDb: 26338)                                    |
+[2022-09-29 16:31:58,628] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | The Lover (1992) (TMDb: 10995)                                  |
+[2022-09-29 16:31:58,669] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Three Colors: Red (1994) (TMDb: 110)                            |
+[2022-09-29 16:31:58,686] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | La Belle Verte (1996) (TMDb: 25518)                             |
+[2022-09-29 16:31:58,713] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | La Belle Noiseuse (1991) (TMDb: 12627)                          |
+[2022-09-29 16:31:58,745] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | The Apartment (1996) (TMDb: 12531)                              |
+[2022-09-29 16:31:58,761] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Three Colors: Blue (1993) (TMDb: 108)                           |
+[2022-09-29 16:31:58,795] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | The City of Lost Children (1995) (TMDb: 902)                    |
+[2022-09-29 16:31:58,811] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | The Visitors (1993) (TMDb: 11687)                               |
+[2022-09-29 16:31:58,853] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | The Visitors II: The Corridors of Time (1998) (TMDb: 10353)     |
+[2022-09-29 16:31:58,870] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | The Double Life of Véronique (1991) (TMDb: 1600)                |
+[2022-09-29 16:31:58,912] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Asterix Conquers America (1994) (TMDb: 9369)                    |
+[2022-09-29 16:31:58,928] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Kirikou and the Sorceress (1998) (TMDb: 21348)                  |
+[2022-09-29 16:31:58,970] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Torment (1994) (TMDb: 17961)                                    |
+[2022-09-29 16:31:58,987] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | I Stand Alone (1998) (TMDb: 1567)                               |
+[2022-09-29 16:31:59,029] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Delicatessen (1991) (TMDb: 892)                                 |
+[2022-09-29 16:31:59,045] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | The Red Violin (1998) (TMDb: 14283)                             |
+[2022-09-29 16:31:59,078] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Dobermann (1997) (TMDb: 10347)                                  |
+[2022-09-29 16:31:59,095] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | An Affair of Love (1999) (TMDb: 46991)                          |
+[2022-09-29 16:31:59,132] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | The Lovers on the Bridge (1991) (TMDb: 2767)                    |
+[2022-09-29 16:31:59,145] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Three Colors: White (1994) (TMDb: 109)                          |
+[2022-09-29 16:31:59,187] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Two Orphan Vampires (1997) (TMDb: 116636)                       |
+[2022-09-29 16:31:59,204] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Pola X (1999) (TMDb: 35717)                                     |
+[2022-09-29 16:31:59,254] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Man Bites Dog (1992) (TMDb: 10086)                              |
+[2022-09-29 16:31:59,265] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Ridicule (1996) (TMDb: 12709)                                   |
+[2022-09-29 16:31:59,304] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | The Hairdresser's Husband (1990) (TMDb: 11796)                  |
+[2022-09-29 16:31:59,321] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | The Horseman on the Roof (1995) (TMDb: 11876)                   |
+[2022-09-29 16:31:59,365] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Cyrano de Bergerac (1990) (TMDb: 11673)                         |
+[2022-09-29 16:31:59,379] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Beau Travail (1999) (TMDb: 14626)                               |
+[2022-09-29 16:31:59,429] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | French Twist (1995) (TMDb: 4482)                                |
+[2022-09-29 16:31:59,458] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Microcosmos (1996) (TMDb: 9305)                                 |
+[2022-09-29 16:31:59,496] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Madame Bovary (1991) (TMDb: 2528)                               |
+[2022-09-29 16:31:59,513] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Indochine (1992) (TMDb: 2731)                                   |
+[2022-09-29 16:31:59,540] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Van Gogh (1991) (TMDb: 4734)                                    |
+[2022-09-29 16:31:59,555] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Irma Vep (1996) (TMDb: 25355)                                   |
+[2022-09-29 16:31:59,581] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Germinal (1993) (TMDb: 51980)                                   |
+[2022-09-29 16:31:59,598] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | My Mother's Castle (1990) (TMDb: 12717)                         |
+[2022-09-29 16:31:59,621] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Carne (1991) (TMDb: 1568)                                       |
+[2022-09-29 16:31:59,641] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | The Promise (1996) (TMDb: 24183)                                |
+[2022-09-29 16:31:59,655] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Criminal Lovers (1999) (TMDb: 33828)                            |
+[2022-09-29 16:31:59,696] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | D’Artagnan’s Daughter (1994) (TMDb: 10732)                      |
+[2022-09-29 16:31:59,715] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | My Father the Hero (1991) (TMDb: 20978)                         |
+[2022-09-29 16:31:59,738] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Beyond the Clouds (1995) (TMDb: 33517)                          |
+[2022-09-29 16:31:59,753] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | A Pure Formality (1994) (TMDb: 19223)                           |
+[2022-09-29 16:31:59,805] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Train of Life (1998) (TMDb: 8056)                               |
+[2022-09-29 16:31:59,855] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | A Summer's Tale (1996) (TMDb: 37563)                            |
+[2022-09-29 16:31:59,867] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Sitcom (1998) (TMDb: 46761)                                     |
+[2022-09-29 16:31:59,924] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | The Girl on the Bridge (1999) (TMDb: 10401)                     |
+[2022-09-29 16:31:59,963] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Rosetta (1999) (TMDb: 11489)                                    |
+[2022-09-29 16:31:59,980] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Game Over (1990) (TMDb: 46959)                                  |
+[2022-09-29 16:31:59,996] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | 1001 Nights (1990) (TMDb: 20220)                                |
+[2022-09-29 16:32:00,013] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Leolo (1992) (TMDb: 11139)                                      |
+[2022-09-29 16:32:00,046] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | La Cérémonie (1995) (TMDb: 1802)                                |
+[2022-09-29 16:32:00,063] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | On Guard (1997) (TMDb: 40815)                                   |
+[2022-09-29 16:32:00,088] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | The Eighth Day (1996) (TMDb: 36998)                             |
+[2022-09-29 16:32:00,104] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | The Best Job in the World (1996) (TMDb: 40089)                  |
+[2022-09-29 16:32:00,121] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | A Tale of Winter (1992) (TMDb: 10241)                           |
+[2022-09-29 16:32:00,138] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | My New Partner II (1990) (TMDb: 22240)                          |
+[2022-09-29 16:32:00,179] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Fear City: A Family-Style Comedy (1994) (TMDb: 15097)           |
+[2022-09-29 16:32:00,533] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | L.627 (1992) (TMDb: 39967)                                      |
+[2022-09-29 16:32:00,571] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Farinelli (1994) (TMDb: 10954)                                  |
+[2022-09-29 16:32:00,588] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | L'ennui (1998) (TMDb: 55107)                                    |
+[2022-09-29 16:32:00,638] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Guardian Angels (1995) (TMDb: 51191)                            |
+[2022-09-29 16:32:00,649] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | My Father's Glory (1990) (TMDb: 12716)                          |
+[2022-09-29 16:32:01,047] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Dead Tired (1994) (TMDb: 64567)                                 |
+[2022-09-29 16:32:01,070] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Nelly and Monsieur Arnaud (1995) (TMDb: 12652)                  |
+[2022-09-29 16:32:01,087] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | An Autumn Tale (1998) (TMDb: 10239)                             |
+[2022-09-29 16:32:01,128] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Wild Reeds (1994) (TMDb: 26933)                                 |
+[2022-09-29 16:32:01,149] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Auntie Danielle (1990) (TMDb: 6444)                             |
+[2022-09-29 16:32:01,507] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Quiet Days in Clichy (1990) (TMDb: 76205)                       |
+[2022-09-29 16:32:01,545] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Venus Beauty Institute (1999) (TMDb: 33491)                     |
+[2022-09-29 16:32:01,562] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Fanfan (1993) (TMDb: 38012)                                     |
+[2022-09-29 16:32:01,967] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Humanité (1999) (TMDb: 65296)                                   |
+[2022-09-29 16:32:02,380] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | La Classe américaine (1993) (TMDb: 16130)                       |
+[2022-09-29 16:32:02,382] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Butterscotch - The Perfume of the Invisible (1997) (TMDb: 74038) |
+[2022-09-29 16:32:02,429] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Toto the Hero (1991) (TMDb: 56321)                              |
+[2022-09-29 16:32:02,809] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | A Self-Made Hero (1996) (TMDb: 48580)                           |
+[2022-09-29 16:32:02,838] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | A Tale of Springtime (1990) (TMDb: 28213)                       |
+[2022-09-29 16:32:02,854] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Captain Conan (1996) (TMDb: 46334)                              |
+[2022-09-29 16:32:02,871] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Half a Chance (1998) (TMDb: 49938)                              |
+[2022-09-29 16:32:03,308] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | Une époque formidable… (1991) (TMDb: 50213)                     |
+[2022-09-29 16:32:03,762] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | The Perfume of Yvonne (1994) (TMDb: 64724)                      |
+[2022-09-29 16:32:04,208] [builder.py:2243]           [INFO]     | Best of the 1990s Collection | ? | The Thirst for Gold (1993) (TMDb: 51195)                        |
+[2022-09-29 16:32:04,209] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-09-29 16:32:04,209] [builder.py:2249]           [INFO]     | 83 Movies Missing                                                                                  |
+[2022-09-29 16:32:04,480] [plex.py:711]               [DEBUG]    | Smart Collection Test: ?type=1&sort=random&label=213169                                            |
+[2022-09-29 16:32:04,569] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-09-29 16:32:04,570] [builder.py:2442]           [INFO]     |========================= Updating Details of Best of the 1990s Collection =========================|
+[2022-09-29 16:32:04,570] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-09-29 16:32:04,735] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Le meilleurs des années 1990
+                                                                 | Sort Title | +1_7Best of the 1990s
+                                                                 | Label | +PMM
+[2022-09-29 16:32:04,928] [builder.py:2513]           [INFO]     | Details: have been updated
+[2022-09-29 16:32:04,929] [builder.py:2517]           [INFO]     | 
+[2022-09-29 16:32:04,929] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Best of the 1990s'
+[2022-09-29 16:32:05,010] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-09-29 16:32:05,011] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-09-29 16:32:05,011] [plex_meta_manager.py:709]  [INFO]     |                               Finished Best of the 1990s Collection                                |
+[2022-09-29 16:32:05,011] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:07                                    |
+[2022-09-29 16:32:05,011] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

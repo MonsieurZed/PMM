@@ -1,0 +1,174 @@
+[2022-09-29 22:02:27,061] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-09-29 22:02:27,061] [builder.py:197]            [INFO]     |                       Amazon Originals 2021-2025 Collection in Z. 2 - Series                       |
+[2022-09-29 22:02:27,062] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-09-29 22:02:27,062] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-09-29 22:02:27,063] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-09-29 22:02:27,063] [builder.py:219]            [INFO]     |========================= Validating Amazon Originals 2021-2025 Attributes =========================|
+[2022-09-29 22:02:27,064] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-09-29 22:02:27,064] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-09-29 22:02:27,065] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-09-29 22:02:27,065] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-09-29 22:02:27,065] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-09-29 22:02:27,065] [builder.py:544]            [DEBUG]    | Value: originally_available.desc                                                                   |
+[2022-09-29 22:02:27,084] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 22:02:27,085] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-09-29 22:02:27,085] [builder.py:632]            [DEBUG]    | Value: +4_APPLE                                                                                    |
+[2022-09-29 22:02:27,085] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 22:02:27,086] [builder.py:631]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-09-29 22:02:27,086] [builder.py:632]            [DEBUG]    | Value: ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2021-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=250&companies=co0319272')]) |
+[2022-09-29 22:02:28,314] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 22:02:28,315] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-09-29 22:02:28,315] [builder.py:632]            [DEBUG]    | Value: All Amazon Originals From 2021-2025                                                         |
+[2022-09-29 22:02:28,315] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 22:02:28,315] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-09-29 22:02:28,315] [builder.py:632]            [DEBUG]    | Value: https://i.imgur.com/nU3gqqB.png                                                             |
+[2022-09-29 22:02:28,321] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 22:02:28,321] [builder.py:631]            [DEBUG]    | Validating Method: url_background                                                                  |
+[2022-09-29 22:02:28,322] [builder.py:632]            [DEBUG]    | Value: https://i.imgur.com/2jfs7oS.png                                                             |
+[2022-09-29 22:02:28,335] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-09-29 22:02:28,336] [plex.py:793]               [DEBUG]    | Looking for: Amazon Originals 2021-2025                                                            |
+[2022-09-29 22:02:28,336] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-09-29 22:02:28,336] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-09-29 22:02:28,337] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-09-29 22:02:28,337] [plex_meta_manager.py:563]  [INFO]     |========================== Running Amazon Originals 2021-2025 Collection ===========================|
+[2022-09-29 22:02:28,337] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-09-29 22:02:28,338] [plex_meta_manager.py:570]  [INFO]     | Smart Show Label                                                                                   |
+                                                                 | Sort By: originally_available.desc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Amazon Originals 2021-2025
+[2022-09-29 22:02:28,339] [plex_meta_manager.py:575]  [INFO]     | 
+[2022-09-29 22:02:28,339] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync
+[2022-09-29 22:02:28,339] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-09-29 22:02:28,340] [plex_meta_manager.py:580]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2021-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=250&companies=co0319272', 'limit': 0}
+[2022-09-29 22:02:28,340] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-09-29 22:02:28,340] [imdb.py:184]               [INFO]     | Processing IMDb List: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2021-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=250&companies=co0319272
+[2022-09-29 22:02:32,573] [imdb.py:135]               [DEBUG]    | 89 IMDb IDs Found: ['tt12923632', 'tt8749198', 'tt15333984', 'tt14044212', 'tt12637874', 'tt16233952', 'tt9071456', 'tt8291284', 'tt11771270', 'tt22179944', 'tt13139228', 'tt21293078', 'tt14179942', 'tt13622204', 'tt7631058', 'tt14544190', 'tt19896302', 'tt11743610', 'tt21153686', 'tt14016500', 'tt8226360', 'tt2597804', 'tt10623646', 'tt11102716', 'tt13361448', 'tt11921588', 'tt14168162', 'tt11685912', 'tt3706352', 'tt4123432', 'tt16232892', 'tt2180339', 'tt15261910', 'tt6462958', 'tt16911310', 'tt9288030', 'tt10931784', 'tt12971802', 'tt11286210', 'tt13650600', 'tt14571576', 'tt14571518', 'tt15660422', 'tt16415198', 'tt16280900', 'tt15791014', 'tt10608454', 'tt4995540', 'tt14734228', 'tt15553596', 'tt7462410', 'tt15076878', 'tt13368190', 'tt8431322', 'tt15526556', 'tt10937180', 'tt13622180', 'tt3108894', 'tt15385930', 'tt13372944', 'tt13372794', 'tt13372884', 'tt15475628', 'tt14679942', 'tt13372992', 'tt11771006', 'tt12800524', 'tt10155932', 'tt15213278', 'tt16308040', 'tt14731254', 'tt9777666', 'tt11383348', 'tt14668426', 'tt12023002', 'tt8635092', 'tt14532426', 'tt14532412', 'tt14532380', 'tt14586552', 'tt14264844', 'tt13356646', 'tt6704972', 'tt10344410', 'tt14450630', 'tt0499097', 'tt22262682', 'tt10333426', 'tt11092594']
+[2022-09-29 22:02:32,574] [builder.py:1540]           [DEBUG]    | 
+[2022-09-29 22:02:32,575] [builder.py:1541]           [DEBUG]    | 89 IDs Found: [('tt12923632', 'imdb'), ('tt8749198', 'imdb'), ('tt15333984', 'imdb'), ('tt14044212', 'imdb'), ('tt12637874', 'imdb'), ('tt16233952', 'imdb'), ('tt9071456', 'imdb'), ('tt8291284', 'imdb'), ('tt11771270', 'imdb'), ('tt22179944', 'imdb'), ('tt13139228', 'imdb'), ('tt21293078', 'imdb'), ('tt14179942', 'imdb'), ('tt13622204', 'imdb'), ('tt7631058', 'imdb'), ('tt14544190', 'imdb'), ('tt19896302', 'imdb'), ('tt11743610', 'imdb'), ('tt21153686', 'imdb'), ('tt14016500', 'imdb'), ('tt8226360', 'imdb'), ('tt2597804', 'imdb'), ('tt10623646', 'imdb'), ('tt11102716', 'imdb'), ('tt13361448', 'imdb'), ('tt11921588', 'imdb'), ('tt14168162', 'imdb'), ('tt11685912', 'imdb'), ('tt3706352', 'imdb'), ('tt4123432', 'imdb'), ('tt16232892', 'imdb'), ('tt2180339', 'imdb'), ('tt15261910', 'imdb'), ('tt6462958', 'imdb'), ('tt16911310', 'imdb'), ('tt9288030', 'imdb'), ('tt10931784', 'imdb'), ('tt12971802', 'imdb'), ('tt11286210', 'imdb'), ('tt13650600', 'imdb'), ('tt14571576', 'imdb'), ('tt14571518', 'imdb'), ('tt15660422', 'imdb'), ('tt16415198', 'imdb'), ('tt16280900', 'imdb'), ('tt15791014', 'imdb'), ('tt10608454', 'imdb'), ('tt4995540', 'imdb'), ('tt14734228', 'imdb'), ('tt15553596', 'imdb'), ('tt7462410', 'imdb'), ('tt15076878', 'imdb'), ('tt13368190', 'imdb'), ('tt8431322', 'imdb'), ('tt15526556', 'imdb'), ('tt10937180', 'imdb'), ('tt13622180', 'imdb'), ('tt3108894', 'imdb'), ('tt15385930', 'imdb'), ('tt13372944', 'imdb'), ('tt13372794', 'imdb'), ('tt13372884', 'imdb'), ('tt15475628', 'imdb'), ('tt14679942', 'imdb'), ('tt13372992', 'imdb'), ('tt11771006', 'imdb'), ('tt12800524', 'imdb'), ('tt10155932', 'imdb'), ('tt15213278', 'imdb'), ('tt16308040', 'imdb'), ('tt14731254', 'imdb'), ('tt9777666', 'imdb'), ('tt11383348', 'imdb'), ('tt14668426', 'imdb'), ('tt12023002', 'imdb'), ('tt8635092', 'imdb'), ('tt14532426', 'imdb'), ('tt14532412', 'imdb'), ('tt14532380', 'imdb'), ('tt14586552', 'imdb'), ('tt14264844', 'imdb'), ('tt13356646', 'imdb'), ('tt6704972', 'imdb'), ('tt10344410', 'imdb'), ('tt14450630', 'imdb'), ('tt0499097', 'imdb'), ('tt22262682', 'imdb'), ('tt10333426', 'imdb'), ('tt11092594', 'imdb')]
+[2022-09-29 22:02:32,575] [builder.py:1542]           [DEBUG]    | 
+[2022-09-29 22:02:32,592] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt12923632
+[2022-09-29 22:02:32,621] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 95555
+[2022-09-29 22:02:32,640] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt22179944
+[2022-09-29 22:02:32,658] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21153686
+[2022-09-29 22:02:32,964] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt14571576
+[2022-09-29 22:02:32,980] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt14571518
+[2022-09-29 22:02:32,998] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt16415198
+[2022-09-29 22:02:33,015] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt15791014
+[2022-09-29 22:02:33,383] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt15475628
+[2022-09-29 22:02:33,538] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt16308040
+[2022-09-29 22:02:33,725] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt14532412
+[2022-09-29 22:02:33,877] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt22262682
+[2022-09-29 22:02:34,139] [builder.py:2064]           [INFO]     | 
+[2022-09-29 22:02:34,140] [builder.py:2065]           [INFO]     |========================= Adding to Amazon Originals 2021-2025 Collection ==========================|
+[2022-09-29 22:02:34,140] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-09-29 22:02:34,156] [builder.py:2080]           [INFO]     |  1/10 | Amazon Originals 2021-2025 Collection | + | Le Seigneur des anneaux : Les Anneaux de pouvoir |
+[2022-09-29 22:02:34,412] [builder.py:2080]           [INFO]     |  2/10 | Amazon Originals 2021-2025 Collection | + | La liste finale                                |
+[2022-09-29 22:02:34,882] [builder.py:2080]           [INFO]     |  3/10 | Amazon Originals 2021-2025 Collection | + | L'Été où je suis devenue jolie                 |
+[2022-09-29 22:02:35,195] [builder.py:2080]           [INFO]     |  4/10 | Amazon Originals 2021-2025 Collection | + | Paper Girls                                    |
+[2022-09-29 22:02:35,499] [builder.py:2080]           [INFO]     |  5/10 | Amazon Originals 2021-2025 Collection | + | Vers les étoiles                               |
+[2022-09-29 22:02:35,872] [builder.py:2080]           [INFO]     |  6/10 | Amazon Originals 2021-2025 Collection | + | Outer Range                                    |
+[2022-09-29 22:02:36,173] [builder.py:2080]           [INFO]     |  7/10 | Amazon Originals 2021-2025 Collection | + | Reacher                                        |
+[2022-09-29 22:02:36,512] [builder.py:2080]           [INFO]     |  8/10 | Amazon Originals 2021-2025 Collection | + | La Roue du temps                               |
+[2022-09-29 22:02:36,768] [builder.py:2080]           [INFO]     |  9/10 | Amazon Originals 2021-2025 Collection | + | Solos                                          |
+[2022-09-29 22:02:36,985] [builder.py:2080]           [INFO]     | 10/10 | Amazon Originals 2021-2025 Collection | + | Panic                                          |
+[2022-09-29 22:02:37,238] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-09-29 22:02:37,239] [builder.py:2102]           [INFO]     | 10 Shows Processed 10 Shows Added                                                                  |
+[2022-09-29 22:02:37,239] [builder.py:2228]           [INFO]     |                                                                                                    |
+[2022-09-29 22:02:37,240] [builder.py:2229]           [INFO]     |============================ Missing Movies from Library: Z. 2 - Series ============================|
+[2022-09-29 22:02:37,241] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-09-29 22:02:37,264] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Somebody I Used to Know (TMDb: 869112)                 |
+[2022-09-29 22:02:37,302] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Something from Tiffany's (2022) (TMDb: 916053)         |
+[2022-09-29 22:02:37,319] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | The People We Hate at the Wedding (2022) (TMDb: 802372) |
+[2022-09-29 22:02:37,361] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | My Policeman (2022) (TMDb: 744114)                     |
+[2022-09-29 22:02:37,377] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Flight/Risk (2022) (TMDb: 1001869)                     |
+[2022-09-29 22:02:37,419] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Good Night Oppy (2022) (TMDb: 972545)                  |
+[2022-09-29 22:02:37,444] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Wildcat (2022) (TMDb: 1019446)                         |
+[2022-09-29 22:02:37,469] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Don't Make Me Go (2022) (TMDb: 861072)                 |
+[2022-09-29 22:02:37,503] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Iain Stirling Failing Upwards (2022) (TMDb: 980618)    |
+[2022-09-29 22:02:37,966] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | All the Old Knives (2022) (TMDb: 294793)               |
+[2022-09-29 22:02:38,112] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Fantastic Beasts: The Secrets of Dumbledore (2022) (TMDb: 338953) |
+[2022-09-29 22:02:38,131] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Deep Water (2022) (TMDb: 619979)                       |
+[2022-09-29 22:02:38,155] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | I Want You Back (2022) (TMDb: 680860)                  |
+[2022-09-29 22:02:38,171] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Nanny (2022) (TMDb: 843932)                            |
+[2022-09-29 22:02:38,196] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Lucy and Desi (2022) (TMDb: 736280)                    |
+[2022-09-29 22:02:38,212] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Master (2022) (TMDb: 680829)                           |
+[2022-09-29 22:02:38,229] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Emergency (2022) (TMDb: 819309)                        |
+[2022-09-29 22:02:38,246] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Yearly Departed (2021) (TMDb: 919330)                  |
+[2022-09-29 22:02:38,262] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Shatner in Space (2021) (TMDb: 912552)                 |
+[2022-09-29 22:02:38,812] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Being the Ricardos (2021) (TMDb: 517088)               |
+[2022-09-29 22:02:38,831] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Mayor Pete (2021) (TMDb: 782310)                       |
+[2022-09-29 22:02:38,845] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | The Tender Bar (2021) (TMDb: 727293)                   |
+[2022-09-29 22:02:38,873] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Justin Bieber: Our World (2021) (TMDb: 871858)         |
+[2022-09-29 22:02:38,891] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Madres (2021) (TMDb: 796428)                           |
+[2022-09-29 22:02:39,357] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | The Manor (2021) (TMDb: 767499)                        |
+[2022-09-29 22:02:39,383] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Black as Night (2021) (TMDb: 767504)                   |
+[2022-09-29 22:02:39,433] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Bingo Hell (2021) (TMDb: 802226)                       |
+[2022-09-29 22:02:39,458] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Birds of Paradise (2021) (TMDb: 667969)                |
+[2022-09-29 22:02:39,897] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Encounter (2021) (TMDb: 728526)                        |
+[2022-09-29 22:02:39,912] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Cinderella (2021) (TMDb: 593910)                       |
+[2022-09-29 22:02:39,929] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Val (2021) (TMDb: 834027)                              |
+[2022-09-29 22:02:40,079] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | The Tomorrow War (2021) (TMDb: 588228)                 |
+[2022-09-29 22:02:40,119] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Mary J. Blige's My Life (2021) (TMDb: 835860)          |
+[2022-09-29 22:02:40,146] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | 7th & Union (2021) (TMDb: 845887)                      |
+[2022-09-29 22:02:40,202] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Everybody's Talking About Jamie (2021) (TMDb: 624899)  |
+[2022-09-29 22:02:40,219] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Borat: VHS Cassette of Material Deemed “Sub-acceptable” By Kazakhstan Ministry of Censorship and Circumcision (2021) (TMDb: 818789) |
+[2022-09-29 22:02:40,261] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | See Us Unite for Change (2021) (TMDb: 833548)          |
+[2022-09-29 22:02:40,287] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | P!NK: All I Know So Far (2021) (TMDb: 807597)          |
+[2022-09-29 22:02:40,311] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | What Drives Us (2021) (TMDb: 817775)                   |
+[2022-09-29 22:02:40,837] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Tom Clancy's Without Remorse (2021) (TMDb: 567189)     |
+[2022-09-29 22:02:41,309] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Bliss (2021) (TMDb: 613911)                            |
+[2022-09-29 22:02:41,333] [builder.py:2243]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | My Name Is Pauli Murray (2021) (TMDb: 776589)          |
+[2022-09-29 22:02:41,334] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-09-29 22:02:41,334] [builder.py:2249]           [INFO]     | 42 Movies Missing                                                                                  |
+[2022-09-29 22:02:41,365] [builder.py:2274]           [INFO]     |                                                                                                    |
+[2022-09-29 22:02:41,369] [builder.py:2275]           [INFO]     |====================== Missing Shows from Library: Amazon Originals 2021-2025 ======================|
+[2022-09-29 22:02:41,370] [builder.py:2276]           [INFO]     |                                                                                                    |
+[2022-09-29 22:02:42,003] [builder.py:2288]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Mr. & Mrs. Smith (2022) (TVDb: 396773)                 |
+[2022-09-29 22:02:42,659] [builder.py:2288]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Fallout (TVDb: 416744)                                 |
+[2022-09-29 22:02:43,351] [builder.py:2288]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | The Peripheral (TVDb: 349187)                          |
+[2022-09-29 22:02:44,120] [builder.py:2288]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | The English (TVDb: 402602)                             |
+[2022-09-29 22:02:44,842] [builder.py:2288]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Sprung (TVDb: 401967)                                  |
+[2022-09-29 22:02:45,447] [builder.py:2288]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Cosmic Love (TVDb: 422827)                             |
+[2022-09-29 22:02:46,164] [builder.py:2288]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | A League of Their Own (2022) (TVDb: 402931)            |
+[2022-09-29 22:02:46,857] [builder.py:2288]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | The Kids in the Hall (2022) (TVDb: 419533)             |
+[2022-09-29 22:02:47,537] [builder.py:2288]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Bosch: Legacy (TVDb: 414553)                           |
+[2022-09-29 22:02:47,571] [builder.py:2288]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Lizzo’s Watch Out for the Big Grrrls (TVDb: 416823)    |
+[2022-09-29 22:02:48,205] [builder.py:2288]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Phat Tuesdays (TVDb: 414450)                           |
+[2022-09-29 22:02:48,888] [builder.py:2288]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Harlem (TVDb: 411866)                                  |
+[2022-09-29 22:02:49,596] [builder.py:2288]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | With Love (TVDb: 404298)                               |
+[2022-09-29 22:02:50,239] [builder.py:2288]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Everybody Loves Natti (TVDb: 411661)                   |
+[2022-09-29 22:02:51,106] [builder.py:2288]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Tampa Baes (TVDb: 407035)                              |
+[2022-09-29 22:02:51,877] [builder.py:2288]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Judy Justice (TVDb: 391619)                            |
+[2022-09-29 22:02:52,665] [builder.py:2288]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Maradona: Sueño bendito (TVDb: 397908)                 |
+[2022-09-29 22:02:53,360] [builder.py:2288]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Always Jane (TVDb: 410948)                             |
+[2022-09-29 22:02:54,059] [builder.py:2288]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | I Know What You Did Last Summer (TVDb: 390256)         |
+[2022-09-29 22:02:54,735] [builder.py:2288]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Curse of the Chippendales (TVDb: 408856)               |
+[2022-09-29 22:02:55,381] [builder.py:2288]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | LuLaRich (TVDb: 408854)                                |
+[2022-09-29 22:02:56,040] [builder.py:2288]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Prime Day Show (TVDb: 405074)                          |
+[2022-09-29 22:02:56,700] [builder.py:2288]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | Borat's American Lockdown & Debunking Borat (TVDb: 403269) |
+[2022-09-29 22:02:57,601] [builder.py:2288]           [INFO]     | Amazon Originals 2021-2025 Collection | ? | The Underground Railroad (TVDb: 373877)                |
+[2022-09-29 22:02:57,603] [builder.py:2293]           [INFO]     |                                                                                                    |
+[2022-09-29 22:02:57,603] [builder.py:2294]           [INFO]     | 24 Shows Missing                                                                                   |
+[2022-09-29 22:02:57,664] [plex.py:711]               [DEBUG]    | Smart Collection Test: ?type=2&sort=originallyAvailableAt%3Adesc&show.label=213523                 |
+[2022-09-29 22:02:57,832] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-09-29 22:02:57,832] [builder.py:2442]           [INFO]     |==================== Updating Details of Amazon Originals 2021-2025 Collection =====================|
+[2022-09-29 22:02:57,832] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-09-29 22:02:58,296] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | All Amazon Originals From 2021-2025
+                                                                 | Sort Title | +4_APPLE
+                                                                 | Label | +PMM
+[2022-09-29 22:02:58,851] [builder.py:2513]           [INFO]     | Details: have been updated
+[2022-09-29 22:02:58,852] [builder.py:2517]           [INFO]     | 
+[2022-09-29 22:02:58,852] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Amazon Originals 2021-2025'
+[2022-09-29 22:02:58,852] [util.py:150]               [DEBUG]    | 1 poster found:
+[2022-09-29 22:02:58,853] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://i.imgur.com/nU3gqqB.png
+[2022-09-29 22:02:58,853] [util.py:150]               [DEBUG]    | 1 background found:
+[2022-09-29 22:02:58,853] [util.py:152]               [DEBUG]    | Method: url_background Background: https://i.imgur.com/2jfs7oS.png
+[2022-09-29 22:02:58,895] [library.py:170]            [INFO]     | Detail: url_poster updated poster to [URL] https://i.imgur.com/nU3gqqB.png
+[2022-09-29 22:02:58,949] [library.py:186]            [INFO]     | Detail: url_background updated background to [URL] https://i.imgur.com/2jfs7oS.png
+[2022-09-29 22:02:59,030] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-09-29 22:02:59,031] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-09-29 22:02:59,031] [plex_meta_manager.py:709]  [INFO]     |                           Finished Amazon Originals 2021-2025 Collection                           |
+[2022-09-29 22:02:59,031] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:31                                    |
+[2022-09-29 22:02:59,032] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

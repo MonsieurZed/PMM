@@ -1,0 +1,43 @@
+[2022-10-11 08:25:52,014] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 08:25:52,014] [builder.py:197]            [INFO]     |                              Top of 1970s Collection in Z. 1 - Films                               |
+[2022-10-11 08:25:52,014] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 08:25:52,015] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 08:25:52,015] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 08:25:52,015] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:25:52,015] [meta.py:128]               [DEBUG]    | Template Chart                                                                                     |
+[2022-10-11 08:25:52,015] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Chart'), ('num', 6), ('year', 1970)])                                 |
+[2022-10-11 08:25:52,015] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:25:52,016] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Chart'), ('num', 6), ('year', 1970), ('collection_name', 'Top of 1970s'), ('mapping_name', 'Top of 1970s'), ('library_type', 'movie'), ('library_name', 'Z. 1 - Films'), ('name_encoded', 'Chart'), ('num_encoded', '6'), ('year_encoded', '1970'), ('collection_name_encoded', 'Top%20of%201970s'), ('mapping_name_encoded', 'Top%20of%201970s'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%201%20-%20Films'), ('collection_sort', 'Top of 1970s')]) |
+[2022-10-11 08:25:52,016] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:25:52,016] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 08:25:52,016] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:25:52,016] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 08:25:52,017] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:25:52,017] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+2_6DECADE of 1970', 'sync_mode': 'sync', 'smart_label': 'audience_rating.desc'} |
+[2022-10-11 08:25:52,017] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:25:52,017] [builder.py:219]            [INFO]     |================================ Validating Top of 1970s Attributes ================================|
+[2022-10-11 08:25:52,017] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:25:52,017] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-11 08:25:52,017] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-11 08:25:52,018] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:25:52,018] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-11 08:25:52,018] [builder.py:544]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-10-11 08:25:52,032] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:25:52,033] [builder.py:631]            [DEBUG]    | Validating Method: tmdb_discover                                                                   |
+[2022-10-11 08:25:52,033] [builder.py:632]            [DEBUG]    | Value: ordereddict([('primary_release_date.gte', '01/01/1970'), ('primary_release_date.lte', '12/31/1979'), ('with_original_language', 'fr'), ('sort_by', 'popularity.desc'), ('collection_mode', 'hide_items')]) |
+[2022-10-11 08:25:52,033] [util.py:745]               [WARNING]  | Collection Warning: tmdb_discover limit attribute not found using 100 as default                   |
+[2022-10-11 08:25:52,033] [plex_meta_manager.py:696]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 559, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str)
+                                                                 |   File "/modules/builder.py", line 715, in __init__
+                                                                 |     self._tmdb(method_name, method_data)
+                                                                 |   File "/modules/builder.py", line 1316, in _tmdb
+                                                                 |     raise Failed(f"{self.Type} Error: {method_name} {discover_method} attribute not supported")
+                                                                 | modules.util.Failed: Collection Error: tmdb_discover collection_mode attribute not supported
+                                                                 | 
+[2022-10-11 08:25:52,034] [plex_meta_manager.py:697]  [ERROR]    | Collection Error: tmdb_discover collection_mode attribute not supported
+[2022-10-11 08:25:52,035] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-11 08:25:52,035] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 08:25:52,035] [plex_meta_manager.py:709]  [INFO]     |                                  Finished Top of 1970s Collection                                  |
+[2022-10-11 08:25:52,035] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 08:25:52,035] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

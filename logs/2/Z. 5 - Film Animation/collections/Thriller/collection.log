@@ -1,0 +1,132 @@
+[2022-10-11 10:08:47,748] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 10:08:47,748] [builder.py:197]            [INFO]     |                            Thriller Collection in Z. 5 - Film Animation                            |
+[2022-10-11 10:08:47,748] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 10:08:47,748] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 10:08:47,748] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 10:08:47,748] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:08:47,748] [meta.py:128]               [DEBUG]    | Template Genre                                                                                     |
+[2022-10-11 10:08:47,749] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Genre')])                                                             |
+[2022-10-11 10:08:47,749] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:08:47,749] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Genre'), ('collection_name', 'Thriller'), ('mapping_name', 'Thriller'), ('library_type', 'movie'), ('library_name', 'Z. 5 - Film Animation'), ('name_encoded', 'Genre'), ('collection_name_encoded', 'Thriller'), ('mapping_name_encoded', 'Thriller'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%205%20-%20Film%20Animation'), ('collection_sort', 'Thriller')]) |
+[2022-10-11 10:08:47,749] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:08:47,749] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 10:08:47,749] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:08:47,749] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 10:08:47,750] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:08:47,750] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+3_Thriller', 'sync_mode': 'sync', 'smart_label': 'audience_rating.desc'} |
+[2022-10-11 10:08:47,750] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:08:47,750] [builder.py:219]            [INFO]     |================================== Validating Thriller Attributes ==================================|
+[2022-10-11 10:08:47,751] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:08:47,751] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-11 10:08:47,751] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-11 10:08:47,751] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:08:47,751] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-11 10:08:47,751] [builder.py:544]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-10-11 10:08:47,767] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:08:47,768] [builder.py:631]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-10-11 10:08:47,768] [builder.py:632]            [DEBUG]    | Value: ordereddict([('genre', 'Thriller')])                                                        |
+[2022-10-11 10:08:47,822] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:08:47,822] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-11 10:08:47,822] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_THRILLER.png            |
+[2022-10-11 10:08:48,018] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:08:48,018] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-10-11 10:08:48,018] [builder.py:632]            [DEBUG]    | Value: Thriller Film is a genre that revolves around anticipation and suspense. The aim for Thrillers is to keep the audience alert and on the edge of their seats. The protagonist in these films is set against a problem – an escape, a mission, or a mystery. No matter what sub-genre a Thriller film falls into, it will emphasize the danger that the protagonist faces. The tension with the main problem is built on throughout the film and leads to a highly stressful climax. |
+[2022-10-11 10:08:48,019] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:08:48,019] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 10:08:48,019] [builder.py:632]            [DEBUG]    | Value: +3_Thriller                                                                                 |
+[2022-10-11 10:08:48,024] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:08:48,025] [plex.py:793]               [DEBUG]    | Looking for: Thriller                                                                              |
+[2022-10-11 10:08:48,025] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 10:08:48,025] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 10:08:48,025] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 10:08:48,025] [plex_meta_manager.py:563]  [INFO]     |=================================== Running Thriller Collection ====================================|
+[2022-10-11 10:08:48,026] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-10-11 10:08:48,026] [plex_meta_manager.py:570]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: audience_rating.desc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Thriller
+[2022-10-11 10:08:48,027] [plex_meta_manager.py:575]  [INFO]     | 
+[2022-10-11 10:08:48,027] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync
+[2022-10-11 10:08:48,027] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 10:08:48,027] [plex_meta_manager.py:580]  [DEBUG]    | Builder: plex_search: (1, 'Plex Movie Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Genre is Thriller', '?type=1&sort=titleSort&push=1&genre=27817&pop=1')
+[2022-10-11 10:08:48,027] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 10:08:48,028] [plex.py:819]               [INFO]     | Processing Plex Movie Search
+                                                                 | Sort By: title.asc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Match any of the following:
+                                                                 |       Genre is Thriller
+[2022-10-11 10:08:48,211] [plex.py:864]               [DEBUG]    | 
+[2022-10-11 10:08:48,211] [plex.py:865]               [DEBUG]    | 44 Keys Found: [(21642, 'ratingKey'), (88590, 'ratingKey'), (88777, 'ratingKey'), (88778, 'ratingKey'), (88581, 'ratingKey'), (88789, 'ratingKey'), (88583, 'ratingKey'), (88589, 'ratingKey'), (88856, 'ratingKey'), (88843, 'ratingKey'), (89287, 'ratingKey'), (88582, 'ratingKey'), (88838, 'ratingKey'), (88781, 'ratingKey'), (21049, 'ratingKey'), (88906, 'ratingKey'), (88905, 'ratingKey'), (88759, 'ratingKey'), (88914, 'ratingKey'), (88880, 'ratingKey'), (88566, 'ratingKey'), (88577, 'ratingKey'), (88915, 'ratingKey'), (88576, 'ratingKey'), (88911, 'ratingKey'), (88867, 'ratingKey'), (88567, 'ratingKey'), (88912, 'ratingKey'), (88910, 'ratingKey'), (88574, 'ratingKey'), (88868, 'ratingKey'), (88918, 'ratingKey'), (88575, 'ratingKey'), (88890, 'ratingKey'), (88917, 'ratingKey'), (22317, 'ratingKey'), (21644, 'ratingKey'), (88600, 'ratingKey'), (88606, 'ratingKey'), (88613, 'ratingKey'), (88875, 'ratingKey'), (88626, 'ratingKey'), (21677, 'ratingKey'), (21358, 'ratingKey')]
+[2022-10-11 10:08:48,212] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 10:08:48,212] [builder.py:1541]           [DEBUG]    | 44 IDs Found: [(21642, 'ratingKey'), (88590, 'ratingKey'), (88777, 'ratingKey'), (88778, 'ratingKey'), (88581, 'ratingKey'), (88789, 'ratingKey'), (88583, 'ratingKey'), (88589, 'ratingKey'), (88856, 'ratingKey'), (88843, 'ratingKey'), (89287, 'ratingKey'), (88582, 'ratingKey'), (88838, 'ratingKey'), (88781, 'ratingKey'), (21049, 'ratingKey'), (88906, 'ratingKey'), (88905, 'ratingKey'), (88759, 'ratingKey'), (88914, 'ratingKey'), (88880, 'ratingKey'), (88566, 'ratingKey'), (88577, 'ratingKey'), (88915, 'ratingKey'), (88576, 'ratingKey'), (88911, 'ratingKey'), (88867, 'ratingKey'), (88567, 'ratingKey'), (88912, 'ratingKey'), (88910, 'ratingKey'), (88574, 'ratingKey'), (88868, 'ratingKey'), (88918, 'ratingKey'), (88575, 'ratingKey'), (88890, 'ratingKey'), (88917, 'ratingKey'), (22317, 'ratingKey'), (21644, 'ratingKey'), (88600, 'ratingKey'), (88606, 'ratingKey'), (88613, 'ratingKey'), (88875, 'ratingKey'), (88626, 'ratingKey'), (21677, 'ratingKey'), (21358, 'ratingKey')]
+[2022-10-11 10:08:48,212] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 10:08:48,216] [builder.py:2064]           [INFO]     | 
+[2022-10-11 10:08:48,217] [builder.py:2065]           [INFO]     |================================== Adding to Thriller Collection ===================================|
+[2022-10-11 10:08:48,217] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-11 10:08:48,235] [builder.py:2080]           [INFO]     |  1/44 | Thriller Collection | + | Akira (1988)                                                     |
+[2022-10-11 10:08:48,256] [builder.py:2080]           [INFO]     |  2/44 | Thriller Collection | + | Batman : Les Origines (2011)                                     |
+[2022-10-11 10:08:48,275] [builder.py:2080]           [INFO]     |  3/44 | Thriller Collection | + | Batman : The Dark Knight Returns, Part 1 (2012)                  |
+[2022-10-11 10:08:48,292] [builder.py:2080]           [INFO]     |  4/44 | Thriller Collection | + | Batman : The Dark Knight Returns, Part 2 (2013)                  |
+[2022-10-11 10:08:48,310] [builder.py:2080]           [INFO]     |  5/44 | Thriller Collection | + | Batman : Un deuil dans la famille (2020)                         |
+[2022-10-11 10:08:48,327] [builder.py:2080]           [INFO]     |  6/44 | Thriller Collection | + | Batman & Mr Freeze : SubZero (1998)                              |
+[2022-10-11 10:08:48,344] [builder.py:2080]           [INFO]     |  7/44 | Thriller Collection | + | Batman contre le Fantôme masqué (1993)                           |
+[2022-10-11 10:08:48,362] [builder.py:2080]           [INFO]     |  8/44 | Thriller Collection | + | Batman et Red Hood : Sous le masque rouge (2010)                 |
+[2022-10-11 10:08:48,377] [builder.py:2080]           [INFO]     |  9/44 | Thriller Collection | + | Batman vs. Robin (2015)                                          |
+[2022-10-11 10:08:48,463] [builder.py:2080]           [INFO]     | 10/44 | Thriller Collection | + | Batman, Assaut sur Arkham (2014)                                 |
+[2022-10-11 10:08:48,482] [builder.py:2080]           [INFO]     | 11/44 | Thriller Collection | + | Batman: Gotham by Gaslight (2018)                                |
+[2022-10-11 10:08:48,501] [builder.py:2080]           [INFO]     | 12/44 | Thriller Collection | + | Batman: Gotham Knight (2008)                                     |
+[2022-10-11 10:08:48,519] [builder.py:2080]           [INFO]     | 13/44 | Thriller Collection | + | Batman: La Mystérieuse Batwoman (2003)                           |
+[2022-10-11 10:08:48,535] [builder.py:2080]           [INFO]     | 14/44 | Thriller Collection | + | Batman: The Killing Joke (2016)                                  |
+[2022-10-11 10:08:48,556] [builder.py:2080]           [INFO]     | 15/44 | Thriller Collection | + | Demon Slayer : Kimetsu no Yaiba - Le film : Le train de l'Infini (2020) |
+[2022-10-11 10:08:48,572] [builder.py:2080]           [INFO]     | 16/44 | Thriller Collection | + | Détective Conan - Croisement dans l'ancienne capitale (2003)     |
+[2022-10-11 10:08:48,590] [builder.py:2080]           [INFO]     | 17/44 | Thriller Collection | + | Détective Conan - Décompte aux Cieux (2001)                      |
+[2022-10-11 10:08:48,607] [builder.py:2080]           [INFO]     | 18/44 | Thriller Collection | + | Détective Conan - Jolly Roger et le Cercueil bleu azur (2007)    |
+[2022-10-11 10:08:48,624] [builder.py:2080]           [INFO]     | 19/44 | Thriller Collection | + | Détective Conan - L'Arche du Ciel (2010)                         |
+[2022-10-11 10:08:48,642] [builder.py:2080]           [INFO]     | 20/44 | Thriller Collection | + | Détective Conan - L'assassin Dans Son Regard (2000)              |
+[2022-10-11 10:08:48,658] [builder.py:2080]           [INFO]     | 21/44 | Thriller Collection | + | Détective Conan - La 14éme Cible (1998)                          |
+[2022-10-11 10:08:48,676] [builder.py:2080]           [INFO]     | 22/44 | Thriller Collection | + | Détective Conan - La lettre d’amour écarlate (2017)              |
+[2022-10-11 10:08:48,691] [builder.py:2080]           [INFO]     | 23/44 | Thriller Collection | + | Détective Conan - La Mélodie de la peur (2008)                   |
+[2022-10-11 10:08:48,709] [builder.py:2080]           [INFO]     | 24/44 | Thriller Collection | + | Détective Conan - Le Cauchemar Noir de Jais (2016)               |
+[2022-10-11 10:08:48,725] [builder.py:2080]           [INFO]     | 25/44 | Thriller Collection | + | Détective Conan - Le Chasseur noir de jais (2009)                |
+[2022-10-11 10:08:48,741] [builder.py:2080]           [INFO]     | 26/44 | Thriller Collection | + | Détective Conan - Le fantôme de Baker Street (2002)              |
+[2022-10-11 10:08:48,758] [builder.py:2080]           [INFO]     | 27/44 | Thriller Collection | + | Détective Conan - Le magicien de la fin du siècle (1999)         |
+[2022-10-11 10:08:48,777] [builder.py:2080]           [INFO]     | 28/44 | Thriller Collection | + | Détective Conan - Le magicien du ciel argenté (2004)             |
+[2022-10-11 10:08:48,793] [builder.py:2080]           [INFO]     | 29/44 | Thriller Collection | + | Détective Conan - Le Onzième Attaquant (2012)                    |
+[2022-10-11 10:08:48,867] [builder.py:2080]           [INFO]     | 30/44 | Thriller Collection | + | Detective Conan - Le requiem des détectives (2006)               |
+[2022-10-11 10:08:49,041] [builder.py:2080]           [INFO]     | 31/44 | Thriller Collection | + | Détective Conan - Le sniper dimensionnel (2014)                  |
+[2022-10-11 10:08:49,058] [builder.py:2080]           [INFO]     | 32/44 | Thriller Collection | + | Détective Conan - Les Quinze Minutes de silence (2011)           |
+[2022-10-11 10:08:49,074] [builder.py:2080]           [INFO]     | 33/44 | Thriller Collection | + | Détective Conan - Les tournesols des flammes infernales (2015)   |
+[2022-10-11 10:08:49,091] [builder.py:2080]           [INFO]     | 34/44 | Thriller Collection | + | Détective Conan - Stratégie en profondeur (2005)                 |
+[2022-10-11 10:08:49,107] [builder.py:2080]           [INFO]     | 35/44 | Thriller Collection | + | Détective Conan - Un détective privé en mer lointaine (2013)     |
+[2022-10-11 10:08:49,125] [builder.py:2080]           [INFO]     | 36/44 | Thriller Collection | + | Frankenweenie (2012)                                             |
+[2022-10-11 10:08:49,141] [builder.py:2080]           [INFO]     | 37/44 | Thriller Collection | + | Ghost in the Shell (1995)                                        |
+[2022-10-11 10:08:49,158] [builder.py:2080]           [INFO]     | 38/44 | Thriller Collection | + | Hellboy Animated : De sang et de fer (2007)                      |
+[2022-10-11 10:08:49,174] [builder.py:2080]           [INFO]     | 39/44 | Thriller Collection | + | Hellboy Animated : Le Sabre des Tempêtes (2006)                  |
+[2022-10-11 10:08:49,191] [builder.py:2080]           [INFO]     | 40/44 | Thriller Collection | + | Justice League Dark (2017)                                       |
+[2022-10-11 10:08:49,208] [builder.py:2080]           [INFO]     | 41/44 | Thriller Collection | + | Les Héros Pokémon (2002)                                         |
+[2022-10-11 10:08:49,226] [builder.py:2080]           [INFO]     | 42/44 | Thriller Collection | + | La Ligue des Justiciers : Échec (2012)                           |
+[2022-10-11 10:08:49,245] [builder.py:2080]           [INFO]     | 43/44 | Thriller Collection | + | Mutafukaz (2018)                                                 |
+[2022-10-11 10:08:49,261] [builder.py:2080]           [INFO]     | 44/44 | Thriller Collection | + | Perfect Blue (1998)                                              |
+[2022-10-11 10:08:50,642] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-11 10:08:50,642] [builder.py:2102]           [INFO]     | 44 Movies Processed 44 Movies Added                                                                |
+[2022-10-11 10:08:50,659] [plex.py:711]               [DEBUG]    | Smart Collection Test: ?type=1&sort=audienceRating%3Adesc&label=213054                             |
+[2022-10-11 10:08:50,865] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-11 10:08:50,865] [builder.py:2442]           [INFO]     |============================= Updating Details of Thriller Collection ==============================|
+[2022-10-11 10:08:50,865] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-11 10:08:51,147] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Thriller Film is a genre that revolves around anticipation and suspense. The aim for Thrillers is to keep the audience alert and on the edge of their seats. The protagonist in these films is set against a problem – an escape, a mission, or a mystery. No matter what sub-genre a Thriller film falls into, it will emphasize the danger that the protagonist faces. The tension with the main problem is built on throughout the film and leads to a highly stressful climax.
+                                                                 | Sort Title | +3_Thriller
+                                                                 | Label | +PMM
+[2022-10-11 10:08:51,436] [builder.py:2513]           [INFO]     | Details: have been updated
+[2022-10-11 10:08:51,436] [builder.py:2517]           [INFO]     | 
+[2022-10-11 10:08:51,437] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Thriller'
+[2022-10-11 10:08:51,437] [util.py:150]               [DEBUG]    | 1 poster found:
+[2022-10-11 10:08:51,437] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_THRILLER.png
+[2022-10-11 10:08:51,550] [library.py:170]            [INFO]     | Detail: url_poster updated poster to [URL] https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_THRILLER.png
+[2022-10-11 10:08:51,865] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-11 10:08:51,865] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 10:08:51,866] [plex_meta_manager.py:709]  [INFO]     |                                    Finished Thriller Collection                                    |
+[2022-10-11 10:08:51,866] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:04                                    |
+[2022-10-11 10:08:51,866] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

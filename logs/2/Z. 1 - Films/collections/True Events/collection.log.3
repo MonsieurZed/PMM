@@ -1,0 +1,538 @@
+[2022-10-11 08:07:39,598] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 08:07:39,598] [builder.py:197]            [INFO]     |                               True Events Collection in Z. 1 - Films                               |
+[2022-10-11 08:07:39,599] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 08:07:39,599] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 08:07:39,599] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 08:07:39,599] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:07:39,599] [meta.py:128]               [DEBUG]    | Template Genre                                                                                     |
+[2022-10-11 08:07:39,599] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Genre')])                                                             |
+[2022-10-11 08:07:39,600] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:07:39,600] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Genre'), ('collection_name', 'True Events'), ('mapping_name', 'True Events'), ('library_type', 'movie'), ('library_name', 'Z. 1 - Films'), ('name_encoded', 'Genre'), ('collection_name_encoded', 'True%20Events'), ('mapping_name_encoded', 'True%20Events'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%201%20-%20Films'), ('collection_sort', 'True Events')]) |
+[2022-10-11 08:07:39,600] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:07:39,600] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 08:07:39,600] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:07:39,600] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 08:07:39,601] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:07:39,601] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+3_True Events', 'sync_mode': 'sync', 'smart_label': 'audience_rating.desc'} |
+[2022-10-11 08:07:39,601] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:07:39,601] [builder.py:219]            [INFO]     |================================ Validating True Events Attributes =================================|
+[2022-10-11 08:07:39,601] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:07:39,601] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-11 08:07:39,601] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-11 08:07:39,601] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:07:39,602] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-11 08:07:39,602] [builder.py:544]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-10-11 08:07:39,617] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:07:39,617] [builder.py:631]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-10-11 08:07:39,617] [builder.py:632]            [DEBUG]    | Value: ['https://trakt.tv/users/manu101/lists/based-inspired-on-actual-events', 'https://trakt.tv/users/sparklindiamond/lists/based-on-true-events', 'https://trakt.tv/users/akw/lists/based-on-true-events', 'https://trakt.tv/users/golosinskiyjosh/lists/based-on-true-events'] |
+[2022-10-11 08:07:40,520] [trakt.py:423]              [ERROR]    | Trakt Error: List https://trakt.tv/users/akw/lists/based-on-true-events not found                  |
+[2022-10-11 08:07:40,681] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:07:40,682] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-10-11 08:07:40,682] [builder.py:632]            [DEBUG]    | Value: Movies based on true events.                                                                |
+[2022-10-11 08:07:40,682] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:07:40,682] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-11 08:07:40,682] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_TRUE.png                |
+[2022-10-11 08:07:40,692] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:07:40,693] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 08:07:40,693] [builder.py:632]            [DEBUG]    | Value: +3_True Events                                                                              |
+[2022-10-11 08:07:41,611] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 08:07:41,611] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 08:07:41,612] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 08:07:41,612] [plex_meta_manager.py:563]  [INFO]     |================================== Running True Events Collection ==================================|
+[2022-10-11 08:07:41,612] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-10-11 08:07:41,612] [plex_meta_manager.py:570]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: audience_rating.desc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is True Events
+[2022-10-11 08:07:41,613] [plex_meta_manager.py:575]  [INFO]     | 
+[2022-10-11 08:07:41,613] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync
+[2022-10-11 08:07:41,613] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 08:07:41,613] [plex_meta_manager.py:580]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/manu101/lists/based-inspired-on-actual-events
+[2022-10-11 08:07:41,613] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 08:07:41,613] [trakt.py:487]              [INFO]     | Processing Trakt List: https://trakt.tv/users/manu101/lists/based-inspired-on-actual-events
+[2022-10-11 08:07:41,923] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 08:07:41,923] [builder.py:1541]           [DEBUG]    | 345 IDs Found: [(424, 'tmdb'), (857, 'tmdb'), (324786, 'tmdb'), (197, 'tmdb'), (640, 'tmdb'), (380808, 'tmdb'), (109424, 'tmdb'), (363676, 'tmdb'), (402693, 'tmdb'), (820, 'tmdb'), (597, 'tmdb'), (296098, 'tmdb'), (321741, 'tmdb'), (228203, 'tmdb'), (423, 'tmdb'), (453, 'tmdb'), (205596, 'tmdb'), (7984, 'tmdb'), (76203, 'tmdb'), (1402, 'tmdb'), (152532, 'tmdb'), (205, 'tmdb'), (96721, 'tmdb'), (568, 'tmdb'), (293310, 'tmdb'), (853, 'tmdb'), (266856, 'tmdb'), (300671, 'tmdb'), (314365, 'tmdb'), (323677, 'tmdb'), (1913, 'tmdb'), (1271, 'tmdb'), (594, 'tmdb'), (68734, 'tmdb'), (319888, 'tmdb'), (353326, 'tmdb'), (302401, 'tmdb'), (316152, 'tmdb'), (296524, 'tmdb'), (10734, 'tmdb'), (281957, 'tmdb'), (308266, 'tmdb'), (300673, 'tmdb'), (327528, 'tmdb'), (318846, 'tmdb'), (304357, 'tmdb'), (273895, 'tmdb'), (361777, 'tmdb'), (227306, 'tmdb'), (294016, 'tmdb'), (612, 'tmdb'), (253412, 'tmdb'), (306819, 'tmdb'), (26428, 'tmdb'), (245168, 'tmdb'), (271714, 'tmdb'), (261023, 'tmdb'), (245698, 'tmdb'), (245916, 'tmdb'), (321697, 'tmdb'), (2133, 'tmdb'), (245706, 'tmdb'), (363841, 'tmdb'), (77338, 'tmdb'), (339984, 'tmdb'), (28178, 'tmdb'), (45269, 'tmdb'), (106646, 'tmdb'), (277216, 'tmdb'), (921, 'tmdb'), (80278, 'tmdb'), (276537, 'tmdb'), (462, 'tmdb'), (1949, 'tmdb'), (318279, 'tmdb'), (190859, 'tmdb'), (394161, 'tmdb'), (98548, 'tmdb'), (72570, 'tmdb'), (333596, 'tmdb'), (293646, 'tmdb'), (285783, 'tmdb'), (72976, 'tmdb'), (274479, 'tmdb'), (9829, 'tmdb'), (329718, 'tmdb'), (277154, 'tmdb'), (205775, 'tmdb'), (276907, 'tmdb'), (256924, 'tmdb'), (308032, 'tmdb'), (152760, 'tmdb'), (244761, 'tmdb'), (309299, 'tmdb'), (315664, 'tmdb'), (236751, 'tmdb'), (5915, 'tmdb'), (404378, 'tmdb'), (379441, 'tmdb'), (409502, 'tmdb'), (22881, 'tmdb'), (275, 'tmdb'), (855, 'tmdb'), (245913, 'tmdb'), (7735, 'tmdb'), (4982, 'tmdb'), (234200, 'tmdb'), (262481, 'tmdb'), (339408, 'tmdb'), (347026, 'tmdb'), (39486, 'tmdb'), (138843, 'tmdb'), (351339, 'tmdb'), (310307, 'tmdb'), (783, 'tmdb'), (37799, 'tmdb'), (325789, 'tmdb'), (264337, 'tmdb'), (347123, 'tmdb'), (44115, 'tmdb'), (318781, 'tmdb'), (259693, 'tmdb'), (3580, 'tmdb'), (17893, 'tmdb'), (82684, 'tmdb'), (413052, 'tmdb'), (97630, 'tmdb'), (25793, 'tmdb'), (340945, 'tmdb'), (49009, 'tmdb'), (344780, 'tmdb'), (68812, 'tmdb'), (295237, 'tmdb'), (213681, 'tmdb'), (198185, 'tmdb'), (75674, 'tmdb'), (374617, 'tmdb'), (390051, 'tmdb'), (87093, 'tmdb'), (112336, 'tmdb'), (82631, 'tmdb'), (376866, 'tmdb'), (401743, 'tmdb'), (181283, 'tmdb'), (339405, 'tmdb'), (328589, 'tmdb'), (295144, 'tmdb'), (265228, 'tmdb'), (87492, 'tmdb'), (84188, 'tmdb'), (77883, 'tmdb'), (50497, 'tmdb'), (104593, 'tmdb'), (250546, 'tmdb'), (222649, 'tmdb'), (256731, 'tmdb'), (197583, 'tmdb'), (254024, 'tmdb'), (192767, 'tmdb'), (402298, 'tmdb'), (267192, 'tmdb'), (387940, 'tmdb'), (301348, 'tmdb'), (363992, 'tmdb'), (334543, 'tmdb'), (335578, 'tmdb'), (354859, 'tmdb'), (407448, 'tmdb'), (424998, 'tmdb'), (332979, 'tmdb'), (416477, 'tmdb'), (399404, 'tmdb'), (359784, 'tmdb'), (433247, 'tmdb'), (396616, 'tmdb'), (73211, 'tmdb'), (48161, 'tmdb'), (435145, 'tmdb'), (289222, 'tmdb'), (390062, 'tmdb'), (339259, 'tmdb'), (395991, 'tmdb'), (336000, 'tmdb'), (351454, 'tmdb'), (337170, 'tmdb'), (310888, 'tmdb'), (491898, 'tmdb'), (369192, 'tmdb'), (407445, 'tmdb'), (395834, 'tmdb'), (423899, 'tmdb'), (420622, 'tmdb'), (418680, 'tmdb'), (397538, 'tmdb'), (392982, 'tmdb'), (371638, 'tmdb'), (446791, 'tmdb'), (429351, 'tmdb'), (316029, 'tmdb'), (424488, 'tmdb'), (396371, 'tmdb'), (446354, 'tmdb'), (453201, 'tmdb'), (1966, 'tmdb'), (476678, 'tmdb'), (389015, 'tmdb'), (455980, 'tmdb'), (464566, 'tmdb'), (467867, 'tmdb'), (440642, 'tmdb'), (433627, 'tmdb'), (429300, 'tmdb'), (468362, 'tmdb'), (467952, 'tmdb'), (493551, 'tmdb'), (339103, 'tmdb'), (474354, 'tmdb'), (390054, 'tmdb'), (435577, 'tmdb'), (369972, 'tmdb'), (414001, 'tmdb'), (454652, 'tmdb'), (528949, 'tmdb'), (432301, 'tmdb'), (536176, 'tmdb'), (346684, 'tmdb'), (472451, 'tmdb'), (490132, 'tmdb'), (504172, 'tmdb'), (429203, 'tmdb'), (491418, 'tmdb'), (339380, 'tmdb'), (489931, 'tmdb'), (351044, 'tmdb'), (394741, 'tmdb'), (353575, 'tmdb'), (506680, 'tmdb'), (411728, 'tmdb'), (465003, 'tmdb'), (508664, 'tmdb'), (627725, 'tmdb'), (606856, 'tmdb'), ('368109_1', 'tvdb_season'), (524348, 'tmdb'), (504608, 'tmdb'), (501907, 'tmdb'), (545836, 'tmdb'), (416144, 'tmdb'), (542921, 'tmdb'), (522212, 'tmdb'), (326288, 'tvdb'), (542417, 'tmdb'), (552178, 'tmdb'), (491283, 'tmdb'), (403300, 'tmdb'), (516486, 'tmdb'), (502425, 'tmdb'), (531876, 'tmdb'), (491926, 'tmdb'), (445629, 'tmdb'), (565310, 'tmdb'), (500438, 'tmdb'), (481880, 'tmdb'), (437626, 'tmdb'), (568467, 'tmdb'), (429422, 'tmdb'), (603206, 'tmdb'), (519056, 'tmdb'), (369301, 'tvdb'), (585244, 'tmdb'), (522241, 'tmdb'), (567970, 'tmdb'), (617762, 'tmdb'), (566397, 'tmdb'), (614560, 'tmdb'), (592863, 'tmdb'), (653744, 'tmdb'), (556984, 'tmdb'), (575452, 'tmdb'), (630566, 'tmdb'), (487291, 'tmdb'), (624899, 'tmdb'), (592984, 'tmdb'), (517412, 'tmdb'), (589612, 'tmdb'), (480857, 'tmdb'), (438808, 'tmdb'), (393624, 'tmdb'), (199373, 'tmdb'), (618219, 'tmdb'), (661914, 'tmdb'), (332283, 'tmdb'), (367230, 'tvdb'), (510298, 'tmdb'), (532865, 'tmdb'), (636565, 'tmdb'), (583406, 'tmdb'), (644583, 'tmdb'), (583903, 'tmdb'), (405556, 'tmdb'), (424201, 'tmdb'), (418879, 'tmdb'), (1360, 'tmdb'), (579051, 'tmdb'), (553087, 'tmdb'), (671295, 'tmdb'), (693827, 'tmdb'), (716594, 'tmdb'), (618416, 'tmdb'), (517088, 'tmdb'), (649394, 'tmdb'), (727293, 'tmdb'), (501841, 'tmdb'), (760336, 'tmdb'), (644495, 'tmdb'), (601470, 'tmdb'), (788045, 'tmdb'), (614917, 'tmdb'), (381284, 'tmdb'), (836009, 'tmdb'), (900783, 'tmdb'), (393499, 'tvdb'), (716612, 'tmdb'), (406016, 'tvdb'), (363024, 'tvdb'), (614934, 'tmdb'), (872585, 'tmdb'), (429451, 'tmdb'), (753342, 'tmdb'), (661231, 'tmdb'), (394447, 'tvdb'), ('418751_1', 'tvdb_season'), (607259, 'tmdb'), (418751, 'tvdb'), (809140, 'tmdb'), (975923, 'tmdb'), (653851, 'tmdb'), (698948, 'tmdb'), (387817, 'tvdb'), (597922, 'tmdb'), (812025, 'tmdb'), (801965, 'tmdb'), (301502, 'tmdb'), (423674, 'tvdb'), (401998, 'tvdb')]
+[2022-10-11 08:07:41,923] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 08:07:41,939] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 08:07:41,940] [plex_meta_manager.py:580]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/sparklindiamond/lists/based-on-true-events
+[2022-10-11 08:07:41,940] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 08:07:41,940] [trakt.py:487]              [INFO]     | Processing Trakt List: https://trakt.tv/users/sparklindiamond/lists/based-on-true-events
+[2022-10-11 08:07:42,110] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 08:07:42,110] [builder.py:1541]           [DEBUG]    | 63 IDs Found: [(341881, 'tmdb'), (339405, 'tmdb'), (481811, 'tmdb'), (108211, 'tmdb'), (404378, 'tmdb'), (597, 'tmdb'), (1852, 'tmdb'), (80278, 'tmdb'), (236751, 'tmdb'), (43959, 'tmdb'), (339984, 'tmdb'), (864, 'tmdb'), (15121, 'tmdb'), (8915, 'tmdb'), (118289, 'tmdb'), (866, 'tmdb'), (418680, 'tmdb'), (215211, 'tmdb'), (316029, 'tmdb'), (112336, 'tmdb'), (209451, 'tmdb'), (13967, 'tmdb'), (75900, 'tmdb'), (10544, 'tmdb'), (140823, 'tmdb'), (16052, 'tmdb'), (266856, 'tmdb'), (9829, 'tmdb'), (289222, 'tmdb'), (44115, 'tmdb'), (27176, 'tmdb'), (426232, 'tmdb'), (481847, 'tmdb'), (340027, 'tmdb'), (438446, 'tmdb'), (158999, 'tmdb'), (450322, 'tmdb'), (440596, 'tmdb'), (474104, 'tmdb'), (555682, 'tmdb'), (407588, 'tmdb'), (42980, 'tmdb'), (470401, 'tmdb'), (457799, 'tmdb'), (360086, 'tmdb'), (9878, 'tmdb'), (70468, 'tmdb'), (504608, 'tmdb'), (424694, 'tmdb'), (371718, 'tmdb'), (394741, 'tmdb'), (64831, 'tmdb'), (296096, 'tmdb'), (84287, 'tmdb'), (331781, 'tmdb'), (213971, 'tmdb'), (299536, 'tmdb'), (574151, 'tmdb'), (10024, 'tmdb'), (44363, 'tmdb'), (206192, 'tmdb'), (510026, 'tmdb'), (614934, 'tmdb')]
+[2022-10-11 08:07:42,110] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 08:07:42,113] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 08:07:42,113] [plex_meta_manager.py:580]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/golosinskiyjosh/lists/based-on-true-events
+[2022-10-11 08:07:42,114] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 08:07:42,114] [trakt.py:487]              [INFO]     | Processing Trakt List: https://trakt.tv/users/golosinskiyjosh/lists/based-on-true-events
+[2022-10-11 08:07:42,274] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 08:07:42,275] [builder.py:1541]           [DEBUG]    | 111 IDs Found: [(5915, 'tmdb'), (74465, 'tmdb'), (1402, 'tmdb'), (82684, 'tmdb'), (43959, 'tmdb'), (44115, 'tmdb'), (769, 'tmdb'), (11322, 'tmdb'), (82633, 'tmdb'), (4169, 'tmdb'), (13466, 'tmdb'), (652, 'tmdb'), (197, 'tmdb'), (475, 'tmdb'), (568, 'tmdb'), (453, 'tmdb'), (22881, 'tmdb'), (11170, 'tmdb'), (14292, 'tmdb'), (109410, 'tmdb'), (60308, 'tmdb'), (22972, 'tmdb'), (855, 'tmdb'), (25, 'tmdb'), (857, 'tmdb'), (676, 'tmdb'), (853, 'tmdb'), (424, 'tmdb'), (2253, 'tmdb'), (127372, 'tmdb'), (13813, 'tmdb'), (423, 'tmdb'), (3580, 'tmdb'), (14635, 'tmdb'), (37799, 'tmdb'), (9008, 'tmdb'), (594, 'tmdb'), (39486, 'tmdb'), (88794, 'tmdb'), (50839, 'tmdb'), (1852, 'tmdb'), (10523, 'tmdb'), (17332, 'tmdb'), (1677, 'tmdb'), (12508, 'tmdb'), (11323, 'tmdb'), (597, 'tmdb'), (10474, 'tmdb'), (640, 'tmdb'), (27569, 'tmdb'), (65760, 'tmdb'), (324786, 'tmdb'), (22954, 'tmdb'), (13012, 'tmdb'), (49009, 'tmdb'), (62837, 'tmdb'), (28178, 'tmdb'), (9036, 'tmdb'), (4512, 'tmdb'), (12160, 'tmdb'), (80278, 'tmdb'), (161187, 'tmdb'), (72976, 'tmdb'), (60309, 'tmdb'), (115782, 'tmdb'), (112336, 'tmdb'), (77338, 'tmdb'), (40807, 'tmdb'), (72432, 'tmdb'), (1949, 'tmdb'), (87093, 'tmdb'), (157447, 'tmdb'), (152259, 'tmdb'), (10047, 'tmdb'), (166666, 'tmdb'), (134411, 'tmdb'), (45269, 'tmdb'), (55680, 'tmdb'), (45094, 'tmdb'), (35691, 'tmdb'), (60011, 'tmdb'), (8952, 'tmdb'), (12162, 'tmdb'), (1830, 'tmdb'), (56601, 'tmdb'), (138843, 'tmdb'), (15044, 'tmdb'), (8881, 'tmdb'), (96721, 'tmdb'), (109424, 'tmdb'), (132363, 'tmdb'), (70667, 'tmdb'), (168672, 'tmdb'), (12246, 'tmdb'), (140823, 'tmdb'), (169209, 'tmdb'), (232911, 'tvdb'), (162903, 'tmdb'), (193756, 'tmdb'), (227306, 'tmdb'), (205596, 'tmdb'), (190859, 'tmdb'), (232679, 'tmdb'), (245700, 'tmdb'), (198185, 'tmdb'), (87492, 'tmdb'), (152532, 'tmdb'), (228970, 'tmdb'), (395991, 'tmdb'), (293646, 'tmdb'), (285783, 'tmdb')]
+[2022-10-11 08:07:42,275] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 08:07:42,283] [builder.py:2064]           [INFO]     | 
+[2022-10-11 08:07:42,283] [builder.py:2065]           [INFO]     |================================= Adding to True Events Collection =================================|
+[2022-10-11 08:07:42,284] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-11 08:07:42,796] [builder.py:2080]           [INFO]     |   1/101 | True Events Collection | = | La Liste de Schindler (1993)                                |
+[2022-10-11 08:07:42,797] [builder.py:2080]           [INFO]     |   2/101 | True Events Collection | = | Il faut sauver le soldat Ryan (1998)                        |
+[2022-10-11 08:07:42,797] [builder.py:2080]           [INFO]     |   3/101 | True Events Collection | = | Tu ne tueras point (2016)                                   |
+[2022-10-11 08:07:42,798] [builder.py:2080]           [INFO]     |   4/101 | True Events Collection | = | Braveheart (1995)                                           |
+[2022-10-11 08:07:42,798] [builder.py:2080]           [INFO]     |   5/101 | True Events Collection | = | Arrête-moi si tu peux (2002)                                |
+[2022-10-11 08:07:42,798] [builder.py:2080]           [INFO]     |   6/101 | True Events Collection | = | Capitaine Phillips (2013)                                   |
+[2022-10-11 08:07:42,799] [builder.py:2080]           [INFO]     |   7/101 | True Events Collection | = | Sully (2016)                                                |
+[2022-10-11 08:07:42,800] [builder.py:2080]           [INFO]     |   8/101 | True Events Collection | = | JFK (1991)                                                  |
+[2022-10-11 08:07:42,800] [builder.py:2080]           [INFO]     |   9/101 | True Events Collection | = | Le pont des espions (2015)                                  |
+[2022-10-11 08:07:42,800] [builder.py:2080]           [INFO]     |  10/101 | True Events Collection | = | Le Pianiste (2002)                                          |
+[2022-10-11 08:07:42,801] [builder.py:2080]           [INFO]     |  11/101 | True Events Collection | = | Un Homme d'Exception (2001)                                 |
+[2022-10-11 08:07:42,802] [builder.py:2080]           [INFO]     |  12/101 | True Events Collection | = | Imitation Game (2014)                                       |
+[2022-10-11 08:07:42,802] [builder.py:2080]           [INFO]     |  13/101 | True Events Collection | = | 12 Years a Slave (2013)                                     |
+[2022-10-11 08:07:42,802] [builder.py:2080]           [INFO]     |  14/101 | True Events Collection | = | Hôtel Rwanda (2005)                                         |
+[2022-10-11 08:07:42,803] [builder.py:2080]           [INFO]     |  15/101 | True Events Collection | = | Rush (2013)                                                 |
+[2022-10-11 08:07:42,803] [builder.py:2080]           [INFO]     |  16/101 | True Events Collection | = | Citizenfour (2014)                                          |
+[2022-10-11 08:07:42,804] [builder.py:2080]           [INFO]     |  17/101 | True Events Collection | = | Une merveilleuse histoire du temps (2014)                   |
+[2022-10-11 08:07:42,804] [builder.py:2080]           [INFO]     |  18/101 | True Events Collection | = | Spotlight (2015)                                            |
+[2022-10-11 08:07:42,805] [builder.py:2080]           [INFO]     |  19/101 | True Events Collection | = | 300 (2007)                                                  |
+[2022-10-11 08:07:42,805] [builder.py:2080]           [INFO]     |  20/101 | True Events Collection | = | Le Terminal (2004)                                          |
+[2022-10-11 08:07:42,805] [builder.py:2080]           [INFO]     |  21/101 | True Events Collection | = | Argo (2012)                                                 |
+[2022-10-11 08:07:42,806] [builder.py:2080]           [INFO]     |  22/101 | True Events Collection | = | L'Évadé d'Alcatraz (1979)                                   |
+[2022-10-11 08:07:42,806] [builder.py:2080]           [INFO]     |  23/101 | True Events Collection | = | The Revenant (2016)                                         |
+[2022-10-11 08:07:42,807] [builder.py:2080]           [INFO]     |  24/101 | True Events Collection | = | The Big Short : Le Casse du Siècle (2015)                   |
+[2022-10-11 08:07:42,807] [builder.py:2080]           [INFO]     |  25/101 | True Events Collection | = | Selma (2015)                                                |
+[2022-10-11 08:07:42,808] [builder.py:2080]           [INFO]     |  26/101 | True Events Collection | = | Munich (2006)                                               |
+[2022-10-11 08:07:42,808] [builder.py:2080]           [INFO]     |  27/101 | True Events Collection | = | Strictly Criminal (2015)                                    |
+[2022-10-11 08:07:42,809] [builder.py:2080]           [INFO]     |  28/101 | True Events Collection | = | Steve Jobs (2015)                                           |
+[2022-10-11 08:07:42,809] [builder.py:2080]           [INFO]     |  29/101 | True Events Collection | = | Intouchables (2011)                                         |
+[2022-10-11 08:07:42,810] [builder.py:2080]           [INFO]     |  30/101 | True Events Collection | = | Le Discours d'un Roi (2010)                                 |
+[2022-10-11 08:07:42,810] [builder.py:2080]           [INFO]     |  31/101 | True Events Collection | = | Le Loup de Wall Street (2013)                               |
+[2022-10-11 08:07:42,811] [builder.py:2080]           [INFO]     |  32/101 | True Events Collection | = | N.W.A : Straight Outta Compton (2015)                       |
+[2022-10-11 08:07:42,812] [builder.py:2080]           [INFO]     |  33/101 | True Events Collection | = | The Impossible (2012)                                       |
+[2022-10-11 08:07:42,812] [builder.py:2080]           [INFO]     |  34/101 | True Events Collection | = | Zodiac (2007)                                               |
+[2022-10-11 08:07:42,813] [builder.py:2080]           [INFO]     |  35/101 | True Events Collection | = | Lincoln (2012)                                              |
+[2022-10-11 08:07:42,814] [builder.py:2080]           [INFO]     |  36/101 | True Events Collection | = | Joy (2015)                                                  |
+[2022-10-11 08:07:42,815] [builder.py:2080]           [INFO]     |  37/101 | True Events Collection | = | Monuments Men (2014)                                        |
+[2022-10-11 08:07:42,815] [builder.py:2080]           [INFO]     |  38/101 | True Events Collection | = | Into the Wild (2007)                                        |
+[2022-10-11 08:07:42,816] [builder.py:2080]           [INFO]     |  39/101 | True Events Collection | = | Fargo (1996)                                                |
+[2022-10-11 08:07:42,817] [builder.py:2080]           [INFO]     |  40/101 | True Events Collection | = | La Vague (2008)                                             |
+[2022-10-11 08:07:42,817] [builder.py:2080]           [INFO]     |  41/101 | True Events Collection | = | American Gangster (2007)                                    |
+[2022-10-11 08:07:42,817] [builder.py:2080]           [INFO]     |  42/101 | True Events Collection | = | Naissance d'une nation (2016)                               |
+[2022-10-11 08:07:42,818] [builder.py:2080]           [INFO]     |  43/101 | True Events Collection | = | Conjuring : Les dossiers Warren (2013)                      |
+[2022-10-11 08:07:42,818] [builder.py:2080]           [INFO]     |  44/101 | True Events Collection | = | Gandhi (1982)                                               |
+[2022-10-11 08:07:42,819] [builder.py:2080]           [INFO]     |  45/101 | True Events Collection | = | The Social Network (2010)                                   |
+[2022-10-11 08:07:42,819] [builder.py:2080]           [INFO]     |  46/101 | True Events Collection | = | Conjuring 2 : Le cas Enfield (2016)                         |
+[2022-10-11 08:07:42,820] [builder.py:2080]           [INFO]     |  47/101 | True Events Collection | = | L'échange (2008)                                            |
+[2022-10-11 08:07:42,820] [builder.py:2080]           [INFO]     |  48/101 | True Events Collection | = | Precious (2009)                                             |
+[2022-10-11 08:07:42,821] [builder.py:2080]           [INFO]     |  49/101 | True Events Collection | = | Big Eyes (2014)                                             |
+[2022-10-11 08:07:42,821] [builder.py:2080]           [INFO]     |  50/101 | True Events Collection | = | Foxcatcher (2014)                                           |
+[2022-10-11 08:07:42,821] [builder.py:2080]           [INFO]     |  51/101 | True Events Collection | = | Lion (2016)                                                 |
+[2022-10-11 08:07:42,822] [builder.py:2080]           [INFO]     |  52/101 | True Events Collection | = | Les heures sombres (2017)                                   |
+[2022-10-11 08:07:42,822] [builder.py:2080]           [INFO]     |  53/101 | True Events Collection | = | Wind River (2017)                                           |
+[2022-10-11 08:07:42,823] [builder.py:2080]           [INFO]     |  54/101 | True Events Collection | = | Pentagon Papers (2018)                                      |
+[2022-10-11 08:07:42,824] [builder.py:2080]           [INFO]     |  55/101 | True Events Collection | = | Colette (2018)                                              |
+[2022-10-11 08:07:42,824] [builder.py:2080]           [INFO]     |  56/101 | True Events Collection | = | Boy Erased (2018)                                           |
+[2022-10-11 08:07:42,824] [builder.py:2080]           [INFO]     |  57/101 | True Events Collection | = | Green Book : Sur les routes du Sud (2018)                   |
+[2022-10-11 08:07:42,825] [builder.py:2080]           [INFO]     |  58/101 | True Events Collection | = | La Mule (2018)                                              |
+[2022-10-11 08:07:42,825] [builder.py:2080]           [INFO]     |  59/101 | True Events Collection | = | Bienvenue à Marwen (2018)                                   |
+[2022-10-11 08:07:42,825] [builder.py:2080]           [INFO]     |  60/101 | True Events Collection | = | The Banker (2020)                                           |
+[2022-10-11 08:07:42,826] [builder.py:2080]           [INFO]     |  61/101 | True Events Collection | = | Rocketman (2019)                                            |
+[2022-10-11 08:07:42,826] [builder.py:2080]           [INFO]     |  62/101 | True Events Collection | = | Dark Waters (2019)                                          |
+[2022-10-11 08:07:42,827] [builder.py:2080]           [INFO]     |  63/101 | True Events Collection | = | USS Greyhound : La Bataille de l'Atlantique (2020)          |
+[2022-10-11 08:07:42,827] [builder.py:2080]           [INFO]     |  64/101 | True Events Collection | = | L'Adieu (The Farewell) (2019)                               |
+[2022-10-11 08:07:42,828] [builder.py:2080]           [INFO]     |  65/101 | True Events Collection | = | Ammonite (2020)                                             |
+[2022-10-11 08:07:42,828] [builder.py:2080]           [INFO]     |  66/101 | True Events Collection | = | Un espion ordinaire (2020)                                  |
+[2022-10-11 08:07:42,829] [builder.py:2080]           [INFO]     |  67/101 | True Events Collection | = | La vie extraordinaire de Louis Wain (2021)                  |
+[2022-10-11 08:07:42,829] [builder.py:2080]           [INFO]     |  68/101 | True Events Collection | = | Mank (2020)                                                 |
+[2022-10-11 08:07:42,830] [builder.py:2080]           [INFO]     |  69/101 | True Events Collection | = | Respect (2021)                                              |
+[2022-10-11 08:07:42,831] [builder.py:2080]           [INFO]     |  70/101 | True Events Collection | = | Les Sept de Chicago (2020)                                  |
+[2022-10-11 08:07:42,831] [builder.py:2080]           [INFO]     |  71/101 | True Events Collection | = | Radioactive (2020)                                          |
+[2022-10-11 08:07:42,832] [builder.py:2080]           [INFO]     |  72/101 | True Events Collection | = | Judas and the Black Messiah (2021)                          |
+[2022-10-11 08:07:42,832] [builder.py:2080]           [INFO]     |  73/101 | True Events Collection | = | Désigné coupable (2021)                                     |
+[2022-10-11 08:07:42,832] [builder.py:2080]           [INFO]     |  74/101 | True Events Collection | = | Lansky (2021)                                               |
+[2022-10-11 08:07:42,833] [builder.py:2080]           [INFO]     |  75/101 | True Events Collection | = | Being the Ricardos (2021)                                   |
+[2022-10-11 08:07:42,833] [builder.py:2080]           [INFO]     |  76/101 | True Events Collection | = | L'étau de Munich (2022)                                     |
+[2022-10-11 08:07:42,833] [builder.py:2080]           [INFO]     |  77/101 | True Events Collection | = | House of Gucci (2021)                                       |
+[2022-10-11 08:07:42,834] [builder.py:2080]           [INFO]     |  78/101 | True Events Collection | = | Anne Frank, ma meilleure amie (2021)                        |
+[2022-10-11 08:07:42,834] [builder.py:2080]           [INFO]     |  79/101 | True Events Collection | = | La Méthode Williams (2021)                                  |
+[2022-10-11 08:07:42,835] [builder.py:2080]           [INFO]     |  80/101 | True Events Collection | = | Les Figures de l'ombre (2017)                               |
+[2022-10-11 08:07:42,835] [builder.py:2080]           [INFO]     |  81/101 | True Events Collection | = | Spencer (2021)                                              |
+[2022-10-11 08:07:42,836] [builder.py:2080]           [INFO]     |  82/101 | True Events Collection | = | Elvis (2022)                                                |
+[2022-10-11 08:07:42,836] [builder.py:2080]           [INFO]     |  83/101 | True Events Collection | = | La Ruse (2022)                                              |
+[2022-10-11 08:07:42,837] [builder.py:2080]           [INFO]     |  84/101 | True Events Collection | = | Father Stu (2022)                                           |
+[2022-10-11 08:07:42,837] [builder.py:2080]           [INFO]     |  85/101 | True Events Collection | = | Treize vies (2022)                                          |
+[2022-10-11 08:07:42,838] [builder.py:2080]           [INFO]     |  86/101 | True Events Collection | = | Une bière au front (2022)                                   |
+[2022-10-11 08:07:42,838] [builder.py:2080]           [INFO]     |  87/101 | True Events Collection | = | Blonde (2022)                                               |
+[2022-10-11 08:07:42,839] [builder.py:2080]           [INFO]     |  88/101 | True Events Collection | = | La Mélodie du bonheur (1965)                                |
+[2022-10-11 08:07:42,839] [builder.py:2080]           [INFO]     |  89/101 | True Events Collection | = | Bohemian Rhapsody (2018)                                    |
+[2022-10-11 08:07:42,840] [builder.py:2080]           [INFO]     |  90/101 | True Events Collection | = | Avengers : Infinity War (2018)                              |
+[2022-10-11 08:07:42,840] [builder.py:2080]           [INFO]     |  91/101 | True Events Collection | = | Public Enemies (2009)                                       |
+[2022-10-11 08:07:42,841] [builder.py:2080]           [INFO]     |  92/101 | True Events Collection | = | Troie (2004)                                                |
+[2022-10-11 08:07:42,841] [builder.py:2080]           [INFO]     |  93/101 | True Events Collection | = | Le Stratège (2011)                                          |
+[2022-10-11 08:07:42,842] [builder.py:2080]           [INFO]     |  94/101 | True Events Collection | = | Pearl Harbor (2001)                                         |
+[2022-10-11 08:07:42,842] [builder.py:2080]           [INFO]     |  95/101 | True Events Collection | = | J. Edgar (2011)                                             |
+[2022-10-11 08:07:42,843] [builder.py:2080]           [INFO]     |  96/101 | True Events Collection | = | I Love You Phillip Morris (2010)                            |
+[2022-10-11 08:07:42,843] [builder.py:2080]           [INFO]     |  97/101 | True Events Collection | = | Démineurs (2008)                                            |
+[2022-10-11 08:07:42,843] [builder.py:2080]           [INFO]     |  98/101 | True Events Collection | = | Lord of War (2005)                                          |
+[2022-10-11 08:07:42,844] [builder.py:2080]           [INFO]     |  99/101 | True Events Collection | = | American Bluff (2013)                                       |
+[2022-10-11 08:07:42,844] [builder.py:2080]           [INFO]     | 100/101 | True Events Collection | = | Mr. Turner (2014)                                           |
+[2022-10-11 08:07:42,845] [builder.py:2080]           [INFO]     | 101/101 | True Events Collection | = | Wild (2014)                                                 |
+[2022-10-11 08:07:42,845] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-11 08:07:42,845] [builder.py:2102]           [INFO]     | 101 Movies Processed 0 Movies Added                                                                |
+[2022-10-11 08:07:42,847] [builder.py:2228]           [INFO]     |                                                                                                    |
+[2022-10-11 08:07:42,847] [builder.py:2229]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-10-11 08:07:42,848] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-10-11 08:07:42,880] [builder.py:2243]           [INFO]     | True Events Collection | ? | Zero Days (2016) (TMDb: 380808)                                       |
+[2022-10-11 08:07:42,905] [builder.py:2243]           [INFO]     | True Events Collection | ? | 100 Meters (2016) (TMDb: 402693)                                      |
+[2022-10-11 08:07:43,174] [builder.py:2243]           [INFO]     | True Events Collection | ? | Titanic (1997) (TMDb: 597)                                            |
+[2022-10-11 08:07:43,339] [builder.py:2243]           [INFO]     | True Events Collection | ? | Concussion (2015) (TMDb: 321741)                                      |
+[2022-10-11 08:07:43,363] [builder.py:2243]           [INFO]     | True Events Collection | ? | McFarland, USA (2015) (TMDb: 228203)                                  |
+[2022-10-11 08:07:43,446] [builder.py:2243]           [INFO]     | True Events Collection | ? | In the Name of the Father (1993) (TMDb: 7984)                         |
+[2022-10-11 08:07:43,465] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Pursuit of Happyness (2006) (TMDb: 1402)                          |
+[2022-10-11 08:07:43,505] [builder.py:2243]           [INFO]     | True Events Collection | ? | Dallas Buyers Club (2013) (TMDb: 152532)                              |
+[2022-10-11 08:07:43,524] [builder.py:2243]           [INFO]     | True Events Collection | ? | Apollo 13 (1995) (TMDb: 568)                                          |
+[2022-10-11 08:07:43,540] [builder.py:2243]           [INFO]     | True Events Collection | ? | Enemy at the Gates (2001) (TMDb: 853)                                 |
+[2022-10-11 08:07:43,582] [builder.py:2243]           [INFO]     | True Events Collection | ? | 13 Hours: The Secret Soldiers of Benghazi (2016) (TMDb: 300671)       |
+[2022-10-11 08:07:43,630] [builder.py:2243]           [INFO]     | True Events Collection | ? | Race (2016) (TMDb: 323677)                                            |
+[2022-10-11 08:07:43,651] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Sea Inside (2004) (TMDb: 1913)                                    |
+[2022-10-11 08:07:43,705] [builder.py:2243]           [INFO]     | True Events Collection | ? | Eddie the Eagle (2016) (TMDb: 319888)                                 |
+[2022-10-11 08:07:43,716] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Man Who Knew Infinity (2016) (TMDb: 353326)                       |
+[2022-10-11 08:07:43,780] [builder.py:2243]           [INFO]     | True Events Collection | ? | Snowden (2016) (TMDb: 302401)                                         |
+[2022-10-11 08:07:43,800] [builder.py:2243]           [INFO]     | True Events Collection | ? | Free State of Jones (2016) (TMDb: 316152)                             |
+[2022-10-11 08:07:43,830] [builder.py:2243]           [INFO]     | True Events Collection | ? | Deepwater Horizon (2016) (TMDb: 296524)                               |
+[2022-10-11 08:07:43,841] [builder.py:2243]           [INFO]     | True Events Collection | ? | War Dogs (2016) (TMDb: 308266)                                        |
+[2022-10-11 08:07:43,871] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Finest Hours (2016) (TMDb: 300673)                                |
+[2022-10-11 08:07:43,891] [builder.py:2243]           [INFO]     | True Events Collection | ? | Born to Be Blue (2015) (TMDb: 327528)                                 |
+[2022-10-11 08:07:43,922] [builder.py:2243]           [INFO]     | True Events Collection | ? | Woman in Gold (2015) (TMDb: 304357)                                   |
+[2022-10-11 08:07:43,947] [builder.py:2243]           [INFO]     | True Events Collection | ? | Smoke & Mirrors (2016) (TMDb: 361777)                                 |
+[2022-10-11 08:07:43,971] [builder.py:2243]           [INFO]     | True Events Collection | ? | Invincible (2014) (TMDb: 227306)                                      |
+[2022-10-11 08:07:43,983] [builder.py:2243]           [INFO]     | True Events Collection | ? | Trumbo (2015) (TMDb: 294016)                                          |
+[2022-10-11 08:07:44,005] [builder.py:2243]           [INFO]     | True Events Collection | ? | Everest (2015) (TMDb: 253412)                                         |
+[2022-10-11 08:07:44,030] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Danish Girl (2015) (TMDb: 306819)                                 |
+[2022-10-11 08:07:44,050] [builder.py:2243]           [INFO]     | True Events Collection | ? | Agora (2009) (TMDb: 26428)                                            |
+[2022-10-11 08:07:44,078] [builder.py:2243]           [INFO]     | True Events Collection | ? | Suffragette (2015) (TMDb: 245168)                                     |
+[2022-10-11 08:07:44,101] [builder.py:2243]           [INFO]     | True Events Collection | ? | Love & Mercy (2015) (TMDb: 271714)                                    |
+[2022-10-11 08:07:44,134] [builder.py:2243]           [INFO]     | True Events Collection | ? | Pawn Sacrifice (2015) (TMDb: 245698)                                  |
+[2022-10-11 08:07:44,155] [builder.py:2243]           [INFO]     | True Events Collection | ? | Kill the Messenger (2014) (TMDb: 245916)                              |
+[2022-10-11 08:07:44,200] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Perfect Storm (2000) (TMDb: 2133)                                 |
+[2022-10-11 08:07:44,222] [builder.py:2243]           [INFO]     | True Events Collection | ? | True Story (2015) (TMDb: 245706)                                      |
+[2022-10-11 08:07:44,267] [builder.py:2243]           [INFO]     | True Events Collection | ? | Guernica (2016) (TMDb: 363841)                                        |
+[2022-10-11 08:07:44,289] [builder.py:2243]           [INFO]     | True Events Collection | ? | Miracles from Heaven (2016) (TMDb: 339984)                            |
+[2022-10-11 08:07:44,372] [builder.py:2243]           [INFO]     | True Events Collection | ? | Hachi: A Dog's Tale (2009) (TMDb: 28178)                              |
+[2022-10-11 08:07:44,463] [builder.py:2243]           [INFO]     | True Events Collection | ? | Cinderella Man (2005) (TMDb: 921)                                     |
+[2022-10-11 08:07:44,480] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Last Man on the Moon (2016) (TMDb: 276537)                        |
+[2022-10-11 08:07:44,530] [builder.py:2243]           [INFO]     | True Events Collection | ? | Erin Brockovich (2000) (TMDb: 462)                                    |
+[2022-10-11 08:07:44,551] [builder.py:2243]           [INFO]     | True Events Collection | ? | Meru (2015) (TMDb: 318279)                                            |
+[2022-10-11 08:07:44,588] [builder.py:2243]           [INFO]     | True Events Collection | ? | American Sniper (2014) (TMDb: 190859)                                 |
+[2022-10-11 08:07:44,609] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Outsider (2016) (TMDb: 394161)                                    |
+[2022-10-11 08:07:44,655] [builder.py:2243]           [INFO]     | True Events Collection | ? | People Like Us (2012) (TMDb: 98548)                                   |
+[2022-10-11 08:07:44,667] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Vow (2012) (TMDb: 72570)                                          |
+[2022-10-11 08:07:44,713] [builder.py:2243]           [INFO]     | True Events Collection | ? | Woodlawn (2015) (TMDb: 333596)                                        |
+[2022-10-11 08:07:44,725] [builder.py:2243]           [INFO]     | True Events Collection | ? | The 33 (2015) (TMDb: 293646)                                          |
+[2022-10-11 08:07:44,771] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Walk (2015) (TMDb: 285783)                                        |
+[2022-10-11 08:07:44,780] [builder.py:2243]           [INFO]     | True Events Collection | ? | Vol 93 (2006) (TMDb: 9829)                                            |
+[2022-10-11 08:07:44,824] [builder.py:2243]           [INFO]     | True Events Collection | ? | Finding Altamira (2016) (TMDb: 329718)                                |
+[2022-10-11 08:07:44,864] [builder.py:2243]           [INFO]     | True Events Collection | ? | Admiral (2015) (TMDb: 277154)                                         |
+[2022-10-11 08:07:44,891] [builder.py:2243]           [INFO]     | True Events Collection | ? | In the Heart of the Sea (2015) (TMDb: 205775)                         |
+[2022-10-11 08:07:44,893] [builder.py:2243]           [INFO]     | True Events Collection | ? | Legend (2015) (TMDb: 276907)                                          |
+[2022-10-11 08:07:44,949] [builder.py:2243]           [INFO]     | True Events Collection | ? | Danny Collins (2015) (TMDb: 256924)                                   |
+[2022-10-11 08:07:44,989] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Stanford Prison Experiment (2015) (TMDb: 308032)                  |
+[2022-10-11 08:07:45,030] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Captive (2014) (TMDb: 244761)                                     |
+[2022-10-11 08:07:45,089] [builder.py:2243]           [INFO]     | True Events Collection | ? | Experimenter (2015) (TMDb: 309299)                                    |
+[2022-10-11 08:07:45,142] [builder.py:2243]           [INFO]     | True Events Collection | ? | Florence Foster Jenkins (2016) (TMDb: 315664)                         |
+[2022-10-11 08:07:45,180] [builder.py:2243]           [INFO]     | True Events Collection | ? | Heaven Is for Real (2014) (TMDb: 236751)                              |
+[2022-10-11 08:07:45,222] [builder.py:2243]           [INFO]     | True Events Collection | ? | A Street Cat Named Bob (2016) (TMDb: 404378)                          |
+[2022-10-11 08:07:45,264] [builder.py:2243]           [INFO]     | True Events Collection | ? | Greater (2016) (TMDb: 379441)                                         |
+[2022-10-11 08:07:45,305] [builder.py:2243]           [INFO]     | True Events Collection | ? | I'm Not Ashamed (2016) (TMDb: 409502)                                 |
+[2022-10-11 08:07:45,333] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Blind Side (2009) (TMDb: 22881)                                   |
+[2022-10-11 08:07:45,375] [builder.py:2243]           [INFO]     | True Events Collection | ? | Black Hawk Down (2001) (TMDb: 855)                                    |
+[2022-10-11 08:07:45,400] [builder.py:2243]           [INFO]     | True Events Collection | ? | Pelé: Birth of a Legend (2016) (TMDb: 245913)                         |
+[2022-10-11 08:07:45,438] [builder.py:2243]           [INFO]     | True Events Collection | ? | Pride (2014) (TMDb: 234200)                                           |
+[2022-10-11 08:07:45,467] [builder.py:2243]           [INFO]     | True Events Collection | ? | An Honest Liar (2014) (TMDb: 262481)                                  |
+[2022-10-11 08:07:45,517] [builder.py:2243]           [INFO]     | True Events Collection | ? | A United Kingdom (2016) (TMDb: 347026)                                |
+[2022-10-11 08:07:45,555] [builder.py:2243]           [INFO]     | True Events Collection | ? | Secretariat (2010) (TMDb: 39486)                                      |
+[2022-10-11 08:07:45,597] [builder.py:2243]           [INFO]     | True Events Collection | ? | Anthropoid (2016) (TMDb: 351339)                                      |
+[2022-10-11 08:07:45,639] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Founder (2016) (TMDb: 310307)                                     |
+[2022-10-11 08:07:45,667] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Infiltrator (2016) (TMDb: 325789)                                 |
+[2022-10-11 08:07:45,717] [builder.py:2243]           [INFO]     | True Events Collection | ? | Spare Parts (2015) (TMDb: 264337)                                     |
+[2022-10-11 08:07:45,759] [builder.py:2243]           [INFO]     | True Events Collection | ? | All the Way (2016) (TMDb: 347123)                                     |
+[2022-10-11 08:07:45,801] [builder.py:2243]           [INFO]     | True Events Collection | ? | 127 Hours (2010) (TMDb: 44115)                                        |
+[2022-10-11 08:07:45,842] [builder.py:2243]           [INFO]     | True Events Collection | ? | Colonia (2015) (TMDb: 318781)                                         |
+[2022-10-11 08:07:45,884] [builder.py:2243]           [INFO]     | True Events Collection | ? | Camino (2008) (TMDb: 17893)                                           |
+[2022-10-11 08:07:45,926] [builder.py:2243]           [INFO]     | True Events Collection | ? | Chasing Mavericks (2012) (TMDb: 82684)                                |
+[2022-10-11 08:07:45,951] [builder.py:2243]           [INFO]     | True Events Collection | ? | Hacker (2016) (TMDb: 413052)                                          |
+[2022-10-11 08:07:45,993] [builder.py:2243]           [INFO]     | True Events Collection | ? | Zero Dark Thirty (2012) (TMDb: 97630)                                 |
+[2022-10-11 08:07:46,014] [builder.py:2243]           [INFO]     | True Events Collection | ? | USS Indianapolis: Men of Courage (2016) (TMDb: 340945)                |
+[2022-10-11 08:07:46,043] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Way Back (2010) (TMDb: 49009)                                     |
+[2022-10-11 08:07:46,093] [builder.py:2243]           [INFO]     | True Events Collection | ? | I Killed My BFF (2015) (TMDb: 344780)                                 |
+[2022-10-11 08:07:46,118] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Iceman (2012) (TMDb: 68812)                                       |
+[2022-10-11 08:07:46,168] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Assault (2014) (TMDb: 295237)                                     |
+[2022-10-11 08:07:46,264] [builder.py:2243]           [INFO]     | True Events Collection | ? | Masterminds (2016) (TMDb: 213681)                                     |
+[2022-10-11 08:07:46,305] [builder.py:2243]           [INFO]     | True Events Collection | ? | Million Dollar Arm (2014) (TMDb: 198185)                              |
+[2022-10-11 08:07:46,335] [builder.py:2243]           [INFO]     | True Events Collection | ? | Act of Valor (2012) (TMDb: 75674)                                     |
+[2022-10-11 08:07:46,372] [builder.py:2243]           [INFO]     | True Events Collection | ? | Imperium (2016) (TMDb: 374617)                                        |
+[2022-10-11 08:07:46,397] [builder.py:2243]           [INFO]     | True Events Collection | ? | Aftermath (2017) (TMDb: 390051)                                       |
+[2022-10-11 08:07:46,422] [builder.py:2243]           [INFO]     | True Events Collection | ? | Hitchcock (2012) (TMDb: 112336)                                       |
+[2022-10-11 08:07:46,447] [builder.py:2243]           [INFO]     | True Events Collection | ? | Won't Back Down (2012) (TMDb: 82631)                                  |
+[2022-10-11 08:07:46,475] [builder.py:2243]           [INFO]     | True Events Collection | ? | Jackie (2016) (TMDb: 376866)                                          |
+[2022-10-11 08:07:46,497] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Most Hated Woman in America (2017) (TMDb: 401743)                 |
+[2022-10-11 08:07:46,522] [builder.py:2243]           [INFO]     | True Events Collection | ? | Child 44 (2015) (TMDb: 181283)                                        |
+[2022-10-11 08:07:46,533] [builder.py:2243]           [INFO]     | True Events Collection | ? | Christine (2016) (TMDb: 339405)                                       |
+[2022-10-11 08:07:46,572] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Lady in the Van (2015) (TMDb: 328589)                             |
+[2022-10-11 08:07:46,597] [builder.py:2243]           [INFO]     | True Events Collection | ? | Marvellous (2014) (TMDb: 295144)                                      |
+[2022-10-11 08:07:46,621] [builder.py:2243]           [INFO]     | True Events Collection | ? | Timbuktu (2014) (TMDb: 265228)                                        |
+[2022-10-11 08:07:46,637] [builder.py:2243]           [INFO]     | True Events Collection | ? | Compliance (2012) (TMDb: 84188)                                       |
+[2022-10-11 08:07:46,687] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Possession (2012) (TMDb: 77883)                                   |
+[2022-10-11 08:07:46,746] [builder.py:2243]           [INFO]     | True Events Collection | ? | When the Lights Went Out (2012) (TMDb: 50497)                         |
+[2022-10-11 08:07:46,767] [builder.py:2243]           [INFO]     | True Events Collection | ? | Blue-Eyed Butcher (2012) (TMDb: 104593)                               |
+[2022-10-11 08:07:46,789] [builder.py:2243]           [INFO]     | True Events Collection | ? | Annabelle (2014) (TMDb: 250546)                                       |
+[2022-10-11 08:07:46,814] [builder.py:2243]           [INFO]     | True Events Collection | ? | Rosewater (2014) (TMDb: 222649)                                       |
+[2022-10-11 08:07:46,842] [builder.py:2243]           [INFO]     | True Events Collection | ? | Bad Country (2014) (TMDb: 256731)                                     |
+[2022-10-11 08:07:46,875] [builder.py:2243]           [INFO]     | True Events Collection | ? | 50 to 1 (2014) (TMDb: 197583)                                         |
+[2022-10-11 08:07:46,921] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Face of an Angel (2014) (TMDb: 254024)                            |
+[2022-10-11 08:07:46,933] [builder.py:2243]           [INFO]     | True Events Collection | ? | Noble (2014) (TMDb: 192767)                                           |
+[2022-10-11 08:07:46,980] [builder.py:2243]           [INFO]     | True Events Collection | ? | Denial (2016) (TMDb: 402298)                                          |
+[2022-10-11 08:07:47,022] [builder.py:2243]           [INFO]     | True Events Collection | ? | Genius (2016) (TMDb: 267192)                                          |
+[2022-10-11 08:07:47,033] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Chosen (2016) (TMDb: 387940)                                      |
+[2022-10-11 08:07:47,080] [builder.py:2243]           [INFO]     | True Events Collection | ? | Elvis & Nixon (2016) (TMDb: 301348)                                   |
+[2022-10-11 08:07:47,092] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Wizard of Lies (2017) (TMDb: 363992)                              |
+[2022-10-11 08:07:47,130] [builder.py:2243]           [INFO]     | True Events Collection | ? | Land of Mine (2015) (TMDb: 335578)                                    |
+[2022-10-11 08:07:47,151] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Promise (2016) (TMDb: 354859)                                     |
+[2022-10-11 08:07:47,201] [builder.py:2243]           [INFO]     | True Events Collection | ? | Detroit (2017) (TMDb: 407448)                                         |
+[2022-10-11 08:07:47,221] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Case for Christ (2017) (TMDb: 424998)                             |
+[2022-10-11 08:07:48,180] [builder.py:2243]           [INFO]     | True Events Collection | ? | Bleed for This (2016) (TMDb: 332979)                                  |
+[2022-10-11 08:07:48,188] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Big Sick (2017) (TMDb: 416477)                                    |
+[2022-10-11 08:07:48,220] [builder.py:2243]           [INFO]     | True Events Collection | ? | Maudie (2016) (TMDb: 359784)                                          |
+[2022-10-11 08:07:48,236] [builder.py:2243]           [INFO]     | True Events Collection | ? | First They Killed My Father (2017) (TMDb: 433247)                     |
+[2022-10-11 08:07:48,252] [builder.py:2243]           [INFO]     | True Events Collection | ? | The King's Choice (2016) (TMDb: 396616)                               |
+[2022-10-11 08:07:48,294] [builder.py:2243]           [INFO]     | True Events Collection | ? | King of Devil's Island (2010) (TMDb: 73211)                           |
+[2022-10-11 08:07:48,311] [builder.py:2243]           [INFO]     | True Events Collection | ? | Nokas (2010) (TMDb: 48161)                                            |
+[2022-10-11 08:07:48,353] [builder.py:2243]           [INFO]     | True Events Collection | ? | Kings Bay (2017) (TMDb: 435145)                                       |
+[2022-10-11 08:07:48,369] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Zookeeper's Wife (2017) (TMDb: 289222)                            |
+[2022-10-11 08:07:48,411] [builder.py:2243]           [INFO]     | True Events Collection | ? | Jungle (2017) (TMDb: 390062)                                          |
+[2022-10-11 08:07:48,428] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Man with the Iron Heart (2017) (TMDb: 339259)                     |
+[2022-10-11 08:07:48,469] [builder.py:2243]           [INFO]     | True Events Collection | ? | Only the Brave (2017) (TMDb: 395991)                                  |
+[2022-10-11 08:07:48,486] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Glass Castle (2017) (TMDb: 336000)                                |
+[2022-10-11 08:07:48,528] [builder.py:2243]           [INFO]     | True Events Collection | ? | Neruda (2016) (TMDb: 351454)                                          |
+[2022-10-11 08:07:48,545] [builder.py:2243]           [INFO]     | True Events Collection | ? | American Made (2017) (TMDb: 337170)                                   |
+[2022-10-11 08:07:48,561] [builder.py:2243]           [INFO]     | True Events Collection | ? | Southside with You (2016) (TMDb: 310888)                              |
+[2022-10-11 08:07:48,578] [builder.py:2243]           [INFO]     | True Events Collection | ? | De la ley a la ley (2017) (TMDb: 491898)                              |
+[2022-10-11 08:07:48,595] [builder.py:2243]           [INFO]     | True Events Collection | ? | Battle of the Sexes (2017) (TMDb: 369192)                             |
+[2022-10-11 08:07:48,611] [builder.py:2243]           [INFO]     | True Events Collection | ? | Breathe (2017) (TMDb: 407445)                                         |
+[2022-10-11 08:07:48,628] [builder.py:2243]           [INFO]     | True Events Collection | ? | Victoria & Abdul (2017) (TMDb: 423899)                                |
+[2022-10-11 08:07:48,647] [builder.py:2243]           [INFO]     | True Events Collection | ? | Professor Marston and the Wonder Women (2017) (TMDb: 420622)          |
+[2022-10-11 08:07:48,670] [builder.py:2243]           [INFO]     | True Events Collection | ? | Goodbye Christopher Robin (2017) (TMDb: 418680)                       |
+[2022-10-11 08:07:48,681] [builder.py:2243]           [INFO]     | True Events Collection | ? | Borg vs McEnroe (2017) (TMDb: 397538)                                 |
+[2022-10-11 08:07:48,713] [builder.py:2243]           [INFO]     | True Events Collection | ? | Marshall (2017) (TMDb: 392982)                                        |
+[2022-10-11 08:07:48,724] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Disaster Artist (2017) (TMDb: 371638)                             |
+[2022-10-11 08:07:48,725] [builder.py:2243]           [INFO]     | True Events Collection | ? | All the Money in the World (2017) (TMDb: 446791)                      |
+[2022-10-11 08:07:48,755] [builder.py:2243]           [INFO]     | True Events Collection | ? | 12 Strong (2018) (TMDb: 429351)                                       |
+[2022-10-11 08:07:48,765] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Greatest Showman (2017) (TMDb: 316029)                            |
+[2022-10-11 08:07:48,796] [builder.py:2243]           [INFO]     | True Events Collection | ? | Megan Leavey (2017) (TMDb: 424488)                                    |
+[2022-10-11 08:07:48,807] [builder.py:2243]           [INFO]     | True Events Collection | ? | Le Grand Jeu (2017) (TMDb: 396371)                                    |
+[2022-10-11 08:07:48,838] [builder.py:2243]           [INFO]     | True Events Collection | ? | The 15:17 to Paris (2018) (TMDb: 453201)                              |
+[2022-10-11 08:07:48,849] [builder.py:2243]           [INFO]     | True Events Collection | ? | Alexander (2004) (TMDb: 1966)                                         |
+[2022-10-11 08:07:48,880] [builder.py:2243]           [INFO]     | True Events Collection | ? | Backstabbing for Beginners (2018) (TMDb: 476678)                      |
+[2022-10-11 08:07:48,888] [builder.py:2243]           [INFO]     | True Events Collection | ? | Moi, Tonya (2017) (TMDb: 389015)                                      |
+[2022-10-11 08:07:48,903] [builder.py:2243]           [INFO]     | True Events Collection | ? | Tag (2018) (TMDb: 455980)                                             |
+[2022-10-11 08:07:48,936] [builder.py:2243]           [INFO]     | True Events Collection | ? | Maze (2017) (TMDb: 464566)                                            |
+[2022-10-11 08:07:48,952] [builder.py:2243]           [INFO]     | True Events Collection | ? | Paterno (2018) (TMDb: 467867)                                         |
+[2022-10-11 08:07:48,969] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Spacewalker (2017) (TMDb: 440642)                                 |
+[2022-10-11 08:07:48,986] [builder.py:2243]           [INFO]     | True Events Collection | ? | 7 Days in Entebbe (2018) (TMDb: 433627)                               |
+[2022-10-11 08:07:49,003] [builder.py:2243]           [INFO]     | True Events Collection | ? | Adrift (2018) (TMDb: 429300)                                          |
+[2022-10-11 08:07:49,019] [builder.py:2243]           [INFO]     | True Events Collection | ? | L'ange du Mossad (2018) (TMDb: 468362)                                |
+[2022-10-11 08:07:49,036] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Catcher Was a Spy (2018) (TMDb: 467952)                           |
+[2022-10-11 08:07:49,053] [builder.py:2243]           [INFO]     | True Events Collection | ? | Operation Finale (2018) (TMDb: 493551)                                |
+[2022-10-11 08:07:49,070] [builder.py:2243]           [INFO]     | True Events Collection | ? | Gotti (2018) (TMDb: 339103)                                           |
+[2022-10-11 08:07:49,086] [builder.py:2243]           [INFO]     | True Events Collection | ? | 22 July (2018) (TMDb: 474354)                                         |
+[2022-10-11 08:07:49,105] [builder.py:2243]           [INFO]     | True Events Collection | ? | Sand Castle (2017) (TMDb: 390054)                                     |
+[2022-10-11 08:07:49,120] [builder.py:2243]           [INFO]     | True Events Collection | ? | The 12th Man (2017) (TMDb: 435577)                                    |
+[2022-10-11 08:07:49,137] [builder.py:2243]           [INFO]     | True Events Collection | ? | First Man (2018) (TMDb: 369972)                                       |
+[2022-10-11 08:07:49,153] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Mercy (2018) (TMDb: 414001)                                       |
+[2022-10-11 08:07:49,155] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Photographer of Mauthausen (2018) (TMDb: 528949)                  |
+[2022-10-11 08:07:49,186] [builder.py:2243]           [INFO]     | True Events Collection | ? | Chappaquiddick (2018) (TMDb: 432301)                                  |
+[2022-10-11 08:07:49,204] [builder.py:2243]           [INFO]     | True Events Collection | ? | Brexit: The Uncivil War (2019) (TMDb: 536176)                         |
+[2022-10-11 08:07:49,245] [builder.py:2243]           [INFO]     | True Events Collection | ? | On Wings of Eagles (2016) (TMDb: 346684)                              |
+[2022-10-11 08:07:49,262] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Old Man & the Gun (2018) (TMDb: 429203)                           |
+[2022-10-11 08:07:49,303] [builder.py:2243]           [INFO]     | True Events Collection | ? | Instant Family (2018) (TMDb: 491418)                                  |
+[2022-10-11 08:07:49,320] [builder.py:2243]           [INFO]     | True Events Collection | ? | On the Basis of Sex (2018) (TMDb: 339380)                             |
+[2022-10-11 08:07:49,362] [builder.py:2243]           [INFO]     | True Events Collection | ? | American Animals (2018) (TMDb: 489931)                                |
+[2022-10-11 08:07:49,379] [builder.py:2243]           [INFO]     | True Events Collection | ? | Stan & Ollie (2018) (TMDb: 394741)                                    |
+[2022-10-11 08:07:49,420] [builder.py:2243]           [INFO]     | True Events Collection | ? | LBJ (2017) (TMDb: 353575)                                             |
+[2022-10-11 08:07:49,437] [builder.py:2243]           [INFO]     | True Events Collection | ? | Unbroken: Path to Redemption (2018) (TMDb: 506680)                    |
+[2022-10-11 08:07:49,479] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Professor and the Madman (2019) (TMDb: 411728)                    |
+[2022-10-11 08:07:49,497] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Red Sea Diving Resort (2019) (TMDb: 465003)                       |
+[2022-10-11 08:07:49,530] [builder.py:2243]           [INFO]     | True Events Collection | ? | Danger Close: The Battle of Long Tan (2019) (TMDb: 508664)            |
+[2022-10-11 08:07:49,542] [builder.py:2243]           [INFO]     | True Events Collection | ? | Togo (2019) (TMDb: 606856)                                            |
+[2022-10-11 08:07:49,588] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Report (2019) (TMDb: 524348)                                      |
+[2022-10-11 08:07:49,604] [builder.py:2243]           [INFO]     | True Events Collection | ? | A Beautiful Day in the Neighborhood (2019) (TMDb: 501907)             |
+[2022-10-11 08:07:49,638] [builder.py:2243]           [INFO]     | True Events Collection | ? | Amundsen (2019) (TMDb: 545836)                                        |
+[2022-10-11 08:07:49,649] [builder.py:2243]           [INFO]     | True Events Collection | ? | Hotel Mumbai (2019) (TMDb: 416144)                                    |
+[2022-10-11 08:07:49,688] [builder.py:2243]           [INFO]     | True Events Collection | ? | While at War (2019) (TMDb: 542921)                                    |
+[2022-10-11 08:07:49,704] [builder.py:2243]           [INFO]     | True Events Collection | ? | Just Mercy (2019) (TMDb: 522212)                                      |
+[2022-10-11 08:07:49,747] [builder.py:2243]           [INFO]     | True Events Collection | ? | Skin (2019) (TMDb: 542417)                                            |
+[2022-10-11 08:07:49,772] [builder.py:2243]           [INFO]     | True Events Collection | ? | Judy (2019) (TMDb: 491283)                                            |
+[2022-10-11 08:07:49,797] [builder.py:2243]           [INFO]     | True Events Collection | ? | A Hidden Life (2019) (TMDb: 403300)                                   |
+[2022-10-11 08:07:49,822] [builder.py:2243]           [INFO]     | True Events Collection | ? | Escape from Pretoria (2020) (TMDb: 502425)                            |
+[2022-10-11 08:07:49,847] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Outpost (2020) (TMDb: 531876)                                     |
+[2022-10-11 08:07:49,872] [builder.py:2243]           [INFO]     | True Events Collection | ? | Resistance (2020) (TMDb: 491926)                                      |
+[2022-10-11 08:07:49,897] [builder.py:2243]           [INFO]     | True Events Collection | ? | Fighting with My Family (2019) (TMDb: 445629)                         |
+[2022-10-11 08:07:49,922] [builder.py:2243]           [INFO]     | True Events Collection | ? | Ray & Liz (2018) (TMDb: 500438)                                       |
+[2022-10-11 08:07:49,947] [builder.py:2243]           [INFO]     | True Events Collection | ? | Trial by Fire (2019) (TMDb: 481880)                                   |
+[2022-10-11 08:07:49,972] [builder.py:2243]           [INFO]     | True Events Collection | ? | Stockholm (2019) (TMDb: 437626)                                       |
+[2022-10-11 08:07:50,032] [builder.py:2243]           [INFO]     | True Events Collection | ? | Capone (2020) (TMDb: 429422)                                          |
+[2022-10-11 08:07:50,056] [builder.py:2243]           [INFO]     | True Events Collection | ? | Dream Horse (2021) (TMDb: 603206)                                     |
+[2022-10-11 08:07:50,072] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Glorias (2020) (TMDb: 519056)                                     |
+[2022-10-11 08:07:50,104] [builder.py:2243]           [INFO]     | True Events Collection | ? | I Still Believe (2020) (TMDb: 585244)                                 |
+[2022-10-11 08:07:50,128] [builder.py:2243]           [INFO]     | True Events Collection | ? | Lost Girls (2020) (TMDb: 567970)                                      |
+[2022-10-11 08:07:50,140] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Man Standing Next (2020) (TMDb: 566397)                           |
+[2022-10-11 08:07:50,164] [builder.py:2243]           [INFO]     | True Events Collection | ? | Sergio (2020) (TMDb: 653744)                                          |
+[2022-10-11 08:07:50,189] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Traitor (2019) (TMDb: 575452)                                     |
+[2022-10-11 08:07:50,214] [builder.py:2243]           [INFO]     | True Events Collection | ? | Clouds (2020) (TMDb: 630566)                                          |
+[2022-10-11 08:07:50,216] [builder.py:2243]           [INFO]     | True Events Collection | ? | Ride Like a Girl (2019) (TMDb: 487291)                                |
+[2022-10-11 08:07:50,239] [builder.py:2243]           [INFO]     | True Events Collection | ? | Everybody's Talking About Jamie (2021) (TMDb: 624899)                 |
+[2022-10-11 08:07:50,264] [builder.py:2243]           [INFO]     | True Events Collection | ? | Hillbilly Elegy (2020) (TMDb: 592984)                                 |
+[2022-10-11 08:07:50,289] [builder.py:2243]           [INFO]     | True Events Collection | ? | Tesla (2020) (TMDb: 517412)                                           |
+[2022-10-11 08:07:50,314] [builder.py:2243]           [INFO]     | True Events Collection | ? | A Call to Spy (2020) (TMDb: 589612)                                   |
+[2022-10-11 08:07:50,339] [builder.py:2243]           [INFO]     | True Events Collection | ? | White Boy Rick (2018) (TMDb: 438808)                                  |
+[2022-10-11 08:07:50,365] [builder.py:2243]           [INFO]     | True Events Collection | ? | Official Secrets (2019) (TMDb: 393624)                                |
+[2022-10-11 08:07:50,390] [builder.py:2243]           [INFO]     | True Events Collection | ? | Suspect (2013) (TMDb: 199373)                                         |
+[2022-10-11 08:07:50,430] [builder.py:2243]           [INFO]     | True Events Collection | ? | Mosul (2019) (TMDb: 618219)                                           |
+[2022-10-11 08:07:50,456] [builder.py:2243]           [INFO]     | True Events Collection | ? | One Night in Miami... (2020) (TMDb: 661914)                           |
+[2022-10-11 08:07:50,515] [builder.py:2243]           [INFO]     | True Events Collection | ? | Mary Shelley (2017) (TMDb: 332283)                                    |
+[2022-10-11 08:07:50,540] [builder.py:2243]           [INFO]     | True Events Collection | ? | Seberg (2019) (TMDb: 510298)                                          |
+[2022-10-11 08:07:50,541] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Dig (2021) (TMDb: 532865)                                         |
+[2022-10-11 08:07:50,580] [builder.py:2243]           [INFO]     | True Events Collection | ? | Rose Island (2020) (TMDb: 636565)                                     |
+[2022-10-11 08:07:50,582] [builder.py:2243]           [INFO]     | True Events Collection | ? | Our Friend (2019) (TMDb: 583903)                                      |
+[2022-10-11 08:07:50,597] [builder.py:2243]           [INFO]     | True Events Collection | ? | Blood Brothers (2015) (TMDb: 405556)                                  |
+[2022-10-11 08:07:50,640] [builder.py:2243]           [INFO]     | True Events Collection | ? | Burden (2020) (TMDb: 424201)                                          |
+[2022-10-11 08:07:50,665] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Current War (2018) (TMDb: 418879)                                 |
+[2022-10-11 08:07:50,715] [builder.py:2243]           [INFO]     | True Events Collection | ? | Frida (2002) (TMDb: 1360)                                             |
+[2022-10-11 08:07:50,740] [builder.py:2243]           [INFO]     | True Events Collection | ? | Silk Road (2021) (TMDb: 579051)                                       |
+[2022-10-11 08:07:50,765] [builder.py:2243]           [INFO]     | True Events Collection | ? | Oslo (2021) (TMDb: 553087)                                            |
+[2022-10-11 08:07:50,790] [builder.py:2243]           [INFO]     | True Events Collection | ? | Blue Miracle (2021) (TMDb: 671295)                                    |
+[2022-10-11 08:07:50,815] [builder.py:2243]           [INFO]     | True Events Collection | ? | No Man of God (2021) (TMDb: 716594)                                   |
+[2022-10-11 08:07:50,840] [builder.py:2243]           [INFO]     | True Events Collection | ? | Penguin Bloom (2021) (TMDb: 618416)                                   |
+[2022-10-11 08:07:50,865] [builder.py:2243]           [INFO]     | True Events Collection | ? | Worth (2021) (TMDb: 649394)                                           |
+[2022-10-11 08:07:50,890] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Tender Bar (2021) (TMDb: 727293)                                  |
+[2022-10-11 08:07:50,915] [builder.py:2243]           [INFO]     | True Events Collection | ? | A Journal for Jordan (2021) (TMDb: 501841)                            |
+[2022-10-11 08:07:50,930] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Eyes of Tammy Faye (2021) (TMDb: 601470)                          |
+[2022-10-11 08:07:50,947] [builder.py:2243]           [INFO]     | True Events Collection | ? | Against the Ice (2022) (TMDb: 836009)                                 |
+[2022-10-11 08:07:50,964] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Kashmir Files (2022) (TMDb: 900783)                               |
+[2022-10-11 08:07:50,997] [builder.py:2243]           [INFO]     | True Events Collection | ? | Oppenheimer (2023) (TMDb: 872585)                                     |
+[2022-10-11 08:07:51,029] [builder.py:2243]           [INFO]     | True Events Collection | ? | Shackleton (TMDb: 429451)                                             |
+[2022-10-11 08:07:51,047] [builder.py:2243]           [INFO]     | True Events Collection | ? | Napoleon (TMDb: 753342)                                               |
+[2022-10-11 08:07:51,089] [builder.py:2243]           [INFO]     | True Events Collection | ? | Fatherhood (2021) (TMDb: 607259)                                      |
+[2022-10-11 08:07:51,120] [builder.py:2243]           [INFO]     | True Events Collection | ? | Gladbeck: The Hostage Crisis (2022) (TMDb: 975923)                    |
+[2022-10-11 08:07:51,154] [builder.py:2243]           [INFO]     | True Events Collection | ? | Devotion (2022) (TMDb: 653851)                                        |
+[2022-10-11 08:07:51,187] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Silent Twins (2022) (TMDb: 812025)                                |
+[2022-10-11 08:07:51,221] [builder.py:2243]           [INFO]     | True Events Collection | ? | Breaking (2022) (TMDb: 801965)                                        |
+[2022-10-11 08:07:51,239] [builder.py:2243]           [INFO]     | True Events Collection | ? | Kidnapped: The Hannah Anderson Story (2015) (TMDb: 341881)            |
+[2022-10-11 08:07:51,304] [builder.py:2243]           [INFO]     | True Events Collection | ? | Oscar Pistorius: Blade Runner Killer (2017) (TMDb: 481811)            |
+[2022-10-11 08:07:51,357] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Elizabeth Smart Story (2003) (TMDb: 108211)                       |
+[2022-10-11 08:07:51,404] [builder.py:2243]           [INFO]     | True Events Collection | ? | World Trade Center (2006) (TMDb: 1852)                                |
+[2022-10-11 08:07:51,423] [builder.py:2243]           [INFO]     | True Events Collection | ? | Soul Surfer (2011) (TMDb: 43959)                                      |
+[2022-10-11 08:07:51,457] [builder.py:2243]           [INFO]     | True Events Collection | ? | Cool Runnings (1993) (TMDb: 864)                                      |
+[2022-10-11 08:07:51,489] [builder.py:2243]           [INFO]     | True Events Collection | ? | Amelia (2009) (TMDb: 8915)                                            |
+[2022-10-11 08:07:51,513] [builder.py:2243]           [INFO]     | True Events Collection | ? | Diana (2013) (TMDb: 118289)                                           |
+[2022-10-11 08:07:51,548] [builder.py:2243]           [INFO]     | True Events Collection | ? | Finding Neverland (2004) (TMDb: 866)                                  |
+[2022-10-11 08:07:51,565] [builder.py:2243]           [INFO]     | True Events Collection | ? | Grace of Monaco (2014) (TMDb: 215211)                                 |
+[2022-10-11 08:07:51,596] [builder.py:2243]           [INFO]     | True Events Collection | ? | Jersey Boys (2014) (TMDb: 209451)                                     |
+[2022-10-11 08:07:51,629] [builder.py:2243]           [INFO]     | True Events Collection | ? | Miss Potter (2006) (TMDb: 13967)                                      |
+[2022-10-11 08:07:51,654] [builder.py:2243]           [INFO]     | True Events Collection | ? | My Week with Marilyn (2011) (TMDb: 75900)                             |
+[2022-10-11 08:07:51,687] [builder.py:2243]           [INFO]     | True Events Collection | ? | Ned Kelly (2003) (TMDb: 10544)                                        |
+[2022-10-11 08:07:51,705] [builder.py:2243]           [INFO]     | True Events Collection | ? | Saving Mr. Banks (2013) (TMDb: 140823)                                |
+[2022-10-11 08:07:51,750] [builder.py:2243]           [INFO]     | True Events Collection | ? | Selena (1997) (TMDb: 16052)                                           |
+[2022-10-11 08:07:51,812] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Prize Winner of Defiance, Ohio (2005) (TMDb: 27176)               |
+[2022-10-11 08:07:51,850] [builder.py:2243]           [INFO]     | True Events Collection | ? | Who Killed JonBenét? (2016) (TMDb: 426232)                            |
+[2022-10-11 08:07:51,896] [builder.py:2243]           [INFO]     | True Events Collection | ? | I Am Elizabeth Smart (2017) (TMDb: 481847)                            |
+[2022-10-11 08:07:51,942] [builder.py:2243]           [INFO]     | True Events Collection | ? | Brain on Fire (2017) (TMDb: 340027)                                   |
+[2022-10-11 08:07:51,958] [builder.py:2243]           [INFO]     | True Events Collection | ? | Mommy Dead and Dearest (2017) (TMDb: 438446)                          |
+[2022-10-11 08:07:52,009] [builder.py:2243]           [INFO]     | True Events Collection | ? | Blackfish (2013) (TMDb: 158999)                                       |
+[2022-10-11 08:07:52,037] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Man Who Invented Christmas (2017) (TMDb: 450322)                  |
+[2022-10-11 08:07:52,084] [builder.py:2243]           [INFO]     | True Events Collection | ? | Kiss and Cry (2017) (TMDb: 440596)                                    |
+[2022-10-11 08:07:52,112] [builder.py:2243]           [INFO]     | True Events Collection | ? | Demon House (2018) (TMDb: 474104)                                     |
+[2022-10-11 08:07:52,134] [builder.py:2243]           [INFO]     | True Events Collection | ? | Torvill & Dean (2018) (TMDb: 555682)                                  |
+[2022-10-11 08:07:52,175] [builder.py:2243]           [INFO]     | True Events Collection | ? | Floyd Norman: An Animated Life (2016) (TMDb: 407588)                  |
+[2022-10-11 08:07:52,245] [builder.py:2243]           [INFO]     | True Events Collection | ? | Walt: The Man Behind the Myth (2001) (TMDb: 42980)                    |
+[2022-10-11 08:07:52,267] [builder.py:2243]           [INFO]     | True Events Collection | ? | Abducted in Plain Sight (2018) (TMDb: 470401)                         |
+[2022-10-11 08:07:52,296] [builder.py:2243]           [INFO]     | True Events Collection | ? | Extremely Wicked, Shockingly Evil and Vile (2019) (TMDb: 457799)      |
+[2022-10-11 08:07:52,329] [builder.py:2243]           [INFO]     | True Events Collection | ? | Walt Disney (2015) (TMDb: 360086)                                     |
+[2022-10-11 08:07:52,351] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Boy in the Plastic Bubble (1976) (TMDb: 9878)                     |
+[2022-10-11 08:07:52,392] [builder.py:2243]           [INFO]     | True Events Collection | ? | Child Star: The Shirley Temple Story (2001) (TMDb: 70468)             |
+[2022-10-11 08:07:52,410] [builder.py:2243]           [INFO]     | True Events Collection | ? | Dolly Parton's Coat of Many Colors (2015) (TMDb: 371718)              |
+[2022-10-11 08:07:52,426] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Boys: The Sherman Brothers' Story (2009) (TMDb: 64831)            |
+[2022-10-11 08:07:52,443] [builder.py:2243]           [INFO]     | True Events Collection | ? | Me Before You (2016) (TMDb: 296096)                                   |
+[2022-10-11 08:07:52,460] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Imposter (2012) (TMDb: 84287)                                     |
+[2022-10-11 08:07:52,476] [builder.py:2243]           [INFO]     | True Events Collection | ? | Amy (2015) (TMDb: 331781)                                             |
+[2022-10-11 08:07:52,493] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Road to Coronation Street (2010) (TMDb: 213971)                   |
+[2022-10-11 08:07:52,495] [builder.py:2243]           [INFO]     | True Events Collection | ? | Love You To Death (2019) (TMDb: 574151)                               |
+[2022-10-11 08:07:52,510] [builder.py:2243]           [INFO]     | True Events Collection | ? | My Sister's Keeper (2009) (TMDb: 10024)                               |
+[2022-10-11 08:07:52,527] [builder.py:2243]           [INFO]     | True Events Collection | ? | Frozen (2010) (TMDb: 44363)                                           |
+[2022-10-11 08:07:52,543] [builder.py:2243]           [INFO]     | True Events Collection | ? | Perfect Sisters (2014) (TMDb: 206192)                                 |
+[2022-10-11 08:07:52,560] [builder.py:2243]           [INFO]     | True Events Collection | ? | Bethany Hamilton: Unstoppable (2019) (TMDb: 510026)                   |
+[2022-10-11 08:07:52,605] [builder.py:2243]           [INFO]     | True Events Collection | ? | Nouveau Départ (2011) (TMDb: 74465)                                   |
+[2022-10-11 08:07:52,614] [builder.py:2243]           [INFO]     | True Events Collection | ? | GoodFellas (1990) (TMDb: 769)                                         |
+[2022-10-11 08:07:52,655] [builder.py:2243]           [INFO]     | True Events Collection | ? | Lawless (2012) (TMDb: 82633)                                          |
+[2022-10-11 08:07:52,666] [builder.py:2243]           [INFO]     | True Events Collection | ? | Breach (2007) (TMDb: 4169)                                            |
+[2022-10-11 08:07:52,705] [builder.py:2243]           [INFO]     | True Events Collection | ? | October Sky (1999) (TMDb: 13466)                                      |
+[2022-10-11 08:07:52,716] [builder.py:2243]           [INFO]     | True Events Collection | ? | Bonnie and Clyde (1967) (TMDb: 475)                                   |
+[2022-10-11 08:07:52,755] [builder.py:2243]           [INFO]     | True Events Collection | ? | We Are Marshall (2006) (TMDb: 11170)                                  |
+[2022-10-11 08:07:52,765] [builder.py:2243]           [INFO]     | True Events Collection | ? | Miracle (2004) (TMDb: 14292)                                          |
+[2022-10-11 08:07:52,788] [builder.py:2243]           [INFO]     | True Events Collection | ? | 42 (2013) (TMDb: 109410)                                              |
+[2022-10-11 08:07:52,836] [builder.py:2243]           [INFO]     | True Events Collection | ? | Green Zone (2010) (TMDb: 22972)                                       |
+[2022-10-11 08:07:52,869] [builder.py:2243]           [INFO]     | True Events Collection | ? | Jarhead (2005) (TMDb: 25)                                             |
+[2022-10-11 08:07:52,886] [builder.py:2243]           [INFO]     | True Events Collection | ? | Valkyrie (2008) (TMDb: 2253)                                          |
+[2022-10-11 08:07:52,927] [builder.py:2243]           [INFO]     | True Events Collection | ? | Emperor (2012) (TMDb: 127372)                                         |
+[2022-10-11 08:07:52,945] [builder.py:2243]           [INFO]     | True Events Collection | ? | Defiance (2008) (TMDb: 13813)                                         |
+[2022-10-11 08:07:52,986] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Rookie (2002) (TMDb: 14635)                                       |
+[2022-10-11 08:07:53,003] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Insider (1999) (TMDb: 9008)                                       |
+[2022-10-11 08:07:53,052] [builder.py:2243]           [INFO]     | True Events Collection | ? | Margin Call (2011) (TMDb: 50839)                                      |
+[2022-10-11 08:07:53,069] [builder.py:2243]           [INFO]     | True Events Collection | ? | W. (2008) (TMDb: 10523)                                               |
+[2022-10-11 08:07:53,111] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Soloist (2009) (TMDb: 17332)                                      |
+[2022-10-11 08:07:53,128] [builder.py:2243]           [INFO]     | True Events Collection | ? | Ray (2004) (TMDb: 1677)                                               |
+[2022-10-11 08:07:53,169] [builder.py:2243]           [INFO]     | True Events Collection | ? | Rock Star (2001) (TMDb: 12508)                                        |
+[2022-10-11 08:07:53,186] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Informant! (2009) (TMDb: 11323)                                   |
+[2022-10-11 08:07:53,228] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Basketball Diaries (1995) (TMDb: 10474)                           |
+[2022-10-11 08:07:53,245] [builder.py:2243]           [INFO]     | True Events Collection | ? | Extraordinary Measures (2010) (TMDb: 27569)                           |
+[2022-10-11 08:07:53,278] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Whistleblower (2010) (TMDb: 65760)                                |
+[2022-10-11 08:07:53,280] [builder.py:2243]           [INFO]     | True Events Collection | ? | Invictus (2009) (TMDb: 22954)                                         |
+[2022-10-11 08:07:53,295] [builder.py:2243]           [INFO]     | True Events Collection | ? | Felon (2008) (TMDb: 13012)                                            |
+[2022-10-11 08:07:53,311] [builder.py:2243]           [INFO]     | True Events Collection | ? | Dolphin Tale (2011) (TMDb: 62837)                                     |
+[2022-10-11 08:07:53,328] [builder.py:2243]           [INFO]     | True Events Collection | ? | Antartica, prisonniers du froid (2006) (TMDb: 9036)                   |
+[2022-10-11 08:07:53,345] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Assassination of Jesse James by the Coward Robert Ford (2007) (TMDb: 4512) |
+[2022-10-11 08:07:53,362] [builder.py:2243]           [INFO]     | True Events Collection | ? | Wyatt Earp (1994) (TMDb: 12160)                                       |
+[2022-10-11 08:07:53,378] [builder.py:2243]           [INFO]     | True Events Collection | ? | Saving Lincoln (2013) (TMDb: 161187)                                  |
+[2022-10-11 08:07:53,397] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Conspirator (2010) (TMDb: 60309)                                  |
+[2022-10-11 08:07:53,430] [builder.py:2243]           [INFO]     | True Events Collection | ? | Jobs (2013) (TMDb: 115782)                                            |
+[2022-10-11 08:07:53,447] [builder.py:2243]           [INFO]     | True Events Collection | ? | 50/50 (2011) (TMDb: 40807)                                            |
+[2022-10-11 08:07:53,480] [builder.py:2243]           [INFO]     | True Events Collection | ? | Puncture (2011) (TMDb: 72432)                                         |
+[2022-10-11 08:07:53,497] [builder.py:2243]           [INFO]     | True Events Collection | ? | Prosecuting Casey Anthony (2013) (TMDb: 157447)                       |
+[2022-10-11 08:07:53,530] [builder.py:2243]           [INFO]     | True Events Collection | ? | Phantom (2013) (TMDb: 152259)                                         |
+[2022-10-11 08:07:53,541] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Messenger: The Story of Joan of Arc (1999) (TMDb: 10047)          |
+[2022-10-11 08:07:53,571] [builder.py:2243]           [INFO]     | True Events Collection | ? | 3096 Days (2013) (TMDb: 166666)                                       |
+[2022-10-11 08:07:53,582] [builder.py:2243]           [INFO]     | True Events Collection | ? | Snitch (2013) (TMDb: 134411)                                          |
+[2022-10-11 08:07:53,613] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Craigslist Killer (2011) (TMDb: 55680)                            |
+[2022-10-11 08:07:53,637] [builder.py:2243]           [INFO]     | True Events Collection | ? | Conviction (2010) (TMDb: 45094)                                       |
+[2022-10-11 08:07:53,654] [builder.py:2243]           [INFO]     | True Events Collection | ? | Letters to God (2010) (TMDb: 35691)                                   |
+[2022-10-11 08:07:53,656] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Bang Bang Club (2011) (TMDb: 60011)                               |
+[2022-10-11 08:07:53,670] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Perfect Game (2009) (TMDb: 56601)                                 |
+[2022-10-11 08:07:53,687] [builder.py:2243]           [INFO]     | True Events Collection | ? | Einstein and Eddington (2008) (TMDb: 15044)                           |
+[2022-10-11 08:07:53,704] [builder.py:2243]           [INFO]     | True Events Collection | ? | Che: Part One (2008) (TMDb: 8881)                                     |
+[2022-10-11 08:07:53,721] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Butler (2013) (TMDb: 132363)                                      |
+[2022-10-11 08:07:53,737] [builder.py:2243]           [INFO]     | True Events Collection | ? | Kon-Tiki (2012) (TMDb: 70667)                                         |
+[2022-10-11 08:07:53,754] [builder.py:2243]           [INFO]     | True Events Collection | ? | Mongol: The Rise of Genghis Khan (2007) (TMDb: 12246)                 |
+[2022-10-11 08:07:53,771] [builder.py:2243]           [INFO]     | True Events Collection | ? | Empire State (2013) (TMDb: 169209)                                    |
+[2022-10-11 08:07:53,788] [builder.py:2243]           [INFO]     | True Events Collection | ? | The Fifth Estate (2013) (TMDb: 162903)                                |
+[2022-10-11 08:07:53,809] [builder.py:2243]           [INFO]     | True Events Collection | ? | Lone Survivor (2013) (TMDb: 193756)                                   |
+[2022-10-11 08:07:53,813] [builder.py:2243]           [INFO]     | True Events Collection | ? | When The Game Stands Tall (2014) (TMDb: 232679)                       |
+[2022-10-11 08:07:53,813] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-10-11 08:07:53,813] [builder.py:2249]           [INFO]     | 344 Movies Missing                                                                                 |
+[2022-10-11 08:07:54,316] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-11 08:07:54,317] [builder.py:2442]           [INFO]     |============================ Updating Details of True Events Collection ============================|
+[2022-10-11 08:07:54,317] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-11 08:07:54,326] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-10-11 08:07:54,326] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'True Events'                                          |
+[2022-10-11 08:07:54,326] [util.py:150]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-10-11 08:07:54,327] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_TRUE.png |
+[2022-10-11 08:07:54,327] [library.py:172]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-10-11 08:07:54,684] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 08:07:54,684] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 08:07:54,684] [plex_meta_manager.py:709]  [INFO]     |                                  Finished True Events Collection                                   |
+[2022-10-11 08:07:54,684] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:15                                    |
+[2022-10-11 08:07:54,684] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

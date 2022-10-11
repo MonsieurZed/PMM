@@ -1,0 +1,241 @@
+[2022-10-11 10:01:35,092] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 10:01:35,093] [builder.py:197]            [INFO]     |                           Biography Collection in Z. 5 - Film Animation                            |
+[2022-10-11 10:01:35,093] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 10:01:35,093] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 10:01:35,093] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 10:01:35,093] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:01:35,093] [meta.py:128]               [DEBUG]    | Template Genre                                                                                     |
+[2022-10-11 10:01:35,094] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Genre')])                                                             |
+[2022-10-11 10:01:35,094] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:01:35,094] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Genre'), ('collection_name', 'Biography'), ('mapping_name', 'Biography'), ('library_type', 'movie'), ('library_name', 'Z. 5 - Film Animation'), ('name_encoded', 'Genre'), ('collection_name_encoded', 'Biography'), ('mapping_name_encoded', 'Biography'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%205%20-%20Film%20Animation'), ('collection_sort', 'Biography')]) |
+[2022-10-11 10:01:35,094] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:01:35,094] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 10:01:35,095] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:01:35,095] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 10:01:35,095] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:01:35,096] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+3_Biography', 'sync_mode': 'sync', 'smart_label': 'audience_rating.desc'} |
+[2022-10-11 10:01:35,096] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:01:35,096] [builder.py:219]            [INFO]     |================================= Validating Biography Attributes ==================================|
+[2022-10-11 10:01:35,096] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:01:35,096] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-11 10:01:35,097] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-11 10:01:35,097] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:01:35,097] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-11 10:01:35,097] [builder.py:544]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-10-11 10:01:35,113] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:01:35,113] [builder.py:631]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-10-11 10:01:35,113] [builder.py:632]            [DEBUG]    | Value: ordereddict([('genre', 'Biography')])                                                       |
+[2022-10-11 10:01:35,168] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:01:35,168] [builder.py:631]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-10-11 10:01:35,169] [builder.py:632]            [DEBUG]    | Value: [ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=biography'), ('limit', 200)]), ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=biography&sort=user_rating,desc'), ('limit', 200)])] |
+[2022-10-11 10:01:37,150] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:01:37,151] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-11 10:01:37,151] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_BIO.png                 |
+[2022-10-11 10:01:37,381] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:01:37,381] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-10-11 10:01:37,382] [builder.py:632]            [DEBUG]    | Value: A collection of Biography movies                                                            |
+[2022-10-11 10:01:37,382] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 10:01:37,382] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 10:01:37,382] [builder.py:632]            [DEBUG]    | Value: +3_Biography                                                                                |
+[2022-10-11 10:01:37,388] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-10-11 10:01:37,388] [plex.py:793]               [DEBUG]    | Looking for: Biography                                                                             |
+[2022-10-11 10:01:37,388] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 10:01:37,389] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 10:01:37,389] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 10:01:37,389] [plex_meta_manager.py:563]  [INFO]     |=================================== Running Biography Collection ===================================|
+[2022-10-11 10:01:37,389] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-10-11 10:01:37,389] [plex_meta_manager.py:570]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: audience_rating.desc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Biography
+[2022-10-11 10:01:37,390] [plex_meta_manager.py:575]  [INFO]     | 
+[2022-10-11 10:01:37,390] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync
+[2022-10-11 10:01:37,390] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 10:01:37,391] [plex_meta_manager.py:580]  [DEBUG]    | Builder: plex_search: (1, 'Plex Movie Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Genre is Biography', '?type=1&sort=titleSort&push=1&genre=28462&pop=1')
+[2022-10-11 10:01:37,391] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 10:01:37,391] [plex.py:819]               [INFO]     | Processing Plex Movie Search
+                                                                 | Sort By: title.asc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Match any of the following:
+                                                                 |       Genre is Biography
+[2022-10-11 10:01:37,408] [plex.py:864]               [DEBUG]    | 
+[2022-10-11 10:01:37,409] [plex.py:865]               [DEBUG]    | 2 Keys Found: [(7431, 'ratingKey'), (34244, 'ratingKey')]
+[2022-10-11 10:01:37,409] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 10:01:37,409] [builder.py:1541]           [DEBUG]    | 2 IDs Found: [(7431, 'ratingKey'), (34244, 'ratingKey')]
+[2022-10-11 10:01:37,409] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 10:01:37,409] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 10:01:37,410] [plex_meta_manager.py:580]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=biography', 'limit': 200}
+[2022-10-11 10:01:37,410] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 10:01:37,410] [imdb.py:184]               [INFO]     | Processing IMDb List: 200 Items at https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=biography
+[2022-10-11 10:01:41,684] [imdb.py:135]               [DEBUG]    | 127 IMDb IDs Found: ['tt3704428', 'tt0993846', 'tt3569230', 'tt11214590', 'tt0099685', 'tt1950186', 'tt0108052', 'tt1485796', 'tt6966692', 'tt1596363', 'tt2119532', 'tt1285016', 'tt0112573', 'tt0264464', 'tt0108358', 'tt2084970', 'tt7984766', 'tt6394270', 'tt1302006', 'tt1727824', 'tt0268978', 'tt0253474', 'tt0340855', 'tt4846340', 'tt6266538', 'tt1675434', 'tt0172493', 'tt0443680', 'tt0758758', 'tt0964517', 'tt1895587', 'tt1210166', 'tt9620288', 'tt2005151', 'tt2024544', 'tt4209788', 'tt0363163', 'tt1504320', 'tt0210945', 'tt1024648', 'tt2066051', 'tt5580036', 'tt2179136', 'tt0426883', 'tt0878804', 'tt0454921', 'tt0358273', 'tt4276820', 'tt5083738', 'tt4555426', 'tt0765429', 'tt8721424', 'tt1979320', 'tt0195685', 'tt0338751', 'tt7349662', 'tt0790636', 'tt1152836', 'tt1091191', 'tt0221027', 'tt2980516', 'tt1172570', 'tt1212450', 'tt0119008', 'tt2446980', 'tt0418763', 'tt1398426', 'tt1809398', 'tt0436697', 'tt3521126', 'tt0109707', 'tt0810819', 'tt0443272', 'tt1390411', 'tt3741834', 'tt1542344', 'tt6294822', 'tt2305051', 'tt0099077', 'tt2719848', 'tt0422720', 'tt3263904', 'tt1028532', 'tt1213641', 'tt0346491', 'tt0248667', 'tt0112461', 'tt0393162', 'tt0467200', 'tt0107207', 'tt1535109', 'tt1355683', 'tt0824747', 'tt0350258', 'tt2080374', 'tt0120102', 'tt1220719', 'tt3774114', 'tt1100089', 'tt1057500', 'tt0352248', 'tt0140352', 'tt1013753', 'tt0203019', 'tt2140373', 'tt1571222', 'tt0395169', 'tt3488710', 'tt0455590', 'tt1135503', 'tt0125664', 'tt0472062', 'tt0308644', 'tt0129290', 'tt1327773', 'tt0379725', 'tt5074352', 'tt0462504', 'tt0318462', 'tt1616195', 'tt2431286', 'tt8404614', 'tt1007029', 'tt10295212', 'tt0401383', 'tt1386932', 'tt0870111']
+[2022-10-11 10:01:41,684] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 10:01:41,684] [builder.py:1541]           [DEBUG]    | 127 IDs Found: [('tt3704428', 'imdb'), ('tt0993846', 'imdb'), ('tt3569230', 'imdb'), ('tt11214590', 'imdb'), ('tt0099685', 'imdb'), ('tt1950186', 'imdb'), ('tt0108052', 'imdb'), ('tt1485796', 'imdb'), ('tt6966692', 'imdb'), ('tt1596363', 'imdb'), ('tt2119532', 'imdb'), ('tt1285016', 'imdb'), ('tt0112573', 'imdb'), ('tt0264464', 'imdb'), ('tt0108358', 'imdb'), ('tt2084970', 'imdb'), ('tt7984766', 'imdb'), ('tt6394270', 'imdb'), ('tt1302006', 'imdb'), ('tt1727824', 'imdb'), ('tt0268978', 'imdb'), ('tt0253474', 'imdb'), ('tt0340855', 'imdb'), ('tt4846340', 'imdb'), ('tt6266538', 'imdb'), ('tt1675434', 'imdb'), ('tt0172493', 'imdb'), ('tt0443680', 'imdb'), ('tt0758758', 'imdb'), ('tt0964517', 'imdb'), ('tt1895587', 'imdb'), ('tt1210166', 'imdb'), ('tt9620288', 'imdb'), ('tt2005151', 'imdb'), ('tt2024544', 'imdb'), ('tt4209788', 'imdb'), ('tt0363163', 'imdb'), ('tt1504320', 'imdb'), ('tt0210945', 'imdb'), ('tt1024648', 'imdb'), ('tt2066051', 'imdb'), ('tt5580036', 'imdb'), ('tt2179136', 'imdb'), ('tt0426883', 'imdb'), ('tt0878804', 'imdb'), ('tt0454921', 'imdb'), ('tt0358273', 'imdb'), ('tt4276820', 'imdb'), ('tt5083738', 'imdb'), ('tt4555426', 'imdb'), ('tt0765429', 'imdb'), ('tt8721424', 'imdb'), ('tt1979320', 'imdb'), ('tt0195685', 'imdb'), ('tt0338751', 'imdb'), ('tt7349662', 'imdb'), ('tt0790636', 'imdb'), ('tt1152836', 'imdb'), ('tt1091191', 'imdb'), ('tt0221027', 'imdb'), ('tt2980516', 'imdb'), ('tt1172570', 'imdb'), ('tt1212450', 'imdb'), ('tt0119008', 'imdb'), ('tt2446980', 'imdb'), ('tt0418763', 'imdb'), ('tt1398426', 'imdb'), ('tt1809398', 'imdb'), ('tt0436697', 'imdb'), ('tt3521126', 'imdb'), ('tt0109707', 'imdb'), ('tt0810819', 'imdb'), ('tt0443272', 'imdb'), ('tt1390411', 'imdb'), ('tt3741834', 'imdb'), ('tt1542344', 'imdb'), ('tt6294822', 'imdb'), ('tt2305051', 'imdb'), ('tt0099077', 'imdb'), ('tt2719848', 'imdb'), ('tt0422720', 'imdb'), ('tt3263904', 'imdb'), ('tt1028532', 'imdb'), ('tt1213641', 'imdb'), ('tt0346491', 'imdb'), ('tt0248667', 'imdb'), ('tt0112461', 'imdb'), ('tt0393162', 'imdb'), ('tt0467200', 'imdb'), ('tt0107207', 'imdb'), ('tt1535109', 'imdb'), ('tt1355683', 'imdb'), ('tt0824747', 'imdb'), ('tt0350258', 'imdb'), ('tt2080374', 'imdb'), ('tt0120102', 'imdb'), ('tt1220719', 'imdb'), ('tt3774114', 'imdb'), ('tt1100089', 'imdb'), ('tt1057500', 'imdb'), ('tt0352248', 'imdb'), ('tt0140352', 'imdb'), ('tt1013753', 'imdb'), ('tt0203019', 'imdb'), ('tt2140373', 'imdb'), ('tt1571222', 'imdb'), ('tt0395169', 'imdb'), ('tt3488710', 'imdb'), ('tt0455590', 'imdb'), ('tt1135503', 'imdb'), ('tt0125664', 'imdb'), ('tt0472062', 'imdb'), ('tt0308644', 'imdb'), ('tt0129290', 'imdb'), ('tt1327773', 'imdb'), ('tt0379725', 'imdb'), ('tt5074352', 'imdb'), ('tt0462504', 'imdb'), ('tt0318462', 'imdb'), ('tt1616195', 'imdb'), ('tt2431286', 'imdb'), ('tt8404614', 'imdb'), ('tt1007029', 'imdb'), ('tt10295212', 'imdb'), ('tt0401383', 'imdb'), ('tt1386932', 'imdb'), ('tt0870111', 'imdb')]
+[2022-10-11 10:01:41,685] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 10:01:42,930] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 10:01:42,932] [plex_meta_manager.py:580]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=biography&sort=user_rating,desc', 'limit': 200}
+[2022-10-11 10:01:42,933] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 10:01:42,933] [imdb.py:184]               [INFO]     | Processing IMDb List: 200 Items at https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=biography&sort=user_rating,desc
+[2022-10-11 10:01:47,085] [imdb.py:135]               [DEBUG]    | 127 IMDb IDs Found: ['tt0108052', 'tt0099685', 'tt1675434', 'tt0253474', 'tt10295212', 'tt0112573', 'tt5074352', 'tt6966692', 'tt0993846', 'tt0363163', 'tt0268978', 'tt2119532', 'tt2024544', 'tt1979320', 'tt1950186', 'tt1895587', 'tt1028532', 'tt0758758', 'tt0395169', 'tt0264464', 'tt0107207', 'tt3741834', 'tt2084970', 'tt1504320', 'tt1220719', 'tt0454921', 'tt0401383', 'tt0352248', 'tt1727824', 'tt0790636', 'tt4846340', 'tt1596363', 'tt1535109', 'tt1398426', 'tt1302006', 'tt1285016', 'tt0964517', 'tt0824747', 'tt0765429', 'tt0358273', 'tt0318462', 'tt0210945', 'tt0140352', 'tt0109707', 'tt0108358', 'tt0099077', 'tt2980516', 'tt1024648', 'tt0870111', 'tt0350258', 'tt0308644', 'tt0119008', 'tt8404614', 'tt2431286', 'tt1542344', 'tt1210166', 'tt0878804', 'tt0455590', 'tt9620288', 'tt8721424', 'tt7349662', 'tt5580036', 'tt5083738', 'tt3704428', 'tt2140373', 'tt1485796', 'tt1386932', 'tt1091191', 'tt1013753', 'tt0443680', 'tt0338751', 'tt0221027', 'tt4555426', 'tt4209788', 'tt3263904', 'tt0195685', 'tt0125664', 'tt7984766', 'tt3774114', 'tt3521126', 'tt3488710', 'tt2179136', 'tt2066051', 'tt1213641', 'tt1057500', 'tt0462504', 'tt0443272', 'tt0436697', 'tt0393162', 'tt0379725', 'tt0340855', 'tt0172493', 'tt0112461', 'tt6294822', 'tt6266538', 'tt4276820', 'tt2080374', 'tt1809398', 'tt1327773', 'tt1212450', 'tt0203019', 'tt2719848', 'tt2305051', 'tt2005151', 'tt0810819', 'tt0120102', 'tt1172570', 'tt1152836', 'tt1135503', 'tt1100089', 'tt0472062', 'tt0418763', 'tt3569230', 'tt1390411', 'tt1355683', 'tt0426883', 'tt6394270', 'tt0129290', 'tt0467200', 'tt0248667', 'tt2446980', 'tt11214590', 'tt1616195', 'tt0422720', 'tt1571222', 'tt1007029', 'tt0346491']
+[2022-10-11 10:01:47,086] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 10:01:47,086] [builder.py:1541]           [DEBUG]    | 127 IDs Found: [('tt0108052', 'imdb'), ('tt0099685', 'imdb'), ('tt1675434', 'imdb'), ('tt0253474', 'imdb'), ('tt10295212', 'imdb'), ('tt0112573', 'imdb'), ('tt5074352', 'imdb'), ('tt6966692', 'imdb'), ('tt0993846', 'imdb'), ('tt0363163', 'imdb'), ('tt0268978', 'imdb'), ('tt2119532', 'imdb'), ('tt2024544', 'imdb'), ('tt1979320', 'imdb'), ('tt1950186', 'imdb'), ('tt1895587', 'imdb'), ('tt1028532', 'imdb'), ('tt0758758', 'imdb'), ('tt0395169', 'imdb'), ('tt0264464', 'imdb'), ('tt0107207', 'imdb'), ('tt3741834', 'imdb'), ('tt2084970', 'imdb'), ('tt1504320', 'imdb'), ('tt1220719', 'imdb'), ('tt0454921', 'imdb'), ('tt0401383', 'imdb'), ('tt0352248', 'imdb'), ('tt1727824', 'imdb'), ('tt0790636', 'imdb'), ('tt4846340', 'imdb'), ('tt1596363', 'imdb'), ('tt1535109', 'imdb'), ('tt1398426', 'imdb'), ('tt1302006', 'imdb'), ('tt1285016', 'imdb'), ('tt0964517', 'imdb'), ('tt0824747', 'imdb'), ('tt0765429', 'imdb'), ('tt0358273', 'imdb'), ('tt0318462', 'imdb'), ('tt0210945', 'imdb'), ('tt0140352', 'imdb'), ('tt0109707', 'imdb'), ('tt0108358', 'imdb'), ('tt0099077', 'imdb'), ('tt2980516', 'imdb'), ('tt1024648', 'imdb'), ('tt0870111', 'imdb'), ('tt0350258', 'imdb'), ('tt0308644', 'imdb'), ('tt0119008', 'imdb'), ('tt8404614', 'imdb'), ('tt2431286', 'imdb'), ('tt1542344', 'imdb'), ('tt1210166', 'imdb'), ('tt0878804', 'imdb'), ('tt0455590', 'imdb'), ('tt9620288', 'imdb'), ('tt8721424', 'imdb'), ('tt7349662', 'imdb'), ('tt5580036', 'imdb'), ('tt5083738', 'imdb'), ('tt3704428', 'imdb'), ('tt2140373', 'imdb'), ('tt1485796', 'imdb'), ('tt1386932', 'imdb'), ('tt1091191', 'imdb'), ('tt1013753', 'imdb'), ('tt0443680', 'imdb'), ('tt0338751', 'imdb'), ('tt0221027', 'imdb'), ('tt4555426', 'imdb'), ('tt4209788', 'imdb'), ('tt3263904', 'imdb'), ('tt0195685', 'imdb'), ('tt0125664', 'imdb'), ('tt7984766', 'imdb'), ('tt3774114', 'imdb'), ('tt3521126', 'imdb'), ('tt3488710', 'imdb'), ('tt2179136', 'imdb'), ('tt2066051', 'imdb'), ('tt1213641', 'imdb'), ('tt1057500', 'imdb'), ('tt0462504', 'imdb'), ('tt0443272', 'imdb'), ('tt0436697', 'imdb'), ('tt0393162', 'imdb'), ('tt0379725', 'imdb'), ('tt0340855', 'imdb'), ('tt0172493', 'imdb'), ('tt0112461', 'imdb'), ('tt6294822', 'imdb'), ('tt6266538', 'imdb'), ('tt4276820', 'imdb'), ('tt2080374', 'imdb'), ('tt1809398', 'imdb'), ('tt1327773', 'imdb'), ('tt1212450', 'imdb'), ('tt0203019', 'imdb'), ('tt2719848', 'imdb'), ('tt2305051', 'imdb'), ('tt2005151', 'imdb'), ('tt0810819', 'imdb'), ('tt0120102', 'imdb'), ('tt1172570', 'imdb'), ('tt1152836', 'imdb'), ('tt1135503', 'imdb'), ('tt1100089', 'imdb'), ('tt0472062', 'imdb'), ('tt0418763', 'imdb'), ('tt3569230', 'imdb'), ('tt1390411', 'imdb'), ('tt1355683', 'imdb'), ('tt0426883', 'imdb'), ('tt6394270', 'imdb'), ('tt0129290', 'imdb'), ('tt0467200', 'imdb'), ('tt0248667', 'imdb'), ('tt2446980', 'imdb'), ('tt11214590', 'imdb'), ('tt1616195', 'imdb'), ('tt0422720', 'imdb'), ('tt1571222', 'imdb'), ('tt1007029', 'imdb'), ('tt0346491', 'imdb')]
+[2022-10-11 10:01:47,087] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 10:01:47,176] [builder.py:2064]           [INFO]     | 
+[2022-10-11 10:01:47,179] [builder.py:2065]           [INFO]     |================================== Adding to Biography Collection ==================================|
+[2022-10-11 10:01:47,179] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-11 10:01:47,193] [builder.py:2080]           [INFO]     | 1/2 | Biography Collection | + | Le vent se lève (2013)                                            |
+[2022-10-11 10:01:47,628] [builder.py:2080]           [INFO]     | 2/2 | Biography Collection | + | Persepolis (2007)                                                 |
+[2022-10-11 10:01:48,920] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-11 10:01:48,920] [builder.py:2102]           [INFO]     | 2 Movies Processed 2 Movies Added                                                                  |
+[2022-10-11 10:01:48,921] [builder.py:2228]           [INFO]     |                                                                                                    |
+[2022-10-11 10:01:48,921] [builder.py:2229]           [INFO]     |======================== Missing Movies from Library: Z. 5 - Film Animation ========================|
+[2022-10-11 10:01:48,921] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-10-11 10:01:49,026] [builder.py:2243]           [INFO]     | Biography Collection | ? | Elvis (2022) (TMDb: 614934)                                             |
+[2022-10-11 10:01:49,038] [builder.py:2243]           [INFO]     | Biography Collection | ? | The Wolf of Wall Street (2013) (TMDb: 106646)                           |
+[2022-10-11 10:01:49,079] [builder.py:2243]           [INFO]     | Biography Collection | ? | Legend (2015) (TMDb: 276907)                                            |
+[2022-10-11 10:01:49,090] [builder.py:2243]           [INFO]     | Biography Collection | ? | House of Gucci (2021) (TMDb: 644495)                                    |
+[2022-10-11 10:01:49,138] [builder.py:2243]           [INFO]     | Biography Collection | ? | GoodFellas (1990) (TMDb: 769)                                           |
+[2022-10-11 10:01:49,149] [builder.py:2243]           [INFO]     | Biography Collection | ? | Ford v Ferrari (2019) (TMDb: 359724)                                    |
+[2022-10-11 10:01:49,188] [builder.py:2243]           [INFO]     | Biography Collection | ? | Schindler's List (1993) (TMDb: 424)                                     |
+[2022-10-11 10:01:49,202] [builder.py:2243]           [INFO]     | Biography Collection | ? | The Greatest Showman (2017) (TMDb: 316029)                              |
+[2022-10-11 10:01:49,229] [builder.py:2243]           [INFO]     | Biography Collection | ? | Green Book (2018) (TMDb: 490132)                                        |
+[2022-10-11 10:01:49,263] [builder.py:2243]           [INFO]     | Biography Collection | ? | The Big Short (2015) (TMDb: 318846)                                     |
+[2022-10-11 10:01:49,296] [builder.py:2243]           [INFO]     | Biography Collection | ? | Hacksaw Ridge (2016) (TMDb: 324786)                                     |
+[2022-10-11 10:01:49,319] [builder.py:2243]           [INFO]     | Biography Collection | ? | The Social Network (2010) (TMDb: 37799)                                 |
+[2022-10-11 10:01:49,362] [builder.py:2243]           [INFO]     | Biography Collection | ? | Braveheart (1995) (TMDb: 197)                                           |
+[2022-10-11 10:01:49,377] [builder.py:2243]           [INFO]     | Biography Collection | ? | Arrête-moi si tu peux (2002) (TMDb: 640)                                |
+[2022-10-11 10:01:49,402] [builder.py:2243]           [INFO]     | Biography Collection | ? | Tombstone (1993) (TMDb: 11969)                                          |
+[2022-10-11 10:01:49,453] [builder.py:2243]           [INFO]     | Biography Collection | ? | Imitation Game (2014) (TMDb: 205596)                                    |
+[2022-10-11 10:01:49,469] [builder.py:2243]           [INFO]     | Biography Collection | ? | The King (2019) (TMDb: 504949)                                          |
+[2022-10-11 10:01:49,511] [builder.py:2243]           [INFO]     | Biography Collection | ? | Bombshell (2019) (TMDb: 525661)                                         |
+[2022-10-11 10:01:49,537] [builder.py:2243]           [INFO]     | Biography Collection | ? | The Irishman (2019) (TMDb: 398978)                                      |
+[2022-10-11 10:01:49,569] [builder.py:2243]           [INFO]     | Biography Collection | ? | Bohemian Rhapsody (2018) (TMDb: 424694)                                 |
+[2022-10-11 10:01:49,613] [builder.py:2243]           [INFO]     | Biography Collection | ? | A Beautiful Mind (2001) (TMDb: 453)                                     |
+[2022-10-11 10:01:49,631] [builder.py:2243]           [INFO]     | Biography Collection | ? | The Pianist (2002) (TMDb: 423)                                          |
+[2022-10-11 10:01:49,680] [builder.py:2243]           [INFO]     | Biography Collection | ? | Monster (2003) (TMDb: 504)                                              |
+[2022-10-11 10:01:49,697] [builder.py:2243]           [INFO]     | Biography Collection | ? | Hidden Figures (2016) (TMDb: 381284)                                    |
+[2022-10-11 10:01:49,747] [builder.py:2243]           [INFO]     | Biography Collection | ? | Vice (2018) (TMDb: 429197)                                              |
+[2022-10-11 10:01:49,764] [builder.py:2243]           [INFO]     | Biography Collection | ? | The Intouchables (2011) (TMDb: 77338)                                   |
+[2022-10-11 10:01:49,805] [builder.py:2243]           [INFO]     | Biography Collection | ? | Girl, Interrupted (1999) (TMDb: 3558)                                   |
+[2022-10-11 10:01:49,831] [builder.py:2243]           [INFO]     | Biography Collection | ? | The Assassination of Jesse James by the Coward Robert Ford (2007) (TMDb: 4512) |
+[2022-10-11 10:01:49,856] [builder.py:2243]           [INFO]     | Biography Collection | ? | Into the Wild (2007) (TMDb: 5915)                                       |
+[2022-10-11 10:01:49,889] [builder.py:2243]           [INFO]     | Biography Collection | ? | The Fighter (2010) (TMDb: 45317)                                        |
+[2022-10-11 10:01:49,905] [builder.py:2243]           [INFO]     | Biography Collection | ? | Spotlight (2015) (TMDb: 314365)                                         |
+[2022-10-11 10:01:49,922] [builder.py:2243]           [INFO]     | Biography Collection | ? | Moneyball (2011) (TMDb: 60308)                                          |
+[2022-10-11 10:01:49,943] [builder.py:2243]           [INFO]     | Biography Collection | ? | King Richard (2021) (TMDb: 614917)                                      |
+[2022-10-11 10:01:49,955] [builder.py:2243]           [INFO]     | Biography Collection | ? | War Dogs (2016) (TMDb: 308266)                                          |
+[2022-10-11 10:01:49,973] [builder.py:2243]           [INFO]     | Biography Collection | ? | 12 Years a Slave (2013) (TMDb: 76203)                                   |
+[2022-10-11 10:01:50,004] [builder.py:2243]           [INFO]     | Biography Collection | ? | Le Grand Jeu (2017) (TMDb: 396371)                                      |
+[2022-10-11 10:01:50,031] [builder.py:2243]           [INFO]     | Biography Collection | ? | Downfall (2004) (TMDb: 613)                                             |
+[2022-10-11 10:01:50,048] [builder.py:2243]           [INFO]     | Biography Collection | ? | The King's Speech (2010) (TMDb: 45269)                                  |
+[2022-10-11 10:01:50,088] [builder.py:2243]           [INFO]     | Biography Collection | ? | Remember the Titans (2000) (TMDb: 10637)                                |
+[2022-10-11 10:01:50,106] [builder.py:2243]           [INFO]     | Biography Collection | ? | Argo (2012) (TMDb: 68734)                                               |
+[2022-10-11 10:01:50,146] [builder.py:2243]           [INFO]     | Biography Collection | ? | Rocketman (2019) (TMDb: 504608)                                         |
+[2022-10-11 10:01:50,213] [builder.py:2243]           [INFO]     | Biography Collection | ? | Moi, Tonya (2017) (TMDb: 389015)                                        |
+[2022-10-11 10:01:50,224] [builder.py:2243]           [INFO]     | Biography Collection | ? | American Sniper (2014) (TMDb: 190859)                                   |
+[2022-10-11 10:01:50,254] [builder.py:2243]           [INFO]     | Biography Collection | ? | Alpha Dog (2006) (TMDb: 7457)                                           |
+[2022-10-11 10:01:50,266] [builder.py:2243]           [INFO]     | Biography Collection | ? | The Blind Side (2009) (TMDb: 22881)                                     |
+[2022-10-11 10:01:50,313] [builder.py:2243]           [INFO]     | Biography Collection | ? | The Pursuit of Happyness (2006) (TMDb: 1402)                            |
+[2022-10-11 10:01:50,323] [builder.py:2243]           [INFO]     | Biography Collection | ? | Walk the Line (2005) (TMDb: 69)                                         |
+[2022-10-11 10:01:50,371] [builder.py:2243]           [INFO]     | Biography Collection | ? | The Founder (2016) (TMDb: 310307)                                       |
+[2022-10-11 10:01:50,390] [builder.py:2243]           [INFO]     | Biography Collection | ? | The Favourite (2018) (TMDb: 375262)                                     |
+[2022-10-11 10:01:50,421] [builder.py:2243]           [INFO]     | Biography Collection | ? | Darkest Hour (2017) (TMDb: 399404)                                      |
+[2022-10-11 10:01:50,432] [builder.py:2243]           [INFO]     | Biography Collection | ? | American Gangster (2007) (TMDb: 4982)                                   |
+[2022-10-11 10:01:50,433] [builder.py:2243]           [INFO]     | Biography Collection | ? | tick, tick... BOOM! (2021) (TMDb: 537116)                               |
+[2022-10-11 10:01:50,463] [builder.py:2243]           [INFO]     | Biography Collection | ? | Rush (2013) (TMDb: 96721)                                               |
+[2022-10-11 10:01:50,473] [builder.py:2243]           [INFO]     | Biography Collection | ? | Erin Brockovich (2000) (TMDb: 462)                                      |
+[2022-10-11 10:01:50,490] [builder.py:2243]           [INFO]     | Biography Collection | ? | The Aviator (2004) (TMDb: 2567)                                         |
+[2022-10-11 10:01:50,507] [builder.py:2243]           [INFO]     | Biography Collection | ? | BlacKkKlansman (2018) (TMDb: 487558)                                    |
+[2022-10-11 10:01:50,523] [builder.py:2243]           [INFO]     | Biography Collection | ? | Dallas Buyers Club (2013) (TMDb: 152532)                                |
+[2022-10-11 10:01:50,587] [builder.py:2243]           [INFO]     | Biography Collection | ? | Public Enemies (2009) (TMDb: 11322)                                     |
+[2022-10-11 10:01:50,624] [builder.py:2243]           [INFO]     | Biography Collection | ? | Lone Survivor (2013) (TMDb: 193756)                                     |
+[2022-10-11 10:01:50,641] [builder.py:2243]           [INFO]     | Biography Collection | ? | Blow (2001) (TMDb: 4133)                                                |
+[2022-10-11 10:01:50,682] [builder.py:2243]           [INFO]     | Biography Collection | ? | The Theory of Everything (2014) (TMDb: 266856)                          |
+[2022-10-11 10:01:50,704] [builder.py:2243]           [INFO]     | Biography Collection | ? | Bronson (2008) (TMDb: 18533)                                            |
+[2022-10-11 10:01:50,724] [builder.py:2243]           [INFO]     | Biography Collection | ? | Lawless (2012) (TMDb: 82633)                                            |
+[2022-10-11 10:01:50,765] [builder.py:2243]           [INFO]     | Biography Collection | ? | Donnie Brasco (1997) (TMDb: 9366)                                       |
+[2022-10-11 10:01:50,783] [builder.py:2243]           [INFO]     | Biography Collection | ? | Joy (2015) (TMDb: 274479)                                               |
+[2022-10-11 10:01:50,794] [builder.py:2243]           [INFO]     | Biography Collection | ? | Jarhead (2005) (TMDb: 25)                                               |
+[2022-10-11 10:01:50,835] [builder.py:2243]           [INFO]     | Biography Collection | ? | Straight Outta Compton (2015) (TMDb: 277216)                            |
+[2022-10-11 10:01:50,852] [builder.py:2243]           [INFO]     | Biography Collection | ? | Invincible (2014) (TMDb: 227306)                                        |
+[2022-10-11 10:01:50,894] [builder.py:2243]           [INFO]     | Biography Collection | ? | The Queen (2006) (TMDb: 1165)                                           |
+[2022-10-11 10:01:50,911] [builder.py:2243]           [INFO]     | Biography Collection | ? | The Disaster Artist (2017) (TMDb: 371638)                               |
+[2022-10-11 10:01:50,953] [builder.py:2243]           [INFO]     | Biography Collection | ? | Ed Wood (1994) (TMDb: 522)                                              |
+[2022-10-11 10:01:50,969] [builder.py:2243]           [INFO]     | Biography Collection | ? | The Danish Girl (2015) (TMDb: 306819)                                   |
+[2022-10-11 10:01:51,020] [builder.py:2243]           [INFO]     | Biography Collection | ? | Lincoln (2012) (TMDb: 72976)                                            |
+[2022-10-11 10:01:51,036] [builder.py:2243]           [INFO]     | Biography Collection | ? | In the Heart of the Sea (2015) (TMDb: 205775)                           |
+[2022-10-11 10:01:51,078] [builder.py:2243]           [INFO]     | Biography Collection | ? | Lion (2016) (TMDb: 334543)                                              |
+[2022-10-11 10:01:51,096] [builder.py:2243]           [INFO]     | Biography Collection | ? | 127 Hours (2010) (TMDb: 44115)                                          |
+[2022-10-11 10:01:51,146] [builder.py:2243]           [INFO]     | Biography Collection | ? | The Post (2017) (TMDb: 446354)                                          |
+[2022-10-11 10:01:51,157] [builder.py:2243]           [INFO]     | Biography Collection | ? | Wild (2014) (TMDb: 228970)                                              |
+[2022-10-11 10:01:51,188] [builder.py:2243]           [INFO]     | Biography Collection | ? | Awakenings (1990) (TMDb: 11005)                                         |
+[2022-10-11 10:01:51,238] [builder.py:2243]           [INFO]     | Biography Collection | ? | Everest (2015) (TMDb: 253412)                                           |
+[2022-10-11 10:01:51,249] [builder.py:2243]           [INFO]     | Biography Collection | ? | Marie-Antoinette (2006) (TMDb: 1887)                                    |
+[2022-10-11 10:01:51,279] [builder.py:2243]           [INFO]     | Biography Collection | ? | Sully (2016) (TMDb: 363676)                                             |
+[2022-10-11 10:01:51,295] [builder.py:2243]           [INFO]     | Biography Collection | ? | Hachi: A Dog's Tale (2009) (TMDb: 28178)                                |
+[2022-10-11 10:01:51,321] [builder.py:2243]           [INFO]     | Biography Collection | ? | First Man (2018) (TMDb: 369972)                                         |
+[2022-10-11 10:01:51,345] [builder.py:2243]           [INFO]     | Biography Collection | ? | Alexander (2004) (TMDb: 1966)                                           |
+[2022-10-11 10:01:51,361] [builder.py:2243]           [INFO]     | Biography Collection | ? | Ali (2001) (TMDb: 8489)                                                 |
+[2022-10-11 10:01:51,388] [builder.py:2243]           [INFO]     | Biography Collection | ? | The Basketball Diaries (1995) (TMDb: 10474)                             |
+[2022-10-11 10:01:51,400] [builder.py:2243]           [INFO]     | Biography Collection | ? | Coach Carter (2005) (TMDb: 7214)                                        |
+[2022-10-11 10:01:51,417] [builder.py:2243]           [INFO]     | Biography Collection | ? | The Other Boleyn Girl (2008) (TMDb: 12184)                              |
+[2022-10-11 10:01:51,428] [builder.py:2243]           [INFO]     | Biography Collection | ? | In the Name of the Father (1993) (TMDb: 7984)                           |
+[2022-10-11 10:01:51,446] [builder.py:2243]           [INFO]     | Biography Collection | ? | Captain Phillips (2013) (TMDb: 109424)                                  |
+[2022-10-11 10:01:51,477] [builder.py:2243]           [INFO]     | Biography Collection | ? | Black Mass (2015) (TMDb: 261023)                                        |
+[2022-10-11 10:01:51,504] [builder.py:2243]           [INFO]     | Biography Collection | ? | Changeling (2008) (TMDb: 3580)                                          |
+[2022-10-11 10:01:51,520] [builder.py:2243]           [INFO]     | Biography Collection | ? | Ray (2004) (TMDb: 1677)                                                 |
+[2022-10-11 10:01:51,537] [builder.py:2243]           [INFO]     | Biography Collection | ? | Steve Jobs (2015) (TMDb: 321697)                                        |
+[2022-10-11 10:01:51,571] [builder.py:2243]           [INFO]     | Biography Collection | ? | Seven Years in Tibet (1997) (TMDb: 978)                                 |
+[2022-10-11 10:01:51,587] [builder.py:2243]           [INFO]     | Biography Collection | ? | Ip Man (2008) (TMDb: 14756)                                             |
+[2022-10-11 10:01:51,613] [builder.py:2243]           [INFO]     | Biography Collection | ? | Snowden (2016) (TMDb: 302401)                                           |
+[2022-10-11 10:01:51,622] [builder.py:2243]           [INFO]     | Biography Collection | ? | Foxcatcher (2014) (TMDb: 87492)                                         |
+[2022-10-11 10:01:51,663] [builder.py:2243]           [INFO]     | Biography Collection | ? | Invictus (2009) (TMDb: 22954)                                           |
+[2022-10-11 10:01:51,680] [builder.py:2243]           [INFO]     | Biography Collection | ? | Cinderella Man (2005) (TMDb: 921)                                       |
+[2022-10-11 10:01:51,696] [builder.py:2243]           [INFO]     | Biography Collection | ? | The Insider (1999) (TMDb: 9008)                                         |
+[2022-10-11 10:01:51,721] [builder.py:2243]           [INFO]     | Biography Collection | ? | Milk (2008) (TMDb: 10139)                                               |
+[2022-10-11 10:01:51,763] [builder.py:2243]           [INFO]     | Biography Collection | ? | Men of Honor (2000) (TMDb: 11978)                                       |
+[2022-10-11 10:01:51,788] [builder.py:2243]           [INFO]     | Biography Collection | ? | Saving Mr. Banks (2013) (TMDb: 140823)                                  |
+[2022-10-11 10:01:51,813] [builder.py:2243]           [INFO]     | Biography Collection | ? | A Dangerous Method (2011) (TMDb: 48231)                                 |
+[2022-10-11 10:01:51,855] [builder.py:2243]           [INFO]     | Biography Collection | ? | Hotel Rwanda (2004) (TMDb: 205)                                         |
+[2022-10-11 10:01:51,872] [builder.py:2243]           [INFO]     | Biography Collection | ? | The Walk (2015) (TMDb: 285783)                                          |
+[2022-10-11 10:01:51,913] [builder.py:2243]           [INFO]     | Biography Collection | ? | The Last King of Scotland (2006) (TMDb: 1523)                           |
+[2022-10-11 10:01:51,938] [builder.py:2243]           [INFO]     | Biography Collection | ? | Julie & Julia (2009) (TMDb: 24803)                                      |
+[2022-10-11 10:01:51,965] [builder.py:2243]           [INFO]     | Biography Collection | ? | Man on the Moon (1999) (TMDb: 1850)                                     |
+[2022-10-11 10:01:52,016] [builder.py:2243]           [INFO]     | Biography Collection | ? | Charlie Wilson's War (2007) (TMDb: 6538)                                |
+[2022-10-11 10:01:52,074] [builder.py:2243]           [INFO]     | Biography Collection | ? | Finding Neverland (2004) (TMDb: 866)                                    |
+[2022-10-11 10:01:52,099] [builder.py:2243]           [INFO]     | Biography Collection | ? | Patch Adams (1998) (TMDb: 10312)                                        |
+[2022-10-11 10:01:52,149] [builder.py:2243]           [INFO]     | Biography Collection | ? | The Butler (2013) (TMDb: 132363)                                        |
+[2022-10-11 10:01:52,174] [builder.py:2243]           [INFO]     | Biography Collection | ? | Capote (2005) (TMDb: 398)                                               |
+[2022-10-11 10:01:52,224] [builder.py:2243]           [INFO]     | Biography Collection | ? | Dangal (2016) (TMDb: 360814)                                            |
+[2022-10-11 10:01:52,249] [builder.py:2243]           [INFO]     | Biography Collection | ? | Rescue Dawn (2006) (TMDb: 9952)                                         |
+[2022-10-11 10:01:52,299] [builder.py:2243]           [INFO]     | Biography Collection | ? | The Motorcycle Diaries (2004) (TMDb: 1653)                              |
+[2022-10-11 10:01:52,324] [builder.py:2243]           [INFO]     | Biography Collection | ? | J. Edgar (2011) (TMDb: 88794)                                           |
+[2022-10-11 10:01:52,374] [builder.py:2243]           [INFO]     | Biography Collection | ? | Philomena (2013) (TMDb: 205220)                                         |
+[2022-10-11 10:01:52,399] [builder.py:2243]           [INFO]     | Biography Collection | ? | The Two Popes (2019) (TMDb: 551332)                                     |
+[2022-10-11 10:01:52,424] [builder.py:2243]           [INFO]     | Biography Collection | ? | The Iron Lady (2011) (TMDb: 71688)                                      |
+[2022-10-11 10:01:52,449] [builder.py:2243]           [INFO]     | Biography Collection | ? | Shershaah (2021) (TMDb: 599925)                                         |
+[2022-10-11 10:01:52,474] [builder.py:2243]           [INFO]     | Biography Collection | ? | The Diving Bell and the Butterfly (2007) (TMDb: 2013)                   |
+[2022-10-11 10:01:52,500] [builder.py:2243]           [INFO]     | Biography Collection | ? | Ip Man 2 (2010) (TMDb: 37472)                                           |
+[2022-10-11 10:01:52,502] [builder.py:2243]           [INFO]     | Biography Collection | ? | Frost/Nixon (2008) (TMDb: 11499)                                        |
+[2022-10-11 10:01:52,502] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-10-11 10:01:52,502] [builder.py:2249]           [INFO]     | 127 Movies Missing                                                                                 |
+[2022-10-11 10:01:53,184] [plex.py:711]               [DEBUG]    | Smart Collection Test: ?type=1&sort=audienceRating%3Adesc&label=214276                             |
+[2022-10-11 10:01:53,223] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-11 10:01:53,224] [builder.py:2442]           [INFO]     |============================= Updating Details of Biography Collection =============================|
+[2022-10-11 10:01:53,224] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-11 10:01:53,504] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | A collection of Biography movies
+                                                                 | Sort Title | +3_Biography
+                                                                 | Label | +PMM
+[2022-10-11 10:01:53,796] [builder.py:2513]           [INFO]     | Details: have been updated
+[2022-10-11 10:01:53,796] [builder.py:2517]           [INFO]     | 
+[2022-10-11 10:01:53,796] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Biography'
+[2022-10-11 10:01:53,796] [util.py:150]               [DEBUG]    | 1 poster found:
+[2022-10-11 10:01:53,797] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_BIO.png
+[2022-10-11 10:01:53,985] [library.py:170]            [INFO]     | Detail: url_poster updated poster to [URL] https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_BIO.png
+[2022-10-11 10:01:54,009] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-11 10:01:54,009] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 10:01:54,010] [plex_meta_manager.py:709]  [INFO]     |                                   Finished Biography Collection                                    |
+[2022-10-11 10:01:54,010] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:18                                    |
+[2022-10-11 10:01:54,010] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

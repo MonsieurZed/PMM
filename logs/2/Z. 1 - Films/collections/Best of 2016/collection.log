@@ -1,0 +1,40 @@
+[2022-09-29 07:41:25,893] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-09-29 07:41:25,893] [builder.py:197]            [INFO]     |                              Best of 2016 Collection in Z. 1 - Films                               |
+[2022-09-29 07:41:25,893] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-09-29 07:41:25,893] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-09-29 07:41:25,893] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-09-29 07:41:25,893] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-09-29 07:41:25,893] [meta.py:128]               [DEBUG]    | Template Best of                                                                                   |
+[2022-09-29 07:41:25,894] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Best of'), ('year', 2016)])                                           |
+[2022-09-29 07:41:25,894] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-09-29 07:41:25,894] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Best of'), ('year', 2016), ('collection_name', 'Best of 2016'), ('mapping_name', 'Best of 2016'), ('library_type', 'movie'), ('library_name', 'Z. 1 - Films'), ('name_encoded', 'Best%20of'), ('year_encoded', '2016'), ('collection_name_encoded', 'Best%20of%202016'), ('mapping_name_encoded', 'Best%20of%202016'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%201%20-%20Films'), ('collection_sort', 'Best of 2016')]) |
+[2022-09-29 07:41:25,894] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-09-29 07:41:25,894] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-09-29 07:41:25,894] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-09-29 07:41:25,894] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-09-29 07:41:25,895] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-09-29 07:41:25,895] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'trakt_list': 'https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2016', 'sort_title': '+1_Best of 2016', 'sync_mode': 'sync', 'summary': 'Rotten Tomatoes Best Movies of 2016', 'smart_label': 'audience_rating.desc'} |
+[2022-09-29 07:41:25,896] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-09-29 07:41:25,896] [builder.py:219]            [INFO]     |================================ Validating Best of 2016 Attributes ================================|
+[2022-09-29 07:41:25,896] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-09-29 07:41:25,896] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-09-29 07:41:25,896] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-09-29 07:41:25,896] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-09-29 07:41:25,896] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-09-29 07:41:25,897] [builder.py:544]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-09-29 07:41:25,900] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 07:41:25,900] [builder.py:631]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-09-29 07:41:25,900] [builder.py:632]            [DEBUG]    | Value: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-2016                           |
+[2022-09-29 07:41:25,900] [plex_meta_manager.py:696]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 559, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str)
+                                                                 |   File "/modules/builder.py", line 641, in __init__
+                                                                 |     raise Failed(f"{self.Type} Error: {method_final} requires Trakt to be configured")
+                                                                 | modules.util.Failed: Collection Error: trakt_list requires Trakt to be configured
+                                                                 | 
+[2022-09-29 07:41:25,901] [plex_meta_manager.py:697]  [ERROR]    | Collection Error: trakt_list requires Trakt to be configured
+[2022-09-29 07:41:25,901] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-09-29 07:41:25,901] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-09-29 07:41:25,901] [plex_meta_manager.py:709]  [INFO]     |                                  Finished Best of 2016 Collection                                  |
+[2022-09-29 07:41:25,902] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-09-29 07:41:25,902] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

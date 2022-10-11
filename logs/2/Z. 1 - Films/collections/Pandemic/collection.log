@@ -1,0 +1,147 @@
+[2022-10-11 08:59:45,805] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 08:59:45,805] [builder.py:197]            [INFO]     |                                Pandemic Collection in Z. 1 - Films                                 |
+[2022-10-11 08:59:45,805] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 08:59:45,805] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 08:59:45,805] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 08:59:45,805] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:59:45,805] [meta.py:128]               [DEBUG]    | Template Genre                                                                                     |
+[2022-10-11 08:59:45,806] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Genre')])                                                             |
+[2022-10-11 08:59:45,806] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:59:45,806] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Genre'), ('collection_name', 'Pandemic'), ('mapping_name', 'Pandemic'), ('library_type', 'movie'), ('library_name', 'Z. 1 - Films'), ('name_encoded', 'Genre'), ('collection_name_encoded', 'Pandemic'), ('mapping_name_encoded', 'Pandemic'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%201%20-%20Films'), ('collection_sort', 'Pandemic')]) |
+[2022-10-11 08:59:45,806] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:59:45,806] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 08:59:45,806] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:59:45,806] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 08:59:45,807] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:59:45,807] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+3_Pandemic', 'sync_mode': 'sync', 'smart_label': 'audience_rating.desc'} |
+[2022-10-11 08:59:45,807] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:59:45,807] [builder.py:219]            [INFO]     |================================== Validating Pandemic Attributes ==================================|
+[2022-10-11 08:59:45,808] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:59:45,808] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-11 08:59:45,808] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-11 08:59:45,808] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:59:45,808] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-11 08:59:45,808] [builder.py:544]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-10-11 08:59:45,825] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:59:45,825] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-11 08:59:45,826] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_PANDEMIC.png            |
+[2022-10-11 08:59:46,092] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:59:46,092] [builder.py:631]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-10-11 08:59:46,092] [builder.py:632]            [DEBUG]    | Value: https://www.imdb.com/list/ls092321048/                                                      |
+[2022-10-11 08:59:49,794] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:59:49,795] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-10-11 08:59:49,796] [builder.py:632]            [DEBUG]    | Value: A Pandemic film resolves around widespread viruses, plagues, and diseases.                  |
+[2022-10-11 08:59:49,796] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:59:49,796] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 08:59:49,796] [builder.py:632]            [DEBUG]    | Value: +3_Pandemic                                                                                 |
+[2022-10-11 08:59:50,031] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 08:59:50,031] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 08:59:50,032] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 08:59:50,032] [plex_meta_manager.py:563]  [INFO]     |=================================== Running Pandemic Collection ====================================|
+[2022-10-11 08:59:50,032] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-10-11 08:59:50,032] [plex_meta_manager.py:570]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: audience_rating.desc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Pandemic
+[2022-10-11 08:59:50,033] [plex_meta_manager.py:575]  [INFO]     | 
+[2022-10-11 08:59:50,033] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync
+[2022-10-11 08:59:50,033] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-11 08:59:50,033] [plex_meta_manager.py:580]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls092321048/', 'limit': 0}
+[2022-10-11 08:59:50,033] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-11 08:59:50,033] [imdb.py:184]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls092321048/
+[2022-10-11 08:59:58,691] [imdb.py:135]               [DEBUG]    | 84 IMDb IDs Found: ['tt0108941', 'tt0114069', 'tt0114746', 'tt0120804', 'tt0289043', 'tt0463854', 'tt0303816', 'tt0363547', 'tt0365748', 'tt0318627', 'tt2592614', 'tt0432021', 'tt0961722', 'tt3832096', 'tt1082868', 'tt0455407', 'tt1598778', 'tt0816711', 'tt2281159', 'tt0806203', 'tt2351310', 'tt4421578', 'tt1226681', 'tt0861689', 'tt4547056', 'tt3860916', 'tt8941440', 'tt3774802', 'tt2580382', 'tt0434409', 'tt0069895', 'tt0074292', 'tt0480249', 'tt1699231', 'tt1520211', 'tt4131818', 'tt0120755', 'tt4500922', 'tt2246907', 'tt5700672', 'tt1038988', 'tt1245112', 'tt0120458', 'tt0117500', 'tt1560220', 'tt1156398', 'tt0077402', 'tt7949218', 'tt3148266', 'tt0206634', 'tt2737304', 'tt0898367', 'tt0446755', 'tt0424600', 'tt0066769', 'tt0419706', 'tt0762073', 'tt3458254', 'tt2102496', 'tt1077258', 'tt2638662', 'tt0800026', 'tt0118885', 'tt0272557', 'tt0429422', 'tt0234634', 'tt1258189', 'tt0285331', 'tt5868826', 'tt0388482', 'tt3062096', 'tt1528100', 'tt0483607', 'tt0073705', 'tt3463106', 'tt1881002', 'tt2597892', 'tt4974778', 'tt1831804', 'tt0108941', 'tt1258189', 'tt2654620', 'tt7366338', 'tt10384106']
+[2022-10-11 08:59:58,692] [builder.py:1540]           [DEBUG]    | 
+[2022-10-11 08:59:58,692] [builder.py:1541]           [DEBUG]    | 84 IDs Found: [('tt0108941', 'imdb'), ('tt0114069', 'imdb'), ('tt0114746', 'imdb'), ('tt0120804', 'imdb'), ('tt0289043', 'imdb'), ('tt0463854', 'imdb'), ('tt0303816', 'imdb'), ('tt0363547', 'imdb'), ('tt0365748', 'imdb'), ('tt0318627', 'imdb'), ('tt2592614', 'imdb'), ('tt0432021', 'imdb'), ('tt0961722', 'imdb'), ('tt3832096', 'imdb'), ('tt1082868', 'imdb'), ('tt0455407', 'imdb'), ('tt1598778', 'imdb'), ('tt0816711', 'imdb'), ('tt2281159', 'imdb'), ('tt0806203', 'imdb'), ('tt2351310', 'imdb'), ('tt4421578', 'imdb'), ('tt1226681', 'imdb'), ('tt0861689', 'imdb'), ('tt4547056', 'imdb'), ('tt3860916', 'imdb'), ('tt8941440', 'imdb'), ('tt3774802', 'imdb'), ('tt2580382', 'imdb'), ('tt0434409', 'imdb'), ('tt0069895', 'imdb'), ('tt0074292', 'imdb'), ('tt0480249', 'imdb'), ('tt1699231', 'imdb'), ('tt1520211', 'imdb'), ('tt4131818', 'imdb'), ('tt0120755', 'imdb'), ('tt4500922', 'imdb'), ('tt2246907', 'imdb'), ('tt5700672', 'imdb'), ('tt1038988', 'imdb'), ('tt1245112', 'imdb'), ('tt0120458', 'imdb'), ('tt0117500', 'imdb'), ('tt1560220', 'imdb'), ('tt1156398', 'imdb'), ('tt0077402', 'imdb'), ('tt7949218', 'imdb'), ('tt3148266', 'imdb'), ('tt0206634', 'imdb'), ('tt2737304', 'imdb'), ('tt0898367', 'imdb'), ('tt0446755', 'imdb'), ('tt0424600', 'imdb'), ('tt0066769', 'imdb'), ('tt0419706', 'imdb'), ('tt0762073', 'imdb'), ('tt3458254', 'imdb'), ('tt2102496', 'imdb'), ('tt1077258', 'imdb'), ('tt2638662', 'imdb'), ('tt0800026', 'imdb'), ('tt0118885', 'imdb'), ('tt0272557', 'imdb'), ('tt0429422', 'imdb'), ('tt0234634', 'imdb'), ('tt1258189', 'imdb'), ('tt0285331', 'imdb'), ('tt5868826', 'imdb'), ('tt0388482', 'imdb'), ('tt3062096', 'imdb'), ('tt1528100', 'imdb'), ('tt0483607', 'imdb'), ('tt0073705', 'imdb'), ('tt3463106', 'imdb'), ('tt1881002', 'imdb'), ('tt2597892', 'imdb'), ('tt4974778', 'imdb'), ('tt1831804', 'imdb'), ('tt0108941', 'imdb'), ('tt1258189', 'imdb'), ('tt2654620', 'imdb'), ('tt7366338', 'imdb'), ('tt10384106', 'imdb')]
+[2022-10-11 08:59:58,692] [builder.py:1542]           [DEBUG]    | 
+[2022-10-11 08:59:58,762] [builder.py:2064]           [INFO]     | 
+[2022-10-11 08:59:58,763] [builder.py:2065]           [INFO]     |================================== Adding to Pandemic Collection ===================================|
+[2022-10-11 08:59:58,763] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-11 08:59:58,887] [builder.py:2080]           [INFO]     |  1/22 | Pandemic Collection | = | L'Armée des 12 singes (1995)                                     |
+[2022-10-11 08:59:58,887] [builder.py:2080]           [INFO]     |  2/22 | Pandemic Collection | = | Resident Evil I (2002)                                           |
+[2022-10-11 08:59:58,887] [builder.py:2080]           [INFO]     |  3/22 | Pandemic Collection | = | 28 jours plus tard (2002)                                        |
+[2022-10-11 08:59:58,887] [builder.py:2080]           [INFO]     |  4/22 | Pandemic Collection | = | Shaun of the Dead (2004)                                         |
+[2022-10-11 08:59:58,888] [builder.py:2080]           [INFO]     |  5/22 | Pandemic Collection | = | Resident Evil II : Apocalypse (2004)                             |
+[2022-10-11 08:59:58,888] [builder.py:2080]           [INFO]     |  6/22 | Pandemic Collection | = | Resident Evil VI : Chapitre Final (2016)                         |
+[2022-10-11 08:59:58,888] [builder.py:2080]           [INFO]     |  7/22 | Pandemic Collection | = | Resident Evil III : Extinction (2007)                            |
+[2022-10-11 08:59:58,888] [builder.py:2080]           [INFO]     |  8/22 | Pandemic Collection | = | Contagion (2011)                                                 |
+[2022-10-11 08:59:58,889] [builder.py:2080]           [INFO]     |  9/22 | Pandemic Collection | = | World War Z (2013)                                               |
+[2022-10-11 08:59:58,889] [builder.py:2080]           [INFO]     | 10/22 | Pandemic Collection | = | V pour Vendetta (2006)                                           |
+[2022-10-11 08:59:58,889] [builder.py:2080]           [INFO]     | 11/22 | Pandemic Collection | = | Je suis une légende (2007)                                       |
+[2022-10-11 08:59:58,889] [builder.py:2080]           [INFO]     | 12/22 | Pandemic Collection | = | Mission : Impossible II (2000)                                   |
+[2022-10-11 08:59:58,890] [builder.py:2080]           [INFO]     | 13/22 | Pandemic Collection | = | Le Labyrinthe : Le Remède mortel (2018)                          |
+[2022-10-11 08:59:58,890] [builder.py:2080]           [INFO]     | 14/22 | Pandemic Collection | = | Dernier train pour Busan (2016)                                  |
+[2022-10-11 08:59:58,890] [builder.py:2080]           [INFO]     | 15/22 | Pandemic Collection | = | Rock (1996)                                                      |
+[2022-10-11 08:59:58,890] [builder.py:2080]           [INFO]     | 16/22 | Pandemic Collection | = | Retour à Zombieland (2019)                                       |
+[2022-10-11 08:59:58,891] [builder.py:2080]           [INFO]     | 17/22 | Pandemic Collection | = | Bienvenue à Zombieland (2009)                                    |
+[2022-10-11 08:59:58,891] [builder.py:2080]           [INFO]     | 18/22 | Pandemic Collection | = | Les Fils de l'homme (2006)                                       |
+[2022-10-11 08:59:58,891] [builder.py:2080]           [INFO]     | 19/22 | Pandemic Collection | = | Doom (2005)                                                      |
+[2022-10-11 08:59:58,891] [builder.py:2080]           [INFO]     | 20/22 | Pandemic Collection | = | Thirst, ceci est mon sang (2009)                                 |
+[2022-10-11 08:59:58,891] [builder.py:2080]           [INFO]     | 21/22 | Pandemic Collection | = | Le Transporteur 2 (2005)                                         |
+[2022-10-11 08:59:58,892] [builder.py:2080]           [INFO]     | 22/22 | Pandemic Collection | = | Inferno (2016)                                                   |
+[2022-10-11 08:59:58,892] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-11 08:59:58,892] [builder.py:2102]           [INFO]     | 22 Movies Processed 0 Movies Added                                                                 |
+[2022-10-11 08:59:58,892] [builder.py:2228]           [INFO]     |                                                                                                    |
+[2022-10-11 08:59:58,892] [builder.py:2229]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-10-11 08:59:58,893] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-10-11 08:59:58,932] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | The Stand (TMDb: 953253)                                                 |
+[2022-10-11 08:59:58,951] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Outbreak (1995) (TMDb: 6950)                                             |
+[2022-10-11 08:59:58,976] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | 28 Weeks Later (2007) (TMDb: 1562)                                       |
+[2022-10-11 08:59:58,988] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Cabin Fever (2003) (TMDb: 11547)                                         |
+[2022-10-11 08:59:59,010] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Dawn of the Dead (2004) (TMDb: 924)                                      |
+[2022-10-11 08:59:59,021] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Cabin Fever 2: Spring Fever (2009) (TMDb: 28739)                         |
+[2022-10-11 08:59:59,043] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Cabin Fever (2016) (TMDb: 298584)                                        |
+[2022-10-11 08:59:59,054] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Quarantine (2008) (TMDb: 13812)                                          |
+[2022-10-11 08:59:59,071] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | The Crazies (2010) (TMDb: 29427)                                         |
+[2022-10-11 08:59:59,082] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Contracted (2013) (TMDb: 204349)                                         |
+[2022-10-11 08:59:59,099] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Carriers (2009) (TMDb: 25769)                                            |
+[2022-10-11 08:59:59,116] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | The Flu (2013) (TMDb: 200085)                                            |
+[2022-10-11 08:59:59,132] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Pontypool (2009) (TMDb: 23963)                                           |
+[2022-10-11 08:59:59,149] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Blindness (2008) (TMDb: 8338)                                            |
+[2022-10-11 08:59:59,166] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | The Girl with All the Gifts (2016) (TMDb: 375366)                        |
+[2022-10-11 08:59:59,183] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Cargo (2017) (TMDb: 425972)                                              |
+[2022-10-11 08:59:59,199] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Virus (2019) (TMDb: 585261)                                              |
+[2022-10-11 08:59:59,216] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Pandemic (2016) (TMDb: 346651)                                           |
+[2022-10-11 08:59:59,233] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | The Survivalist (2015) (TMDb: 329004)                                    |
+[2022-10-11 08:59:59,249] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | The Crazies (1973) (TMDb: 29425)                                         |
+[2022-10-11 08:59:59,266] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | The Cassandra Crossing (1976) (TMDb: 32037)                              |
+[2022-10-11 08:59:59,282] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Quarantine 2: Terminal (2011) (TMDb: 59115)                              |
+[2022-10-11 08:59:59,309] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Biohazard: Patient Zero (2011) (TMDb: 136972)                            |
+[2022-10-11 08:59:59,335] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | [REC] (2007) (TMDb: 8329)                                                |
+[2022-10-11 08:59:59,376] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | [REC]² (2009) (TMDb: 10664)                                              |
+[2022-10-11 08:59:59,401] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Virus (1999) (TMDb: 9423)                                                |
+[2022-10-11 08:59:59,426] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Dawn of the Dead (1978) (TMDb: 923)                                      |
+[2022-10-11 08:59:59,451] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Bird Box (2018) (TMDb: 405774)                                           |
+[2022-10-11 08:59:59,476] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | The Road (2009) (TMDb: 20766)                                            |
+[2022-10-11 08:59:59,518] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | The Painted Veil (2006) (TMDb: 14202)                                    |
+[2022-10-11 08:59:59,543] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | The Andromeda Strain (1971) (TMDb: 10514)                                |
+[2022-10-11 08:59:59,568] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Patient Zero (2018) (TMDb: 295011)                                       |
+[2022-10-11 08:59:59,593] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Cabin Fever: Patient Zero (2014) (TMDb: 157424)                          |
+[2022-10-11 08:59:59,618] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Planet Terror (2007) (TMDb: 1992)                                        |
+[2022-10-11 08:59:59,643] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Summer Camp (2016) (TMDb: 306966)                                        |
+[2022-10-11 08:59:59,668] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Fatal Contact: Bird Flu in America (2006) (TMDb: 24676)                  |
+[2022-10-11 08:59:59,697] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Contagious (1997) (TMDb: 207644)                                         |
+[2022-10-11 08:59:59,784] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Contagion (2002) (TMDb: 74524)                                           |
+[2022-10-11 08:59:59,800] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Runaway Virus (2000) (TMDb: 354674)                                      |
+[2022-10-11 08:59:59,843] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Exodus: Gods and Kings (2014) (TMDb: 147441)                             |
+[2022-10-11 08:59:59,858] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Doomsday (2008) (TMDb: 13460)                                            |
+[2022-10-11 08:59:59,901] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Shivers (1975) (TMDb: 27429)                                             |
+[2022-10-11 08:59:59,918] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | The Cured (2017) (TMDb: 469721)                                          |
+[2022-10-11 08:59:59,933] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Maggie (2015) (TMDb: 287424)                                             |
+[2022-10-11 08:59:59,960] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Viral (2016) (TMDb: 336455)                                              |
+[2022-10-11 09:00:00,001] [builder.py:2243]           [INFO]     | Pandemic Collection | ? | Feral (2018) (TMDb: 436494)                                              |
+[2022-10-11 09:00:00,001] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-10-11 09:00:00,001] [builder.py:2249]           [INFO]     | 46 Movies Missing                                                                                  |
+[2022-10-11 09:00:00,621] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-11 09:00:00,621] [builder.py:2442]           [INFO]     |============================= Updating Details of Pandemic Collection ==============================|
+[2022-10-11 09:00:00,621] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-11 09:00:00,631] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-10-11 09:00:00,631] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Pandemic'                                             |
+[2022-10-11 09:00:00,631] [util.py:150]               [DEBUG]    | 1 poster found:                                                                                    |
+[2022-10-11 09:00:00,632] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_PANDEMIC.png |
+[2022-10-11 09:00:00,733] [library.py:170]            [INFO]     | Detail: url_poster updated poster to [URL] https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_PANDEMIC.png |
+[2022-10-11 09:00:00,829] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 09:00:00,829] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 09:00:00,829] [plex_meta_manager.py:709]  [INFO]     |                                    Finished Pandemic Collection                                    |
+[2022-10-11 09:00:00,829] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:15                                    |
+[2022-10-11 09:00:00,829] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

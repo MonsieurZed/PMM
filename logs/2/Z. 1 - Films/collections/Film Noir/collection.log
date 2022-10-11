@@ -1,0 +1,50 @@
+[2022-10-06 10:15:12,735] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-06 10:15:12,735] [builder.py:197]            [INFO]     |                                Film Noir Collection in Z. 1 - Films                                |
+[2022-10-06 10:15:12,735] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-06 10:15:12,735] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-06 10:15:12,735] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-06 10:15:12,736] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-06 10:15:12,736] [meta.py:128]               [DEBUG]    | Template Genre                                                                                     |
+[2022-10-06 10:15:12,736] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Genre')])                                                             |
+[2022-10-06 10:15:12,736] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-06 10:15:12,736] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Genre'), ('collection_name', 'Film Noir'), ('mapping_name', 'Film Noir'), ('library_type', 'movie'), ('library_name', 'Z. 1 - Films'), ('name_encoded', 'Genre'), ('collection_name_encoded', 'Film%20Noir'), ('mapping_name_encoded', 'Film%20Noir'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%201%20-%20Films'), ('collection_sort', 'Film Noir')]) |
+[2022-10-06 10:15:12,736] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-06 10:15:12,736] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-06 10:15:12,737] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-06 10:15:12,737] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-06 10:15:12,737] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-06 10:15:12,737] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+3_Film Noir', 'sync_mode': 'sync', 'smart_label': 'audience_rating.desc'} |
+[2022-10-06 10:15:12,737] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-06 10:15:12,738] [builder.py:219]            [INFO]     |================================= Validating Film Noir Attributes ==================================|
+[2022-10-06 10:15:12,738] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-06 10:15:12,738] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-06 10:15:12,738] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-06 10:15:12,738] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-06 10:15:12,738] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-06 10:15:12,738] [builder.py:544]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-10-06 10:15:12,745] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-06 10:15:12,745] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-06 10:15:12,745] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_NOIR.png                |
+[2022-10-06 10:15:12,925] [builder.py:828]            [WARNING]  | Collection Warning: No Poster Found at https://raw.githubusercontent.com/MonsieurZed/poster/main/img/GENRE_NOIR.png |
+[2022-10-06 10:15:12,929] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-06 10:15:12,929] [builder.py:631]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-10-06 10:15:12,930] [builder.py:632]            [DEBUG]    | Value: [ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=film-noir'), ('limit', 200)]), ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=film-noir&sort=user_rating,desc'), ('limit', 200)])] |
+[2022-10-06 10:15:13,547] [plex_meta_manager.py:696]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 559, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str)
+                                                                 |   File "/modules/builder.py", line 705, in __init__
+                                                                 |     self._imdb(method_name, method_data)
+                                                                 |   File "/modules/builder.py", line 1135, in _imdb
+                                                                 |     for imdb_dict in self.config.IMDb.validate_imdb_lists(self.Type, method_data, self.language):
+                                                                 |   File "/modules/imdb.py", line 52, in validate_imdb_lists
+                                                                 |     self._total(imdb_url, language)
+                                                                 |   File "/modules/imdb.py", line 95, in _total
+                                                                 |     raise Failed(f"IMDb Error: Failed to parse URL: {imdb_url}")
+                                                                 | modules.util.Failed: IMDb Error: Failed to parse URL: https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=film-noir
+                                                                 | 
+[2022-10-06 10:15:13,549] [plex_meta_manager.py:697]  [ERROR]    | IMDb Error: Failed to parse URL: https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=film-noir
+[2022-10-06 10:15:13,549] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-06 10:15:13,550] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-06 10:15:13,550] [plex_meta_manager.py:709]  [INFO]     |                                   Finished Film Noir Collection                                    |
+[2022-10-06 10:15:13,550] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-06 10:15:13,550] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

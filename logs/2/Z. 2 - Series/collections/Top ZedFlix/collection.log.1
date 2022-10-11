@@ -1,0 +1,37 @@
+[2022-10-11 08:20:52,971] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 08:20:52,971] [builder.py:197]            [INFO]     |                              Top ZedFlix Collection in Z. 2 - Series                               |
+[2022-10-11 08:20:52,971] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 08:20:52,971] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 08:20:52,972] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 08:20:52,972] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:20:52,972] [meta.py:128]               [DEBUG]    | Template Chart                                                                                     |
+[2022-10-11 08:20:52,972] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Chart'), ('num', 1)])                                                 |
+[2022-10-11 08:20:52,972] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:20:52,972] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Chart'), ('num', 1), ('collection_name', 'Top ZedFlix'), ('mapping_name', 'Top ZedFlix'), ('library_type', 'show'), ('library_name', 'Z. 2 - Series'), ('name_encoded', 'Chart'), ('num_encoded', '1'), ('collection_name_encoded', 'Top%20ZedFlix'), ('mapping_name_encoded', 'Top%20ZedFlix'), ('library_type_encoded', 'show'), ('library_name_encoded', 'Z.%202%20-%20Series'), ('collection_sort', 'Top ZedFlix')]) |
+[2022-10-11 08:20:52,973] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:20:52,973] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 08:20:52,973] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:20:52,973] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-11 08:20:52,973] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:20:52,974] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+1_1Top ZedFlix', 'sync_mode': 'sync', 'smart_label': 'random'} |
+[2022-10-11 08:20:52,974] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 08:20:52,974] [builder.py:219]            [INFO]     |================================ Validating Top ZedFlix Attributes =================================|
+[2022-10-11 08:20:52,974] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:20:52,974] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-11 08:20:52,974] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-11 08:20:52,974] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-11 08:20:52,974] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-11 08:20:52,975] [builder.py:544]            [DEBUG]    | Value: random                                                                                      |
+[2022-10-11 08:20:53,015] [plex_meta_manager.py:696]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 559, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str)
+                                                                 |   File "/modules/builder.py", line 608, in __init__
+                                                                 |     raise Failed(f"{self.Type} Error: collection_order does not work with Smart Collections")
+                                                                 | modules.util.Failed: Collection Error: collection_order does not work with Smart Collections
+                                                                 | 
+[2022-10-11 08:20:53,016] [plex_meta_manager.py:697]  [ERROR]    | Collection Error: collection_order does not work with Smart Collections
+[2022-10-11 08:20:53,016] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-11 08:20:53,017] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 08:20:53,017] [plex_meta_manager.py:709]  [INFO]     |                                  Finished Top ZedFlix Collection                                   |
+[2022-10-11 08:20:53,017] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 08:20:53,017] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

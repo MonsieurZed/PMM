@@ -1,0 +1,65 @@
+[2022-10-11 11:01:44,781] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 11:01:44,781] [builder.py:197]            [INFO]     |                                 Scream Collection in Z. 1 - Films                                  |
+[2022-10-11 11:01:44,782] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-11 11:01:44,782] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-11 11:01:44,782] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-11 11:01:44,782] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:01:44,783] [meta.py:128]               [DEBUG]    | Template my_template                                                                               |
+[2022-10-11 11:01:44,783] [meta.py:129]               [DEBUG]    | Call: {'value': ['2602'], 'tmdb_collection': ['2602'], 'key_name': 'Scream', 'key': '2602', 'name': 'my_template'} |
+[2022-10-11 11:01:44,783] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:01:44,783] [meta.py:305]               [DEBUG]    | Variables: {'value': ['2602'], 'tmdb_collection': ['2602'], 'key_name': 'Scream', 'key': '2602', 'name': 'my_template', 'collection_name': 'Scream', 'mapping_name': 'Scream', 'library_type': 'movie', 'library_name': 'Z. 1 - Films', 'value_encoded': '%5B%272602%27%5D', 'tmdb_collection_encoded': '%5B%272602%27%5D', 'key_name_encoded': 'Scream', 'key_encoded': '2602', 'name_encoded': 'my_template', 'collection_name_encoded': 'Scream', 'mapping_name_encoded': 'Scream', 'library_type_encoded': 'movie', 'library_name_encoded': 'Z.%201%20-%20Films', 'collection_sort': 'Scream'} |
+[2022-10-11 11:01:44,783] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:01:44,783] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-11 11:01:44,784] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:01:44,784] [meta.py:309]               [DEBUG]    | Optional: ['my_collection_poster', 'my_collection_poster_encoded']                                 |
+[2022-10-11 11:01:44,784] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:01:44,785] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': ['2602'], 'collection_order': 'release', 'collection_mode': 'hide_items', 'sort_title': '+C1_Scream'} |
+[2022-10-11 11:01:44,785] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:01:44,785] [builder.py:219]            [INFO]     |=================================== Validating Scream Attributes ===================================|
+[2022-10-11 11:01:44,785] [builder.py:609]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:01:44,785] [builder.py:610]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-11 11:01:44,785] [builder.py:611]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-11 11:01:44,785] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:01:44,785] [builder.py:631]            [DEBUG]    | Validating Method: label                                                                           |
+[2022-10-11 11:01:44,786] [builder.py:632]            [DEBUG]    | Value: TMDb Collections                                                                            |
+[2022-10-11 11:01:44,786] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:01:44,786] [builder.py:631]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-11 11:01:44,786] [builder.py:632]            [DEBUG]    | Value: ['2602']                                                                                    |
+[2022-10-11 11:01:44,804] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:01:44,804] [builder.py:631]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-11 11:01:44,804] [builder.py:632]            [DEBUG]    | Value: hide_items                                                                                  |
+[2022-10-11 11:01:44,804] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-11 11:01:44,804] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-11 11:01:44,804] [builder.py:632]            [DEBUG]    | Value: +C1_Scream                                                                                  |
+[2022-10-11 11:01:44,810] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-10-11 11:01:44,810] [plex.py:793]               [DEBUG]    | Looking for: Scream                                                                                |
+[2022-10-11 11:01:44,811] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-11 11:01:44,811] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-11 11:01:44,811] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-11 11:01:44,811] [plex_meta_manager.py:563]  [INFO]     |==================================== Running Scream Collection =====================================|
+[2022-10-11 11:01:44,812] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-11 11:01:44,812] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-10-11 11:01:44,812] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-11 11:01:44,812] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 2602                                                                     |
+[2022-10-11 11:01:44,812] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-11 11:01:44,818] [tmdb.py:382]               [INFO]     | Processing TMDb Collection: (2602) Scream - Saga (6 Items)                                         |
+[2022-10-11 11:01:44,818] [builder.py:1540]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:01:44,819] [builder.py:1541]           [DEBUG]    | 6 IDs Found: [(4232, 'tmdb'), (4233, 'tmdb'), (4234, 'tmdb'), (41446, 'tmdb'), (646385, 'tmdb'), (934433, 'tmdb')] |
+[2022-10-11 11:01:44,819] [builder.py:1542]           [DEBUG]    |                                                                                                    |
+[2022-10-11 11:01:44,819] [builder.py:2228]           [INFO]     |                                                                                                    |
+[2022-10-11 11:01:44,819] [builder.py:2229]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-10-11 11:01:44,819] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-10-11 11:01:44,837] [builder.py:2243]           [INFO]     | Scream Collection | ? | Scream (1996) (TMDb: 4232)                                                 |
+[2022-10-11 11:01:44,868] [builder.py:2243]           [INFO]     | Scream Collection | ? | Scream 2 (1997) (TMDb: 4233)                                               |
+[2022-10-11 11:01:44,884] [builder.py:2243]           [INFO]     | Scream Collection | ? | Scream 3 (2000) (TMDb: 4234)                                               |
+[2022-10-11 11:01:44,926] [builder.py:2243]           [INFO]     | Scream Collection | ? | Scream 4 (2011) (TMDb: 41446)                                              |
+[2022-10-11 11:01:44,942] [builder.py:2243]           [INFO]     | Scream Collection | ? | Scream 6 (2023) (TMDb: 934433)                                             |
+[2022-10-11 11:01:44,943] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-10-11 11:01:44,943] [builder.py:2249]           [INFO]     | 5 Movies Missing                                                                                   |
+[2022-10-11 11:01:45,008] [plex_meta_manager.py:624]  [INFO]     |                                                                                                    |
+[2022-10-11 11:01:45,008] [plex_meta_manager.py:625]  [INFO]     | Collection Minimum: 2 not met for Scream Collection                                                |
+[2022-10-11 11:01:45,009] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-11 11:01:45,009] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-11 11:01:45,009] [plex_meta_manager.py:709]  [INFO]     |                                     Finished Scream Collection                                     |
+[2022-10-11 11:01:45,009] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-11 11:01:45,009] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

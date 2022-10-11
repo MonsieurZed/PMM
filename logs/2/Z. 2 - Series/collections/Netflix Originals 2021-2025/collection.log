@@ -1,0 +1,576 @@
+[2022-09-29 22:02:59,033] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-09-29 22:02:59,034] [builder.py:197]            [INFO]     |                      Netflix Originals 2021-2025 Collection in Z. 2 - Series                       |
+[2022-09-29 22:02:59,034] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-09-29 22:02:59,034] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-09-29 22:02:59,035] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-09-29 22:02:59,035] [builder.py:219]            [INFO]     |======================== Validating Netflix Originals 2021-2025 Attributes =========================|
+[2022-09-29 22:02:59,036] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-09-29 22:02:59,036] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-09-29 22:02:59,037] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-09-29 22:02:59,037] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-09-29 22:02:59,037] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-09-29 22:02:59,038] [builder.py:544]            [DEBUG]    | Value: originally_available.desc                                                                   |
+[2022-09-29 22:02:59,057] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 22:02:59,058] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-09-29 22:02:59,058] [builder.py:632]            [DEBUG]    | Value: +4_Netflix                                                                                  |
+[2022-09-29 22:02:59,059] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 22:02:59,059] [builder.py:631]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-09-29 22:02:59,060] [builder.py:632]            [DEBUG]    | Value: ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2021-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=250&companies=co0144901')]) |
+[2022-09-29 22:03:01,131] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 22:03:01,132] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-09-29 22:03:01,133] [builder.py:632]            [DEBUG]    | Value: All Netflix Originals From 2021-2025                                                        |
+[2022-09-29 22:03:01,133] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 22:03:01,133] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-09-29 22:03:01,133] [builder.py:632]            [DEBUG]    | Value: https://i.imgur.com/7kiE1MU.png                                                             |
+[2022-09-29 22:03:01,146] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 22:03:01,146] [builder.py:631]            [DEBUG]    | Validating Method: url_background                                                                  |
+[2022-09-29 22:03:01,146] [builder.py:632]            [DEBUG]    | Value: https://img5.goodfon.com/original/1920x1080/1/61/fon-netflix-logo-raduga-tsvet-fon-background-skachat-oboi-sk.jpg |
+[2022-09-29 22:03:06,676] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-09-29 22:03:06,679] [plex.py:793]               [DEBUG]    | Looking for: Netflix Originals 2021-2025                                                           |
+[2022-09-29 22:03:06,680] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-09-29 22:03:06,682] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-09-29 22:03:06,682] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-09-29 22:03:06,683] [plex_meta_manager.py:563]  [INFO]     |========================== Running Netflix Originals 2021-2025 Collection ==========================|
+[2022-09-29 22:03:06,683] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-09-29 22:03:06,684] [plex_meta_manager.py:570]  [INFO]     | Smart Show Label                                                                                   |
+                                                                 | Sort By: originally_available.desc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Netflix Originals 2021-2025
+[2022-09-29 22:03:06,688] [plex_meta_manager.py:575]  [INFO]     | 
+[2022-09-29 22:03:06,689] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync
+[2022-09-29 22:03:06,689] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-09-29 22:03:06,690] [plex_meta_manager.py:580]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2021-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=250&companies=co0144901', 'limit': 0}
+[2022-09-29 22:03:06,690] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-09-29 22:03:06,690] [imdb.py:184]               [INFO]     | Processing IMDb List: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2021-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=250&companies=co0144901
+[2022-09-29 22:03:19,539] [imdb.py:135]               [DEBUG]    | 514 IMDb IDs Found: ['tt14364480', 'tt0427340', 'tt9271850', 'tt9214772', 'tt7798604', 'tt21957774', 'tt19037620', 'tt17632862', 'tt14826022', 'tt14181874', 'tt14160834', 'tt14077516', 'tt13603966', 'tt13452446', 'tt13274016', 'tt13016388', 'tt12263384', 'tt11274492', 'tt11097384', 'tt12823454', 'tt6968614', 'tt16030542', 'tt15305648', 'tt14509130', 'tt14123284', 'tt11816814', 'tt9873892', 'tt12785720', 'tt14138650', 'tt21840938', 'tt15310528', 'tt21840894', 'tt13007592', 'tt13320662', 'tt15824322', 'tt14715170', 'tt14641788', 'tt16124614', 'tt13443470', 'tt8363392', 'tt21840870', 'tt19113302', 'tt8415836', 'tt22373568', 'tt22227040', 'tt11252254', 'tt2935622', 'tt21639094', 'tt15289240', 'tt14852808', 'tt21839652', 'tt21438352', 'tt21439528', 'tt21946032', 'tt21837726', 'tt21822078', 'tt13444912', 'tt3447590', 'tt22029210', 'tt12908110', 'tt21994438', 'tt4595186', 'tt21816824', 'tt10112282', 'tt14036920', 'tt21870580', 'tt14813212', 'tt21929356', 'tt22296970', 'tt5315210', 'tt21107750', 'tt13207736', 'tt21379618', 'tt13327038', 'tt22297060', 'tt21867596', 'tt21342096', 'tt11564570', 'tt9319668', 'tt1016150', 'tt4273800', 'tt14307536', 'tt21945344', 'tt8745676', 'tt21746178', 'tt1655389', 'tt14502728', 'tt21839470', 'tt21811526', 'tt21654704', 'tt13655328', 'tt9288822', 'tt21836592', 'tt21836576', 'tt21107826', 'tt15432016', 'tt14369780', 'tt13926132', 'tt21836654', 'tt15764684', 'tt15463032', 'tt6160448', 'tt21448508', 'tt21425934', 'tt15390524', 'tt14309446', 'tt21388556', 'tt15907000', 'tt15875168', 'tt21388560', 'tt21261420', 'tt14954498', 'tt21340412', 'tt14298328', 'tt21431084', 'tt21340300', 'tt3975918', 'tt13314558', 'tt21107788', 'tt21315194', 'tt1751634', 'tt21481106', 'tt11426572', 'tt21217912', 'tt21100124', 'tt4614584', 'tt15466144', 'tt14117010', 'tt21283348', 'tt21195488', 'tt21045434', 'tt13456318', 'tt21063148', 'tt1649418', 'tt21106500', 'tt21062540', 'tt21030224', 'tt14097144', 'tt21242930', 'tt4181158', 'tt21059520', 'tt21242290', 'tt14849626', 'tt18312376', 'tt21056372', 'tt11671006', 'tt21153686', 'tt21049116', 'tt15521050', 'tt19895946', 'tt19869374', 'tt9783600', 'tt20723742', 'tt20602042', 'tt17216636', 'tt13861620', 'tt20723738', 'tt20723748', 'tt19859458', 'tt20723730', 'tt11364112', 'tt20854216', 'tt13315156', 'tt20723644', 'tt20560404', 'tt19637852', 'tt20896400', 'tt20560428', 'tt20723672', 'tt8009428', 'tt21963002', 'tt14174940', 'tt20770080', 'tt20201450', 'tt21206540', 'tt20517612', 'tt19885626', 'tt18258584', 'tt10613308', 'tt15215512', 'tt13649532', 'tt19037550', 'tt19995810', 'tt17371182', 'tt5315212', 'tt13833978', 'tt19704638', 'tt19724012', 'tt14506528', 'tt20871054', 'tt10203880', 'tt19757508', 'tt19894384', 'tt19875708', 'tt21210910', 'tt19034332', 'tt16912298', 'tt18955474', 'tt15039492', 'tt19404044', 'tt18970124', 'tt19034522', 'tt12748084', 'tt18750552', 'tt12141112', 'tt18555320', 'tt18970454', 'tt18396952', 'tt18314226', 'tt13610562', 'tt18314220', 'tt18299058', 'tt20756574', 'tt18314214', 'tt15033192', 'tt11278476', 'tt18568732', 'tt18260538', 'tt18254596', 'tt18217272', 'tt18082212', 'tt10923140', 'tt18096250', 'tt9170236', 'tt17737382', 'tt14817272', 'tt8323702', 'tt2463208', 'tt18278666', 'tt14813966', 'tt11311302', 'tt14513646', 'tt9813792', 'tt11755740', 'tt14158554', 'tt11182810', 'tt17542000', 'tt8851148', 'tt8740976', 'tt16085592', 'tt20237134', 'tt20121538', 'tt15338656', 'tt20287426', 'tt15264192', 'tt18780124', 'tt16584084', 'tt14592064', 'tt13315324', 'tt11859542', 'tt17005888', 'tt16428640', 'tt14599438', 'tt16376494', 'tt11893274', 'tt13989030', 'tt16379454', 'tt14923008', 'tt13365348', 'tt13978306', 'tt19889240', 'tt15257704', 'tt22170674', 'tt20012146', 'tt15402976', 'tt13266974', 'tt20115632', 'tt16027926', 'tt13496236', 'tt16301388', 'tt20258212', 'tt15907298', 'tt16477820', 'tt13029044', 'tt13701962', 'tt16379224', 'tt16227948', 'tt15753666', 'tt16307970', 'tt15204216', 'tt15938722', 'tt11286314', 'tt1587420', 'tt15565714', 'tt14527650', 'tt14315756', 'tt15845288', 'tt14079374', 'tt15172154', 'tt13070602', 'tt13655456', 'tt11233960', 'tt15863836', 'tt15763882', 'tt1267295', 'tt14731142', 'tt15829666', 'tt15677070', 'tt8721424', 'tt15674216', 'tt15674202', 'tt3876910', 'tt1879016', 'tt14199590', 'tt10752004', 'tt7991608', 'tt15723914', 'tt6704894', 'tt13024674', 'tt12383460', 'tt21204570', 'tt15523050', 'tt19896662', 'tt15579188', 'tt10763820', 'tt7475578', 'tt13622146', 'tt15398694', 'tt14369056', 'tt8354062', 'tt14265992', 'tt15402912', 'tt15171996', 'tt10696784', 'tt20230956', 'tt15523010', 'tt15430012', 'tt15387774', 'tt12885272', 'tt11337908', 'tt15469820', 'tt15292806', 'tt15297038', 'tt15320436', 'tt8150814', 'tt14442054', 'tt5563324', 'tt15287836', 'tt10574558', 'tt15489980', 'tt15084326', 'tt10521144', 'tt5164438', 'tt9421570', 'tt12624928', 'tt15216520', 'tt5748448', 'tt15095938', 'tt7737528', 'tt15101938', 'tt15166116', 'tt15339848', 'tt14300912', 'tt9100054', 'tt11742798', 'tt15260794', 'tt13438900', 'tt5540990', 'tt15101956', 'tt14550060', 'tt4590256', 'tt15192032', 'tt15128558', 'tt14539744', 'tt10888878', 'tt15293256', 'tt15101946', 'tt11834150', 'tt10731768', 'tt15085794', 'tt11343600', 'tt15078760', 'tt12783454', 'tt21190614', 'tt15085802', 'tt9073940', 'tt15049206', 'tt15036422', 'tt10691162', 'tt14968268', 'tt9243804', 'tt12929990', 'tt14956090', 'tt21192106', 'tt15088754', 'tt13033790', 'tt6402468', 'tt20237172', 'tt21192934', 'tt12528166', 'tt9701942', 'tt8368408', 'tt14865290', 'tt14398500', 'tt14832996', 'tt9701940', 'tt14818454', 'tt20112760', 'tt11804152', 'tt9844522', 'tt6566576', 'tt3758814', 'tt15027936', 'tt10839422', 'tt8231668', 'tt11898920', 'tt4733624', 'tt14691382', 'tt11224358', 'tt20158208', 'tt6964940', 'tt9337574', 'tt14859638', 'tt14644428', 'tt10418662', 'tt21190152', 'tt14539726', 'tt12809988', 'tt12023002', 'tt18766300', 'tt14544192', 'tt7084386', 'tt14540468', 'tt9569546', 'tt6111574', 'tt0993840', 'tt10945036', 'tt22229600', 'tt14492910', 'tt5774002', 'tt20753456', 'tt14369930', 'tt13156316', 'tt14318392', 'tt11316680', 'tt12771540', 'tt10962368', 'tt21193624', 'tt2403776', 'tt9203694', 'tt14476720', 'tt5932368', 'tt22262682', 'tt14267526', 'tt20223556', 'tt10121392', 'tt14318430', 'tt14299926', 'tt14223858', 'tt14210424', 'tt22235534', 'tt14177168', 'tt9684220', 'tt11388278', 'tt14152756', 'tt11717394', 'tt14078164', 'tt7897330', 'tt14111734', 'tt14035218', 'tt21294056', 'tt14057360', 'tt8521876', 'tt14209842', 'tt14033176', 'tt13087512', 'tt6432466', 'tt13987620', 'tt14058484', 'tt14128372', 'tt14508822', 'tt13932598', 'tt10813940', 'tt10551256', 'tt21204858', 'tt14115474', 'tt13926994', 'tt12360292', 'tt13972246', 'tt13853720', 'tt10971022', 'tt4761112', 'tt14831220', 'tt13848380', 'tt10676012', 'tt22244920', 'tt13837672', 'tt13787118', 'tt9012876', 'tt21203828', 'tt8893974', 'tt13656220', 'tt12676326', 'tt10741846', 'tt10332588', 'tt13947978', 'tt10016180', 'tt21209808', 'tt6571548', 'tt22247602', 'tt20101550', 'tt21209930', 'tt13802658', 'tt13660962', 'tt10451914', 'tt22247702', 'tt13651632', 'tt13935770', 'tt13649700', 'tt13818410', 'tt13660958', 'tt13649692', 'tt13617060', 'tt13583144']
+[2022-09-29 22:03:19,540] [builder.py:1540]           [DEBUG]    | 
+[2022-09-29 22:03:19,542] [builder.py:1541]           [DEBUG]    | 514 IDs Found: [('tt14364480', 'imdb'), ('tt0427340', 'imdb'), ('tt9271850', 'imdb'), ('tt9214772', 'imdb'), ('tt7798604', 'imdb'), ('tt21957774', 'imdb'), ('tt19037620', 'imdb'), ('tt17632862', 'imdb'), ('tt14826022', 'imdb'), ('tt14181874', 'imdb'), ('tt14160834', 'imdb'), ('tt14077516', 'imdb'), ('tt13603966', 'imdb'), ('tt13452446', 'imdb'), ('tt13274016', 'imdb'), ('tt13016388', 'imdb'), ('tt12263384', 'imdb'), ('tt11274492', 'imdb'), ('tt11097384', 'imdb'), ('tt12823454', 'imdb'), ('tt6968614', 'imdb'), ('tt16030542', 'imdb'), ('tt15305648', 'imdb'), ('tt14509130', 'imdb'), ('tt14123284', 'imdb'), ('tt11816814', 'imdb'), ('tt9873892', 'imdb'), ('tt12785720', 'imdb'), ('tt14138650', 'imdb'), ('tt21840938', 'imdb'), ('tt15310528', 'imdb'), ('tt21840894', 'imdb'), ('tt13007592', 'imdb'), ('tt13320662', 'imdb'), ('tt15824322', 'imdb'), ('tt14715170', 'imdb'), ('tt14641788', 'imdb'), ('tt16124614', 'imdb'), ('tt13443470', 'imdb'), ('tt8363392', 'imdb'), ('tt21840870', 'imdb'), ('tt19113302', 'imdb'), ('tt8415836', 'imdb'), ('tt22373568', 'imdb'), ('tt22227040', 'imdb'), ('tt11252254', 'imdb'), ('tt2935622', 'imdb'), ('tt21639094', 'imdb'), ('tt15289240', 'imdb'), ('tt14852808', 'imdb'), ('tt21839652', 'imdb'), ('tt21438352', 'imdb'), ('tt21439528', 'imdb'), ('tt21946032', 'imdb'), ('tt21837726', 'imdb'), ('tt21822078', 'imdb'), ('tt13444912', 'imdb'), ('tt3447590', 'imdb'), ('tt22029210', 'imdb'), ('tt12908110', 'imdb'), ('tt21994438', 'imdb'), ('tt4595186', 'imdb'), ('tt21816824', 'imdb'), ('tt10112282', 'imdb'), ('tt14036920', 'imdb'), ('tt21870580', 'imdb'), ('tt14813212', 'imdb'), ('tt21929356', 'imdb'), ('tt22296970', 'imdb'), ('tt5315210', 'imdb'), ('tt21107750', 'imdb'), ('tt13207736', 'imdb'), ('tt21379618', 'imdb'), ('tt13327038', 'imdb'), ('tt22297060', 'imdb'), ('tt21867596', 'imdb'), ('tt21342096', 'imdb'), ('tt11564570', 'imdb'), ('tt9319668', 'imdb'), ('tt1016150', 'imdb'), ('tt4273800', 'imdb'), ('tt14307536', 'imdb'), ('tt21945344', 'imdb'), ('tt8745676', 'imdb'), ('tt21746178', 'imdb'), ('tt1655389', 'imdb'), ('tt14502728', 'imdb'), ('tt21839470', 'imdb'), ('tt21811526', 'imdb'), ('tt21654704', 'imdb'), ('tt13655328', 'imdb'), ('tt9288822', 'imdb'), ('tt21836592', 'imdb'), ('tt21836576', 'imdb'), ('tt21107826', 'imdb'), ('tt15432016', 'imdb'), ('tt14369780', 'imdb'), ('tt13926132', 'imdb'), ('tt21836654', 'imdb'), ('tt15764684', 'imdb'), ('tt15463032', 'imdb'), ('tt6160448', 'imdb'), ('tt21448508', 'imdb'), ('tt21425934', 'imdb'), ('tt15390524', 'imdb'), ('tt14309446', 'imdb'), ('tt21388556', 'imdb'), ('tt15907000', 'imdb'), ('tt15875168', 'imdb'), ('tt21388560', 'imdb'), ('tt21261420', 'imdb'), ('tt14954498', 'imdb'), ('tt21340412', 'imdb'), ('tt14298328', 'imdb'), ('tt21431084', 'imdb'), ('tt21340300', 'imdb'), ('tt3975918', 'imdb'), ('tt13314558', 'imdb'), ('tt21107788', 'imdb'), ('tt21315194', 'imdb'), ('tt1751634', 'imdb'), ('tt21481106', 'imdb'), ('tt11426572', 'imdb'), ('tt21217912', 'imdb'), ('tt21100124', 'imdb'), ('tt4614584', 'imdb'), ('tt15466144', 'imdb'), ('tt14117010', 'imdb'), ('tt21283348', 'imdb'), ('tt21195488', 'imdb'), ('tt21045434', 'imdb'), ('tt13456318', 'imdb'), ('tt21063148', 'imdb'), ('tt1649418', 'imdb'), ('tt21106500', 'imdb'), ('tt21062540', 'imdb'), ('tt21030224', 'imdb'), ('tt14097144', 'imdb'), ('tt21242930', 'imdb'), ('tt4181158', 'imdb'), ('tt21059520', 'imdb'), ('tt21242290', 'imdb'), ('tt14849626', 'imdb'), ('tt18312376', 'imdb'), ('tt21056372', 'imdb'), ('tt11671006', 'imdb'), ('tt21153686', 'imdb'), ('tt21049116', 'imdb'), ('tt15521050', 'imdb'), ('tt19895946', 'imdb'), ('tt19869374', 'imdb'), ('tt9783600', 'imdb'), ('tt20723742', 'imdb'), ('tt20602042', 'imdb'), ('tt17216636', 'imdb'), ('tt13861620', 'imdb'), ('tt20723738', 'imdb'), ('tt20723748', 'imdb'), ('tt19859458', 'imdb'), ('tt20723730', 'imdb'), ('tt11364112', 'imdb'), ('tt20854216', 'imdb'), ('tt13315156', 'imdb'), ('tt20723644', 'imdb'), ('tt20560404', 'imdb'), ('tt19637852', 'imdb'), ('tt20896400', 'imdb'), ('tt20560428', 'imdb'), ('tt20723672', 'imdb'), ('tt8009428', 'imdb'), ('tt21963002', 'imdb'), ('tt14174940', 'imdb'), ('tt20770080', 'imdb'), ('tt20201450', 'imdb'), ('tt21206540', 'imdb'), ('tt20517612', 'imdb'), ('tt19885626', 'imdb'), ('tt18258584', 'imdb'), ('tt10613308', 'imdb'), ('tt15215512', 'imdb'), ('tt13649532', 'imdb'), ('tt19037550', 'imdb'), ('tt19995810', 'imdb'), ('tt17371182', 'imdb'), ('tt5315212', 'imdb'), ('tt13833978', 'imdb'), ('tt19704638', 'imdb'), ('tt19724012', 'imdb'), ('tt14506528', 'imdb'), ('tt20871054', 'imdb'), ('tt10203880', 'imdb'), ('tt19757508', 'imdb'), ('tt19894384', 'imdb'), ('tt19875708', 'imdb'), ('tt21210910', 'imdb'), ('tt19034332', 'imdb'), ('tt16912298', 'imdb'), ('tt18955474', 'imdb'), ('tt15039492', 'imdb'), ('tt19404044', 'imdb'), ('tt18970124', 'imdb'), ('tt19034522', 'imdb'), ('tt12748084', 'imdb'), ('tt18750552', 'imdb'), ('tt12141112', 'imdb'), ('tt18555320', 'imdb'), ('tt18970454', 'imdb'), ('tt18396952', 'imdb'), ('tt18314226', 'imdb'), ('tt13610562', 'imdb'), ('tt18314220', 'imdb'), ('tt18299058', 'imdb'), ('tt20756574', 'imdb'), ('tt18314214', 'imdb'), ('tt15033192', 'imdb'), ('tt11278476', 'imdb'), ('tt18568732', 'imdb'), ('tt18260538', 'imdb'), ('tt18254596', 'imdb'), ('tt18217272', 'imdb'), ('tt18082212', 'imdb'), ('tt10923140', 'imdb'), ('tt18096250', 'imdb'), ('tt9170236', 'imdb'), ('tt17737382', 'imdb'), ('tt14817272', 'imdb'), ('tt8323702', 'imdb'), ('tt2463208', 'imdb'), ('tt18278666', 'imdb'), ('tt14813966', 'imdb'), ('tt11311302', 'imdb'), ('tt14513646', 'imdb'), ('tt9813792', 'imdb'), ('tt11755740', 'imdb'), ('tt14158554', 'imdb'), ('tt11182810', 'imdb'), ('tt17542000', 'imdb'), ('tt8851148', 'imdb'), ('tt8740976', 'imdb'), ('tt16085592', 'imdb'), ('tt20237134', 'imdb'), ('tt20121538', 'imdb'), ('tt15338656', 'imdb'), ('tt20287426', 'imdb'), ('tt15264192', 'imdb'), ('tt18780124', 'imdb'), ('tt16584084', 'imdb'), ('tt14592064', 'imdb'), ('tt13315324', 'imdb'), ('tt11859542', 'imdb'), ('tt17005888', 'imdb'), ('tt16428640', 'imdb'), ('tt14599438', 'imdb'), ('tt16376494', 'imdb'), ('tt11893274', 'imdb'), ('tt13989030', 'imdb'), ('tt16379454', 'imdb'), ('tt14923008', 'imdb'), ('tt13365348', 'imdb'), ('tt13978306', 'imdb'), ('tt19889240', 'imdb'), ('tt15257704', 'imdb'), ('tt22170674', 'imdb'), ('tt20012146', 'imdb'), ('tt15402976', 'imdb'), ('tt13266974', 'imdb'), ('tt20115632', 'imdb'), ('tt16027926', 'imdb'), ('tt13496236', 'imdb'), ('tt16301388', 'imdb'), ('tt20258212', 'imdb'), ('tt15907298', 'imdb'), ('tt16477820', 'imdb'), ('tt13029044', 'imdb'), ('tt13701962', 'imdb'), ('tt16379224', 'imdb'), ('tt16227948', 'imdb'), ('tt15753666', 'imdb'), ('tt16307970', 'imdb'), ('tt15204216', 'imdb'), ('tt15938722', 'imdb'), ('tt11286314', 'imdb'), ('tt1587420', 'imdb'), ('tt15565714', 'imdb'), ('tt14527650', 'imdb'), ('tt14315756', 'imdb'), ('tt15845288', 'imdb'), ('tt14079374', 'imdb'), ('tt15172154', 'imdb'), ('tt13070602', 'imdb'), ('tt13655456', 'imdb'), ('tt11233960', 'imdb'), ('tt15863836', 'imdb'), ('tt15763882', 'imdb'), ('tt1267295', 'imdb'), ('tt14731142', 'imdb'), ('tt15829666', 'imdb'), ('tt15677070', 'imdb'), ('tt8721424', 'imdb'), ('tt15674216', 'imdb'), ('tt15674202', 'imdb'), ('tt3876910', 'imdb'), ('tt1879016', 'imdb'), ('tt14199590', 'imdb'), ('tt10752004', 'imdb'), ('tt7991608', 'imdb'), ('tt15723914', 'imdb'), ('tt6704894', 'imdb'), ('tt13024674', 'imdb'), ('tt12383460', 'imdb'), ('tt21204570', 'imdb'), ('tt15523050', 'imdb'), ('tt19896662', 'imdb'), ('tt15579188', 'imdb'), ('tt10763820', 'imdb'), ('tt7475578', 'imdb'), ('tt13622146', 'imdb'), ('tt15398694', 'imdb'), ('tt14369056', 'imdb'), ('tt8354062', 'imdb'), ('tt14265992', 'imdb'), ('tt15402912', 'imdb'), ('tt15171996', 'imdb'), ('tt10696784', 'imdb'), ('tt20230956', 'imdb'), ('tt15523010', 'imdb'), ('tt15430012', 'imdb'), ('tt15387774', 'imdb'), ('tt12885272', 'imdb'), ('tt11337908', 'imdb'), ('tt15469820', 'imdb'), ('tt15292806', 'imdb'), ('tt15297038', 'imdb'), ('tt15320436', 'imdb'), ('tt8150814', 'imdb'), ('tt14442054', 'imdb'), ('tt5563324', 'imdb'), ('tt15287836', 'imdb'), ('tt10574558', 'imdb'), ('tt15489980', 'imdb'), ('tt15084326', 'imdb'), ('tt10521144', 'imdb'), ('tt5164438', 'imdb'), ('tt9421570', 'imdb'), ('tt12624928', 'imdb'), ('tt15216520', 'imdb'), ('tt5748448', 'imdb'), ('tt15095938', 'imdb'), ('tt7737528', 'imdb'), ('tt15101938', 'imdb'), ('tt15166116', 'imdb'), ('tt15339848', 'imdb'), ('tt14300912', 'imdb'), ('tt9100054', 'imdb'), ('tt11742798', 'imdb'), ('tt15260794', 'imdb'), ('tt13438900', 'imdb'), ('tt5540990', 'imdb'), ('tt15101956', 'imdb'), ('tt14550060', 'imdb'), ('tt4590256', 'imdb'), ('tt15192032', 'imdb'), ('tt15128558', 'imdb'), ('tt14539744', 'imdb'), ('tt10888878', 'imdb'), ('tt15293256', 'imdb'), ('tt15101946', 'imdb'), ('tt11834150', 'imdb'), ('tt10731768', 'imdb'), ('tt15085794', 'imdb'), ('tt11343600', 'imdb'), ('tt15078760', 'imdb'), ('tt12783454', 'imdb'), ('tt21190614', 'imdb'), ('tt15085802', 'imdb'), ('tt9073940', 'imdb'), ('tt15049206', 'imdb'), ('tt15036422', 'imdb'), ('tt10691162', 'imdb'), ('tt14968268', 'imdb'), ('tt9243804', 'imdb'), ('tt12929990', 'imdb'), ('tt14956090', 'imdb'), ('tt21192106', 'imdb'), ('tt15088754', 'imdb'), ('tt13033790', 'imdb'), ('tt6402468', 'imdb'), ('tt20237172', 'imdb'), ('tt21192934', 'imdb'), ('tt12528166', 'imdb'), ('tt9701942', 'imdb'), ('tt8368408', 'imdb'), ('tt14865290', 'imdb'), ('tt14398500', 'imdb'), ('tt14832996', 'imdb'), ('tt9701940', 'imdb'), ('tt14818454', 'imdb'), ('tt20112760', 'imdb'), ('tt11804152', 'imdb'), ('tt9844522', 'imdb'), ('tt6566576', 'imdb'), ('tt3758814', 'imdb'), ('tt15027936', 'imdb'), ('tt10839422', 'imdb'), ('tt8231668', 'imdb'), ('tt11898920', 'imdb'), ('tt4733624', 'imdb'), ('tt14691382', 'imdb'), ('tt11224358', 'imdb'), ('tt20158208', 'imdb'), ('tt6964940', 'imdb'), ('tt9337574', 'imdb'), ('tt14859638', 'imdb'), ('tt14644428', 'imdb'), ('tt10418662', 'imdb'), ('tt21190152', 'imdb'), ('tt14539726', 'imdb'), ('tt12809988', 'imdb'), ('tt12023002', 'imdb'), ('tt18766300', 'imdb'), ('tt14544192', 'imdb'), ('tt7084386', 'imdb'), ('tt14540468', 'imdb'), ('tt9569546', 'imdb'), ('tt6111574', 'imdb'), ('tt0993840', 'imdb'), ('tt10945036', 'imdb'), ('tt22229600', 'imdb'), ('tt14492910', 'imdb'), ('tt5774002', 'imdb'), ('tt20753456', 'imdb'), ('tt14369930', 'imdb'), ('tt13156316', 'imdb'), ('tt14318392', 'imdb'), ('tt11316680', 'imdb'), ('tt12771540', 'imdb'), ('tt10962368', 'imdb'), ('tt21193624', 'imdb'), ('tt2403776', 'imdb'), ('tt9203694', 'imdb'), ('tt14476720', 'imdb'), ('tt5932368', 'imdb'), ('tt22262682', 'imdb'), ('tt14267526', 'imdb'), ('tt20223556', 'imdb'), ('tt10121392', 'imdb'), ('tt14318430', 'imdb'), ('tt14299926', 'imdb'), ('tt14223858', 'imdb'), ('tt14210424', 'imdb'), ('tt22235534', 'imdb'), ('tt14177168', 'imdb'), ('tt9684220', 'imdb'), ('tt11388278', 'imdb'), ('tt14152756', 'imdb'), ('tt11717394', 'imdb'), ('tt14078164', 'imdb'), ('tt7897330', 'imdb'), ('tt14111734', 'imdb'), ('tt14035218', 'imdb'), ('tt21294056', 'imdb'), ('tt14057360', 'imdb'), ('tt8521876', 'imdb'), ('tt14209842', 'imdb'), ('tt14033176', 'imdb'), ('tt13087512', 'imdb'), ('tt6432466', 'imdb'), ('tt13987620', 'imdb'), ('tt14058484', 'imdb'), ('tt14128372', 'imdb'), ('tt14508822', 'imdb'), ('tt13932598', 'imdb'), ('tt10813940', 'imdb'), ('tt10551256', 'imdb'), ('tt21204858', 'imdb'), ('tt14115474', 'imdb'), ('tt13926994', 'imdb'), ('tt12360292', 'imdb'), ('tt13972246', 'imdb'), ('tt13853720', 'imdb'), ('tt10971022', 'imdb'), ('tt4761112', 'imdb'), ('tt14831220', 'imdb'), ('tt13848380', 'imdb'), ('tt10676012', 'imdb'), ('tt22244920', 'imdb'), ('tt13837672', 'imdb'), ('tt13787118', 'imdb'), ('tt9012876', 'imdb'), ('tt21203828', 'imdb'), ('tt8893974', 'imdb'), ('tt13656220', 'imdb'), ('tt12676326', 'imdb'), ('tt10741846', 'imdb'), ('tt10332588', 'imdb'), ('tt13947978', 'imdb'), ('tt10016180', 'imdb'), ('tt21209808', 'imdb'), ('tt6571548', 'imdb'), ('tt22247602', 'imdb'), ('tt20101550', 'imdb'), ('tt21209930', 'imdb'), ('tt13802658', 'imdb'), ('tt13660962', 'imdb'), ('tt10451914', 'imdb'), ('tt22247702', 'imdb'), ('tt13651632', 'imdb'), ('tt13935770', 'imdb'), ('tt13649700', 'imdb'), ('tt13818410', 'imdb'), ('tt13660958', 'imdb'), ('tt13649692', 'imdb'), ('tt13617060', 'imdb'), ('tt13583144', 'imdb')]
+[2022-09-29 22:03:19,544] [builder.py:1542]           [DEBUG]    | 
+[2022-09-29 22:03:19,570] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21957774
+[2022-09-29 22:03:19,591] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt19037620
+[2022-09-29 22:03:19,609] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt17632862
+[2022-09-29 22:03:19,647] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt15305648
+[2022-09-29 22:03:19,678] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21840938
+[2022-09-29 22:03:19,697] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt15310528
+[2022-09-29 22:03:19,714] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21840894
+[2022-09-29 22:03:19,749] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21840870
+[2022-09-29 22:03:19,770] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt19113302
+[2022-09-29 22:03:19,791] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt22373568
+[2022-09-29 22:03:19,843] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 211084
+[2022-09-29 22:03:19,869] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt22029210
+[2022-09-29 22:03:19,893] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21816824
+[2022-09-29 22:03:19,912] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt10112282
+[2022-09-29 22:03:19,931] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt22296970
+[2022-09-29 22:03:19,948] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 206088
+[2022-09-29 22:03:19,970] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt22297060
+[2022-09-29 22:03:19,987] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21867596
+[2022-09-29 22:03:20,013] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21945344
+[2022-09-29 22:03:20,565] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 208264
+[2022-09-29 22:03:20,717] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21481106
+[2022-09-29 22:03:20,898] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21045434
+[2022-09-29 22:03:21,061] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21242290
+[2022-09-29 22:03:21,085] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21056372
+[2022-09-29 22:03:21,101] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21153686
+[2022-09-29 22:03:21,281] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt20896400
+[2022-09-29 22:03:21,542] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21963002
+[2022-09-29 22:03:21,693] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21206540
+[2022-09-29 22:03:21,711] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt20517612
+[2022-09-29 22:03:21,752] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt17371182
+[2022-09-29 22:03:21,778] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt20871054
+[2022-09-29 22:03:21,803] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt19894384
+[2022-09-29 22:03:21,821] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21210910
+[2022-09-29 22:03:21,991] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt20756574
+[2022-09-29 22:03:22,147] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt10923140
+[2022-09-29 22:03:22,314] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt20237134
+[2022-09-29 22:03:22,331] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt20121538
+[2022-09-29 22:03:22,350] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt20287426
+[2022-09-29 22:03:22,368] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt18780124
+[2022-09-29 22:03:22,534] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt19889240
+[2022-09-29 22:03:22,552] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt22170674
+[2022-09-29 22:03:22,574] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt15402976
+[2022-09-29 22:03:22,592] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt13266974
+[2022-09-29 22:03:22,610] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt20115632
+[2022-09-29 22:03:22,641] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 153588
+[2022-09-29 22:03:22,661] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt20258212
+[2022-09-29 22:03:24,173] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21204570
+[2022-09-29 22:03:24,202] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt19896662
+[2022-09-29 22:03:24,520] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt20230956
+[2022-09-29 22:03:24,548] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt15297038
+[2022-09-29 22:03:24,705] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt15489980
+[2022-09-29 22:03:25,333] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21190614
+[2022-09-29 22:03:25,486] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21192106
+[2022-09-29 22:03:25,503] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 130001
+[2022-09-29 22:03:25,522] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt20237172
+[2022-09-29 22:03:25,543] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21192934
+[2022-09-29 22:03:25,720] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt20112760
+[2022-09-29 22:03:25,875] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt15027936
+[2022-09-29 22:03:25,905] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt20158208
+[2022-09-29 22:03:25,930] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21190152
+[2022-09-29 22:03:25,951] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt18766300
+[2022-09-29 22:03:26,234] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt22229600
+[2022-09-29 22:03:26,254] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt20753456
+[2022-09-29 22:03:26,270] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 121629
+[2022-09-29 22:03:26,281] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21193624
+[2022-09-29 22:03:26,550] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt22262682
+[2022-09-29 22:03:26,561] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt20223556
+[2022-09-29 22:03:26,748] [builder.py:1598]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 122249
+[2022-09-29 22:03:26,768] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt22235534
+[2022-09-29 22:03:26,926] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21294056
+[2022-09-29 22:03:27,078] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt14209842
+[2022-09-29 22:03:27,096] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt14033176
+[2022-09-29 22:03:27,155] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21204858
+[2022-09-29 22:03:27,176] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt12360292
+[2022-09-29 22:03:27,342] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt22244920
+[2022-09-29 22:03:27,364] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21203828
+[2022-09-29 22:03:27,567] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21209808
+[2022-09-29 22:03:27,720] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt22247602
+[2022-09-29 22:03:27,737] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt20101550
+[2022-09-29 22:03:27,754] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt21209930
+[2022-09-29 22:03:27,915] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt22247702
+[2022-09-29 22:03:27,933] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt13935770
+[2022-09-29 22:03:27,942] [builder.py:2228]           [INFO]     | 
+[2022-09-29 22:03:27,942] [builder.py:2229]           [INFO]     |============================ Missing Movies from Library: Z. 2 - Series ============================|
+[2022-09-29 22:03:27,942] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-09-29 22:03:27,957] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Knives Out 3 (TMDb: 812583)                           |
+[2022-09-29 22:03:27,971] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Masters of the Universe (2024) (TMDb: 454639)         |
+[2022-09-29 22:03:27,988] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Inheritance (TMDb: 934412)                        |
+[2022-09-29 22:03:28,004] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Monkey Man (TMDb: 560016)                             |
+[2022-09-29 22:03:28,021] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | We Have a Ghost (TMDb: 852096)                        |
+[2022-09-29 22:03:28,049] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | You People (TMDb: 866413)                             |
+[2022-09-29 22:03:28,098] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Mothership (TMDb: 833795)                         |
+[2022-09-29 22:03:28,115] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Rustin (TMDb: 898713)                                 |
+[2022-09-29 22:03:28,157] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Shirley (TMDb: 798612)                                |
+[2022-09-29 22:03:28,172] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Heart of Stone (TMDb: 724209)                         |
+[2022-09-29 22:03:28,214] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Damsel (TMDb: 763215)                                 |
+[2022-09-29 22:03:28,279] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Reptile (TMDb: 866463)                                |
+[2022-09-29 22:03:28,331] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Extraction 2 (TMDb: 697843)                           |
+[2022-09-29 22:03:28,406] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Out-Laws (TMDb: 921636)                           |
+[2022-09-29 22:03:28,414] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Spaceman (TMDb: 636706)                               |
+[2022-09-29 22:03:28,431] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Your Place Or Mine (2023) (TMDb: 703451)              |
+[2022-09-29 22:03:28,448] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Mother (TMDb: 552688)                             |
+[2022-09-29 22:03:28,471] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Havoc (TMDb: 668489)                                  |
+[2022-09-29 22:03:28,489] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | They Cloned Tyrone (2022) (TMDb: 736769)              |
+[2022-09-29 22:03:28,498] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Pale Blue Eye (2022) (TMDb: 800815)               |
+[2022-09-29 22:03:28,516] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Noel Diary (2022) (TMDb: 736918)                  |
+[2022-09-29 22:03:28,539] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Slumberland (2022) (TMDb: 668461)                     |
+[2022-09-29 22:03:28,549] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Christmas With You (2022) (TMDb: 936960)              |
+[2022-09-29 22:03:28,581] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Falling for Christmas (2022) (TMDb: 833097)           |
+[2022-09-29 22:03:28,593] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Enola Holmes 2 (2022) (TMDb: 829280)                  |
+[2022-09-29 22:03:28,622] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Blackout (2022) (TMDb: 759507)                        |
+[2022-09-29 22:03:28,636] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The School for Good and Evil (2022) (TMDb: 779782)    |
+[2022-09-29 22:03:28,664] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Gabriel Iglesias: Stadium Fluffy Live From Los Angeles (2022) (TMDb: 1011579) |
+[2022-09-29 22:03:28,678] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Curse of Bridge Hollow (2022) (TMDb: 864959)      |
+[2022-09-29 22:03:28,714] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Is That Black Enough for You?!? (2022) (TMDb: 1013572) |
+[2022-09-29 22:03:28,731] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Volcano: Rescue from Whakaari (2022) (TMDb: 1018645) |
+[2022-09-29 22:03:28,756] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Redeem Team (2022) (TMDb: 1018648)                |
+[2022-09-29 22:03:28,764] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Roald Dahl's Matilda the Musical (2022) (TMDb: 668482) |
+[2022-09-29 22:03:28,781] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Mr. Harrigan's Phone (2022) (TMDb: 723419)            |
+[2022-09-29 22:03:28,798] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Hasan Minhaj: The King's Jester (2022) (TMDb: 1023901) |
+[2022-09-29 22:03:28,814] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Luckiest Girl Alive (2022) (TMDb: 799546)             |
+[2022-09-29 22:03:28,831] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Nick Kroll: Little Big Boy (2022) (TMDb: 1016234)     |
+[2022-09-29 22:03:28,848] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Munsters (2022) (TMDb: 804413)                    |
+[2022-09-29 22:03:28,860] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | A Trip to Infinity (2022) (TMDb: 1005031)             |
+[2022-09-29 22:03:28,881] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Lou (2022) (TMDb: 429473)                             |
+[2022-09-29 22:03:28,889] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Patton Oswalt: We All Scream (2022) (TMDb: 1004772)   |
+[2022-09-29 22:03:28,915] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Do Revenge (2022) (TMDb: 762968)                      |
+[2022-09-29 22:03:28,923] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Jo Koy: Live from the Los Angeles Forum (2022) (TMDb: 1013842) |
+[2022-09-29 22:03:28,948] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Glass Onion: A Knives Out Mystery (2022) (TMDb: 661374) |
+[2022-09-29 22:03:28,982] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | All Quiet on the Western Front (2022) (TMDb: 49046)   |
+[2022-09-29 22:03:28,999] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Good Nurse (2022) (TMDb: 541134)                  |
+[2022-09-29 22:03:29,041] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | A Jazzman's Blues (2022) (TMDb: 921643)               |
+[2022-09-29 22:03:29,054] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Swimmers (2022) (TMDb: 821881)                    |
+[2022-09-29 22:03:29,095] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Anthrax Attacks: In the Shadow of 9/11 (2022) (TMDb: 1013609) |
+[2022-09-29 22:03:29,683] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Blonde (2022) (TMDb: 301502)                          |
+[2022-09-29 22:03:29,706] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Untold: Race of the Century (2022) (TMDb: 1002310)    |
+[2022-09-29 22:03:29,731] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Get Smart With Money (2022) (TMDb: 1011480)           |
+[2022-09-29 22:03:29,773] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | End of the Road (2022) (TMDb: 773975)                 |
+[2022-09-29 22:03:29,798] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Wonder (2022) (TMDb: 823766)                      |
+[2022-09-29 22:03:29,825] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Ivy + Bean: The Ghost That Had to Go (2022) (TMDb: 1014676) |
+[2022-09-29 22:03:29,870] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Ivy + Bean: Doomed to Dance (2022) (TMDb: 1014530)    |
+[2022-09-29 22:03:29,898] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Lady Chatterley’s Lover (2022) (TMDb: 814338)         |
+[2022-09-29 22:03:29,923] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Ivy + Bean (2022) (TMDb: 862558)                      |
+[2022-09-29 22:03:29,948] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Sam Morril: Same Time Tomorrow (2022) (TMDb: 1019427) |
+[2022-09-29 22:03:29,965] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Love in the Villa (2022) (TMDb: 934756)               |
+[2022-09-29 22:03:30,010] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | White Noise (2022) (TMDb: 744594)                     |
+[2022-09-29 22:03:30,040] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Untold: Operation Flagrant Foul (2022) (TMDb: 1002307) |
+[2022-09-29 22:03:30,513] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Me Time (2022) (TMDb: 862551)                         |
+[2022-09-29 22:03:30,529] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | That's Amor (2022) (TMDb: 1005835)                    |
+[2022-09-29 22:03:30,557] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Untold: The Rise and Fall of AND1 (2022) (TMDb: 1002305) |
+[2022-09-29 22:03:30,573] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Inside the Mind of a Cat (2022) (TMDb: 1003180)       |
+[2022-09-29 22:03:30,598] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Look Both Ways (2022) (TMDb: 805327)                  |
+[2022-09-29 22:03:30,615] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Tim Dillon: A Real Hero (2022) (TMDb: 1013441)        |
+[2022-09-29 22:03:30,665] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | 13: The Musical (2022) (TMDb: 673271)                 |
+[2022-09-29 22:03:31,155] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Day Shift (2022) (TMDb: 755566)                       |
+[2022-09-29 22:03:31,179] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Wedding Season (2022) (TMDb: 818612)                  |
+[2022-09-29 22:03:31,204] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Stay on Board: The Leo Baker Story (2022) (TMDb: 990873) |
+[2022-09-29 22:03:31,674] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Purple Hearts (2022) (TMDb: 762975)                   |
+[2022-09-29 22:03:31,706] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Whitney Cummings: Jokes (2022) (TMDb: 1004640)        |
+[2022-09-29 22:03:31,709] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Persuasion (2022) (TMDb: 820912)                      |
+[2022-09-29 22:03:31,838] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Gray Man (2022) (TMDb: 725201)                    |
+[2022-09-29 22:03:31,848] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Bill Burr: Live at Red Rocks (2022) (TMDb: 991115)    |
+[2022-09-29 22:03:31,865] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Dave Chappelle: What's in a Name? (2022) (TMDb: 997010) |
+[2022-09-29 22:03:31,882] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Hello, Goodbye, and Everything in Between (2022) (TMDb: 745376) |
+[2022-09-29 22:03:31,898] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Girl in the Picture (2022) (TMDb: 988046)             |
+[2022-09-29 22:03:31,931] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Cristela Alonzo: Middle Classy (2022) (TMDb: 982085)  |
+[2022-09-29 22:03:31,943] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Man from Toronto (2022) (TMDb: 667739)            |
+[2022-09-29 22:03:31,981] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Paul Virzi: Nocturnal Admissions (2022) (TMDb: 991260) |
+[2022-09-29 22:03:31,993] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Love & Gelato (2022) (TMDb: 968438)                   |
+[2022-09-29 22:03:32,031] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Joel Kim Booster: Psychosexual (2022) (TMDb: 988288)  |
+[2022-09-29 22:03:33,149] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Spiderhead (2022) (TMDb: 615469)                      |
+[2022-09-29 22:03:33,436] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Snoop Dogg's F*cn Around Comedy Special (2022) (TMDb: 985075) |
+[2022-09-29 22:03:33,473] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Jane Fonda & Lily Tomlin: Ladies Night Live (2022) (TMDb: 985322) |
+[2022-09-29 22:03:33,636] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Pete Davidson Presents: The Best Friends (2022) (TMDb: 985314) |
+[2022-09-29 22:03:33,688] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Civil: Ben Crump (2022) (TMDb: 965377)                |
+[2022-09-29 22:03:33,697] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Amy Schumer Presents: Parental Advisory (2022) (TMDb: 980856) |
+[2022-09-29 22:03:33,755] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Beauty (2022) (TMDb: 667642)                          |
+[2022-09-29 22:03:33,763] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Dirty Daddy: The Bob Saget Tribute (2022) (TMDb: 985305) |
+[2022-09-29 22:03:33,822] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Stand Out: An LGBTQ+ Celebration (2022) (TMDb: 982783) |
+[2022-09-29 22:03:33,875] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Jennifer Lopez:  Halftime (2022) (TMDb: 962192)       |
+[2022-09-29 22:03:33,938] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Bill Burr Presents: Friends Who Kill (2022) (TMDb: 983683) |
+[2022-09-29 22:03:34,582] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Hustle (2022) (TMDb: 705861)                          |
+[2022-09-29 22:03:35,057] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Interceptor (2022) (TMDb: 831946)                     |
+[2022-09-29 22:03:35,070] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Bo Burnham: The Inside Outtakes (2022) (TMDb: 1005159) |
+[2022-09-29 22:03:35,098] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Norm Macdonald: Nothing Special (2022) (TMDb: 975088) |
+[2022-09-29 22:03:35,110] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Ricky Gervais: SuperNature (2022) (TMDb: 973164)      |
+[2022-09-29 22:03:35,139] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Jackass 4.5 (2022) (TMDb: 828853)                     |
+[2022-09-29 22:03:35,151] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Hall: Honoring the Greats of Stand-Up (2022) (TMDb: 977526) |
+[2022-09-29 22:03:35,181] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | A Perfect Pairing (2022) (TMDb: 934761)               |
+[2022-09-29 22:03:35,193] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Katt Williams: World War III (2022) (TMDb: 972009)    |
+[2022-09-29 22:03:35,223] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Senior Year (2022) (TMDb: 800937)                     |
+[2022-09-29 22:03:35,235] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Our Father (2022) (TMDb: 962697)                      |
+[2022-09-29 22:03:35,264] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Christina P: Mom Genes (2022) (TMDb: 971618)          |
+[2022-09-29 22:03:35,276] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Along for the Ride (2022) (TMDb: 778106)              |
+[2022-09-29 22:03:35,297] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Chris Distefano: Speshy Weshy (2022) (TMDb: 970083)   |
+[2022-09-29 22:03:35,310] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Mystery of Marilyn Monroe: The Unheard Tapes (2022) (TMDb: 953300) |
+[2022-09-29 22:03:35,323] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | David Spade: Nothing Personal (2022) (TMDb: 953138)   |
+[2022-09-29 22:03:35,339] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Oprah + Viola: A Netflix Special Event (2022) (TMDb: 959985) |
+[2022-09-29 22:03:35,352] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | White Hot: The Rise & Fall of Abercrombie & Fitch (2022) (TMDb: 953371) |
+[2022-09-29 22:03:35,803] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Metal Lords (2022) (TMDb: 739993)                     |
+[2022-09-29 22:03:35,818] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Return to Space (2022) (TMDb: 950445)                 |
+[2022-09-29 22:03:35,864] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Mike Epps: Indiana Mike (2022) (TMDb: 945455)         |
+[2022-09-29 22:03:35,881] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Bubble (2022) (TMDb: 765119)                      |
+[2022-09-29 22:03:35,931] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Jeff Foxworthy: The Good Old Days (2022) (TMDb: 945457) |
+[2022-09-29 22:03:35,948] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Windfall (2022) (TMDb: 850018)                        |
+[2022-09-29 22:03:36,418] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Rescued by Ruby (2022) (TMDb: 921655)                 |
+[2022-09-29 22:03:36,456] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Catherine Cohen: The Twist...? She's Gorgeous (2022) (TMDb: 940336) |
+[2022-09-29 22:03:36,473] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Taylor Tomlinson: Look at You (2022) (TMDb: 937348)   |
+[2022-09-29 22:03:36,514] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Weekend Away (2022) (TMDb: 840882)                |
+[2022-09-29 22:03:36,529] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Adam Project (2022) (TMDb: 696806)                |
+[2022-09-29 22:03:36,540] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Chappelle's Home Team - Earthquake: Legendary (2022) (TMDb: 943022) |
+[2022-09-29 22:03:36,588] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Tyler Perry's A Madea Homecoming (2022) (TMDb: 845404) |
+[2022-09-29 22:03:36,604] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Texas Chainsaw Massacre (2022) (TMDb: 632727)         |
+[2022-09-29 22:03:36,646] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Fistful of Vengeance (2022) (TMDb: 890656)            |
+[2022-09-29 22:03:36,663] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | AI Love You (2022) (TMDb: 928769)                     |
+[2022-09-29 22:03:36,673] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Ali Wong: Don Wong (2022) (TMDb: 933738)              |
+[2022-09-29 22:03:36,713] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The In Between (2022) (TMDb: 818750)                  |
+[2022-09-29 22:03:36,856] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Tall Girl 2 (2022) (TMDb: 772272)                     |
+[2022-09-29 22:03:36,931] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Ms. Pat: Y'all Wanna Hear Something Crazy? (2022) (TMDb: 927968) |
+[2022-09-29 22:03:37,393] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Home Team (2022) (TMDb: 817648)                       |
+[2022-09-29 22:03:37,431] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Aziz Ansari: Nightclub Comedian (2022) (TMDb: 926179) |
+[2022-09-29 22:03:37,446] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Descendant (2022) (TMDb: 913822)                      |
+[2022-09-29 22:03:37,481] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Downfall: The Case Against Boeing (2022) (TMDb: 913862) |
+[2022-09-29 22:03:37,494] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Royal Treatment (2022) (TMDb: 790142)             |
+[2022-09-29 22:03:37,522] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Martha Mitchell Effect (2022) (TMDb: 914268)      |
+[2022-09-29 22:03:37,535] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Shattered (2022) (TMDb: 844398)                       |
+[2022-09-29 22:03:37,564] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Brazen (2022) (TMDb: 916740)                          |
+[2022-09-29 22:03:37,576] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Blippi The Musical (2022) (TMDb: 941066)              |
+[2022-09-29 22:03:37,589] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | American Siege (2022) (TMDb: 766907)                  |
+[2022-09-29 22:03:37,613] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Death to 2021 (2021) (TMDb: 911068)                   |
+[2022-09-29 22:03:37,627] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Jim Gaffigan: Comedy Monster (2021) (TMDb: 903303)    |
+[2022-09-29 22:03:37,639] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Witcher Bestiary Season 2 (2022) (TMDb: 1017425)  |
+[2022-09-29 22:03:38,116] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Mother/Android (2021) (TMDb: 739413)                  |
+[2022-09-29 22:03:38,165] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | A California Christmas: City Lights (2021) (TMDb: 882096) |
+[2022-09-29 22:03:38,189] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | 137 Shots (2021) (TMDb: 913179)                       |
+[2022-09-29 22:03:38,214] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Puff: Wonders of the Reef (2021) (TMDb: 890601)       |
+[2022-09-29 22:03:38,243] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Nicole Byer: BBW (Big Beautiful Weirdo) (2021) (TMDb: 900743) |
+[2022-09-29 22:03:38,260] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Don't Look Up (2021) (TMDb: 646380)                   |
+[2022-09-29 22:03:38,288] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Mixtape (2021) (TMDb: 32471)                          |
+[2022-09-29 22:03:38,305] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | David and the Elves (2021) (TMDb: 882093)             |
+[2022-09-29 22:03:38,322] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Single All the Way (2021) (TMDb: 810873)              |
+[2022-09-29 22:03:38,339] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Mo Amer: Mohammed in Texas (2021) (TMDb: 900742)      |
+[2022-09-29 22:03:38,356] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | 14 Peaks: Nothing Is Impossible (2021) (TMDb: 890825) |
+[2022-09-29 22:03:38,397] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | A Castle for Christmas (2021) (TMDb: 758879)          |
+[2022-09-29 22:03:38,838] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Unforgivable (2021) (TMDb: 645886)                |
+[2022-09-29 22:03:38,864] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Waffles + Mochi's Holiday Feast (2021) (TMDb: 901885) |
+[2022-09-29 22:03:38,881] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Jonas Brothers Family Roast (2021) (TMDb: 894155)     |
+[2022-09-29 22:03:38,897] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Princess Switch 3: Romancing the Star (2021) (TMDb: 785533) |
+[2022-09-29 22:03:38,948] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Michael Che: Shame the Devil (2021) (TMDb: 898269)    |
+[2022-09-29 22:03:39,489] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | tick, tick... BOOM! (2021) (TMDb: 537116)             |
+[2022-09-29 22:03:39,506] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Dangerous (2021) (TMDb: 763788)                       |
+[2022-09-29 22:03:40,068] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Operation Mincemeat (2022) (TMDb: 661231)             |
+[2022-09-29 22:03:40,106] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | One Shot (2021) (TMDb: 811592)                        |
+[2022-09-29 22:03:40,609] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Love Hard (2021) (TMDb: 734265)                       |
+[2022-09-29 22:03:40,744] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Red Notice (2021) (TMDb: 512195)                      |
+[2022-09-29 22:03:40,782] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Montford: The Chickasaw Rancher (2021) (TMDb: 471342) |
+[2022-09-29 22:03:40,924] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Army of Thieves (2021) (TMDb: 796499)                 |
+[2022-09-29 22:03:41,640] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Hypnotic (2021) (TMDb: 864873)                        |
+[2022-09-29 22:03:41,655] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Sex: Unzipped (2021) (TMDb: 890280)                   |
+[2022-09-29 22:03:41,696] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Theo Von: Regular People (2021) (TMDb: 886883)        |
+[2022-09-29 22:03:41,721] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Night Teeth (2021) (TMDb: 669671)                     |
+[2022-09-29 22:03:42,198] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Munich: The Edge of War (2022) (TMDb: 760336)         |
+[2022-09-29 22:03:42,213] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Found (2021) (TMDb: 819500)                           |
+[2022-09-29 22:03:42,255] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Convergence: Courage in a Crisis (2021) (TMDb: 872537) |
+[2022-09-29 22:03:42,271] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Aileen Wuornos: American Boogeywoman (2021) (TMDb: 806804) |
+[2022-09-29 22:03:42,797] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Harder They Fall (2021) (TMDb: 618162)            |
+[2022-09-29 22:03:42,821] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Dave Chappelle: The Closer (2021) (TMDb: 879540)      |
+[2022-09-29 22:03:42,839] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Diana: The Musical (2021) (TMDb: 732305)              |
+[2022-09-29 22:03:42,888] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Britney vs. Spears (2021) (TMDb: 797594)              |
+[2022-09-29 22:03:42,905] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Attack of the Hollywood Clichés! (2021) (TMDb: 877657) |
+[2022-09-29 22:03:42,955] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | There's Someone Inside Your House (2021) (TMDb: 512025) |
+[2022-09-29 22:03:43,410] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Intrusion (2021) (TMDb: 785752)                       |
+[2022-09-29 22:03:43,463] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | My Heroes Were Cowboys (2021) (TMDb: 866529)          |
+[2022-09-29 22:03:43,882] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Nightbooks (2021) (TMDb: 739990)                      |
+[2022-09-29 22:03:43,930] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Starling (2021) (TMDb: 468225)                    |
+[2022-09-29 22:03:44,454] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Guilty (2021) (TMDb: 567748)                      |
+[2022-09-29 22:03:44,472] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Copshop (2021) (TMDb: 738652)                         |
+[2022-09-29 22:03:44,522] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Blood Brothers: Malcolm X and Muhammad Ali (2021) (TMDb: 861604) |
+[2022-09-29 22:03:45,040] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Kate (2021) (TMDb: 597891)                            |
+[2022-09-29 22:03:45,056] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Untold: Breaking Point (2021) (TMDb: 862582)          |
+[2022-09-29 22:03:45,088] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Lead Me Home (2021) (TMDb: 869602)                    |
+[2022-09-29 22:03:45,104] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Procession (2021) (TMDb: 869623)                      |
+[2022-09-29 22:03:45,121] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Lost Daughter (2021) (TMDb: 554230)               |
+[2022-09-29 22:03:45,138] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Afterlife of the Party (2021) (TMDb: 785457)          |
+[2022-09-29 22:03:45,154] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Untold: Crime & Penalties (2021) (TMDb: 857732)       |
+[2022-09-29 22:03:45,167] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | He's All That (2021) (TMDb: 347626)                   |
+[2022-09-29 22:03:45,181] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Bob Ross: Happy Accidents, Betrayal & Greed (2021) (TMDb: 853354) |
+[2022-09-29 22:03:45,230] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The River Runner (2021) (TMDb: 858054)                |
+[2022-09-29 22:03:45,239] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Untold: Caitlyn Jenner (2021) (TMDb: 857731)          |
+[2022-09-29 22:03:45,752] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Sweet Girl (2021) (TMDb: 619297)                      |
+[2022-09-29 22:03:45,797] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Untold: Deal with the Devil (2021) (TMDb: 857729)     |
+[2022-09-29 22:03:45,814] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Kissing Booth 3 (2021) (TMDb: 727745)             |
+[2022-09-29 22:03:45,831] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Untold: Malice at the Palace (2021) (TMDb: 857497)    |
+[2022-09-29 22:03:45,872] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Aftermath (2021) (TMDb: 763149)                       |
+[2022-09-29 22:03:46,460] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Green Knight (2021) (TMDb: 559907)                |
+[2022-09-29 22:03:46,514] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Resort to Love (2021) (TMDb: 785539)                  |
+[2022-09-29 22:03:46,530] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Hostage House (2021) (TMDb: 814853)                   |
+[2022-09-29 22:03:46,572] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Blood Red Sky (2021) (TMDb: 760883)                   |
+[2022-09-29 22:03:46,589] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Out of Death (2021) (TMDb: 774714)                    |
+[2022-09-29 22:03:46,630] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Fear Street: 1666 (2021) (TMDb: 591275)               |
+[2022-09-29 22:03:46,781] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Gunpowder Milkshake (2021) (TMDb: 574060)             |
+[2022-09-29 22:03:46,814] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Fear Street: 1978 (2021) (TMDb: 591274)               |
+[2022-09-29 22:03:46,831] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Till Death (2021) (TMDb: 672741)                      |
+[2022-09-29 22:03:46,864] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Escape Room: Tournament of Champions (2021) (TMDb: 585216) |
+[2022-09-29 22:03:46,877] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Fear Street: 1994 (2021) (TMDb: 591273)               |
+[2022-09-29 22:03:47,393] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Ice Road (2021) (TMDb: 646207)                    |
+[2022-09-29 22:03:47,422] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Good on Paper (2021) (TMDb: 823461)                   |
+[2022-09-29 22:03:47,434] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Fatherhood (2021) (TMDb: 607259)                      |
+[2022-09-29 22:03:47,447] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Pray Away (2021) (TMDb: 685264)                       |
+[2022-09-29 22:03:47,472] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Skater Girl (2021) (TMDb: 785522)                     |
+[2022-09-29 22:03:47,489] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Sisters on Track (2021) (TMDb: 816518)                |
+[2022-09-29 22:03:47,522] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Trese After Dark (2021) (TMDb: 839144)                |
+[2022-09-29 22:03:47,534] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Awake (2021) (TMDb: 615658)                           |
+[2022-09-29 22:03:47,548] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Breaking Boundaries: The Science of Our Planet (2021) (TMDb: 828146) |
+[2022-09-29 22:03:47,565] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | 7th & Union (2021) (TMDb: 845887)                     |
+[2022-09-29 22:03:47,581] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Bo Burnham: Inside (2021) (TMDb: 823754)              |
+[2022-09-29 22:03:47,598] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Blue Miracle (2021) (TMDb: 671295)                    |
+[2022-09-29 22:03:48,083] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Woman in the Window (2021) (TMDb: 520663)         |
+[2022-09-29 22:03:48,221] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Army of the Dead (2021) (TMDb: 503736)                |
+[2022-09-29 22:03:48,238] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | In Our Mothers' Gardens (2021) (TMDb: 826832)         |
+[2022-09-29 22:03:48,271] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Trees of Peace (2021) (TMDb: 763073)                  |
+[2022-09-29 22:03:48,287] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Audible (2021) (TMDb: 820492)                         |
+[2022-09-29 22:03:48,304] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Things Heard & Seen (2021) (TMDb: 631060)             |
+[2022-09-29 22:03:48,815] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Stowaway (2021) (TMDb: 559581)                        |
+[2022-09-29 22:03:48,864] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Chadwick Boseman: Portrait of an Artist (2021) (TMDb: 818119) |
+[2022-09-29 22:03:49,417] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Vanquish (2021) (TMDb: 804435)                        |
+[2022-09-29 22:03:49,934] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Thunder Force (2021) (TMDb: 615678)                   |
+[2022-09-29 22:03:49,989] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Why Did You Kill Me? (2021) (TMDb: 810731)            |
+[2022-09-29 22:03:50,006] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Dolly Parton: A MusiCares Tribute (2021) (TMDb: 809208) |
+[2022-09-29 22:03:50,469] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Bad Trip (2020) (TMDb: 578908)                        |
+[2022-09-29 22:03:50,498] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | A Week Away (2021) (TMDb: 699102)                     |
+[2022-09-29 22:03:50,531] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Seaspiracy (2021) (TMDb: 801058)                      |
+[2022-09-29 22:03:50,543] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Nate Bargatze: The Greatest Average American (2021) (TMDb: 799573) |
+[2022-09-29 22:03:50,572] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Deadly Illusions (2021) (TMDb: 802443)                |
+[2022-09-29 22:03:50,585] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Operation Varsity Blues: The College Admissions Scandal (2021) (TMDb: 799555) |
+[2022-09-29 22:03:50,743] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Yes Day (2021) (TMDb: 638597)                         |
+[2022-09-29 22:03:50,772] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Moxie (2021) (TMDb: 583689)                           |
+[2022-09-29 22:03:50,789] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Biggie: I Got a Story to Tell (2021) (TMDb: 797309)   |
+[2022-09-29 22:03:50,806] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Injustice System (2021) (TMDb: 800590)                |
+[2022-09-29 22:03:50,823] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Whole World is Watching: Inside Aaron Sorkin's Trial of the Chicago 7 (TMDb: 832211) |
+[2022-09-29 22:03:50,839] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | My Brother Jesus (2021) (TMDb: 814065)                |
+[2022-09-29 22:03:50,856] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Brian Regan: On the Rocks (2021) (TMDb: 794095)       |
+[2022-09-29 22:03:50,873] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Animals on the Loose: A You vs. Wild Interactive Movie (2021) (TMDb: 786357) |
+[2022-09-29 22:03:51,350] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Mauritanian (2021) (TMDb: 644583)                 |
+[2022-09-29 22:03:51,365] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Dave Chappelle: Redemption Song (2021) (TMDb: 796181) |
+[2022-09-29 22:03:51,398] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | To All the Boys: Always and Forever (2021) (TMDb: 614409) |
+[2022-09-29 22:03:51,414] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Strip Down, Rise Up (2021) (TMDb: 778870)             |
+[2022-09-29 22:03:51,439] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Passing (2021) (TMDb: 541524)                         |
+[2022-09-29 22:03:51,464] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Malcolm & Marie (2021) (TMDb: 722913)                 |
+[2022-09-29 22:03:51,497] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Rita Moreno: Just a Girl Who Decided to Go for It (2021) (TMDb: 776526) |
+[2022-09-29 22:03:51,515] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Finding ʻOhana (2021) (TMDb: 644092)                  |
+[2022-09-29 22:03:51,531] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Accomplice (2021) (TMDb: 751267)                      |
+[2022-09-29 22:03:52,618] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Little Things (2021) (TMDb: 602269)               |
+[2022-09-29 22:03:53,110] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The White Tiger (2021) (TMDb: 628534)                 |
+[2022-09-29 22:03:53,112] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | What Would Sophia Loren Do? (2021) (TMDb: 779201)     |
+[2022-09-29 22:03:53,585] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Outside the Wire (2021) (TMDb: 775996)                |
+[2022-09-29 22:03:53,642] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Crack: Cocaine, Corruption & Conspiracy (2021) (TMDb: 776142) |
+[2022-09-29 22:03:53,669] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Creating The Queen's Gambit (2021) (TMDb: 784047)     |
+[2022-09-29 22:03:53,714] [builder.py:2243]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Minimalists: Less Is Now (2021) (TMDb: 774054)    |
+[2022-09-29 22:03:53,715] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-09-29 22:03:53,715] [builder.py:2249]           [INFO]     | 274 Movies Missing                                                                                 |
+[2022-09-29 22:03:53,823] [builder.py:2274]           [INFO]     |                                                                                                    |
+[2022-09-29 22:03:53,824] [builder.py:2275]           [INFO]     |===================== Missing Shows from Library: Netflix Originals 2021-2025 ======================|
+[2022-09-29 22:03:53,824] [builder.py:2276]           [INFO]     |                                                                                                    |
+[2022-09-29 22:03:54,607] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Three-Body Problem (TVDb: 411959)                     |
+[2022-09-29 22:03:55,399] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Recruit (TVDb: 425260)                            |
+[2022-09-29 22:03:56,049] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Florida Man (TVDb: 408709)                            |
+[2022-09-29 22:03:56,682] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Painkiller (TVDb: 403756)                             |
+[2022-09-29 22:03:57,565] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Witcher: Blood Origin (TVDb: 399987)              |
+[2022-09-29 22:03:58,227] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Blockbuster (TVDb: 414551)                            |
+[2022-09-29 22:03:59,019] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Wednesday (TVDb: 397060)                              |
+[2022-09-29 22:03:59,702] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Guillermo Del Toro's Cabinet of Curiosities (TVDb: 409559) |
+[2022-09-29 22:04:00,346] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | 28 Days Haunted (TVDb: 425144)                        |
+[2022-09-29 22:04:01,089] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | From Scratch (2022) (TVDb: 400691)                    |
+[2022-09-29 22:04:01,780] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Watcher (2022) (TVDb: 404833)                     |
+[2022-09-29 22:04:02,391] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Conversations With a Killer: The Jeffrey Dahmer Tapes (TVDb: 424072) |
+[2022-09-29 22:04:03,100] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Mole (2022) (TVDb: 423581)                        |
+[2022-09-29 22:04:03,780] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Midnight Club (TVDb: 381909)                      |
+[2022-09-29 22:04:04,434] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Eat the Rich: The GameStop Saga (TVDb: 424271)        |
+[2022-09-29 22:04:04,482] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | 1899 (TVDb: 384429)                                   |
+[2022-09-29 22:04:04,532] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Imperfects (TVDb: 401169)                         |
+[2022-09-29 22:04:05,171] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Chef's Table: Pizza (TVDb: 423812)                    |
+[2022-09-29 22:04:05,863] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Buy My House (TVDb: 423634)                           |
+[2022-09-29 22:04:05,881] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Devil in Ohio (TVDb: 410037)                          |
+[2022-09-29 22:04:06,547] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Fakes (TVDb: 421142)                                  |
+[2022-09-29 22:04:07,207] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Drive Hard: The Maloof Way (TVDb: 422998)             |
+[2022-09-29 22:04:08,038] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Partner Track (TVDb: 409985)                          |
+[2022-09-29 22:04:08,757] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Selling the OC (TVDb: 412874)                         |
+[2022-09-29 22:04:09,514] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Mo (2022) (TVDb: 419701)                              |
+[2022-09-29 22:04:10,178] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Chad & JT Go Deep (TVDb: 422277)                      |
+[2022-09-29 22:04:10,882] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Echoes (TVDb: 405793)                                 |
+[2022-09-29 22:04:11,629] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Instant Dream Home (TVDb: 422473)                     |
+[2022-09-29 22:04:12,380] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | I Just Killed My Dad (TVDb: 422516)                   |
+[2022-09-29 22:04:13,028] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Trainwreck: Woodstock '99 (TVDb: 422600)              |
+[2022-09-29 22:04:13,731] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Uncoupled (TVDb: 402799)                              |
+[2022-09-29 22:04:14,392] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Keep Breathing (TVDb: 396607)                         |
+[2022-09-29 22:04:15,068] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Street Food: USA (TVDb: 422295)                       |
+[2022-09-29 22:04:15,732] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | D.B. Cooper: Where Are You?! (TVDb: 421328)           |
+[2022-09-29 22:04:16,365] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | How to Change Your Mind (TVDb: 421364)                |
+[2022-09-29 22:04:17,047] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | How To Build a Sex Room (TVDb: 421198)                |
+[2022-09-29 22:04:17,682] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Boo, Bitch (TVDb: 396374)                             |
+[2022-09-29 22:04:18,350] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Pirate Gold of Adak Island (TVDb: 420602)             |
+[2022-09-29 22:04:18,965] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Future Of (TVDb: 420597)                          |
+[2022-09-29 22:04:19,783] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Web of Make Believe: Death, Lies and the Internet (TVDb: 420589) |
+[2022-09-29 22:04:20,391] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Iron Chef: Quest for an Iron Legend (TVDb: 419718)    |
+[2022-09-29 22:04:21,087] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | God's Favorite Idiot (TVDb: 392708)                   |
+[2022-09-29 22:04:21,795] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | First Kill (TVDb: 390191)                             |
+[2022-09-29 22:04:22,455] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Keep Sweet: Pray and Obey (TVDb: 420590)              |
+[2022-09-29 22:04:23,114] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | That’s My Time with David Letterman (TVDb: 420608)    |
+[2022-09-29 22:04:23,806] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The G Word with Adam Conover (TVDb: 392358)           |
+[2022-09-29 22:04:23,831] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Love on the Spectrum U.S. (TVDb: 419263)              |
+[2022-09-29 22:04:24,538] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Lincoln Lawyer (TVDb: 399909)                     |
+[2022-09-29 22:04:25,276] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Pentaverate (TVDb: 404510)                        |
+[2022-09-29 22:04:25,934] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Meltdown: Three Mile Island (TVDb: 419168)            |
+[2022-09-29 22:04:26,553] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Bullsh*t the Gameshow (TVDb: 418333)                  |
+[2022-09-29 22:04:27,209] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Bling Ring: Hollywood Heist (TVDb: 419422)            |
+[2022-09-29 22:04:27,843] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Conversations with a Killer: The John Wayne Gacy Tapes (TVDb: 418354) |
+[2022-09-29 22:04:28,523] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Anatomy of a Scandal (TVDb: 415490)                   |
+[2022-09-29 22:04:28,556] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Our Great National Parks (TVDb: 417835)               |
+[2022-09-29 22:04:29,202] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Jimmy Savile: A British Horror Story (TVDb: 418105)   |
+[2022-09-29 22:04:30,066] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Ultimatum: Marry or Move On (TVDb: 417446)        |
+[2022-09-29 22:04:30,709] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Principles of Pleasure (TVDb: 417103)             |
+[2022-09-29 22:04:31,357] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Is It Cake? (TVDb: 417112)                            |
+[2022-09-29 22:04:31,975] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Dale Gas (TVDb: 416931)                               |
+[2022-09-29 22:04:32,635] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Bad Vegan: Fame. Fraud. Fugitives. (TVDb: 410441)     |
+[2022-09-29 22:04:33,304] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Life After Death with Tyler Henry (TVDb: 416282)      |
+[2022-09-29 22:04:33,947] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Andy Warhol Diaries (TVDb: 416928)                |
+[2022-09-29 22:04:34,965] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Pieces of Her (TVDb: 384186)                          |
+[2022-09-29 22:04:35,635] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Making Fun (TVDb: 416348)                             |
+[2022-09-29 22:04:36,259] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Worst Roommate Ever (TVDb: 415503)                    |
+[2022-09-29 22:04:36,923] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Race: Bubba Wallace (TVDb: 414951)                    |
+[2022-09-29 22:04:37,652] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | From (TVDb: 401003)                                   |
+[2022-09-29 22:04:38,369] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Inventing Anna (TVDb: 371944)                         |
+[2022-09-29 22:04:39,080] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Murderville (TVDb: 414643)                            |
+[2022-09-29 22:04:39,834] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Getting Curious with Jonathan Van Ness (TVDb: 413948) |
+[2022-09-29 22:04:40,553] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Woman in the House Across the Street from the Girl in the Window (TVDb: 390537) |
+[2022-09-29 22:04:41,244] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | In From the Cold (TVDb: 378093)                       |
+[2022-09-29 22:04:41,871] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Neymar: O Caos Perfeito (TVDb: 413429)                |
+[2022-09-29 22:04:42,553] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Jeen-Yuhs: A Kanye Trilogy (TVDb: 410579)             |
+[2022-09-29 22:04:43,238] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Archive 81 (TVDb: 390936)                             |
+[2022-09-29 22:04:43,890] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Hype House (TVDb: 401581)                             |
+[2022-09-29 22:04:44,552] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Selling Tampa (TVDb: 412745)                          |
+[2022-09-29 22:04:45,264] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Tiger King: The Doc Antle Story (TVDb: 413120)        |
+[2022-09-29 22:04:45,936] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Twentysomethings: Austin (TVDb: 410504)               |
+[2022-09-29 22:04:46,594] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Coming Out Colton (TVDb: 412714)                      |
+[2022-09-29 22:04:47,270] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | School of Chocolate (TVDb: 411863)                    |
+[2022-09-29 22:04:47,937] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | True Story (2021) (TVDb: 410102)                      |
+[2022-09-29 22:04:48,676] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Cowboy Bebop (2021) (TVDb: 367234)                    |
+[2022-09-29 22:04:49,317] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | VOIR (TVDb: 411363)                                   |
+[2022-09-29 22:04:50,020] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Animal (2021) (TVDb: 411350)                          |
+[2022-09-29 22:04:50,697] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Swap Shop (TVDb: 411861)                              |
+[2022-09-29 22:04:51,399] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Catching Killers (2021) (TVDb: 411637)                |
+[2022-09-29 22:04:52,079] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Pretty Smart (TVDb: 406256)                           |
+[2022-09-29 22:04:52,818] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | One of Us Is Lying (TVDb: 380210)                     |
+[2022-09-29 22:04:53,452] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Bad Sport (TVDb: 410042)                              |
+[2022-09-29 22:04:54,121] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Baking Impossible (TVDb: 409742)                      |
+[2022-09-29 22:04:54,782] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Colonia Dignidad: Una secta alemana en Chile (TVDb: 410898) |
+[2022-09-29 22:04:55,456] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Scaredy Cats (TVDb: 410730)                           |
+[2022-09-29 22:04:56,211] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Maid (TVDb: 382936)                                   |
+[2022-09-29 22:04:56,827] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Jailbirds: New Orleans (TVDb: 409191)                 |
+[2022-09-29 22:04:57,556] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | That Girl Lay Lay (TVDb: 405326)                      |
+[2022-09-29 22:04:58,227] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Monsters Inside: The 24 Faces of Billy Milligan (TVDb: 409076) |
+[2022-09-29 22:04:58,912] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Colin in Black and White (TVDb: 396895)               |
+[2022-09-29 22:04:59,552] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Metal Shop Masters (TVDb: 408568)                     |
+[2022-09-29 22:05:00,278] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Countdown: Inspiration4 Mission to Space (TVDb: 408128) |
+[2022-09-29 22:05:01,097] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Turning Point: 9/11 and the War on Terror (TVDb: 408892) |
+[2022-09-29 22:05:01,736] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | How to Be a Cowboy (TVDb: 408093)                     |
+[2022-09-29 22:05:02,424] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | On the Verge (2021) (TVDb: 407512)                    |
+[2022-09-29 22:05:03,085] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Sparking Joy (TVDb: 407296)                           |
+[2022-09-29 22:05:03,740] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Titletown High (TVDb: 407475)                         |
+[2022-09-29 22:05:04,390] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Motel Makeover (TVDb: 407474)                         |
+[2022-09-29 22:05:05,067] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Clickbait (TVDb: 377026)                              |
+[2022-09-29 22:05:05,712] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Chair (2021) (TVDb: 377509)                       |
+[2022-09-29 22:05:06,369] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Brand New Cherry Flavor (TVDb: 372316)                |
+[2022-09-29 22:05:07,049] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Bake Squad (TVDb: 407030)                             |
+[2022-09-29 22:05:07,735] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Hit & Run (TVDb: 384184)                              |
+[2022-09-29 22:05:08,392] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Cocaine Cowboys: The Kings of Miami (TVDb: 406562)    |
+[2022-09-29 22:05:09,058] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Cooking With Paris (TVDb: 406314)                     |
+[2022-09-29 22:05:09,731] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Myth & Mogul: John DeLorean (TVDb: 405520)            |
+[2022-09-29 22:05:10,347] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Tattoo Redo (TVDb: 405519)                            |
+[2022-09-29 22:05:11,256] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Heist (2021) (TVDb: 405017)                           |
+[2022-09-29 22:05:11,963] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | My Unorthodox Life (TVDb: 405515)                     |
+[2022-09-29 22:05:12,615] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | How to Become a Tyrant (TVDb: 404815)                 |
+[2022-09-29 22:05:13,281] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Cat People (TVDb: 404527)                             |
+[2022-09-29 22:05:13,966] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Sex/Life (TVDb: 368373)                               |
+[2022-09-29 22:05:14,654] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Naomi Osaka (TVDb: 403478)                            |
+[2022-09-29 22:05:15,431] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The World's Most Amazing Vacation Rentals (TVDb: 403166) |
+[2022-09-29 22:05:16,085] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Fresh, Fried & Crispy (TVDb: 402966)                  |
+[2022-09-29 22:05:16,853] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Sweet Tooth (TVDb: 355837)                            |
+[2022-09-29 22:05:17,513] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | High on the Hog: How African American Cuisine Transformed America (TVDb: 401511) |
+[2022-09-29 22:05:17,546] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Halston (TVDb: 377886)                                |
+[2022-09-29 22:05:18,251] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Upshaws (TVDb: 398813)                            |
+[2022-09-29 22:05:18,894] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Money, Explained (TVDb: 401387)                       |
+[2022-09-29 22:05:19,616] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Jupiter's Legacy (TVDb: 368388)                       |
+[2022-09-29 22:05:20,518] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Sons of Sam: A Descent into Darkness (TVDb: 400640) |
+[2022-09-29 22:05:21,243] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Shadow and Bone (TVDb: 369844)                        |
+[2022-09-29 22:05:21,902] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | My Love: Six Stories of True Love (TVDb: 398931)      |
+[2022-09-29 22:05:22,544] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | This is a Robbery: The World's Biggest Art Heist (TVDb: 398365) |
+[2022-09-29 22:05:23,204] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Worn Stories (TVDb: 397888)                           |
+[2022-09-29 22:05:23,222] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Country Comfort (TVDb: 382438)                        |
+[2022-09-29 22:05:23,911] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Waffles + Mochi (TVDb: 396636)                        |
+[2022-09-29 22:05:24,556] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Lost Pirate Kingdom (TVDb: 396840)                |
+[2022-09-29 22:05:25,247] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Last Chance U: Basketball (TVDb: 396991)              |
+[2022-09-29 22:05:25,935] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Murder Among the Mormons (TVDb: 396763)               |
+[2022-09-29 22:05:26,595] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Canine Intervention (TVDb: 395847)                    |
+[2022-09-29 22:05:27,293] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Ginny & Georgia (TVDb: 393625)                        |
+[2022-09-29 22:05:27,973] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Age of Samurai: Battle for Japan (TVDb: 366215)       |
+[2022-09-29 22:05:28,605] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Amend: The Fight for America (TVDb: 396212)           |
+[2022-09-29 22:05:29,413] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | The Crew (2021) (TVDb: 395174)                        |
+[2022-09-29 22:05:30,079] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Buried by the Bernards (TVDb: 395844)                 |
+[2022-09-29 22:05:30,724] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Crime Scene (2021) (TVDb: 395098)                     |
+[2022-09-29 22:05:31,425] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Firefly Lane (TVDb: 384248)                           |
+[2022-09-29 22:05:32,086] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | We Are: The Brooklyn Saints (TVDb: 393692)            |
+[2022-09-29 22:05:32,872] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Bling Empire (TVDb: 393680)                           |
+[2022-09-29 22:05:33,563] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Night Stalker: The Hunt for a Serial Killer (TVDb: 393452) |
+[2022-09-29 22:05:34,280] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Pretend It’s a City (TVDb: 394094)                    |
+[2022-09-29 22:05:34,931] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | Surviving Death (TVDb: 393690)                        |
+[2022-09-29 22:05:35,605] [builder.py:2288]           [INFO]     | Netflix Originals 2021-2025 Collection | ? | History of Swear Words (TVDb: 393099)                 |
+[2022-09-29 22:05:35,606] [builder.py:2293]           [INFO]     |                                                                                                    |
+[2022-09-29 22:05:35,606] [builder.py:2294]           [INFO]     | 154 Shows Missing                                                                                  |
+[2022-09-29 22:05:35,762] [plex_meta_manager.py:624]  [INFO]     |                                                                                                    |
+[2022-09-29 22:05:35,763] [plex_meta_manager.py:625]  [INFO]     | Collection Minimum: 5 not met for Netflix Originals 2021-2025 Collection                           |
+[2022-09-29 22:05:35,763] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-09-29 22:05:35,764] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-09-29 22:05:35,764] [plex_meta_manager.py:709]  [INFO]     |                          Finished Netflix Originals 2021-2025 Collection                           |
+[2022-09-29 22:05:35,765] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:02:36                                    |
+[2022-09-29 22:05:35,765] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

@@ -1,0 +1,189 @@
+[2022-10-01 13:49:23,993] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-01 13:49:23,993] [builder.py:197]            [INFO]     |                             Popular on IMDB Collection in Z. 1 - Films                             |
+[2022-10-01 13:49:23,994] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-01 13:49:23,994] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-01 13:49:23,994] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-01 13:49:23,994] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-01 13:49:23,994] [meta.py:128]               [DEBUG]    | Template Chart                                                                                     |
+[2022-10-01 13:49:23,994] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Chart'), ('num', 3)])                                                 |
+[2022-10-01 13:49:23,995] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-01 13:49:23,995] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Chart'), ('num', 3), ('collection_name', 'Popular on IMDB'), ('mapping_name', 'Popular on IMDB'), ('library_type', 'movie'), ('library_name', 'Z. 1 - Films'), ('name_encoded', 'Chart'), ('num_encoded', '3'), ('collection_name_encoded', 'Popular%20on%20IMDB'), ('mapping_name_encoded', 'Popular%20on%20IMDB'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%201%20-%20Films'), ('collection_sort', 'Popular on IMDB')]) |
+[2022-10-01 13:49:23,995] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-01 13:49:23,995] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-01 13:49:23,995] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-01 13:49:23,995] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-10-01 13:49:23,996] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-01 13:49:23,996] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+1_3Popular on IMDB', 'sync_mode': 'sync', 'smart_label': 'audience_rating.desc'} |
+[2022-10-01 13:49:23,996] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-01 13:49:23,996] [builder.py:219]            [INFO]     |============================== Validating Popular on IMDB Attributes ===============================|
+[2022-10-01 13:49:23,997] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-01 13:49:23,997] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-01 13:49:23,997] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-01 13:49:23,997] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-10-01 13:49:23,997] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-10-01 13:49:23,997] [builder.py:544]            [DEBUG]    | Value: audience_rating.desc                                                                        |
+[2022-10-01 13:49:24,010] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-01 13:49:24,010] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-01 13:49:24,011] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/TOP_POPULAR_IMDB.png          |
+[2022-10-01 13:49:24,169] [builder.py:828]            [WARNING]  | Collection Warning: No Poster Found at https://raw.githubusercontent.com/MonsieurZed/poster/main/img/TOP_POPULAR_IMDB.png |
+[2022-10-01 13:49:24,169] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-01 13:49:24,170] [builder.py:631]            [DEBUG]    | Validating Method: tmdb_popular                                                                    |
+[2022-10-01 13:49:24,170] [builder.py:632]            [DEBUG]    | Value: 50                                                                                          |
+[2022-10-01 13:49:24,170] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-01 13:49:24,170] [builder.py:631]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-10-01 13:49:24,170] [builder.py:632]            [DEBUG]    | Value: ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=tv_movie'), ('limit', 50)]) |
+[2022-10-01 13:49:25,284] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-01 13:49:25,284] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-10-01 13:49:25,284] [builder.py:632]            [DEBUG]    | Value: Popular Movies across the internet                                                          |
+[2022-10-01 13:49:25,285] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-01 13:49:25,285] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-01 13:49:25,285] [builder.py:632]            [DEBUG]    | Value: +1_3Popular on IMDB                                                                         |
+[2022-10-01 13:49:25,611] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-01 13:49:25,611] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-01 13:49:25,612] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-01 13:49:25,612] [plex_meta_manager.py:563]  [INFO]     |================================ Running Popular on IMDB Collection ================================|
+[2022-10-01 13:49:25,612] [plex_meta_manager.py:569]  [INFO]     |                                                                                                    |
+[2022-10-01 13:49:25,612] [plex_meta_manager.py:570]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: audience_rating.desc
+                                                                 | Filter:
+                                                                 |   Match all of the following:
+                                                                 |     Label is Popular on IMDB
+[2022-10-01 13:49:25,613] [plex_meta_manager.py:575]  [INFO]     | 
+[2022-10-01 13:49:25,613] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync
+[2022-10-01 13:49:25,613] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-01 13:49:25,613] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_popular: 50
+[2022-10-01 13:49:25,613] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-01 13:49:26,241] [tmdb.py:344]               [INFO]     | Processing TMDb Popular: 50 Movies
+[2022-10-01 13:49:26,241] [builder.py:1540]           [DEBUG]    | 
+[2022-10-01 13:49:26,241] [builder.py:1541]           [DEBUG]    | 50 IDs Found: [(760161, 'tmdb'), (985939, 'tmdb'), (718930, 'tmdb'), (532639, 'tmdb'), (760741, 'tmdb'), (744276, 'tmdb'), (629176, 'tmdb'), (616037, 'tmdb'), (579974, 'tmdb'), (766507, 'tmdb'), (539681, 'tmdb'), (610150, 'tmdb'), (921360, 'tmdb'), (438148, 'tmdb'), (810693, 'tmdb'), (960700, 'tmdb'), (507086, 'tmdb'), (781099, 'tmdb'), (843633, 'tmdb'), (19995, 'tmdb'), (772450, 'tmdb'), (773867, 'tmdb'), (361743, 'tmdb'), (756999, 'tmdb'), (773975, 'tmdb'), (634649, 'tmdb'), (675353, 'tmdb'), (453395, 'tmdb'), (76600, 'tmdb'), (952374, 'tmdb'), (1015602, 'tmdb'), (838197, 'tmdb'), (936897, 'tmdb'), (585511, 'tmdb'), (999205, 'tmdb'), (762504, 'tmdb'), (804413, 'tmdb'), (635302, 'tmdb'), (924482, 'tmdb'), (927341, 'tmdb'), (576925, 'tmdb'), (911129, 'tmdb'), (508947, 'tmdb'), (718789, 'tmdb'), (829560, 'tmdb'), (1006851, 'tmdb'), (951368, 'tmdb'), (836225, 'tmdb'), (1010818, 'tmdb'), (429473, 'tmdb')]
+[2022-10-01 13:49:26,241] [builder.py:1542]           [DEBUG]    | 
+[2022-10-01 13:49:26,244] [plex_meta_manager.py:579]  [DEBUG]    | 
+[2022-10-01 13:49:26,244] [plex_meta_manager.py:580]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?title_type=tv_movie', 'limit': 50}
+[2022-10-01 13:49:26,244] [plex_meta_manager.py:581]  [INFO]     | 
+[2022-10-01 13:49:26,244] [imdb.py:184]               [INFO]     | Processing IMDb List: 50 Items at https://www.imdb.com/search/title/?title_type=tv_movie
+[2022-10-01 13:49:30,046] [imdb.py:135]               [DEBUG]    | 50 IMDb IDs Found: ['tt0090163', 'tt21663074', 'tt21617068', 'tt0102658', 'tt21435716', 'tt0173886', 'tt2130271', 'tt3440298', 'tt15486810', 'tt0475293', 'tt1447981', 'tt21922002', 'tt0123865', 'tt6253522', 'tt8022928', 'tt0128996', 'tt0079103', 'tt5165398', 'tt6878820', 'tt16578868', 'tt6897772', 'tt16030222', 'tt21653744', 'tt0250934', 'tt14124268', 'tt4262142', 'tt1772373', 'tt0067023', 'tt0077687', 'tt21616920', 'tt0068622', 'tt1570970', 'tt21298322', 'tt2287663', 'tt0073820', 'tt20049600', 'tt18306248', 'tt0108049', 'tt19951082', 'tt2724064', 'tt21292672', 'tt16368004', 'tt13649036', 'tt4823992', 'tt0113196', 'tt5117876', 'tt21617152', 'tt14637290', 'tt0146402', 'tt0414078']
+[2022-10-01 13:49:30,046] [builder.py:1540]           [DEBUG]    | 
+[2022-10-01 13:49:30,047] [builder.py:1541]           [DEBUG]    | 50 IDs Found: [('tt0090163', 'imdb'), ('tt21663074', 'imdb'), ('tt21617068', 'imdb'), ('tt0102658', 'imdb'), ('tt21435716', 'imdb'), ('tt0173886', 'imdb'), ('tt2130271', 'imdb'), ('tt3440298', 'imdb'), ('tt15486810', 'imdb'), ('tt0475293', 'imdb'), ('tt1447981', 'imdb'), ('tt21922002', 'imdb'), ('tt0123865', 'imdb'), ('tt6253522', 'imdb'), ('tt8022928', 'imdb'), ('tt0128996', 'imdb'), ('tt0079103', 'imdb'), ('tt5165398', 'imdb'), ('tt6878820', 'imdb'), ('tt16578868', 'imdb'), ('tt6897772', 'imdb'), ('tt16030222', 'imdb'), ('tt21653744', 'imdb'), ('tt0250934', 'imdb'), ('tt14124268', 'imdb'), ('tt4262142', 'imdb'), ('tt1772373', 'imdb'), ('tt0067023', 'imdb'), ('tt0077687', 'imdb'), ('tt21616920', 'imdb'), ('tt0068622', 'imdb'), ('tt1570970', 'imdb'), ('tt21298322', 'imdb'), ('tt2287663', 'imdb'), ('tt0073820', 'imdb'), ('tt20049600', 'imdb'), ('tt18306248', 'imdb'), ('tt0108049', 'imdb'), ('tt19951082', 'imdb'), ('tt2724064', 'imdb'), ('tt21292672', 'imdb'), ('tt16368004', 'imdb'), ('tt13649036', 'imdb'), ('tt4823992', 'imdb'), ('tt0113196', 'imdb'), ('tt5117876', 'imdb'), ('tt21617152', 'imdb'), ('tt14637290', 'imdb'), ('tt0146402', 'imdb'), ('tt0414078', 'imdb')]
+[2022-10-01 13:49:30,047] [builder.py:1542]           [DEBUG]    | 
+[2022-10-01 13:49:30,266] [builder.py:1598]           [WARNING]  | Convert Error: No TMDb ID Found for IMDb ID: tt5165398
+[2022-10-01 13:49:30,303] [builder.py:2064]           [INFO]     | 
+[2022-10-01 13:49:30,304] [builder.py:2065]           [INFO]     |=============================== Adding to Popular on IMDB Collection ===============================|
+[2022-10-01 13:49:30,304] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-01 13:49:30,521] [builder.py:2080]           [INFO]     |  1/30 | Popular on IMDB Collection | = | Esther 2 : Les Origines (2022)                            |
+[2022-10-01 13:49:30,522] [builder.py:2080]           [INFO]     |  2/30 | Popular on IMDB Collection | = | Fall (2022)                                               |
+[2022-10-01 13:49:30,522] [builder.py:2080]           [INFO]     |  3/30 | Popular on IMDB Collection | = | Bullet Train (2022)                                       |
+[2022-10-01 13:49:30,522] [builder.py:2080]           [INFO]     |  4/30 | Popular on IMDB Collection | = | Pinocchio (2022)                                          |
+[2022-10-01 13:49:30,523] [builder.py:2080]           [INFO]     |  5/30 | Popular on IMDB Collection | = | Le Samaritain (2022)                                      |
+[2022-10-01 13:49:30,523] [builder.py:2080]           [INFO]     |  6/30 | Popular on IMDB Collection | = | Thor : Love and Thunder (2022)                            |
+[2022-10-01 13:49:30,523] [builder.py:2080]           [INFO]     |  7/30 | Popular on IMDB Collection | = | Prey (2022)                                               |
+[2022-10-01 13:49:30,524] [builder.py:2080]           [INFO]     |  8/30 | Popular on IMDB Collection | = | Fullmetal Alchemist : La vengeance de Scar (2022)         |
+[2022-10-01 13:49:30,524] [builder.py:2080]           [INFO]     |  9/30 | Popular on IMDB Collection | = | Jurassic World : Le Monde d’après (2022)                  |
+[2022-10-01 13:49:30,524] [builder.py:2080]           [INFO]     | 10/30 | Popular on IMDB Collection | = | Inexorable (2022)                                         |
+[2022-10-01 13:49:30,525] [builder.py:2080]           [INFO]     | 11/30 | Popular on IMDB Collection | = | Avatar (2009)                                             |
+[2022-10-01 13:49:30,525] [builder.py:2080]           [INFO]     | 12/30 | Popular on IMDB Collection | = | Seoul Vibe (2022)                                         |
+[2022-10-01 13:49:30,525] [builder.py:2080]           [INFO]     | 13/30 | Popular on IMDB Collection | = | Top Gun: Maverick (2022)                                  |
+[2022-10-01 13:49:30,525] [builder.py:2080]           [INFO]     | 14/30 | Popular on IMDB Collection | = | Black Phone (2022)                                        |
+[2022-10-01 13:49:30,526] [builder.py:2080]           [INFO]     | 15/30 | Popular on IMDB Collection | = | End of the Road (2022)                                    |
+[2022-10-01 13:49:30,526] [builder.py:2080]           [INFO]     | 16/30 | Popular on IMDB Collection | = | Spider-Man: No Way Home (2021)                            |
+[2022-10-01 13:49:30,526] [builder.py:2080]           [INFO]     | 17/30 | Popular on IMDB Collection | = | Sonic 2 (2022)                                            |
+[2022-10-01 13:49:30,527] [builder.py:2080]           [INFO]     | 18/30 | Popular on IMDB Collection | = | Doctor Strange in the Multiverse of Madness (2022)        |
+[2022-10-01 13:49:30,527] [builder.py:2080]           [INFO]     | 19/30 | Popular on IMDB Collection | = | The Aviary (2022)                                         |
+[2022-10-01 13:49:30,527] [builder.py:2080]           [INFO]     | 20/30 | Popular on IMDB Collection | = | Luck (2022)                                               |
+[2022-10-01 13:49:30,528] [builder.py:2080]           [INFO]     | 21/30 | Popular on IMDB Collection | = | Nope (2022)                                               |
+[2022-10-01 13:49:30,528] [builder.py:2080]           [INFO]     | 22/30 | Popular on IMDB Collection | = | The Ledge (2022)                                          |
+[2022-10-01 13:49:30,528] [builder.py:2080]           [INFO]     | 23/30 | Popular on IMDB Collection | = | 365 Jours : l'année d'après (2022)                        |
+[2022-10-01 13:49:30,528] [builder.py:2080]           [INFO]     | 24/30 | Popular on IMDB Collection | = | Office Invasion (2022)                                    |
+[2022-10-01 13:49:30,529] [builder.py:2080]           [INFO]     | 25/30 | Popular on IMDB Collection | = | Exorcism of God (2022)                                    |
+[2022-10-01 13:49:30,529] [builder.py:2080]           [INFO]     | 26/30 | Popular on IMDB Collection | = | Threads (1984)                                            |
+[2022-10-01 13:49:30,529] [builder.py:2080]           [INFO]     | 27/30 | Popular on IMDB Collection | = | Z-O-M-B-I-E-S (2018)                                      |
+[2022-10-01 13:49:30,530] [builder.py:2080]           [INFO]     | 28/30 | Popular on IMDB Collection | = | Ray Donovan (2022)                                        |
+[2022-10-01 13:49:30,530] [builder.py:2080]           [INFO]     | 29/30 | Popular on IMDB Collection | = | Duel (1971)                                               |
+[2022-10-01 13:49:30,530] [builder.py:2080]           [INFO]     | 30/30 | Popular on IMDB Collection | = | The Privilege (2022)                                      |
+[2022-10-01 13:49:30,530] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-01 13:49:30,530] [builder.py:2102]           [INFO]     | 30 Movies Processed 0 Movies Added                                                                 |
+[2022-10-01 13:49:30,531] [builder.py:2228]           [INFO]     |                                                                                                    |
+[2022-10-01 13:49:30,531] [builder.py:2229]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-10-01 13:49:30,531] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-10-01 13:49:30,545] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Beast (2022) (TMDb: 760741)                                       |
+[2022-10-01 13:49:30,574] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | After Ever Happy (2022) (TMDb: 744276)                            |
+[2022-10-01 13:49:30,623] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | RRR (2022) (TMDb: 579974)                                         |
+[2022-10-01 13:49:30,641] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | DC League of Super-Pets (2022) (TMDb: 539681)                     |
+[2022-10-01 13:49:30,676] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Dragon Ball Super: Super Hero (2022) (TMDb: 610150)               |
+[2022-10-01 13:49:30,715] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Wire Room (2022) (TMDb: 921360)                                   |
+[2022-10-01 13:49:30,767] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Minions: The Rise of Gru (2022) (TMDb: 438148)                    |
+[2022-10-01 13:49:30,790] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Jujutsu Kaisen 0 (2021) (TMDb: 810693)                            |
+[2022-10-01 13:49:30,842] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | White Elephant (2022) (TMDb: 843633)                              |
+[2022-10-01 13:49:30,865] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Presences (2022) (TMDb: 772450)                                   |
+[2022-10-01 13:49:30,874] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Avatar: The Way of Water (2022) (TMDb: 76600)                     |
+[2022-10-01 13:49:30,901] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Welcome to the Club (2022) (TMDb: 1015602)                        |
+[2022-10-01 13:49:30,959] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Watch Out, We're Mad (2022) (TMDb: 838197)                        |
+[2022-10-01 13:49:30,982] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Curious Caterer: Dying for Chocolate (2022) (TMDb: 936897)        |
+[2022-10-01 13:49:31,008] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Stowaway (2022) (TMDb: 999205)                                    |
+[2022-10-01 13:49:31,033] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | The Munsters (2022) (TMDb: 804413)                                |
+[2022-10-01 13:49:31,057] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train (2020) (TMDb: 635302) |
+[2022-10-01 13:49:31,110] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Hunting Ava Bravo (2022) (TMDb: 927341)                           |
+[2022-10-01 13:49:31,140] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | My Sweet Monster (2022) (TMDb: 576925)                            |
+[2022-10-01 13:49:31,166] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | No Limit (2022) (TMDb: 911129)                                    |
+[2022-10-01 13:49:31,191] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Turning Red (2022) (TMDb: 508947)                                 |
+[2022-10-01 13:49:31,207] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Lightyear (2022) (TMDb: 718789)                                   |
+[2022-10-01 13:49:31,224] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Your Boyfriend Is Mine (2022) (TMDb: 951368)                      |
+[2022-10-01 13:49:31,249] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Groot's First Steps (2022) (TMDb: 1010818)                        |
+[2022-10-01 13:49:31,274] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Lou (2022) (TMDb: 429473)                                         |
+[2022-10-01 13:49:31,341] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Girl in Room 13 (2022) (TMDb: 1012029)                            |
+[2022-10-01 13:49:31,366] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | The Secrets of Bella Vista (2022) (TMDb: 1006314)                 |
+[2022-10-01 13:49:31,390] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Perry Mason: The Case of the Fatal Fashion (1991) (TMDb: 226050)  |
+[2022-10-01 13:49:31,416] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Heathers: The Musical (2022) (TMDb: 941605)                       |
+[2022-10-01 13:49:31,441] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Halloweentown (1998) (TMDb: 27850)                                |
+[2022-10-01 13:49:31,466] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Mockingbird Lane (2012) (TMDb: 467629)                            |
+[2022-10-01 13:49:31,491] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Descendants (2015) (TMDb: 277217)                                 |
+[2022-10-01 13:49:31,516] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Teen Wolf: The Movie (TMDb: 877703)                               |
+[2022-10-01 13:49:31,535] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | High School Musical (2006) (TMDb: 10947)                          |
+[2022-10-01 13:49:31,548] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Monster High: The Movie (2022) (TMDb: 335795)                     |
+[2022-10-01 13:49:31,568] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Marry Go Round (2022) (TMDb: 1006305)                             |
+[2022-10-01 13:49:31,599] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Gia (1998) (TMDb: 14533)                                          |
+[2022-10-01 13:49:31,608] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | King Charles III (2017) (TMDb: 456187)                            |
+[2022-10-01 13:49:31,657] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Descendants 3 (2019) (TMDb: 506574)                               |
+[2022-10-01 13:49:31,677] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Cinderella (1997) (TMDb: 42884)                                   |
+[2022-10-01 13:49:31,716] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Elvis (1979) (TMDb: 40047)                                        |
+[2022-10-01 13:49:31,749] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Love's Portrait (2022) (TMDb: 1006307)                            |
+[2022-10-01 13:49:31,766] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | The Little Mermaid Live! (2019) (TMDb: 642271)                    |
+[2022-10-01 13:49:31,791] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | The Bad Seed Returns (2022) (TMDb: 897338)                        |
+[2022-10-01 13:49:31,832] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Romance In Style (2022) (TMDb: 994052)                            |
+[2022-10-01 13:49:31,874] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | 61* (2001) (TMDb: 20536)                                          |
+[2022-10-01 13:49:31,885] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Cleveland Abduction (2015) (TMDb: 336845)                         |
+[2022-10-01 13:49:31,927] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | The Craigslist Killer (2011) (TMDb: 55680)                        |
+[2022-10-01 13:49:31,952] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | The Hobbit (1977) (TMDb: 1362)                                    |
+[2022-10-01 13:49:31,994] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Fly Away With Me (2022) (TMDb: 1006306)                           |
+[2022-10-01 13:49:32,011] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Gargoyles (1972) (TMDb: 41025)                                    |
+[2022-10-01 13:49:32,052] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Student Services (2010) (TMDb: 65496)                             |
+[2022-10-01 13:49:32,069] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Big Sky River (2022) (TMDb: 999104)                               |
+[2022-10-01 13:49:32,119] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Blue Lagoon: The Awakening (2012) (TMDb: 115290)                  |
+[2022-10-01 13:49:32,136] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Trilogy of Terror (1975) (TMDb: 38783)                            |
+[2022-10-01 13:49:32,153] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | The Gabby Petito Story (2022) (TMDb: 1012661)                     |
+[2022-10-01 13:49:32,160] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | The Attraction Test (2022) (TMDb: 942578)                         |
+[2022-10-01 13:49:32,177] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Scattered Dreams (1993) (TMDb: 446624)                            |
+[2022-10-01 13:49:32,194] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Moriah's Lighthouse (2022) (TMDb: 970907)                         |
+[2022-10-01 13:49:32,211] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Sharknado (2013) (TMDb: 205321)                                   |
+[2022-10-01 13:49:32,228] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Marry Me in Yosemite (2022) (TMDb: 1006267)                       |
+[2022-10-01 13:49:32,251] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | The Presence of Love (2022) (TMDb: 933331)                        |
+[2022-10-01 13:49:32,267] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Help (2021) (TMDb: 826796)                                        |
+[2022-10-01 13:49:32,304] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | The Bad Seed (2018) (TMDb: 532814)                                |
+[2022-10-01 13:49:32,324] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | The Good Old Boys (1995) (TMDb: 277388)                           |
+[2022-10-01 13:49:32,332] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Descendants 2 (2017) (TMDb: 417320)                               |
+[2022-10-01 13:49:32,344] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | To Her, With Love (2022) (TMDb: 1006265)                          |
+[2022-10-01 13:49:32,361] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Addams Family Reunion (1998) (TMDb: 11508)                        |
+[2022-10-01 13:49:32,394] [builder.py:2243]           [INFO]     | Popular on IMDB Collection | ? | Halloweentown High (2004) (TMDb: 34560)                           |
+[2022-10-01 13:49:32,395] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-10-01 13:49:32,395] [builder.py:2249]           [INFO]     | 69 Movies Missing                                                                                  |
+[2022-10-01 13:49:32,435] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-01 13:49:32,436] [builder.py:2442]           [INFO]     |========================== Updating Details of Popular on IMDB Collection ==========================|
+[2022-10-01 13:49:32,436] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-01 13:49:32,436] [plex.py:711]               [DEBUG]    | Smart Collection Test: ?type=1&sort=audienceRating%3Adesc&label=213550                             |
+[2022-10-01 13:49:32,562] [builder.py:2446]           [INFO]     | Detail: Smart Filter updated to ?type=1&sort=audienceRating%3Adesc&label=213550                    |
+[2022-10-01 13:49:32,573] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+[2022-10-01 13:49:32,573] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Popular on IMDB'                                      |
+[2022-10-01 13:49:32,684] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-01 13:49:32,685] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-01 13:49:32,685] [plex_meta_manager.py:709]  [INFO]     |                                Finished Popular on IMDB Collection                                 |
+[2022-10-01 13:49:32,685] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:08                                    |
+[2022-10-01 13:49:32,685] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

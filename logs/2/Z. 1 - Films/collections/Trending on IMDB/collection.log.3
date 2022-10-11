@@ -1,0 +1,130 @@
+[2022-09-29 22:57:54,805] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-09-29 22:57:54,805] [builder.py:197]            [INFO]     |                            Trending on IMDB Collection in Z. 1 - Films                             |
+[2022-09-29 22:57:54,805] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-09-29 22:57:54,806] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-09-29 22:57:54,806] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-09-29 22:57:54,806] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-09-29 22:57:54,806] [meta.py:128]               [DEBUG]    | Template Chart                                                                                     |
+[2022-09-29 22:57:54,806] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Chart'), ('num', 2)])                                                 |
+[2022-09-29 22:57:54,806] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-09-29 22:57:54,807] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Chart'), ('num', 2), ('collection_name', 'Trending on IMDB'), ('mapping_name', 'Trending on IMDB'), ('library_type', 'movie'), ('library_name', 'Z. 1 - Films'), ('name_encoded', 'Chart'), ('num_encoded', '2'), ('collection_name_encoded', 'Trending%20on%20IMDB'), ('mapping_name_encoded', 'Trending%20on%20IMDB'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Z.%201%20-%20Films'), ('collection_sort', 'Trending on IMDB')]) |
+[2022-09-29 22:57:54,807] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-09-29 22:57:54,807] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-09-29 22:57:54,807] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-09-29 22:57:54,807] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-09-29 22:57:54,808] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-09-29 22:57:54,808] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'sort_title': '+1_2Trending on IMDB', 'sync_mode': 'sync', 'smart_label': 'random'} |
+[2022-09-29 22:57:54,808] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-09-29 22:57:54,808] [builder.py:219]            [INFO]     |============================== Validating Trending on IMDB Attributes ==============================|
+[2022-09-29 22:57:54,809] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-09-29 22:57:54,809] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-09-29 22:57:54,809] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-09-29 22:57:54,809] [builder.py:538]            [DEBUG]    |                                                                                                    |
+[2022-09-29 22:57:54,809] [builder.py:539]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-09-29 22:57:54,809] [builder.py:544]            [DEBUG]    | Value: random                                                                                      |
+[2022-09-29 22:57:54,815] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 22:57:54,816] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-09-29 22:57:54,816] [builder.py:632]            [DEBUG]    | Value: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/TOP_POPULAR_IMDB.png          |
+[2022-09-29 22:57:54,992] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 22:57:54,992] [builder.py:631]            [DEBUG]    | Validating Method: trakt_trending                                                                  |
+[2022-09-29 22:57:54,992] [builder.py:632]            [DEBUG]    | Value: 10                                                                                          |
+[2022-09-29 22:57:54,992] [builder.py:1432]           [WARNING]  | Collection Warning: trakt_trending will run as trakt_chart                                         |
+[2022-09-29 22:57:54,993] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 22:57:54,993] [builder.py:631]            [DEBUG]    | Validating Method: tmdb_trending_daily                                                             |
+[2022-09-29 22:57:54,993] [builder.py:632]            [DEBUG]    | Value: 20                                                                                          |
+[2022-09-29 22:57:54,993] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 22:57:54,993] [builder.py:631]            [DEBUG]    | Validating Method: tmdb_trending_weekly                                                            |
+[2022-09-29 22:57:54,993] [builder.py:632]            [DEBUG]    | Value: 20                                                                                          |
+[2022-09-29 22:57:54,993] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 22:57:54,994] [builder.py:631]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-09-29 22:57:54,994] [builder.py:632]            [DEBUG]    | Value: Movies Trending across the internet                                                         |
+[2022-09-29 22:57:54,994] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-09-29 22:57:54,994] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-09-29 22:57:54,994] [builder.py:632]            [DEBUG]    | Value: +1_2Trending on IMDB                                                                        |
+[2022-09-29 22:57:55,000] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-09-29 22:57:55,000] [plex.py:793]               [DEBUG]    | Looking for: Trending on IMDB                                                                      |
+[2022-09-29 22:57:55,000] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-09-29 22:57:55,000] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-09-29 22:57:55,001] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-09-29 22:57:55,001] [plex_meta_manager.py:563]  [INFO]     |=============================== Running Trending on IMDB Collection ================================|
+[2022-09-29 22:57:55,001] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-09-29 22:57:55,001] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-09-29 22:57:55,001] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-09-29 22:57:55,001] [plex_meta_manager.py:580]  [DEBUG]    | Builder: trakt_chart: {'chart': 'trending', 'limit': 10, 'time_period': None}                      |
+[2022-09-29 22:57:55,001] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-09-29 22:57:55,002] [trakt.py:495]              [INFO]     | Processing Trakt Chart: 10 Trending Movies                                                         |
+[2022-09-29 22:57:55,118] [builder.py:1540]           [DEBUG]    |                                                                                                    |
+[2022-09-29 22:57:55,118] [builder.py:1541]           [DEBUG]    | 10 IDs Found: [(718930, 'tmdb'), (301502, 'tmdb'), (361743, 'tmdb'), (842942, 'tmdb'), (520023, 'tmdb'), (507086, 'tmdb'), (762504, 'tmdb'), (614934, 'tmdb'), (19995, 'tmdb'), (616037, 'tmdb')] |
+[2022-09-29 22:57:55,118] [builder.py:1542]           [DEBUG]    |                                                                                                    |
+[2022-09-29 22:57:55,119] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-09-29 22:57:55,119] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_trending_daily: 20                                                                   |
+[2022-09-29 22:57:55,120] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-09-29 22:57:55,154] [tmdb.py:344]               [INFO]     | Processing TMDb Trending Daily: 20 Movies                                                          |
+[2022-09-29 22:57:55,154] [builder.py:1540]           [DEBUG]    |                                                                                                    |
+[2022-09-29 22:57:55,154] [builder.py:1541]           [DEBUG]    | 20 IDs Found: [(718930, 'tmdb'), (301502, 'tmdb'), (616037, 'tmdb'), (1029119, 'tmdb'), (429473, 'tmdb'), (744276, 'tmdb'), (852046, 'tmdb'), (916605, 'tmdb'), (985939, 'tmdb'), (361743, 'tmdb'), (791155, 'tmdb'), (960704, 'tmdb'), (804413, 'tmdb'), (1007401, 'tmdb'), (882598, 'tmdb'), (438148, 'tmdb'), (19995, 'tmdb'), (1005031, 'tmdb'), (520023, 'tmdb'), (842942, 'tmdb')] |
+[2022-09-29 22:57:55,154] [builder.py:1542]           [DEBUG]    |                                                                                                    |
+[2022-09-29 22:57:55,155] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-09-29 22:57:55,156] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_trending_weekly: 20                                                                  |
+[2022-09-29 22:57:55,156] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-09-29 22:57:55,180] [tmdb.py:344]               [INFO]     | Processing TMDb Trending Weekly: 20 Movies                                                         |
+[2022-09-29 22:57:55,181] [builder.py:1540]           [DEBUG]    |                                                                                                    |
+[2022-09-29 22:57:55,181] [builder.py:1541]           [DEBUG]    | 20 IDs Found: [(718930, 'tmdb'), (616037, 'tmdb'), (301502, 'tmdb'), (361743, 'tmdb'), (429473, 'tmdb'), (532639, 'tmdb'), (810693, 'tmdb'), (852046, 'tmdb'), (760741, 'tmdb'), (985939, 'tmdb'), (744276, 'tmdb'), (916605, 'tmdb'), (438148, 'tmdb'), (556694, 'tmdb'), (762968, 'tmdb'), (507086, 'tmdb'), (814800, 'tmdb'), (762504, 'tmdb'), (19995, 'tmdb'), (960704, 'tmdb')] |
+[2022-09-29 22:57:55,181] [builder.py:1542]           [DEBUG]    |                                                                                                    |
+[2022-09-29 22:57:55,182] [builder.py:2064]           [INFO]     |                                                                                                    |
+[2022-09-29 22:57:55,183] [builder.py:2065]           [INFO]     |============================== Adding to Trending on IMDB Collection ===============================|
+[2022-09-29 22:57:55,183] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-09-29 22:57:55,198] [builder.py:2080]           [INFO]     |  1/13 | Trending on IMDB Collection | + | Bullet Train (2022)                                      |
+[2022-09-29 22:57:55,256] [builder.py:2080]           [INFO]     |  2/13 | Trending on IMDB Collection | + | Blonde (2022)                                            |
+[2022-09-29 22:57:55,577] [builder.py:2080]           [INFO]     |  3/13 | Trending on IMDB Collection | + | Top Gun: Maverick (2022)                                 |
+[2022-09-29 22:57:55,643] [builder.py:2080]           [INFO]     |  4/13 | Trending on IMDB Collection | + | Jurassic World : Le Monde d’après (2022)                 |
+[2022-09-29 22:57:55,713] [builder.py:2080]           [INFO]     |  5/13 | Trending on IMDB Collection | + | Nope (2022)                                              |
+[2022-09-29 22:57:56,046] [builder.py:2080]           [INFO]     |  6/13 | Trending on IMDB Collection | + | Elvis (2022)                                             |
+[2022-09-29 22:57:56,391] [builder.py:2080]           [INFO]     |  7/13 | Trending on IMDB Collection | + | Avatar (2009)                                            |
+[2022-09-29 22:57:57,208] [builder.py:2080]           [INFO]     |  8/13 | Trending on IMDB Collection | + | Thor : Love and Thunder (2022)                           |
+[2022-09-29 22:57:57,263] [builder.py:2080]           [INFO]     |  9/13 | Trending on IMDB Collection | + | Athena (2022)                                            |
+[2022-09-29 22:57:57,466] [builder.py:2080]           [INFO]     | 10/13 | Trending on IMDB Collection | + | Fall (2022)                                              |
+[2022-09-29 22:57:57,660] [builder.py:2080]           [INFO]     | 11/13 | Trending on IMDB Collection | + | Pinocchio (2022)                                         |
+[2022-09-29 22:57:57,866] [builder.py:2080]           [INFO]     | 12/13 | Trending on IMDB Collection | + | Trois mille ans à t'attendre (2022)                      |
+[2022-09-29 22:57:57,907] [builder.py:2080]           [INFO]     | 13/13 | Trending on IMDB Collection | + | Goodnight Mommy (2022)                                   |
+[2022-09-29 22:57:58,232] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-09-29 22:57:58,232] [builder.py:2102]           [INFO]     | 13 Movies Processed 13 Movies Added                                                                |
+[2022-09-29 22:57:58,232] [builder.py:2228]           [INFO]     |                                                                                                    |
+[2022-09-29 22:57:58,233] [builder.py:2229]           [INFO]     |============================ Missing Movies from Library: Z. 1 - Films =============================|
+[2022-09-29 22:57:58,233] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-09-29 22:57:58,252] [builder.py:2243]           [INFO]     | Trending on IMDB Collection | ? | Bandit (2022) (TMDb: 842942)                                     |
+[2022-09-29 22:57:58,278] [builder.py:2243]           [INFO]     | Trending on IMDB Collection | ? | Bodies Bodies Bodies (2022) (TMDb: 520023)                       |
+[2022-09-29 22:57:58,303] [builder.py:2243]           [INFO]     | Trending on IMDB Collection | ? | Minions & More Volume 1 (2022) (TMDb: 1029119)                   |
+[2022-09-29 22:57:58,317] [builder.py:2243]           [INFO]     | Trending on IMDB Collection | ? | Lou (2022) (TMDb: 429473)                                        |
+[2022-09-29 22:57:58,376] [builder.py:2243]           [INFO]     | Trending on IMDB Collection | ? | After Ever Happy (2022) (TMDb: 744276)                           |
+[2022-09-29 22:57:58,388] [builder.py:2243]           [INFO]     | Trending on IMDB Collection | ? | The Infernal Machine (2022) (TMDb: 916605)                       |
+[2022-09-29 22:57:58,815] [builder.py:2243]           [INFO]     | Trending on IMDB Collection | ? | Secret Headquarters (2022) (TMDb: 791155)                        |
+[2022-09-29 22:57:58,946] [builder.py:2243]           [INFO]     | Trending on IMDB Collection | ? | Fullmetal Alchemist: The Final Alchemy (2022) (TMDb: 960704)     |
+[2022-09-29 22:57:58,960] [builder.py:2243]           [INFO]     | Trending on IMDB Collection | ? | The Munsters (2022) (TMDb: 804413)                               |
+[2022-09-29 22:57:59,097] [builder.py:2243]           [INFO]     | Trending on IMDB Collection | ? | Mortal Kombat Legends: Snow Blind (2022) (TMDb: 1007401)         |
+[2022-09-29 22:57:59,118] [builder.py:2243]           [INFO]     | Trending on IMDB Collection | ? | Smile (2022) (TMDb: 882598)                                      |
+[2022-09-29 22:57:59,134] [builder.py:2243]           [INFO]     | Trending on IMDB Collection | ? | Minions: The Rise of Gru (2022) (TMDb: 438148)                   |
+[2022-09-29 22:57:59,167] [builder.py:2243]           [INFO]     | Trending on IMDB Collection | ? | A Trip to Infinity (2022) (TMDb: 1005031)                        |
+[2022-09-29 22:57:59,176] [builder.py:2243]           [INFO]     | Trending on IMDB Collection | ? | Jujutsu Kaisen 0 (2021) (TMDb: 810693)                           |
+[2022-09-29 22:57:59,189] [builder.py:2243]           [INFO]     | Trending on IMDB Collection | ? | Beast (2022) (TMDb: 760741)                                      |
+[2022-09-29 22:57:59,231] [builder.py:2243]           [INFO]     | Trending on IMDB Collection | ? | Do Revenge (2022) (TMDb: 762968)                                 |
+[2022-09-29 22:57:59,231] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-09-29 22:57:59,232] [builder.py:2249]           [INFO]     | 16 Movies Missing                                                                                  |
+[2022-09-29 22:57:59,262] [plex.py:711]               [DEBUG]    | Smart Collection Test: ?type=1&sort=random&label=213548                                            |
+[2022-09-29 22:57:59,386] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-09-29 22:57:59,386] [builder.py:2442]           [INFO]     |========================= Updating Details of Trending on IMDB Collection ==========================|
+[2022-09-29 22:57:59,387] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-09-29 22:57:59,631] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | Movies Trending across the internet
+                                                                 | Sort Title | +1_2Trending on IMDB
+                                                                 | Label | +PMM
+[2022-09-29 22:57:59,834] [builder.py:2513]           [INFO]     | Details: have been updated
+[2022-09-29 22:57:59,834] [builder.py:2517]           [INFO]     | 
+[2022-09-29 22:57:59,834] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Trending on IMDB'
+[2022-09-29 22:57:59,835] [util.py:150]               [DEBUG]    | 1 poster found:
+[2022-09-29 22:57:59,835] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/TOP_POPULAR_IMDB.png
+[2022-09-29 22:57:59,950] [library.py:170]            [INFO]     | Detail: url_poster updated poster to [URL] https://raw.githubusercontent.com/MonsieurZed/poster/main/img/TOP_POPULAR_IMDB.png
+[2022-09-29 22:58:00,040] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-09-29 22:58:00,040] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-09-29 22:58:00,040] [plex_meta_manager.py:709]  [INFO]     |                                Finished Trending on IMDB Collection                                |
+[2022-09-29 22:58:00,041] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:05                                    |
+[2022-09-29 22:58:00,041] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
