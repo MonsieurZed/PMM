@@ -1,0 +1,40 @@
+templates:
+  my_template:
+    optional:
+      - my_collection_poster
+    tmdb_collection_details: <<value>>
+    collection_order: release
+    url_poster: <<my_collection_poster>>
+    collection_mode: hide_items
+  Genre:
+    sort_title: +20_<<collection_name>>
+    sync_mode: sync
+
+dynamic_collections:
+  TMDb Collections:          # This name is the mapping name
+    type: tmdb_collection
+    remove_suffix: 
+      - Collection
+      - "- Saga"
+    remove_prefix: The
+    template: my_template
+    template_variables:
+      my_collection_poster:
+        119: https://www.themoviedb.org/t/p/original/oENY593nKRVL2PnxXsMtlh8izb4.jpg
+        125570 : https://images.theposterdb.com/prod/public/images/posters/optimized/collections/5069/RIzoKxBGKQ2JGCGVFdzKymfmwkFzegv9hnDBbWSH.webp #300
+
+collection:
+  Marvel Cinematic Universe:
+    template: { name: Genre}
+    trakt_list:
+      - https://trakt.tv/users/donxy/lists/marvel-cinematic-universe?sort=rank,asc
+    summary: MCU
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/COLLEC_MCU.png
+
+  DC Extended Universe:
+    template: { name: Genre}
+    trakt_list:
+      - https://trakt.tv/users/donxy/lists/dc-extended-universe?sort=rank,asc
+    summary: MCU
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/COLLEC_DCU.png
+

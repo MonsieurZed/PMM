@@ -1,0 +1,65 @@
+templates:
+  Studio:
+    plex_search:
+      studio: <<studio>>
+    url_poster: <<poster>>
+    sort_title: +12_<<collection_name>>
+    collection_order: alpha
+
+collections:
+ 
+  Aardman:
+    template: {name: Studio, studio: Aardman}
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/STUDIO_AARDMAN.png
+    summary: Aardman Animations, Ltd. is a British animation studio based in Bristol, England. Aardman is known for films made using stop-motion clay animation techniques, particularly those featuring Plasticine characters Wallace and Gromit.
+  
+  Studio Ghibli:
+    template: {name: Studio, studio: "Studio Ghibli"}
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/STUDIO_GHIBLI.png
+    summary: Studio Ghibli Inc. is a Japanese animation film studio headquartered in Koganei, Tokyo. The studio is best known for its animated feature films, and has also produced several short films, television commercials, and one television film. The studio’s mascot and most recognizable symbol is the character, Totoro, a giant cat-like spirit from the 1988 classic, My Neighbor Totoro.
+ 
+  DC Extended Universe:
+    template: {name: Studio, studio: "DC Extended Universe"}
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/STUDIO_DCU.png
+    summary: The DC Extended Universe (DCEU) is a series of superhero films, distributed by Warner Bros. Pictures and based on characters that appear in American comic books by DC Comics. The shared universe, much like the original DC Universe in comic books and the television programs, was established by crossing over common plot elements, settings, cast, and characters. 
+  
+  Marvel Cinematic Universe:
+    template: {name: Studio, studio: "Marvel Enterprise, Marvel Entertainment, Marvel Studios"}
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/STUDIO_MCU.png
+    summary: The Marvel Cinematic Universe (MCU) is an American media franchise and shared universe centered on a series of superhero films, independently produced by Marvel Studios and based on characters that appear in American comic books published by Marvel Comics. The franchise includes comic books, short films, television series, and digital series. The shared universe, much like the original Marvel Universe in comic books, was established by crossing over common plot elements, settings, cast, and characters. The first MCU film is Iron Man (2008), which began the films of Phase One culminating in the crossover film The Avengers (2012). Phase Two began with Iron Man 3 (2013) and concluded with Ant-Man (2015). Phase Three began with Captain America - Civil War (2016) and concluded with Spider-Man - Far From Home (2019). The first three phases in the franchise are collectively known as "The Infinity Saga". The films of Phase Four will begin with Black Widow (2021) and are set to conclude with Guardians of the Galaxy Vol. 3 (2023).
+ 
+  Blue Sky Animation:
+    template: {name: Studio, studio: "Blue Sky Animation"}
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/STUDIO_BSA.png
+    summary: Blue Sky Studios, Inc. is an American computer animation film studio based in Greenwich, Connecticut. It is a subsidiary of 20th Century Animation, a division of Disney Studios Content.
+  
+  DreamWorks:
+    template: {name: Studio, studio: "DreamWorks Animation, DreamWorks Pictures"}
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/STUDIO_DW.png
+    summary: DreamWorks Animation LLC (also simply known as DreamWorks) is an American animation studio and a subsidiary of Universal Pictures, itself a subsidiary of Comcast's NBCUniversal. It is based in Glendale, California, and produces animated feature films, television programs, and online virtual games.
+  
+  Illumination Entertainment:
+    template: {name: Studio, studio: "Illumination Entertainment"}
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/STUDIO_IE.png
+    summary: Illumination is an American film and animation studio founded by Chris Meledandri in 2007 and owned by Universal Pictures, a division of NBCUniversal, which is itself a division of Comcast. Meledandri produces the films, while Universal finances and distributes all the films. The studio is responsible for the Despicable Me and The Secret Life of Pets franchises and the film adaptations of Dr. Seuss’ books The Lorax and How the Grinch Stole Christmas. The Minions, characters from the Despicable Me series, are the studio's mascots.
+  
+  Pixar:
+    template: {name: Studio, studio: Pixar}
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/STUDIO_PIXAR.png
+    summary: Pixar Animation Studios, commonly known as Pixar, is an American computer animation studio based in Emeryville, California, a subsidiary of Disney Studios Content owned by The Walt Disney Company. Pixar began in 1979 as part of the Lucasfilm computer division, known as the Graphics Group, before its spin-off as a corporation on February 3, 1986, with funding from Apple co-founder Steve Jobs, who became its majority shareholder. Disney purchased Pixar in 2006 at a valuation of $7.4 billion by converting each share of Pixar stock to 2.3 shares of Disney stock, a transaction that resulted in Jobs becoming Disney's largest single shareholder at the time. Pixar is best known for its feature films technologically powered by RenderMan, the company's own implementation of the industry-standard RenderMan Interface Specification image-rendering application programming interface. Luxo Jr., a desk lamp from the studio's 1986 short film of the same name, is the studio's mascot.
+  
+  Sony Pictures Animation:
+    template: {name: Studio, studio: "Sony Pictures, Sony Pictures Television"}
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/STUDIO_SPA.png
+    summary: Sony Pictures Animation Inc. is an American animation studio owned by Sony Entertainment's Sony Pictures Entertainment through their Motion Picture Group division and founded on May 9, 2002. The studio's films are distributed worldwide by Sony Pictures Releasing under their Columbia Pictures label, while all direct-to-video releases are released by Sony Pictures Home Entertainment.
+  
+  Walt Disney Animation Studios:
+    template: {name: Studio, studio: "Walt Disney Animation Studios, Walt Disney Pictures"}
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/STUDIO_DISNEY.png
+    summary: Walt Disney Animation Studios (WDAS), sometimes shortened to Disney Animation, is an American animation studio that creates animated features and short films for The Walt Disney Company. Founded on October 16, 1923 by brothers Walt Disney and Roy O. Disney, it is one of the oldest-running animation studios in the world. It is currently organized as a division of Walt Disney Studios and is headquartered at the Roy E. Disney Animation Building at the Walt Disney Studios lot in Burbank, California.
+  
+  Warner Bros.:
+    template: {name: Studio, studio: "Warner Animation Group, Warner Bros., Warner Bros. Animation, Warner Bros. Pictures, Warner Independent Pictures (WIP)"}
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/STUDIO_WARNER.png
+    summary: Warner Bros.is the third-oldest American movie studio in continuous operation, after Paramount Pictures was founded on May 8, 1912 as Famous Players Film Corporation, and Universal Studios founded on June 8, 1912. Warner Bros. incorporated on April 4, 1923.
+  

@@ -1,0 +1,56 @@
+templates:
+  Holiday:    
+    delete_not_scheduled: true
+    sort_title: +4_<<collection_name>>
+    run_again: true
+    visible_home: true
+    visible_shared: true
+    sync_mode: sync
+    smart_label: audience_rating.desc
+
+collections:
+  Halloween Movies:
+    schedule: range(10/01-10/31)
+    template: {name: Holiday, holiday: Halloween}
+    trakt_list:
+      - https://trakt.tv/users/kairbear08/lists/halloween
+      - https://trakt.tv/users/mybicycle/lists/halloween
+      - https://trakt.tv/users/jayinftl/lists/halloween
+      - https://trakt.tv/users/roswellgeek/lists/halloween
+    imdb_list:
+      - https://www.imdb.com/list/ls023118929/
+      - https://www.imdb.com/list/ls000099714/
+      - https://www.imdb.com/list/ls000058693/
+      - https://www.imdb.com/search/title/?genres=horror&keywords=haunted-house&sort=moviemeter,asc
+    tmdb_collection:
+      - 91361    # Halloween Collection
+      - 8581     # A Nightmare on Elm Street Collection
+      - 1733     # The Mummy Collection
+      - 8091     # Alien Collection
+    tmdb_movie:
+      - 23437    # A Nightmare on Elm Street (2010)
+    summary: Halloween film is a genre that revolves around the plot involving Halloween.
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/SPECIAL_HALLOWEEN.png
+      # 
+
+  Christmas Movies:
+    schedule: range(12/01-12/31)
+    template: {name: Holiday, holiday: Christmas}
+    trakt_list:
+      - https://trakt.tv/users/movistapp/lists/christmas-movies
+      - https://trakt.tv/users/2borno2b/lists/christmas-movies-extravanganza
+      - https://trakt.tv/users/pualani78/lists/christmas-2020
+      - https://trakt.tv/users/veninjak/lists/complete-christmas-2021-copy
+    imdb_list:
+      - https://www.imdb.com/list/ls025976544/
+      - https://www.imdb.com/list/ls003863000/
+      - https://www.imdb.com/list/ls027454200/
+      - https://www.imdb.com/list/ls027886673/
+      - https://www.imdb.com/list/ls097998599/
+      - https://www.imdb.com/list/ls000096828/
+      - https://www.imdb.com/list/ls097394442/
+      - https://www.imdb.com/list/ls068976997/
+      - https://www.imdb.com/list/ls027567380/
+    collection_order: release
+    summary: Christmas film is a genre that revolves around the plot involving Christmas.
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/SPECIAL_CHRISTMAS.png

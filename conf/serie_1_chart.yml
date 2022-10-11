@@ -1,0 +1,54 @@
+######################################################
+#                Chart Collections                   #
+######################################################
+templates:
+
+  Chart:
+    sort_title: +1_<<num>><<collection_name>>
+    sync_mode: sync
+    smart_label: random
+
+collections:
+
+  Top ZedFlix:
+    template: { name: Chart, num: 1 }
+    tautulli_popular:
+      list_days: 30
+      list_size: 20
+      list_buffer: 20
+    tautulli_watched:
+      list_days: 30
+      list_size: 20
+      list_buffer: 20
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/TOP_PLEX.png
+    collection_order: custom
+    summary: Shows Popular on ZedFlix
+
+  Trending:
+    template: { name: Chart, num: 2 }
+    trakt_trending: 30
+    tmdb_trending_daily: 30
+    tmdb_trending_weekly: 30
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries
+      limit: 40
+    summary: Shows Trending across the internet
+    collection_order: custom
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/TOP_TRENDING.png
+
+  Top Rated:
+    template: { name: Chart, num: 4 }
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&num_votes=20000,&sort=user_rating,desc
+      limit: 100
+    tmdb_top_rated: 100
+    collection_order: custom
+    summary: Top Rated Movies across the internet
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/TOP_ALL_TIME.png
+
+  Emmy Winners:
+    template: { name: Chart, num: 5 }
+    imdb_list: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&groups=emmy_winner
+    summary: Emmy Winning Shows
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/WIN_EMMY.png
+  

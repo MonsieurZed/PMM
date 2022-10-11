@@ -1,0 +1,67 @@
+templates:
+  Country:
+    sort_title: +5_<<collection_name>>
+    sync_mode: sync
+    smart_label: audience_rating.desc
+    plex_all: true
+    
+collections:
+ 
+  Japan:
+    template: { name: Country }
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/COUNTRY_JAPAN.png
+    filters:
+      country: Japan
+
+  Korea:
+    template: { name: Country }
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/COUNTRY_KOREA.png
+    filters:
+      country: "Republic of Korea"
+
+  China:
+    template: { name: Country }
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/COUNTRY_CHINA.png
+    filters:
+      country: 
+        - China
+        - "Hong Kong"
+        - "Taiwan, Province of China"
+
+  Australia:
+    template: { name: Country }
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/COUNTRY_AUSTRALIA.png
+    filters:
+      country: Australia
+
+  France:
+    template: { name: Country }
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/COUNTRY_FRANCE.png
+    filters:
+      country: France
+
+  Spain:
+    template: { name: Country }
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/COUNTRY_SPAIN.png
+    filters:
+      country: Spain
+
+  Italia:
+    template: { name: Country }
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/COUNTRY_ITALY.png
+    filters:
+      country: Italia
+
+  USA:
+    template: { name: Country }
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/COUNTRY_USA.png
+    filters:
+      country: "United States of America"
+  
+  UK:
+    template: { name: Country }
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/COUNTRY_UK.png
+    filters:
+      country: "United Kingdom"
+
+  

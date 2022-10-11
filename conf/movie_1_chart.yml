@@ -1,0 +1,80 @@
+templates:
+  Chart:
+    sort_title: +1_<<num>><<collection_name>>
+    sync_mode: sync
+
+collections:
+  Top ZedFlix:
+    template: { name: Chart, num: 1 }
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/TOP_PLEX.png
+    tautulli_popular:
+      list_days: 60
+      list_size: 30
+      list_buffer: 30
+    tautulli_watched:
+      list_days: 60
+      list_size: 30
+      list_buffer: 30
+    summary: Movies Popular on ZedFlix
+    smart_label: plays.asc
+
+  Trending:
+    template: { name: Chart, num: 2 }
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/TOP_TRENDING.png
+    trakt_trending: 30
+    tmdb_trending_daily: 30
+    tmdb_trending_weekly: 30
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=tv_movie
+      limit: 50
+    summary: Movies Trending across the internet
+  smart_label: random
+
+  Top All Time:
+    template: { name: Chart, num: 4 }
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/TOP_ALL_TIME.png
+    imdb_list: https://www.imdb.com/search/title/?groups=top_250&count=250/
+    tmdb_top_rated: 100
+    summary: Top Rated Movies across the internet
+    smart_label: audience_rating.desc
+
+  Oscars:
+    template: { name: Chart, num: 5 }
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/WIN_OSCAR.png
+    imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner
+    summary: Oscar Winning Movies
+    smart_label: audience_rating.desc
+
+  Palme d'or:
+    template: { name: Chart, num: 5 }
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/WIN_CANNE.png
+    summary: Selected Cannes Movies
+    smart_label: audience_rating.desc
+    trakt_list: 
+      - https://trakt.tv/users/pjcob/lists/2016-cannes
+      - https://trakt.tv/users/pjcob/lists/2017-cannes
+      - https://trakt.tv/users/pjcob/lists/2018-cannes
+      - https://trakt.tv/users/pjcob/lists/2019-cannes
+      - https://trakt.tv/users/pjcob/lists/2020-cannes
+      - https://trakt.tv/users/pjcob/lists/2021-cannes
+      - https://trakt.tv/users/pjcob/lists/2022-cannes
+  
+  Great Movies You May Have Never Heard Of:
+    template: { name: Chart }
+    visible_home: true
+    visible_shared: true
+    trakt_list:
+      - https://trakt.tv/users/_aenema/lists/great-movies-you-may-have-never-heard-of?sort=rank,asc
+    summary: Every year there are a huge number of movies that fly right under the radar of the average movie fan. movies that are great but just not that well known.There are plenty of movie gems out there and hopefully this list will help you find some.Feel free to submit new movies in the comments below. This list contains movies/documentaries and short films. The list was originally created on IMDb. http://goo.gl/gHles
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/CHART_RADAR.png
+
+  Reddit:
+    template: { name: Chart}
+    visible_home: true
+    visible_shared: true
+    trakt_list:
+      - https://trakt.tv/users/smatthew/lists/reddit
+    summary: This is a list based on movies found in the following subreddits  r/iwatchedanoldmovie r/flicks r/moviesclubr/MoviePosterPorn 
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/CHART_RADAR.png
+
+

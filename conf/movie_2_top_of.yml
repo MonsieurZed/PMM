@@ -1,0 +1,115 @@
+templates:
+  Chart:
+    sort_title: +2_<<num>>DECADE of <<year>>
+    sync_mode: sync
+    summary: Rotten Tomatoes DECADE Movies of <<year>>
+    smart_label: audience_rating.desc
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/DECADE_<<year>>.png
+
+collections:
+  Before the 1960s:
+    template: { name: Chart, num: 8, year: 1950 }
+    tmdb_discover:
+      primary_release_date.gte: 01/01/1950
+      primary_release_date.lte: 12/31/1959
+      with_original_language: fr
+      sort_by: popularity.desc
+      collection_mode: hide_items
+    imdb_list:
+        - https://www.imdb.com/list/ls026624670/
+        - https://www.imdb.com/list/ls000047756/
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/DECADE_1950.png
+    summary: Le meilleurs avant les années 1950
+
+  Top of 1960s:
+    template: { name: Chart, num: 7, year: 1960 }
+    tmdb_discover:
+      primary_release_date.gte: 01/01/1960
+      primary_release_date.lte: 12/31/1969
+      with_original_language: fr
+      sort_by: popularity.desc
+    imdb_list:
+      url: https://www.imdb.com/list/ls070213744/
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/DECADE_1960.png
+    summary: Le meilleurs des années 1960
+
+  Top of 1970s:
+    template: { name: Chart, num: 6, year: 1970 }
+    tmdb_discover:
+      primary_release_date.gte: 01/01/1970
+      primary_release_date.lte: 12/31/1979
+      with_original_language: fr
+      sort_by: popularity.desc
+      collection_mode: hide_items
+    imdb_list:
+        - https://www.imdb.com/list/ls076327759/
+        - https://www.imdb.com/list/ls070443315/
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/DECADE_1970.png
+    summary: Le meilleurs des années 1970
+
+  Top of 1980s:
+    template: { name: Chart, num: 5, year: 1980 }
+    tmdb_discover:
+      primary_release_date.gte: 01/01/1980
+      primary_release_date.lte: 12/31/1989
+      with_original_language: fr
+      sort_by: popularity.desc
+    imdb_list:
+        - https://www.imdb.com/list/ls042657342/
+        - https://www.imdb.com/list/ls000036468/
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/DECADE_1980.png
+    summary: Le meilleurs des années 1980
+
+  Top of 1990s:
+    template: { name: Chart, num: 4, year: 1990 }
+    tmdb_discover:
+      primary_release_date.gte: 01/01/1990
+      primary_release_date.lte: 12/31/1999
+      with_original_language: fr
+      sort_by: popularity.desc
+    imdb_list:
+        - https://www.imdb.com/list/ls076329002/
+        - https://www.imdb.com/list/ls000098513/
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/DECADE_1990.png
+    summary: Le meilleurs des années 1990
+
+  Top of 2000s:
+    template: { name: Chart, num: 3, year: 2000 }
+    tmdb_discover:
+      primary_release_date.gte: 01/01/2000
+      primary_release_date.lte: 12/31/2009
+      with_original_language: fr
+      sort_by: popularity.desc
+    imdb_list:
+        - https://www.imdb.com/list/ls000009131/
+        - https://www.imdb.com/list/ls000026367/
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/DECADE_2000.png
+    summary: Le meilleurs des années 2000
+
+  Top of 2010s:
+    template: { name: Chart, num: 2, year: 2010 }
+    tmdb_discover:
+      primary_release_date.gte: 01/01/2010
+      primary_release_date.lte: 12/31/2019
+      with_original_language: fr
+      sort_by: popularity.desc
+    imdb_list:
+        - https://www.imdb.com/list/ls046014362/
+        - https://www.imdb.com/list/ls028793685/
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/DECADE_2010.png
+    summary: Le meilleurs des années 2010
+
+  Top of 2020s:
+    template: { name: Chart, num: 1, year: 2020 }
+    tmdb_discover:
+      primary_release_date.gte: 01/01/2020
+      primary_release_date.lte: 12/31/2029
+      with_original_language: fr
+      sort_by: popularity.desc
+    imdb_list:
+        - https://www.imdb.com/list/ls093127242/
+        - https://www.imdb.com/list/ls096735829/
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/DECADE_2020.png
+    summary: Le meilleurs des années 2020
+
+  

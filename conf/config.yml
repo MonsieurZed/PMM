@@ -1,0 +1,104 @@
+## This file is a template remove the .template to use the file
+
+libraries: # Library mappings must have a colon (:) placed after them
+  Z. 1 - Films:
+    metadata_path:
+      - file: config/movie_1_chart.yml
+      - file: config/movie_2_top_of.yml
+      - file: config/movie_3_genre.yml
+      - file: config/movie_4_holiday.yml
+      - file: config/movie_5_origin.yml
+      - file: config/movie_20_dynamic.yml
+      - file: config/all_11_network.yml
+      - file: config/all_12_studio.yml
+    operations:
+      mass_audience_rating_update: imdb
+      mass_critic_rating_update: mdb_tomatoes
+      mass_user_rating_update: mdb
+    overlay_path:
+      - remove_overlays: false
+      - repo: /Awards-Ratings-Designations/movie-overlays
+
+  Z. 2 - Series:
+    metadata_path:
+      - file: config/serie_1_chart.yml
+      - file: config/all_11_network.yml
+      - file: config/all_12_studio.yml
+      - file: config/movie_20_dynamic.yml
+    operations:
+      mass_audience_rating_update: imdb
+      mass_critic_rating_update: mdb_tomatoes
+      mass_user_rating_update: mdb
+    overlay_path:
+      - remove_overlays: false
+      - repo: /Awards-Ratings-Designations/movie-overlays
+
+  Z. 5 - Film Animation:
+    metadata_path:
+      - file: config/movie_1_chart.yml
+      - file: config/movie_2_top_of.yml
+      - file: config/movie_3_genre.yml
+      - file: config/movie_4_holiday.yml
+      - file: config/movie_5_origin.yml
+      - file: config/movie_20_dynamic.yml
+      - file: config/all_11_network.yml
+      - file: config/all_12_studio.yml
+    operations:
+      mass_audience_rating_update: imdb
+      mass_critic_rating_update: mdb_tomatoes
+      mass_user_rating_update: mdb
+    overlay_path:
+      - remove_overlays: false
+      - repo: /Awards-Ratings-Designations/movie-overlays
+
+  Z. 6 - Series Animation:
+    metadata_path:
+      - file: config/serie_1_chart.yml
+      - file: config/all_11_network.yml
+      - file: config/all_12_studio.yml
+      - file: config/movie_20_dynamic.yml
+    operations:
+      mass_audience_rating_update: imdb
+      mass_critic_rating_update: mdb_tomatoes
+      mass_user_rating_update: mdb
+    overlay_path:
+      - remove_overlays: false
+      - repo: /Awards-Ratings-Designations/movie-overlays
+
+settings: # Can be individually specified per library as well
+  cache: true
+  cache_expiration: 60
+  asset_directory: config/assets
+  asset_folders: true
+  assets_for_all: false
+  sync_mode: append
+  show_unmanaged: true
+  show_filtered: false
+  show_missing: true
+  save_missing: true
+  run_again_delay: 2
+  missing_only_released: false
+  create_asset_folders: false
+  collection_minimum: 2
+  delete_below_minimum: false
+  tvdb_language: default
+  show_missing_assets: true
+  asset_depth: 0
+  prioritize_assets: false
+  dimensional_asset_rename: false
+  download_url_assets: false
+  show_missing_season_assets: false
+  show_missing_episode_assets: false
+  show_asset_not_needed: true
+  default_collection_order:
+  item_refresh_delay: 0
+  delete_not_scheduled: false
+  only_filter_missing: false
+  show_options: false
+  ignore_ids:
+  ignore_imdb_ids:
+  playlist_sync_to_users: all
+  playlist_report: true
+  verify_ssl: true
+  custom_repo: https://raw.githubusercontent.com/FrostyWolf/PlexMetaManager/master/Configs
+  check_nightly: false

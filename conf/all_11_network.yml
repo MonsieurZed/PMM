@@ -1,0 +1,102 @@
+templates:
+  Network:
+    sort_title: +11_<<collection_name>>
+    smart_label: originally_available.desc
+    sync_mode: sync
+
+collections: # CBS ABC
+  AMC:    
+    template: {name: Network}
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2000-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=1000&companies=co0815501
+    summary: All AMC Originals
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/NETWORK_AMC.png 
+
+  Apple:
+    template: {name: Network}
+    visible_home: true
+    visible_shared: true
+    imdb_list:
+      url:   https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2000-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=1000&companies=co0546168
+    summary: All Apple TV Originals
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/NETWORK_APPLE.png
+
+  Amazon:
+    template: {name: Network}
+    visible_home: true
+    visible_shared: true
+    imdb_list:
+      url:   https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2000-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=1000&companies=co0319272
+    summary: All Amazon Originals
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/NETWORK_AMAZON.png
+
+  Canal+:    
+    template: {name: Network}
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2000-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=1000&companies=co0047476
+    summary: All CANAL Originals
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/NETWORK_CANAL.png 
+
+  # FX: 
+  #   template: {name: Network}
+  #   imdb_list:
+  #     url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2000-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=1000&companies=co0777254
+  #   summary: All FX Originals
+  #   url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/NETWORK_FX.png  
+
+  AMC:    
+    template: {name: Network}
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2000-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=1000&companies=co0815501
+    summary: All AMC Originals
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/NETWORK_AMC.png 
+
+  HBO:
+    template: {name: Network}
+    visible_home: true
+    visible_shared: true
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2000-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=1000&companies=co0754095
+    summary: All HBO Max Originals
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/NETWORK_HBO.png  
+
+  HULU:
+    template: {name: Network}
+    visible_home: true
+    visible_shared: true
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2000-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=1000&companies=co0218858
+    summary: All HULU Originals
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/NETWORK_HULU.png 
+
+  Paramount:    
+    template: {name: Network}
+    visible_home: true
+    visible_shared: true
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2000-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=1000&companies=co0820547
+    summary: All Paramount Originals
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/NETWORK_PARAMOUT.png 
+
+  # Peacock:    
+  #   template: {name: Network}
+  #   imdb_list:
+  #     url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2000-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=1000&companies=co0764707
+  #   summary: All Peacock Originals
+  #   url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/NETWORK_PEACOCK.png 
+
+  Stan:    
+    template: {name: Network}
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2000-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=1000&companies=co0523322
+    summary: All Peacock Originals
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/NETWORK_STAN.png 
+
+  Syfy:    
+    template: {name: Network}
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,tv_series,tv_special,tv_miniseries,documentary,video,tv_short&release_date=2000-01-01,2025-12-31&genres=!animation&countries=us&languages=en&sort=release_date,desc&count=1000&companies=co0282285
+    summary: All Syfy Originals
+    url_poster: https://raw.githubusercontent.com/MonsieurZed/poster/main/img/NETWORK_SYFY.png 
+
+
